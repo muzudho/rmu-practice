@@ -9,3 +9,7 @@
 ![Unity Editor > External Tools](./img/202305__rpgmu__10-2258-ExternalTools-o2o0.png)  
 
 👆 Unity Editor の方でも設定する  
+
+![Unity Editor > Debug Mode](./img/202305__rpgmu__10-2306-DebugMode-o2o0.png)  
+
+👆 Unity Editor の右下に、デバッグ・モードに切り替えるボタンがあるので、デバッグ・モードを有効にする  
