@@ -21,3 +21,7 @@ Unity Asset Store で RPG Maker Unite を購入したあと、
 👆 `Package Manager` が出てくるので、 `RPG Maker Unite` を選択して `Download` ボタンをクリック。  
 
 ダウンロードが終わったら、 `Download` ボタンの横の `Import` ボタンをクリック  
+
+![Import Unity Package](./img/202305__rpgmu__11-2312--import-unity-package-o2o0.png)  
+
+👆 `Import Unity Package` が出てきたら、 `import` をクリック  
