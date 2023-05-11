@@ -1,14 +1,6 @@
 # Visual Studio の設定
 
-## Visual Studio Tools for Unity をインストールする
-
-Visual Studio Installer を開く  
-
-![Visual Studio Tools for Unity](./img/202305__rpgmu__10-2248--VSInstaller-o1o0.png)  
-
-参考 📖 [Unity での C# コードのデバッグ](https://docs.unity3d.com/ja/2020.3/Manual/ManagedCodeDebugging.html)  
-
-次は、 Unity Editor を開く  
+Unity Editor を開く  
 
 ![Unity Editor > Edit > Preferences](./img/202305__rpgmu__12-0030--edit-preferences-o1o0.png)  
 
@@ -25,6 +17,22 @@ Visual Studio Installer を開く
 ![Visual Studio 2022](./img/202305__rpgmu__12-0040--visual-studio-2022-o1o0.png)  
 
 👆 `Visual Studio 2019` がオススメされてくるが、 `Visual Studio 2022` を選ぶことも可能  
+
+足りないものがある場合、インストールが促されているので `インストール` をクリックする  
+
+## Visual Studio Tools for Unity をインストールする
+
+Visual Studio Installer が開く  
+
+![Install](./img/202305__rpgmu__12-0044--visual-studio-installer-o2o0.png)  
+
+👆 画面に沿って、インストールしていく  
+
+![Visual Studio Tools for Unity](./img/202305__rpgmu__10-2248--VSInstaller-o1o0.png)  
+
+👆 出てくるものは、（使い込んでいる人もいるので）人によって違う  
+
+参考 📖 [Unity での C# コードのデバッグ](https://docs.unity3d.com/ja/2020.3/Manual/ManagedCodeDebugging.html)  
 
 ## デバッガーの設定
 
