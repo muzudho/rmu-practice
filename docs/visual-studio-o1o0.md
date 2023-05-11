@@ -22,6 +22,10 @@ Visual Studio Installer を開く
 
 `Visual Studio Code` はまだインテリセンスなど機能が弱いと思う。 `Visual Studio` がいいと思う  
 
+![Visual Studio 2022](./img/202305__rpgmu__12-0040--visual-studio-2022-o1o0.png)  
+
+👆 `Visual Studio 2019` がオススメされてくるが、 `Visual Studio 2022` を選ぶことも可能  
+
 ## デバッガーの設定
 
 ![Unity Editor > Debug Mode](./img/202305__rpgmu__10-2306--DebugMode-o2o0.png)  
