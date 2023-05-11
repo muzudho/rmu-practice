@@ -25,3 +25,27 @@ Unity Asset Store で RPG Maker Unite を購入したあと、
 ![Import Unity Package](./img/202305__rpgmu__11-2312--import-unity-package-o2o0.png)  
 
 👆 `Import Unity Package` が出てきたら、 `import` をクリック  
+
+![Warning](./img/202305__rpgmu__11-2314--warning-o1o0.png)  
+
+```plaintext
+This project is using the new input system package but
+the native platform backends for the new input system
+are not enabled in the player settings. This means that
+no input from native devices will come through.
+
+Do you want to enable the backends? Doing so will
+*RESTART* the editor.
+```
+
+```plaintext
+このプロジェクトでは、新しい入力システムパッケージを使用していますが
+新しい入力システム用のネイティブプラットフォームのバックエンドは
+がプレーヤーの設定で有効になっていません。このため
+ネイティブデバイスからの入力はありません。
+
+バックエンドを有効にしますか？そうすることで
+*エディターを再起動します。
+```
+
+👆 この警告が出たら Yes をクリック。 Unity Editor の再起動が進む  
