@@ -55,3 +55,8 @@ Do you want to enable the backends? Doing so will
 ![Progress Bar](./img/202305__rpgmu__11-2331--progress-bar-o1o0.png)  
 
 👆 プログレスバーが出てきて 30分ぐらい待たされる（CPU:Ryzen Threadripper 2920X， GPU:GeForce RTX 4090X，Memory:16GB）  
+
+![Restart](./img/202305__rpgmu__11-2357--restart-o1o0.png)  
+
+👆 Unity Editor が突然消えてビックリするが、（30分も経つと再起動していたことを忘れる）Unity Editor が再起動される  
+
