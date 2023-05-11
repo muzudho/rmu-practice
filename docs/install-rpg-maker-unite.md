@@ -87,4 +87,12 @@ RPG Maker Unite が起動する前には、この「白いウィンドウが出�
 
 ![RPG Maker Unite Editor](./img/202305__rpgmu__12-0011--rpg-maker-unite-editor-o1o0.png)  
 
-👆 RPG Maker Unite のエディターが出てくるが、まだプログレスバーは出ていて、待たされる  
+👆 RPG Maker Unite のエディターが出てくるが、まだプログレスバーは出ていて、待たされる。  
+（まだ待ってほしい）  
+
+後ろに アウトライン の画面が出ているが、これはロードの途中にたまたま見えているだけで、  
+RPG Maker Unite のエディターの想定したファースト・ビューではないのかもしれない  
+
+![Launched](./img/202305__rpgmu__12-0013--launched-o1o0.png)  
+
+👆　このサンプル・ゲームのタイトル画面が出てきたら、ロード完了  
