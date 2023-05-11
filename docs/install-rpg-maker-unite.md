@@ -49,3 +49,9 @@ Do you want to enable the backends? Doing so will
 ```
 
 👆 この警告が出たら Yes をクリック。 Unity Editor の再起動が進む  
+
+このあと、  
+
+![Progress Bar](./img/202305__rpgmu__11-2331--progress-bar-o1o0.png)  
+
+👆 プログレスバーが出てきて 30分ぐらい待たされる（CPU:Ryzen Threadripper 2920X， GPU:GeForce RTX 4090X，Memory:16GB）  
