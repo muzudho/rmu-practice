@@ -60,3 +60,21 @@ Do you want to enable the backends? Doing so will
 
 👆 Unity Editor が突然消えてビックリするが、（30分も経つと再起動していたことを忘れる）Unity Editor が再起動される  
 
+![Warning 2](./img/202305__rpgmu__12-0000--warning2-o1o0.png)  
+
+```plaintext
+RPG Maker Unite needs to overwrite your project
+settings in order to work correctly. Are you sure you
+wish to proceed?
+```
+
+```plaintext
+RPG Maker Uniteを正しく動作させるためには、プロジェクトの設定を上書きする必要があります。
+本当にこのままでよいのでしょうか？
+```
+
+👆 `Overwrite` を選ぶ  
+
+![Restart 2](./img/202305__rpgmu__12-0006--restart2-o1o0.png)  
+
+👆 Unity Editor がまた、再起動する  
