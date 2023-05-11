@@ -16,7 +16,11 @@ Visual Studio Installer を開く
 
 ![Unity Editor > External Tools](./img/202305__rpgmu__10-2258--ExternalTools-o2o0.png)  
 
-👆 Unity Editor の方でも設定する  
+![Select Editor](./img/202305__rpgmu__12-0035--select-editor-o2o0.png)  
+
+👆 Unity Editor から開く C# スクリプト用のエディターを選択する  
+
+`Visual Studio Code` はまだインテリセンスなど機能が弱いと思う。 `Visual Studio` がいいと思う  
 
 ## デバッガーの設定
 
