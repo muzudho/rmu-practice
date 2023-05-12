@@ -1,4 +1,4 @@
-﻿namespace RPGMakerUnitePractice
+﻿namespace RMUPractice
 {
     static class Stopwatch2Example
     {

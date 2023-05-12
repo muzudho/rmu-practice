@@ -5,7 +5,7 @@
 ストップウォッチ（を改造したストップウォッチ２）を使う  
 
 C# コード:  
-📄 [Stopwatch2](../VisualStudioProjects/RPGMakerUnitePractice/RPGMakerUnitePractice/Stopwatch2.cs)  
+📄 [Stopwatch2](../VisualStudioProjects/RMUPractice/RMUPractice/Stopwatch2.cs)  
 
 使い方:  
-📄 [Stopwatch2使用例](../VisualStudioProjects/RPGMakerUnitePractice/RPGMakerUnitePractice/Stopwatch2Example.cs)  
+📄 [Stopwatch2使用例](../VisualStudioProjects/RMUPractice/RMUPractice/Stopwatch2Example.cs)  

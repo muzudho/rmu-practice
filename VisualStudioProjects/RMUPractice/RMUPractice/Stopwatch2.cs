@@ -1,4 +1,4 @@
-﻿namespace RPGMakerUnitePractice
+﻿namespace RMUPractice
 {
     /// <summary>
     /// ストップウォッチ２
