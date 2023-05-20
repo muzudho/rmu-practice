@@ -4,29 +4,29 @@ Unity の新しいプロジェクトを開けておく
 
 Unity Asset Store で RPG Maker Unite を購入したあと、  
 
-![Unity Account](./img/202305__rpgmu__11-2248--install-o2o0.png)  
+![Unity Account](./img/202305__rmu__11-2248--install-o2o0.png)  
 
 👆 Unity アカウントへログインし、右上の丸いアイコンをクリック  
 
-![My Assets](./img/202305__rpgmu__11-2256--my-assets-o2o0.png)
+![My Assets](./img/202305__rmu__11-2256--my-assets-o2o0.png)
 
 👆 メニューから `My Assets` をクリック  
 
-![Open in Unity](./img/202305__rpgmu__11-2259--open-in-unity-o2o0.png)  
+![Open in Unity](./img/202305__rmu__11-2259--open-in-unity-o2o0.png)  
 
 👆 `Open in Unity` ボタンをクリック  
 
-![Package Manager](./img/202305__rpgmu__11-2303--package-manager-o2o0.png)  
+![Package Manager](./img/202305__rmu__11-2303--package-manager-o2o0.png)  
 
 👆 `Package Manager` が出てくるので、 `RPG Maker Unite` を選択して `Download` ボタンをクリック。  
 
 ダウンロードが終わったら、 `Download` ボタンの横の `Import` ボタンをクリック  
 
-![Import Unity Package](./img/202305__rpgmu__11-2312--import-unity-package-o2o0.png)  
+![Import Unity Package](./img/202305__rmu__11-2312--import-unity-package-o2o0.png)  
 
 👆 `Import Unity Package` が出てきたら、 `import` をクリック  
 
-![Warning](./img/202305__rpgmu__11-2314--warning-o1o0.png)  
+![Warning](./img/202305__rmu__11-2314--warning-o1o0.png)  
 
 ```plaintext
 This project is using the new input system package but
@@ -52,15 +52,15 @@ Do you want to enable the backends? Doing so will
 
 このあと、  
 
-![Progress Bar](./img/202305__rpgmu__11-2331--progress-bar-o1o0.png)  
+![Progress Bar](./img/202305__rmu__11-2331--progress-bar-o1o0.png)  
 
 👆 プログレスバーが出てきて 30分ぐらい待たされる（CPU:Ryzen Threadripper 2920X， GPU:GeForce RTX 4090X，Memory:16GB）  
 
-![Restart](./img/202305__rpgmu__11-2357--restart-o1o0.png)  
+![Restart](./img/202305__rmu__11-2357--restart-o1o0.png)  
 
 👆 Unity Editor が突然消えてビックリするが、（30分も経つと再起動していたことを忘れる）Unity Editor が再起動される  
 
-![Warning 2](./img/202305__rpgmu__12-0000--warning2-o1o0.png)  
+![Warning 2](./img/202305__rmu__12-0000--warning2-o1o0.png)  
 
 ```plaintext
 RPG Maker Unite needs to overwrite your project
@@ -75,17 +75,17 @@ RPG Maker Uniteを正しく動作させるためには、プロジェクトの�
 
 👆 `Overwrite` を選ぶ  
 
-![Restart 2](./img/202305__rpgmu__12-0006--restart2-o1o0.png)  
+![Restart 2](./img/202305__rmu__12-0006--restart2-o1o0.png)  
 
 👆 Unity Editor がまた、再起動する  
 
-![Hold on](./img/202305__rpgmu__12-0007--loading-o1o0.png)  
+![Hold on](./img/202305__rmu__12-0007--loading-o1o0.png)  
 
 👆 白いウィンドウが出てきて、またプログレスバーが出てきて待たされる。  
 RPG Maker Unite が起動する前には、この「白いウィンドウが出てきて、プログレスバーが出てきて待たされる」を  
 必ず通るようだ？  
 
-![RPG Maker Unite Editor](./img/202305__rpgmu__12-0011--rpg-maker-unite-editor-o1o0.png)  
+![RPG Maker Unite Editor](./img/202305__rmu__12-0011--rpg-maker-unite-editor-o1o0.png)  
 
 👆 RPG Maker Unite のエディターが出てくるが、まだプログレスバーは出ていて、待たされる。  
 （まだ待ってほしい）  
@@ -93,7 +93,7 @@ RPG Maker Unite が起動する前には、この「白いウィンドウが出�
 後ろに アウトライン の画面が出ているが、これはロードの途中にたまたま見えているだけで、  
 RPG Maker Unite のエディターの想定したファースト・ビューではないのかもしれない  
 
-![Launched](./img/202305__rpgmu__12-0013--launched-o1o0.png)  
+![Launched](./img/202305__rmu__12-0013--launched-o1o0.png)  
 
 👆　このサンプル・ゲームのタイトル画面が出てきたら、ロード完了  
 
