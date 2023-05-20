@@ -6,7 +6,8 @@
     {
         // テーブル型ログ
         static readonly TableLogBuffer tableLog = new TableLogBuffer(
-            logFilePath: Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase.log"));
+            csvLogFilePath: Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "RMUPractice-Stopwatch-Table.csv"),
+            remarkLogFilePath: Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "RMUPractice-Stopwatch-Info.log"));
 
         /// <summary>
         /// エグザンプル
@@ -35,6 +36,7 @@
             // 計測停止
             stopwatch3.Stop();
             tableLog.Update(stopwatch3);
+            tableLog.Total += stopwatch3.Total;
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理A（234ミリ秒スリープ）にかかった時間"));
@@ -65,6 +67,7 @@
             // 計測停止
             stopwatch3.Stop();
             tableLog.Update(stopwatch3);
+            tableLog.Total += stopwatch3.Total;
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理Bと処理C（234ミリ秒スリープ）にかかった時間"));
@@ -79,7 +82,7 @@ CSV
 ");
 
             // ファイル出力
-            Console.WriteLine($"Write log to {tableLog.LogFilePath}");
+            Console.WriteLine($"Write log to {tableLog.CSVLogFilePath}");
             tableLog.Save();
         }
 
@@ -97,6 +100,7 @@ CSV
             // 計測停止
             stopwatch3.Stop();
             tableLog.Update(stopwatch3);
+            tableLog.Total += stopwatch3.Total;
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理D（234ミリ秒スリープ）にかかった時間"));
@@ -111,7 +115,7 @@ CSV
 ");
 
             // ファイル出力
-            Console.WriteLine($"Write log to {tableLog.LogFilePath}");
+            Console.WriteLine($"Write log to {tableLog.CSVLogFilePath}");
             tableLog.Save();
         }
     }

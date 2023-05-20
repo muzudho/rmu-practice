@@ -35,15 +35,5 @@
             this.CountOfUpdate++;
             this.Total += this.Elapsed;
         }
-
-        /// <summary>
-        /// 文字列化
-        /// </summary>
-        /// <returns></returns>
-        public string StringifyTimeSpan()
-        {
-            TimeSpan ts = this.Total;
-            return $"{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}'{ts.Milliseconds / 10:00}_";
-        }
     }
 }

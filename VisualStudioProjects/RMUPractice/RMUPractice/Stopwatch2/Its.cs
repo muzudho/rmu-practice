@@ -42,18 +42,38 @@
 
         /// <summary>
         /// 文字列化
-        /// 
-        /// - （2015年頃）CPUの時間計測の精度が 1/64 秒ぐらいしかないという話もあるので、ミリ秒の１桁目は切り捨てる
-        /// 
         /// </summary>
         /// <returns></returns>
-        public string Stringify(string label)
+        internal string Stringify(string label)
         {
             TimeSpan ts = stopwatch.Elapsed;
+
             return $@"
 {label}
-    {ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}'{ts.Milliseconds / 10:00}_
-";
+    {this.StringifyTimeSpan()}
+            ";
+        }
+
+        /// <summary>
+        /// 文字列化
+        /// </summary>
+        /// <returns></returns>
+        internal string StringifyTimeSpan()
+        {
+            TimeSpan ts = stopwatch.Elapsed;
+
+            return Stringify(ts);
+        }
+
+        internal static string Stringify(TimeSpan span)
+        {
+            //// - （2015年頃）CPUの時間計測の精度が 1/64 秒ぐらいしかないという話もあるので、ミリ秒の１桁目は切り捨てる
+            //            return $@"
+            //{label}
+            //    {ts.hours:00}:{ts.minutes:00}:{ts.seconds:00}'{ts.milliseconds / 10:00}_
+            //";
+
+            return $"{span.Hours:00}:{span.Minutes:00}:{span.Seconds:00}'{span.Milliseconds:000}";
         }
     }
 }
