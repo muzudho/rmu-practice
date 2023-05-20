@@ -10,14 +10,25 @@
     {
         // - その他
 
-        internal Its(string filePathToSave)
+        internal Its(string filePathToSave, TimeSpan timeSpan)
         {
-            this.tableBuffer = new TableBuffer<string, RecordBuffer>(filePathToSave);
+            this.tableBuffer = new TableBuffer<string, Its>(filePathToSave);
+            this.TimeSpan = timeSpan;
         }
 
         // - フィールド
 
-        readonly TableBuffer<string, RecordBuffer> tableBuffer;
+        readonly TableBuffer<string, Its> tableBuffer;
+
+        /// <summary>
+        /// アップデート回数
+        /// </summary>
+        int countOfUpdate;
+
+        /// <summary>
+        /// 累計時間
+        /// </summary>
+        TimeSpan TimeSpan { get; set; } = TimeSpan.Zero;
 
         // - メソッド
 
@@ -25,13 +36,13 @@
         {
             tableBuffer.AddOrUpdate(
                 key: key,
-                addValue: new RecordBuffer(
-                    count: 1,
+                addValue: new Its(
+                    filePathToSave: this.tableBuffer.FilePathToSave,
                     timeSpan: this.Elapsed),
                 updateValueFactory: (key, recordBuffer) =>
                 {
-                    recordBuffer.Count++;
-                    recordBuffer.TimeSpan += this.Elapsed;
+                    this.countOfUpdate++;
+                    this.TimeSpan += this.Elapsed;
                     return recordBuffer;
                 });
         }
@@ -49,10 +60,20 @@
 
             this.tableBuffer.ForEach((key, value) =>
             {
-                buffer.AppendLine($"{key},{value.Count},{value.StringifyTimeSpan()}");
+                buffer.AppendLine($"{key},{this.countOfUpdate},{this.StringifyTimeSpan()}");
             });
 
             return buffer.ToString();
+        }
+
+        /// <summary>
+        /// 文字列化
+        /// </summary>
+        /// <returns></returns>
+        public string StringifyTimeSpan()
+        {
+            TimeSpan ts = this.TimeSpan;
+            return $"{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}'{ts.Milliseconds / 10:00}_";
         }
     }
 }

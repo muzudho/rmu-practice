@@ -21,11 +21,11 @@
         {
             // テーブル作成
             var filePathToSave = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase1.log");
-            var tableBuffer1 = new TableBuffer<string, RecordBuffer>(
+            var tableBuffer1 = new TableBuffer<string, ModelOfStopwatch3>(
                 filePathToSave: filePathToSave);
 
             // ストップウォッチ生成
-            var stopwatch3 = new ModelOfStopwatch3(filePathToSave);
+            var stopwatch3 = new ModelOfStopwatch3(filePathToSave, TimeSpan.Zero);
 
             // 計測開始
             stopwatch3.Start();
@@ -89,11 +89,11 @@ CSV
         {
             // テーブル作成
             var filePathToSave = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase2.log");
-            var tableBuffer2 = new TableBuffer<string, RecordBuffer>(
+            var tableBuffer2 = new TableBuffer<string, ModelOfStopwatch3>(
                 filePathToSave: filePathToSave);
 
             // ストップウォッチ生成（２つ目）
-            var stopwatch3 = new ModelOfStopwatch3(filePathToSave);
+            var stopwatch3 = new ModelOfStopwatch3(filePathToSave, TimeSpan.Zero);
 
             // いきなりリスタート
             stopwatch3.Restart();
