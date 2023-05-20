@@ -20,12 +20,12 @@
         static void TestCase1()
         {
             // テーブル作成
-            var filePathToSave = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase1.log");
+            var logFilePath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase1.log");
             var tableBuffer1 = new TableBuffer(
-                filePathToSave: filePathToSave);
+                logFilePath: logFilePath);
 
             // ストップウォッチ生成
-            var stopwatch3 = new ModelOfStopwatch3(filePathToSave, TimeSpan.Zero);
+            var stopwatch3 = new ModelOfStopwatch3(logFilePath, TimeSpan.Zero);
 
             // 計測開始
             stopwatch3.Start();
@@ -88,12 +88,12 @@ CSV
         static void TestCase2()
         {
             // テーブル作成
-            var filePathToSave = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase2.log");
+            var logFilePath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase2.log");
             var tableBuffer2 = new TableBuffer(
-                filePathToSave: filePathToSave);
+                logFilePath: logFilePath);
 
             // ストップウォッチ生成（２つ目）
-            var stopwatch3 = new ModelOfStopwatch3(filePathToSave, TimeSpan.Zero);
+            var stopwatch3 = new ModelOfStopwatch3(logFilePath, TimeSpan.Zero);
 
             // いきなりリスタート
             stopwatch3.Restart();

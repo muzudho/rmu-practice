@@ -8,9 +8,9 @@
     {
         // - その他
 
-        internal TableBuffer(string filePathToSave)
+        internal TableBuffer(string logFilePath)
         {
-            this.LogFilePath = filePathToSave;
+            this.LogFilePath = logFilePath;
         }
 
         // - フィールド
