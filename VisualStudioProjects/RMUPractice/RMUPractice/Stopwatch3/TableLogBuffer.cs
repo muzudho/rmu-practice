@@ -42,13 +42,13 @@
 
         // - メソッド
 
-        internal void Update(ModelOfStopwatch3 stopwatch3)
+        internal void Update(ModelOfStopwatch3 stopwatch)
         {
             // 有れば取得、無ければ追加
-            stopwatch3 = this.recordDictionary.GetOrAdd(stopwatch3.itemName, stopwatch3);
+            var targetStopwatch = this.recordDictionary.GetOrAdd(stopwatch.itemName, stopwatch);
 
-            // 更新
-            stopwatch3.Update();
+            // 既存のストップ・ウォッチに経過時間を足す
+            targetStopwatch.Update(stopwatch.Elapsed);
         }
 
         /// <summary>

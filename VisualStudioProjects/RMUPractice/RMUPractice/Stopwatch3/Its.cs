@@ -30,10 +30,10 @@
 
         // - メソッド
 
-        internal void Update()
+        internal void Update(TimeSpan addSpan)
         {
             this.CountOfUpdate++;
-            this.Total += this.Elapsed;
+            this.Total += addSpan;
         }
     }
 }
