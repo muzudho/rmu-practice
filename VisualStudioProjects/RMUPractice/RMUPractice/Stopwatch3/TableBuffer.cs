@@ -36,7 +36,7 @@
             this.AddOrUpdate(
                 itemName: itemName,
                 addValue: new Its(
-                    filePathToSave: this.LogFilePath,
+                    tableBuffer: this,
                     timeSpan: stopwatch3.Elapsed),
                 updateValueFactory: (key, recordBuffer) =>
                 {
@@ -91,6 +91,25 @@
                     fs.Close();
                 }
             }
+        }
+
+        /// <summary>
+        /// 文字列化
+        /// 
+        /// - CSV形式
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public string StringifyRecordDictionaryAsCSV()
+        {
+            StringBuilder buffer = new StringBuilder();
+
+            foreach (var pair in this.recordDictionary)
+            {
+                buffer.AppendLine($"{pair.Key},{pair.Value.CountOfUpdate},{pair.Value.StringifyTimeSpan()}");
+            }
+
+            return buffer.ToString();
         }
     }
 }

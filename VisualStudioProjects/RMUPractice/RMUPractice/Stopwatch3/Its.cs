@@ -10,9 +10,9 @@
     {
         // - その他
 
-        internal Its(string filePathToSave, TimeSpan timeSpan)
+        internal Its(TableBuffer tableBuffer, TimeSpan timeSpan)
         {
-            this.tableBuffer = new TableBuffer(filePathToSave);
+            this.tableBuffer = tableBuffer;
             this.TimeSpan = timeSpan;
         }
 
@@ -31,25 +31,6 @@
         internal TimeSpan TimeSpan { get; set; } = TimeSpan.Zero;
 
         // - メソッド
-
-        /// <summary>
-        /// 文字列化
-        /// 
-        /// - CSV形式
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        public string StringifyRecordDictionaryAsCSV()
-        {
-            StringBuilder buffer = new StringBuilder();
-
-            this.tableBuffer.ForEach((key, value) =>
-            {
-                buffer.AppendLine($"{key},{this.CountOfUpdate},{this.StringifyTimeSpan()}");
-            });
-
-            return buffer.ToString();
-        }
 
         /// <summary>
         /// 文字列化

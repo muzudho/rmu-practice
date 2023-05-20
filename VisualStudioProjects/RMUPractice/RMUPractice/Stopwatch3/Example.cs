@@ -25,7 +25,7 @@
                 logFilePath: logFilePath);
 
             // ストップウォッチ生成
-            var stopwatch3 = new ModelOfStopwatch3(logFilePath, TimeSpan.Zero);
+            var stopwatch3 = new ModelOfStopwatch3(tableBuffer1, TimeSpan.Zero);
 
             // 計測開始
             stopwatch3.Start();
@@ -76,13 +76,13 @@
             Console.WriteLine($@"
 CSV
 ====
-{stopwatch3.StringifyRecordDictionaryAsCSV()}
+{tableBuffer1.StringifyRecordDictionaryAsCSV()}
 ");
 
             // ファイル出力
             Console.WriteLine($"Write log to {tableBuffer1.LogFilePath}");
             tableBuffer1.Save(
-                text: stopwatch3.StringifyRecordDictionaryAsCSV());
+                text: tableBuffer1.StringifyRecordDictionaryAsCSV());
         }
 
         static void TestCase2()
@@ -93,7 +93,7 @@ CSV
                 logFilePath: logFilePath);
 
             // ストップウォッチ生成（２つ目）
-            var stopwatch3 = new ModelOfStopwatch3(logFilePath, TimeSpan.Zero);
+            var stopwatch3 = new ModelOfStopwatch3(tableBuffer2, TimeSpan.Zero);
 
             // いきなりリスタート
             stopwatch3.Restart();
@@ -114,13 +114,13 @@ CSV
             Console.WriteLine($@"
 CSV
 ====
-{stopwatch3.StringifyRecordDictionaryAsCSV()}
+{tableBuffer2.StringifyRecordDictionaryAsCSV()}
 ");
 
             // ファイル出力
             Console.WriteLine($"Write log to {tableBuffer2.LogFilePath}");
             tableBuffer2.Save(
-                text: stopwatch3.StringifyRecordDictionaryAsCSV());
+                text: tableBuffer2.StringifyRecordDictionaryAsCSV());
         }
     }
 }
