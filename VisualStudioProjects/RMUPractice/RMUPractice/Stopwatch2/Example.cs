@@ -14,64 +14,64 @@
         internal static void DoIt()
         {
             // ストップウォッチ生成
-            var stopwatch = new ModelOfStopwatch2();
+            var stopwatch2 = new ModelOfStopwatch2();
 
             // 計測開始
-            stopwatch.Start();
+            stopwatch2.Start();
 
             // ★処理A
             Thread.Sleep(234);
 
             // 計測停止
-            stopwatch.Stop();
+            stopwatch2.Stop();
 
             // 結果表示
-            Console.WriteLine(stopwatch.Stringify(label: "■処理A（234ミリ秒スリープ）にかかった時間"));
+            Console.WriteLine(stopwatch2.Stringify(label: "■処理A（234ミリ秒スリープ）にかかった時間"));
 
             //-----------------
 
             // 経過時間をリセットしてから計測開始
-            stopwatch.Restart();
+            stopwatch2.Restart();
 
             // ★処理B
             Thread.Sleep(234);
 
             // 計測停止
-            stopwatch.Stop();
+            stopwatch2.Stop();
 
             // 結果表示
-            Console.WriteLine(stopwatch.Stringify(label: "■処理B（234ミリ秒スリープ）にかかった時間"));
+            Console.WriteLine(stopwatch2.Stringify(label: "■処理B（234ミリ秒スリープ）にかかった時間"));
 
             //-----------------
 
             // 計測再開（リセットしない）
-            stopwatch.Start();
+            stopwatch2.Start();
 
             // ★処理C
             Thread.Sleep(234);
 
             // 計測停止
-            stopwatch.Stop();
+            stopwatch2.Stop();
 
             // 結果表示
-            Console.WriteLine(stopwatch.Stringify(label: "■処理Bと処理C（234ミリ秒スリープ）にかかった時間"));
+            Console.WriteLine(stopwatch2.Stringify(label: "■処理Bと処理C（234ミリ秒スリープ）にかかった時間"));
 
             //-----------------
 
             // ストップウォッチ生成（２つ目）
-            stopwatch = new ModelOfStopwatch2();
+            stopwatch2 = new ModelOfStopwatch2();
 
             // いきなりリスタート
-            stopwatch.Restart();
+            stopwatch2.Restart();
 
             // ★処理D
             Thread.Sleep(234);
 
             // 計測停止
-            stopwatch.Stop();
+            stopwatch2.Stop();
 
             // 結果表示
-            Console.WriteLine(stopwatch.Stringify(label: "■処理D（234ミリ秒スリープ）にかかった時間"));
+            Console.WriteLine(stopwatch2.Stringify(label: "■処理D（234ミリ秒スリープ）にかかった時間"));
         }
     }
 }
