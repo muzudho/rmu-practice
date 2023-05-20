@@ -31,7 +31,7 @@
 
             // 計測停止
             stopwatch3.Stop();
-            stopwatch3.Update("処理A");
+            stopwatch3.Update("テストケース１");
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理A（234ミリ秒スリープ）にかかった時間"));
@@ -46,7 +46,7 @@
 
             // 計測停止
             stopwatch3.Stop();
-            stopwatch3.Update("処理B");
+            stopwatch3.Update("テストケース１");
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理B（234ミリ秒スリープ）にかかった時間"));
@@ -61,7 +61,7 @@
 
             // 計測停止
             stopwatch3.Stop();
-            stopwatch3.Update("処理C");
+            stopwatch3.Update("テストケース１");
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理Bと処理C（234ミリ秒スリープ）にかかった時間"));
@@ -74,6 +74,13 @@ CSV
 ====
 {stopwatch3.StringifyRecordDictionaryAsCSV()}
 ");
+
+            // ファイル出力
+            var filePath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase1.log");
+            Console.WriteLine($"Write log to {filePath}");
+            stopwatch3.Save(
+                filePath: filePath,
+                text: stopwatch3.StringifyRecordDictionaryAsCSV());
         }
 
         static void TestCase2()
@@ -89,7 +96,7 @@ CSV
 
             // 計測停止
             stopwatch3.Stop();
-            stopwatch3.Update("処理D");
+            stopwatch3.Update("テストケース２");
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理D（234ミリ秒スリープ）にかかった時間"));
@@ -102,6 +109,13 @@ CSV
 ====
 {stopwatch3.StringifyRecordDictionaryAsCSV()}
 ");
+
+            // ファイル出力
+            var filePath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase2.log");
+            Console.WriteLine($"Write log to {filePath}");
+            stopwatch3.Save(
+                filePath: filePath,
+                text: stopwatch3.StringifyRecordDictionaryAsCSV());
         }
     }
 }
