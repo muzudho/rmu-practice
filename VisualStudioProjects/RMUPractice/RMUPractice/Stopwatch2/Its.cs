@@ -12,7 +12,7 @@
 
         // - プロパティ
 
-        protected TimeSpan Elapsed => stopwatch.Elapsed;
+        internal TimeSpan Elapsed => stopwatch.Elapsed;
 
         // - メソッド
 

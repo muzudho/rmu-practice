@@ -12,40 +12,25 @@
 
         internal Its(string filePathToSave, TimeSpan timeSpan)
         {
-            this.tableBuffer = new TableBuffer<string, Its>(filePathToSave);
+            this.tableBuffer = new TableBuffer(filePathToSave);
             this.TimeSpan = timeSpan;
         }
 
-        // - フィールド
+        // - プロパティ
 
-        readonly TableBuffer<string, Its> tableBuffer;
+        readonly TableBuffer tableBuffer;
 
         /// <summary>
         /// アップデート回数
         /// </summary>
-        int countOfUpdate;
+        internal int CountOfUpdate { get; set; }
 
         /// <summary>
         /// 累計時間
         /// </summary>
-        TimeSpan TimeSpan { get; set; } = TimeSpan.Zero;
+        internal TimeSpan TimeSpan { get; set; } = TimeSpan.Zero;
 
         // - メソッド
-
-        internal void Update(string key)
-        {
-            tableBuffer.AddOrUpdate(
-                key: key,
-                addValue: new Its(
-                    filePathToSave: this.tableBuffer.FilePathToSave,
-                    timeSpan: this.Elapsed),
-                updateValueFactory: (key, recordBuffer) =>
-                {
-                    this.countOfUpdate++;
-                    this.TimeSpan += this.Elapsed;
-                    return recordBuffer;
-                });
-        }
 
         /// <summary>
         /// 文字列化
@@ -60,7 +45,7 @@
 
             this.tableBuffer.ForEach((key, value) =>
             {
-                buffer.AppendLine($"{key},{this.countOfUpdate},{this.StringifyTimeSpan()}");
+                buffer.AppendLine($"{key},{this.CountOfUpdate},{this.StringifyTimeSpan()}");
             });
 
             return buffer.ToString();

@@ -2,32 +2,51 @@
 {
     using System.Collections.Concurrent;
     using System.Text;
+    using ModelOfStopwatch3 = RMUPractice.Stopwatch3.Its;
 
-    class TableBuffer<TKey, TValue> where TKey : notnull
+    class TableBuffer
     {
         // - その他
 
         internal TableBuffer(string filePathToSave)
         {
-            this.FilePathToSave = filePathToSave;
+            this.LogFilePath = filePathToSave;
         }
 
         // - フィールド
 
-        readonly ConcurrentDictionary<TKey, TValue> recordDictionary = new ConcurrentDictionary<TKey, TValue>();
+        readonly ConcurrentDictionary<string, ModelOfStopwatch3> recordDictionary = new ConcurrentDictionary<string, ModelOfStopwatch3>();
 
         // - プロパティ
 
-        internal string FilePathToSave { get; private set; }
+        /// <summary>
+        /// 出力ログ・ファイルのパス
+        /// </summary>
+        internal string LogFilePath { get; private set; }
 
         // - メソッド
 
-        internal void AddOrUpdate(TKey key, TValue addValue, Func<TKey, TValue, TValue> updateValueFactory)
+        internal void AddOrUpdate(string itemName, ModelOfStopwatch3 addValue, Func<string, ModelOfStopwatch3, ModelOfStopwatch3> updateValueFactory)
         {
-            this.recordDictionary.AddOrUpdate(key, addValue, updateValueFactory);
+            this.recordDictionary.AddOrUpdate(itemName, addValue, updateValueFactory);
         }
 
-        internal delegate void SetPair(TKey key, TValue value);
+        internal void Update(ModelOfStopwatch3 stopwatch3, string itemName)
+        {
+            this.AddOrUpdate(
+                itemName: itemName,
+                addValue: new Its(
+                    filePathToSave: this.LogFilePath,
+                    timeSpan: stopwatch3.Elapsed),
+                updateValueFactory: (key, recordBuffer) =>
+                {
+                    stopwatch3.CountOfUpdate++;
+                    stopwatch3.TimeSpan += stopwatch3.Elapsed;
+                    return recordBuffer;
+                });
+        }
+
+        internal delegate void SetPair(string itemName, ModelOfStopwatch3 value);
 
         internal void ForEach(SetPair setPair)
         {
@@ -49,7 +68,7 @@
 
             try
             {
-                fs = new FileStream(this.FilePathToSave, FileMode.OpenOrCreate, FileAccess.Write);
+                fs = new FileStream(this.LogFilePath, FileMode.OpenOrCreate, FileAccess.Write);
                 sw = new StreamWriter(fs, Encoding.UTF8);
                 tw = TextWriter.Synchronized(sw);
 
