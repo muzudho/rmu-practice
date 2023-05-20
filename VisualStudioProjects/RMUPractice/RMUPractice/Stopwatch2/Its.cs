@@ -1,9 +1,9 @@
-﻿namespace RMUPractice
+﻿namespace RMUPractice.Stopwatch2
 {
     /// <summary>
     /// ストップウォッチ２
     /// </summary>
-    public class Stopwatch2
+    public class Its
     {
         // ストップウォッチ
         System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();

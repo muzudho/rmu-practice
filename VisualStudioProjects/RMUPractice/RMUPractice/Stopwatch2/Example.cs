@@ -1,6 +1,8 @@
-﻿namespace RMUPractice
+﻿namespace RMUPractice.Stopwatch2
 {
-    static class Stopwatch2Example
+    using ModelOfStopwatch2 = RMUPractice.Stopwatch2.Its;
+
+    static class Example
     {
         /// <summary>
         /// エグザンプル
@@ -12,7 +14,7 @@
         internal static void DoIt()
         {
             // ストップウォッチ生成
-            var stopwatch = new Stopwatch2();
+            var stopwatch = new ModelOfStopwatch2();
 
             // 計測開始
             stopwatch.Start();
@@ -53,6 +55,23 @@
 
             // 結果表示
             Console.WriteLine(stopwatch.Stringify(label: "■処理Bと処理C（234ミリ秒スリープ）にかかった時間"));
+
+            //-----------------
+
+            // ストップウォッチ生成（２つ目）
+            stopwatch = new ModelOfStopwatch2();
+
+            // いきなりリスタート
+            stopwatch.Restart();
+
+            // ★処理D
+            Thread.Sleep(234);
+
+            // 計測停止
+            stopwatch.Stop();
+
+            // 結果表示
+            Console.WriteLine(stopwatch.Stringify(label: "■処理D（234ミリ秒スリープ）にかかった時間"));
         }
     }
 }
