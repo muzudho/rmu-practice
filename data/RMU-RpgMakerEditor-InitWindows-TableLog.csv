@@ -1,0 +1,18 @@
+﻿[RuntimeInitWindows 7] アウトラインエディタ,2,00:00:01'553
+[RuntimeInitWindows 8] インスペクター開いていたもの開く,2,00:00:00'000
+[InitWindows 8] インスペクター開いていたもの開く,1,00:00:00'092
+[RpgMakerUniteMenu] (3) UnityのAssetStoreへのログインが完了するのを待ってから、認証処理を走らせる,1,00:00:02'160
+[RuntimeInitWindows 3] ヒエラルキー,2,00:00:00'850
+[InitWindows 5] データベースエディタ,1,00:00:00'002
+[InitWindows 3] ヒエラルキー,1,00:00:03'372
+[RuntimeInitWindows 9] SetWindows,2,00:00:00'000
+[RuntimeInitWindows 6] マップエディタ,2,00:00:00'123
+[RuntimeInitWindows 2] 共通メニューウィンドウ,2,00:00:00'043
+[InitWindows 6] マップエディタ,1,00:04:10'373
+[RuntimeInitWindows 5] データベースエディタ,2,00:00:00'005
+[RuntimeInitWindows 1] 現在のモードがUnityモードであれば、Windowを作成せずに終了,2,00:00:00'000
+[InitWindows 7] アウトラインエディタ,1,00:00:04'909
+[InitWindows 1] 現在のモードがUnityモードであれば、Windowを作成せずに終了,3,00:00:00'000
+[InitWindows 2] 共通メニューウィンドウ,3,00:00:00'062
+[RpgMakerUniteMenu] (6) レイアウトを変更した場合は明示的に再初期化,1,00:04:19'195
+
