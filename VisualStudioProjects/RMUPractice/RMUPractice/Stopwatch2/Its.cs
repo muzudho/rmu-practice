@@ -5,8 +5,16 @@
     /// </summary>
     public class Its
     {
+        // - フィールド
+
         // ストップウォッチ
         System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
+
+        // - プロパティ
+
+        protected TimeSpan Elapsed => stopwatch.Elapsed;
+
+        // - メソッド
 
         /// <summary>
         /// 計測開始
