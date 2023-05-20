@@ -36,7 +36,7 @@
             // 計測停止
             stopwatch3.Stop();
             tableLog.Update(stopwatch3);
-            tableLog.Total += stopwatch3.Total;
+            tableLog.Total += stopwatch3.Elapsed;
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理A（234ミリ秒スリープ）にかかった時間"));
@@ -67,7 +67,7 @@
             // 計測停止
             stopwatch3.Stop();
             tableLog.Update(stopwatch3);
-            tableLog.Total += stopwatch3.Total;
+            tableLog.Total += stopwatch3.Elapsed;
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理Bと処理C（234ミリ秒スリープ）にかかった時間"));
@@ -100,7 +100,7 @@ CSV
             // 計測停止
             stopwatch3.Stop();
             tableLog.Update(stopwatch3);
-            tableLog.Total += stopwatch3.Total;
+            tableLog.Total += stopwatch3.Elapsed;
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理D（234ミリ秒スリープ）にかかった時間"));
