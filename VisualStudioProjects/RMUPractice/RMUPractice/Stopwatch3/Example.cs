@@ -19,8 +19,13 @@
 
         static void TestCase1()
         {
+            // テーブル作成
+            var filePathToSave = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase1.log");
+            var tableBuffer1 = new TableBuffer<string, RecordBuffer>(
+                filePathToSave: filePathToSave);
+
             // ストップウォッチ生成
-            var stopwatch3 = new ModelOfStopwatch3();
+            var stopwatch3 = new ModelOfStopwatch3(filePathToSave);
 
             // 計測開始
             stopwatch3.Start();
@@ -75,17 +80,20 @@ CSV
 ");
 
             // ファイル出力
-            var filePath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase1.log");
-            Console.WriteLine($"Write log to {filePath}");
-            stopwatch3.Save(
-                filePath: filePath,
+            Console.WriteLine($"Write log to {tableBuffer1.FilePathToSave}");
+            tableBuffer1.Save(
                 text: stopwatch3.StringifyRecordDictionaryAsCSV());
         }
 
         static void TestCase2()
         {
+            // テーブル作成
+            var filePathToSave = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase2.log");
+            var tableBuffer2 = new TableBuffer<string, RecordBuffer>(
+                filePathToSave: filePathToSave);
+
             // ストップウォッチ生成（２つ目）
-            var stopwatch3 = new ModelOfStopwatch3();
+            var stopwatch3 = new ModelOfStopwatch3(filePathToSave);
 
             // いきなりリスタート
             stopwatch3.Restart();
@@ -110,10 +118,8 @@ CSV
 ");
 
             // ファイル出力
-            var filePath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase2.log");
-            Console.WriteLine($"Write log to {filePath}");
-            stopwatch3.Save(
-                filePath: filePath,
+            Console.WriteLine($"Write log to {tableBuffer2.FilePathToSave}");
+            tableBuffer2.Save(
                 text: stopwatch3.StringifyRecordDictionaryAsCSV());
         }
     }

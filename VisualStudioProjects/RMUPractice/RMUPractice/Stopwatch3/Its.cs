@@ -8,9 +8,16 @@
     /// </summary>
     public class Its : ModelOfStopwatch2
     {
+        // - その他
+
+        internal Its(string filePathToSave)
+        {
+            this.tableBuffer = new TableBuffer<string, RecordBuffer>(filePathToSave);
+        }
+
         // - フィールド
 
-        readonly TableBuffer<string, RecordBuffer> tableBuffer = new TableBuffer<string, RecordBuffer>();
+        readonly TableBuffer<string, RecordBuffer> tableBuffer;
 
         // - メソッド
 
@@ -46,43 +53,6 @@
             });
 
             return buffer.ToString();
-        }
-
-        /// <summary>
-        /// 📖 [マルチスレッドで1つのテキストファイルへ書き込みする (C#プログラミング)](https://www.ipentec.com/document/csharp-write-text-file-in-multi-thread-operation)
-        /// 📖 [finally を使用してクリーンアップ コードを実行する方法](https://learn.microsoft.com/ja-jp/dotnet/csharp/fundamentals/exceptions/how-to-execute-cleanup-code-using-finally)
-        /// </summary>
-        public void Save(string filePath, string text)
-        {
-            FileStream? fs = null;
-            StreamWriter? sw = null;
-            TextWriter? tw = null;
-
-            try
-            {
-                fs = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.Write);
-                sw = new StreamWriter(fs, Encoding.UTF8);
-                tw = TextWriter.Synchronized(sw);
-
-                tw.WriteLine(text);
-            }
-            finally
-            {
-                if (tw != null)
-                {
-                    tw.Close();
-                }
-
-                if (sw != null)
-                {
-                    sw.Close();
-                }
-
-                if (fs != null)
-                {
-                    fs.Close();
-                }
-            }
         }
     }
 }
