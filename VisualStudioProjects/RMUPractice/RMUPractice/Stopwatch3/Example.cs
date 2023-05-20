@@ -1,6 +1,5 @@
 ﻿namespace RMUPractice.Stopwatch3
 {
-    using System.Diagnostics;
     using ModelOfStopwatch3 = RMUPractice.Stopwatch3.Its;
 
     static class Example

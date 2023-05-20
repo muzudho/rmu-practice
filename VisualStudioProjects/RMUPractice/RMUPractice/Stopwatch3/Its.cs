@@ -1,6 +1,5 @@
 ﻿namespace RMUPractice.Stopwatch3
 {
-    using System.Collections.Concurrent;
     using System.Text;
     using ModelOfStopwatch2 = RMUPractice.Stopwatch2.Its;
 
@@ -11,13 +10,13 @@
     {
         // - フィールド
 
-        readonly ConcurrentDictionary<string, RecordBuffer> recordDictionary = new ConcurrentDictionary<string, RecordBuffer>();
+        readonly TableBuffer<string, RecordBuffer> tableBuffer = new TableBuffer<string, RecordBuffer>();
 
         // - メソッド
 
         internal void Update(string key)
         {
-            recordDictionary.AddOrUpdate(
+            tableBuffer.AddOrUpdate(
                 key: key,
                 addValue: new RecordBuffer(
                     count: 1,
@@ -41,10 +40,10 @@
         {
             StringBuilder buffer = new StringBuilder();
 
-            foreach (var pair in this.recordDictionary)
+            this.tableBuffer.ForEach((key, value) =>
             {
-                buffer.AppendLine($"{pair.Key},{pair.Value.Count},{pair.Value.StringifyTimeSpan()}");
-            }
+                buffer.AppendLine($"{key},{value.Count},{value.StringifyTimeSpan()}");
+            });
 
             return buffer.ToString();
         }
