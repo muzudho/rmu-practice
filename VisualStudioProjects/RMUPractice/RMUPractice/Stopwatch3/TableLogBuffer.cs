@@ -4,11 +4,11 @@
     using System.Text;
     using ModelOfStopwatch3 = RMUPractice.Stopwatch3.Its;
 
-    class TableBuffer
+    class TableLogBuffer
     {
         // - その他
 
-        internal TableBuffer(string logFilePath)
+        internal TableLogBuffer(string logFilePath)
         {
             this.LogFilePath = logFilePath;
         }
@@ -26,42 +26,23 @@
 
         // - メソッド
 
-        internal void AddOrUpdate(string itemName, ModelOfStopwatch3 addValue, Func<string, ModelOfStopwatch3, ModelOfStopwatch3> updateValueFactory)
+        internal void Update(ModelOfStopwatch3 stopwatch3)
         {
-            this.recordDictionary.AddOrUpdate(itemName, addValue, updateValueFactory);
-        }
+            // 有れば取得、無ければ追加
+            stopwatch3 = this.recordDictionary.GetOrAdd(stopwatch3.itemName, stopwatch3);
 
-        internal void Update(ModelOfStopwatch3 stopwatch3, string itemName)
-        {
-            this.AddOrUpdate(
-                itemName: itemName,
-                addValue: new Its(
-                    tableBuffer: this,
-                    timeSpan: stopwatch3.Elapsed),
-                updateValueFactory: (key, recordBuffer) =>
-                {
-                    stopwatch3.CountOfUpdate++;
-                    stopwatch3.TimeSpan += stopwatch3.Elapsed;
-                    return recordBuffer;
-                });
-        }
-
-        internal delegate void SetPair(string itemName, ModelOfStopwatch3 value);
-
-        internal void ForEach(SetPair setPair)
-        {
-            foreach (var pair in this.recordDictionary)
-            {
-                setPair(pair.Key, pair.Value);
-            }
+            // 更新
+            stopwatch3.Update();
         }
 
         /// <summary>
         /// 📖 [マルチスレッドで1つのテキストファイルへ書き込みする (C#プログラミング)](https://www.ipentec.com/document/csharp-write-text-file-in-multi-thread-operation)
         /// 📖 [finally を使用してクリーンアップ コードを実行する方法](https://learn.microsoft.com/ja-jp/dotnet/csharp/fundamentals/exceptions/how-to-execute-cleanup-code-using-finally)
         /// </summary>
-        public void Save(string text)
+        public void Save()
         {
+            string text = this.StringifyRecordDictionaryAsCSV();
+
             FileStream? fs = null;
             StreamWriter? sw = null;
             TextWriter? tw = null;

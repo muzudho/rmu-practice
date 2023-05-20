@@ -1,6 +1,5 @@
 ﻿namespace RMUPractice.Stopwatch3
 {
-    using System.Text;
     using ModelOfStopwatch2 = RMUPractice.Stopwatch2.Its;
 
     /// <summary>
@@ -10,15 +9,14 @@
     {
         // - その他
 
-        internal Its(TableBuffer tableBuffer, TimeSpan timeSpan)
+        internal Its(string itemName)
         {
-            this.tableBuffer = tableBuffer;
-            this.TimeSpan = timeSpan;
+            this.itemName = itemName;
         }
 
         // - プロパティ
 
-        readonly TableBuffer tableBuffer;
+        internal readonly string itemName;
 
         /// <summary>
         /// アップデート回数
@@ -28,9 +26,15 @@
         /// <summary>
         /// 累計時間
         /// </summary>
-        internal TimeSpan TimeSpan { get; set; } = TimeSpan.Zero;
+        internal TimeSpan Total { get; set; } = TimeSpan.Zero;
 
         // - メソッド
+
+        internal void Update()
+        {
+            this.CountOfUpdate++;
+            this.Total += this.Elapsed;
+        }
 
         /// <summary>
         /// 文字列化
@@ -38,7 +42,7 @@
         /// <returns></returns>
         public string StringifyTimeSpan()
         {
-            TimeSpan ts = this.TimeSpan;
+            TimeSpan ts = this.Total;
             return $"{ts.Hours:00}:{ts.Minutes:00}:{ts.Seconds:00}'{ts.Milliseconds / 10:00}_";
         }
     }

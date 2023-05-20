@@ -4,6 +4,10 @@
 
     static class Example
     {
+        // テーブル型ログ
+        static readonly TableLogBuffer tableLog = new TableLogBuffer(
+            logFilePath: Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase.log"));
+
         /// <summary>
         /// エグザンプル
         /// 
@@ -19,13 +23,8 @@
 
         static void TestCase1()
         {
-            // テーブル作成
-            var logFilePath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase1.log");
-            var tableBuffer1 = new TableBuffer(
-                logFilePath: logFilePath);
-
             // ストップウォッチ生成
-            var stopwatch3 = new ModelOfStopwatch3(tableBuffer1, TimeSpan.Zero);
+            var stopwatch3 = new ModelOfStopwatch3("ストップウォッチ１");
 
             // 計測開始
             stopwatch3.Start();
@@ -35,7 +34,7 @@
 
             // 計測停止
             stopwatch3.Stop();
-            tableBuffer1.Update(stopwatch3, "テストケース１");
+            tableLog.Update(stopwatch3);
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理A（234ミリ秒スリープ）にかかった時間"));
@@ -50,7 +49,7 @@
 
             // 計測停止
             stopwatch3.Stop();
-            tableBuffer1.Update(stopwatch3, "テストケース１");
+            tableLog.Update(stopwatch3);
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理B（234ミリ秒スリープ）にかかった時間"));
@@ -65,7 +64,7 @@
 
             // 計測停止
             stopwatch3.Stop();
-            tableBuffer1.Update(stopwatch3, "テストケース１");
+            tableLog.Update(stopwatch3);
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理Bと処理C（234ミリ秒スリープ）にかかった時間"));
@@ -76,24 +75,18 @@
             Console.WriteLine($@"
 CSV
 ====
-{tableBuffer1.StringifyRecordDictionaryAsCSV()}
+{tableLog.StringifyRecordDictionaryAsCSV()}
 ");
 
             // ファイル出力
-            Console.WriteLine($"Write log to {tableBuffer1.LogFilePath}");
-            tableBuffer1.Save(
-                text: tableBuffer1.StringifyRecordDictionaryAsCSV());
+            Console.WriteLine($"Write log to {tableLog.LogFilePath}");
+            tableLog.Save();
         }
 
         static void TestCase2()
         {
-            // テーブル作成
-            var logFilePath = Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TestCase2.log");
-            var tableBuffer2 = new TableBuffer(
-                logFilePath: logFilePath);
-
             // ストップウォッチ生成（２つ目）
-            var stopwatch3 = new ModelOfStopwatch3(tableBuffer2, TimeSpan.Zero);
+            var stopwatch3 = new ModelOfStopwatch3("ストップウォッチ２");
 
             // いきなりリスタート
             stopwatch3.Restart();
@@ -103,7 +96,7 @@ CSV
 
             // 計測停止
             stopwatch3.Stop();
-            tableBuffer2.Update(stopwatch3, "テストケース２");
+            tableLog.Update(stopwatch3);
 
             // 結果表示
             Console.WriteLine(stopwatch3.Stringify(label: "■処理D（234ミリ秒スリープ）にかかった時間"));
@@ -114,13 +107,12 @@ CSV
             Console.WriteLine($@"
 CSV
 ====
-{tableBuffer2.StringifyRecordDictionaryAsCSV()}
+{tableLog.StringifyRecordDictionaryAsCSV()}
 ");
 
             // ファイル出力
-            Console.WriteLine($"Write log to {tableBuffer2.LogFilePath}");
-            tableBuffer2.Save(
-                text: tableBuffer2.StringifyRecordDictionaryAsCSV());
+            Console.WriteLine($"Write log to {tableLog.LogFilePath}");
+            tableLog.Save();
         }
     }
 }
