@@ -837,6 +837,9 @@
         public static async Task Refresh(Enum.Region targetRegion = Enum.Region.All, string updateData = null, bool isRefresh = true, bool isForce = false)
 
             await Task.Delay(2);
+
+            //上記の変更を反映後にフォーカス更新
+            await Task.Delay(1);
 ```
 
 ```
@@ -847,6 +850,11 @@
 
         Hierarchyのスクロール位置を設定する
         private static async void UpdateHierarchy()
+
+        // 編集項目まで開く > その位置までスクロールする
+        await Task.Delay(10);
+
+        await Task.Delay(10);
 ```
 
 ```
@@ -857,6 +865,8 @@
 
         コモンイベントのInspector表示
         public async void OpenEventCommonInspector(EventCommonDataModel eventCommonDataModel)
+
+            await Task.Delay(50);
 ```
 
 ```
@@ -867,6 +877,8 @@
 
         最終選択していたマップを返却（待ち時間あり）
         private async void InvokeSelectableElementAction()
+
+            await Task.Delay(200);
 ```
 
 ```
@@ -877,6 +889,8 @@
 
         最終選択していたマップを返却（待ち時間あり）
         private async void InvokeSelectableElementAction()
+
+            await Task.Delay(200);
 ```
 
 ```
@@ -888,11 +902,18 @@
         初期化を再度行えるようにする
         protected async void CanInitializeOn()
 
+            // スクロール位置を設定 >
+            await Task.Delay(1);
+
         データの更新を再度行えるようにする
         protected async void CanRefreshOn()
 
+            await Task.Delay(1);
+
         セーブを再度行えるようにする
         protected async void CanSaveOn()
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -901,6 +922,9 @@
     RPGMaker.Codebase.Editor.Inspector.BattleScene.View.BattleSceneInspectorElement
 
         private static async void InitAllWindow()
+
+            // データベースのリフレッシュ > RPG Maker Editor のウィンドウの初期化
+            await Task.Delay(100);
 ```
 
 ```
@@ -909,6 +933,9 @@
     RPGMaker.Codebase.Editor.Inspector.Character.View.CharacterInspectorElement
 
         private async void UpdateData()
+
+            // ヒエラルキー・エディターのリフレッシュ > キャラクターのアップデート
+            await Task.Delay(2);
 ```
 
 ```
@@ -917,6 +944,8 @@
     RPGMaker.Codebase.Editor.Inspector.Map.View.BackgroundCollisionInspector()
 
         private async void SaveTile()
+
+            await MapEditor.MapEditor.SaveTile(_tileDataModel);
 ```
 
 ```
@@ -926,6 +955,8 @@
     RPGMaker.Codebase.Editor.Inspector.Map.View.EventInspector
 
         private async void UpdateDataImport()
+
+            await Task.Delay(10);
 ```
 
 ```
@@ -935,10 +966,22 @@
     RPGMaker.Codebase.Editor.Inspector.Map.View.MapInspectorView
 
         public void SetBackgroundCollisionView(TileDataModel tileDataModel)
-            async 匿名関数 使用
+            
+            匿名関数 使用
+            _backgroundCollisionInspector = new BackgroundCollisionInspector(tileDataModel, async () =>
+            {
+                await MapEditor .MapEditor.SaveTile(tileDataModel);
+                MapEditor.MapEditor.ReloadTiles();
+            });
 
         public void SetTileEntity(TileDataModel tileDataModel, TileInspector.TYPE inspectorType)
-            async 匿名関数 使用
+
+            匿名関数 使用
+            _tileInspector = new TileInspector(tileDataModel, async () =>
+            {
+                await MapEditor .MapEditor.SaveTile(tileDataModel);
+                MapEditor.MapEditor.ReloadTiles();
+            }, inspectorType);
 ```
 
 ```
@@ -947,6 +990,8 @@
     RPGMaker.Codebase.Editor.Inspector.Title.View.TitleInspectorElement
 
         private async void _InitAsync()
+
+            await Task.Delay(500);
 ```
 
 ```
@@ -957,7 +1002,13 @@
         イベントエディタを開く
         public static async void LaunchEventEditMode(EventDataModel eventDataModel)
 
+            // > 『イベントコマンド』枠を開く。
+            await Task.Delay(50);
+
         private async void UpdateData()
+
+            // ヒエラルキー・エディターのリフレッシュ >
+            await Task.Delay(2);
 ```
 
 ```
@@ -967,6 +1018,8 @@
     RPGMaker.Codebase.Editor.MapEditor.Component.CommandEditor.GameProgress.GameVariable
 
         private async void WaitMilliSecond()
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -977,6 +1030,10 @@
 
         初回のタイル画像描画処理 / タイルが画面に置かれて配置場所が確定後に実施する
         private async void InitializeDrawImage()
+
+            //若干の待ちが無いと、配置場所が確定しない
+            //最も待つ時間が長いのはマップ編集画面下の各レイヤーになるため、そこに合わせた待ち時間とする
+            await Task.Delay(100);
 ```
 
 ```
@@ -988,8 +1045,11 @@
         public static async void LaunchEventEditMode(
             MapDataModel mapDataModel,
             EventMapDataModel eventMapDataModelEntity,
-            int pageNum = 0
-        )
+            int pageNum = 0)
+
+            await Task.Delay(50);
+
+            await Task.Delay(250);
 
         座標指定
         public static async void LaunchCommonEventEditMode(
@@ -998,19 +1058,25 @@
             Action<Vector3Int> callBack = null,
             string id = "",
             bool eventMove = false,
-            bool notCoordinateMode = false
-        )
+            bool notCoordinateMode = false)
+
+            await Task.Delay(250);
 
         public static async void LaunchCommonEventEditModeEnd(
             MapDataModel mapDataModel,
-            int pageNum = 0
-        )
-        
+            int pageNum = 0)
+
+            await Task.Delay(250);
+
         タイルを保存する.
         public static async Task<bool> SaveTile(TileDataModel tileDataModel)
         
+            bool taskBool = await _mapManagementService.SaveTile(tileDataModel);
+
         タイルを保存する.
         public static async Task<List<bool>> SaveTile(List<TileDataModel> tileDataModel)
+
+            lists = await _mapManagementService.SaveTile(tileDataModel);
 ```
 
 ```
@@ -1021,7 +1087,11 @@
 
         private async void SaveWait(bool initEvent)
 
+            await Task.Delay(1);
+
         private async void SaveEnd()
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -1030,4 +1100,6 @@
     RPGMaker.Codebase.Editor.OutlineEditor.OutlineEditor
 
         public static async void SelectElementsCommandProcess(OutlineNodeModel outlineNodeModel)
+
+            await Hierarchy.Hierarchy.Refresh(Region.Outline, null, true, true);
 ```
