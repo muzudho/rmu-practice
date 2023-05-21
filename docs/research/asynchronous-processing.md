@@ -133,11 +133,11 @@
 
         public async Task PlayBgm()
 
-        #if USE_PARTIAL_LOOP
-            private async Task<(AudioClip, int, int)> GetClip(string clipName, SoundType soundType)
-        #else
-            private static async Task<AudioClip> GetClip(string clipName, SoundType soundType)
-        #endif
+    #if USE_PARTIAL_LOOP
+        private async Task<(AudioClip, int, int)> GetClip(string clipName, SoundType soundType)
+    #else
+        private static async Task<AudioClip> GetClip(string clipName, SoundType soundType)
+    #endif
 
         BGMの再開。
         public async void ContinueBgm()
@@ -148,11 +148,11 @@
 
         public async void PlaySe()
 
-        #if USE_PARTIAL_LOOP
-            private static async Task<(AudioClip, int, int)> LoadAudioClip(string folderName, string filename, string extention)
-        #else
-            private static async Task<AudioClip> LoadAudioClip(string folderName, string filename, string extention)
-        #endif
+    #if USE_PARTIAL_LOOP
+        private static async Task<(AudioClip, int, int)> LoadAudioClip(string folderName, string filename, string extention)
+    #else
+        private static async Task<AudioClip> LoadAudioClip(string folderName, string filename, string extention)
+    #endif
 
     RPGMaker.Codebase.CoreSystem.Helper.WindowButtonBase
 
@@ -234,9 +234,9 @@
     タイトル画面またはゲームのメインメニューから開くセーブロード画面
     RPGMaker.Codebase.Runtime.Map.Menu.SaveMenu
 
-        #if UNITY_EDITOR
-            public async void ChangeFocused()
-        #endif
+    #if UNITY_EDITOR
+        public async void ChangeFocused()
+    #endif
 
     RPGMaker.Codebase.Runtime.Map.MenuBase
 
@@ -248,10 +248,10 @@
 
     RPGMaker.Codebase.Runtime.Title.OptionController
 
-        #if UNITY_EDITOR
-            少し待たないとフォーカスが移らないため、待つ > フォーカス再設定処理
-            public async void ChangeFocused()
-        #endif
+    #if UNITY_EDITOR
+        少し待たないとフォーカスが移らないため、待つ > フォーカス再設定処理
+        public async void ChangeFocused()
+    #endif
 
     RPGMaker.Codebase.Runtime.Title.TitleController
 
@@ -262,13 +262,69 @@
 
         private async void Option()
 
-        #if UNITY_EDITOR
-            少し待たないとフォーカスが移らないため、待つ > フォーカス再設定処理
-            private async void ChangeFocusedTitle()
-        #endif
+    #if UNITY_EDITOR
+        少し待たないとフォーカスが移らないため、待つ > フォーカス再設定処理
+        private async void ChangeFocusedTitle()
+    #endif
 ```
 
 ## 主に Unity エディターで使われているもの
 
 ```plaintext
+エディター
+
+    RPGMaker.Codebase.Editor.Common.AddonUIUtil.AddonBaseModalWindow
+
+        private static async Task DelayedAsync(CancellationToken token)
+
+    インポートなど、AssetDatabaseの更新を変更するためのAPIクラス
+    RPGMaker.Codebase.Editor.Common.ApiManager
+
+        読み込み（残しておく）
+        public static async void AssetDatabaseStopToRestart()
+
+        タイムアウトの時間を図る（残しておく）
+        private static async void TimeCount()
+
+    RPGMaker.Codebase.Editor.Common.RpgMakerEditor
+
+        private static async Task DelayAuth()
+
+        RpgMakerを認証。
+        private static async Task AuthRpgMaker()
+
+        ツールメニューからエディタを開く処理
+        RPG Maker Uniteを開く
+        [MenuItem(RpgMakerUniteMenuItemPath)]
+        private static async void RpgMakerUniteMenu()
+
+        RPG Maker Unite Window (開発用)を開く
+        [MenuItem(RpgMakerUniteWindowMenuItemPath)]
+        private static async void RpgMakerUniteWindow()
+
+        private static async void SetWindows()
+
+        Playmodeの状態が変わった時に実行される
+        private static async void OnPlayModeStateChanged(PlayModeStateChange state)
+
+#if UNITY_EDITOR
+    RPGMaker.Codebase.Editor.DatabaseEditor.ModalWindow.DlcImporterWindow
+
+        static async Task InitializeAsync()
+
+        static async Task ImportProcessAsync()
+
+        static async Task WaitForEditorReady()
+
+        static async Task<bool> CheckSameNames()
+#endif
+
+#if UNITY_EDITOR
+    RPGMaker.Codebase.Editor.DatabaseEditor.ModalWindow.ImageSelectModalWindow
+
+        private async void SelectImage()
+#endif
+
+...
+
 ```
