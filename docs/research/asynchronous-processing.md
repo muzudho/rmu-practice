@@ -433,12 +433,16 @@
 
 ## 主に Unity エディターで使われているもの
 
-```plaintext
+```
 エディター
 
     RPGMaker.Codebase.Editor.Common.AddonUIUtil.AddonBaseModalWindow
 
         private static async Task DelayedAsync(CancellationToken token)
+```
+
+```
+エディター
 
     インポートなど、AssetDatabaseの更新を変更するためのAPIクラス
     RPGMaker.Codebase.Editor.Common.ApiManager
@@ -448,6 +452,10 @@
 
         タイムアウトの時間を図る（残しておく）
         private static async void TimeCount()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.Common.RpgMakerEditor
 
@@ -469,6 +477,10 @@
 
         Playmodeの状態が変わった時に実行される
         private static async void OnPlayModeStateChanged(PlayModeStateChange state)
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.DatabaseEditor.ModalWindow.DlcImporterWindow
 
@@ -479,61 +491,117 @@
         static async Task WaitForEditorReady()
 
         static async Task<bool> CheckSameNames()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.DatabaseEditor.ModalWindow.ImageSelectModalWindow
 
         private async void SelectImage()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.DatabaseEditor.ModalWindow.SdSelectModalWindow
 
         private async void SelectImage()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.DatabaseEditor.View.Preview.AssetManagePreview
 
         public async void UpdateAssetId(string id)
+```
+
+```
+エディター
+
+    RPGMaker.Codebase.Editor.DatabaseEditor.View.Preview.AssetManagePreview
+
+        public async void UpdateAssetId(string id)
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.DatabaseEditor.View.Preview.BattleScenePreview
 
         public async void Render()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.DatabaseEditor.View.Preview.CustomMovePreview
 
         async void UpdateAsync(UpdateLoop updateLoop)
+```
+
+```
+エディター
 
     データベースエディター用シーンウィンドウ.
     RPGMaker.Codebase.Editor.DatabaseEditor.Window.SceneWindow
 
         一定時間後に再描画を行う / タイトル画面のメニュー部分が、稀に崩れたまま表示されてしまう問題への対応
         public async void ReRender(int time = 500)
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.Hierarchy.HierarchyParams
 
         Hierarchy更新
         public static async Task Refresh(Enum.Region targetRegion = Enum.Region.All, string updateData = null, bool isRefresh = true, bool isForce = false)
+```
+
+```
+エディター
 
     Hierarchy全体を制御するクラス
     RPGMaker.Codebase.Editor.Hierarchy.Hierarchy
 
         Hierarchyのスクロール位置を設定する
         private static async void UpdateHierarchy()
+```
+
+```
+エディター
 
     コモンイベントのHierarchy
     RPGMaker.Codebase.Editor.Hierarchy.Region.CommonEvent.CommonEventHierarchy
 
         コモンイベントのInspector表示
         public async void OpenEventCommonInspector(EventCommonDataModel eventCommonDataModel)
+```
+
+```
+エディター
 
     データベースヒエラルキーのマップ部分
     RPGMaker.Codebase.Editor.Hierarchy.Region.Map.View.MapHierarchyView
 
         最終選択していたマップを返却（待ち時間あり）
         private async void InvokeSelectableElementAction()
+```
+
+```
+エディター
 
     データベースヒエラルキーのマップ部分
     RPGMaker.Codebase.Editor.Hierarchy.Region.Map.View.MapSampleHierarchyView
 
         最終選択していたマップを返却（待ち時間あり）
         private async void InvokeSelectableElementAction()
+```
+
+```
+エディター
 
     DatabaseManagementService取得
     RPGMaker.Codebase.Editor.Inspector.AbstractInspectorElement
@@ -546,23 +614,43 @@
 
         セーブを再度行えるようにする
         protected async void CanSaveOn()
+```
+
+```
+エディター
     
     RPGMaker.Codebase.Editor.Inspector.BattleScene.View.BattleSceneInspectorElement
 
         private static async void InitAllWindow()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.Inspector.Character.View.CharacterInspectorElement
 
         private async void UpdateData()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.Inspector.Map.View.BackgroundCollisionInspector()
 
         private async void SaveTile()
+```
+
+```
+エディター
 
     マップ>イベント設定画面のinspector枠
     RPGMaker.Codebase.Editor.Inspector.Map.View.EventInspector
 
         private async void UpdateDataImport()
+```
+
+```
+エディター
 
     マップエディター用インスペクターウィンドウ.
     RPGMaker.Codebase.Editor.Inspector.Map.View.MapInspectorView
@@ -572,10 +660,18 @@
 
         public void SetTileEntity(TileDataModel tileDataModel, TileInspector.TYPE inspectorType)
             async 匿名関数 使用
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.Inspector.Title.View.TitleInspectorElement
 
         private async void _InitAsync()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.Inspector.Troop.View.TroopInspectorElement
 
@@ -583,17 +679,29 @@
         public static async void LaunchEventEditMode(EventDataModel eventDataModel)
 
         private async void UpdateData()
+```
+
+```
+エディター
 
     [変数の操作]のコマンド設定枠の表示物
     RPGMaker.Codebase.Editor.MapEditor.Component.CommandEditor.GameProgress.GameVariable
 
         private async void WaitMilliSecond()
+```
+
+```
+エディター
 
     タイルリストコンポーネント
     RPGMaker.Codebase.Editor.MapEditor.Component.ListView.TileListView
 
         初回のタイル画像描画処理 / タイルが画面に置かれて配置場所が確定後に実施する
         private async void InitializeDrawImage()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.MapEditor.MapEditor
 
@@ -624,6 +732,10 @@
         
         タイルを保存する.
         public static async Task<List<bool>> SaveTile(List<TileDataModel> tileDataModel)
+```
+
+```
+エディター
 
     実行内容枠のウィンドウ
     RPGMaker.Codebase.Editor.MapEditor.Window.EventEdit.ExecutionContentsWindow
@@ -631,6 +743,10 @@
         private async void SaveWait(bool initEvent)
 
         private async void SaveEnd()
+```
+
+```
+エディター
 
     RPGMaker.Codebase.Editor.OutlineEditor.OutlineEditor
 
