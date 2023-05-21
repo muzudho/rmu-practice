@@ -522,15 +522,27 @@
 
         private static async void ChangeMoveSubject(_moveTypeEnum type)
 
+            await Task.Delay(500);
+
+            await Task.Delay(500);
+
         乗り物に乗る
         public static async void TryToRideFromThePlayerToVehicle()
 
+            await SoundManager.Self().PlayBgm();
+
         public static async void NextEvent()
+
+            await Task.Delay(500);
 
         public static async void PartyMemberAllInCoordinate(ReasonForPartyMemberAllIn reason,[CanBeNull] Action  callback = null)
 
+            await Task.Delay(1000/60);
+
         乗り物降りるメソッド / 降りれる方向が入ってくる
         private static async void GetOffVehicle(CharacterMoveDirectionEnum Direction)
+
+            await SoundManager.Self().PlayBgm();
 ```
 
 ```
@@ -541,9 +553,19 @@
 
         async Task FocusGroupAsync(DebugToolButton button)
 
+            await Task.Delay(1);
+
+            await Task.Delay(2);
+
+            await Task.Delay(2);
+
         async Task DelayCallAsync(int milliSec, System.Action action)
 
+            await Task.Delay(milliSec);
+
         async Task RefreshValueListAndFocusAsync(DebugToolGroupItem groupItem)
+
+            await Task.Delay(2);
 ```
 
 ```
@@ -554,6 +576,9 @@
 
     #if UNITY_EDITOR
         public async void ChangeFocused()
+
+        //少し待たないとフォーカスが移らないため、待つ
+        await Task.Delay(10);
     #endif
 ```
 
@@ -565,8 +590,13 @@
         イベントに復帰する
         private async void ResumeEvent()
 
+            await Task.Delay(500);
+
         GameState切り替え処理
         private async void ChangeGameState(GameStateHandler.GameState state)
+
+            //次の入力までの間にDelayを設ける 1/60単位でキー受付するのは早すぎるため
+            await Task.Delay(100);
 ```
 
 ```
@@ -577,6 +607,9 @@
     #if UNITY_EDITOR
         少し待たないとフォーカスが移らないため、待つ > フォーカス再設定処理
         public async void ChangeFocused()
+
+            //少し待たないとフォーカスが移らないため、待つ
+            await Task.Delay(10);
     #endif
 ```
 
@@ -587,14 +620,23 @@
 
         private async void PlayBgm(RuntimeConfigDataModel config)
 
+            await SoundManager.Self().PlayBgm();
+
         セーブ画面を開く。ロード可能なセーブデータが無い場合はブザーを鳴らす。
         private async void Continue()
 
+            await Task.Delay(500);
+
         private async void Option()
+
+            await Task.Delay(500);
 
     #if UNITY_EDITOR
         少し待たないとフォーカスが移らないため、待つ > フォーカス再設定処理
         private async void ChangeFocusedTitle()
+
+            //少し待たないとフォーカスが移らないため、待つ
+            await Task.Delay(10);
     #endif
 ```
 
@@ -606,6 +648,8 @@
     RPGMaker.Codebase.Editor.Common.AddonUIUtil.AddonBaseModalWindow
 
         private static async Task DelayedAsync(CancellationToken token)
+
+            await Task.Delay(TimeSpan.FromMilliseconds(_delayedTime), token);
 ```
 
 ```
@@ -617,8 +661,12 @@
         読み込み（残しておく）
         public static async void AssetDatabaseStopToRestart()
 
+            await Task.Delay(1);
+
         タイムアウトの時間を図る（残しておく）
         private static async void TimeCount()
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -628,22 +676,45 @@
 
         private static async Task DelayAuth()
 
+            await Task.Delay(1);
+
+            await Task.Delay(1);
+
+            await Task.Delay(1);
+
+            await AuthRpgMaker();
+
         RpgMakerを認証。
         private static async Task AuthRpgMaker()
+
+            // 認証
+            switch (await Auth.AttemptToAuthenticate())
 
         ツールメニューからエディタを開く処理
         RPG Maker Uniteを開く
         [MenuItem(RpgMakerUniteMenuItemPath)]
         private static async void RpgMakerUniteMenu()
 
+            await DelayAuth();
+
         RPG Maker Unite Window (開発用)を開く
         [MenuItem(RpgMakerUniteWindowMenuItemPath)]
         private static async void RpgMakerUniteWindow()
 
+            // UnityのAssetStoreへのログインが完了するのを待ってから、認証処理を走らせる
+            await DelayAuth();
+
         private static async void SetWindows()
+
+            await Task.Delay(2000);
+
+            //少しまってからフォーカスをあてなおさないと、タイミングによってタブが切り替わらない
+            await Task.Delay(1000);
 
         Playmodeの状態が変わった時に実行される
         private static async void OnPlayModeStateChanged(PlayModeStateChange state)
+
+            await Task.Delay(100);
 ```
 
 ```
@@ -653,11 +724,45 @@
 
         static async Task InitializeAsync()
 
+            await Task.Delay(10);
+
+            await Task.Delay(500);
+
+            await ImportProcessAsync();
+
+
         static async Task ImportProcessAsync()
+
+            await WaitForEditorReady();
+
+            var exec = await CheckSameNames();
+
+            var result = await AssetManageImporter.ImportFile(importFileDataList);
+
+        #if true    //for debug
+            Debug.Log($"Processing ... {dstFilename}");
+            await Task.Delay(1);
+        #endif
+
+            await RPGMaker.Codebase.Editor.MapEditor.MapEditor.SaveTile(tileDataModelList);
+
+            await RPGMaker.Codebase.Editor.MapEditor.MapEditor.SaveTile(tileDataModel);
+
+            await RPGMaker.Codebase.Editor.MapEditor.MapEditor.SaveTile(tileDataModelList);
 
         static async Task WaitForEditorReady()
 
+            await Task.Delay(1);
+            await Task.Delay(1);
+            await Task.Delay(1);
+
+            await Task.Delay(100);
+
         static async Task<bool> CheckSameNames()
+
+            await Task.Delay(100);
+
+            await Task.Delay(10);
 ```
 
 ```
@@ -666,6 +771,8 @@
     RPGMaker.Codebase.Editor.DatabaseEditor.ModalWindow.ImageSelectModalWindow
 
         private async void SelectImage()
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -674,6 +781,8 @@
     RPGMaker.Codebase.Editor.DatabaseEditor.ModalWindow.SdSelectModalWindow
 
         private async void SelectImage()
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -682,14 +791,8 @@
     RPGMaker.Codebase.Editor.DatabaseEditor.View.Preview.AssetManagePreview
 
         public async void UpdateAssetId(string id)
-```
 
-```
-エディター
-
-    RPGMaker.Codebase.Editor.DatabaseEditor.View.Preview.AssetManagePreview
-
-        public async void UpdateAssetId(string id)
+            await Task.Delay(50);
 ```
 
 ```
@@ -698,6 +801,9 @@
     RPGMaker.Codebase.Editor.DatabaseEditor.View.Preview.BattleScenePreview
 
         public async void Render()
+
+            //少し待ってからSceneWindowの再描画を行う
+            await Task.Delay(1);
 ```
 
 ```
@@ -706,6 +812,8 @@
     RPGMaker.Codebase.Editor.DatabaseEditor.View.Preview.CustomMovePreview
 
         async void UpdateAsync(UpdateLoop updateLoop)
+
+            await Task.Delay(1000 / 15);
 ```
 
 ```
@@ -716,6 +824,8 @@
 
         一定時間後に再描画を行う / タイトル画面のメニュー部分が、稀に崩れたまま表示されてしまう問題への対応
         public async void ReRender(int time = 500)
+
+            await Task.Delay(time);
 ```
 
 ```
@@ -725,6 +835,8 @@
 
         Hierarchy更新
         public static async Task Refresh(Enum.Region targetRegion = Enum.Region.All, string updateData = null, bool isRefresh = true, bool isForce = false)
+
+            await Task.Delay(2);
 ```
 
 ```
