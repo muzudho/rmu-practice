@@ -2,9 +2,13 @@
 
 ## Unity 側
 
+![Original unity version](../docs/img/202305__rmu__21-1303--original-unity-version-o2o0.png)  
+
+* 👆 Original unity version を調べる。最新の情報を探してほしい。買うところには書いてあるだろう  
+
 ![Unity download archive](../docs/img/202305__rmu__21-1259--unity-download-archive-o1o0.png)  
 
-* もし Unity のバージョンを `Unity 2021.3.16f` に合わせたいなら、以下のリンク先から入手する  
+* 👆 もし Unity のバージョンを `Unity 2021.3.16f` に合わせたいなら、以下のリンク先から入手する  
     📖 [Unity download archive](https://unity.com/releases/editor/archive)
 
 ## RPG Maker Unite 側
@@ -105,5 +109,10 @@ RPG Maker Unite のエディターの想定したファースト・ビューで�
 ![Launched](./img/202305__rmu__12-0013--launched-o1o0.png)  
 
 👆　このサンプル・ゲームのタイトル画面が出てきたら、ロード完了  
+
+# 以下、プログラマー向けの内容
+
+* 📖 [Unity Documentation > #define ディレクティブ](https://docs.unity3d.com/ja/2021.2/Manual/PlatformDependentCompilation.html)  
+    👆 リリース・ビルドするために知識が必要になる
 
 🏠[トップページへ戻る](../README.md)  
