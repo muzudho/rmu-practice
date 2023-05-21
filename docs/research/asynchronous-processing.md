@@ -8,34 +8,82 @@
     RPGMaker.Codebase.CoreSystem.Helper.AddressableManager
 
         public static async Task<bool> CheckResourceExistence(string path)
-    
+
+            // path_replace の存在有無を返却
+            AsyncOperationHandle<IList<IResourceLocation>> checkHandle = Addressables.LoadResourceLocationsAsync(path_replace);
+            await checkHandle.Task;
+```
+
+```
+コア・システム
+
     RPGMaker.Codebase.CoreSystem.Service.DatabaseManagement.AssetManageImporter
 
         public static async Task<List<bool>> ImportFile(
             List<ImportFileData> importFileData) 
 
+            ※ await 未使用
+```
+
+```
+コア・システム
+
     RPGMaker.Codebase.CoreSystem.Service.MapManagement.MapManagementService
 
         public async Task<bool> SaveTile(TileDataModel tileDataModel)
 
+            return await _tileRepository.StoreTileEntity(tileDataModel);
+
+
         public async Task<List<bool>> SaveTile(List<TileDataModel> tileDataModel)
+
+            return await _tileRepository.StoreTileEntity(tileDataModel);
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.CoreSystem.Service.MapManagement.Repository.TileRepository
 
         タイルを保存する
         public async Task<bool> StoreTileEntity(TileDataModel tileDataModel)
 
+            // 大型パーツタイルの親パーツなら専用のメソッドを呼ぶ。
+            await GenerateLargePartsTileAssets(tileDataModel, assetPath);
+
+            // 1ms待つ（読み込み用）
+            await Task.Delay(1);
+
+            // 1ms待つ（読み込み用）
+            await Task.Delay(1);
+
         タイルを保存する
         public async Task<List<bool>> StoreTileEntity(List<TileDataModel> tileDataModel)
 
+            // 1ms待つ（読み込み用）
+            await Task.Delay(1);
+
+            // 1ms待つ（読み込み用）
+            await Task.Delay(1);
+
         大型パーツタイルを構成するアセットファイル群を生成・保存する
         private static async Task GenerateLargePartsTileAssets(TileDataModel tileDataModel, string assetPath)
+
+            // 1ms待つ（読み込み用）
+            await Task.Delay(1);
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Battle.BattleEventCommandChainLauncher
 
         イベント実行終了
         private async void EndDelayCommandChain()
+```
 
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Battle.BattleManager
 
@@ -50,18 +98,29 @@
 
         BGMとBGSの続きを再生
         public static async void ReplayBgmAndBgs()
+```
 
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Battle.Objects.GameActor
 
         攻撃動作を実行
         public async void PerformAttack()
+```
+
+```
+コア・システム
 
     サイドビューのアクター表示用のスプライト
     RPGMaker.Codebase.Runtime.Battle.Sprites.SpriteActor
 
         ステートのスプライトを生成
         public async void CreateStateSprite()
+```
+
+```
+コア・システム
 
     アニメーションする表示物のためのクラス
     RPGMaker.Codebase.Runtime.Battle.Sprites.SpriteBase
@@ -74,28 +133,48 @@
 
         アイコン初期化
         public async void CreateStateIconSprite()
+```
+
+```
+コア・システム
 
     戦闘シーン用のスプライトセット。[背景][アクター][敵キャラ]を含む / Unite用に作り替えている
     RPGMaker.Codebase.Runtime.Battle.Sprites.SpritesetBattle
 
         初期化処理
         public async void Initialize()
+```
+
+```
+コア・システム
 
     [アイテム]の選択ウィンドウ
     RPGMaker.Codebase.Runtime.Battle.Window.WindowItemList
 
         コンテンツの再描画の後、若干待ってから実行する処理
         private async void RefreshAft()
+```
+
+```
+コア・システム
 
     [スキル]の選択ウィンドウ
     RPGMaker.Codebase.Runtime.Battle.Window.WindowSkillList
 
         コンテンツの再描画の後、若干待ってから実行する処理
         private async void RefreshAft()
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Common.Component.Hud.Character.MovePlace
 
         private async void ReflectionBgmBgs(MapDataModel nextMap)
+```
+
+```
+コア・システム
 
     バトルでは本コマンドは利用しない
     キャラクターの座標が必要 / キャラクターの画像を変える必要がある
@@ -111,21 +190,37 @@
             bool isActor = false)
 
         private async void WaitMillSec(int nowEventIndex)
+```
+
+```
+コア・システム
 
     バトルでは本コマンドは利用しない
     RPGMaker.Codebase.Runtime.Common.Component.Hud.Display.MapChangeName
 
         マップ名の表示削除用
         private async void CloseMapNameDisplay()
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Common.Component.Hud.Picture
 
         private async void ExecuteCallback(Action action)
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Common.PartyWindow
 
         フォーカス設定
         private async void SetFocusAft(int index = 0)
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Common.SoundManager
 
@@ -153,57 +248,105 @@
     #else
         private static async Task<AudioClip> LoadAudioClip(string folderName, string filename, string extention)
     #endif
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.CoreSystem.Helper.WindowButtonBase
 
         private async void OnClickWaitFrame()
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Event.AudioVideo.BgmPlayProcessor
 
         サウンドの再生 > 次のイベントへ
         private async void PlaySound()
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Event.AudioVideo.BgsPlayProcessor
 
         サウンドの再生 > 次のイベントへ
         private async void PlaySound()
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Event.AudioVideo.MePlayProcessor
 
         サウンドの再生 > 次のイベントへ
         private async void PlaySound()
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Event.Battle.BattleExecCommand
 
         private async void ProcessEndAction()
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Event.Message.MessageInputSelectProcessor
 
         private async void FirstFocusSetting(Button button, int index)
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Event.Message.MessageTextOnLineProcessor
 
         private async void DelayAndSetEvent()
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Event.Party.PartyCharacterChangeProcess
 
         private async void ProcessExecute()
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.GameOver.SceneGameOver
 
         protected async void PlayMe()
+```
+
+```
+コア・システム
 
     時間経過に伴うActionの実行を管理するクラス
     RPGMaker.Codebase.Runtime.Common.TimeHandler
 
         1msだけ処理を待ち、Actionを実行する / スタックオーバーフロー対策であり、実際に待ちたいわけではない場合にのみ利用する
         public async void WaitMillisec(Action action)
+```
+
+```
+コア・システム
 
     マップイベントの実行状態を管理するためのクラス
     RPGMaker.Codebase.Runtime.Map.MapEventExecutionController
 
         private async void RestartParallelEvent(EventMapDataModel eventMapDataModel, EventDataModel eventDataModel)
             //並列イベントは同時に何個も動作するため、TimeHandlerを利用せずに直接awaitする
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Map.MapManager
 
@@ -221,6 +364,10 @@
 
         乗り物降りるメソッド / 降りれる方向が入ってくる
         private static async void GetOffVehicle(CharacterMoveDirectionEnum Direction)
+```
+
+```
+コア・システム
 
     コアシステムサービス / FIXME 本来コンポーネントから直接コアシステムにアクセスするのはよくない Initの引数で受け取るべき
     RPGMaker.Codebase.Runtime.Map.Menu.DebugToolGroupMenu
@@ -230,6 +377,10 @@
         async Task DelayCallAsync(int milliSec, System.Action action)
 
         async Task RefreshValueListAndFocusAsync(DebugToolGroupItem groupItem)
+```
+
+```
+コア・システム
 
     タイトル画面またはゲームのメインメニューから開くセーブロード画面
     RPGMaker.Codebase.Runtime.Map.Menu.SaveMenu
@@ -237,6 +388,10 @@
     #if UNITY_EDITOR
         public async void ChangeFocused()
     #endif
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Map.MenuBase
 
@@ -245,6 +400,10 @@
 
         GameState切り替え処理
         private async void ChangeGameState(GameStateHandler.GameState state)
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Title.OptionController
 
@@ -252,6 +411,10 @@
         少し待たないとフォーカスが移らないため、待つ > フォーカス再設定処理
         public async void ChangeFocused()
     #endif
+```
+
+```
+コア・システム
 
     RPGMaker.Codebase.Runtime.Title.TitleController
 
