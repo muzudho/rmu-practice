@@ -164,4 +164,4 @@ RPGMaker.Codebase.Editor.Common.RpgMakerEditor
 
 ```
 
-🏠 [トップページへ戻る](../README.md)  
+🏠 [トップページへ戻る](../../README.md)  

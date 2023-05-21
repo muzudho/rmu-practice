@@ -14,4 +14,4 @@
 * 📖 [Debug C# code in Unity](https://docs.unity.cn/ja/2021.3/Manual/ManagedCodeDebugging.html)  
     👆 リリース・ビルドするために知識が必要になる
 
-🏠[トップページへ戻る](../README.md)  
+🏠[トップページへ戻る](../../README.md)  

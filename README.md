@@ -2,14 +2,12 @@
 
 RPG Maker UNITE の練習
 
-* [RPG Maker Unite のインストール](./docs/install-rmu.md)
-* [ドキュメントを探す](./docs/documents.md)
-* [コミュニティを探す](./docs/community-o1o0.md)
-* [Visual Studio の設定](./docs/visual-studio-o1o0.md)
+* [ドキュメントを探す](./docs/research/documents.md)
+* [コミュニティを探す](./docs/research/community.md)
 
 ## RMU v1.0.0 実装調査
 
-* 📄 [構成要素](./docs/components.md)
+* 📄 [構成要素](./docs/research/components.md)
 * 📁 [処理時間計測データ](./data/stopwatch)
 
 ## Unity と、それ以外のプログラミングの違いでつまづくとこ
@@ -19,6 +17,9 @@ RPG Maker UNITE の練習
 
 ## プログラミング
 
+* 開発環境のセットアップ
+    * [RPG Maker Unite のインストール](./docs/research/install-rmu.md)
+        * [Visual Studio の設定](./docs/research/visual-studio.md)
 * 計測
     * 📄 [処理時間計測の方法](./docs/processing-time-measurement-method.md)
 * 改造
