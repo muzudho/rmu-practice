@@ -32,23 +32,56 @@ namespace Apple.Banana.Cherry
 
 参考: 📖 [Unity Documentation > 特殊なフォルダー名](https://docs.unity3d.com/ja/2019.4/Manual/SpecialFolders.html)  
 
-例えば、 `RPGMaker.CodeBase.Editor` プロジェクトのソースコードが、Unity エディター用とそれ以外とに分かれていないのは当然だ  
+# 以下の現状は、当然に思える
+
+* `RPGMaker.CodeBase.Editor` プロジェクトのソースコードが、Unity エディター用とそれ以外とに分かれていないこと
+* Visual Studio の `Release` モードでビルドするなら、 Unity エディター用の C# スクリプトが含まれないこと
+
+だから、 **Visual Studio** では、 `Release` モードでビルドすると、 Unity エディター用のコードがコンパイルできないことは当然と思えるし  
+**Unity** には、 `Editor` フォルダー以外のソースだけを選んでビルドするような仕掛けがあるのだろうと推測する  
 
 ## 問題点
 
-👇 前提知識を踏まえ、それにも関わらず、  
-Visual Studio 2022 で Release モードにすると、  
-`RPGMaker.CodeBase.Editor` は Unity エディター用とはみなされず、エラーが出る  
+👇 Visual Studio 2022 で `Release` モードにし、ビルドすると、  
+`RPGMaker.CodeBase.Editor` のような Unity エディター用のソースも含まれているので、  
+一緒にビルドされ、エラーが出る  
 
 ![Unity エディター用と認識されていない](../img/202305__rmu__21-1622--there-is-no-unity-editor-preprocessor-directive-o2o0.png)  
 
-これは、 Unity が利用している C# コンパイラーと、  
-Visual Studio 2022 が利用している C# コンパイラーが別物か、設定が異なるからと推測する  
+このように `Release` モードでビルドできないなら、 `Release` モードに不具合がないかということを Visual Studio 上で調査できない。  
+`Editor` フォルダー以外のソースだけをビルドするような仕掛けは、 Visual Studio でできるだろうか？  
 
-📄 [Unity Documentation > C# コンパイラー](https://docs.unity3d.com/ja/2020.3/Manual/CSharpCompiler.html)  
+参考: 📄 [Unity Documentation > C# コンパイラー](https://docs.unity3d.com/ja/2020.3/Manual/CSharpCompiler.html)  
 
 ## やること
 
-ソースコードを `#if UNITY_EDITOR` と `#endif` で囲みたい
+仕方がないので、  
+`Editor` という名前のフォルダーの下にあるソースであっても、  
+ソースコードを `#if UNITY_EDITOR` と `#endif` で囲めば、 `Release` モードでビルドできるかもしれない。  
+試みてみたい  
+
+👇 RMU のソースは以下のような作法になっているから...  
+
+```cs
+using DragonFruit.Eggplant.Fig;
+
+namespace Apple.Banana.Cherry
+{
+    // ここにコードがある
+}
+```
+
+👇 以下のように書き換える  
+
+```cs
+namespace Apple.Banana.Cherry
+{
+#if UNITY_EDITOR
+    using DragonFruit.Eggplant.Fig;
+
+    // ここにコードがある
+#end
+}
+```
 
 🏠[トップページへ戻る](../../README.md)  

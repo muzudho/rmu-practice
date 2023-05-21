@@ -17,4 +17,4 @@ RPG Maker UNITE の練習
 * 計測
     * 📄 [処理時間計測の方法](./docs/processing-time-measurement-method.md)
 * 改造
-    * 📄 [UNITY_EDITOR プリプロセッサ・ディレクティブの追加](./docs/remodeling/unity-editor-preprocessor-directive.md)
+    * 📄 [UNITY_EDITOR プリプロセッサ・ディレクティブの追加（改悪を行う）](./docs/remodeling/unity-editor-preprocessor-directive.md)
