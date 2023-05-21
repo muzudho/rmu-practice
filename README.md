@@ -7,8 +7,8 @@ RPG Maker UNITE の練習
 
 ## RMU v1.0.0 実装調査
 
-* 📄 [構成要素](./docs/research/components.md)
 * 📁 [処理時間計測データ](./data/stopwatch)
+* 📄 [構成要素](./docs/research/components.md)
 
 ## Unity と、それ以外のプログラミングの違いでつまづくとこ
 
