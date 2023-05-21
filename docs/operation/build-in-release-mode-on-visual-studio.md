@@ -1,10 +1,10 @@
 # Visual Studio の Release モードでビルドする方法
 
-## やりたいこと
+# やりたいこと
 
 Visual Studio の `Release` モードでビルドしたい  
 
-## 問題点
+# 問題点
 
 コンパイル・エラーが出る  
 
@@ -44,7 +44,7 @@ namespace Apple.Banana.Cherry
     * 📖 [Unity Documentation > 特殊なフォルダー名](https://docs.unity3d.com/ja/2019.4/Manual/SpecialFolders.html)
     * 📄 [Unity Documentation > C# コンパイラー](https://docs.unity3d.com/ja/2020.3/Manual/CSharpCompiler.html)
 
-# 以下の現状は、当然に思える
+## 以下の現状は、当然に思える
 
 * `RPGMaker.CodeBase.Editor` プロジェクトのソースコードが、Unity エディター用とそれ以外とに分かれていないこと
 * Visual Studio の `Release` モードでビルドするなら、 Unity エディター用の C# スクリプトが含まれないこと
@@ -60,7 +60,7 @@ namespace Apple.Banana.Cherry
 
 ![Unity エディター用と認識されていない](../img/202305__rmu__21-1622--there-is-no-unity-editor-preprocessor-directive-o2o0.png)  
 
-## 解決方法
+# 解決方法
 
 Unity エンジン用かどうか見分けるのに、  
 
