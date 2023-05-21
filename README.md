@@ -9,6 +9,7 @@ RPG Maker UNITE の練習
 
 * 📁 [処理時間計測データ](./data/stopwatch)
 * 📄 [構成要素](./docs/research/components.md)
+* 📄 [非同期処理](./docs/research/asynchronous-processing.md)
 
 ## Unity と、それ以外のプログラミングの違いでつまづくとこ
 
