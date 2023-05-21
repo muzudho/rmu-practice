@@ -12,11 +12,14 @@ RPG Maker UNITE の練習
 * 📄 [構成要素](./docs/components.md)
 * 📁 [処理時間計測データ](./data/stopwatch)
 
+## Unity と、それ以外のプログラミングの違いでつまづくとこ
+
+* 操作
+    * 📄 [Visual Studio の Release モードでビルドする方法](./docs/operation/build-in-release-mode-on-visual-studio.md)
+
 ## プログラミング
 
 * 計測
     * 📄 [処理時間計測の方法](./docs/processing-time-measurement-method.md)
-* 操作
-    * 📄 [Visual Studio の Release モードでビルドする方法](./docs/operation/build-in-release-mode-on-visual-studio.md)
 * 改造
     * 📄 [using ディレクティブは namespace の内側に入れる（趣味）](./docs/remodeling/using-directive-in-namespace.md)
