@@ -53,7 +53,7 @@ namespace Apple.Banana.Cherry
 
 参考: 📄 [Unity Documentation > C# コンパイラー](https://docs.unity3d.com/ja/2020.3/Manual/CSharpCompiler.html)  
 
-## やること
+## やりたいこと
 
 仕方がないので、  
 `Editor` という名前のフォルダーの下にあるソースであっても、  
@@ -83,5 +83,11 @@ namespace Apple.Banana.Cherry
 #end
 }
 ```
+
+## やりかた
+
+👇 手作業でコードを編集していると大変なので、ツールのちからを借りる  
+
+参考: 📖 [using ディレクティブは namespace の内側に入れる](./using-directive-in-namespace.md)  
 
 🏠[トップページへ戻る](../../README.md)  
