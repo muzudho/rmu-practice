@@ -1,5 +1,12 @@
 # RPG Maker Unite のインストール
 
+## Unity 側
+
+* もし Unity のバージョンを `Unity 2021.3.16f` に合わせたいなら、以下のリンク先から入手する  
+    📖 [Unity download archive](https://unity.com/releases/editor/archive)
+
+## RPG Maker Unite 側
+
 Unity の新しいプロジェクトを開けておく  
 
 Unity Asset Store で RPG Maker Unite を購入したあと、  
