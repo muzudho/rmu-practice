@@ -1,5 +1,20 @@
 # RPG Maker Unite のインストール
 
+👇 以下の３つをインストールする
+
+* `Visual Studio`
+* `Unity`
+* `RPG Maker Unite (RMU)`
+
+`Visual Studio` は、 RPG ツクールだけを使い、 Unity を使わないような読者には不要だが、  
+本書を読むような読者には 必要  
+
+## Visual Studio 側
+
+![Unity によるゲーム開発](./img/202305__rmu__21-1646--install-unity-on-visual-studio-o2o0.png)  
+
+`Unity によるゲーム開発` を入れる  
+
 ## Unity 側
 
 ![Original unity version](../docs/img/202305__rmu__21-1303--original-unity-version-o2o0.png)  
@@ -11,7 +26,7 @@
 * 👆 もし Unity のバージョンを `Unity 2021.3.16f` に合わせたいなら、以下のリンク先から入手する  
     📖 [Unity download archive](https://unity.com/releases/editor/archive)
 
-## RPG Maker Unite 側
+## RMU 側
 
 Unity の新しいプロジェクトを開けておく  
 
