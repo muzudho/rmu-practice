@@ -80,6 +80,12 @@
 
         イベント実行終了
         private async void EndDelayCommandChain()
+
+            //ここで少し待ち、イベント終了契機がキーなどの入力だった場合に、後続のイベント等が発動しないようにする
+            await Task.Delay(100);
+
+            //ここで少し待ち、イベント終了直後に別のイベントが発動することを抑制する
+            await Task.Delay(100);
 ```
 
 ```
@@ -90,14 +96,23 @@
         戦闘BGMを再生
         public static async void PlayBattleBgm(SoundCommonDataModel bgm)
 
+            await SoundManager.Self().PlayBgm();
+
         勝利MEを再生
         public static async void PlayVictoryMe()
+
+            await SoundManager.Self().PlayMe();
 
         敗北MEを再生
         public static async void PlayDefeatMe()
 
+            await SoundManager.Self().PlayMe();
+
         BGMとBGSの続きを再生
         public static async void ReplayBgmAndBgs()
+
+            await SoundManager.Self().PlayBgm();
+            await SoundManager.Self().PlayBgs();
 ```
 
 ```
@@ -107,6 +122,11 @@
 
         攻撃動作を実行
         public async void PerformAttack()
+
+            //武器アニメーションの指定
+            //一歩前に出る分待つ
+            //一歩前に出るのは12fで、フラグのON/OFF分の2Fを加えた分待つ
+            await Task.Delay(Mathf.RoundToInt(14f / 60f * 1000));
 ```
 
 ```
@@ -117,6 +137,9 @@
 
         ステートのスプライトを生成
         public async void CreateStateSprite()
+
+            //画面に生成されていないと、以降の処理で座標計算が行えないため待つ
+            await Task.Delay(1000 / 60);
 ```
 
 ```
@@ -128,11 +151,17 @@
         アニメーションの再生開始
         public async void StartAnimation(AnimationDataModel animation, bool mirror, float delay, bool isActor)
 
-        [敵キャラ]表示用のスプライトクラス
-        RPGMaker.Codebase.Runtime.Battle.Sprites.SpriteEnemy
+            //指定されたフレーム数待つ
+            await Task.Delay(Mathf.RoundToInt(delay / 60f * 1000));
+
+    [敵キャラ]表示用のスプライトクラス
+    RPGMaker.Codebase.Runtime.Battle.Sprites.SpriteEnemy
 
         アイコン初期化
         public async void CreateStateIconSprite()
+
+            //画面に生成されていないと、以降の処理で座標計算が行えないため待つ
+            await Task.Delay(1000 / 60);
 ```
 
 ```
@@ -143,6 +172,8 @@
 
         初期化処理
         public async void Initialize()
+
+            await Task.Delay(10);
 ```
 
 ```
@@ -153,6 +184,8 @@
 
         コンテンツの再描画の後、若干待ってから実行する処理
         private async void RefreshAft()
+
+            await Task.Delay(100);
 ```
 
 ```
@@ -163,6 +196,8 @@
 
         コンテンツの再描画の後、若干待ってから実行する処理
         private async void RefreshAft()
+
+            await Task.Delay(100);
 ```
 
 ```
@@ -171,6 +206,12 @@
     RPGMaker.Codebase.Runtime.Common.Component.Hud.Character.MovePlace
 
         private async void ReflectionBgmBgs(MapDataModel nextMap)
+
+            //サウンドの再生
+            await SoundManager.Self().PlayBgm();
+
+            //サウンドの再生
+            await SoundManager.Self().PlayBgs();
 ```
 
 ```
@@ -189,7 +230,11 @@
             string thisEventId,
             bool isActor = false)
 
+            await Task.Delay(1);
+
         private async void WaitMillSec(int nowEventIndex)
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -200,6 +245,8 @@
 
         マップ名の表示削除用
         private async void CloseMapNameDisplay()
+
+            await Task.Delay(1000);
 ```
 
 ```
@@ -208,6 +255,8 @@
     RPGMaker.Codebase.Runtime.Common.Component.Hud.Picture
 
         private async void ExecuteCallback(Action action)
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -217,6 +266,8 @@
 
         フォーカス設定
         private async void SetFocusAft(int index = 0)
+
+            await Task.Delay(10);
 ```
 
 ```
@@ -226,7 +277,21 @@
 
         public async Task PlayBgm(Action action)
 
+            await PlayBgm();
+
+
         public async Task PlayBgm()
+
+#if USE_PARTIAL_LOOP
+            int loopStartSamples = -1;
+            int loopEndSamples = -1;
+            (_bgmClip.clip, loopStartSamples, loopEndSamples) = await GetClip(_bgmSoundCommon?.name, SoundType.BGM);
+            _bgmClip.SetLoopInfo(loopStartSamples, loopEndSamples);
+#else
+            _bgmClip.clip = await GetClip(_bgmSoundCommon?.name, SoundType.BGM);
+#endif
+
+            await Task.Delay(1);
 
     #if USE_PARTIAL_LOOP
         private async Task<(AudioClip, int, int)> GetClip(string clipName, SoundType soundType)
@@ -234,20 +299,89 @@
         private static async Task<AudioClip> GetClip(string clipName, SoundType soundType)
     #endif
 
+#if USE_PARTIAL_LOOP
+                (sounddata, loopStartSamples, loopEndSamples) = await LoadAudioClip(type, clipName, clipName.EndsWith(extension) ? "ogg" : "wav");
+#else
+                sounddata = await LoadAudioClip(type, clipName, clipName.EndsWith(extension) ? "ogg" : "wav");
+#endif
+
+#if USE_PARTIAL_LOOP
+                (sounddata, loopStartSamples, loopEndSamples) = await LoadAudioClip(type, clipName + extension, "ogg");
+#else
+                sounddata = await LoadAudioClip(type, clipName + extension, "ogg");
+#endif
+
+#if USE_PARTIAL_LOOP
+                (sounddata, loopStartSamples, loopEndSamples) = await LoadAudioClip(type, clipName + extension2, "wav");
+#else
+                sounddata = await LoadAudioClip(type, clipName + extension2, "wav");
+#endif
+
+#if USE_PARTIAL_LOOP
+                (sounddata, loopStartSamples, loopEndSamples) = await LoadAudioClip(type2, clipName, clipName.EndsWith(extension) ? "ogg" : "wav");
+#else
+                sounddata = await LoadAudioClip(type2, clipName, clipName.EndsWith(extension) ? "ogg" : "wav");
+#endif
+
+#if USE_PARTIAL_LOOP
+                (sounddata, loopStartSamples, loopEndSamples) = await LoadAudioClip(type2, clipName + extension, "ogg");
+#else
+                sounddata = await LoadAudioClip(type2, clipName + extension, "ogg");
+#endif
+
+#if USE_PARTIAL_LOOP
+                (sounddata, loopStartSamples, loopEndSamples) = await LoadAudioClip(type2, clipName + extension2, "wav");
+#else
+                sounddata = await LoadAudioClip(type2, clipName + extension2, "wav");
+#endif
+
         BGMの再開。
         public async void ContinueBgm()
 
+#if USE_PARTIAL_LOOP
+            int loopStartSamples = -1;
+            int loopEndSamples = -1;
+            (_bgmClip.clip, loopStartSamples, loopEndSamples) = await GetClip(_bgmSoundCommon.name = _bgmSavedSoundData.clipName, SoundType.BGM);
+            _bgmClip.SetLoopInfo(loopStartSamples, loopEndSamples);
+#else
+            _bgmClip.clip = await GetClip(_bgmSoundCommon.name = _bgmSavedSoundData.clipName, SoundType.BGM);
+#endif
+
         public async Task PlayBgs()
+
+#if USE_PARTIAL_LOOP
+            int loopStartSamples = -1;
+            int loopEndSamples = -1;
+            (_bgsClip.clip, loopStartSamples, loopEndSamples) = await GetClip(_bgsSoundCommon?.name, SoundType.BGS);
+            _bgsClip.SetLoopInfo(loopStartSamples, loopEndSamples);
+#else
+            _bgsClip.clip = await GetClip(_bgsSoundCommon?.name, SoundType.BGS);
+#endif
 
         public async Task PlayMe()
 
+#if USE_PARTIAL_LOOP
+            (_meClip.clip, _, _) = await GetClip(_meSoundCommon?.name, SoundType.ME);
+#else
+            _meClip.clip = await GetClip(_meSoundCommon?.name, SoundType.ME);
+#endif
+
         public async void PlaySe()
+
+#if USE_PARTIAL_LOOP
+            AudioClip sounddata;
+            (sounddata, _, _) = await GetClip(_seSoundCommon?.name, SoundType.SE);
+#else
+            AudioClip sounddata = await GetClip(_seSoundCommon?.name, SoundType.SE);
+#endif
 
     #if USE_PARTIAL_LOOP
         private static async Task<(AudioClip, int, int)> LoadAudioClip(string folderName, string filename, string extention)
     #else
         private static async Task<AudioClip> LoadAudioClip(string folderName, string filename, string extention)
     #endif
+
+            if (await AddressableManager.Load.CheckResourceExistence("Assets/RPGMaker/Storage/Sounds/" + folderName + "/" + filename))
 ```
 
 ```
@@ -256,6 +390,8 @@
     RPGMaker.Codebase.CoreSystem.Helper.WindowButtonBase
 
         private async void OnClickWaitFrame()
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -265,6 +401,8 @@
 
         サウンドの再生 > 次のイベントへ
         private async void PlaySound()
+
+            await SoundManager.Self().PlayBgm();
 ```
 
 ```
@@ -274,6 +412,8 @@
 
         サウンドの再生 > 次のイベントへ
         private async void PlaySound()
+
+            await SoundManager.Self().PlayBgs();
 ```
 
 ```
@@ -283,6 +423,8 @@
 
         サウンドの再生 > 次のイベントへ
         private async void PlaySound()
+
+            await SoundManager.Self().PlayMe();
 ```
 
 ```
@@ -291,6 +433,8 @@
     RPGMaker.Codebase.Runtime.Event.Battle.BattleExecCommand
 
         private async void ProcessEndAction()
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -299,6 +443,10 @@
     RPGMaker.Codebase.Runtime.Event.Message.MessageInputSelectProcessor
 
         private async void FirstFocusSetting(Button button, int index)
+
+                await Task.Delay(100);
+
+                await Task.Delay(1);
 ```
 
 ```
@@ -307,6 +455,8 @@
     RPGMaker.Codebase.Runtime.Event.Message.MessageTextOnLineProcessor
 
         private async void DelayAndSetEvent()
+
+            await Task.Delay(100);
 ```
 
 ```
@@ -315,6 +465,8 @@
     RPGMaker.Codebase.Runtime.Event.Party.PartyCharacterChangeProcess
 
         private async void ProcessExecute()
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -323,6 +475,8 @@
     RPGMaker.Codebase.Runtime.GameOver.SceneGameOver
 
         protected async void PlayMe()
+
+            await SoundManager.Self().PlayMe();
 ```
 
 ```
@@ -333,6 +487,8 @@
 
         1msだけ処理を待ち、Actionを実行する / スタックオーバーフロー対策であり、実際に待ちたいわけではない場合にのみ利用する
         public async void WaitMillisec(Action action)
+
+            await Task.Delay(1);
 ```
 
 ```
@@ -342,7 +498,9 @@
     RPGMaker.Codebase.Runtime.Map.MapEventExecutionController
 
         private async void RestartParallelEvent(EventMapDataModel eventMapDataModel, EventDataModel eventDataModel)
+
             //並列イベントは同時に何個も動作するため、TimeHandlerを利用せずに直接awaitする
+            await Task.Delay(1);
 ```
 
 ```
@@ -352,6 +510,15 @@
 
         マップ初期化
         public static async void InitManager(GameObject sceneRootGameObject, Camera camera, GameObject menuObject)
+
+            ※ await をつけ忘れているのではないか？
+            //BGMが設定されていたら再生
+            SoundManager.Self().PlayBgm(() => {
+                SoundManager.Self().ChangeBgmState(_runtimeConfigDataModel.bgmVolume);
+            });
+
+            ※ await をつけ忘れているのではないか？
+            SoundManager.Self().PlayBgs();
 
         private static async void ChangeMoveSubject(_moveTypeEnum type)
 
