@@ -16,6 +16,7 @@ RPG Maker UNITE の練習
 
 * 計測
     * 📄 [処理時間計測の方法](./docs/processing-time-measurement-method.md)
+* 操作
+    * 📄 [Visual Studio の Release モードでビルドする方法](./docs/operation/build-in-release-mode-on-visual-studio.md)
 * 改造
-    * 📄 [using ディレクティブは namespace の内側に入れる](./docs/remodeling/using-directive-in-namespace.md)
-    * 📄 [UNITY_EDITOR プリプロセッサ・ディレクティブの追加（改悪を行う）](./docs/remodeling/unity-editor-preprocessor-directive.md)
+    * 📄 [using ディレクティブは namespace の内側に入れる（趣味）](./docs/remodeling/using-directive-in-namespace.md)

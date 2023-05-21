@@ -1,4 +1,34 @@
-# using ディレクティブは namespace の内側に入れる
+# using ディレクティブは namespace の内側に入れる（趣味）
+
+この章は必須ではない  
+
+## やりたいこと
+
+👇 RMU のソースは以下のような作法になっているから...  
+
+```cs
+using DragonFruit.Eggplant.Fig;
+
+namespace Apple.Banana.Cherry
+{
+    // ここにコードがある
+}
+```
+
+👇 以下のように書き換える  
+
+```cs
+namespace Apple.Banana.Cherry
+{
+#if UNITY_EDITOR
+    using DragonFruit.Eggplant.Fig;
+
+    // ここにコードがある
+#end
+}
+```
+
+## やりかた
 
 👇 Visual Studio の `[ツール] - [オプション] - [テキスト エディター] - [C#] - [コードスタイル] - [全般] - ['using' の基本設定:]` へ進む  
 

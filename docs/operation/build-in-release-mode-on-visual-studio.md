@@ -1,4 +1,14 @@
-# UNITY_EDITOR プリプロセッサ・ディレクティブの追加（改悪を行う）
+# Visual Studio の Release モードでビルドする方法
+
+## やりたいこと
+
+Visual Studio の `Release` モードでビルドしたい  
+
+## 問題点
+
+コンパイル・エラーが出る  
+
+このように `Release` モードでビルドできないなら、 `Release` モードに不具合がないかということを Visual Studio 上で調査できない  
 
 ## 前提知識
 
@@ -30,7 +40,9 @@ namespace Apple.Banana.Cherry
         └──📄 Apple.cs      # Unity エディター用の C# スクリプトとみなされる
 ```
 
-参考: 📖 [Unity Documentation > 特殊なフォルダー名](https://docs.unity3d.com/ja/2019.4/Manual/SpecialFolders.html)  
+* 参考:
+    * 📖 [Unity Documentation > 特殊なフォルダー名](https://docs.unity3d.com/ja/2019.4/Manual/SpecialFolders.html)
+    * 📄 [Unity Documentation > C# コンパイラー](https://docs.unity3d.com/ja/2020.3/Manual/CSharpCompiler.html)
 
 # 以下の現状は、当然に思える
 
@@ -40,7 +52,7 @@ namespace Apple.Banana.Cherry
 だから、 **Visual Studio** では、 `Release` モードでビルドすると、 Unity エディター用のコードがコンパイルできないことは当然と思えるし  
 **Unity** には、 `Editor` フォルダー以外のソースだけを選んでビルドするような仕掛けがあるのだろうと推測する  
 
-## 問題点
+## 問題点の解説
 
 👇 Visual Studio 2022 で `Release` モードにし、ビルドすると、  
 `RPGMaker.CodeBase.Editor` のような Unity エディター用のソースも含まれているので、  
@@ -48,46 +60,13 @@ namespace Apple.Banana.Cherry
 
 ![Unity エディター用と認識されていない](../img/202305__rmu__21-1622--there-is-no-unity-editor-preprocessor-directive-o2o0.png)  
 
-このように `Release` モードでビルドできないなら、 `Release` モードに不具合がないかということを Visual Studio 上で調査できない。  
-`Editor` フォルダー以外のソースだけをビルドするような仕掛けは、 Visual Studio でできるだろうか？  
+## 解決方法
 
-参考: 📄 [Unity Documentation > C# コンパイラー](https://docs.unity3d.com/ja/2020.3/Manual/CSharpCompiler.html)  
+Unity エンジン用かどうか見分けるのに、  
 
-## やりたいこと
+Unity では `Editor` フォルダーの下かそれ以外かで分けているが、  
+Visual Studio では `なんとかEditor` プロジェクトという名前を付けて、プロジェクトを分けてしまうのがよい  
 
-仕方がないので、  
-`Editor` という名前のフォルダーの下にあるソースであっても、  
-ソースコードを `#if UNITY_EDITOR` と `#endif` で囲めば、 `Release` モードでビルドできるかもしれない。  
-試みてみたい  
-
-👇 RMU のソースは以下のような作法になっているから...  
-
-```cs
-using DragonFruit.Eggplant.Fig;
-
-namespace Apple.Banana.Cherry
-{
-    // ここにコードがある
-}
-```
-
-👇 以下のように書き換える  
-
-```cs
-namespace Apple.Banana.Cherry
-{
-#if UNITY_EDITOR
-    using DragonFruit.Eggplant.Fig;
-
-    // ここにコードがある
-#end
-}
-```
-
-## やりかた
-
-👇 手作業でコードを編集していると大変なので、ツールのちからを借りる  
-
-参考: 📖 [using ディレクティブは namespace の内側に入れる](./using-directive-in-namespace.md)  
+`Release` ビルドをしたいときは、 `なんとかEditor` プロジェクトをアンロードしてから行う  
 
 🏠[トップページへ戻る](../../README.md)  
