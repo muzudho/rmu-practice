@@ -577,8 +577,8 @@
     #if UNITY_EDITOR
         public async void ChangeFocused()
 
-        //少し待たないとフォーカスが移らないため、待つ
-        await Task.Delay(10);
+            //少し待たないとフォーカスが移らないため、待つ
+            await Task.Delay(10);
     #endif
 ```
 
@@ -851,10 +851,10 @@
         Hierarchyのスクロール位置を設定する
         private static async void UpdateHierarchy()
 
-        // 編集項目まで開く > その位置までスクロールする
-        await Task.Delay(10);
+            // 編集項目まで開く > その位置までスクロールする
+            await Task.Delay(10);
 
-        await Task.Delay(10);
+            await Task.Delay(10);
 ```
 
 ```
