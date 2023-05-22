@@ -22,6 +22,20 @@
         // - プロパティ
 
         /// <summary>
+        /// 出力ログ・ファイルのパス
+        /// 
+        /// - CSV形式
+        /// </summary>
+        internal string CSVLogFilePath { get; set; }
+
+        /// <summary>
+        /// 出力ログ・ファイルのパス
+        /// 
+        /// - 備考を出力
+        /// </summary>
+        internal string RemarkLogFilePath { get; set; }
+
+        /// <summary>
         /// トータル処理時間
         /// </summary>
         internal TimeSpan Total { get; set; }
@@ -138,21 +152,5 @@
 
             return buffer.ToString();
         }
-
-        // - プライベート・プロパティ
-
-        /// <summary>
-        /// 出力ログ・ファイルのパス
-        /// 
-        /// - CSV形式
-        /// </summary>
-        string CSVLogFilePath { get; set; }
-
-        /// <summary>
-        /// 出力ログ・ファイルのパス
-        /// 
-        /// - 備考を出力
-        /// </summary>
-        string RemarkLogFilePath { get; set; }
     }
 }

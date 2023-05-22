@@ -25,49 +25,38 @@
         static void TestCase1()
         {
             // ストップウォッチ生成、かつスタート
-            var stopwatch3 = TheStopwatch.Start("ストップウォッチ１");
+            var apple = TheStopwatch.Start("テストケース１　ストップウォッチ１");
 
             // ★処理A
             Thread.Sleep(234);
 
-            // 計測停止
-            stopwatch3.Stop();
-            tableLog.Update(stopwatch3);
-            tableLog.Total += stopwatch3.Elapsed;
+            // 旧ストップウォッチ停止、かつ新ストップウォッチ生成、かつスタート
+            var banana = tableLog.Restart(apple, "テストケース１　ストップウォッチ２");
 
             // 結果表示
-            Console.WriteLine(stopwatch3.Stringify(label: "■処理A（234ミリ秒スリープ）にかかった時間"));
+            Console.WriteLine(apple.Stringify(label: "■処理A（234ミリ秒スリープ）にかかった時間"));
 
             //-----------------
-
-            // 経過時間をリセットしてから計測開始
-            stopwatch3.Restart();
 
             // ★処理B
             Thread.Sleep(234);
 
-            // 計測停止
-            stopwatch3.Stop();
-            tableLog.Update(stopwatch3);
+            // 旧ストップウォッチ停止、かつ新ストップウォッチ生成、かつスタート
+            var cherry = tableLog.Restart(banana, "テストケース１　ストップウォッチ３");
 
             // 結果表示
-            Console.WriteLine(stopwatch3.Stringify(label: "■処理B（234ミリ秒スリープ）にかかった時間"));
+            Console.WriteLine(banana.Stringify(label: "■処理B（234ミリ秒スリープ）にかかった時間"));
 
             //-----------------
-
-            // 計測再開（リセットしない）
-            stopwatch3.Start();
 
             // ★処理C
             Thread.Sleep(234);
 
-            // 計測停止
-            stopwatch3.Stop();
-            tableLog.Update(stopwatch3);
-            tableLog.Total += stopwatch3.Elapsed;
+            // 計測停止（ストップウォッチはリセット済）
+            tableLog.Stop(cherry);
 
             // 結果表示
-            Console.WriteLine(stopwatch3.Stringify(label: "■処理Bと処理C（234ミリ秒スリープ）にかかった時間"));
+            Console.WriteLine(cherry.Stringify(label: "■処理Bと処理C（234ミリ秒スリープ）にかかった時間"));
 
             //-----------------
 
@@ -79,25 +68,24 @@ CSV
 ");
 
             // ファイル出力
-            Console.WriteLine($"Write log to {tableLog.CSVLogFilePath}");
+            Console.WriteLine($@"Write log to {tableLog.CSVLogFilePath}
+         and {tableLog.RemarkLogFilePath}");
             tableLog.Save();
         }
 
         static void TestCase2()
         {
             // ストップウォッチ生成（２つ目）かつ、スタート
-            var stopwatch3 = TheStopwatch.Start("ストップウォッチ２");
+            var apple = TheStopwatch.Start("ストップウォッチ２");
 
             // ★処理D
             Thread.Sleep(234);
 
             // 計測停止
-            stopwatch3.Stop();
-            tableLog.Update(stopwatch3);
-            tableLog.Total += stopwatch3.Elapsed;
+            tableLog.Stop(apple);
 
             // 結果表示
-            Console.WriteLine(stopwatch3.Stringify(label: "■処理D（234ミリ秒スリープ）にかかった時間"));
+            Console.WriteLine(apple.Stringify(label: "■処理D（234ミリ秒スリープ）にかかった時間"));
 
             //-----------------
 
@@ -109,7 +97,8 @@ CSV
 ");
 
             // ファイル出力
-            Console.WriteLine($"Write log to {tableLog.CSVLogFilePath}");
+            Console.WriteLine($@"Write log to {tableLog.CSVLogFilePath}
+         and {tableLog.RemarkLogFilePath}");
             tableLog.Save();
         }
     }
