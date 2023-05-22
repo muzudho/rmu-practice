@@ -2,8 +2,8 @@
 {
     using System.Collections.Concurrent;
     using System.Text;
-    using ModelOfStopwatch2 = RMUPractice.Stopwatch2.Its;
-    using ModelOfStopwatch3 = RMUPractice.Stopwatch3.Its;
+    using TheStopwatch2 = RMUPractice.Stopwatch2.Its;
+    using TheStopwatch3 = RMUPractice.Stopwatch3.Its;
 
     class TableLogBuffer
     {
@@ -17,23 +17,9 @@
 
         // - フィールド
 
-        readonly ConcurrentDictionary<string, ModelOfStopwatch3> recordDictionary = new ConcurrentDictionary<string, ModelOfStopwatch3>();
+        readonly ConcurrentDictionary<string, TheStopwatch3> recordDictionary = new ConcurrentDictionary<string, TheStopwatch3>();
 
         // - プロパティ
-
-        /// <summary>
-        /// 出力ログ・ファイルのパス
-        /// 
-        /// - CSV形式
-        /// </summary>
-        internal string CSVLogFilePath { get; private set; }
-
-        /// <summary>
-        /// 出力ログ・ファイルのパス
-        /// 
-        /// - 備考を出力
-        /// </summary>
-        internal string RemarkLogFilePath { get; private set; }
 
         /// <summary>
         /// トータル処理時間
@@ -42,7 +28,7 @@
 
         // - メソッド
 
-        internal void Update(ModelOfStopwatch3 stopwatch)
+        internal void Update(TheStopwatch3 stopwatch)
         {
             // 有れば取得、無ければ追加
             var targetStopwatch = this.recordDictionary.GetOrAdd(stopwatch.itemName, stopwatch);
@@ -100,7 +86,7 @@
         {
             string text = $@"Total
 =====
-{ModelOfStopwatch2.Stringify(this.Total)}
+{TheStopwatch2.Stringify(this.Total)}
 ";
 
             FileStream? fs = null;
@@ -152,5 +138,21 @@
 
             return buffer.ToString();
         }
+
+        // - プライベート・プロパティ
+
+        /// <summary>
+        /// 出力ログ・ファイルのパス
+        /// 
+        /// - CSV形式
+        /// </summary>
+        string CSVLogFilePath { get; set; }
+
+        /// <summary>
+        /// 出力ログ・ファイルのパス
+        /// 
+        /// - 備考を出力
+        /// </summary>
+        string RemarkLogFilePath { get; set; }
     }
 }

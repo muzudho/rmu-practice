@@ -1,6 +1,6 @@
 ﻿namespace RMUPractice.Stopwatch2
 {
-    using ModelOfStopwatch2 = RMUPractice.Stopwatch2.Its;
+    using TheStopwatch = RMUPractice.Stopwatch2.Its;
 
     static class Example
     {
@@ -14,7 +14,7 @@
         internal static void DoIt()
         {
             // ストップウォッチ生成
-            var stopwatch2 = new ModelOfStopwatch2();
+            var stopwatch2 = new TheStopwatch();
 
             // 計測開始
             stopwatch2.Start();
@@ -59,7 +59,7 @@
             //-----------------
 
             // ストップウォッチ生成（２つ目）
-            stopwatch2 = new ModelOfStopwatch2();
+            stopwatch2 = new TheStopwatch();
 
             // いきなりリスタート
             stopwatch2.Restart();

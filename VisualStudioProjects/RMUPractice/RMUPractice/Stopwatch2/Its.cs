@@ -3,7 +3,7 @@
     /// <summary>
     /// ストップウォッチ２
     /// </summary>
-    public class Its
+    class Its
     {
         // - フィールド
 

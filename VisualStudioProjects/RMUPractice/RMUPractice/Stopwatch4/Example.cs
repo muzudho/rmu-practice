@@ -1,6 +1,6 @@
-﻿namespace RMUPractice.Stopwatch3
+﻿namespace RMUPractice.Stopwatch4
 {
-    using TheStopwatch = RMUPractice.Stopwatch3.Its;
+    using TheStopwatch = RMUPractice.Stopwatch4.Its;
 
     static class Example
     {
@@ -24,11 +24,8 @@
 
         static void TestCase1()
         {
-            // ストップウォッチ生成
-            var stopwatch3 = new TheStopwatch("ストップウォッチ１");
-
-            // 計測開始
-            stopwatch3.Start();
+            // ストップウォッチ生成、かつスタート
+            var stopwatch3 = TheStopwatch.Start("ストップウォッチ１");
 
             // ★処理A
             Thread.Sleep(234);
@@ -88,11 +85,8 @@ CSV
 
         static void TestCase2()
         {
-            // ストップウォッチ生成（２つ目）
-            var stopwatch3 = new TheStopwatch("ストップウォッチ２");
-
-            // いきなりリスタート
-            stopwatch3.Restart();
+            // ストップウォッチ生成（２つ目）かつ、スタート
+            var stopwatch3 = TheStopwatch.Start("ストップウォッチ２");
 
             // ★処理D
             Thread.Sleep(234);

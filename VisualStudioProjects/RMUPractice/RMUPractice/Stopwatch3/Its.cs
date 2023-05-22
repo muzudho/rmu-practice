@@ -1,11 +1,11 @@
 ﻿namespace RMUPractice.Stopwatch3
 {
-    using ModelOfStopwatch2 = RMUPractice.Stopwatch2.Its;
+    using TheStopwatch = RMUPractice.Stopwatch2.Its;
 
     /// <summary>
     /// ストップウォッチ３
     /// </summary>
-    public class Its : ModelOfStopwatch2
+    class Its : TheStopwatch
     {
         // - その他
 
