@@ -29,4 +29,4 @@ RPG Maker UNITE の練習
 ## その他
 
 * 記録
-    * 📄 [履歴　RMUへの貢献者](./docs/history/contributors.md)
+    * 📄 [履歴　RMUへの貢献者（わたしの観測範囲内）](./docs/history/contributors.md)
