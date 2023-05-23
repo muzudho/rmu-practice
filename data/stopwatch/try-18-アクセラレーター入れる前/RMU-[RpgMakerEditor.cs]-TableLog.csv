@@ -1,0 +1,21 @@
+﻿[RuntimeInitWindows 7] アウトラインエディタ,2,00:00:01'870
+[RuntimeInitWindows 8] インスペクター開いていたもの開く,2,00:00:00'001
+[InitWindows 8] インスペクター開いていたもの開く,1,00:00:00'257
+[DelayAuth async] ログイン,1,00:00:02'694
+[RpgMakerUniteWindow async],1,00:05:58'901
+[RuntimeInitWindows 3] ヒエラルキー,2,00:00:00'822
+[InitWindows 5] データベースエディタ,1,00:00:00'002
+[InitWindows 3] ヒエラルキー,1,00:00:04'838
+[SetWindows async] ウィンドウの設定,4,00:01:23'691
+[RuntimeInitWindows 9] SetWindows,2,00:00:00'001
+[RuntimeInitWindows 6] マップエディタ,2,00:00:00'114
+[RuntimeInitWindows 2] 共通メニューウィンドウ,2,00:00:00'044
+[InitWindows 6] マップエディタ,1,00:05:47'269
+[AuthRpgMaker async 1] RpgMakerを認証。,1,00:00:02'530
+[RuntimeInitWindows 5] データベースエディタ,2,00:00:00'005
+[RuntimeInitWindows 1] 現在のモードがUnityモードであれば、Windowを作成せずに終了,2,00:00:00'000
+[InitWindows 7] アウトラインエディタ,1,00:00:03'466
+[AuthRpgMaker async 2] Migration.Migrate(),1,00:00:00'014
+[InitWindows 1] 現在のモードがUnityモードであれば、Windowを作成せずに終了,3,00:00:00'000
+[InitWindows 2] 共通メニューウィンドウ,3,00:00:00'062
+

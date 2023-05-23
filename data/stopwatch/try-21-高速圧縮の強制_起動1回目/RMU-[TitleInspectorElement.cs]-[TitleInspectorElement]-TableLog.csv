@@ -1,0 +1,10 @@
+﻿[_InitAsync async 3] _UpdateSceneView(),4,00:00:00'827
+[InitializeContents] 初期化処理,4,00:00:00'050
+[TitleInspectorElement] コンストラクター,4,00:00:00'096
+[_UpdateSceneView 3] _sceneView.Render(),4,00:00:00'822
+[_UpdateSceneView 1] if (_isInit) return,20,00:00:00'000
+[_InitAsync async 1] 500ミリ秒待つ,4,00:05:36'590
+[_UpdateSceneView 2] databaseManagementService.SaveTitle(_runtimeTitleDataModel),4,00:00:00'000
+[_InitAsync async 2] _isInit = false,4,00:00:00'000
+[RefreshContents] コンテンツのリフレッシュ？,4,00:00:00'089
+

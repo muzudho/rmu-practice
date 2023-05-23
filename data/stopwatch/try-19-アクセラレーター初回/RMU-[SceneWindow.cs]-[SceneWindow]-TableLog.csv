@@ -1,0 +1,6 @@
+﻿[Render 4] _previewSceneElement?.Render(),4,00:00:00'009
+[Render 3] rootVisualElement.Add(_previewSceneElement),4,00:00:00'000
+[Render 2a] プレビューのタイトル,4,00:00:00'837
+[ReRender async] 一定時間後に再描画を行う / タイトル画面のメニュー部分が、稀に崩れたまま表示されてしまう問題への対応,2,00:00:09'235
+[Render 1] プレビューのレンダー？,4,00:00:00'000
+

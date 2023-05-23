@@ -10,8 +10,9 @@
     * 📖 [RPG Maker Unite 初心者講座](https://rpgmakerunite.com/learn/)
 * 個人
     * 筆者の環境で、起動時のマップ・エディタの読込みが５分４７秒から１分１８秒へ改善した（２２％）  
-    👤 [キャッシュサーバーの件](https://twitter.com/DeathAlice1/status/1660856667125186563?s=20)
-    * 👤 [Unityのインポートを早くさせる方法](https://twitter.com/DeathAlice1/status/1660858175917096960?s=20)
+    👤 [キャッシュサーバーの件（Unity Accelerator）](https://twitter.com/DeathAlice1/status/1660856667125186563?s=20)
+    * 筆者の環境で、起動時のマップ・エディタの読込みが１分２９秒から１分１６秒へ改善した（８５％）  
+    👤 [Unityのインポートを早くさせる方法（高速圧縮の強制）](https://twitter.com/DeathAlice1/status/1660858175917096960?s=20)
 
 ## Unity
 
