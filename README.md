@@ -25,3 +25,8 @@ RPG Maker UNITE の練習
     * 📄 [処理時間計測の方法](./docs/processing-time-measurement-method.md)
 * 改造
     * 📄 [using ディレクティブは namespace の内側に入れる（趣味）](./docs/remodeling/using-directive-in-namespace.md)
+
+## その他
+
+* 記録
+    * 📄 [履歴　RMUへの貢献者](./docs/history/contributors.md)
