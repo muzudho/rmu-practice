@@ -8,6 +8,7 @@ RPG Maker UNITE の練習
 ## RMU v1.0.0 実装調査
 
 * 📁 [処理時間計測データ](./data/stopwatch)
+* 📄 [プロジェクトの依存関係](./docs/research/project-dependencies.md)
 * 📄 [構成要素](./docs/research/components.md)
 * 📄 [非同期処理](./docs/research/asynchronous-processing.md)
 * 📄 [一連の Effekseer プロジェクト](./docs/research/effekseer.md)
