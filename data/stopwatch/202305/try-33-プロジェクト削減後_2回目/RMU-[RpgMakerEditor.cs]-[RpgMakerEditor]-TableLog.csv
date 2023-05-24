@@ -1,0 +1,41 @@
+﻿[RpgMakerUniteWindow async 7] モードを保存,1,00:00:00'007
+[InitWindows 2] 共通メニューウィンドウ,3,00:00:00'062
+[SetWindows async 4] ゲーム・ビューへフォーカスを当てる,2,00:00:00'066
+[RuntimeInitWindows 7] アウトラインエディタ,2,00:00:00'714
+[InitWindows 7] アウトラインエディタ,1,00:00:01'188
+[RuntimeInitWindows 8] インスペクター開いていたもの開く,2,00:00:00'002
+[RpgMakerUniteWindow async 1],1,00:00:00'000
+[InitWindows 6] マップエディタ,1,00:00:31'892
+[RuntimeInitWindows 3] ヒエラルキー,2,00:00:00'148
+[RpgMakerUniteWindow async 6] UnityのAssetStoreへのログインが完了するのを待ってから、認証処理を走らせる,1,00:00:03'551
+[InitWindows 3] ヒエラルキー,3,00:00:03'516
+[InitWindows 1] 現在のモードがUnityモードであれば、Windowを作成せずに終了,3,00:00:00'000
+[SetWindows async 2] ２秒待つ,2,00:01:43'302
+[AuthRpgMaker async 1] RpgMakerを認証。,1,00:00:03'424
+[SetEditorModeMenuChecked] メニュー項目のチェック表示/非表示設定。,2,00:00:00'000
+[RuntimeInitWindows 2] 共通メニューウィンドウ,2,00:00:00'005
+[InitRPGMakerEditor],1,00:00:00'030
+[RuntimeInitWindows 6] マップエディタ,2,00:00:00'082
+[RuntimeInitWindows 9] SetWindows,2,00:00:00'002
+[SetWindows async 5] １秒待つ,2,00:00:03'929
+[InitWindows 8] インスペクター開いていたもの開く,2,00:00:00'210
+[RpgMakerUniteWindow async 8] LayoutUtility.LoadLayout() 2,1,00:00:00'260
+[RpgMakerUniteWindow async 10] レイアウトを変更した場合は明示的に再初期化,1,00:00:36'885
+[RuntimeInitWindows 5] データベースエディタ,2,00:00:00'002
+[StartRPGMakerAsync],1,00:00:00'000
+[SetWindows async 3] ウィンドウを４つ閉じる,2,00:00:00'000
+[InitWindows 5] データベースエディタ,1,00:00:00'003
+[StartRpgMaker 2] RPGMakerDefaultConfigSingleton.InitializeDefaultSettingsForRPGMakerUnite(),1,00:00:00'007
+[StartRpgMaker 5] Menu check,1,00:00:00'001
+[InitializeOnLoad],1,00:00:00'036
+[SetWindows async 1] ウィンドウの設定,2,00:00:00'000
+[StartRpgMaker 4b] Open mode RpgMakerUniteWindowModeId,1,00:00:00'002
+[RuntimeInitWindows 1] 現在のモードがUnityモードであれば、Windowを作成せずに終了,2,00:00:00'000
+[WindowMaximizationRecoveringProcess] ウィンドウ最大化から復帰時の処理。,4,00:00:00'000
+[ApplyEditorMode],1,00:00:00'005
+[SetWindows async 6] フォーカスを再び当てなおす,2,00:00:00'000
+[DelayAuth async] ログイン,1,00:00:03'548
+[AuthRpgMaker async 2] Migration.Migrate(),1,00:00:00'011
+[DataCheckMenuButton],8,00:00:00'000
+[StartRpgMaker 1] Please wait for 3 seconds,1,00:00:03'001
+
