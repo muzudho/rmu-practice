@@ -114,9 +114,18 @@
                    ├────┤ Effekseer.HDRP │
                    │    └────────────────┘
                    │
-┌───────────┐      │
-│ Effekseer ├──────┘
-└───────────┘
+                   │
+                   ├────────────────────────────────────────────────────────────────────┐
+┌───────────┐      │                                                                    │
+│ Effekseer ├──────┘                                                                    │
+└───────────┘                                                                           │
+                                                                                        │       ┌──────────────────────────────┐
+                                                                                        ├───────┤ RPGMaker.CodeBase.CoreSystem │
+                                                                                        │       └──────────────────────────────┘
+                                                                                        │
+┌───────────────────────────────────┐     ┌───────────────────────────────────────┐     │
+│ Unity.InternalAPIEngineBridge.015 ├─────┤ Unity.GraphTools.Foundation.Overdrive ├─────┘
+└───────────────────────────────────┘     └───────────────────────────────────────┘
 
 ┌────────────────┐
 │ RPGMaker.Unite │
@@ -127,21 +136,16 @@
 └────────────────────────────────────────────────────────────┘
 
 ┌────────────────────────────────────────────┐
-│ Unity.GraphToolsFoundation.Searcher.Editor │
-└────────────────────────────────────────────┘
-
-┌────────────────────────────────────────────────────┐
-│ Unity.GraphToolsFoundation.Searcher.ScriptsSamples │
+│ Unity.GraphToolsFoundation.Searcher.Editor ├───────────────┐
+└────────────────────────────────────────────┘               │
+                                                             │       ┌───────────────────────────────────────────────────┐       ┌─────────────────────────────────────────────────┐
+                                                             ├───────┤ Unity.GraphToolsFoundation.Searcher.EditorSamples ├───────┤ Unity.GraphToolsFoundation.Searcher.EditorTests │
+                                                             │       └───────────────────────────────────────────────────┘       └─────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────┐       │
+│ Unity.GraphToolsFoundation.Searcher.ScriptsSamples ├───────┘
 └────────────────────────────────────────────────────┘
-
-┌───────────────────────────────────┐     ┌───────────────────────────────────────┐
-│ Unity.InternalAPIEngineBridge.015 ├─────┤ Unity.GraphTools.Foundation.Overdrive │
-└───────────────────────────────────┘     └───────────────────────────────────────┘
 ```
 
-* RPGMaker.CodeBase.CoreSystem
-    * Effekseer
-    * Unity.GraphTools.Foundation.Overdrive
 * RPGMaker.CodeBase.Editor
     * Effekseer
     * EffekseerEditor
@@ -172,9 +176,3 @@
     * Unity.GraphTools.Foundation.Overdrive
     * Unity.GraphTools.Foundation.Overdrive.CommandStateObserver
     * Unity.InternalAPIEngineBridge.015
-* Unity.GraphToolsFoundation.Searcher.EditorSamples
-    * Unity.GraphToolsFoundation.Searcher.Editor
-    * Unity.GraphToolsFoundation.Searcher.ScriptsSamples
-* Unity.GraphToolsFoundation.Searcher.EditorTests
-    * Unity.GraphToolsFoundation.Searcher.Editor
-    * Unity.GraphToolsFoundation.Searcher.EditorSamples
