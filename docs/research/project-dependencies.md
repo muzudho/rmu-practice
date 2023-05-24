@@ -98,6 +98,10 @@
 
 
 ```
+┌────────────────┐
+│ RPGMaker.Unite │
+└────────────────┘
+
                         ┌─────────────────┐
                    ┌────┤ EffekseerEditor │
                    │    └─────────────────┘
@@ -115,27 +119,49 @@
                    │    └────────────────┘
                    │
                    │
-                   ├────────────────────────────────────────────────────────────────────┐
-┌───────────┐      │                                                                    │
-│ Effekseer ├──────┘                                                                    │
-└───────────┘                                                                           │
-                                                                                        │       ┌──────────────────────────────┐
-                                                                                        ├───────┤ RPGMaker.CodeBase.CoreSystem │
-                                                                                        │       └──────────────────────────────┘
-                                                                                        │
-┌───────────────────────────────────┐     ┌───────────────────────────────────────┐     │
-│ Unity.InternalAPIEngineBridge.015 ├─────┤ Unity.GraphTools.Foundation.Overdrive ├─────┘
-└───────────────────────────────────┘     └───────────────────────────────────────┘
-
-┌────────────────┐
-│ RPGMaker.Unite │
-└────────────────┘
-
-┌────────────────────────────────────────────────────────────┐
-│ Unity.GraphTools.Foundation.Overdrive.CommandStateObserver │
-└────────────────────────────────────────────────────────────┘
-
-┌────────────────────────────────────────────┐
+                   ├───────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+┌───────────┐      │                                                                                                               │
+│ Effekseer ├──────┘                                                                                                               │
+└───────────┘                                                                                                                      │
+                                                                                                                                   │       ┌──────────────────────────────┐
+                                                                                                                                   ├───────┤ RPGMaker.CodeBase.CoreSystem │
+                                                                                                                                   │       └──────────────────────────────┘
+                                                                                                                                   │
+┌───────────────────────────────────┐                                  ┌───────────────────────────────────────┐                   │
+│ Unity.InternalAPIEngineBridge.015 ├──────────────────────────────────┤ Unity.GraphTools.Foundation.Overdrive ├───────────────────┘
+│                                   │                                  │                                       │              
+│                                   ├───────────────────────────┐      │                                       ├───────────────────┐
+└───────────────────────────────────┘                           │      │                                       │                   │
+                                                                │      │                                       ├───────────┐       │
+                                                                │      └───────────────────────────────────────┘           │       │
+                                                                │                                                          │       │       ┌───────────────────────────────────┐
+                                                                │                                                          │       ├───────┤ Unity.GraphTools.Foundation.Tests │
+                                                                │                                                          │       │       └───────────────────────────────────┘
+┌────────────────────────────────────────────────────────────┐  │                                                          │       │
+│ Unity.GraphTools.Foundation.Overdrive.CommandStateObserver ├─────────────────────────────────────────────────────────────────────┘
+│                                                            │　│                                                          │
+│                                                            ├─→┤                                                          │               ┌──────────────────────────────────────────────┐
+└────────────────────────────────────────────────────────────┘  │                                                          ├───────────────┤ Unity.GraphTools.Foundation.Overdrive.Editor ├───────┐
+                                                                │                                                          │               └──────────────────────────────────────────────┘       │
+                                                                │                                                          │                                                                      │
+                                                                │                                                          │                                                                      │
+                                                                │                                                          │                                                                      │
+                                                                │       ┌─────────────────────────────────────────────┐    │                                                                      │
+                                                                ├───────┤ Unity.GraphTools.Foundation.Overdrive.Model ├────┘                                                                      │
+                                                                │       │                                             │                                                                           │
+                                                                │    ┌─→┤                                             │                                                                           │
+                                                                │    │  └─────────────────────────────────────────────┘                                                                           │
+                                                                │    │                                                                                                                            │
+                                                                │    └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+                                                                │
+                                                                │
+                                                                │
+                                                                │
+                                                                │       
+                                                                │       
+┌────────────────────────────────────────────┐                  │
+│                                            ├──────────────────┘
+│                                            │
 │ Unity.GraphToolsFoundation.Searcher.Editor ├───────────────┐
 └────────────────────────────────────────────┘               │
                                                              │       ┌───────────────────────────────────────────────────┐       ┌─────────────────────────────────────────────────┐
@@ -151,28 +177,10 @@
     * EffekseerEditor
     * RPGMaker.CodeBase.CoreSystem
     * Unity.GraphTools.Foundation.Overdrive
-    * Unity.GraphTools.Foundation.Overdrive.CommandStateObserver
-    * Unity.GraphTools.Foundation.Overdrive.Editor
     * Unity.GraphTools.Foundation.Overdrive.Model
 * Unity.GraphTools.Foundation.Editor.Tests
     * Unity.GraphTools.Foundation.Overdrive
-    * Unity.GraphTools.Foundation.Overdrive.CommandStateObserver
-    * Unity.GraphTools.Foundation.Overdrive.Editor
     * Unity.GraphTools.Foundation.Overdrive.Model
-    * Unity.GraphToolsFoundation.Searcher.Editor
-    * Unity.InternalAPIEngineBridge.015
 * Unity.GraphTools.Foundation.Overdrive.Editor
     * Unity.GraphTools.Foundation.Overdrive
-    * Unity.GraphTools.Foundation.Overdrive.CommandStateObserver
     * Unity.GraphTools.Foundation.Overdrive.Model
-    * Unity.GraphToolsFoundation.Searcher.Editor
-    * Unity.InternalAPIEngineBridge.015
-* Unity.GraphTools.Foundation.Overdrive.Model
-    * Unity.GraphTools.Foundation.Overdrive.CommandStateObserver
-    * Unity.GraphTools.Foundation.Overdrive.Editor
-    * Unity.GraphToolsFoundation.Searcher.Editor
-    * Unity.InternalAPIEngineBridge.015
-* Unity.GraphTools.Foundation.Tests
-    * Unity.GraphTools.Foundation.Overdrive
-    * Unity.GraphTools.Foundation.Overdrive.CommandStateObserver
-    * Unity.InternalAPIEngineBridge.015
