@@ -58,7 +58,7 @@ namespace Apple.Banana.Cherry
 `RPGMaker.CodeBase.Editor` のような Unity エディター用のソースも含まれているので、  
 一緒にビルドされ、エラーが出る  
 
-![Unity エディター用と認識されていない](../img/202305__rmu__21-1622--there-is-no-unity-editor-preprocessor-directive-o2o0.png)  
+![Unity エディター用と認識されていない](../img/202305/202305__rmu__21-1622--there-is-no-unity-editor-preprocessor-directive-o2o0.png)  
 
 # 解決方法
 
