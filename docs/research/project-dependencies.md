@@ -172,9 +172,9 @@
 * `Effekseer.HDRP`
 * `Unity.GraphTools.Foundation.Tests`
 * `Unity.GraphTools.Foundation.Editor.Tests`
-* `Unity.GraphToolsFoundation.Searcher.EditorSamples`
-* `Unity.GraphToolsFoundation.Searcher.EditorTests`
 * `Unity.GraphToolsFoundation.Searcher.ScriptsSamples`
+    * `Unity.GraphToolsFoundation.Searcher.EditorSamples`
+        * `Unity.GraphToolsFoundation.Searcher.EditorTests`
 
 👆 これらのフォルダーを除外してみる  
 
@@ -206,3 +206,11 @@ Visual Studio からプロジェクトを削除するのが第１の方法だが
 ![C#プロジェクト・ファイルの中身](../img/202305/202305__rmu__24-2252--csharp-project-file-content-o1o0.png)  
 
 👆 C#プロジェクト・ファイルの中身を編集する方法も覚えてほしい  
+
+![リリース・モード](../img/202305/202305__rmu__24-2324--release-mode-o1o0.png)  
+
+👆 まだ検証していないが、削りまくって、リリース・モードは多分これが残るだろうか？  
+
+![デバッグ・モード](../img/202305/202305__rmu__24-2326--debug-mode-o1o0.png)  
+
+👆 まだ検証していないが、削りまくって、デバッグ・モードは多分これが残るだろうか？  
