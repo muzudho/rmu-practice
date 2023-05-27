@@ -25,6 +25,9 @@
 
 * 👆 もし Unity のバージョンを `Unity 2021.3.16f` に合わせたいなら、以下のリンク先から入手する  
     📖 [Unity download archive](https://unity.com/releases/editor/archive)
+* `Unity Hub 3.4.2` を使っていると、 エル・ティー・エス（LTS；長期サポート）版しか選択できないかもしれない。  
+  その場合、 `Unity 2021.3.26f1` 版をインストールすることになるかもしれない
+
 
 ![Unity Accelerator](../img/202305/202305__rmu__23-1856--unity-accelerator-o3o0.png)  
 
