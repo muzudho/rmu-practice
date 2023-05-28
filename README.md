@@ -24,6 +24,8 @@ RPG Maker UNITE の練習
 * 開発環境のセットアップ
     * [RPG Maker Unite のインストール](./docs/research/install-rmu.md)
         * [Visual Studio の設定](./docs/research/visual-studio.md)
+* ドキュメンテーション・ジェネレーション（Documentation generation；文書生成）
+    * 📄 [文書生成方法](./docs/operation/how-to-generate-documentation.md)
 * 計測
     * 📄 [処理時間計測の方法](./docs/processing-time-measurement-method.md)
 * 改造
