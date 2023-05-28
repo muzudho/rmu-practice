@@ -65,6 +65,10 @@ C:\Users\むずでょ\Documents\GitHub\doc-my-rmu-1.00.00
 C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research-Project/Assets/RPGMaker/Codebase/Runtime
 ```
 
+## Expert/Source Browser
+
+* `Source_Browser` のチェックを外さないと、ソースを含めて出力されてしまう？
+
 ## Expert/Dot
 
 Graphvis の bin フォルダーを指定する  
@@ -73,3 +77,7 @@ Graphvis の bin フォルダーを指定する
 # 例
 C:\Program Files\Graphviz\bin
 ```
+
+# Git Hub に上げる例
+
+📖 [namespaces.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/muzudho/RMU-1-00-00-Documentation-Project/main/html/namespaces.html)
