@@ -39,13 +39,15 @@ C:\Program Files\doxygen\bin
 
 ```
 # 例
+# .cs ファイルが入っていないディレクトリーを指定してはいけない
 C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research-Project/Assets/RPGMaker/Codebase/Runtime/Addon/DataModel
 ```
 
-## リカーシブ（Recursive；再帰）チェックボックス
+## スキャン・リカーシベリー（Scan recursively；再帰的に走査）チェックボックス
 
 * チェックを入れる
     * 時間はかかるが仕方ない
+        * 芋づる式にファイルを作りまくるので、ファイル数も膨大になる
 
 ## 出力先
 
