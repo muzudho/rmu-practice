@@ -81,3 +81,8 @@ C:\Program Files\Graphviz\bin
 # Git Hub に上げる例
 
 📖 [namespaces.html](https://htmlpreview.github.io/?https://raw.githubusercontent.com/muzudho/RMU-1-00-00-Documentation-Project/main/html/namespaces.html)
+
+# よくある問題
+
+* 列挙型のメンバーに付けたコメントが出力されない  
+  📖 [Doxygen not documenting enum members](https://stackoverflow.com/questions/12033713/doxygen-not-documenting-enum-members)
