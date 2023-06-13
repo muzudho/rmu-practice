@@ -14,6 +14,17 @@ JSON の仕様書を書きたい。
 
 メール・アドレス、パスワードを入れて会員登録。  
 
+👇 ログインしているとツールが使える  
+
+📖 [JSON Schema](https://www.jsonschema.net/app/schemas/296301)
+
 `C:\Users\むずでょ\Documents\Unity Projects\RMU-1-00-00-Research\Assets\RPGMaker\Storage\AssetManage\JSON\assetsData.json` が、  
 JSON のフォーマットとしては Valid だが、解析に失敗する？  
+`-1` が  
 
+```
+-
+1
+```
+
+になってしまうようだ  

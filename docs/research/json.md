@@ -161,3 +161,5 @@ _bgsLoopInfoFilename	    = "Assets/RPGMaker/Storage/Sounds/bgsLoopInfo.json"	   
         "seName": "Sword5.ogg"
     },
 ```
+
+👆 これは -37。 JSON Schema のサイトのフォーマッターがイケてないようだ。
