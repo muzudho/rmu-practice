@@ -2,17 +2,18 @@
 
 ソースコードに書かれている JSON ファイルを適当に検索してみる  
 
-２万文字を超えると、解析に失敗するようだ？  
+* ２万文字を超えると、解析に失敗するようだ？ ----> 短く間引く
+* 要素数が多すぎる配列があっても、解析に失敗するようだ？ ----> 短く間引く
 
 
 ```
 JSON_ASSETS	                = "Assets/RPGMaker/Storage/AssetManage/JSON/Assets/"	            \r\n    😁 JSONアセット・フォルダーへのパス\r\n
-    * Assets RPGMaker Storage AssetManage JSON assetsData.json      - 解析失敗
+    * Assets RPGMaker Storage AssetManage JSON assetsData.json          - 解析失敗
     * Assets RPGMaker Storage AssetManage JSON orderManager.json
 JSON_PATH_ANIMATION	        = "Assets/RPGMaker/Storage/Animation/JSON/animation.json"	        \r\n    😁 アニメーションのJSONファイルへのパス\r\n\r\n（※翻訳者追記）ファイル・パスをハードコーディングしたら拡張性無いのでは？（※翻訳者追記）１つの辞書にキー・バリュー・ペア形式で全部入れたらどうか？ 外部ファイルやデータベースにしないの？ ユニティの作法知らんけど（※翻訳者追記）オブジェクト指向になってない。アニメーション・クラスのように **オブジェクト** 毎にクラスを作って、そのクラスがファイルパスを持つべきでは？
-    * Assets RPGMaker Storage Animation JSON animation.json         - 解析失敗。おかしなフォーマットが含まれている
+    * Assets RPGMaker Storage Animation JSON animation.json             - 解析失敗
 JSON_PATH_ARMOR	            = "Assets/RPGMaker/Storage/Initializations/JSON/armor.json"	        \r\n    😁 防具のJSONファイルへのパス\r\n
-    * Assets RPGMaker Storage Initializations JSON armor.json       - 解析失敗
+    * Assets RPGMaker Storage Initializations JSON armor.json           - 解析失敗
     * Assets RPGMaker Storage Initializations JSON autoGuide.json
     * Assets RPGMaker Storage Initializations JSON skill.json
     * Assets RPGMaker Storage Initializations JSON skillCustom.json     - 解析失敗
@@ -65,12 +66,12 @@ JSON_PATH_WEAPON	        = "Assets/RPGMaker/Storage/Initializations/JSON/weapon.
 JSON_PATH_WORDS	            = "Assets/RPGMaker/Storage/Word/JSON/words.json"	                \r\n    😁 単語のJSONファイルへのパス\r\n
     * Assets RPGMaker Storage Word JSON words.json
 JSON_PATH_MAPBASE	        = "Assets/RPGMaker/Storage/Map/JSON/mapbase.json"	                \r\n    😁 マップ・ベースのJSONファイルへのパス\r\n
-    * Assets RPGMaker Storage Map JSON mapbase.json     - 元データ無し。`MapSample` フォルダーに何か大量に入ってる
+    * Assets RPGMaker Storage Map JSON mapbase.json                     - 元データ無し。`MapSample` フォルダーに何か大量に入ってる
     * Assets RPGMaker Storage Map JSON MapSample 0e73b46a-fbef-4cb7-b56a-b3aade29a47a.json
 JSON_PATH_EVENT	            = "Assets/RPGMaker/Storage/Event/JSON/Event"	                    \r\n    😁 JSONフォルダーのイベント・ディレクトリーへのパス\r\n
     * Assets RPGMaker Storage Event JSON Event 00c9f537-ca39-46da-bc69-a7f1b67dcedb-0.json
 JSON_PATH_EVENTMAP	        = "Assets/RPGMaker/Storage/Event/JSON/eventMap.json"	            \r\n    😁 イベント・マップのJSONファイルへのパス\r\n
-    * Assets RPGMaker Storage Event JSON eventMap.json      - 解析失敗
+    * Assets RPGMaker Storage Event JSON eventMap.json                  - 解析失敗
 JSON_PATH_EVENTCOMMON	    = "Assets/RPGMaker/Storage/Event/JSON/eventCommon.json"	            \r\n    😁 イベント共通のJSONファイルへのパス\r\n
     * Assets RPGMaker Storage Event JSON eventCommon.json
 JSON_PATH_EVENTBATTLE	    = "Assets/RPGMaker/Storage/Event/JSON/eventBattle.json"	            \r\n    😁 イベント戦闘のJSONファイルへのパス\r\n

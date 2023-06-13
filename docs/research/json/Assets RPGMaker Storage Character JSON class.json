@@ -1,0 +1,1445 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "default": {},
+        "title": "A Schema",
+        "required": ["abilityAdd", "abilityScore", "abilitySp", "armorTypes", "autoGuide", "baseHpMaxValue", "basic", "clearLevel", "element", "expGainIncreaseValue", "expScore", "id", "maxLevel", "parameter", "skillTypes", "traits", "weaponTypes"],
+        "properties": {
+            "abilityAdd": {
+                "type": "object",
+                "default": {},
+                "title": "The abilityAdd Schema",
+                "required": ["criticalRate", "evasionRate", "hitRate"],
+                "properties": {
+                    "criticalRate": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The criticalRate Schema",
+                        "examples": [1]
+                    },
+                    "evasionRate": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The evasionRate Schema",
+                        "examples": [1]
+                    },
+                    "hitRate": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The hitRate Schema",
+                        "examples": [1]
+                    }
+                },
+                "examples": [
+                    {
+                        "criticalRate": 1,
+                        "evasionRate": 1,
+                        "hitRate": 1
+                    }
+                ]
+            },
+            "abilityScore": {
+                "type": "object",
+                "default": {},
+                "title": "The abilityScore Schema",
+                "required": ["attack", "defense", "luck", "magicAttack", "magicDefense", "maxHp", "maxMp", "speed"],
+                "properties": {
+                    "attack": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The attack Schema",
+                        "required": ["enabled", "growType", "paramMax", "paramOne", "paramPeakLv"],
+                        "properties": {
+                            "enabled": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The enabled Schema",
+                                "examples": [0]
+                            },
+                            "growType": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The growType Schema",
+                                "examples": [0]
+                            },
+                            "paramMax": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramMax Schema",
+                                "examples": [2250]
+                            },
+                            "paramOne": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramOne Schema",
+                                "examples": [102]
+                            },
+                            "paramPeakLv": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramPeakLv Schema",
+                                "examples": [60]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "enabled": 0,
+                                "growType": 0,
+                                "paramMax": 2250,
+                                "paramOne": 102,
+                                "paramPeakLv": 60
+                            }
+                        ]
+                    },
+                    "defense": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The defense Schema",
+                        "required": ["enabled", "growType", "paramMax", "paramOne", "paramPeakLv"],
+                        "properties": {
+                            "enabled": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The enabled Schema",
+                                "examples": [0]
+                            },
+                            "growType": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The growType Schema",
+                                "examples": [0]
+                            },
+                            "paramMax": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramMax Schema",
+                                "examples": [1380]
+                            },
+                            "paramOne": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramOne Schema",
+                                "examples": [63]
+                            },
+                            "paramPeakLv": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramPeakLv Schema",
+                                "examples": [60]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "enabled": 0,
+                                "growType": 0,
+                                "paramMax": 1380,
+                                "paramOne": 63,
+                                "paramPeakLv": 60
+                            }
+                        ]
+                    },
+                    "luck": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The luck Schema",
+                        "required": ["enabled", "growType", "paramMax", "paramOne", "paramPeakLv"],
+                        "properties": {
+                            "enabled": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The enabled Schema",
+                                "examples": [0]
+                            },
+                            "growType": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The growType Schema",
+                                "examples": [0]
+                            },
+                            "paramMax": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramMax Schema",
+                                "examples": [770]
+                            },
+                            "paramOne": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramOne Schema",
+                                "examples": [35]
+                            },
+                            "paramPeakLv": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramPeakLv Schema",
+                                "examples": [60]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "enabled": 0,
+                                "growType": 0,
+                                "paramMax": 770,
+                                "paramOne": 35,
+                                "paramPeakLv": 60
+                            }
+                        ]
+                    },
+                    "magicAttack": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The magicAttack Schema",
+                        "required": ["enabled", "growType", "paramMax", "paramOne", "paramPeakLv"],
+                        "properties": {
+                            "enabled": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The enabled Schema",
+                                "examples": [0]
+                            },
+                            "growType": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The growType Schema",
+                                "examples": [0]
+                            },
+                            "paramMax": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramMax Schema",
+                                "examples": [985]
+                            },
+                            "paramOne": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramOne Schema",
+                                "examples": [45]
+                            },
+                            "paramPeakLv": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramPeakLv Schema",
+                                "examples": [60]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "enabled": 0,
+                                "growType": 0,
+                                "paramMax": 985,
+                                "paramOne": 45,
+                                "paramPeakLv": 60
+                            }
+                        ]
+                    },
+                    "magicDefense": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The magicDefense Schema",
+                        "required": ["enabled", "growType", "paramMax", "paramOne", "paramPeakLv"],
+                        "properties": {
+                            "enabled": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The enabled Schema",
+                                "examples": [0]
+                            },
+                            "growType": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The growType Schema",
+                                "examples": [0]
+                            },
+                            "paramMax": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramMax Schema",
+                                "examples": [1000]
+                            },
+                            "paramOne": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramOne Schema",
+                                "examples": [50]
+                            },
+                            "paramPeakLv": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramPeakLv Schema",
+                                "examples": [60]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "enabled": 0,
+                                "growType": 0,
+                                "paramMax": 1000,
+                                "paramOne": 50,
+                                "paramPeakLv": 60
+                            }
+                        ]
+                    },
+                    "maxHp": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The maxHp Schema",
+                        "required": ["enabled", "growType", "paramMax", "paramOne", "paramPeakLv"],
+                        "properties": {
+                            "enabled": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The enabled Schema",
+                                "examples": [0]
+                            },
+                            "growType": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The growType Schema",
+                                "examples": [0]
+                            },
+                            "paramMax": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramMax Schema",
+                                "examples": [4250]
+                            },
+                            "paramOne": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramOne Schema",
+                                "examples": [235]
+                            },
+                            "paramPeakLv": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramPeakLv Schema",
+                                "examples": [60]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "enabled": 0,
+                                "growType": 0,
+                                "paramMax": 4250,
+                                "paramOne": 235,
+                                "paramPeakLv": 60
+                            }
+                        ]
+                    },
+                    "maxMp": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The maxMp Schema",
+                        "required": ["enabled", "growType", "paramMax", "paramOne", "paramPeakLv"],
+                        "properties": {
+                            "enabled": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The enabled Schema",
+                                "examples": [0]
+                            },
+                            "growType": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The growType Schema",
+                                "examples": [0]
+                            },
+                            "paramMax": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramMax Schema",
+                                "examples": [900]
+                            },
+                            "paramOne": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramOne Schema",
+                                "examples": [54]
+                            },
+                            "paramPeakLv": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramPeakLv Schema",
+                                "examples": [60]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "enabled": 0,
+                                "growType": 0,
+                                "paramMax": 900,
+                                "paramOne": 54,
+                                "paramPeakLv": 60
+                            }
+                        ]
+                    },
+                    "speed": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The speed Schema",
+                        "required": ["enabled", "growType", "paramMax", "paramOne", "paramPeakLv"],
+                        "properties": {
+                            "enabled": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The enabled Schema",
+                                "examples": [0]
+                            },
+                            "growType": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The growType Schema",
+                                "examples": [0]
+                            },
+                            "paramMax": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramMax Schema",
+                                "examples": [1420]
+                            },
+                            "paramOne": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramOne Schema",
+                                "examples": [64]
+                            },
+                            "paramPeakLv": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The paramPeakLv Schema",
+                                "examples": [60]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "enabled": 0,
+                                "growType": 0,
+                                "paramMax": 1420,
+                                "paramOne": 64,
+                                "paramPeakLv": 60
+                            }
+                        ]
+                    }
+                },
+                "examples": [
+                    {
+                        "attack": {
+                            "enabled": 0,
+                            "growType": 0,
+                            "paramMax": 2250,
+                            "paramOne": 102,
+                            "paramPeakLv": 60
+                        },
+                        "defense": {
+                            "enabled": 0,
+                            "growType": 0,
+                            "paramMax": 1380,
+                            "paramOne": 63,
+                            "paramPeakLv": 60
+                        },
+                        "luck": {
+                            "enabled": 0,
+                            "growType": 0,
+                            "paramMax": 770,
+                            "paramOne": 35,
+                            "paramPeakLv": 60
+                        },
+                        "magicAttack": {
+                            "enabled": 0,
+                            "growType": 0,
+                            "paramMax": 985,
+                            "paramOne": 45,
+                            "paramPeakLv": 60
+                        },
+                        "magicDefense": {
+                            "enabled": 0,
+                            "growType": 0,
+                            "paramMax": 1000,
+                            "paramOne": 50,
+                            "paramPeakLv": 60
+                        },
+                        "maxHp": {
+                            "enabled": 0,
+                            "growType": 0,
+                            "paramMax": 4250,
+                            "paramOne": 235,
+                            "paramPeakLv": 60
+                        },
+                        "maxMp": {
+                            "enabled": 0,
+                            "growType": 0,
+                            "paramMax": 900,
+                            "paramOne": 54,
+                            "paramPeakLv": 60
+                        },
+                        "speed": {
+                            "enabled": 0,
+                            "growType": 0,
+                            "paramMax": 1420,
+                            "paramOne": 64,
+                            "paramPeakLv": 60
+                        }
+                    }
+                ]
+            },
+            "abilitySp": {
+                "type": "object",
+                "default": {},
+                "title": "The abilitySp Schema",
+                "required": ["targetedRate"],
+                "properties": {
+                    "targetedRate": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The targetedRate Schema",
+                        "examples": [100]
+                    }
+                },
+                "examples": [
+                    {
+                        "targetedRate": 100
+                    }
+                ]
+            },
+            "armorTypes": {
+                "type": "array",
+                "default": [],
+                "title": "The armorTypes Schema",
+                "items": {
+                    "type": "string",
+                    "title": "A Schema",
+                    "examples": ["1", "5d44ec7b-6494-4e4c-b18f-b552a8500fd6", "c01b25d3-bdb5-4c23-a375-dcfdc05abad6", "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594"]
+                },
+                "examples": [["1", "5d44ec7b-6494-4e4c-b18f-b552a8500fd6", "c01b25d3-bdb5-4c23-a375-dcfdc05abad6", "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594"]]
+            },
+            "autoGuide": {
+                "type": "object",
+                "default": {},
+                "title": "The autoGuide Schema",
+                "required": ["attack", "defense", "luck", "magicAttack", "magicDefense", "maxHp", "maxMp", "speed"],
+                "properties": {
+                    "attack": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The attack Schema",
+                        "examples": [8]
+                    },
+                    "defense": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The defense Schema",
+                        "examples": [6]
+                    },
+                    "luck": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The luck Schema",
+                        "examples": [5]
+                    },
+                    "magicAttack": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The magicAttack Schema",
+                        "examples": [4]
+                    },
+                    "magicDefense": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The magicDefense Schema",
+                        "examples": [4]
+                    },
+                    "maxHp": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The maxHp Schema",
+                        "examples": [2]
+                    },
+                    "maxMp": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The maxMp Schema",
+                        "examples": [0]
+                    },
+                    "speed": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The speed Schema",
+                        "examples": [3]
+                    }
+                },
+                "examples": [
+                    {
+                        "attack": 8,
+                        "defense": 6,
+                        "luck": 5,
+                        "magicAttack": 4,
+                        "magicDefense": 4,
+                        "maxHp": 2,
+                        "maxMp": 0,
+                        "speed": 3
+                    }
+                ]
+            },
+            "baseHpMaxValue": {
+                "type": "integer",
+                "default": 0,
+                "title": "The baseHpMaxValue Schema",
+                "examples": [5000]
+            },
+            "basic": {
+                "type": "object",
+                "default": {},
+                "title": "The basic Schema",
+                "required": ["abilityEnabled", "expMax", "hpMax", "id", "level", "maxLevel", "name"],
+                "properties": {
+                    "abilityEnabled": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The abilityEnabled Schema",
+                        "required": ["luck", "magicAttack", "magicDefense", "mp", "speed", "tp"],
+                        "properties": {
+                            "luck": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The luck Schema",
+                                "examples": [1]
+                            },
+                            "magicAttack": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The magicAttack Schema",
+                                "examples": [1]
+                            },
+                            "magicDefense": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The magicDefense Schema",
+                                "examples": [1]
+                            },
+                            "mp": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The mp Schema",
+                                "examples": [1]
+                            },
+                            "speed": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The speed Schema",
+                                "examples": [1]
+                            },
+                            "tp": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The tp Schema",
+                                "examples": [1]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "luck": 1,
+                                "magicAttack": 1,
+                                "magicDefense": 1,
+                                "mp": 1,
+                                "speed": 1,
+                                "tp": 1
+                            }
+                        ]
+                    },
+                    "expMax": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The expMax Schema",
+                        "examples": [1]
+                    },
+                    "hpMax": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The hpMax Schema",
+                        "examples": [1]
+                    },
+                    "id": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The id Schema",
+                        "examples": ["ce89f973-6ed6-41fc-99d7-e3ca5fc1ce8c"]
+                    },
+                    "level": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The level Schema",
+                        "required": ["levelGameClear", "levelMax"],
+                        "properties": {
+                            "levelGameClear": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The levelGameClear Schema",
+                                "examples": [1]
+                            },
+                            "levelMax": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The levelMax Schema",
+                                "examples": [99]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "levelGameClear": 1,
+                                "levelMax": 99
+                            }
+                        ]
+                    },
+                    "maxLevel": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The maxLevel Schema",
+                        "examples": [1]
+                    },
+                    "name": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The name Schema",
+                        "examples": ["Hero"]
+                    }
+                },
+                "examples": [
+                    {
+                        "abilityEnabled": {
+                            "luck": 1,
+                            "magicAttack": 1,
+                            "magicDefense": 1,
+                            "mp": 1,
+                            "speed": 1,
+                            "tp": 1
+                        },
+                        "expMax": 1,
+                        "hpMax": 1,
+                        "id": "ce89f973-6ed6-41fc-99d7-e3ca5fc1ce8c",
+                        "level": {
+                            "levelGameClear": 1,
+                            "levelMax": 99
+                        },
+                        "maxLevel": 1,
+                        "name": "Hero"
+                    }
+                ]
+            },
+            "clearLevel": {
+                "type": "integer",
+                "default": 0,
+                "title": "The clearLevel Schema",
+                "examples": [60]
+            },
+            "element": {
+                "type": "string",
+                "default": "",
+                "title": "The element Schema",
+                "examples": ["0"]
+            },
+            "expGainIncreaseValue": {
+                "type": "integer",
+                "default": 0,
+                "title": "The expGainIncreaseValue Schema",
+                "examples": [1000000]
+            },
+            "expScore": {
+                "type": "object",
+                "default": {},
+                "title": "The expScore Schema",
+                "required": ["growType", "increaseValueA", "increaseValueB"],
+                "properties": {
+                    "growType": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The growType Schema",
+                        "examples": [10]
+                    },
+                    "increaseValueA": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The increaseValueA Schema",
+                        "examples": [10]
+                    },
+                    "increaseValueB": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The increaseValueB Schema",
+                        "examples": [10]
+                    }
+                },
+                "examples": [
+                    {
+                        "growType": 10,
+                        "increaseValueA": 10,
+                        "increaseValueB": 10
+                    }
+                ]
+            },
+            "id": {
+                "type": "string",
+                "default": "",
+                "title": "The id Schema",
+                "examples": ["39450ee1-598b-4a2e-b249-b615cd2a2ea5"]
+            },
+            "maxLevel": {
+                "type": "integer",
+                "default": 0,
+                "title": "The maxLevel Schema",
+                "examples": [99]
+            },
+            "parameter": {
+                "type": "object",
+                "default": {},
+                "title": "The parameter Schema",
+                "required": ["attack", "defense", "luck", "magicAttack", "magicDefense", "maxHp", "maxMp", "speed"],
+                "properties": {
+                    "attack": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The attack Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [0, 102, 132, 163, 2241, 2250]
+                        },
+                        "examples": [[0, 102, 132, 163, 2241, 2250]]
+                    },
+                    "defense": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The defense Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [0, 1380]
+                        },
+                        "examples": [[0, 1380]]
+                    },
+                    "luck": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The luck Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [0, 35, 45, 731, 734, 767, 770]
+                        },
+                        "examples": [[0, 35, 45, 731, 734, 767, 770]]
+                    },
+                    "magicAttack": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The magicAttack Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [0, 45, 58, 676, 981, 985]
+                        },
+                        "examples": [[0, 45, 58, 676, 981, 985]]
+                    },
+                    "magicDefense": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The magicDefense Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [0, 50, 63, 992, 996, 1000]
+                        },
+                        "examples": [[0, 50, 63, 992, 996, 1000]]
+                    },
+                    "maxHp": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The maxHp Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [0, 235, 292, 4217, 4233, 4250]
+                        },
+                        "examples": [[0, 235, 292, 4217, 4233, 4250]]
+                    },
+                    "maxMp": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The maxMp Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [0, 54, 66, 893, 896, 900]
+                        },
+                        "examples": [[0, 54, 66, 893, 896, 900]]
+                    },
+                    "speed": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The speed Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [0, 64, 83, 102, 122, 1414, 1420]
+                        },
+                        "examples": [[0, 64, 83, 102, 122, 1414, 1420]]
+                    }
+                },
+                "examples": [
+                    {
+                        "attack": [0, 102, 132, 163, 2241, 2250],
+                        "defense": [0, 1380],
+                        "luck": [0, 35, 45, 731, 734, 767, 770],
+                        "magicAttack": [0, 45, 58, 676, 981, 985],
+                        "magicDefense": [0, 50, 63, 992, 996, 1000],
+                        "maxHp": [0, 235, 292, 4217, 4233, 4250],
+                        "maxMp": [0, 54, 66, 893, 896, 900],
+                        "speed": [0, 64, 83, 102, 122, 1414, 1420]
+                    }
+                ]
+            },
+            "skillTypes": {
+                "type": "array",
+                "default": [],
+                "title": "The skillTypes Schema",
+                "items": {
+                    "type": "object",
+                    "title": "A Schema",
+                    "required": ["level", "skillId"],
+                    "properties": {
+                        "level": {
+                            "type": "integer",
+                            "title": "The level Schema",
+                            "examples": [2, 3, 5, 8, 15, 25, 20]
+                        },
+                        "skillId": {
+                            "type": "string",
+                            "title": "The skillId Schema",
+                            "examples": ["cbc13df7-48ab-4d6c-a562-72a852dc53a4", "cee38191-44ae-48ad-bec1-6da93173f7b8", "211533bc-abec-4654-9ebd-c101f9a332d8", "3719f506-a496-4d2d-9bce-915c6df1c245", "41d170d1-bf79-43e8-a845-b5e65502f1d0", "670f16f6-159c-4cc6-95b2-5342a02e35b9", "96c34a79-01df-4c91-9566-d978c44e6a82"]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "level": 2,
+                            "skillId": "cbc13df7-48ab-4d6c-a562-72a852dc53a4"
+                        },
+                        {
+                            "level": 3,
+                            "skillId": "cee38191-44ae-48ad-bec1-6da93173f7b8"
+                        },
+                        {
+                            "level": 5,
+                            "skillId": "211533bc-abec-4654-9ebd-c101f9a332d8"
+                        },
+                        {
+                            "level": 8,
+                            "skillId": "3719f506-a496-4d2d-9bce-915c6df1c245"
+                        },
+                        {
+                            "level": 15,
+                            "skillId": "41d170d1-bf79-43e8-a845-b5e65502f1d0"
+                        },
+                        {
+                            "level": 25,
+                            "skillId": "670f16f6-159c-4cc6-95b2-5342a02e35b9"
+                        },
+                        {
+                            "level": 20,
+                            "skillId": "96c34a79-01df-4c91-9566-d978c44e6a82"
+                        }
+                    ]
+                },
+                "examples": [
+                    [
+                        {
+                            "level": 2,
+                            "skillId": "cbc13df7-48ab-4d6c-a562-72a852dc53a4"
+                        },
+                        {
+                            "level": 3,
+                            "skillId": "cee38191-44ae-48ad-bec1-6da93173f7b8"
+                        },
+                        {
+                            "level": 5,
+                            "skillId": "211533bc-abec-4654-9ebd-c101f9a332d8"
+                        },
+                        {
+                            "level": 8,
+                            "skillId": "3719f506-a496-4d2d-9bce-915c6df1c245"
+                        },
+                        {
+                            "level": 15,
+                            "skillId": "41d170d1-bf79-43e8-a845-b5e65502f1d0"
+                        },
+                        {
+                            "level": 25,
+                            "skillId": "670f16f6-159c-4cc6-95b2-5342a02e35b9"
+                        },
+                        {
+                            "level": 20,
+                            "skillId": "96c34a79-01df-4c91-9566-d978c44e6a82"
+                        }
+                    ]
+                ]
+            },
+            "traits": {
+                "type": "array",
+                "default": [],
+                "title": "The traits Schema",
+                "items": {
+                    "type": "object",
+                    "title": "A Schema",
+                    "required": ["categoryId", "effectId", "traitsId", "value"],
+                    "properties": {
+                        "categoryId": {
+                            "type": "integer",
+                            "title": "The categoryId Schema",
+                            "examples": [2]
+                        },
+                        "effectId": {
+                            "type": "integer",
+                            "title": "The effectId Schema",
+                            "examples": [0, 1, 2]
+                        },
+                        "traitsId": {
+                            "type": "integer",
+                            "title": "The traitsId Schema",
+                            "examples": [2, 3]
+                        },
+                        "value": {
+                            "type": "integer",
+                            "title": "The value Schema",
+                            "examples": [1000, 50, 60]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "categoryId": 2,
+                            "effectId": 0,
+                            "traitsId": 2,
+                            "value": 1000
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 50
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 2,
+                            "traitsId": 2,
+                            "value": 60
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 0,
+                            "traitsId": 3,
+                            "value": 1000
+                        }
+                    ]
+                },
+                "examples": [
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 0,
+                            "traitsId": 2,
+                            "value": 1000
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 50
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 2,
+                            "traitsId": 2,
+                            "value": 60
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 0,
+                            "traitsId": 3,
+                            "value": 1000
+                        }
+                    ]
+                ]
+            },
+            "weaponTypes": {
+                "type": "array",
+                "default": [],
+                "title": "The weaponTypes Schema",
+                "items": {
+                    "type": "string",
+                    "title": "A Schema",
+                    "examples": ["94e410c8-ecd3-4c9e-a844-c978fc6e21f2", "fe2c539e-10df-4d32-8103-b06ee37a157d", "bf7300f0-c155-492d-a171-6325d2677819"]
+                },
+                "examples": [["94e410c8-ecd3-4c9e-a844-c978fc6e21f2", "fe2c539e-10df-4d32-8103-b06ee37a157d", "bf7300f0-c155-492d-a171-6325d2677819"]]
+            }
+        },
+        "examples": [
+            {
+                "abilityAdd": {
+                    "criticalRate": 1,
+                    "evasionRate": 1,
+                    "hitRate": 1
+                },
+                "abilityScore": {
+                    "attack": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 2250,
+                        "paramOne": 102,
+                        "paramPeakLv": 60
+                    },
+                    "defense": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 1380,
+                        "paramOne": 63,
+                        "paramPeakLv": 60
+                    },
+                    "luck": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 770,
+                        "paramOne": 35,
+                        "paramPeakLv": 60
+                    },
+                    "magicAttack": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 985,
+                        "paramOne": 45,
+                        "paramPeakLv": 60
+                    },
+                    "magicDefense": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 1000,
+                        "paramOne": 50,
+                        "paramPeakLv": 60
+                    },
+                    "maxHp": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 4250,
+                        "paramOne": 235,
+                        "paramPeakLv": 60
+                    },
+                    "maxMp": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 900,
+                        "paramOne": 54,
+                        "paramPeakLv": 60
+                    },
+                    "speed": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 1420,
+                        "paramOne": 64,
+                        "paramPeakLv": 60
+                    }
+                },
+                "abilitySp": {
+                    "targetedRate": 100
+                },
+                "armorTypes": ["1", "5d44ec7b-6494-4e4c-b18f-b552a8500fd6", "c01b25d3-bdb5-4c23-a375-dcfdc05abad6", "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594"],
+                "autoGuide": {
+                    "attack": 8,
+                    "defense": 6,
+                    "luck": 5,
+                    "magicAttack": 4,
+                    "magicDefense": 4,
+                    "maxHp": 2,
+                    "maxMp": 0,
+                    "speed": 3
+                },
+                "baseHpMaxValue": 5000,
+                "basic": {
+                    "abilityEnabled": {
+                        "luck": 1,
+                        "magicAttack": 1,
+                        "magicDefense": 1,
+                        "mp": 1,
+                        "speed": 1,
+                        "tp": 1
+                    },
+                    "expMax": 1,
+                    "hpMax": 1,
+                    "id": "ce89f973-6ed6-41fc-99d7-e3ca5fc1ce8c",
+                    "level": {
+                        "levelGameClear": 1,
+                        "levelMax": 99
+                    },
+                    "maxLevel": 1,
+                    "name": "Hero"
+                },
+                "clearLevel": 60,
+                "element": "0",
+                "expGainIncreaseValue": 1000000,
+                "expScore": {
+                    "growType": 10,
+                    "increaseValueA": 10,
+                    "increaseValueB": 10
+                },
+                "id": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+                "maxLevel": 99,
+                "parameter": {
+                    "attack": [0, 102, 132, 163, 2241, 2250],
+                    "defense": [0, 1380],
+                    "luck": [0, 35, 45, 731, 734, 767, 770],
+                    "magicAttack": [0, 45, 58, 676, 981, 985],
+                    "magicDefense": [0, 50, 63, 992, 996, 1000],
+                    "maxHp": [0, 235, 292, 4217, 4233, 4250],
+                    "maxMp": [0, 54, 66, 893, 896, 900],
+                    "speed": [0, 64, 83, 102, 122, 1414, 1420]
+                },
+                "skillTypes": [
+                    {
+                        "level": 2,
+                        "skillId": "cbc13df7-48ab-4d6c-a562-72a852dc53a4"
+                    },
+                    {
+                        "level": 3,
+                        "skillId": "cee38191-44ae-48ad-bec1-6da93173f7b8"
+                    },
+                    {
+                        "level": 5,
+                        "skillId": "211533bc-abec-4654-9ebd-c101f9a332d8"
+                    },
+                    {
+                        "level": 8,
+                        "skillId": "3719f506-a496-4d2d-9bce-915c6df1c245"
+                    },
+                    {
+                        "level": 15,
+                        "skillId": "41d170d1-bf79-43e8-a845-b5e65502f1d0"
+                    },
+                    {
+                        "level": 25,
+                        "skillId": "670f16f6-159c-4cc6-95b2-5342a02e35b9"
+                    },
+                    {
+                        "level": 20,
+                        "skillId": "96c34a79-01df-4c91-9566-d978c44e6a82"
+                    }
+                ],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 0,
+                        "traitsId": 2,
+                        "value": 1000
+                    },
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 50
+                    },
+                    {
+                        "categoryId": 2,
+                        "effectId": 2,
+                        "traitsId": 2,
+                        "value": 60
+                    },
+                    {
+                        "categoryId": 2,
+                        "effectId": 0,
+                        "traitsId": 3,
+                        "value": 1000
+                    }
+                ],
+                "weaponTypes": ["94e410c8-ecd3-4c9e-a844-c978fc6e21f2", "fe2c539e-10df-4d32-8103-b06ee37a157d", "bf7300f0-c155-492d-a171-6325d2677819"]
+            }
+        ]
+    },
+    "examples": [
+        [
+            {
+                "abilityAdd": {
+                    "criticalRate": 1,
+                    "evasionRate": 1,
+                    "hitRate": 1
+                },
+                "abilityScore": {
+                    "attack": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 2250,
+                        "paramOne": 102,
+                        "paramPeakLv": 60
+                    },
+                    "defense": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 1380,
+                        "paramOne": 63,
+                        "paramPeakLv": 60
+                    },
+                    "luck": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 770,
+                        "paramOne": 35,
+                        "paramPeakLv": 60
+                    },
+                    "magicAttack": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 985,
+                        "paramOne": 45,
+                        "paramPeakLv": 60
+                    },
+                    "magicDefense": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 1000,
+                        "paramOne": 50,
+                        "paramPeakLv": 60
+                    },
+                    "maxHp": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 4250,
+                        "paramOne": 235,
+                        "paramPeakLv": 60
+                    },
+                    "maxMp": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 900,
+                        "paramOne": 54,
+                        "paramPeakLv": 60
+                    },
+                    "speed": {
+                        "enabled": 0,
+                        "growType": 0,
+                        "paramMax": 1420,
+                        "paramOne": 64,
+                        "paramPeakLv": 60
+                    }
+                },
+                "abilitySp": {
+                    "targetedRate": 100
+                },
+                "armorTypes": ["1", "5d44ec7b-6494-4e4c-b18f-b552a8500fd6", "c01b25d3-bdb5-4c23-a375-dcfdc05abad6", "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594"],
+                "autoGuide": {
+                    "attack": 8,
+                    "defense": 6,
+                    "luck": 5,
+                    "magicAttack": 4,
+                    "magicDefense": 4,
+                    "maxHp": 2,
+                    "maxMp": 0,
+                    "speed": 3
+                },
+                "baseHpMaxValue": 5000,
+                "basic": {
+                    "abilityEnabled": {
+                        "luck": 1,
+                        "magicAttack": 1,
+                        "magicDefense": 1,
+                        "mp": 1,
+                        "speed": 1,
+                        "tp": 1
+                    },
+                    "expMax": 1,
+                    "hpMax": 1,
+                    "id": "ce89f973-6ed6-41fc-99d7-e3ca5fc1ce8c",
+                    "level": {
+                        "levelGameClear": 1,
+                        "levelMax": 99
+                    },
+                    "maxLevel": 1,
+                    "name": "Hero"
+                },
+                "clearLevel": 60,
+                "element": "0",
+                "expGainIncreaseValue": 1000000,
+                "expScore": {
+                    "growType": 10,
+                    "increaseValueA": 10,
+                    "increaseValueB": 10
+                },
+                "id": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+                "maxLevel": 99,
+                "parameter": {
+                    "attack": [0, 102, 132, 163, 2241, 2250],
+                    "defense": [0, 1380],
+                    "luck": [0, 35, 45, 731, 734, 767, 770],
+                    "magicAttack": [0, 45, 58, 676, 981, 985],
+                    "magicDefense": [0, 50, 63, 992, 996, 1000],
+                    "maxHp": [0, 235, 292, 4217, 4233, 4250],
+                    "maxMp": [0, 54, 66, 893, 896, 900],
+                    "speed": [0, 64, 83, 102, 122, 1414, 1420]
+                },
+                "skillTypes": [
+                    {
+                        "level": 2,
+                        "skillId": "cbc13df7-48ab-4d6c-a562-72a852dc53a4"
+                    },
+                    {
+                        "level": 3,
+                        "skillId": "cee38191-44ae-48ad-bec1-6da93173f7b8"
+                    },
+                    {
+                        "level": 5,
+                        "skillId": "211533bc-abec-4654-9ebd-c101f9a332d8"
+                    },
+                    {
+                        "level": 8,
+                        "skillId": "3719f506-a496-4d2d-9bce-915c6df1c245"
+                    },
+                    {
+                        "level": 15,
+                        "skillId": "41d170d1-bf79-43e8-a845-b5e65502f1d0"
+                    },
+                    {
+                        "level": 25,
+                        "skillId": "670f16f6-159c-4cc6-95b2-5342a02e35b9"
+                    },
+                    {
+                        "level": 20,
+                        "skillId": "96c34a79-01df-4c91-9566-d978c44e6a82"
+                    }
+                ],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 0,
+                        "traitsId": 2,
+                        "value": 1000
+                    },
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 50
+                    },
+                    {
+                        "categoryId": 2,
+                        "effectId": 2,
+                        "traitsId": 2,
+                        "value": 60
+                    },
+                    {
+                        "categoryId": 2,
+                        "effectId": 0,
+                        "traitsId": 3,
+                        "value": 1000
+                    }
+                ],
+                "weaponTypes": ["94e410c8-ecd3-4c9e-a844-c978fc6e21f2", "fe2c539e-10df-4d32-8103-b06ee37a157d", "bf7300f0-c155-492d-a171-6325d2677819"]
+            }
+        ]
+    ]
+}

@@ -15,7 +15,6 @@ RPG Maker UNITE の練習
 * 📄 [一連の Effekseer プロジェクト](./docs/research/effekseer.md)
 * JSON 調べ
   * 📄 [ツール](./docs/research/json-schema.md)
-  * 📄 [JSON](./docs/research/json.md)
 
 ## Unity と、それ以外のプログラミングの違いでつまづくとこ
 
