@@ -6,8 +6,8 @@
     {
         // テーブル型ログ
         static readonly TableLogBuffer tableLog = new TableLogBuffer(
-            csvLogFilePath: Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "RMUPractice-Stopwatch-Table.csv"),
-            remarkLogFilePath: Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "RMUPractice-Stopwatch-Info.log"));
+            csvLogFilePath: Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "RMU Practice/[AAA／BBB]-Stopwatch-Table.csv"),
+            remarkLogFilePath: Path.Join(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "RMU Practice/[AAA／BBB]-Stopwatch-Info.log"));
 
         /// <summary>
         /// エグザンプル
