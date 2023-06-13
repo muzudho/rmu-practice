@@ -1,0 +1,3986 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "title": "A Schema",
+        "required": ["expansion", "flashList", "id", "offset", "particleId", "particleName", "particlePos", "particleType", "playSpeed", "rotation", "seList", "targetImageName"],
+        "properties": {
+            "expansion": {
+                "type": "integer",
+                "title": "The expansion Schema",
+                "examples": [100, 50, 60, 80, 120, 200]
+            },
+            "flashList": {
+                "type": "array",
+                "title": "The flashList Schema",
+                "items": {
+                    "type": "object",
+                    "title": "A Schema",
+                    "required": ["color", "flashId", "flashType", "frame", "time"],
+                    "properties": {
+                        "color": {
+                            "type": "string",
+                            "title": "The color Schema",
+                            "examples": ["255,255,255", "255,119,102", "255,136,51", "119,187,255", "187,221,221", "255,255,102", "255,255,119", "255,255,85", "255,68,0"]
+                        },
+                        "flashId": {
+                            "type": "integer",
+                            "title": "The flashId Schema",
+                            "examples": [0]
+                        },
+                        "flashType": {
+                            "type": "integer",
+                            "title": "The flashType Schema",
+                            "examples": [1]
+                        },
+                        "frame": {
+                            "type": "integer",
+                            "title": "The frame Schema",
+                            "examples": [1, 2, 3, 4, 30, 60, 100, 10, 28, 55, 90, 27]
+                        },
+                        "time": {
+                            "type": "integer",
+                            "title": "The time Schema",
+                            "examples": [30, 60, 70, 27, 35, 28, 17, 40]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,119,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,136,51",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 3,
+                            "time": 30
+                        },
+                        {
+                            "color": "119,187,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "187,221,221",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 3,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,119",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 3,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,119,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,136,51",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        },
+                        {
+                            "color": "119,187,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "187,221,221",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,119",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,119,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,136,51",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 4,
+                            "time": 30
+                        },
+                        {
+                            "color": "119,187,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "187,221,221",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 4,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 60
+                        },
+                        {
+                            "color": "255,255,85",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 4,
+                            "time": 60
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,119,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "119,187,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 30,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 60,
+                            "time": 70
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 100,
+                            "time": 70
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 10,
+                            "time": 27
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 28,
+                            "time": 27
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 55,
+                            "time": 35
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 90,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 27,
+                            "time": 27
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 28,
+                            "time": 28
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 30,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 17
+                        },
+                        {
+                            "color": "255,68,0",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 30,
+                            "time": 40
+                        }
+                    ]
+                },
+                "examples": [
+                    [],
+                    [],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,119,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,136,51",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 3,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "119,187,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "187,221,221",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 3,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,119",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 3,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,119,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,136,51",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "119,187,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "187,221,221",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,119",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 2,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,119,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,136,51",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 4,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "119,187,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "187,221,221",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 4,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 60
+                        },
+                        {
+                            "color": "255,255,85",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 4,
+                            "time": 60
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,119,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "119,187,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,102",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 30,
+                            "time": 30
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 60,
+                            "time": 70
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 100,
+                            "time": 70
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 10,
+                            "time": 27
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 28,
+                            "time": 27
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 55,
+                            "time": 35
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 90,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 27,
+                            "time": 27
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 28,
+                            "time": 28
+                        },
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 30,
+                            "time": 30
+                        }
+                    ],
+                    [
+                        {
+                            "color": "255,255,255",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 1,
+                            "time": 17
+                        },
+                        {
+                            "color": "255,68,0",
+                            "flashId": 0,
+                            "flashType": 1,
+                            "frame": 30,
+                            "time": 40
+                        }
+                    ]
+                ]
+            },
+            "id": {
+                "type": "string",
+                "title": "The id Schema",
+                "examples": [
+                    "54b168ea-5141-48ed-9e42-4336ac58755c",
+                    "111419c2-2152-4b18-901d-4465c6771d4f",
+                    "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+                    "e7530c2a-a2f2-453e-a8a7-7ac5eddd6cff",
+                    "951fe5cc-a0d0-4e05-8a08-71483e1fec2b",
+                    "9cce14f3-171b-4089-b88d-0f7f8b770a70",
+                    "17d8cff7-4f57-4a6d-954b-cb65636cb64f",
+                    "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+                    "2f9df539-cd03-4696-a040-222c772e35eb",
+                    "821af2a5-344e-4208-bc85-3b5d0635ea8b",
+                    "6cd100d3-ed59-4331-86e7-3a274c7e6eb2",
+                    "9e46582d-59cb-4512-b607-17231d3ca174",
+                    "f4da0dde-49bc-4ab3-b597-b05d8b6eb75b",
+                    "680296e3-2377-472e-8387-9c7dca64217b",
+                    "cd7ed346-f284-4873-a54a-526ddc72a209",
+                    "6cc01af0-03bc-4f0f-b262-921f84075c40",
+                    "9f23347e-5823-46b4-994e-25665f4cb0c0",
+                    "d479f5a0-c841-4414-8b7b-d7e27d09e284",
+                    "6f65a567-3cb1-4789-94d0-b4d65207a013",
+                    "083f449d-97d6-4c73-ab53-db8d97048bdc",
+                    "5a954366-d320-4e1d-ab4c-ca8b435a74a4",
+                    "4ff74b19-22f3-4009-a652-96cec6b82fcd",
+                    "ac61511c-5025-4862-aafd-1ca48ff48ffe",
+                    "c0deecc4-c730-4b3e-94b5-0f9f6ecab46d",
+                    "71bbf7c7-339b-46f6-9504-9da7aec677d3",
+                    "8660a770-a992-4318-b23c-91e7a6f9c260"
+                ]
+            },
+            "offset": {
+                "type": "string",
+                "title": "The offset Schema",
+                "examples": ["0;0"]
+            },
+            "particleId": {
+                "type": "string",
+                "title": "The particleId Schema",
+                "examples": [
+                    "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+                    "5b32c153-14a4-4d0f-8ad2-8d25dddd47d3",
+                    "e53500c2-2138-406d-bd24-baa0506134b1",
+                    "fbdad983-6a1d-4ff9-b206-c0901beed796",
+                    "49325f2a-89b8-4887-8d3d-12c5709c23e8",
+                    "8f4d153a-4cd9-4810-8091-6acbdbdc0465",
+                    "090f89de-4e7c-4463-8f68-2d7abbcbae39",
+                    "aa3c21f8-4bdb-42b5-8718-bec6c40acf47",
+                    "221f1f67-89a1-40dd-b4b4-c628d5190068",
+                    "7eb8498a-975e-4753-a6b1-411445c44ada",
+                    "397c2841-3436-40f0-81ae-a74a473d4870",
+                    "81bb5e91-2d0a-411e-ae3f-d96ff67b8cd3",
+                    "e45ab9d2-f4ff-4448-bb21-8278b438d17b",
+                    "a371c5c7-af56-4836-853d-fc26ba55e358",
+                    "0ca59363-f5ff-4dd4-b20c-69734f8c74c0",
+                    "35da20aa-6590-4cbe-a265-0888844a13bf",
+                    "eef2123b-46b1-401c-a641-ba28b42acf29",
+                    "01f310cb-791d-4bf3-8c9b-0b65739c5fdd",
+                    "f6df50e6-2633-4c90-9737-d08159428b4b",
+                    "d8295fa8-4520-478c-966b-61bf035081d6",
+                    "fb7e8894-f47a-4bf8-b9fe-e7cd384ba272",
+                    "18f62052-133b-4f95-b684-1d832d9ace67",
+                    "0884eee2-0c91-4d72-8168-036e274a3b51",
+                    "1fba7dba-d99d-41da-902a-3c8d4c1520aa"
+                ]
+            },
+            "particleName": {
+                "type": "string",
+                "title": "The particleName Schema",
+                "examples": [
+                    "None",
+                    "Standard Attack",
+                    "Blunt/Physical",
+                    "Blunt/Effect",
+                    "Blunt/Fire",
+                    "Blunt/Ice",
+                    "Blunt/Thunder",
+                    "Slash/Physical",
+                    "Slash/Effect",
+                    "Slash/Fire",
+                    "Slash/Ice",
+                    "Slash/Thunder",
+                    "Pierce/Physical",
+                    "Pierce/Effect",
+                    "Pierce/Fire",
+                    "Pierce/Ice",
+                    "Pierce/Thunder",
+                    "Claw/Physical",
+                    "Claw/Effect",
+                    "Claw/Fire",
+                    "Claw/Ice",
+                    "Claw/Thunder",
+                    "Blunt/Special 1",
+                    "Blunt/Special 2",
+                    "Slash/Special 1",
+                    "Slash/Special 2"
+                ]
+            },
+            "particlePos": {
+                "type": "integer",
+                "title": "The particlePos Schema",
+                "examples": [0, 1]
+            },
+            "particleType": {
+                "type": "integer",
+                "title": "The particleType Schema",
+                "examples": [0, 1, 2]
+            },
+            "playSpeed": {
+                "type": "integer",
+                "title": "The playSpeed Schema",
+                "examples": [100]
+            },
+            "rotation": {
+                "type": "string",
+                "title": "The rotation Schema",
+                "examples": ["0;0;0", "10;10;10"]
+            },
+            "seList": {
+                "type": "array",
+                "title": "The seList Schema",
+                "items": {
+                    "type": "object",
+                    "title": "A Schema",
+                    "required": ["frame", "seId", "seName"],
+                    "properties": {
+                        "frame": {
+                            "type": "integer",
+                            "title": "The frame Schema",
+                            "examples": [1, 2, 3, 4, 5, 9, 0, 6, 10, 28, 35, 45, 52, 70, 85, 92, 100, 25, 55, 60, 80, 12, 16, 18, 20, 24, 48, 8, 17]
+                        },
+                        "seId": {
+                            "type": "integer",
+                            "title": "The seId Schema",
+                            "examples": [0]
+                        },
+                        "seName": {
+                            "type": "string",
+                            "title": "The seName Schema",
+                            "examples": [
+                                "Blow1.ogg",
+                                "Evasion2.ogg",
+                                "Damage4.ogg",
+                                "Powerup.ogg",
+                                "Fire1.ogg",
+                                "Ice1.ogg",
+                                "Thunder8.ogg",
+                                "Blow3.ogg",
+                                "Slash1.ogg",
+                                "Thunder1.ogg",
+                                "Sword5.ogg",
+                                "Thunder4.ogg",
+                                "Ice3.ogg",
+                                "Thunder3.ogg",
+                                "",
+                                "Attack2.ogg",
+                                "Slash2.ogg",
+                                "Thunder5.ogg",
+                                "Blow2.ogg",
+                                "Damage2.ogg",
+                                "Slash4.ogg",
+                                "Slash3.ogg",
+                                "Sword4.ogg",
+                                "Wind4.ogg",
+                                "Slash8.ogg",
+                                "Water4.ogg"
+                            ]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Damage4.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Powerup.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Fire1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Ice1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder8.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Thunder8.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Powerup.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder1.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Sword5.ogg"
+                        },
+                        {
+                            "frame": 5,
+                            "seId": 0,
+                            "seName": "Fire1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Ice1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder8.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder1.ogg"
+                        },
+                        {
+                            "frame": 5,
+                            "seId": 0,
+                            "seName": "Sword5.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Thunder4.ogg"
+                        },
+                        {
+                            "frame": 9,
+                            "seId": 0,
+                            "seName": "Powerup.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder1.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Fire1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder1.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Sword5.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Ice3.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder3.ogg"
+                        },
+                        {
+                            "frame": 0,
+                            "seId": 0,
+                            "seName": ""
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Powerup.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Fire1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Ice3.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Thunder8.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        },
+                        {
+                            "frame": 6,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 10,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        },
+                        {
+                            "frame": 28,
+                            "seId": 0,
+                            "seName": "Thunder5.ogg"
+                        },
+                        {
+                            "frame": 35,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 45,
+                            "seId": 0,
+                            "seName": "Thunder5.ogg"
+                        },
+                        {
+                            "frame": 45,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 52,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 70,
+                            "seId": 0,
+                            "seName": "Thunder5.ogg"
+                        },
+                        {
+                            "frame": 85,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 92,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 100,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 25,
+                            "seId": 0,
+                            "seName": "Blow2.ogg"
+                        },
+                        {
+                            "frame": 28,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 35,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 45,
+                            "seId": 0,
+                            "seName": "Blow2.ogg"
+                        },
+                        {
+                            "frame": 55,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 60,
+                            "seId": 0,
+                            "seName": "Damage2.ogg"
+                        },
+                        {
+                            "frame": 80,
+                            "seId": 0,
+                            "seName": "Damage2.ogg"
+                        },
+                        {
+                            "frame": 12,
+                            "seId": 0,
+                            "seName": "Slash4.ogg"
+                        },
+                        {
+                            "frame": 16,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 18,
+                            "seId": 0,
+                            "seName": "Slash3.ogg"
+                        },
+                        {
+                            "frame": 20,
+                            "seId": 0,
+                            "seName": "Slash3.ogg"
+                        },
+                        {
+                            "frame": 24,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 28,
+                            "seId": 0,
+                            "seName": "Slash3.ogg"
+                        },
+                        {
+                            "frame": 48,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Sword4.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Wind4.ogg"
+                        },
+                        {
+                            "frame": 8,
+                            "seId": 0,
+                            "seName": "Slash8.ogg"
+                        },
+                        {
+                            "frame": 8,
+                            "seId": 0,
+                            "seName": "Water4.ogg"
+                        },
+                        {
+                            "frame": 10,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 17,
+                            "seId": 0,
+                            "seName": "Ice3.ogg"
+                        }
+                    ]
+                },
+                "examples": [
+                    [],
+                    [],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Damage4.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Powerup.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Fire1.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Ice1.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder8.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Thunder8.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Powerup.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder1.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Sword5.ogg"
+                        },
+                        {
+                            "frame": 5,
+                            "seId": 0,
+                            "seName": "Fire1.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Ice1.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder8.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder1.ogg"
+                        },
+                        {
+                            "frame": 5,
+                            "seId": 0,
+                            "seName": "Sword5.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Thunder4.ogg"
+                        },
+                        {
+                            "frame": 9,
+                            "seId": 0,
+                            "seName": "Powerup.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder1.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Fire1.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder1.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Sword5.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Ice3.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Thunder3.ogg"
+                        },
+                        {
+                            "frame": 0,
+                            "seId": 0,
+                            "seName": ""
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Powerup.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Fire1.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Ice3.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Attack2.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Thunder8.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 3,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        },
+                        {
+                            "frame": 6,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 10,
+                            "seId": 0,
+                            "seName": "Blow1.ogg"
+                        },
+                        {
+                            "frame": 28,
+                            "seId": 0,
+                            "seName": "Thunder5.ogg"
+                        },
+                        {
+                            "frame": 35,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 45,
+                            "seId": 0,
+                            "seName": "Thunder5.ogg"
+                        },
+                        {
+                            "frame": 45,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 52,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 70,
+                            "seId": 0,
+                            "seName": "Thunder5.ogg"
+                        },
+                        {
+                            "frame": 85,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 92,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 100,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 25,
+                            "seId": 0,
+                            "seName": "Blow2.ogg"
+                        },
+                        {
+                            "frame": 28,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 35,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 45,
+                            "seId": 0,
+                            "seName": "Blow2.ogg"
+                        },
+                        {
+                            "frame": 55,
+                            "seId": 0,
+                            "seName": "Blow3.ogg"
+                        },
+                        {
+                            "frame": 60,
+                            "seId": 0,
+                            "seName": "Damage2.ogg"
+                        },
+                        {
+                            "frame": 80,
+                            "seId": 0,
+                            "seName": "Damage2.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 12,
+                            "seId": 0,
+                            "seName": "Slash4.ogg"
+                        },
+                        {
+                            "frame": 16,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 18,
+                            "seId": 0,
+                            "seName": "Slash3.ogg"
+                        },
+                        {
+                            "frame": 20,
+                            "seId": 0,
+                            "seName": "Slash3.ogg"
+                        },
+                        {
+                            "frame": 24,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 28,
+                            "seId": 0,
+                            "seName": "Slash3.ogg"
+                        },
+                        {
+                            "frame": 48,
+                            "seId": 0,
+                            "seName": "Evasion2.ogg"
+                        }
+                    ],
+                    [
+                        {
+                            "frame": 1,
+                            "seId": 0,
+                            "seName": "Sword4.ogg"
+                        },
+                        {
+                            "frame": 2,
+                            "seId": 0,
+                            "seName": "Slash2.ogg"
+                        },
+                        {
+                            "frame": 4,
+                            "seId": 0,
+                            "seName": "Wind4.ogg"
+                        },
+                        {
+                            "frame": 8,
+                            "seId": 0,
+                            "seName": "Slash8.ogg"
+                        },
+                        {
+                            "frame": 8,
+                            "seId": 0,
+                            "seName": "Water4.ogg"
+                        },
+                        {
+                            "frame": 10,
+                            "seId": 0,
+                            "seName": "Slash1.ogg"
+                        },
+                        {
+                            "frame": 17,
+                            "seId": 0,
+                            "seName": "Ice3.ogg"
+                        }
+                    ]
+                ]
+            },
+            "targetImageName": {
+                "type": "string",
+                "title": "The targetImageName Schema",
+                "examples": [""]
+            }
+        },
+        "examples": [
+            {
+                "expansion": 100,
+                "flashList": [],
+                "id": "54b168ea-5141-48ed-9e42-4336ac58755c",
+                "offset": "0;0",
+                "particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+                "particleName": "None",
+                "particlePos": 0,
+                "particleType": 0,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [],
+                "id": "111419c2-2152-4b18-901d-4465c6771d4f",
+                "offset": "0;0",
+                "particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+                "particleName": "Standard Attack",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 50,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+                "offset": "0;0",
+                "particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+                "particleName": "Blunt/Physical",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "10;10;10",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 60,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "e7530c2a-a2f2-453e-a8a7-7ac5eddd6cff",
+                "offset": "0;0",
+                "particleId": "5b32c153-14a4-4d0f-8ad2-8d25dddd47d3",
+                "particleName": "Blunt/Effect",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Damage4.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Powerup.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,119,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,136,51",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 3,
+                        "time": 30
+                    }
+                ],
+                "id": "951fe5cc-a0d0-4e05-8a08-71483e1fec2b",
+                "offset": "0;0",
+                "particleId": "e53500c2-2138-406d-bd24-baa0506134b1",
+                "particleName": "Blunt/Fire",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Fire1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "119,187,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "187,221,221",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 3,
+                        "time": 30
+                    }
+                ],
+                "id": "9cce14f3-171b-4089-b88d-0f7f8b770a70",
+                "offset": "0;0",
+                "particleId": "fbdad983-6a1d-4ff9-b206-c0901beed796",
+                "particleName": "Blunt/Ice",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Ice1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,255,119",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 3,
+                        "time": 30
+                    }
+                ],
+                "id": "17d8cff7-4f57-4a6d-954b-cb65636cb64f",
+                "offset": "0;0",
+                "particleId": "49325f2a-89b8-4887-8d3d-12c5709c23e8",
+                "particleName": "Blunt/Thunder",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder8.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Thunder8.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+                "offset": "0;0",
+                "particleId": "8f4d153a-4cd9-4810-8091-6acbdbdc0465",
+                "particleName": "Slash/Physical",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "2f9df539-cd03-4696-a040-222c772e35eb",
+                "offset": "0;0",
+                "particleId": "090f89de-4e7c-4463-8f68-2d7abbcbae39",
+                "particleName": "Slash/Effect",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Powerup.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,119,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,136,51",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "821af2a5-344e-4208-bc85-3b5d0635ea8b",
+                "offset": "0;0",
+                "particleId": "aa3c21f8-4bdb-42b5-8718-bec6c40acf47",
+                "particleName": "Slash/Fire",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder1.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Sword5.ogg"
+                    },
+                    {
+                        "frame": 5,
+                        "seId": 0,
+                        "seName": "Fire1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "119,187,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "187,221,221",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "6cd100d3-ed59-4331-86e7-3a274c7e6eb2",
+                "offset": "0;0",
+                "particleId": "221f1f67-89a1-40dd-b4b4-c628d5190068",
+                "particleName": "Slash/Ice",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Ice1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,255,119",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "9e46582d-59cb-4512-b607-17231d3ca174",
+                "offset": "0;0",
+                "particleId": "7eb8498a-975e-4753-a6b1-411445c44ada",
+                "particleName": "Slash/Thunder",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder8.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 60,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "f4da0dde-49bc-4ab3-b597-b05d8b6eb75b",
+                "offset": "0;0",
+                "particleId": "397c2841-3436-40f0-81ae-a74a473d4870",
+                "particleName": "Pierce/Physical",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder1.ogg"
+                    },
+                    {
+                        "frame": 5,
+                        "seId": 0,
+                        "seName": "Sword5.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 80,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "680296e3-2377-472e-8387-9c7dca64217b",
+                "offset": "0;0",
+                "particleId": "81bb5e91-2d0a-411e-ae3f-d96ff67b8cd3",
+                "particleName": "Pierce/Effect",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Thunder4.ogg"
+                    },
+                    {
+                        "frame": 9,
+                        "seId": 0,
+                        "seName": "Powerup.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 80,
+                "flashList": [
+                    {
+                        "color": "255,119,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,136,51",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 4,
+                        "time": 30
+                    }
+                ],
+                "id": "cd7ed346-f284-4873-a54a-526ddc72a209",
+                "offset": "0;0",
+                "particleId": "e45ab9d2-f4ff-4448-bb21-8278b438d17b",
+                "particleName": "Pierce/Fire",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder1.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Fire1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 80,
+                "flashList": [
+                    {
+                        "color": "119,187,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "187,221,221",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 4,
+                        "time": 30
+                    }
+                ],
+                "id": "6cc01af0-03bc-4f0f-b262-921f84075c40",
+                "offset": "0;0",
+                "particleId": "a371c5c7-af56-4836-853d-fc26ba55e358",
+                "particleName": "Pierce/Ice",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder1.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Sword5.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Ice3.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 80,
+                "flashList": [
+                    {
+                        "color": "255,255,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 60
+                    },
+                    {
+                        "color": "255,255,85",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 4,
+                        "time": 60
+                    }
+                ],
+                "id": "9f23347e-5823-46b4-994e-25665f4cb0c0",
+                "offset": "0;0",
+                "particleId": "0ca59363-f5ff-4dd4-b20c-69734f8c74c0",
+                "particleName": "Pierce/Thunder",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder3.ogg"
+                    },
+                    {
+                        "frame": 0,
+                        "seId": 0,
+                        "seName": ""
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "d479f5a0-c841-4414-8b7b-d7e27d09e284",
+                "offset": "0;0",
+                "particleId": "35da20aa-6590-4cbe-a265-0888844a13bf",
+                "particleName": "Claw/Physical",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "6f65a567-3cb1-4789-94d0-b4d65207a013",
+                "offset": "0;0",
+                "particleId": "eef2123b-46b1-401c-a641-ba28b42acf29",
+                "particleName": "Claw/Effect",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Powerup.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,119,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "083f449d-97d6-4c73-ab53-db8d97048bdc",
+                "offset": "0;0",
+                "particleId": "01f310cb-791d-4bf3-8c9b-0b65739c5fdd",
+                "particleName": "Claw/Fire",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Fire1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "119,187,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "5a954366-d320-4e1d-ab4c-ca8b435a74a4",
+                "offset": "0;0",
+                "particleId": "f6df50e6-2633-4c90-9737-d08159428b4b",
+                "particleName": "Claw/Ice",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Ice3.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "4ff74b19-22f3-4009-a652-96cec6b82fcd",
+                "offset": "0;0",
+                "particleId": "d8295fa8-4520-478c-966b-61bf035081d6",
+                "particleName": "Claw/Thunder",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Thunder8.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 120,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 30,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 60,
+                        "time": 70
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 100,
+                        "time": 70
+                    }
+                ],
+                "id": "ac61511c-5025-4862-aafd-1ca48ff48ffe",
+                "offset": "0;0",
+                "particleId": "fb7e8894-f47a-4bf8-b9fe-e7cd384ba272",
+                "particleName": "Blunt/Special 1",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    },
+                    {
+                        "frame": 6,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 10,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    },
+                    {
+                        "frame": 28,
+                        "seId": 0,
+                        "seName": "Thunder5.ogg"
+                    },
+                    {
+                        "frame": 35,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 45,
+                        "seId": 0,
+                        "seName": "Thunder5.ogg"
+                    },
+                    {
+                        "frame": 45,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 52,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 70,
+                        "seId": 0,
+                        "seName": "Thunder5.ogg"
+                    },
+                    {
+                        "frame": 85,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 92,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 100,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 200,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 10,
+                        "time": 27
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 28,
+                        "time": 27
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 55,
+                        "time": 35
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 90,
+                        "time": 30
+                    }
+                ],
+                "id": "c0deecc4-c730-4b3e-94b5-0f9f6ecab46d",
+                "offset": "0;0",
+                "particleId": "18f62052-133b-4f95-b684-1d832d9ace67",
+                "particleName": "Blunt/Special 2",
+                "particlePos": 1,
+                "particleType": 2,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 25,
+                        "seId": 0,
+                        "seName": "Blow2.ogg"
+                    },
+                    {
+                        "frame": 28,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 35,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 45,
+                        "seId": 0,
+                        "seName": "Blow2.ogg"
+                    },
+                    {
+                        "frame": 55,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 60,
+                        "seId": 0,
+                        "seName": "Damage2.ogg"
+                    },
+                    {
+                        "frame": 80,
+                        "seId": 0,
+                        "seName": "Damage2.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 120,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 27,
+                        "time": 27
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 28,
+                        "time": 28
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 30,
+                        "time": 30
+                    }
+                ],
+                "id": "71bbf7c7-339b-46f6-9504-9da7aec677d3",
+                "offset": "0;0",
+                "particleId": "0884eee2-0c91-4d72-8168-036e274a3b51",
+                "particleName": "Slash/Special 1",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 12,
+                        "seId": 0,
+                        "seName": "Slash4.ogg"
+                    },
+                    {
+                        "frame": 16,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 18,
+                        "seId": 0,
+                        "seName": "Slash3.ogg"
+                    },
+                    {
+                        "frame": 20,
+                        "seId": 0,
+                        "seName": "Slash3.ogg"
+                    },
+                    {
+                        "frame": 24,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 28,
+                        "seId": 0,
+                        "seName": "Slash3.ogg"
+                    },
+                    {
+                        "frame": 48,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 120,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 17
+                    },
+                    {
+                        "color": "255,68,0",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 30,
+                        "time": 40
+                    }
+                ],
+                "id": "8660a770-a992-4318-b23c-91e7a6f9c260",
+                "offset": "0;0",
+                "particleId": "1fba7dba-d99d-41da-902a-3c8d4c1520aa",
+                "particleName": "Slash/Special 2",
+                "particlePos": 1,
+                "particleType": 2,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Sword4.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Wind4.ogg"
+                    },
+                    {
+                        "frame": 8,
+                        "seId": 0,
+                        "seName": "Slash8.ogg"
+                    },
+                    {
+                        "frame": 8,
+                        "seId": 0,
+                        "seName": "Water4.ogg"
+                    },
+                    {
+                        "frame": 10,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 17,
+                        "seId": 0,
+                        "seName": "Ice3.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            }
+        ]
+    },
+    "examples": [
+        [
+            {
+                "expansion": 100,
+                "flashList": [],
+                "id": "54b168ea-5141-48ed-9e42-4336ac58755c",
+                "offset": "0;0",
+                "particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+                "particleName": "None",
+                "particlePos": 0,
+                "particleType": 0,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [],
+                "id": "111419c2-2152-4b18-901d-4465c6771d4f",
+                "offset": "0;0",
+                "particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+                "particleName": "Standard Attack",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 50,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+                "offset": "0;0",
+                "particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+                "particleName": "Blunt/Physical",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "10;10;10",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 60,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "e7530c2a-a2f2-453e-a8a7-7ac5eddd6cff",
+                "offset": "0;0",
+                "particleId": "5b32c153-14a4-4d0f-8ad2-8d25dddd47d3",
+                "particleName": "Blunt/Effect",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Damage4.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Powerup.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,119,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,136,51",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 3,
+                        "time": 30
+                    }
+                ],
+                "id": "951fe5cc-a0d0-4e05-8a08-71483e1fec2b",
+                "offset": "0;0",
+                "particleId": "e53500c2-2138-406d-bd24-baa0506134b1",
+                "particleName": "Blunt/Fire",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Fire1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "119,187,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "187,221,221",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 3,
+                        "time": 30
+                    }
+                ],
+                "id": "9cce14f3-171b-4089-b88d-0f7f8b770a70",
+                "offset": "0;0",
+                "particleId": "fbdad983-6a1d-4ff9-b206-c0901beed796",
+                "particleName": "Blunt/Ice",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Ice1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,255,119",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 3,
+                        "time": 30
+                    }
+                ],
+                "id": "17d8cff7-4f57-4a6d-954b-cb65636cb64f",
+                "offset": "0;0",
+                "particleId": "49325f2a-89b8-4887-8d3d-12c5709c23e8",
+                "particleName": "Blunt/Thunder",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder8.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Thunder8.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+                "offset": "0;0",
+                "particleId": "8f4d153a-4cd9-4810-8091-6acbdbdc0465",
+                "particleName": "Slash/Physical",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "2f9df539-cd03-4696-a040-222c772e35eb",
+                "offset": "0;0",
+                "particleId": "090f89de-4e7c-4463-8f68-2d7abbcbae39",
+                "particleName": "Slash/Effect",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Powerup.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,119,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,136,51",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "821af2a5-344e-4208-bc85-3b5d0635ea8b",
+                "offset": "0;0",
+                "particleId": "aa3c21f8-4bdb-42b5-8718-bec6c40acf47",
+                "particleName": "Slash/Fire",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder1.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Sword5.ogg"
+                    },
+                    {
+                        "frame": 5,
+                        "seId": 0,
+                        "seName": "Fire1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "119,187,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "187,221,221",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "6cd100d3-ed59-4331-86e7-3a274c7e6eb2",
+                "offset": "0;0",
+                "particleId": "221f1f67-89a1-40dd-b4b4-c628d5190068",
+                "particleName": "Slash/Ice",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Ice1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,255,119",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 2,
+                        "time": 30
+                    }
+                ],
+                "id": "9e46582d-59cb-4512-b607-17231d3ca174",
+                "offset": "0;0",
+                "particleId": "7eb8498a-975e-4753-a6b1-411445c44ada",
+                "particleName": "Slash/Thunder",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder8.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 60,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "f4da0dde-49bc-4ab3-b597-b05d8b6eb75b",
+                "offset": "0;0",
+                "particleId": "397c2841-3436-40f0-81ae-a74a473d4870",
+                "particleName": "Pierce/Physical",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder1.ogg"
+                    },
+                    {
+                        "frame": 5,
+                        "seId": 0,
+                        "seName": "Sword5.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 80,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "680296e3-2377-472e-8387-9c7dca64217b",
+                "offset": "0;0",
+                "particleId": "81bb5e91-2d0a-411e-ae3f-d96ff67b8cd3",
+                "particleName": "Pierce/Effect",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Thunder4.ogg"
+                    },
+                    {
+                        "frame": 9,
+                        "seId": 0,
+                        "seName": "Powerup.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 80,
+                "flashList": [
+                    {
+                        "color": "255,119,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,136,51",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 4,
+                        "time": 30
+                    }
+                ],
+                "id": "cd7ed346-f284-4873-a54a-526ddc72a209",
+                "offset": "0;0",
+                "particleId": "e45ab9d2-f4ff-4448-bb21-8278b438d17b",
+                "particleName": "Pierce/Fire",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder1.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Fire1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 80,
+                "flashList": [
+                    {
+                        "color": "119,187,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "187,221,221",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 4,
+                        "time": 30
+                    }
+                ],
+                "id": "6cc01af0-03bc-4f0f-b262-921f84075c40",
+                "offset": "0;0",
+                "particleId": "a371c5c7-af56-4836-853d-fc26ba55e358",
+                "particleName": "Pierce/Ice",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder1.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Sword5.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Ice3.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 80,
+                "flashList": [
+                    {
+                        "color": "255,255,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 60
+                    },
+                    {
+                        "color": "255,255,85",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 4,
+                        "time": 60
+                    }
+                ],
+                "id": "9f23347e-5823-46b4-994e-25665f4cb0c0",
+                "offset": "0;0",
+                "particleId": "0ca59363-f5ff-4dd4-b20c-69734f8c74c0",
+                "particleName": "Pierce/Thunder",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Thunder3.ogg"
+                    },
+                    {
+                        "frame": 0,
+                        "seId": 0,
+                        "seName": ""
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "d479f5a0-c841-4414-8b7b-d7e27d09e284",
+                "offset": "0;0",
+                "particleId": "35da20aa-6590-4cbe-a265-0888844a13bf",
+                "particleName": "Claw/Physical",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "6f65a567-3cb1-4789-94d0-b4d65207a013",
+                "offset": "0;0",
+                "particleId": "eef2123b-46b1-401c-a641-ba28b42acf29",
+                "particleName": "Claw/Effect",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Powerup.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,119,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "083f449d-97d6-4c73-ab53-db8d97048bdc",
+                "offset": "0;0",
+                "particleId": "01f310cb-791d-4bf3-8c9b-0b65739c5fdd",
+                "particleName": "Claw/Fire",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Fire1.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "119,187,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "5a954366-d320-4e1d-ab4c-ca8b435a74a4",
+                "offset": "0;0",
+                "particleId": "f6df50e6-2633-4c90-9737-d08159428b4b",
+                "particleName": "Claw/Ice",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Ice3.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 100,
+                "flashList": [
+                    {
+                        "color": "255,255,102",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    }
+                ],
+                "id": "4ff74b19-22f3-4009-a652-96cec6b82fcd",
+                "offset": "0;0",
+                "particleId": "d8295fa8-4520-478c-966b-61bf035081d6",
+                "particleName": "Claw/Thunder",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Attack2.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Thunder8.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 120,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 30,
+                        "time": 30
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 60,
+                        "time": 70
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 100,
+                        "time": 70
+                    }
+                ],
+                "id": "ac61511c-5025-4862-aafd-1ca48ff48ffe",
+                "offset": "0;0",
+                "particleId": "fb7e8894-f47a-4bf8-b9fe-e7cd384ba272",
+                "particleName": "Blunt/Special 1",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 3,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    },
+                    {
+                        "frame": 6,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 10,
+                        "seId": 0,
+                        "seName": "Blow1.ogg"
+                    },
+                    {
+                        "frame": 28,
+                        "seId": 0,
+                        "seName": "Thunder5.ogg"
+                    },
+                    {
+                        "frame": 35,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 45,
+                        "seId": 0,
+                        "seName": "Thunder5.ogg"
+                    },
+                    {
+                        "frame": 45,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 52,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 70,
+                        "seId": 0,
+                        "seName": "Thunder5.ogg"
+                    },
+                    {
+                        "frame": 85,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 92,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 100,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 200,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 10,
+                        "time": 27
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 28,
+                        "time": 27
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 55,
+                        "time": 35
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 90,
+                        "time": 30
+                    }
+                ],
+                "id": "c0deecc4-c730-4b3e-94b5-0f9f6ecab46d",
+                "offset": "0;0",
+                "particleId": "18f62052-133b-4f95-b684-1d832d9ace67",
+                "particleName": "Blunt/Special 2",
+                "particlePos": 1,
+                "particleType": 2,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 25,
+                        "seId": 0,
+                        "seName": "Blow2.ogg"
+                    },
+                    {
+                        "frame": 28,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 35,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 45,
+                        "seId": 0,
+                        "seName": "Blow2.ogg"
+                    },
+                    {
+                        "frame": 55,
+                        "seId": 0,
+                        "seName": "Blow3.ogg"
+                    },
+                    {
+                        "frame": 60,
+                        "seId": 0,
+                        "seName": "Damage2.ogg"
+                    },
+                    {
+                        "frame": 80,
+                        "seId": 0,
+                        "seName": "Damage2.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 120,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 27,
+                        "time": 27
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 28,
+                        "time": 28
+                    },
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 30,
+                        "time": 30
+                    }
+                ],
+                "id": "71bbf7c7-339b-46f6-9504-9da7aec677d3",
+                "offset": "0;0",
+                "particleId": "0884eee2-0c91-4d72-8168-036e274a3b51",
+                "particleName": "Slash/Special 1",
+                "particlePos": 1,
+                "particleType": 1,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 12,
+                        "seId": 0,
+                        "seName": "Slash4.ogg"
+                    },
+                    {
+                        "frame": 16,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 18,
+                        "seId": 0,
+                        "seName": "Slash3.ogg"
+                    },
+                    {
+                        "frame": 20,
+                        "seId": 0,
+                        "seName": "Slash3.ogg"
+                    },
+                    {
+                        "frame": 24,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 28,
+                        "seId": 0,
+                        "seName": "Slash3.ogg"
+                    },
+                    {
+                        "frame": 48,
+                        "seId": 0,
+                        "seName": "Evasion2.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            },
+            {
+                "expansion": 120,
+                "flashList": [
+                    {
+                        "color": "255,255,255",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 1,
+                        "time": 17
+                    },
+                    {
+                        "color": "255,68,0",
+                        "flashId": 0,
+                        "flashType": 1,
+                        "frame": 30,
+                        "time": 40
+                    }
+                ],
+                "id": "8660a770-a992-4318-b23c-91e7a6f9c260",
+                "offset": "0;0",
+                "particleId": "1fba7dba-d99d-41da-902a-3c8d4c1520aa",
+                "particleName": "Slash/Special 2",
+                "particlePos": 1,
+                "particleType": 2,
+                "playSpeed": 100,
+                "rotation": "0;0;0",
+                "seList": [
+                    {
+                        "frame": 1,
+                        "seId": 0,
+                        "seName": "Sword4.ogg"
+                    },
+                    {
+                        "frame": 2,
+                        "seId": 0,
+                        "seName": "Slash2.ogg"
+                    },
+                    {
+                        "frame": 4,
+                        "seId": 0,
+                        "seName": "Wind4.ogg"
+                    },
+                    {
+                        "frame": 8,
+                        "seId": 0,
+                        "seName": "Slash8.ogg"
+                    },
+                    {
+                        "frame": 8,
+                        "seId": 0,
+                        "seName": "Water4.ogg"
+                    },
+                    {
+                        "frame": 10,
+                        "seId": 0,
+                        "seName": "Slash1.ogg"
+                    },
+                    {
+                        "frame": 17,
+                        "seId": 0,
+                        "seName": "Ice3.ogg"
+                    }
+                ],
+                "targetImageName": ""
+            }
+        ]
+    ]
+}
