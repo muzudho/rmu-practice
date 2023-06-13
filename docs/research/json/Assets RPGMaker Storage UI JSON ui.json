@@ -1,0 +1,1249 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": ["battleMenu", "commonMenus", "gameMenu", "talkMenu"],
+    "properties": {
+        "battleMenu": {
+            "type": "object",
+            "default": {},
+            "title": "The battleMenu Schema",
+            "required": ["menuHp", "menuMp", "menuTp"],
+            "properties": {
+                "menuHp": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuHp Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [0]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 0
+                        }
+                    ]
+                },
+                "menuMp": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuMp Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [0]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 0
+                        }
+                    ]
+                },
+                "menuTp": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuTp Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [0]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 0
+                        }
+                    ]
+                }
+            },
+            "examples": [
+                {
+                    "menuHp": {
+                        "enabled": 0
+                    },
+                    "menuMp": {
+                        "enabled": 0
+                    },
+                    "menuTp": {
+                        "enabled": 0
+                    }
+                }
+            ]
+        },
+        "commonMenus": {
+            "type": "array",
+            "default": [],
+            "title": "The commonMenus Schema",
+            "items": {
+                "type": "object",
+                "default": {},
+                "title": "A Schema",
+                "required": ["backgroundImage", "buttonFrameImage", "buttonImage", "buttonImageHighlight", "characterType", "id", "menuFontSetting", "windowBackgroundImage", "windowFrameImage", "windowFrameImageHighlight"],
+                "properties": {
+                    "backgroundImage": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The backgroundImage Schema",
+                        "required": ["color", "image", "type"],
+                        "properties": {
+                            "color": {
+                                "type": "array",
+                                "default": [],
+                                "title": "The color Schema",
+                                "items": {
+                                    "type": "integer",
+                                    "title": "A Schema",
+                                    "examples": [254, 0]
+                                },
+                                "examples": [[254, 254, 254, 0]]
+                            },
+                            "image": {
+                                "type": "string",
+                                "default": "",
+                                "title": "The image Schema",
+                                "examples": ["UI_bg_01"]
+                            },
+                            "type": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The type Schema",
+                                "examples": [0]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "color": [254, 254, 254, 0],
+                                "image": "UI_bg_01",
+                                "type": 0
+                            }
+                        ]
+                    },
+                    "buttonFrameImage": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The buttonFrameImage Schema",
+                        "required": ["color", "image", "type"],
+                        "properties": {
+                            "color": {
+                                "type": "array",
+                                "default": [],
+                                "title": "The color Schema",
+                                "items": {
+                                    "type": "integer",
+                                    "title": "A Schema",
+                                    "examples": [0]
+                                },
+                                "examples": [[0, 0, 0, 0]]
+                            },
+                            "image": {
+                                "type": "string",
+                                "default": "",
+                                "title": "The image Schema",
+                                "examples": ["UI_window_frame_01"]
+                            },
+                            "type": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The type Schema",
+                                "examples": [0]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "color": [0, 0, 0, 0],
+                                "image": "UI_window_frame_01",
+                                "type": 0
+                            }
+                        ]
+                    },
+                    "buttonImage": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The buttonImage Schema",
+                        "required": ["color", "image", "type"],
+                        "properties": {
+                            "color": {
+                                "type": "array",
+                                "default": [],
+                                "title": "The color Schema",
+                                "items": {
+                                    "type": "integer",
+                                    "title": "A Schema",
+                                    "examples": [0, 80]
+                                },
+                                "examples": [[0, 0, 0, 80]]
+                            },
+                            "image": {
+                                "type": "string",
+                                "default": "",
+                                "title": "The image Schema",
+                                "examples": ["UI_button_bg_01"]
+                            },
+                            "type": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The type Schema",
+                                "examples": [0]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "color": [0, 0, 0, 80],
+                                "image": "UI_button_bg_01",
+                                "type": 0
+                            }
+                        ]
+                    },
+                    "buttonImageHighlight": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The buttonImageHighlight Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [38, 175, 255, 83]
+                        },
+                        "examples": [[38, 175, 255, 83]]
+                    },
+                    "characterType": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The characterType Schema",
+                        "examples": [2]
+                    },
+                    "id": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The id Schema",
+                        "examples": ["1"]
+                    },
+                    "menuFontSetting": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The menuFontSetting Schema",
+                        "required": ["color", "font", "size"],
+                        "properties": {
+                            "color": {
+                                "type": "array",
+                                "default": [],
+                                "title": "The color Schema",
+                                "items": {
+                                    "type": "integer",
+                                    "title": "A Schema",
+                                    "examples": [255]
+                                },
+                                "examples": [[255, 255, 255, 255]]
+                            },
+                            "font": {
+                                "type": "string",
+                                "default": "",
+                                "title": "The font Schema",
+                                "examples": ["mplus-1m-regular"]
+                            },
+                            "size": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The size Schema",
+                                "examples": [40]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "color": [255, 255, 255, 255],
+                                "font": "mplus-1m-regular",
+                                "size": 40
+                            }
+                        ]
+                    },
+                    "windowBackgroundImage": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The windowBackgroundImage Schema",
+                        "required": ["color", "image", "type"],
+                        "properties": {
+                            "color": {
+                                "type": "array",
+                                "default": [],
+                                "title": "The color Schema",
+                                "items": {
+                                    "type": "integer",
+                                    "title": "A Schema",
+                                    "examples": [0, 128]
+                                },
+                                "examples": [[0, 0, 0, 128]]
+                            },
+                            "image": {
+                                "type": "string",
+                                "default": "",
+                                "title": "The image Schema",
+                                "examples": ["UI_window_bg_01"]
+                            },
+                            "type": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The type Schema",
+                                "examples": [0]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "color": [0, 0, 0, 128],
+                                "image": "UI_window_bg_01",
+                                "type": 0
+                            }
+                        ]
+                    },
+                    "windowFrameImage": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The windowFrameImage Schema",
+                        "required": ["color", "image", "type"],
+                        "properties": {
+                            "color": {
+                                "type": "array",
+                                "default": [],
+                                "title": "The color Schema",
+                                "items": {
+                                    "type": "integer",
+                                    "title": "A Schema",
+                                    "examples": [245, 249, 252, 0]
+                                },
+                                "examples": [[245, 249, 252, 0]]
+                            },
+                            "image": {
+                                "type": "string",
+                                "default": "",
+                                "title": "The image Schema",
+                                "examples": ["UI_window_frame_02"]
+                            },
+                            "type": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The type Schema",
+                                "examples": [1]
+                            }
+                        },
+                        "examples": [
+                            {
+                                "color": [245, 249, 252, 0],
+                                "image": "UI_window_frame_02",
+                                "type": 1
+                            }
+                        ]
+                    },
+                    "windowFrameImageHighlight": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The windowFrameImageHighlight Schema",
+                        "items": {
+                            "type": "integer",
+                            "title": "A Schema",
+                            "examples": [234, 143, 199, 0]
+                        },
+                        "examples": [[234, 143, 199, 0]]
+                    }
+                },
+                "examples": [
+                    {
+                        "backgroundImage": {
+                            "color": [254, 254, 254, 0],
+                            "image": "UI_bg_01",
+                            "type": 0
+                        },
+                        "buttonFrameImage": {
+                            "color": [0, 0, 0, 0],
+                            "image": "UI_window_frame_01",
+                            "type": 0
+                        },
+                        "buttonImage": {
+                            "color": [0, 0, 0, 80],
+                            "image": "UI_button_bg_01",
+                            "type": 0
+                        },
+                        "buttonImageHighlight": [38, 175, 255, 83],
+                        "characterType": 2,
+                        "id": "1",
+                        "menuFontSetting": {
+                            "color": [255, 255, 255, 255],
+                            "font": "mplus-1m-regular",
+                            "size": 40
+                        },
+                        "windowBackgroundImage": {
+                            "color": [0, 0, 0, 128],
+                            "image": "UI_window_bg_01",
+                            "type": 0
+                        },
+                        "windowFrameImage": {
+                            "color": [245, 249, 252, 0],
+                            "image": "UI_window_frame_02",
+                            "type": 1
+                        },
+                        "windowFrameImageHighlight": [234, 143, 199, 0]
+                    }
+                ]
+            },
+            "examples": [
+                [
+                    {
+                        "backgroundImage": {
+                            "color": [254, 254, 254, 0],
+                            "image": "UI_bg_01",
+                            "type": 0
+                        },
+                        "buttonFrameImage": {
+                            "color": [0, 0, 0, 0],
+                            "image": "UI_window_frame_01",
+                            "type": 0
+                        },
+                        "buttonImage": {
+                            "color": [0, 0, 0, 80],
+                            "image": "UI_button_bg_01",
+                            "type": 0
+                        },
+                        "buttonImageHighlight": [38, 175, 255, 83],
+                        "characterType": 2,
+                        "id": "1",
+                        "menuFontSetting": {
+                            "color": [255, 255, 255, 255],
+                            "font": "mplus-1m-regular",
+                            "size": 40
+                        },
+                        "windowBackgroundImage": {
+                            "color": [0, 0, 0, 128],
+                            "image": "UI_window_bg_01",
+                            "type": 0
+                        },
+                        "windowFrameImage": {
+                            "color": [245, 249, 252, 0],
+                            "image": "UI_window_frame_02",
+                            "type": 1
+                        },
+                        "windowFrameImageHighlight": [234, 143, 199, 0]
+                    }
+                ]
+            ]
+        },
+        "gameMenu": {
+            "type": "object",
+            "default": {},
+            "title": "The gameMenu Schema",
+            "required": ["categoryArmor", "categoryImportant", "categoryItem", "categoryWeapon", "menuEquipment", "menuFontSetting", "menuGameEnd", "menuItem", "menuOption", "menuSave", "menuSkill", "menuSort", "menuStatus"],
+            "properties": {
+                "categoryArmor": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The categoryArmor Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "categoryImportant": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The categoryImportant Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "categoryItem": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The categoryItem Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "categoryWeapon": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The categoryWeapon Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "menuEquipment": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuEquipment Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "menuFontSetting": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuFontSetting Schema",
+                    "required": ["color", "font", "size"],
+                    "properties": {
+                        "color": {
+                            "type": "array",
+                            "default": [],
+                            "title": "The color Schema",
+                            "items": {
+                                "type": "integer",
+                                "title": "A Schema",
+                                "examples": [100, 150, 200]
+                            },
+                            "examples": [[100, 150, 200]]
+                        },
+                        "font": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The font Schema",
+                            "examples": ["AAA"]
+                        },
+                        "size": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The size Schema",
+                            "examples": [16]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "color": [100, 150, 200],
+                            "font": "AAA",
+                            "size": 16
+                        }
+                    ]
+                },
+                "menuGameEnd": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuGameEnd Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "menuItem": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuItem Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "menuOption": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuOption Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "menuSave": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuSave Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "menuSkill": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuSkill Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "menuSort": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuSort Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                },
+                "menuStatus": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuStatus Schema",
+                    "required": ["enabled"],
+                    "properties": {
+                        "enabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The enabled Schema",
+                            "examples": [1]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": 1
+                        }
+                    ]
+                }
+            },
+            "examples": [
+                {
+                    "categoryArmor": {
+                        "enabled": 1
+                    },
+                    "categoryImportant": {
+                        "enabled": 1
+                    },
+                    "categoryItem": {
+                        "enabled": 1
+                    },
+                    "categoryWeapon": {
+                        "enabled": 1
+                    },
+                    "menuEquipment": {
+                        "enabled": 1
+                    },
+                    "menuFontSetting": {
+                        "color": [100, 150, 200],
+                        "font": "AAA",
+                        "size": 16
+                    },
+                    "menuGameEnd": {
+                        "enabled": 1
+                    },
+                    "menuItem": {
+                        "enabled": 1
+                    },
+                    "menuOption": {
+                        "enabled": 1
+                    },
+                    "menuSave": {
+                        "enabled": 1
+                    },
+                    "menuSkill": {
+                        "enabled": 1
+                    },
+                    "menuSort": {
+                        "enabled": 1
+                    },
+                    "menuStatus": {
+                        "enabled": 1
+                    }
+                }
+            ]
+        },
+        "talkMenu": {
+            "type": "object",
+            "default": {},
+            "title": "The talkMenu Schema",
+            "required": ["characterMenu", "itemSelectMenu", "numberMenu", "selectMenu"],
+            "properties": {
+                "characterMenu": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The characterMenu Schema",
+                    "required": ["characterEnabled", "nameEnabled", "nameFontSetting", "talkFontSetting"],
+                    "properties": {
+                        "characterEnabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The characterEnabled Schema",
+                            "examples": [1]
+                        },
+                        "nameEnabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The nameEnabled Schema",
+                            "examples": [1]
+                        },
+                        "nameFontSetting": {
+                            "type": "object",
+                            "default": {},
+                            "title": "The nameFontSetting Schema",
+                            "required": ["color", "font", "size"],
+                            "properties": {
+                                "color": {
+                                    "type": "array",
+                                    "default": [],
+                                    "title": "The color Schema",
+                                    "items": {
+                                        "type": "integer",
+                                        "title": "A Schema",
+                                        "examples": [255]
+                                    },
+                                    "examples": [[255, 255, 255]]
+                                },
+                                "font": {
+                                    "type": "string",
+                                    "default": "",
+                                    "title": "The font Schema",
+                                    "examples": ["002"]
+                                },
+                                "size": {
+                                    "type": "integer",
+                                    "default": 0,
+                                    "title": "The size Schema",
+                                    "examples": [100]
+                                }
+                            },
+                            "examples": [
+                                {
+                                    "color": [255, 255, 255],
+                                    "font": "002",
+                                    "size": 100
+                                }
+                            ]
+                        },
+                        "talkFontSetting": {
+                            "type": "object",
+                            "default": {},
+                            "title": "The talkFontSetting Schema",
+                            "required": ["color", "font", "size"],
+                            "properties": {
+                                "color": {
+                                    "type": "array",
+                                    "default": [],
+                                    "title": "The color Schema",
+                                    "items": {
+                                        "type": "integer",
+                                        "title": "A Schema",
+                                        "examples": [255]
+                                    },
+                                    "examples": [[255, 255, 255]]
+                                },
+                                "font": {
+                                    "type": "string",
+                                    "default": "",
+                                    "title": "The font Schema",
+                                    "examples": ["AAA"]
+                                },
+                                "size": {
+                                    "type": "integer",
+                                    "default": 0,
+                                    "title": "The size Schema",
+                                    "examples": [100]
+                                }
+                            },
+                            "examples": [
+                                {
+                                    "color": [255, 255, 255],
+                                    "font": "AAA",
+                                    "size": 100
+                                }
+                            ]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "characterEnabled": 1,
+                            "nameEnabled": 1,
+                            "nameFontSetting": {
+                                "color": [255, 255, 255],
+                                "font": "002",
+                                "size": 100
+                            },
+                            "talkFontSetting": {
+                                "color": [255, 255, 255],
+                                "font": "AAA",
+                                "size": 100
+                            }
+                        }
+                    ]
+                },
+                "itemSelectMenu": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The itemSelectMenu Schema",
+                    "required": ["menuFontSetting", "positionItemWindow"],
+                    "properties": {
+                        "menuFontSetting": {
+                            "type": "object",
+                            "default": {},
+                            "title": "The menuFontSetting Schema",
+                            "required": ["color", "font", "size"],
+                            "properties": {
+                                "color": {
+                                    "type": "array",
+                                    "default": [],
+                                    "title": "The color Schema",
+                                    "items": {
+                                        "type": "integer",
+                                        "title": "A Schema",
+                                        "examples": [0]
+                                    },
+                                    "examples": [[0, 0, 0]]
+                                },
+                                "font": {
+                                    "type": "string",
+                                    "default": "",
+                                    "title": "The font Schema",
+                                    "examples": ["002"]
+                                },
+                                "size": {
+                                    "type": "integer",
+                                    "default": 0,
+                                    "title": "The size Schema",
+                                    "examples": [100]
+                                }
+                            },
+                            "examples": [
+                                {
+                                    "color": [0, 0, 0],
+                                    "font": "002",
+                                    "size": 100
+                                }
+                            ]
+                        },
+                        "positionItemWindow": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The positionItemWindow Schema",
+                            "examples": [2]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "menuFontSetting": {
+                                "color": [0, 0, 0],
+                                "font": "002",
+                                "size": 100
+                            },
+                            "positionItemWindow": 2
+                        }
+                    ]
+                },
+                "numberMenu": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The numberMenu Schema",
+                    "required": ["menuFontSetting", "numberEnabled", "positionNumberWindow"],
+                    "properties": {
+                        "menuFontSetting": {
+                            "type": "object",
+                            "default": {},
+                            "title": "The menuFontSetting Schema",
+                            "required": ["color", "font", "size"],
+                            "properties": {
+                                "color": {
+                                    "type": "array",
+                                    "default": [],
+                                    "title": "The color Schema",
+                                    "items": {
+                                        "type": "integer",
+                                        "title": "A Schema",
+                                        "examples": [0]
+                                    },
+                                    "examples": [[0, 0, 0]]
+                                },
+                                "font": {
+                                    "type": "string",
+                                    "default": "",
+                                    "title": "The font Schema",
+                                    "examples": ["002"]
+                                },
+                                "size": {
+                                    "type": "integer",
+                                    "default": 0,
+                                    "title": "The size Schema",
+                                    "examples": [100]
+                                }
+                            },
+                            "examples": [
+                                {
+                                    "color": [0, 0, 0],
+                                    "font": "002",
+                                    "size": 100
+                                }
+                            ]
+                        },
+                        "numberEnabled": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The numberEnabled Schema",
+                            "examples": [0]
+                        },
+                        "positionNumberWindow": {
+                            "type": "array",
+                            "default": [],
+                            "title": "The positionNumberWindow Schema",
+                            "items": {
+                                "type": "integer",
+                                "title": "A Schema",
+                                "examples": [0]
+                            },
+                            "examples": [[0, 0]]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "menuFontSetting": {
+                                "color": [0, 0, 0],
+                                "font": "002",
+                                "size": 100
+                            },
+                            "numberEnabled": 0,
+                            "positionNumberWindow": [0, 0]
+                        }
+                    ]
+                },
+                "selectMenu": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The selectMenu Schema",
+                    "required": ["menuFontSetting"],
+                    "properties": {
+                        "menuFontSetting": {
+                            "type": "object",
+                            "default": {},
+                            "title": "The menuFontSetting Schema",
+                            "required": ["color", "font", "size"],
+                            "properties": {
+                                "color": {
+                                    "type": "array",
+                                    "default": [],
+                                    "title": "The color Schema",
+                                    "items": {
+                                        "type": "integer",
+                                        "title": "A Schema",
+                                        "examples": [246, 229]
+                                    },
+                                    "examples": [[246, 229, 229]]
+                                },
+                                "font": {
+                                    "type": "string",
+                                    "default": "",
+                                    "title": "The font Schema",
+                                    "examples": ["002"]
+                                },
+                                "size": {
+                                    "type": "integer",
+                                    "default": 0,
+                                    "title": "The size Schema",
+                                    "examples": [100]
+                                }
+                            },
+                            "examples": [
+                                {
+                                    "color": [246, 229, 229],
+                                    "font": "002",
+                                    "size": 100
+                                }
+                            ]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "menuFontSetting": {
+                                "color": [246, 229, 229],
+                                "font": "002",
+                                "size": 100
+                            }
+                        }
+                    ]
+                }
+            },
+            "examples": [
+                {
+                    "characterMenu": {
+                        "characterEnabled": 1,
+                        "nameEnabled": 1,
+                        "nameFontSetting": {
+                            "color": [255, 255, 255],
+                            "font": "002",
+                            "size": 100
+                        },
+                        "talkFontSetting": {
+                            "color": [255, 255, 255],
+                            "font": "AAA",
+                            "size": 100
+                        }
+                    },
+                    "itemSelectMenu": {
+                        "menuFontSetting": {
+                            "color": [0, 0, 0],
+                            "font": "002",
+                            "size": 100
+                        },
+                        "positionItemWindow": 2
+                    },
+                    "numberMenu": {
+                        "menuFontSetting": {
+                            "color": [0, 0, 0],
+                            "font": "002",
+                            "size": 100
+                        },
+                        "numberEnabled": 0,
+                        "positionNumberWindow": [0, 0]
+                    },
+                    "selectMenu": {
+                        "menuFontSetting": {
+                            "color": [246, 229, 229],
+                            "font": "002",
+                            "size": 100
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "examples": [
+        {
+            "battleMenu": {
+                "menuHp": {
+                    "enabled": 0
+                },
+                "menuMp": {
+                    "enabled": 0
+                },
+                "menuTp": {
+                    "enabled": 0
+                }
+            },
+            "commonMenus": [
+                {
+                    "backgroundImage": {
+                        "color": [254, 254, 254, 0],
+                        "image": "UI_bg_01",
+                        "type": 0
+                    },
+                    "buttonFrameImage": {
+                        "color": [0, 0, 0, 0],
+                        "image": "UI_window_frame_01",
+                        "type": 0
+                    },
+                    "buttonImage": {
+                        "color": [0, 0, 0, 80],
+                        "image": "UI_button_bg_01",
+                        "type": 0
+                    },
+                    "buttonImageHighlight": [38, 175, 255, 83],
+                    "characterType": 2,
+                    "id": "1",
+                    "menuFontSetting": {
+                        "color": [255, 255, 255, 255],
+                        "font": "mplus-1m-regular",
+                        "size": 40
+                    },
+                    "windowBackgroundImage": {
+                        "color": [0, 0, 0, 128],
+                        "image": "UI_window_bg_01",
+                        "type": 0
+                    },
+                    "windowFrameImage": {
+                        "color": [245, 249, 252, 0],
+                        "image": "UI_window_frame_02",
+                        "type": 1
+                    },
+                    "windowFrameImageHighlight": [234, 143, 199, 0]
+                }
+            ],
+            "gameMenu": {
+                "categoryArmor": {
+                    "enabled": 1
+                },
+                "categoryImportant": {
+                    "enabled": 1
+                },
+                "categoryItem": {
+                    "enabled": 1
+                },
+                "categoryWeapon": {
+                    "enabled": 1
+                },
+                "menuEquipment": {
+                    "enabled": 1
+                },
+                "menuFontSetting": {
+                    "color": [100, 150, 200],
+                    "font": "AAA",
+                    "size": 16
+                },
+                "menuGameEnd": {
+                    "enabled": 1
+                },
+                "menuItem": {
+                    "enabled": 1
+                },
+                "menuOption": {
+                    "enabled": 1
+                },
+                "menuSave": {
+                    "enabled": 1
+                },
+                "menuSkill": {
+                    "enabled": 1
+                },
+                "menuSort": {
+                    "enabled": 1
+                },
+                "menuStatus": {
+                    "enabled": 1
+                }
+            },
+            "talkMenu": {
+                "characterMenu": {
+                    "characterEnabled": 1,
+                    "nameEnabled": 1,
+                    "nameFontSetting": {
+                        "color": [255, 255, 255],
+                        "font": "002",
+                        "size": 100
+                    },
+                    "talkFontSetting": {
+                        "color": [255, 255, 255],
+                        "font": "AAA",
+                        "size": 100
+                    }
+                },
+                "itemSelectMenu": {
+                    "menuFontSetting": {
+                        "color": [0, 0, 0],
+                        "font": "002",
+                        "size": 100
+                    },
+                    "positionItemWindow": 2
+                },
+                "numberMenu": {
+                    "menuFontSetting": {
+                        "color": [0, 0, 0],
+                        "font": "002",
+                        "size": 100
+                    },
+                    "numberEnabled": 0,
+                    "positionNumberWindow": [0, 0]
+                },
+                "selectMenu": {
+                    "menuFontSetting": {
+                        "color": [246, 229, 229],
+                        "font": "002",
+                        "size": 100
+                    }
+                }
+            }
+        }
+    ]
+}

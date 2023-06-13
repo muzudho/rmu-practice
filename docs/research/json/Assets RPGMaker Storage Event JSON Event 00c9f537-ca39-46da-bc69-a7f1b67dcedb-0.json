@@ -1,0 +1,196 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": ["eventCommands", "id", "page", "type"],
+    "properties": {
+        "eventCommands": {
+            "type": "array",
+            "default": [],
+            "title": "The eventCommands Schema",
+            "items": {
+                "type": "object",
+                "title": "A Schema",
+                "required": ["code", "indent", "parameters", "route"],
+                "properties": {
+                    "code": {
+                        "type": "integer",
+                        "title": "The code Schema",
+                        "examples": [241, 223, 101, 401, 354, 0]
+                    },
+                    "indent": {
+                        "type": "integer",
+                        "title": "The indent Schema",
+                        "examples": [0, 1]
+                    },
+                    "parameters": {
+                        "type": "array",
+                        "title": "The parameters Schema",
+                        "items": {
+                            "type": "string",
+                            "title": "A Schema",
+                            "examples": ["U_Theme_02.wav", "90", "100", "0", "60", "1", "2", "", "-1", "And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!"]
+                        },
+                        "examples": [
+                            ["U_Theme_02.wav", "90", "100", "0"],
+                            ["0", "0", "0", "0", "60", "1", "0"],
+                            ["0", "0", "0", "1", "1", "2", "", "", "", "1", "1", "0", "0", "-1", "", "", "", "", ""],
+                            ["And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!", "0"],
+                            [],
+                            []
+                        ]
+                    },
+                    "route": {
+                        "type": "array",
+                        "title": "The route Schema",
+                        "items": {},
+                        "examples": [[], [], [], [], [], []]
+                    }
+                },
+                "examples": [
+                    {
+                        "code": 241,
+                        "indent": 0,
+                        "parameters": ["U_Theme_02.wav", "90", "100", "0"],
+                        "route": []
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": ["0", "0", "0", "0", "60", "1", "0"],
+                        "route": []
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": ["0", "0", "0", "1", "1", "2", "", "", "", "1", "1", "0", "0", "-1", "", "", "", "", ""],
+                        "route": []
+                    },
+                    {
+                        "code": 401,
+                        "indent": 1,
+                        "parameters": ["And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!", "0"],
+                        "route": []
+                    },
+                    {
+                        "code": 354,
+                        "indent": 0,
+                        "parameters": [],
+                        "route": []
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [],
+                        "route": []
+                    }
+                ]
+            },
+            "examples": [
+                [
+                    {
+                        "code": 241,
+                        "indent": 0,
+                        "parameters": ["U_Theme_02.wav", "90", "100", "0"],
+                        "route": []
+                    },
+                    {
+                        "code": 223,
+                        "indent": 0,
+                        "parameters": ["0", "0", "0", "0", "60", "1", "0"],
+                        "route": []
+                    },
+                    {
+                        "code": 101,
+                        "indent": 0,
+                        "parameters": ["0", "0", "0", "1", "1", "2", "", "", "", "1", "1", "0", "0", "-1", "", "", "", "", ""],
+                        "route": []
+                    },
+                    {
+                        "code": 401,
+                        "indent": 1,
+                        "parameters": ["And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!", "0"],
+                        "route": []
+                    },
+                    {
+                        "code": 354,
+                        "indent": 0,
+                        "parameters": [],
+                        "route": []
+                    },
+                    {
+                        "code": 0,
+                        "indent": 0,
+                        "parameters": [],
+                        "route": []
+                    }
+                ]
+            ]
+        },
+        "id": {
+            "type": "string",
+            "default": "",
+            "title": "The id Schema",
+            "examples": ["00c9f537-ca39-46da-bc69-a7f1b67dcedb"]
+        },
+        "page": {
+            "type": "integer",
+            "default": 0,
+            "title": "The page Schema",
+            "examples": [0]
+        },
+        "type": {
+            "type": "integer",
+            "default": 0,
+            "title": "The type Schema",
+            "examples": [0]
+        }
+    },
+    "examples": [
+        {
+            "eventCommands": [
+                {
+                    "code": 241,
+                    "indent": 0,
+                    "parameters": ["U_Theme_02.wav", "90", "100", "0"],
+                    "route": []
+                },
+                {
+                    "code": 223,
+                    "indent": 0,
+                    "parameters": ["0", "0", "0", "0", "60", "1", "0"],
+                    "route": []
+                },
+                {
+                    "code": 101,
+                    "indent": 0,
+                    "parameters": ["0", "0", "0", "1", "1", "2", "", "", "", "1", "1", "0", "0", "-1", "", "", "", "", ""],
+                    "route": []
+                },
+                {
+                    "code": 401,
+                    "indent": 1,
+                    "parameters": ["And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!", "0"],
+                    "route": []
+                },
+                {
+                    "code": 354,
+                    "indent": 0,
+                    "parameters": [],
+                    "route": []
+                },
+                {
+                    "code": 0,
+                    "indent": 0,
+                    "parameters": [],
+                    "route": []
+                }
+            ],
+            "id": "00c9f537-ca39-46da-bc69-a7f1b67dcedb",
+            "page": 0,
+            "type": 0
+        }
+    ]
+}

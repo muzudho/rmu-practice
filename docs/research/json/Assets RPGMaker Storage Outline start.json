@@ -1,0 +1,86 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "default": {},
+        "title": "A Schema",
+        "required": ["beforeStartId", "deleted", "description", "nextStartId", "position", "startId", "title"],
+        "properties": {
+            "beforeStartId": {
+                "type": "integer",
+                "default": 0,
+                "title": "The beforeStartId Schema",
+                "examples": [0]
+            },
+            "deleted": {
+                "type": "integer",
+                "default": 0,
+                "title": "The deleted Schema",
+                "examples": [0]
+            },
+            "description": {
+                "type": "string",
+                "default": "",
+                "title": "The description Schema",
+                "examples": ["ラダドーム～ガライの町\nメルキド\n竜王の白"]
+            },
+            "nextStartId": {
+                "type": "integer",
+                "default": 0,
+                "title": "The nextStartId Schema",
+                "examples": [0]
+            },
+            "position": {
+                "type": "array",
+                "default": [],
+                "title": "The position Schema",
+                "items": {
+                    "type": "number",
+                    "title": "A Schema",
+                    "examples": [56.571510314941409, 44.000003814697269]
+                },
+                "examples": [[56.571510314941409, 44.000003814697269]]
+            },
+            "startId": {
+                "type": "string",
+                "default": "",
+                "title": "The startId Schema",
+                "examples": ["4514da87-c3d4-4ce3-bd2d-6113edaa4c84"]
+            },
+            "title": {
+                "type": "string",
+                "default": "",
+                "title": "The title Schema",
+                "examples": ["チャプターA123"]
+            }
+        },
+        "examples": [
+            {
+                "beforeStartId": 0,
+                "deleted": 0,
+                "description": "ラダドーム～ガライの町\nメルキド\n竜王の白",
+                "nextStartId": 0,
+                "position": [56.571510314941409, 44.000003814697269],
+                "startId": "4514da87-c3d4-4ce3-bd2d-6113edaa4c84",
+                "title": "チャプターA123"
+            }
+        ]
+    },
+    "examples": [
+        [
+            {
+                "beforeStartId": 0,
+                "deleted": 0,
+                "description": "ラダドーム～ガライの町\nメルキド\n竜王の白",
+                "nextStartId": 0,
+                "position": [56.571510314941409, 44.000003814697269],
+                "startId": "4514da87-c3d4-4ce3-bd2d-6113edaa4c84",
+                "title": "チャプターA123"
+            }
+        ]
+    ]
+}

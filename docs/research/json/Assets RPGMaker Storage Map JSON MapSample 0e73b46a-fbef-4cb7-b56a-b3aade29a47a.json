@@ -1,0 +1,519 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": ["mapId", "index", "displayName", "name", "width", "height", "deleted", "encounter", "layers", "scrollType", "autoPlayBGM", "bgmID", "bgmState", "autoPlayBgs", "bgsID", "bgsState", "forbidDash", "background", "Parallax", "memo"],
+    "properties": {
+        "mapId": {
+            "type": "string",
+            "default": "",
+            "title": "The mapId Schema",
+            "examples": ["0e73b46a-fbef-4cb7-b56a-b3aade29a47a"]
+        },
+        "index": {
+            "type": "integer",
+            "default": 0,
+            "title": "The index Schema",
+            "examples": [43]
+        },
+        "displayName": {
+            "type": "string",
+            "default": "",
+            "title": "The displayName Schema",
+            "examples": [""]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": ["GrasslandRuins"]
+        },
+        "width": {
+            "type": "integer",
+            "default": 0,
+            "title": "The width Schema",
+            "examples": [26]
+        },
+        "height": {
+            "type": "integer",
+            "default": 0,
+            "title": "The height Schema",
+            "examples": [25]
+        },
+        "deleted": {
+            "type": "integer",
+            "default": 0,
+            "title": "The deleted Schema",
+            "examples": [0]
+        },
+        "encounter": {
+            "type": "array",
+            "default": [],
+            "title": "The encounter Schema",
+            "items": {},
+            "examples": [[]]
+        },
+        "layers": {
+            "type": "array",
+            "default": [],
+            "title": "The layers Schema",
+            "items": {
+                "type": "object",
+                "title": "A Schema",
+                "required": ["type", "tileIdsOnPalette"],
+                "properties": {
+                    "type": {
+                        "type": "string",
+                        "title": "The type Schema",
+                        "examples": ["DistantView", "Background", "BackgroundCollision", "A", "A_Effect", "B", "B_Effect", "Shadow", "C", "C_Effect", "D", "D_Effect", "ForRoute", "Region"]
+                    },
+                    "tileIdsOnPalette": {
+                        "type": "array",
+                        "title": "The tileIdsOnPalette Schema",
+                        "items": {},
+                        "examples": [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+                    }
+                },
+                "examples": [
+                    {
+                        "type": "DistantView",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "Background",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "BackgroundCollision",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "A",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "A_Effect",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "B",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "B_Effect",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "Shadow",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "C",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "C_Effect",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "D",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "D_Effect",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "ForRoute",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "Region",
+                        "tileIdsOnPalette": []
+                    }
+                ]
+            },
+            "examples": [
+                [
+                    {
+                        "type": "DistantView",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "Background",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "BackgroundCollision",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "A",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "A_Effect",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "B",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "B_Effect",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "Shadow",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "C",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "C_Effect",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "D",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "D_Effect",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "ForRoute",
+                        "tileIdsOnPalette": []
+                    },
+                    {
+                        "type": "Region",
+                        "tileIdsOnPalette": []
+                    }
+                ]
+            ]
+        },
+        "scrollType": {
+            "type": "integer",
+            "default": 0,
+            "title": "The scrollType Schema",
+            "examples": [0]
+        },
+        "autoPlayBGM": {
+            "type": "boolean",
+            "default": false,
+            "title": "The autoPlayBGM Schema",
+            "examples": [false]
+        },
+        "bgmID": {
+            "type": "string",
+            "default": "",
+            "title": "The bgmID Schema",
+            "examples": [""]
+        },
+        "bgmState": {
+            "type": "object",
+            "default": {},
+            "title": "The bgmState Schema",
+            "required": ["pan", "pitch", "volume"],
+            "properties": {
+                "pan": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The pan Schema",
+                    "examples": [0]
+                },
+                "pitch": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The pitch Schema",
+                    "examples": [100]
+                },
+                "volume": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The volume Schema",
+                    "examples": [90]
+                }
+            },
+            "examples": [
+                {
+                    "pan": 0,
+                    "pitch": 100,
+                    "volume": 90
+                }
+            ]
+        },
+        "autoPlayBgs": {
+            "type": "boolean",
+            "default": false,
+            "title": "The autoPlayBgs Schema",
+            "examples": [false]
+        },
+        "bgsID": {
+            "type": "string",
+            "default": "",
+            "title": "The bgsID Schema",
+            "examples": [""]
+        },
+        "bgsState": {
+            "type": "object",
+            "default": {},
+            "title": "The bgsState Schema",
+            "required": ["pan", "pitch", "volume"],
+            "properties": {
+                "pan": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The pan Schema",
+                    "examples": [0]
+                },
+                "pitch": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The pitch Schema",
+                    "examples": [100]
+                },
+                "volume": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The volume Schema",
+                    "examples": [90]
+                }
+            },
+            "examples": [
+                {
+                    "pan": 0,
+                    "pitch": 100,
+                    "volume": 90
+                }
+            ]
+        },
+        "forbidDash": {
+            "type": "boolean",
+            "default": false,
+            "title": "The forbidDash Schema",
+            "examples": [false]
+        },
+        "background": {
+            "type": "object",
+            "default": {},
+            "title": "The background Schema",
+            "required": ["imageName", "imageZoomIndex", "showInEditor"],
+            "properties": {
+                "imageName": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The imageName Schema",
+                    "examples": [""]
+                },
+                "imageZoomIndex": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The imageZoomIndex Schema",
+                    "examples": [0]
+                },
+                "showInEditor": {
+                    "type": "boolean",
+                    "default": false,
+                    "title": "The showInEditor Schema",
+                    "examples": [true]
+                }
+            },
+            "examples": [
+                {
+                    "imageName": "",
+                    "imageZoomIndex": 0,
+                    "showInEditor": true
+                }
+            ]
+        },
+        "Parallax": {
+            "type": "object",
+            "default": {},
+            "title": "The Parallax Schema",
+            "required": ["loopX", "loopY", "name", "show", "sx", "sy", "zoom0", "zoom2", "zoom4"],
+            "properties": {
+                "loopX": {
+                    "type": "boolean",
+                    "default": false,
+                    "title": "The loopX Schema",
+                    "examples": [false]
+                },
+                "loopY": {
+                    "type": "boolean",
+                    "default": false,
+                    "title": "The loopY Schema",
+                    "examples": [false]
+                },
+                "name": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The name Schema",
+                    "examples": [""]
+                },
+                "show": {
+                    "type": "boolean",
+                    "default": false,
+                    "title": "The show Schema",
+                    "examples": [true]
+                },
+                "sx": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The sx Schema",
+                    "examples": [0]
+                },
+                "sy": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The sy Schema",
+                    "examples": [0]
+                },
+                "zoom0": {
+                    "type": "boolean",
+                    "default": false,
+                    "title": "The zoom0 Schema",
+                    "examples": [true]
+                },
+                "zoom2": {
+                    "type": "boolean",
+                    "default": false,
+                    "title": "The zoom2 Schema",
+                    "examples": [false]
+                },
+                "zoom4": {
+                    "type": "boolean",
+                    "default": false,
+                    "title": "The zoom4 Schema",
+                    "examples": [false]
+                }
+            },
+            "examples": [
+                {
+                    "loopX": false,
+                    "loopY": false,
+                    "name": "",
+                    "show": true,
+                    "sx": 0,
+                    "sy": 0,
+                    "zoom0": true,
+                    "zoom2": false,
+                    "zoom4": false
+                }
+            ]
+        },
+        "memo": {
+            "type": "string",
+            "default": "",
+            "title": "The memo Schema",
+            "examples": [""]
+        }
+    },
+    "examples": [
+        {
+            "mapId": "0e73b46a-fbef-4cb7-b56a-b3aade29a47a",
+            "index": 43,
+            "displayName": "",
+            "name": "GrasslandRuins",
+            "width": 26,
+            "height": 25,
+            "deleted": 0,
+            "encounter": [],
+            "layers": [
+                {
+                    "type": "DistantView",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "Background",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "BackgroundCollision",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "A",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "A_Effect",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "B",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "B_Effect",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "Shadow",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "C",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "C_Effect",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "D",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "D_Effect",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "ForRoute",
+                    "tileIdsOnPalette": []
+                },
+                {
+                    "type": "Region",
+                    "tileIdsOnPalette": []
+                }
+            ],
+            "scrollType": 0,
+            "autoPlayBGM": false,
+            "bgmID": "",
+            "bgmState": {
+                "pan": 0,
+                "pitch": 100,
+                "volume": 90
+            },
+            "autoPlayBgs": false,
+            "bgsID": "",
+            "bgsState": {
+                "pan": 0,
+                "pitch": 100,
+                "volume": 90
+            },
+            "forbidDash": false,
+            "background": {
+                "imageName": "",
+                "imageZoomIndex": 0,
+                "showInEditor": true
+            },
+            "Parallax": {
+                "loopX": false,
+                "loopY": false,
+                "name": "",
+                "show": true,
+                "sx": 0,
+                "sy": 0,
+                "zoom0": true,
+                "zoom2": false,
+                "zoom4": false
+            },
+            "memo": ""
+        }
+    ]
+}
