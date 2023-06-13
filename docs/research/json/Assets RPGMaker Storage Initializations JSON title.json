@@ -1,0 +1,463 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": ["bgm", "gameTitle", "gameTitleCommon", "gameTitleImage", "gameTitleText", "note", "startMenu", "titleBackgroundImage", "titleFront"],
+    "properties": {
+        "bgm": {
+            "type": "object",
+            "default": {},
+            "title": "The bgm Schema",
+            "required": ["name", "pan", "pitch", "volume"],
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The name Schema",
+                    "examples": ["Title1"]
+                },
+                "pan": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The pan Schema",
+                    "examples": [0]
+                },
+                "pitch": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The pitch Schema",
+                    "examples": [100]
+                },
+                "volume": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The volume Schema",
+                    "examples": [900]
+                }
+            },
+            "examples": [
+                {
+                    "name": "Title1",
+                    "pan": 0,
+                    "pitch": 100,
+                    "volume": 900
+                }
+            ]
+        },
+        "gameTitle": {
+            "type": "string",
+            "default": "",
+            "title": "The gameTitle Schema",
+            "examples": ["Unite Quest"]
+        },
+        "gameTitleCommon": {
+            "type": "object",
+            "default": {},
+            "title": "The gameTitleCommon Schema",
+            "required": ["gameTitleType", "position"],
+            "properties": {
+                "gameTitleType": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The gameTitleType Schema",
+                    "examples": [1]
+                },
+                "position": {
+                    "type": "array",
+                    "default": [],
+                    "title": "The position Schema",
+                    "items": {
+                        "type": "integer",
+                        "title": "A Schema",
+                        "examples": [960, 320]
+                    },
+                    "examples": [[960, 320]]
+                }
+            },
+            "examples": [
+                {
+                    "gameTitleType": 1,
+                    "position": [960, 320]
+                }
+            ]
+        },
+        "gameTitleImage": {
+            "type": "object",
+            "default": {},
+            "title": "The gameTitleImage Schema",
+            "required": ["image", "scale"],
+            "properties": {
+                "image": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The image Schema",
+                    "examples": [""]
+                },
+                "scale": {
+                    "type": "number",
+                    "default": 0.0,
+                    "title": "The scale Schema",
+                    "examples": [100.0]
+                }
+            },
+            "examples": [
+                {
+                    "image": "",
+                    "scale": 100.0
+                }
+            ]
+        },
+        "gameTitleText": {
+            "type": "object",
+            "default": {},
+            "title": "The gameTitleText Schema",
+            "required": ["color", "font", "size"],
+            "properties": {
+                "color": {
+                    "type": "array",
+                    "default": [],
+                    "title": "The color Schema",
+                    "items": {
+                        "type": "integer",
+                        "title": "A Schema",
+                        "examples": [255]
+                    },
+                    "examples": [[255, 255, 255]]
+                },
+                "font": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The font Schema",
+                    "examples": ["mplus-1m-regular"]
+                },
+                "size": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The size Schema",
+                    "examples": [150]
+                }
+            },
+            "examples": [
+                {
+                    "color": [255, 255, 255],
+                    "font": "mplus-1m-regular",
+                    "size": 150
+                }
+            ]
+        },
+        "note": {
+            "type": "string",
+            "default": "",
+            "title": "The note Schema",
+            "examples": [""]
+        },
+        "startMenu": {
+            "type": "object",
+            "default": {},
+            "title": "The startMenu Schema",
+            "required": ["menuContinue", "menuFontSetting", "menuNewGame", "menuOption", "menuUiSetting"],
+            "properties": {
+                "menuContinue": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuContinue Schema",
+                    "required": ["enabled", "value"],
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean",
+                            "default": false,
+                            "title": "The enabled Schema",
+                            "examples": [true]
+                        },
+                        "value": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The value Schema",
+                            "examples": ["Continue"]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": true,
+                            "value": "Continue"
+                        }
+                    ]
+                },
+                "menuFontSetting": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuFontSetting Schema",
+                    "required": ["color", "font", "size"],
+                    "properties": {
+                        "color": {
+                            "type": "array",
+                            "default": [],
+                            "title": "The color Schema",
+                            "items": {
+                                "type": "integer",
+                                "title": "A Schema",
+                                "examples": [255]
+                            },
+                            "examples": [[255, 255, 255]]
+                        },
+                        "font": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The font Schema",
+                            "examples": ["mplus-1m-regular"]
+                        },
+                        "size": {
+                            "type": "integer",
+                            "default": 0,
+                            "title": "The size Schema",
+                            "examples": [45]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "color": [255, 255, 255],
+                            "font": "mplus-1m-regular",
+                            "size": 45
+                        }
+                    ]
+                },
+                "menuNewGame": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuNewGame Schema",
+                    "required": ["enabled", "value"],
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean",
+                            "default": false,
+                            "title": "The enabled Schema",
+                            "examples": [true]
+                        },
+                        "value": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The value Schema",
+                            "examples": ["New Game"]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": true,
+                            "value": "New Game"
+                        }
+                    ]
+                },
+                "menuOption": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuOption Schema",
+                    "required": ["enabled", "value"],
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean",
+                            "default": false,
+                            "title": "The enabled Schema",
+                            "examples": [true]
+                        },
+                        "value": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The value Schema",
+                            "examples": ["Options"]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "enabled": true,
+                            "value": "Options"
+                        }
+                    ]
+                },
+                "menuUiSetting": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The menuUiSetting Schema",
+                    "required": ["color", "frame", "position", "scale", "window"],
+                    "properties": {
+                        "color": {
+                            "type": "array",
+                            "default": [],
+                            "title": "The color Schema",
+                            "items": {},
+                            "examples": [[]]
+                        },
+                        "frame": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The frame Schema",
+                            "examples": [""]
+                        },
+                        "position": {
+                            "type": "array",
+                            "default": [],
+                            "title": "The position Schema",
+                            "items": {
+                                "type": "integer",
+                                "title": "A Schema",
+                                "examples": [960, 680, 0]
+                            },
+                            "examples": [[960, 680, 0]]
+                        },
+                        "scale": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The scale Schema",
+                            "examples": [1.850000023841858]
+                        },
+                        "window": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The window Schema",
+                            "examples": [""]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "color": [],
+                            "frame": "",
+                            "position": [960, 680, 0],
+                            "scale": 1.850000023841858,
+                            "window": ""
+                        }
+                    ]
+                }
+            },
+            "examples": [
+                {
+                    "menuContinue": {
+                        "enabled": true,
+                        "value": "Continue"
+                    },
+                    "menuFontSetting": {
+                        "color": [255, 255, 255],
+                        "font": "mplus-1m-regular",
+                        "size": 45
+                    },
+                    "menuNewGame": {
+                        "enabled": true,
+                        "value": "New Game"
+                    },
+                    "menuOption": {
+                        "enabled": true,
+                        "value": "Options"
+                    },
+                    "menuUiSetting": {
+                        "color": [],
+                        "frame": "",
+                        "position": [960, 680, 0],
+                        "scale": 1.850000023841858,
+                        "window": ""
+                    }
+                }
+            ]
+        },
+        "titleBackgroundImage": {
+            "type": "string",
+            "default": "",
+            "title": "The titleBackgroundImage Schema",
+            "examples": ["titleBG_004"]
+        },
+        "titleFront": {
+            "type": "object",
+            "default": {},
+            "title": "The titleFront Schema",
+            "required": ["image", "position", "scale"],
+            "properties": {
+                "image": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The image Schema",
+                    "examples": ["titleFlame_001"]
+                },
+                "position": {
+                    "type": "array",
+                    "default": [],
+                    "title": "The position Schema",
+                    "items": {
+                        "type": "integer",
+                        "title": "A Schema",
+                        "examples": [960, 540]
+                    },
+                    "examples": [[960, 540]]
+                },
+                "scale": {
+                    "type": "number",
+                    "default": 0.0,
+                    "title": "The scale Schema",
+                    "examples": [100.0]
+                }
+            },
+            "examples": [
+                {
+                    "image": "titleFlame_001",
+                    "position": [960, 540],
+                    "scale": 100.0
+                }
+            ]
+        }
+    },
+    "examples": [
+        {
+            "bgm": {
+                "name": "Title1",
+                "pan": 0,
+                "pitch": 100,
+                "volume": 900
+            },
+            "gameTitle": "Unite Quest",
+            "gameTitleCommon": {
+                "gameTitleType": 1,
+                "position": [960, 320]
+            },
+            "gameTitleImage": {
+                "image": "",
+                "scale": 100.0
+            },
+            "gameTitleText": {
+                "color": [255, 255, 255],
+                "font": "mplus-1m-regular",
+                "size": 150
+            },
+            "note": "",
+            "startMenu": {
+                "menuContinue": {
+                    "enabled": true,
+                    "value": "Continue"
+                },
+                "menuFontSetting": {
+                    "color": [255, 255, 255],
+                    "font": "mplus-1m-regular",
+                    "size": 45
+                },
+                "menuNewGame": {
+                    "enabled": true,
+                    "value": "New Game"
+                },
+                "menuOption": {
+                    "enabled": true,
+                    "value": "Options"
+                },
+                "menuUiSetting": {
+                    "color": [],
+                    "frame": "",
+                    "position": [960, 680, 0],
+                    "scale": 1.850000023841858,
+                    "window": ""
+                }
+            },
+            "titleBackgroundImage": "titleBG_004",
+            "titleFront": {
+                "image": "titleFlame_001",
+                "position": [960, 540],
+                "scale": 100.0
+            }
+        }
+    ]
+}
