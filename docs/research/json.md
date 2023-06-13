@@ -26,11 +26,21 @@ JSON_PATH_ASSETMANAGE_DATA	= "Assets/RPGMaker/Storage/AssetManage/JSON/assetsDat
 JSON_PATH_AUTOGUID	        = "Assets/RPGMaker/Storage/Initializations/JSON/autoGuide.json"	    \r\n    😁 自動ガイドのJSONファイルへのパス\r\n
     * 既出
 JSON_PATH_CHARACTERACTOR	= "Assets/RPGMaker/Storage/Character/JSON/characterActor.json"	    \r\n    😁 キャラクター・アクターのJSONファイルへのパス\r\n
+    * Assets RPGMaker Storage Character JSON characterActor.json
+    * Assets RPGMaker Storage Character JSON class.json                 - 解析失敗
+    * Assets RPGMaker Storage Character JSON enemy.json                 - 解析失敗
+    * Assets RPGMaker Storage Character JSON troop.json                 - 解析失敗
+    * Assets RPGMaker Storage Character JSON vehicles.json
 JSON_PATH_CLASS	            = "Assets/RPGMaker/Storage/Character/JSON/class.json"	            \r\n    😁 クラスのJSONファイルへのパス\r\n
+    * 既出
 JSON_PATH_ENCOUNTER	        = "Assets/RPGMaker/Storage/Encounter/JSON/encounter.json"	        \r\n    😁 遭遇のJSONファイルへのパス\r\n
+    * Assets RPGMaker Storage Encounter JSON encounter.json             - 解析失敗
 JSON_PATH_ENEMY	            = "Assets/RPGMaker/Storage/Character/JSON/enemy.json"	            \r\n    😁 敵のJSONファイルへのパス\r\n
+    * 既出
 JSON_PATH_FLAGS	            = "Assets/RPGMaker/Storage/Flags/JSON/flags.json"	                \r\n    😁 フラグのJSONファイルへのパス\r\n
+    * Assets RPGMaker Storage Flags JSON flags.json
 JSON_PATH_ITEM	            = "Assets/RPGMaker/Storage/Item/JSON/item.json"	                    \r\n    😁 アイテムのJSONファイルへのパス\r\n
+    * Assets RPGMaker Storage Item JSON item.json                       - 解析失敗
 JSON_PATH_SKILL	            = "Assets/RPGMaker/Storage/Initializations/JSON/skill.json"	        \r\n    😁 スキルのJSONファイルへのパス\r\n
     * 既出
 JSON_PATH_SKILLCUSTOM	    = "Assets/RPGMaker/Storage/Initializations/JSON/skillCustom.json"	\r\n    😁 スキル・カスタムのJSONファイルへのパス\r\n
@@ -42,8 +52,10 @@ JSON_PATH_SYSTEM	        = "Assets/RPGMaker/Storage/Initializations/JSON/system.
 JSON_PATH_TITLE	            = "Assets/RPGMaker/Storage/Initializations/JSON/title.json"	        \r\n    😁 タイトルのJSONファイルへのパス\r\n
     * 既出
 JSON_PATH_TROOP	            = "Assets/RPGMaker/Storage/Character/JSON/troop.json"	            \r\n    😁 部隊のJSONファイルへのパス\r\n
+    * 既出
 JSON_PATH_UI	            = "Assets/RPGMaker/Storage/Ui/JSON/ui.json"	                        \r\n    😁 ユーザー・インターフェースのJSONファイルへのパス\r\n
 JSON_PATH_VEHICLES	        = "Assets/RPGMaker/Storage/Character/JSON/vehicles.json"	        \r\n    😁 乗り物のJSONファイルへのパス\r\n
+    * 既出
 JSON_PATH_WEAPON	        = "Assets/RPGMaker/Storage/Initializations/JSON/weapon.json"	    \r\n    😁 武器のJSONファイルへのパス\r\n
     * 既出
 JSON_PATH_WORDS	            = "Assets/RPGMaker/Storage/Word/JSON/words.json"	                \r\n    😁 単語のJSONファイルへのパス\r\n
@@ -59,6 +71,7 @@ JSON_PATH	                = "Assets/RPGMaker/Storage/AssetManage/JSON"	         
     * 既出
 JSON_NAME	                = "/orderManager.json"	                                            \r\n    😁 JSONファイル名\r\n
 JSON_PATH	                = "Assets/RPGMaker/Storage/Flags/JSON/flags.json"	                \r\n    😁 フラグJSONファイルへのパス\r\n
+    * 既出
 JsonPath	                = "Assets/RPGMaker/Storage/Initializations/JSON/system.json"	    \r\n    😁 システムJSONファイルへのパス\r\n
     * 既出
 JsonPath	                = "Assets/RPGMaker/Storage/Initializations/JSON/title.json"	        \r\n    😁 タイトルJSONファイルへのパス\r\n
