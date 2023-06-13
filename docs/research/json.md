@@ -11,8 +11,10 @@
 JSON_ASSETS	                = "Assets/RPGMaker/Storage/AssetManage/JSON/Assets/"	            \r\n    😁 JSONアセット・フォルダーへのパス\r\n
     * Assets RPGMaker Storage AssetManage JSON assetsData.json          - 解析失敗
     * Assets RPGMaker Storage AssetManage JSON orderManager.json
+
 JSON_PATH_ANIMATION	        = "Assets/RPGMaker/Storage/Animation/JSON/animation.json"	        \r\n    😁 アニメーションのJSONファイルへのパス\r\n\r\n（※翻訳者追記）ファイル・パスをハードコーディングしたら拡張性無いのでは？（※翻訳者追記）１つの辞書にキー・バリュー・ペア形式で全部入れたらどうか？ 外部ファイルやデータベースにしないの？ ユニティの作法知らんけど（※翻訳者追記）オブジェクト指向になってない。アニメーション・クラスのように **オブジェクト** 毎にクラスを作って、そのクラスがファイルパスを持つべきでは？
     * Assets RPGMaker Storage Animation JSON animation.json             - 解析失敗
+
 JSON_PATH_ARMOR	            = "Assets/RPGMaker/Storage/Initializations/JSON/armor.json"	        \r\n    😁 防具のJSONファイルへのパス\r\n
     * Assets RPGMaker Storage Initializations JSON armor.json           - 解析失敗
     * Assets RPGMaker Storage Initializations JSON autoGuide.json
