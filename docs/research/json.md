@@ -122,10 +122,13 @@ JsonFileOfChapter	        = "Assets/RPGMaker/Storage/Outline/chapter.json"	     
 JsonFileOfSection	        = "Assets/RPGMaker/Storage/Outline/section.json"	                \r\n    😁 区画JSONファイルへのパス\r\n
     * Assets RPGMaker Storage Outline section.json
 JsonFileOfConnection	    = "Assets/RPGMaker/Storage/Outline/connection.json"	                \r\n    😁 接続JSONファイルへのパス\r\n
+    * Assets RPGMaker Storage Outline connection.json
 JsonFileOfMap	            = "Assets/RPGMaker/Storage/Map/JSON/Map"	                        \r\n    😁 マップJSONマップ・ディレクトリーへのパス\r\n
     * 既出
 JsonFileOfEventMap	        = "Assets/RPGMaker/Storage/Event/JSON/eventMap.json"	            \r\n    😁 イベント・マップJSONファイルへのパス\r\n
+    * 既出
 JsonFileOfFlags	            = "Assets/RPGMaker/Storage/Flags/JSON/flags.json"	                \r\n    😁 フラグJSONファイルへのパス\r\n
+    * 既出
 args	                    = new List<AddonParamInfoJson>()	                                \r\n    😁 （※翻訳者追記） 辞書を含む構造体を要素として持つリスト。アドオン関連\r\n
 params_	                    = new List<AddonParamInfoJson>()	                                \r\n    😁 （※翻訳者追記）文書構造。アドオンの情報関連\r\n
 commandInfos	            = new List<AddonCommandInfoJson>()	                                \r\n    😁 （※翻訳者追記）文書構造。アドオンのコマンド関連\r\n
@@ -133,7 +136,11 @@ noteParamInfos	            = new List<AddonParamInfoJson>()	                    
 paramInfos	                = new List<AddonParamInfoJson>()	                                \r\n    😁 （※翻訳者追記）文書構造。アドオンの情報関連\r\n
 structInfos	                = new List<AddonStructInfoJson>()	                                \r\n    😁 （※翻訳者追記）文書構造。アドオンの構造体関連\r\n
 JsonFile	                = "Assets/RPGMaker/Storage/Addon/Resources/addonSettings.json"	    \r\n    😁 JSONファイル\r\n
+    * Assets RPGMaker Storage Addon Resources addonSettings.json
 AddonInfosJsonFile	        = "Assets/RPGMaker/Storage/Addon/Resources/addonInfos.json"	        \r\n    😁 アドオン情報JSONファイル\r\n
+    * Assets RPGMaker Storage Addon Resources addonInfos.json
 _bgmLoopInfoFilename	    = "Assets/RPGMaker/Storage/Sounds/bgmLoopInfo.json"	                \r\n    😁 背景音楽ループ情報ファイル名\r\n
+    * Assets RPGMaker Storage Sounds bgmLoopInfo.json
 _bgsLoopInfoFilename	    = "Assets/RPGMaker/Storage/Sounds/bgsLoopInfo.json"	                \r\n    😁 環境音ループ情報ファイル名\r\n
+    * Assets RPGMaker Storage Sounds bgsLoopInfo.json
 ```

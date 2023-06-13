@@ -1,0 +1,300 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "title": "A Schema",
+        "required": ["name", "start", "end"],
+        "properties": {
+            "name": {
+                "type": "string",
+                "title": "The name Schema",
+                "examples": [
+                    "U_Battle_01.wav",
+                    "U_Battle_02.wav",
+                    "U_Battle_03.wav",
+                    "U_Capital_01.wav",
+                    "U_Castle_01.wav",
+                    "U_Colosseum_01.wav",
+                    "U_Dungeon_01.wav",
+                    "U_Evil_01.wav",
+                    "U_Field_01.wav",
+                    "U_Fortress_01.wav",
+                    "U_Oriental_01.wav",
+                    "U_Scene_01.wav",
+                    "U_Scene_02.wav",
+                    "U_Scene_03.wav",
+                    "U_Scene_04.wav",
+                    "U_Ship_01.wav",
+                    "U_Shrine_01.wav",
+                    "U_Shrine_02.wav",
+                    "U_Temple_01.wav",
+                    "U_Theme_01.wav",
+                    "U_Theme_02.wav",
+                    "U_Tower_01.wav",
+                    "U_Town_01.wav",
+                    "U_Village_01.wav"
+                ]
+            },
+            "start": {
+                "type": "integer",
+                "title": "The start Schema",
+                "examples": [-1]
+            },
+            "end": {
+                "type": "integer",
+                "title": "The end Schema",
+                "examples": [-1]
+            }
+        },
+        "examples": [
+            {
+                "name": "U_Battle_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Battle_02.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Battle_03.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Capital_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Castle_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Colosseum_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Dungeon_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Evil_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Field_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Fortress_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Oriental_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Scene_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Scene_02.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Scene_03.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Scene_04.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Ship_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Shrine_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Shrine_02.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Temple_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Theme_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Theme_02.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Tower_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Town_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Village_01.wav",
+                "start": -1,
+                "end": -1
+            }
+        ]
+    },
+    "examples": [
+        [
+            {
+                "name": "U_Battle_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Battle_02.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Battle_03.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Capital_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Castle_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Colosseum_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Dungeon_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Evil_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Field_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Fortress_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Oriental_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Scene_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Scene_02.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Scene_03.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Scene_04.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Ship_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Shrine_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Shrine_02.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Temple_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Theme_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Theme_02.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Tower_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Town_01.wav",
+                "start": -1,
+                "end": -1
+            },
+            {
+                "name": "U_Village_01.wav",
+                "start": -1,
+                "end": -1
+            }
+        ]
+    ]
+}
