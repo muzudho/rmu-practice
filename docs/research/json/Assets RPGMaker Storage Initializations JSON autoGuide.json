@@ -1,0 +1,374 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "default": {},
+        "title": "A Schema",
+        "required": ["id", "baseParameterRatio", "weaponRatio", "armorRatio", "delete"],
+        "properties": {
+            "id": {
+                "type": "string",
+                "default": "",
+                "title": "The id Schema",
+                "examples": [""]
+            },
+            "baseParameterRatio": {
+                "type": "array",
+                "default": [],
+                "title": "The baseParameterRatio Schema",
+                "items": {
+                    "type": "object",
+                    "default": {},
+                    "title": "A Schema",
+                    "required": ["maxHp", "maxMp", "attack", "defense", "magicAttack", "magicDefense", "speed", "luck"],
+                    "properties": {
+                        "maxHp": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The maxHp Schema",
+                            "examples": [1.0]
+                        },
+                        "maxMp": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The maxMp Schema",
+                            "examples": [0.6000000238418579]
+                        },
+                        "attack": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The attack Schema",
+                            "examples": [0.0625]
+                        },
+                        "defense": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The defense Schema",
+                            "examples": [0.04500000178813934]
+                        },
+                        "magicAttack": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The magicAttack Schema",
+                            "examples": [0.05000000074505806]
+                        },
+                        "magicDefense": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The magicDefense Schema",
+                            "examples": [0.03999999910593033]
+                        },
+                        "speed": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The speed Schema",
+                            "examples": [0.05000000074505806]
+                        },
+                        "luck": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The luck Schema",
+                            "examples": [0.029999999329447748]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "maxHp": 1.0,
+                            "maxMp": 0.6000000238418579,
+                            "attack": 0.0625,
+                            "defense": 0.04500000178813934,
+                            "magicAttack": 0.05000000074505806,
+                            "magicDefense": 0.03999999910593033,
+                            "speed": 0.05000000074505806,
+                            "luck": 0.029999999329447748
+                        }
+                    ]
+                },
+                "examples": [
+                    [
+                        {
+                            "maxHp": 1.0,
+                            "maxMp": 0.6000000238418579,
+                            "attack": 0.0625,
+                            "defense": 0.04500000178813934,
+                            "magicAttack": 0.05000000074505806,
+                            "magicDefense": 0.03999999910593033,
+                            "speed": 0.05000000074505806,
+                            "luck": 0.029999999329447748
+                        }
+                    ]
+                ]
+            },
+            "weaponRatio": {
+                "type": "array",
+                "default": [],
+                "title": "The weaponRatio Schema",
+                "items": {
+                    "type": "object",
+                    "default": {},
+                    "title": "A Schema",
+                    "required": ["maxHp", "maxMp", "attack", "defense", "magicAttack", "magicDefense", "speed", "luck"],
+                    "properties": {
+                        "maxHp": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The maxHp Schema",
+                            "examples": [0.0]
+                        },
+                        "maxMp": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The maxMp Schema",
+                            "examples": [0.0]
+                        },
+                        "attack": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The attack Schema",
+                            "examples": [0.6000000238418579]
+                        },
+                        "defense": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The defense Schema",
+                            "examples": [0.0]
+                        },
+                        "magicAttack": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The magicAttack Schema",
+                            "examples": [0.0]
+                        },
+                        "magicDefense": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The magicDefense Schema",
+                            "examples": [0.0]
+                        },
+                        "speed": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The speed Schema",
+                            "examples": [0.0]
+                        },
+                        "luck": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The luck Schema",
+                            "examples": [0.0]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "maxHp": 0.0,
+                            "maxMp": 0.0,
+                            "attack": 0.6000000238418579,
+                            "defense": 0.0,
+                            "magicAttack": 0.0,
+                            "magicDefense": 0.0,
+                            "speed": 0.0,
+                            "luck": 0.0
+                        }
+                    ]
+                },
+                "examples": [
+                    [
+                        {
+                            "maxHp": 0.0,
+                            "maxMp": 0.0,
+                            "attack": 0.6000000238418579,
+                            "defense": 0.0,
+                            "magicAttack": 0.0,
+                            "magicDefense": 0.0,
+                            "speed": 0.0,
+                            "luck": 0.0
+                        }
+                    ]
+                ]
+            },
+            "armorRatio": {
+                "type": "array",
+                "default": [],
+                "title": "The armorRatio Schema",
+                "items": {
+                    "type": "object",
+                    "default": {},
+                    "title": "A Schema",
+                    "required": ["maxHp", "maxMp", "attack", "defense", "magicAttack", "magicDefense", "speed", "luck"],
+                    "properties": {
+                        "maxHp": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The maxHp Schema",
+                            "examples": [0.0]
+                        },
+                        "maxMp": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The maxMp Schema",
+                            "examples": [0.0]
+                        },
+                        "attack": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The attack Schema",
+                            "examples": [0.0]
+                        },
+                        "defense": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The defense Schema",
+                            "examples": [0.4000000059604645]
+                        },
+                        "magicAttack": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The magicAttack Schema",
+                            "examples": [0.0]
+                        },
+                        "magicDefense": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The magicDefense Schema",
+                            "examples": [0.0]
+                        },
+                        "speed": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The speed Schema",
+                            "examples": [0.0]
+                        },
+                        "luck": {
+                            "type": "number",
+                            "default": 0.0,
+                            "title": "The luck Schema",
+                            "examples": [0.0]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "maxHp": 0.0,
+                            "maxMp": 0.0,
+                            "attack": 0.0,
+                            "defense": 0.4000000059604645,
+                            "magicAttack": 0.0,
+                            "magicDefense": 0.0,
+                            "speed": 0.0,
+                            "luck": 0.0
+                        }
+                    ]
+                },
+                "examples": [
+                    [
+                        {
+                            "maxHp": 0.0,
+                            "maxMp": 0.0,
+                            "attack": 0.0,
+                            "defense": 0.4000000059604645,
+                            "magicAttack": 0.0,
+                            "magicDefense": 0.0,
+                            "speed": 0.0,
+                            "luck": 0.0
+                        }
+                    ]
+                ]
+            },
+            "delete": {
+                "type": "integer",
+                "default": 0,
+                "title": "The delete Schema",
+                "examples": [0]
+            }
+        },
+        "examples": [
+            {
+                "id": "",
+                "baseParameterRatio": [
+                    {
+                        "maxHp": 1.0,
+                        "maxMp": 0.6000000238418579,
+                        "attack": 0.0625,
+                        "defense": 0.04500000178813934,
+                        "magicAttack": 0.05000000074505806,
+                        "magicDefense": 0.03999999910593033,
+                        "speed": 0.05000000074505806,
+                        "luck": 0.029999999329447748
+                    }
+                ],
+                "weaponRatio": [
+                    {
+                        "maxHp": 0.0,
+                        "maxMp": 0.0,
+                        "attack": 0.6000000238418579,
+                        "defense": 0.0,
+                        "magicAttack": 0.0,
+                        "magicDefense": 0.0,
+                        "speed": 0.0,
+                        "luck": 0.0
+                    }
+                ],
+                "armorRatio": [
+                    {
+                        "maxHp": 0.0,
+                        "maxMp": 0.0,
+                        "attack": 0.0,
+                        "defense": 0.4000000059604645,
+                        "magicAttack": 0.0,
+                        "magicDefense": 0.0,
+                        "speed": 0.0,
+                        "luck": 0.0
+                    }
+                ],
+                "delete": 0
+            }
+        ]
+    },
+    "examples": [
+        [
+            {
+                "id": "",
+                "baseParameterRatio": [
+                    {
+                        "maxHp": 1.0,
+                        "maxMp": 0.6000000238418579,
+                        "attack": 0.0625,
+                        "defense": 0.04500000178813934,
+                        "magicAttack": 0.05000000074505806,
+                        "magicDefense": 0.03999999910593033,
+                        "speed": 0.05000000074505806,
+                        "luck": 0.029999999329447748
+                    }
+                ],
+                "weaponRatio": [
+                    {
+                        "maxHp": 0.0,
+                        "maxMp": 0.0,
+                        "attack": 0.6000000238418579,
+                        "defense": 0.0,
+                        "magicAttack": 0.0,
+                        "magicDefense": 0.0,
+                        "speed": 0.0,
+                        "luck": 0.0
+                    }
+                ],
+                "armorRatio": [
+                    {
+                        "maxHp": 0.0,
+                        "maxMp": 0.0,
+                        "attack": 0.0,
+                        "defense": 0.4000000059604645,
+                        "magicAttack": 0.0,
+                        "magicDefense": 0.0,
+                        "speed": 0.0,
+                        "luck": 0.0
+                    }
+                ],
+                "delete": 0
+            }
+        ]
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "default": {},
+        "title": "A Schema",
+        "required": ["basic", "parameters", "traits", "memo", "deleted"],
+        "properties": {
+            "basic": {
+                "type": "object",
+                "default": {},
+                "title": "The basic Schema",
+                "required": ["id", "name", "description", "equipmentTypeId", "weaponTypeId", "price", "sell", "canSell", "switchItem"],
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The id Schema",
+                        "examples": [1]
+                    },
+                    "name": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The name Schema",
+                        "examples": [""]
+                    },
+                    "description": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The description Schema",
+                        "examples": [""]
+                    },
+                    "equipmentTypeId": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The equipmentTypeId Schema",
+                        "examples": [1]
+                    },
+                    "weaponTypeId": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The weaponTypeId Schema",
+                        "examples": [2]
+                    },
+                    "price": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The price Schema",
+                        "examples": [500]
+                    },
+                    "sell": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The sell Schema",
+                        "examples": [50]
+                    },
+                    "canSell": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The canSell Schema",
+                        "examples": [1]
+                    },
+                    "switchItem": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The switchItem Schema",
+                        "examples": [1]
+                    }
+                },
+                "examples": [
+                    {
+                        "id": 1,
+                        "name": "",
+                        "description": "",
+                        "equipmentTypeId": 1,
+                        "weaponTypeId": 2,
+                        "price": 500,
+                        "sell": 50,
+                        "canSell": 1,
+                        "switchItem": 1
+                    }
+                ]
+            },
+            "parameters": {
+                "type": "array",
+                "default": [],
+                "title": "The parameters Schema",
+                "items": {
+                    "type": "integer",
+                    "title": "A Schema",
+                    "examples": [0]
+                },
+                "examples": [[0, 0]]
+            },
+            "traits": {
+                "type": "object",
+                "default": {},
+                "title": "The traits Schema",
+                "required": ["physics", "hitRate"],
+                "properties": {
+                    "physics": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The physics Schema",
+                        "examples": [1]
+                    },
+                    "hitRate": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The hitRate Schema",
+                        "examples": [100]
+                    }
+                },
+                "examples": [
+                    {
+                        "physics": 1,
+                        "hitRate": 100
+                    }
+                ]
+            },
+            "memo": {
+                "type": "string",
+                "default": "",
+                "title": "The memo Schema",
+                "examples": [""]
+            },
+            "deleted": {
+                "type": "integer",
+                "default": 0,
+                "title": "The deleted Schema",
+                "examples": [0]
+            }
+        },
+        "examples": [
+            {
+                "basic": {
+                    "id": 1,
+                    "name": "",
+                    "description": "",
+                    "equipmentTypeId": 1,
+                    "weaponTypeId": 2,
+                    "price": 500,
+                    "sell": 50,
+                    "canSell": 1,
+                    "switchItem": 1
+                },
+                "parameters": [0, 0],
+                "traits": {
+                    "physics": 1,
+                    "hitRate": 100
+                },
+                "memo": "",
+                "deleted": 0
+            }
+        ]
+    },
+    "examples": [
+        [
+            {
+                "basic": {
+                    "id": 1,
+                    "name": "",
+                    "description": "",
+                    "equipmentTypeId": 1,
+                    "weaponTypeId": 2,
+                    "price": 500,
+                    "sell": 50,
+                    "canSell": 1,
+                    "switchItem": 1
+                },
+                "parameters": [0, 0],
+                "traits": {
+                    "physics": 1,
+                    "hitRate": 100
+                },
+                "memo": "",
+                "deleted": 0
+            }
+        ]
+    ]
+}
