@@ -13,6 +13,9 @@ RPG Maker UNITE の練習
 * 📄 [構成要素](./docs/research/components.md)
 * 📄 [非同期処理](./docs/research/asynchronous-processing.md)
 * 📄 [一連の Effekseer プロジェクト](./docs/research/effekseer.md)
+* JSON 調べ
+  * 📄 [ツール](./docs/research/json-schema.md)
+  * 📄 [JSON](./docs/research/json.md)
 
 ## Unity と、それ以外のプログラミングの違いでつまづくとこ
 
@@ -29,6 +32,7 @@ RPG Maker UNITE の練習
 * 計測
     * 📄 [処理時間計測の方法](./docs/processing-time-measurement-method.md)
 * 改造
+    * 📄 [正規表現](./docs/remodeling/regular-expression.md)
     * 📄 [using ディレクティブは namespace の内側に入れる（趣味）](./docs/remodeling/using-directive-in-namespace.md)
 
 ## その他
