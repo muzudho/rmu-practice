@@ -1,0 +1,2642 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Root Schema",
+    "items": {
+        "type": "object",
+        "title": "A Schema",
+        "required": ["basic", "memo", "parameters", "traits"],
+        "properties": {
+            "basic": {
+                "type": "object",
+                "title": "The basic Schema",
+                "required": ["animationId", "armorTypeId", "canSell", "description", "equipmentTypeId", "iconId", "id", "name", "price", "sell", "switchItem"],
+                "properties": {
+                    "animationId": {
+                        "type": "string",
+                        "title": "The animationId Schema",
+                        "examples": [""]
+                    },
+                    "armorTypeId": {
+                        "type": "string",
+                        "title": "The armorTypeId Schema",
+                        "examples": ["0", "1", "5d44ec7b-6494-4e4c-b18f-b552a8500fd6", "ef649a06-d430-49b8-a81d-6c73d26afb02", "b4bcd669-5923-47e4-aef2-791a6256ce89", "c01b25d3-bdb5-4c23-a375-dcfdc05abad6", "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594"]
+                    },
+                    "canSell": {
+                        "type": "integer",
+                        "title": "The canSell Schema",
+                        "examples": [1, 0]
+                    },
+                    "description": {
+                        "type": "string",
+                        "title": "The description Schema",
+                        "examples": [
+                            "",
+                            "[Common] Clothes made with highly breathable fabric.",
+                            "[Light] A vest crafted out of animal hide.",
+                            "[Light] A sturdy wood breastplate.",
+                            "[Light] A breastplate forged with bronze.",
+                            "[Light] A breastplate forged with iron.",
+                            "[Light] A breastplate forged with mythril.",
+                            "[Light] A breastplate forged of numerous different ores.",
+                            "[Light] Clothes commonly found in desert regions.",
+                            "[Heavy] Armor crafted out of leather.",
+                            "[Heavy] Armor made with solid wood.",
+                            "[Heavy] Armor made of bronze.",
+                            "[Heavy] Armor forged from iron.",
+                            "[Heavy] Armor forged of mythril.",
+                            "[Heavy] Armor forged of numerous different ores.",
+                            "[Heavy] A full suit of armor forged of steel.",
+                            "[Magic] Common robes that have seen widespread usage.",
+                            "[Magic] High-quality mantle made with fine silk.",
+                            "[Magic] Robes imbued with runic symbols.",
+                            "[Magic] Robes latent with the power of the elves.",
+                            "[Magic] The ultimate robes, latent with the power of the king of spirits.",
+                            "[Magic] Robes that imbue the wearer with a sage's magic potential.",
+                            "[Small Shield] A small shield built to deflect attacks.",
+                            "[Small Shield] A wooden round shield reinforced within a steel frame.",
+                            "[Small Shield] A round shield with spikes, oriented for offense.",
+                            "[Small Shield] A small shield forged of mythril.",
+                            "[Small Shield] A small shield commonly used by elves.",
+                            "[Small Shield] A small shield often found in desert regions.",
+                            "[Large Shield] A large wooden shield reinforced with leather.",
+                            "[Large Shield] A rather ordinary large wooden shield."
+                        ]
+                    },
+                    "equipmentTypeId": {
+                        "type": "string",
+                        "title": "The equipmentTypeId Schema",
+                        "examples": ["0", "c557c358-d63e-4992-b7a2-f8dadd9eeb71", "7832ae68-aecc-4724-8765-e8e04e3cb64f"]
+                    },
+                    "iconId": {
+                        "type": "string",
+                        "title": "The iconId Schema",
+                        "examples": ["IconSet_000", "IconSet_135", "IconSet_137", "IconSet_139", "IconSet_129", "IconSet_128"]
+                    },
+                    "id": {
+                        "type": "string",
+                        "title": "The id Schema",
+                        "examples": [
+                            "51ec1c98-b2b3-49bc-b488-fc945381eaa0",
+                            "2f1bced4-122a-4ee2-98fa-bd80f381036d",
+                            "261f4871-4cf2-4aeb-94cb-87821c1534f8",
+                            "b09a6148-8286-468f-9759-144ab3a1f5bf",
+                            "578b8d80-aefe-490d-87a0-e32a2eb1b17b",
+                            "3d759957-683a-4d6e-921a-e850d11051db",
+                            "1b11bfb1-d133-401d-aad5-30900311937b",
+                            "09d1d8c8-6451-4cb5-8309-6b00e8457d47",
+                            "1e25ae15-8f1d-442c-8e47-3d2953acf0ac",
+                            "ffd9dd7d-00ed-4835-9545-3cc098401895",
+                            "b4480c83-89c8-4ec9-83b9-08ce9110e89b",
+                            "72d1aaf3-936c-4fa1-a999-ef9baafeb72e",
+                            "3db2b2a4-2ceb-4df3-a741-d2c428fd143f",
+                            "ba466465-90da-42d5-95e7-bf766067aa75",
+                            "c41ca327-2b11-4c26-9035-0768badb4fb4",
+                            "8687971c-cb37-457e-a028-4cb2daf0e315",
+                            "3a226a2f-6a3b-430c-917c-7bd7750e4612",
+                            "723f345a-03d4-43b2-a878-45a21096c8db",
+                            "34068cc2-692d-41bc-9704-720850dace54",
+                            "c323bc83-cb43-4830-b0a1-aaac9b9af139",
+                            "2b42c6f0-2bbe-4a71-9e6c-11e6e7044d80",
+                            "595072f7-7b2c-4e83-9cbf-c58bde1bc2a1",
+                            "3f63c270-459e-4ae3-ad43-d7fe3a4dc8b1",
+                            "595e24d8-1455-491b-8704-13c237dc9ee1",
+                            "80b85fbf-1e94-4537-8e58-7d312d2f3257",
+                            "4125a288-cf4e-4c2d-bb0d-68912ea93e6b",
+                            "3fd0b16b-8049-449e-abc6-223ae7691e12",
+                            "5c343759-1bc2-459c-928c-9b1cdb9eec72",
+                            "d409dbe4-e125-4edc-85ee-32e2a9c7fcc3",
+                            "61edc1cf-0b24-4a1e-a835-6e0f7929da4b",
+                            "22f5f3b0-c9cd-44b4-9dac-e96244a0feb0"
+                        ]
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "The name Schema",
+                        "examples": [
+                            "-----Armor",
+                            "Linen Clothing",
+                            "Leather Vest",
+                            "Wooden Breastplate",
+                            "Bronze Breastplate",
+                            "Iron Breastplate",
+                            "Mythril Breastplate",
+                            "Composite Breastplate",
+                            "Desert Vest",
+                            "Leather Armor",
+                            "Wooden Armor",
+                            "Bronze Armor",
+                            "Iron Armor",
+                            "Mythril Armor",
+                            "Composite Armor",
+                            "Plate Armor",
+                            "Cotton Robe",
+                            "Silk Mantle",
+                            "Sorcerer's Robe",
+                            "Elven Robe",
+                            "Elemental Mantle",
+                            "Sage's Robe",
+                            "-----Shields",
+                            "Buckler",
+                            "Round Buckler",
+                            "Spiked Buckler",
+                            "Mythril Buckler",
+                            "Elven Buckler",
+                            "Desert Buckler",
+                            "Leather Shield",
+                            "Wooden Shield"
+                        ]
+                    },
+                    "price": {
+                        "type": "integer",
+                        "title": "The price Schema",
+                        "examples": [0, 115, 220, 416, 765, 1330, 2170, 4928, 11029, 159, 302, 568, 1711, 20883, 3349, 35606, 90, 124, 337, 858, 4349, 9784, 241, 467]
+                    },
+                    "sell": {
+                        "type": "integer",
+                        "title": "The sell Schema",
+                        "examples": [0, 69, 132, 249, 459, 798, 1302, 2956, 6617, 95, 181, 340, 1026, 12529, 2009, 21363, 54, 74, 202, 514, 2609, 5870, 144, 280]
+                    },
+                    "switchItem": {
+                        "type": "integer",
+                        "title": "The switchItem Schema",
+                        "examples": [0]
+                    }
+                },
+                "examples": [
+                    {
+                        "animationId": "",
+                        "armorTypeId": "0",
+                        "canSell": 1,
+                        "description": "",
+                        "equipmentTypeId": "0",
+                        "iconId": "IconSet_000",
+                        "id": "51ec1c98-b2b3-49bc-b488-fc945381eaa0",
+                        "name": "-----Armor",
+                        "price": 0,
+                        "sell": 0,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "1",
+                        "canSell": 0,
+                        "description": "[Common] Clothes made with highly breathable fabric.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_135",
+                        "id": "2f1bced4-122a-4ee2-98fa-bd80f381036d",
+                        "name": "Linen Clothing",
+                        "price": 115,
+                        "sell": 69,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                        "canSell": 0,
+                        "description": "[Light] A vest crafted out of animal hide.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_135",
+                        "id": "261f4871-4cf2-4aeb-94cb-87821c1534f8",
+                        "name": "Leather Vest",
+                        "price": 220,
+                        "sell": 132,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                        "canSell": 0,
+                        "description": "[Light] A sturdy wood breastplate.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_135",
+                        "id": "b09a6148-8286-468f-9759-144ab3a1f5bf",
+                        "name": "Wooden Breastplate",
+                        "price": 416,
+                        "sell": 249,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                        "canSell": 0,
+                        "description": "[Light] A breastplate forged with bronze.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_135",
+                        "id": "578b8d80-aefe-490d-87a0-e32a2eb1b17b",
+                        "name": "Bronze Breastplate",
+                        "price": 765,
+                        "sell": 459,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                        "canSell": 0,
+                        "description": "[Light] A breastplate forged with iron.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_135",
+                        "id": "3d759957-683a-4d6e-921a-e850d11051db",
+                        "name": "Iron Breastplate",
+                        "price": 1330,
+                        "sell": 798,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                        "canSell": 0,
+                        "description": "[Light] A breastplate forged with mythril.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_135",
+                        "id": "1b11bfb1-d133-401d-aad5-30900311937b",
+                        "name": "Mythril Breastplate",
+                        "price": 2170,
+                        "sell": 1302,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                        "canSell": 0,
+                        "description": "[Light] A breastplate forged of numerous different ores.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_135",
+                        "id": "09d1d8c8-6451-4cb5-8309-6b00e8457d47",
+                        "name": "Composite Breastplate",
+                        "price": 4928,
+                        "sell": 2956,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                        "canSell": 0,
+                        "description": "[Light] Clothes commonly found in desert regions.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_135",
+                        "id": "1e25ae15-8f1d-442c-8e47-3d2953acf0ac",
+                        "name": "Desert Vest",
+                        "price": 11029,
+                        "sell": 6617,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                        "canSell": 0,
+                        "description": "[Heavy] Armor crafted out of leather.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_137",
+                        "id": "ffd9dd7d-00ed-4835-9545-3cc098401895",
+                        "name": "Leather Armor",
+                        "price": 159,
+                        "sell": 95,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                        "canSell": 0,
+                        "description": "[Heavy] Armor made with solid wood.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_137",
+                        "id": "b4480c83-89c8-4ec9-83b9-08ce9110e89b",
+                        "name": "Wooden Armor",
+                        "price": 302,
+                        "sell": 181,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                        "canSell": 0,
+                        "description": "[Heavy] Armor made of bronze.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_137",
+                        "id": "72d1aaf3-936c-4fa1-a999-ef9baafeb72e",
+                        "name": "Bronze Armor",
+                        "price": 568,
+                        "sell": 340,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                        "canSell": 0,
+                        "description": "[Heavy] Armor forged from iron.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_137",
+                        "id": "3db2b2a4-2ceb-4df3-a741-d2c428fd143f",
+                        "name": "Iron Armor",
+                        "price": 1711,
+                        "sell": 1026,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                        "canSell": 0,
+                        "description": "[Heavy] Armor forged of mythril.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_137",
+                        "id": "ba466465-90da-42d5-95e7-bf766067aa75",
+                        "name": "Mythril Armor",
+                        "price": 4928,
+                        "sell": 2956,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                        "canSell": 0,
+                        "description": "[Heavy] Armor forged of numerous different ores.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_137",
+                        "id": "c41ca327-2b11-4c26-9035-0768badb4fb4",
+                        "name": "Composite Armor",
+                        "price": 11029,
+                        "sell": 6617,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                        "canSell": 0,
+                        "description": "[Heavy] A full suit of armor forged of steel.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_137",
+                        "id": "8687971c-cb37-457e-a028-4cb2daf0e315",
+                        "name": "Plate Armor",
+                        "price": 20883,
+                        "sell": 12529,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                        "canSell": 0,
+                        "description": "[Magic] Common robes that have seen widespread usage.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_139",
+                        "id": "3a226a2f-6a3b-430c-917c-7bd7750e4612",
+                        "name": "Cotton Robe",
+                        "price": 220,
+                        "sell": 132,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                        "canSell": 0,
+                        "description": "[Magic] High-quality mantle made with fine silk.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_139",
+                        "id": "723f345a-03d4-43b2-a878-45a21096c8db",
+                        "name": "Silk Mantle",
+                        "price": 568,
+                        "sell": 340,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                        "canSell": 0,
+                        "description": "[Magic] Robes imbued with runic symbols.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_139",
+                        "id": "34068cc2-692d-41bc-9704-720850dace54",
+                        "name": "Sorcerer's Robe",
+                        "price": 1330,
+                        "sell": 798,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                        "canSell": 0,
+                        "description": "[Magic] Robes latent with the power of the elves.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_139",
+                        "id": "c323bc83-cb43-4830-b0a1-aaac9b9af139",
+                        "name": "Elven Robe",
+                        "price": 3349,
+                        "sell": 2009,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                        "canSell": 0,
+                        "description": "[Magic] The ultimate robes, latent with the power of the king of spirits.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_139",
+                        "id": "2b42c6f0-2bbe-4a71-9e6c-11e6e7044d80",
+                        "name": "Elemental Mantle",
+                        "price": 11029,
+                        "sell": 6617,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                        "canSell": 0,
+                        "description": "[Magic] Robes that imbue the wearer with a sage's magic potential.",
+                        "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                        "iconId": "IconSet_139",
+                        "id": "595072f7-7b2c-4e83-9cbf-c58bde1bc2a1",
+                        "name": "Sage's Robe",
+                        "price": 35606,
+                        "sell": 21363,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "0",
+                        "canSell": 1,
+                        "description": "",
+                        "equipmentTypeId": "0",
+                        "iconId": "IconSet_000",
+                        "id": "3f63c270-459e-4ae3-ad43-d7fe3a4dc8b1",
+                        "name": "-----Shields",
+                        "price": 0,
+                        "sell": 0,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                        "canSell": 0,
+                        "description": "[Small Shield] A small shield built to deflect attacks.",
+                        "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                        "iconId": "IconSet_129",
+                        "id": "595e24d8-1455-491b-8704-13c237dc9ee1",
+                        "name": "Buckler",
+                        "price": 90,
+                        "sell": 54,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                        "canSell": 0,
+                        "description": "[Small Shield] A wooden round shield reinforced within a steel frame.",
+                        "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                        "iconId": "IconSet_129",
+                        "id": "80b85fbf-1e94-4537-8e58-7d312d2f3257",
+                        "name": "Round Buckler",
+                        "price": 124,
+                        "sell": 74,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                        "canSell": 0,
+                        "description": "[Small Shield] A round shield with spikes, oriented for offense.",
+                        "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                        "iconId": "IconSet_129",
+                        "id": "4125a288-cf4e-4c2d-bb0d-68912ea93e6b",
+                        "name": "Spiked Buckler",
+                        "price": 337,
+                        "sell": 202,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                        "canSell": 0,
+                        "description": "[Small Shield] A small shield forged of mythril.",
+                        "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                        "iconId": "IconSet_129",
+                        "id": "3fd0b16b-8049-449e-abc6-223ae7691e12",
+                        "name": "Mythril Buckler",
+                        "price": 858,
+                        "sell": 514,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                        "canSell": 0,
+                        "description": "[Small Shield] A small shield commonly used by elves.",
+                        "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                        "iconId": "IconSet_129",
+                        "id": "5c343759-1bc2-459c-928c-9b1cdb9eec72",
+                        "name": "Elven Buckler",
+                        "price": 4349,
+                        "sell": 2609,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                        "canSell": 0,
+                        "description": "[Small Shield] A small shield often found in desert regions.",
+                        "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                        "iconId": "IconSet_129",
+                        "id": "d409dbe4-e125-4edc-85ee-32e2a9c7fcc3",
+                        "name": "Desert Buckler",
+                        "price": 9784,
+                        "sell": 5870,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594",
+                        "canSell": 0,
+                        "description": "[Large Shield] A large wooden shield reinforced with leather.",
+                        "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                        "iconId": "IconSet_128",
+                        "id": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b",
+                        "name": "Leather Shield",
+                        "price": 241,
+                        "sell": 144,
+                        "switchItem": 0
+                    },
+                    {
+                        "animationId": "",
+                        "armorTypeId": "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594",
+                        "canSell": 0,
+                        "description": "[Large Shield] A rather ordinary large wooden shield.",
+                        "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                        "iconId": "IconSet_128",
+                        "id": "22f5f3b0-c9cd-44b4-9dac-e96244a0feb0",
+                        "name": "Wooden Shield",
+                        "price": 467,
+                        "sell": 280,
+                        "switchItem": 0
+                    }
+                ]
+            },
+            "memo": {
+                "type": "string",
+                "title": "The memo Schema",
+                "examples": [""]
+            },
+            "parameters": {
+                "type": "array",
+                "title": "The parameters Schema",
+                "items": {
+                    "type": "integer",
+                    "title": "A Schema",
+                    "examples": [0, 1, 23, 3, 39, 5, 55, 7, 71, 9, 87, 11, 103, 15, 135, 6, 20, 175, 2, 31, 4, 47, 63, 10, 95, 25, 214, 13, 119, 14, 21, 30, 254, 19, 50, 18, 24, 42, 8, 60, 133, 36, 48]
+                },
+                "examples": [
+                    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    [1, 0, 0, 23, 0, 0, 0, 0, 0],
+                    [3, 0, 0, 39, 0, 0, 0, 0, 0],
+                    [5, 0, 0, 55, 0, 0, 0, 0, 0],
+                    [7, 0, 0, 71, 0, 0, 0, 0, 0],
+                    [9, 0, 0, 87, 0, 0, 0, 0, 0],
+                    [11, 0, 0, 103, 0, 15, 0, 0, 0],
+                    [15, 0, 0, 135, 0, 6, 0, 0, 0],
+                    [20, 0, 0, 175, 0, 0, 0, 0, 0],
+                    [2, 0, 0, 31, 0, 0, 0, 0, 0],
+                    [4, 0, 0, 47, 0, 0, 0, 0, 0],
+                    [6, 0, 0, 63, 0, 0, 0, 0, 0],
+                    [10, 0, 0, 95, 0, 0, 0, 0, 0],
+                    [15, 0, 0, 135, 0, 15, 0, 0, 0],
+                    [20, 0, 0, 175, 0, 0, 0, 0, 0],
+                    [25, 0, 0, 214, 0, 0, 0, 0, 0],
+                    [3, 0, 0, 39, 2, 3, 0, 0, 0],
+                    [6, 0, 0, 63, 4, 6, 0, 0, 0],
+                    [9, 0, 0, 87, 7, 11, 0, 0, 0],
+                    [13, 0, 0, 119, 14, 21, 0, 0, 0],
+                    [20, 0, 0, 175, 20, 25, 0, 0, 0],
+                    [30, 0, 0, 254, 19, 50, 0, 0, 0],
+                    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    [1, 0, 0, 18, 0, 0, 0, 0, 0],
+                    [2, 0, 0, 24, 0, 0, 0, 0, 0],
+                    [5, 0, 0, 42, 0, 0, 0, 0, 0],
+                    [8, 0, 0, 60, 0, 5, 0, 0, 0],
+                    [15, 0, 0, 103, 0, 6, 0, 0, 0],
+                    [20, 0, 0, 133, 0, 0, 0, 0, 0],
+                    [4, 0, 0, 36, 0, 0, 0, 0, 0],
+                    [6, 0, 0, 48, 0, 0, 0, 0, 0]
+                ]
+            },
+            "traits": {
+                "type": "array",
+                "title": "The traits Schema",
+                "items": {
+                    "type": "object",
+                    "title": "A Schema",
+                    "required": ["categoryId", "effectId", "traitsId", "value"],
+                    "properties": {
+                        "categoryId": {
+                            "type": "integer",
+                            "title": "The categoryId Schema",
+                            "examples": [2, 1]
+                        },
+                        "effectId": {
+                            "type": "integer",
+                            "title": "The effectId Schema",
+                            "examples": [1, 3]
+                        },
+                        "traitsId": {
+                            "type": "integer",
+                            "title": "The traitsId Schema",
+                            "examples": [2, 1]
+                        },
+                        "value": {
+                            "type": "integer",
+                            "title": "The value Schema",
+                            "examples": [0, 100]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 1,
+                            "effectId": 3,
+                            "traitsId": 1,
+                            "value": 100
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 1,
+                            "effectId": 3,
+                            "traitsId": 1,
+                            "value": 100
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ]
+                },
+                "examples": [
+                    [],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 1,
+                            "effectId": 3,
+                            "traitsId": 1,
+                            "value": 100
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        },
+                        {
+                            "categoryId": 1,
+                            "effectId": 3,
+                            "traitsId": 1,
+                            "value": 100
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ],
+                    [
+                        {
+                            "categoryId": 2,
+                            "effectId": 1,
+                            "traitsId": 2,
+                            "value": 0
+                        }
+                    ]
+                ]
+            }
+        },
+        "examples": [
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "0",
+                    "canSell": 1,
+                    "description": "",
+                    "equipmentTypeId": "0",
+                    "iconId": "IconSet_000",
+                    "id": "51ec1c98-b2b3-49bc-b488-fc945381eaa0",
+                    "name": "-----Armor",
+                    "price": 0,
+                    "sell": 0,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                "traits": []
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "1",
+                    "canSell": 0,
+                    "description": "[Common] Clothes made with highly breathable fabric.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "2f1bced4-122a-4ee2-98fa-bd80f381036d",
+                    "name": "Linen Clothing",
+                    "price": 115,
+                    "sell": 69,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [1, 0, 0, 23, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A vest crafted out of animal hide.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "261f4871-4cf2-4aeb-94cb-87821c1534f8",
+                    "name": "Leather Vest",
+                    "price": 220,
+                    "sell": 132,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [3, 0, 0, 39, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A sturdy wood breastplate.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "b09a6148-8286-468f-9759-144ab3a1f5bf",
+                    "name": "Wooden Breastplate",
+                    "price": 416,
+                    "sell": 249,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [5, 0, 0, 55, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A breastplate forged with bronze.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "578b8d80-aefe-490d-87a0-e32a2eb1b17b",
+                    "name": "Bronze Breastplate",
+                    "price": 765,
+                    "sell": 459,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [7, 0, 0, 71, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A breastplate forged with iron.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "3d759957-683a-4d6e-921a-e850d11051db",
+                    "name": "Iron Breastplate",
+                    "price": 1330,
+                    "sell": 798,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [9, 0, 0, 87, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A breastplate forged with mythril.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "1b11bfb1-d133-401d-aad5-30900311937b",
+                    "name": "Mythril Breastplate",
+                    "price": 2170,
+                    "sell": 1302,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [11, 0, 0, 103, 0, 15, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A breastplate forged of numerous different ores.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "09d1d8c8-6451-4cb5-8309-6b00e8457d47",
+                    "name": "Composite Breastplate",
+                    "price": 4928,
+                    "sell": 2956,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [15, 0, 0, 135, 0, 6, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] Clothes commonly found in desert regions.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "1e25ae15-8f1d-442c-8e47-3d2953acf0ac",
+                    "name": "Desert Vest",
+                    "price": 11029,
+                    "sell": 6617,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [20, 0, 0, 175, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    },
+                    {
+                        "categoryId": 1,
+                        "effectId": 3,
+                        "traitsId": 1,
+                        "value": 100
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor crafted out of leather.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "ffd9dd7d-00ed-4835-9545-3cc098401895",
+                    "name": "Leather Armor",
+                    "price": 159,
+                    "sell": 95,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [2, 0, 0, 31, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor made with solid wood.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "b4480c83-89c8-4ec9-83b9-08ce9110e89b",
+                    "name": "Wooden Armor",
+                    "price": 302,
+                    "sell": 181,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [4, 0, 0, 47, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor made of bronze.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "72d1aaf3-936c-4fa1-a999-ef9baafeb72e",
+                    "name": "Bronze Armor",
+                    "price": 568,
+                    "sell": 340,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [6, 0, 0, 63, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor forged from iron.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "3db2b2a4-2ceb-4df3-a741-d2c428fd143f",
+                    "name": "Iron Armor",
+                    "price": 1711,
+                    "sell": 1026,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [10, 0, 0, 95, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor forged of mythril.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "ba466465-90da-42d5-95e7-bf766067aa75",
+                    "name": "Mythril Armor",
+                    "price": 4928,
+                    "sell": 2956,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [15, 0, 0, 135, 0, 15, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor forged of numerous different ores.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "c41ca327-2b11-4c26-9035-0768badb4fb4",
+                    "name": "Composite Armor",
+                    "price": 11029,
+                    "sell": 6617,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [20, 0, 0, 175, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] A full suit of armor forged of steel.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "8687971c-cb37-457e-a028-4cb2daf0e315",
+                    "name": "Plate Armor",
+                    "price": 20883,
+                    "sell": 12529,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [25, 0, 0, 214, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] Common robes that have seen widespread usage.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "3a226a2f-6a3b-430c-917c-7bd7750e4612",
+                    "name": "Cotton Robe",
+                    "price": 220,
+                    "sell": 132,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [3, 0, 0, 39, 2, 3, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] High-quality mantle made with fine silk.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "723f345a-03d4-43b2-a878-45a21096c8db",
+                    "name": "Silk Mantle",
+                    "price": 568,
+                    "sell": 340,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [6, 0, 0, 63, 4, 6, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] Robes imbued with runic symbols.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "34068cc2-692d-41bc-9704-720850dace54",
+                    "name": "Sorcerer's Robe",
+                    "price": 1330,
+                    "sell": 798,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [9, 0, 0, 87, 7, 11, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] Robes latent with the power of the elves.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "c323bc83-cb43-4830-b0a1-aaac9b9af139",
+                    "name": "Elven Robe",
+                    "price": 3349,
+                    "sell": 2009,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [13, 0, 0, 119, 14, 21, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] The ultimate robes, latent with the power of the king of spirits.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "2b42c6f0-2bbe-4a71-9e6c-11e6e7044d80",
+                    "name": "Elemental Mantle",
+                    "price": 11029,
+                    "sell": 6617,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [20, 0, 0, 175, 20, 25, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] Robes that imbue the wearer with a sage's magic potential.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "595072f7-7b2c-4e83-9cbf-c58bde1bc2a1",
+                    "name": "Sage's Robe",
+                    "price": 35606,
+                    "sell": 21363,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [30, 0, 0, 254, 19, 50, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "0",
+                    "canSell": 1,
+                    "description": "",
+                    "equipmentTypeId": "0",
+                    "iconId": "IconSet_000",
+                    "id": "3f63c270-459e-4ae3-ad43-d7fe3a4dc8b1",
+                    "name": "-----Shields",
+                    "price": 0,
+                    "sell": 0,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                "traits": []
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A small shield built to deflect attacks.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "595e24d8-1455-491b-8704-13c237dc9ee1",
+                    "name": "Buckler",
+                    "price": 90,
+                    "sell": 54,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [1, 0, 0, 18, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A wooden round shield reinforced within a steel frame.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "80b85fbf-1e94-4537-8e58-7d312d2f3257",
+                    "name": "Round Buckler",
+                    "price": 124,
+                    "sell": 74,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [2, 0, 0, 24, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A round shield with spikes, oriented for offense.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "4125a288-cf4e-4c2d-bb0d-68912ea93e6b",
+                    "name": "Spiked Buckler",
+                    "price": 337,
+                    "sell": 202,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [5, 0, 0, 42, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A small shield forged of mythril.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "3fd0b16b-8049-449e-abc6-223ae7691e12",
+                    "name": "Mythril Buckler",
+                    "price": 858,
+                    "sell": 514,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [8, 0, 0, 60, 0, 5, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A small shield commonly used by elves.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "5c343759-1bc2-459c-928c-9b1cdb9eec72",
+                    "name": "Elven Buckler",
+                    "price": 4349,
+                    "sell": 2609,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [15, 0, 0, 103, 0, 6, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A small shield often found in desert regions.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "d409dbe4-e125-4edc-85ee-32e2a9c7fcc3",
+                    "name": "Desert Buckler",
+                    "price": 9784,
+                    "sell": 5870,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [20, 0, 0, 133, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    },
+                    {
+                        "categoryId": 1,
+                        "effectId": 3,
+                        "traitsId": 1,
+                        "value": 100
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594",
+                    "canSell": 0,
+                    "description": "[Large Shield] A large wooden shield reinforced with leather.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_128",
+                    "id": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b",
+                    "name": "Leather Shield",
+                    "price": 241,
+                    "sell": 144,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [4, 0, 0, 36, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594",
+                    "canSell": 0,
+                    "description": "[Large Shield] A rather ordinary large wooden shield.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_128",
+                    "id": "22f5f3b0-c9cd-44b4-9dac-e96244a0feb0",
+                    "name": "Wooden Shield",
+                    "price": 467,
+                    "sell": 280,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [6, 0, 0, 48, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "examples": [
+        [
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "0",
+                    "canSell": 1,
+                    "description": "",
+                    "equipmentTypeId": "0",
+                    "iconId": "IconSet_000",
+                    "id": "51ec1c98-b2b3-49bc-b488-fc945381eaa0",
+                    "name": "-----Armor",
+                    "price": 0,
+                    "sell": 0,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                "traits": []
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "1",
+                    "canSell": 0,
+                    "description": "[Common] Clothes made with highly breathable fabric.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "2f1bced4-122a-4ee2-98fa-bd80f381036d",
+                    "name": "Linen Clothing",
+                    "price": 115,
+                    "sell": 69,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [1, 0, 0, 23, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A vest crafted out of animal hide.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "261f4871-4cf2-4aeb-94cb-87821c1534f8",
+                    "name": "Leather Vest",
+                    "price": 220,
+                    "sell": 132,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [3, 0, 0, 39, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A sturdy wood breastplate.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "b09a6148-8286-468f-9759-144ab3a1f5bf",
+                    "name": "Wooden Breastplate",
+                    "price": 416,
+                    "sell": 249,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [5, 0, 0, 55, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A breastplate forged with bronze.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "578b8d80-aefe-490d-87a0-e32a2eb1b17b",
+                    "name": "Bronze Breastplate",
+                    "price": 765,
+                    "sell": 459,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [7, 0, 0, 71, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A breastplate forged with iron.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "3d759957-683a-4d6e-921a-e850d11051db",
+                    "name": "Iron Breastplate",
+                    "price": 1330,
+                    "sell": 798,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [9, 0, 0, 87, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A breastplate forged with mythril.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "1b11bfb1-d133-401d-aad5-30900311937b",
+                    "name": "Mythril Breastplate",
+                    "price": 2170,
+                    "sell": 1302,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [11, 0, 0, 103, 0, 15, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] A breastplate forged of numerous different ores.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "09d1d8c8-6451-4cb5-8309-6b00e8457d47",
+                    "name": "Composite Breastplate",
+                    "price": 4928,
+                    "sell": 2956,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [15, 0, 0, 135, 0, 6, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+                    "canSell": 0,
+                    "description": "[Light] Clothes commonly found in desert regions.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_135",
+                    "id": "1e25ae15-8f1d-442c-8e47-3d2953acf0ac",
+                    "name": "Desert Vest",
+                    "price": 11029,
+                    "sell": 6617,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [20, 0, 0, 175, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    },
+                    {
+                        "categoryId": 1,
+                        "effectId": 3,
+                        "traitsId": 1,
+                        "value": 100
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor crafted out of leather.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "ffd9dd7d-00ed-4835-9545-3cc098401895",
+                    "name": "Leather Armor",
+                    "price": 159,
+                    "sell": 95,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [2, 0, 0, 31, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor made with solid wood.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "b4480c83-89c8-4ec9-83b9-08ce9110e89b",
+                    "name": "Wooden Armor",
+                    "price": 302,
+                    "sell": 181,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [4, 0, 0, 47, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor made of bronze.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "72d1aaf3-936c-4fa1-a999-ef9baafeb72e",
+                    "name": "Bronze Armor",
+                    "price": 568,
+                    "sell": 340,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [6, 0, 0, 63, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor forged from iron.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "3db2b2a4-2ceb-4df3-a741-d2c428fd143f",
+                    "name": "Iron Armor",
+                    "price": 1711,
+                    "sell": 1026,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [10, 0, 0, 95, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor forged of mythril.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "ba466465-90da-42d5-95e7-bf766067aa75",
+                    "name": "Mythril Armor",
+                    "price": 4928,
+                    "sell": 2956,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [15, 0, 0, 135, 0, 15, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] Armor forged of numerous different ores.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "c41ca327-2b11-4c26-9035-0768badb4fb4",
+                    "name": "Composite Armor",
+                    "price": 11029,
+                    "sell": 6617,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [20, 0, 0, 175, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "ef649a06-d430-49b8-a81d-6c73d26afb02",
+                    "canSell": 0,
+                    "description": "[Heavy] A full suit of armor forged of steel.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_137",
+                    "id": "8687971c-cb37-457e-a028-4cb2daf0e315",
+                    "name": "Plate Armor",
+                    "price": 20883,
+                    "sell": 12529,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [25, 0, 0, 214, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] Common robes that have seen widespread usage.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "3a226a2f-6a3b-430c-917c-7bd7750e4612",
+                    "name": "Cotton Robe",
+                    "price": 220,
+                    "sell": 132,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [3, 0, 0, 39, 2, 3, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] High-quality mantle made with fine silk.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "723f345a-03d4-43b2-a878-45a21096c8db",
+                    "name": "Silk Mantle",
+                    "price": 568,
+                    "sell": 340,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [6, 0, 0, 63, 4, 6, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] Robes imbued with runic symbols.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "34068cc2-692d-41bc-9704-720850dace54",
+                    "name": "Sorcerer's Robe",
+                    "price": 1330,
+                    "sell": 798,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [9, 0, 0, 87, 7, 11, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] Robes latent with the power of the elves.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "c323bc83-cb43-4830-b0a1-aaac9b9af139",
+                    "name": "Elven Robe",
+                    "price": 3349,
+                    "sell": 2009,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [13, 0, 0, 119, 14, 21, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] The ultimate robes, latent with the power of the king of spirits.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "2b42c6f0-2bbe-4a71-9e6c-11e6e7044d80",
+                    "name": "Elemental Mantle",
+                    "price": 11029,
+                    "sell": 6617,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [20, 0, 0, 175, 20, 25, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "b4bcd669-5923-47e4-aef2-791a6256ce89",
+                    "canSell": 0,
+                    "description": "[Magic] Robes that imbue the wearer with a sage's magic potential.",
+                    "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    "iconId": "IconSet_139",
+                    "id": "595072f7-7b2c-4e83-9cbf-c58bde1bc2a1",
+                    "name": "Sage's Robe",
+                    "price": 35606,
+                    "sell": 21363,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [30, 0, 0, 254, 19, 50, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "0",
+                    "canSell": 1,
+                    "description": "",
+                    "equipmentTypeId": "0",
+                    "iconId": "IconSet_000",
+                    "id": "3f63c270-459e-4ae3-ad43-d7fe3a4dc8b1",
+                    "name": "-----Shields",
+                    "price": 0,
+                    "sell": 0,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                "traits": []
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A small shield built to deflect attacks.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "595e24d8-1455-491b-8704-13c237dc9ee1",
+                    "name": "Buckler",
+                    "price": 90,
+                    "sell": 54,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [1, 0, 0, 18, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A wooden round shield reinforced within a steel frame.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "80b85fbf-1e94-4537-8e58-7d312d2f3257",
+                    "name": "Round Buckler",
+                    "price": 124,
+                    "sell": 74,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [2, 0, 0, 24, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A round shield with spikes, oriented for offense.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "4125a288-cf4e-4c2d-bb0d-68912ea93e6b",
+                    "name": "Spiked Buckler",
+                    "price": 337,
+                    "sell": 202,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [5, 0, 0, 42, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A small shield forged of mythril.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "3fd0b16b-8049-449e-abc6-223ae7691e12",
+                    "name": "Mythril Buckler",
+                    "price": 858,
+                    "sell": 514,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [8, 0, 0, 60, 0, 5, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A small shield commonly used by elves.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "5c343759-1bc2-459c-928c-9b1cdb9eec72",
+                    "name": "Elven Buckler",
+                    "price": 4349,
+                    "sell": 2609,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [15, 0, 0, 103, 0, 6, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+                    "canSell": 0,
+                    "description": "[Small Shield] A small shield often found in desert regions.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_129",
+                    "id": "d409dbe4-e125-4edc-85ee-32e2a9c7fcc3",
+                    "name": "Desert Buckler",
+                    "price": 9784,
+                    "sell": 5870,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [20, 0, 0, 133, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    },
+                    {
+                        "categoryId": 1,
+                        "effectId": 3,
+                        "traitsId": 1,
+                        "value": 100
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594",
+                    "canSell": 0,
+                    "description": "[Large Shield] A large wooden shield reinforced with leather.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_128",
+                    "id": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b",
+                    "name": "Leather Shield",
+                    "price": 241,
+                    "sell": 144,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [4, 0, 0, 36, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            },
+            {
+                "basic": {
+                    "animationId": "",
+                    "armorTypeId": "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594",
+                    "canSell": 0,
+                    "description": "[Large Shield] A rather ordinary large wooden shield.",
+                    "equipmentTypeId": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    "iconId": "IconSet_128",
+                    "id": "22f5f3b0-c9cd-44b4-9dac-e96244a0feb0",
+                    "name": "Wooden Shield",
+                    "price": 467,
+                    "sell": 280,
+                    "switchItem": 0
+                },
+                "memo": "",
+                "parameters": [6, 0, 0, 48, 0, 0, 0, 0, 0],
+                "traits": [
+                    {
+                        "categoryId": 2,
+                        "effectId": 1,
+                        "traitsId": 2,
+                        "value": 0
+                    }
+                ]
+            }
+        ]
+    ]
+}
