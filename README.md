@@ -7,14 +7,15 @@ RPG Maker UNITE の練習
 
 ## RMU v1.0.0 実装調査
 
+* 📁 [JSON Schema](./data/json-schema/)
 * 📁 [処理時間計測データ](./data/stopwatch)
 * 📄 [プロジェクトの依存関係](./docs/research/project-dependencies.md)
   * 📄 [インポートされるファイル一覧](./docs/research/import-files.md)
 * 📄 [構成要素](./docs/research/components.md)
 * 📄 [非同期処理](./docs/research/asynchronous-processing.md)
 * 📄 [一連の Effekseer プロジェクト](./docs/research/effekseer.md)
-* JSON 調べ
-  * 📄 [ツール](./docs/research/json-schema.md)
+* ツール調べ
+  * 📄 [JSON Schema](./docs/research/json-schema.md)
 
 ## Unity と、それ以外のプログラミングの違いでつまづくとこ
 
