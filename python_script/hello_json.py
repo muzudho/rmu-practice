@@ -41,69 +41,72 @@ def main():
         # print(f"dump={json_str}")
 
         # 解析
-        parse_member(document, "")
+        root_buffer = {}
+        indent = ""
+        for key, value in document.items():
+            """パースの容易性から、 OrderedMap を想定したアルゴリズムにする
+            """
+            if key == "$schema":
+                print(f"{indent}$schema: {value}")
+
+            elif key == "$id":
+                print(f"{indent}$id: {value}")
+
+            else:
+                parse_key_value_pair(key, value, indent, root_buffer)
 
 
-def parse_member(node, indent):
-    """パースの容易性から、 OrderedMap を想定したアルゴリズムにする
-    """
+def parse_key_value_pair(key, value, indent, buffer):
+    # print(f"{indent}解析 key: {key}, value: {value}")
 
-    # print(f"{indent}解析 type(node): {type(node)}")
-    # print(f"{indent}解析 len(node): {len(node)}")
+    if key == "type":
+        buffer["type"] = value
 
-    num = 1
+    elif key == "default":
+        buffer["default"] = value
 
-    for key, value in node.items():
-        # print(f"{indent}({num})解析 key: {key}, value: {value}")
+    elif key == "title":
+        buffer["title"] = value
 
-        if key == "$schema":
-            print(f"{indent}$schema: {value}")
+    elif key == "items":
+        if buffer["type"] == "array":
+            # 配列のメンバー
+            print(f"{indent}array title: {buffer['title']}, default: {buffer['default']}")
+            # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
 
-        elif key == "$id":
-            print(f"{indent}$id: {value}")
-
-        elif key == "type":
-            buffer_type = value
-
-        elif key == "default":
-            buffer_default = value
-
-        elif key == "title":
-            buffer_title = value
-
-        elif key == "items":
-            if buffer_type == "array":
-                # 配列のメンバー
-                # print(f"{indent}array items title: {buffer_title}, default: {buffer_default}, type(value): {type(value)}")
-
-                if isinstance(value, dict):
-                    # print(f"{indent}解析開始 辞書 key: {key}, value: {value}, type(value): {type(value)}")
-                    parse_array_items_member(value, f"{indent}    ")
-                    # print(f"{indent}解析終了")
-                else:
-                    print(f"{indent}■key: [{key}], value: {value}")
-                    print(f"{indent} type(value): {type(value)}")
-
+            if isinstance(value, dict):
+                # print(f"{indent}解析開始 辞書 key: {key}, value: {value}, type(value): {type(value)}")
+                parse_array_items_member(value, f"{indent}    ", buffer)
+                # print(f"{indent}解析終了")
             else:
                 print(f"{indent}■key: [{key}], value: {value}")
                 print(f"{indent} type(value): {type(value)}")
 
-        elif key == "examples":
-            print(f"{indent}examples:")
+        else:
+            print(f"{indent}■key: [{key}], value: {value}")
             print(f"{indent} type(value): {type(value)}")
 
-            if isinstance(value, dict):
-                parse_member(value, f"{indent}    ")
+    elif key == "examples":
+        print(f"{indent}examples:")
+        print(f"{indent} type(value): {type(value)}")
 
-        else:
-            print(f"{indent}■key: {key}, type(value): {type(value)}")
+        if isinstance(value, dict):
+            child_indent = f"{indent}    "
+            child_buffer = {}
+            for child_key, child_value in value.items():
+                parse_key_value_pair(child_key, child_value, indent, child_buffer)
 
-            if isinstance(value, dict):
-                parse_member(value, f"{indent}    ")
+    else:
+        print(f"{indent}■key: {key}, type(value): {type(value)}")
 
-        num = num + 1
+        if isinstance(value, dict):
+            child_indent = f"{indent}    "
+            child_buffer = {}
+            for child_key, child_value in value.items():
+                parse_key_value_pair(child_key, child_value, child_indent, child_buffer)
 
-def parse_array_items_member(node, indent):
+
+def parse_array_items_member(node, indent, buffer):
     for key, value in node.items():
         # print(f"{indent}■[array-items]key: [{key}], type(value): {type(value)}")
 
