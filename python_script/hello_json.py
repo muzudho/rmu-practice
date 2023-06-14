@@ -149,8 +149,8 @@ def parse_array_items_member(node, indent, buffer, parent_key):
         elif key == "items":
             if buffer["type"] == "array":
                 # 配列のメンバー
-                result_text += f"{indent}* 😁 `{parent_key}` array - default: {buffer['default']}"
-                result_text += f"{indent}    * default - ```{buffer['default']}```"
+                result_text += f"{indent}* 😁 `{parent_key}` array - default: {buffer['default']}\n"
+                result_text += f"{indent}    * default - ```{buffer['default']}```\n"
 
                 if isinstance(value, dict):
                     child_indent = f"{indent}    "
