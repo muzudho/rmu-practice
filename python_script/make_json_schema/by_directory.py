@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import os
 from by_file import do_it as do_it_by_file
 
@@ -55,13 +55,17 @@ def do_it(directory_to_read, directory_to_save):
 
     for file_entry in file_entry_in_dir:
         if file_entry.endswith(".json"):
-            file_to_read = os.path.join(directory_to_read, file_entry)
-            file_to_save = os.path.join(directory_to_save, file_entry)
 
-#             print(f"""
-# file_to_read: {file_to_read}
-# file_to_save: {file_to_save}
-# """)
+            # 拡張子抜きのファイル名を取得
+            basename_without_extension = os.path.splitext(os.path.basename(file_entry))[0]
+
+            file_to_read = os.path.join(directory_to_read, f"{basename_without_extension}.json")
+            file_to_save = os.path.join(directory_to_save, f"{basename_without_extension}.md")
+
+            print(f"""
+file_to_read: {file_to_read}
+file_to_save: {file_to_save}
+""")
             do_it_by_file(
                 file_to_read,
                 file_to_save)

@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import json
 import os
 
@@ -47,7 +47,7 @@ def do_it(file_to_read, file_to_save):
     # 📖 [【Python入門】JSON形式データの扱い方](https://qiita.com/Morio/items/7538a939cc441367070d)
     # 📖 [Pythonでファイルの読み込み、書き込み（作成・追記）](https://note.nkmk.me/python-file-io-open-with/)
     #
-    with open(file_to_read) as f:
+    with open(file_to_read, encoding="UTF-8") as f:
         print(f"Read text file to {file_to_read}")
         # text = f.read()
         # print(text)
@@ -88,7 +88,7 @@ def do_it(file_to_read, file_to_save):
     # desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') 
     # file_to_save = f'{desktop}/json-parsed.md'
     #
-    with open(file_to_save, 'w', encoding='utf-8') as f:
+    with open(file_to_save, 'w', encoding='UTF-8') as f:
         print(f"Write text file to {file_to_save}")
         f.write(result_text)
 
