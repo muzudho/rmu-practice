@@ -33,14 +33,7 @@
                             "title": "A Schema",
                             "examples": ["U_Theme_02.wav", "90", "100", "0", "60", "1", "2", "", "-1", "And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!"]
                         },
-                        "examples": [
-                            ["U_Theme_02.wav", "90", "100", "0"],
-                            ["0", "0", "0", "0", "60", "1", "0"],
-                            ["0", "0", "0", "1", "1", "2", "", "", "", "1", "1", "0", "0", "-1", "", "", "", "", ""],
-                            ["And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!", "0"],
-                            [],
-                            []
-                        ]
+                        "examples": [["U_Theme_02.wav", "90", "100", "0"], ["0", "0", "0", "1", "1", "2", "", "", "", "1", "1", "0", "0", "-1", "", "", "", "", ""], ["And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!", "0"], []]
                     },
                     "route": {
                         "type": "array",
@@ -57,12 +50,6 @@
                         "route": []
                     },
                     {
-                        "code": 223,
-                        "indent": 0,
-                        "parameters": ["0", "0", "0", "0", "60", "1", "0"],
-                        "route": []
-                    },
-                    {
                         "code": 101,
                         "indent": 0,
                         "parameters": ["0", "0", "0", "1", "1", "2", "", "", "", "1", "1", "0", "0", "-1", "", "", "", "", ""],
@@ -72,12 +59,6 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": ["And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!", "0"],
-                        "route": []
-                    },
-                    {
-                        "code": 354,
-                        "indent": 0,
-                        "parameters": [],
                         "route": []
                     },
                     {
@@ -97,12 +78,6 @@
                         "route": []
                     },
                     {
-                        "code": 223,
-                        "indent": 0,
-                        "parameters": ["0", "0", "0", "0", "60", "1", "0"],
-                        "route": []
-                    },
-                    {
                         "code": 101,
                         "indent": 0,
                         "parameters": ["0", "0", "0", "1", "1", "2", "", "", "", "1", "1", "0", "0", "-1", "", "", "", "", ""],
@@ -112,12 +87,6 @@
                         "code": 401,
                         "indent": 1,
                         "parameters": ["And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!", "0"],
-                        "route": []
-                    },
-                    {
-                        "code": 354,
-                        "indent": 0,
-                        "parameters": [],
                         "route": []
                     },
                     {
@@ -158,12 +127,6 @@
                     "route": []
                 },
                 {
-                    "code": 223,
-                    "indent": 0,
-                    "parameters": ["0", "0", "0", "0", "60", "1", "0"],
-                    "route": []
-                },
-                {
                     "code": 101,
                     "indent": 0,
                     "parameters": ["0", "0", "0", "1", "1", "2", "", "", "", "1", "1", "0", "0", "-1", "", "", "", "", ""],
@@ -173,12 +136,6 @@
                     "code": 401,
                     "indent": 1,
                     "parameters": ["And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!", "0"],
-                    "route": []
-                },
-                {
-                    "code": 354,
-                    "indent": 0,
-                    "parameters": [],
                     "route": []
                 },
                 {

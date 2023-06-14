@@ -20,20 +20,6 @@
     >                "route": []
     >            },
     >            {
-    >                "code": 223,
-    >                "indent": 0,
-    >                "parameters": [
-    >                    "0",
-    >                    "0",
-    >                    "0",
-    >                    "0",
-    >                    "60",
-    >                    "1",
-    >                    "0"
-    >                ],
-    >                "route": []
-    >            },
-    >            {
     >                "code": 101,
     >                "indent": 0,
     >                "parameters": [
@@ -66,12 +52,6 @@
     >                    "And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!",
     >                    "0"
     >                ],
-    >                "route": []
-    >            },
-    >            {
-    >                "code": 354,
-    >                "indent": 0,
-    >                "parameters": [],
     >                "route": []
     >            },
     >            {

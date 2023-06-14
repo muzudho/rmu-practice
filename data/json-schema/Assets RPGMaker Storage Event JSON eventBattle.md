@@ -12,8 +12,7 @@
             >    "1",
             >    "c48b217c-a7b8-4798-b922-c63532b31266",
             >    "b4a4ea3d-aa44-4f6b-9139-ea31e26cf6ca",
-            >    "09a1fa41-de7b-4292-ae46-b995e03fa39a",
-            >    "b6779c09-13d2-43bb-b40d-3e600cefcbb7"
+            >    "09a1fa41-de7b-4292-ae46-b995e03fa39a"
             >]
             >```
     * 😁 `pages` property
@@ -51,46 +50,6 @@
                         >[
                         >    {
                         >        "actorId": "",
-                        >        "enabled": 0,
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                        >        "enabled": 0,
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                        >        "enabled": 0,
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                        >        "enabled": 0,
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                        >        "enabled": 0,
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                        >        "enabled": 0,
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                        >        "enabled": 0,
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                        >        "enabled": 0,
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
                         >        "enabled": 0,
                         >        "value": 0
                         >    },
@@ -142,46 +101,6 @@
                         >    {
                         >        "enabled": 0,
                         >        "enemyId": "",
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "enemyId": "0",
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "enabled": 1,
-                        >        "enemyId": "0",
-                        >        "value": 40
-                        >    },
-                        >    {
-                        >        "enabled": 1,
-                        >        "enemyId": "0",
-                        >        "value": 1
-                        >    },
-                        >    {
-                        >        "enabled": 1,
-                        >        "enemyId": "0",
-                        >        "value": 50
-                        >    },
-                        >    {
-                        >        "enabled": 1,
-                        >        "enemyId": "0",
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "enabled": 1,
-                        >        "enemyId": "2",
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "enemyId": "0",
-                        >        "value": 0
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "enemyId": "0",
                         >        "value": 0
                         >    },
                         >    {
@@ -241,38 +160,6 @@
                         >    {
                         >        "enabled": 0,
                         >        "switchId": ""
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "switchId": ""
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "switchId": ""
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "switchId": ""
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "switchId": ""
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "switchId": ""
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "switchId": ""
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "switchId": ""
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "switchId": ""
                         >    }
                         >]
                         >```
@@ -305,46 +192,6 @@
                         >[
                         >    {
                         >        "enabled": 0,
-                        >        "end": 0,
-                        >        "start": 0
-                        >    },
-                        >    {
-                        >        "enabled": 1,
-                        >        "end": 0,
-                        >        "start": 0
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "end": 0,
-                        >        "start": 0
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "end": 0,
-                        >        "start": 0
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "end": 0,
-                        >        "start": 0
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "end": 0,
-                        >        "start": 0
-                        >    },
-                        >    {
-                        >        "enabled": 0,
-                        >        "end": 0,
-                        >        "start": 0
-                        >    },
-                        >    {
-                        >        "enabled": 1,
-                        >        "end": 0,
-                        >        "start": 0
-                        >    },
-                        >    {
-                        >        "enabled": 1,
                         >        "end": 0,
                         >        "start": 0
                         >    },
@@ -426,198 +273,6 @@
                     >        },
                     >        "enemyHp": {
                     >            "enabled": 1,
-                    >            "enemyId": "0",
-                    >            "value": 40
-                    >        },
-                    >        "run": 0,
-                    >        "span": 0,
-                    >        "switchData": {
-                    >            "enabled": 0,
-                    >            "switchId": ""
-                    >        },
-                    >        "turn": {
-                    >            "enabled": 0,
-                    >            "end": 0,
-                    >            "start": 0
-                    >        },
-                    >        "turnEnd": 0
-                    >    },
-                    >    {
-                    >        "actorHp": {
-                    >            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                    >            "enabled": 0,
-                    >            "value": 0
-                    >        },
-                    >        "enemyHp": {
-                    >            "enabled": 1,
-                    >            "enemyId": "0",
-                    >            "value": 1
-                    >        },
-                    >        "run": 0,
-                    >        "span": 0,
-                    >        "switchData": {
-                    >            "enabled": 0,
-                    >            "switchId": ""
-                    >        },
-                    >        "turn": {
-                    >            "enabled": 0,
-                    >            "end": 0,
-                    >            "start": 0
-                    >        },
-                    >        "turnEnd": 0
-                    >    },
-                    >    {
-                    >        "actorHp": {
-                    >            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                    >            "enabled": 0,
-                    >            "value": 0
-                    >        },
-                    >        "enemyHp": {
-                    >            "enabled": 1,
-                    >            "enemyId": "0",
-                    >            "value": 50
-                    >        },
-                    >        "run": 0,
-                    >        "span": 0,
-                    >        "switchData": {
-                    >            "enabled": 0,
-                    >            "switchId": ""
-                    >        },
-                    >        "turn": {
-                    >            "enabled": 0,
-                    >            "end": 0,
-                    >            "start": 0
-                    >        },
-                    >        "turnEnd": 0
-                    >    },
-                    >    {
-                    >        "actorHp": {
-                    >            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                    >            "enabled": 0,
-                    >            "value": 0
-                    >        },
-                    >        "enemyHp": {
-                    >            "enabled": 1,
-                    >            "enemyId": "0",
-                    >            "value": 0
-                    >        },
-                    >        "run": 0,
-                    >        "span": 0,
-                    >        "switchData": {
-                    >            "enabled": 0,
-                    >            "switchId": ""
-                    >        },
-                    >        "turn": {
-                    >            "enabled": 0,
-                    >            "end": 0,
-                    >            "start": 0
-                    >        },
-                    >        "turnEnd": 0
-                    >    },
-                    >    {
-                    >        "actorHp": {
-                    >            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                    >            "enabled": 0,
-                    >            "value": 0
-                    >        },
-                    >        "enemyHp": {
-                    >            "enabled": 1,
-                    >            "enemyId": "2",
-                    >            "value": 0
-                    >        },
-                    >        "run": 0,
-                    >        "span": 0,
-                    >        "switchData": {
-                    >            "enabled": 0,
-                    >            "switchId": ""
-                    >        },
-                    >        "turn": {
-                    >            "enabled": 0,
-                    >            "end": 0,
-                    >            "start": 0
-                    >        },
-                    >        "turnEnd": 0
-                    >    },
-                    >    {
-                    >        "actorHp": {
-                    >            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                    >            "enabled": 0,
-                    >            "value": 0
-                    >        },
-                    >        "enemyHp": {
-                    >            "enabled": 0,
-                    >            "enemyId": "0",
-                    >            "value": 0
-                    >        },
-                    >        "run": 0,
-                    >        "span": 0,
-                    >        "switchData": {
-                    >            "enabled": 0,
-                    >            "switchId": ""
-                    >        },
-                    >        "turn": {
-                    >            "enabled": 1,
-                    >            "end": 0,
-                    >            "start": 0
-                    >        },
-                    >        "turnEnd": 0
-                    >    },
-                    >    {
-                    >        "actorHp": {
-                    >            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                    >            "enabled": 0,
-                    >            "value": 0
-                    >        },
-                    >        "enemyHp": {
-                    >            "enabled": 0,
-                    >            "enemyId": "0",
-                    >            "value": 0
-                    >        },
-                    >        "run": 0,
-                    >        "span": 0,
-                    >        "switchData": {
-                    >            "enabled": 0,
-                    >            "switchId": ""
-                    >        },
-                    >        "turn": {
-                    >            "enabled": 1,
-                    >            "end": 0,
-                    >            "start": 0
-                    >        },
-                    >        "turnEnd": 0
-                    >    },
-                    >    {
-                    >        "actorHp": {
-                    >            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                    >            "enabled": 0,
-                    >            "value": 0
-                    >        },
-                    >        "enemyHp": {
-                    >            "enabled": 1,
-                    >            "enemyId": "1",
-                    >            "value": 40
-                    >        },
-                    >        "run": 0,
-                    >        "span": 0,
-                    >        "switchData": {
-                    >            "enabled": 0,
-                    >            "switchId": ""
-                    >        },
-                    >        "turn": {
-                    >            "enabled": 0,
-                    >            "end": 0,
-                    >            "start": 0
-                    >        },
-                    >        "turnEnd": 0
-                    >    },
-                    >    {
-                    >        "actorHp": {
-                    >            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                    >            "enabled": 0,
-                    >            "value": 0
-                    >        },
-                    >        "enemyHp": {
-                    >            "enabled": 1,
                     >            "enemyId": "1",
                     >            "value": 1
                     >        },
@@ -642,14 +297,6 @@
                     >[
                     >    "",
                     >    "30755d54-fad7-4c8f-9c53-f816aac58c1b",
-                    >    "66920d90-4e0a-4ca4-a133-9dd8367c4a0a",
-                    >    "f0d78d19-5662-47bf-9bb4-aee961c8e65a",
-                    >    "9ca94411-2ae2-43b3-8dde-7f953c6778d7",
-                    >    "6224abba-fbd0-4a95-b945-bed39e575f5f",
-                    >    "3af63586-1cf7-4119-8a30-20f4a601c8a8",
-                    >    "fd427c16-f8fa-4b33-af9e-89236a04261d",
-                    >    "1e7caf3d-019a-4cd9-9668-ee211681532d",
-                    >    "9209dfdc-7602-4cca-a0ab-7e3f3d7b0bde",
                     >    "8c968a5c-6367-4a26-b28a-28a19a75e1c0"
                     >]
                     >```
@@ -689,230 +336,6 @@
                 >            "turnEnd": 0
                 >        },
                 >        "eventId": "",
-                >        "page": 0
-                >    },
-                >    {
-                >        "condition": {
-                >            "actorHp": {
-                >                "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                >                "enabled": 0,
-                >                "value": 0
-                >            },
-                >            "enemyHp": {
-                >                "enabled": 0,
-                >                "enemyId": "0",
-                >                "value": 0
-                >            },
-                >            "run": 0,
-                >            "span": 0,
-                >            "switchData": {
-                >                "enabled": 0,
-                >                "switchId": ""
-                >            },
-                >            "turn": {
-                >                "enabled": 1,
-                >                "end": 0,
-                >                "start": 0
-                >            },
-                >            "turnEnd": 0
-                >        },
-                >        "eventId": "30755d54-fad7-4c8f-9c53-f816aac58c1b",
-                >        "page": 0
-                >    },
-                >    {
-                >        "condition": {
-                >            "actorHp": {
-                >                "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                >                "enabled": 0,
-                >                "value": 0
-                >            },
-                >            "enemyHp": {
-                >                "enabled": 1,
-                >                "enemyId": "0",
-                >                "value": 40
-                >            },
-                >            "run": 0,
-                >            "span": 0,
-                >            "switchData": {
-                >                "enabled": 0,
-                >                "switchId": ""
-                >            },
-                >            "turn": {
-                >                "enabled": 0,
-                >                "end": 0,
-                >                "start": 0
-                >            },
-                >            "turnEnd": 0
-                >        },
-                >        "eventId": "66920d90-4e0a-4ca4-a133-9dd8367c4a0a",
-                >        "page": 0
-                >    },
-                >    {
-                >        "condition": {
-                >            "actorHp": {
-                >                "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                >                "enabled": 0,
-                >                "value": 0
-                >            },
-                >            "enemyHp": {
-                >                "enabled": 1,
-                >                "enemyId": "0",
-                >                "value": 1
-                >            },
-                >            "run": 0,
-                >            "span": 0,
-                >            "switchData": {
-                >                "enabled": 0,
-                >                "switchId": ""
-                >            },
-                >            "turn": {
-                >                "enabled": 0,
-                >                "end": 0,
-                >                "start": 0
-                >            },
-                >            "turnEnd": 0
-                >        },
-                >        "eventId": "f0d78d19-5662-47bf-9bb4-aee961c8e65a",
-                >        "page": 0
-                >    },
-                >    {
-                >        "condition": {
-                >            "actorHp": {
-                >                "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                >                "enabled": 0,
-                >                "value": 0
-                >            },
-                >            "enemyHp": {
-                >                "enabled": 1,
-                >                "enemyId": "0",
-                >                "value": 50
-                >            },
-                >            "run": 0,
-                >            "span": 0,
-                >            "switchData": {
-                >                "enabled": 0,
-                >                "switchId": ""
-                >            },
-                >            "turn": {
-                >                "enabled": 0,
-                >                "end": 0,
-                >                "start": 0
-                >            },
-                >            "turnEnd": 0
-                >        },
-                >        "eventId": "9ca94411-2ae2-43b3-8dde-7f953c6778d7",
-                >        "page": 0
-                >    },
-                >    {
-                >        "condition": {
-                >            "actorHp": {
-                >                "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                >                "enabled": 0,
-                >                "value": 0
-                >            },
-                >            "enemyHp": {
-                >                "enabled": 1,
-                >                "enemyId": "0",
-                >                "value": 0
-                >            },
-                >            "run": 0,
-                >            "span": 0,
-                >            "switchData": {
-                >                "enabled": 0,
-                >                "switchId": ""
-                >            },
-                >            "turn": {
-                >                "enabled": 0,
-                >                "end": 0,
-                >                "start": 0
-                >            },
-                >            "turnEnd": 0
-                >        },
-                >        "eventId": "6224abba-fbd0-4a95-b945-bed39e575f5f",
-                >        "page": 0
-                >    },
-                >    {
-                >        "condition": {
-                >            "actorHp": {
-                >                "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                >                "enabled": 0,
-                >                "value": 0
-                >            },
-                >            "enemyHp": {
-                >                "enabled": 1,
-                >                "enemyId": "2",
-                >                "value": 0
-                >            },
-                >            "run": 0,
-                >            "span": 0,
-                >            "switchData": {
-                >                "enabled": 0,
-                >                "switchId": ""
-                >            },
-                >            "turn": {
-                >                "enabled": 0,
-                >                "end": 0,
-                >                "start": 0
-                >            },
-                >            "turnEnd": 0
-                >        },
-                >        "eventId": "3af63586-1cf7-4119-8a30-20f4a601c8a8",
-                >        "page": 0
-                >    },
-                >    {
-                >        "condition": {
-                >            "actorHp": {
-                >                "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                >                "enabled": 0,
-                >                "value": 0
-                >            },
-                >            "enemyHp": {
-                >                "enabled": 0,
-                >                "enemyId": "0",
-                >                "value": 0
-                >            },
-                >            "run": 0,
-                >            "span": 0,
-                >            "switchData": {
-                >                "enabled": 0,
-                >                "switchId": ""
-                >            },
-                >            "turn": {
-                >                "enabled": 1,
-                >                "end": 0,
-                >                "start": 0
-                >            },
-                >            "turnEnd": 0
-                >        },
-                >        "eventId": "fd427c16-f8fa-4b33-af9e-89236a04261d",
-                >        "page": 0
-                >    },
-                >    {
-                >        "condition": {
-                >            "actorHp": {
-                >                "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-                >                "enabled": 0,
-                >                "value": 0
-                >            },
-                >            "enemyHp": {
-                >                "enabled": 0,
-                >                "enemyId": "0",
-                >                "value": 0
-                >            },
-                >            "run": 0,
-                >            "span": 0,
-                >            "switchData": {
-                >                "enabled": 0,
-                >                "switchId": ""
-                >            },
-                >            "turn": {
-                >                "enabled": 1,
-                >                "end": 0,
-                >                "start": 0
-                >            },
-                >            "turnEnd": 0
-                >        },
-                >        "eventId": "1e7caf3d-019a-4cd9-9668-ee211681532d",
                 >        "page": 0
                 >    },
                 >    {
@@ -976,36 +399,6 @@
         * examples:
             >```
             >[
-            >    [
-            >        {
-            >            "condition": {
-            >                "actorHp": {
-            >                    "actorId": "",
-            >                    "enabled": 0,
-            >                    "value": 0
-            >                },
-            >                "enemyHp": {
-            >                    "enabled": 0,
-            >                    "enemyId": "",
-            >                    "value": 0
-            >                },
-            >                "run": 0,
-            >                "span": 0,
-            >                "switchData": {
-            >                    "enabled": 0,
-            >                    "switchId": "0"
-            >                },
-            >                "turn": {
-            >                    "enabled": 0,
-            >                    "end": 0,
-            >                    "start": 0
-            >                },
-            >                "turnEnd": 0
-            >            },
-            >            "eventId": "",
-            >            "page": 0
-            >        }
-            >    ],
             >    [
             >        {
             >            "condition": {
@@ -1159,34 +552,6 @@
             >                    "value": 0
             >                },
             >                "enemyHp": {
-            >                    "enabled": 1,
-            >                    "enemyId": "2",
-            >                    "value": 0
-            >                },
-            >                "run": 0,
-            >                "span": 0,
-            >                "switchData": {
-            >                    "enabled": 0,
-            >                    "switchId": ""
-            >                },
-            >                "turn": {
-            >                    "enabled": 0,
-            >                    "end": 0,
-            >                    "start": 0
-            >                },
-            >                "turnEnd": 0
-            >            },
-            >            "eventId": "3af63586-1cf7-4119-8a30-20f4a601c8a8",
-            >            "page": 0
-            >        },
-            >        {
-            >            "condition": {
-            >                "actorHp": {
-            >                    "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-            >                    "enabled": 0,
-            >                    "value": 0
-            >                },
-            >                "enemyHp": {
             >                    "enabled": 0,
             >                    "enemyId": "0",
             >                    "value": 0
@@ -1247,34 +612,6 @@
             >                "enemyHp": {
             >                    "enabled": 1,
             >                    "enemyId": "1",
-            >                    "value": 40
-            >                },
-            >                "run": 0,
-            >                "span": 0,
-            >                "switchData": {
-            >                    "enabled": 0,
-            >                    "switchId": ""
-            >                },
-            >                "turn": {
-            >                    "enabled": 0,
-            >                    "end": 0,
-            >                    "start": 0
-            >                },
-            >                "turnEnd": 0
-            >            },
-            >            "eventId": "9209dfdc-7602-4cca-a0ab-7e3f3d7b0bde",
-            >            "page": 0
-            >        },
-            >        {
-            >            "condition": {
-            >                "actorHp": {
-            >                    "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-            >                    "enabled": 0,
-            >                    "value": 0
-            >                },
-            >                "enemyHp": {
-            >                    "enabled": 1,
-            >                    "enemyId": "1",
             >                    "value": 1
             >                },
             >                "run": 0,
@@ -1299,161 +636,6 @@
     * examples:
         >```
         >[
-        >    {
-        >        "eventId": "1",
-        >        "pages": [
-        >            {
-        >                "condition": {
-        >                    "actorHp": {
-        >                        "actorId": "",
-        >                        "enabled": 0,
-        >                        "value": 0
-        >                    },
-        >                    "enemyHp": {
-        >                        "enabled": 0,
-        >                        "enemyId": "",
-        >                        "value": 0
-        >                    },
-        >                    "run": 0,
-        >                    "span": 0,
-        >                    "switchData": {
-        >                        "enabled": 0,
-        >                        "switchId": "0"
-        >                    },
-        >                    "turn": {
-        >                        "enabled": 0,
-        >                        "end": 0,
-        >                        "start": 0
-        >                    },
-        >                    "turnEnd": 0
-        >                },
-        >                "eventId": "",
-        >                "page": 0
-        >            }
-        >        ]
-        >    },
-        >    {
-        >        "eventId": "c48b217c-a7b8-4798-b922-c63532b31266",
-        >        "pages": [
-        >            {
-        >                "condition": {
-        >                    "actorHp": {
-        >                        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-        >                        "enabled": 0,
-        >                        "value": 0
-        >                    },
-        >                    "enemyHp": {
-        >                        "enabled": 0,
-        >                        "enemyId": "0",
-        >                        "value": 0
-        >                    },
-        >                    "run": 0,
-        >                    "span": 0,
-        >                    "switchData": {
-        >                        "enabled": 0,
-        >                        "switchId": ""
-        >                    },
-        >                    "turn": {
-        >                        "enabled": 1,
-        >                        "end": 0,
-        >                        "start": 0
-        >                    },
-        >                    "turnEnd": 0
-        >                },
-        >                "eventId": "30755d54-fad7-4c8f-9c53-f816aac58c1b",
-        >                "page": 0
-        >            },
-        >            {
-        >                "condition": {
-        >                    "actorHp": {
-        >                        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-        >                        "enabled": 0,
-        >                        "value": 0
-        >                    },
-        >                    "enemyHp": {
-        >                        "enabled": 1,
-        >                        "enemyId": "0",
-        >                        "value": 40
-        >                    },
-        >                    "run": 0,
-        >                    "span": 0,
-        >                    "switchData": {
-        >                        "enabled": 0,
-        >                        "switchId": ""
-        >                    },
-        >                    "turn": {
-        >                        "enabled": 0,
-        >                        "end": 0,
-        >                        "start": 0
-        >                    },
-        >                    "turnEnd": 0
-        >                },
-        >                "eventId": "66920d90-4e0a-4ca4-a133-9dd8367c4a0a",
-        >                "page": 0
-        >            },
-        >            {
-        >                "condition": {
-        >                    "actorHp": {
-        >                        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-        >                        "enabled": 0,
-        >                        "value": 0
-        >                    },
-        >                    "enemyHp": {
-        >                        "enabled": 1,
-        >                        "enemyId": "0",
-        >                        "value": 1
-        >                    },
-        >                    "run": 0,
-        >                    "span": 0,
-        >                    "switchData": {
-        >                        "enabled": 0,
-        >                        "switchId": ""
-        >                    },
-        >                    "turn": {
-        >                        "enabled": 0,
-        >                        "end": 0,
-        >                        "start": 0
-        >                    },
-        >                    "turnEnd": 0
-        >                },
-        >                "eventId": "f0d78d19-5662-47bf-9bb4-aee961c8e65a",
-        >                "page": 0
-        >            }
-        >        ]
-        >    },
-        >    {
-        >        "eventId": "b4a4ea3d-aa44-4f6b-9139-ea31e26cf6ca",
-        >        "pages": [
-        >            {
-        >                "condition": {
-        >                    "actorHp": {
-        >                        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-        >                        "enabled": 0,
-        >                        "value": 0
-        >                    },
-        >                    "enemyHp": {
-        >                        "enabled": 1,
-        >                        "enemyId": "0",
-        >                        "value": 50
-        >                    },
-        >                    "run": 0,
-        >                    "span": 0,
-        >                    "switchData": {
-        >                        "enabled": 0,
-        >                        "switchId": ""
-        >                    },
-        >                    "turn": {
-        >                        "enabled": 0,
-        >                        "end": 0,
-        >                        "start": 0
-        >                    },
-        >                    "turnEnd": 0
-        >                },
-        >                "eventId": "9ca94411-2ae2-43b3-8dde-7f953c6778d7",
-        >                "page": 0
-        >            }
-        >        ]
-        >    },
         >    {
         >        "eventId": "09a1fa41-de7b-4292-ae46-b995e03fa39a",
         >        "pages": [
@@ -1483,34 +665,6 @@
         >                    "turnEnd": 0
         >                },
         >                "eventId": "6224abba-fbd0-4a95-b945-bed39e575f5f",
-        >                "page": 0
-        >            },
-        >            {
-        >                "condition": {
-        >                    "actorHp": {
-        >                        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-        >                        "enabled": 0,
-        >                        "value": 0
-        >                    },
-        >                    "enemyHp": {
-        >                        "enabled": 1,
-        >                        "enemyId": "2",
-        >                        "value": 0
-        >                    },
-        >                    "run": 0,
-        >                    "span": 0,
-        >                    "switchData": {
-        >                        "enabled": 0,
-        >                        "switchId": ""
-        >                    },
-        >                    "turn": {
-        >                        "enabled": 0,
-        >                        "end": 0,
-        >                        "start": 0
-        >                    },
-        >                    "turnEnd": 0
-        >                },
-        >                "eventId": "3af63586-1cf7-4119-8a30-20f4a601c8a8",
         >                "page": 0
         >            },
         >            {
@@ -1572,34 +726,6 @@
         >                    "turnEnd": 0
         >                },
         >                "eventId": "1e7caf3d-019a-4cd9-9668-ee211681532d",
-        >                "page": 0
-        >            },
-        >            {
-        >                "condition": {
-        >                    "actorHp": {
-        >                        "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-        >                        "enabled": 0,
-        >                        "value": 0
-        >                    },
-        >                    "enemyHp": {
-        >                        "enabled": 1,
-        >                        "enemyId": "1",
-        >                        "value": 40
-        >                    },
-        >                    "run": 0,
-        >                    "span": 0,
-        >                    "switchData": {
-        >                        "enabled": 0,
-        >                        "switchId": ""
-        >                    },
-        >                    "turn": {
-        >                        "enabled": 0,
-        >                        "end": 0,
-        >                        "start": 0
-        >                    },
-        >                    "turnEnd": 0
-        >                },
-        >                "eventId": "9209dfdc-7602-4cca-a0ab-7e3f3d7b0bde",
         >                "page": 0
         >            },
         >            {
@@ -1712,34 +838,6 @@
     >                        "enemyHp": {
     >                            "enabled": 1,
     >                            "enemyId": "0",
-    >                            "value": 40
-    >                        },
-    >                        "run": 0,
-    >                        "span": 0,
-    >                        "switchData": {
-    >                            "enabled": 0,
-    >                            "switchId": ""
-    >                        },
-    >                        "turn": {
-    >                            "enabled": 0,
-    >                            "end": 0,
-    >                            "start": 0
-    >                        },
-    >                        "turnEnd": 0
-    >                    },
-    >                    "eventId": "66920d90-4e0a-4ca4-a133-9dd8367c4a0a",
-    >                    "page": 0
-    >                },
-    >                {
-    >                    "condition": {
-    >                        "actorHp": {
-    >                            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-    >                            "enabled": 0,
-    >                            "value": 0
-    >                        },
-    >                        "enemyHp": {
-    >                            "enabled": 1,
-    >                            "enemyId": "0",
     >                            "value": 1
     >                        },
     >                        "run": 0,
@@ -1832,34 +930,6 @@
     >                            "value": 0
     >                        },
     >                        "enemyHp": {
-    >                            "enabled": 1,
-    >                            "enemyId": "2",
-    >                            "value": 0
-    >                        },
-    >                        "run": 0,
-    >                        "span": 0,
-    >                        "switchData": {
-    >                            "enabled": 0,
-    >                            "switchId": ""
-    >                        },
-    >                        "turn": {
-    >                            "enabled": 0,
-    >                            "end": 0,
-    >                            "start": 0
-    >                        },
-    >                        "turnEnd": 0
-    >                    },
-    >                    "eventId": "3af63586-1cf7-4119-8a30-20f4a601c8a8",
-    >                    "page": 0
-    >                },
-    >                {
-    >                    "condition": {
-    >                        "actorHp": {
-    >                            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-    >                            "enabled": 0,
-    >                            "value": 0
-    >                        },
-    >                        "enemyHp": {
     >                            "enabled": 0,
     >                            "enemyId": "0",
     >                            "value": 0
@@ -1911,34 +981,6 @@
     >                        "turnEnd": 0
     >                    },
     >                    "eventId": "1e7caf3d-019a-4cd9-9668-ee211681532d",
-    >                    "page": 0
-    >                },
-    >                {
-    >                    "condition": {
-    >                        "actorHp": {
-    >                            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
-    >                            "enabled": 0,
-    >                            "value": 0
-    >                        },
-    >                        "enemyHp": {
-    >                            "enabled": 1,
-    >                            "enemyId": "1",
-    >                            "value": 40
-    >                        },
-    >                        "run": 0,
-    >                        "span": 0,
-    >                        "switchData": {
-    >                            "enabled": 0,
-    >                            "switchId": ""
-    >                        },
-    >                        "turn": {
-    >                            "enabled": 0,
-    >                            "end": 0,
-    >                            "start": 0
-    >                        },
-    >                        "turnEnd": 0
-    >                    },
-    >                    "eventId": "9209dfdc-7602-4cca-a0ab-7e3f3d7b0bde",
     >                    "page": 0
     >                },
     >                {
