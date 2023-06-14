@@ -1,5 +1,6 @@
 import argparse
 import json
+import os
 
 def main():
 
@@ -41,7 +42,7 @@ def main():
         # print(f"dump={json_str}")
 
         # 結果文言
-        result_text = ""
+        result_text = f"# JSON: {args.file}\n"
 
         # 解析
         parent_key = "#ROOT#"
@@ -53,6 +54,20 @@ def main():
             result_text += parse_key_value_pair_for_root(key, value, indent, buffer, parent_key)
 
     print(f"result_text: {result_text}")
+
+    #
+    # デスクトップへファイルを保存
+    # ========================
+    #
+    # 📖 [How to get Desktop location?](https://stackoverflow.com/questions/34275782/how-to-get-desktop-location)
+    #
+    desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') 
+
+    file_to_save = f'{desktop}/json-parsed.md'
+    with open(file_to_save, 'w', encoding='utf-8') as f:
+        print(f"Write text file to {file_to_save}")
+        f.write(result_text)
+
 
 def parse_key_value_pair_for_root(key, value, indent, buffer, parent_key):
     if key == "$schema":
