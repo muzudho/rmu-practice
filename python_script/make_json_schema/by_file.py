@@ -46,12 +46,19 @@ def do_it(file_to_read, file_to_save):
     #
     # 📖 [【Python入門】JSON形式データの扱い方](https://qiita.com/Morio/items/7538a939cc441367070d)
     # 📖 [Pythonでファイルの読み込み、書き込み（作成・追記）](https://note.nkmk.me/python-file-io-open-with/)
+    # 📖 [Python実行時エラー対処「UnicodeDecodeError: 'cp932' codec can't decode byte 0x83」](https://www.lisz-works.com/entry/python-unicode-decode-error)
+    # 📖 [Pythonで「json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)」が表示された時](https://techpr.info/python/json-decoder-jsondecodeerror/)
+    # 📖 [Python load json file with UTF-8 BOM header](https://stackoverflow.com/questions/13156395/python-load-json-file-with-utf-8-bom-header)
     #
-    with open(file_to_read, encoding="UTF-8") as f:
+    with open(file_to_read, 'r', encoding="utf-8-sig") as f:
         print(f"Read text file to {file_to_read}")
-        # text = f.read()
-        # print(text)
+        
+        # デバッグ
+        # temp_text = f.read()
+        # print(f"temp_text: {temp_text}")
+
         # 文書構造へ変換
+        # document = json.loads(temp_text)
         document = json.load(f)
 
         # ダンプ
@@ -88,7 +95,7 @@ def do_it(file_to_read, file_to_save):
     # desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') 
     # file_to_save = f'{desktop}/json-parsed.md'
     #
-    with open(file_to_save, 'w', encoding='UTF-8') as f:
+    with open(file_to_save, 'w', encoding='utf-8-sig') as f:
         print(f"Write text file to {file_to_save}")
         f.write(result_text)
 

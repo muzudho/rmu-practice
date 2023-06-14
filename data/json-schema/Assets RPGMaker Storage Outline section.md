@@ -1,0 +1,1265 @@
+﻿# JSON schema: Assets RPGMaker Storage Outline section
+
+* $schema: https://json-schema.org/draft/2019-09/schema
+* $id: http://example.com/example.json
+* 😁 `#ROOT#` array
+    * default - ```[]```
+    * required - ['chapterId', 'clearFlag', 'deleted', 'description', 'image', 'mapIds', 'memo', 'position', 'sectionId', 'startFlag', 'title']
+    * 😁 `chapterId` property
+        * examples:
+            >```
+            >[
+            >    "5859b122-61b3-9a58-b886-2483b495803b",
+            >    "57d4ee27-186c-4151-ac87-51bb3fce2a6e",
+            >    "dc7d4b69-4a33-4a54-a013-643a6ebca690",
+            >    "0870e328-5244-4374-b1df-f02462f7e6a1",
+            >    "c5d4af54-2ed7-4f04-ac54-d7275d748dee",
+            >    "811d3bb2-47d4-48d5-a403-9a1ae1a1d082",
+            >    "aef66709-9526-4af9-93fd-c1df9ff59ed1",
+            >    "a17d954c-f1fb-4cc3-9b6e-c949b47cd8ab",
+            >    "97d95bab-e352-4cf8-aa64-189f54cb886c"
+            >]
+            >```
+    * 😁 `clearFlag` property
+        * 😁 `clearFlag` array - default: None
+            * default - ```None```
+        * examples:
+            >```
+            >[
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    []
+            >]
+            >```
+    * 😁 `deleted` property
+        * examples:
+            >```
+            >[
+            >    0
+            >]
+            >```
+    * 😁 `description` property
+        * examples:
+            >```
+            >[
+            >    ""
+            >]
+            >```
+    * 😁 `image` property
+        * examples:
+            >```
+            >[
+            >    ""
+            >]
+            >```
+    * 😁 `mapIds` property
+        * 😁 `mapIds` array - default: None
+            * default - ```None```
+            * examples:
+                >```
+                >[
+                >    "65ff8a91-3d15-48bf-b4e7-f8d109d3f6da",
+                >    "00146731-7002-48e1-8f11-4fd0e75ebd5c",
+                >    "ec47d5a6-8862-447a-a234-8ce01a10326b",
+                >    "c148684a-365e-4782-a9d7-141d36816f7a",
+                >    "5532f961-5a2f-4aae-9986-5904d4e5a67d",
+                >    "48081d91-a2ed-4cf4-8ef5-d85a8cbd112e",
+                >    "2a854cc1-e7c0-4fcf-9ed3-33e2bc350b24",
+                >    "99585fa1-4221-4b28-9d2f-74bac5eaf80a",
+                >    "16058b12-ee98-48bf-89bc-9d46b76956da",
+                >    "4b94e359-f859-4c1e-8f73-51e4216537de",
+                >    "3dce9611-d8ce-4fc6-a5e4-88a5d9d59c40",
+                >    "9a4ceafc-c2a8-4cff-bbf2-1ed3e17440cd",
+                >    "b9af0ad9-2d68-4504-88ab-4120c7c49192",
+                >    "2c44ad5b-08d3-4383-b4e1-fa27a682269b",
+                >    "df53caa3-6af5-49db-a5a2-bad05c30da64",
+                >    "85bffdb6-4acf-41da-9234-d2d4ff9eaa2e",
+                >    "5b819766-2553-4333-a0e0-7286b8a2f5e9",
+                >    "164beade-e7f3-47d1-a8ec-1ede86ff05c7",
+                >    "b7856ec2-f6b9-4028-a6e1-b14fd27f8ce4",
+                >    "88e50ac2-7844-4cd5-a86b-7d11985560cc",
+                >    "a4297390-25ff-4731-9410-c72283d4ba3a",
+                >    "60ec34cd-a305-4c3d-8b55-e69f5944a5ef"
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    [
+            >        "65ff8a91-3d15-48bf-b4e7-f8d109d3f6da"
+            >    ],
+            >    [
+            >        "00146731-7002-48e1-8f11-4fd0e75ebd5c"
+            >    ],
+            >    [
+            >        "ec47d5a6-8862-447a-a234-8ce01a10326b"
+            >    ],
+            >    [
+            >        "c148684a-365e-4782-a9d7-141d36816f7a"
+            >    ],
+            >    [
+            >        "5532f961-5a2f-4aae-9986-5904d4e5a67d"
+            >    ],
+            >    [
+            >        "48081d91-a2ed-4cf4-8ef5-d85a8cbd112e"
+            >    ],
+            >    [
+            >        "2a854cc1-e7c0-4fcf-9ed3-33e2bc350b24"
+            >    ],
+            >    [
+            >        "99585fa1-4221-4b28-9d2f-74bac5eaf80a"
+            >    ],
+            >    [
+            >        "16058b12-ee98-48bf-89bc-9d46b76956da"
+            >    ],
+            >    [
+            >        "4b94e359-f859-4c1e-8f73-51e4216537de"
+            >    ],
+            >    [
+            >        "3dce9611-d8ce-4fc6-a5e4-88a5d9d59c40"
+            >    ],
+            >    [
+            >        "4b94e359-f859-4c1e-8f73-51e4216537de"
+            >    ],
+            >    [
+            >        "9a4ceafc-c2a8-4cff-bbf2-1ed3e17440cd"
+            >    ],
+            >    [
+            >        "b9af0ad9-2d68-4504-88ab-4120c7c49192"
+            >    ],
+            >    [
+            >        "2c44ad5b-08d3-4383-b4e1-fa27a682269b"
+            >    ],
+            >    [
+            >        "df53caa3-6af5-49db-a5a2-bad05c30da64"
+            >    ],
+            >    [
+            >        "85bffdb6-4acf-41da-9234-d2d4ff9eaa2e"
+            >    ],
+            >    [
+            >        "5b819766-2553-4333-a0e0-7286b8a2f5e9"
+            >    ],
+            >    [
+            >        "164beade-e7f3-47d1-a8ec-1ede86ff05c7"
+            >    ],
+            >    [
+            >        "b7856ec2-f6b9-4028-a6e1-b14fd27f8ce4"
+            >    ],
+            >    [
+            >        "88e50ac2-7844-4cd5-a86b-7d11985560cc"
+            >    ],
+            >    [
+            >        "a4297390-25ff-4731-9410-c72283d4ba3a"
+            >    ],
+            >    [
+            >        "60ec34cd-a305-4c3d-8b55-e69f5944a5ef"
+            >    ]
+            >]
+            >```
+    * 😁 `memo` property
+        * examples:
+            >```
+            >[
+            >    "\t",
+            >    ""
+            >]
+            >```
+    * 😁 `position` property
+        * 😁 `position` array - default: None
+            * default - ```None```
+            * examples:
+                >```
+                >[
+                >    382.00018310546875,
+                >    388.5712585449219,
+                >    382.28570556640625,
+                >    722.28564453125,
+                >    706.8569946289062,
+                >    386.2856140136719,
+                >    706.8570556640625,
+                >    716.5713500976562,
+                >    1033.7139892578125,
+                >    385.7141418457031,
+                >    1034.28564453125,
+                >    722.2855834960938,
+                >    1034.857177734375,
+                >    1061.1429443359375,
+                >    1034.8570556640625,
+                >    1394.857177734375,
+                >    1359.4283447265625,
+                >    387.4284973144531,
+                >    1360.0,
+                >    718.2855834960938,
+                >    1359.4285888671875,
+                >    1060.571533203125,
+                >    1359.999755859375,
+                >    1393.71435546875,
+                >    1740.5712890625,
+                >    1678.857177734375,
+                >    386.2856750488281,
+                >    1678.8570556640625,
+                >    718.8570556640625,
+                >    2011.428466796875,
+                >    382.85711669921875,
+                >    2012.0501708984375,
+                >    717.5000610351562,
+                >    2331.4287109375,
+                >    379.42852783203125,
+                >    2331.999755859375,
+                >    716.5712280273438,
+                >    2653.142333984375,
+                >    378.8570861816406,
+                >    2653.142822265625,
+                >    717.7142333984375,
+                >    2985.142822265625,
+                >    380.5714111328125,
+                >    2985.142578125,
+                >    717.7142944335938
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    [
+            >        382.00018310546875,
+            >        388.5712585449219
+            >    ],
+            >    [
+            >        382.28570556640625,
+            >        722.28564453125
+            >    ],
+            >    [
+            >        706.8569946289062,
+            >        386.2856140136719
+            >    ],
+            >    [
+            >        706.8570556640625,
+            >        716.5713500976562
+            >    ],
+            >    [
+            >        1033.7139892578125,
+            >        385.7141418457031
+            >    ],
+            >    [
+            >        1034.28564453125,
+            >        722.2855834960938
+            >    ],
+            >    [
+            >        1034.857177734375,
+            >        1061.1429443359375
+            >    ],
+            >    [
+            >        1034.8570556640625,
+            >        1394.857177734375
+            >    ],
+            >    [
+            >        1359.4283447265625,
+            >        387.4284973144531
+            >    ],
+            >    [
+            >        1360.0,
+            >        718.2855834960938
+            >    ],
+            >    [
+            >        1359.4285888671875,
+            >        1060.571533203125
+            >    ],
+            >    [
+            >        1359.999755859375,
+            >        1393.71435546875
+            >    ],
+            >    [
+            >        1359.999755859375,
+            >        1740.5712890625
+            >    ],
+            >    [
+            >        1678.857177734375,
+            >        386.2856750488281
+            >    ],
+            >    [
+            >        1678.8570556640625,
+            >        718.8570556640625
+            >    ],
+            >    [
+            >        2011.428466796875,
+            >        382.85711669921875
+            >    ],
+            >    [
+            >        2012.0501708984375,
+            >        717.5000610351562
+            >    ],
+            >    [
+            >        2331.4287109375,
+            >        379.42852783203125
+            >    ],
+            >    [
+            >        2331.999755859375,
+            >        716.5712280273438
+            >    ],
+            >    [
+            >        2653.142333984375,
+            >        378.8570861816406
+            >    ],
+            >    [
+            >        2653.142822265625,
+            >        717.7142333984375
+            >    ],
+            >    [
+            >        2985.142822265625,
+            >        380.5714111328125
+            >    ],
+            >    [
+            >        2985.142578125,
+            >        717.7142944335938
+            >    ]
+            >]
+            >```
+    * 😁 `sectionId` property
+        * examples:
+            >```
+            >[
+            >    "413c26da-944f-4996-9347-bce0f4f7796e",
+            >    "bda6a3d2-2ea4-4964-bf65-2410566f6778",
+            >    "480dcf61-3241-4963-baa5-3d86d1324faa",
+            >    "288cf219-09a8-47a8-9138-2857317f6313",
+            >    "1fc6c05f-58da-4312-b20a-f123611ddd30",
+            >    "914f5e72-fbba-4e6b-b481-7d33a9f7b187",
+            >    "be4b4ebc-0d52-4435-92e7-76de69d8ec6f",
+            >    "4f2ae393-47f0-4886-a816-1ada99e52a47",
+            >    "2e524742-3c2f-46ac-89da-a898c8dd125d",
+            >    "d4427640-0605-4bfc-89e9-2afc3a0c3f1f",
+            >    "ce678bc5-de19-457a-818b-45d6e657a736",
+            >    "1c5d62d7-b8bf-40c4-b22b-079414bfb167",
+            >    "e232a98c-e9d8-4d84-974c-9198e2c463b3",
+            >    "91d77a00-41b3-4e98-a329-caff6b48f258",
+            >    "7afbdf3e-ae14-4191-b7bb-1ecd927e30d7",
+            >    "972e9d06-65d5-4825-a9b9-5d00580c1101",
+            >    "5349e86f-d6e5-4c52-850d-5592a02186a2",
+            >    "caf35418-85e7-48d6-8e0e-46a3e3eaf06d",
+            >    "c61804e7-f416-419a-8cc6-ea02559eeae2",
+            >    "9d38feaa-257c-4b6e-8b94-a204138c0707",
+            >    "cbd1e9ae-f261-46de-af09-37214dd49f91",
+            >    "e57ac778-4da4-4c21-8f14-24d7d585bc86",
+            >    "386eb0df-8d58-478c-a461-6be7450673d9"
+            >]
+            >```
+    * 😁 `startFlag` property
+        * 😁 `startFlag` array - default: None
+            * default - ```None```
+        * examples:
+            >```
+            >[
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    []
+            >]
+            >```
+    * 😁 `title` property
+        * examples:
+            >```
+            >[
+            >    "Trying one's ability",
+            >    "Setting off",
+            >    "Act of mercy",
+            >    "Miguel",
+            >    "Kidnapping",
+            >    "Guildhall",
+            >    "Syndicate Member",
+            >    "Gate",
+            >    "Stormy seas",
+            >    "Witch's Item Shop",
+            >    "Roadside Shrine",
+            >    "Sharon",
+            >    "Boat",
+            >    "Tournament Entry",
+            >    "Old Monk",
+            >    "Royal Capital, Underground",
+            >    "Royal Capital, Underground\u907a\u8de1",
+            >    "Hidden Forest",
+            >    "Elf",
+            >    "Guardian",
+            >    "Mirage Tower_Surrounding",
+            >    "Finals game of a tournament",
+            >    "King of Bretagne"
+            >]
+            >```
+    * examples:
+        >```
+        >[
+        >    {
+        >        "chapterId": "5859b122-61b3-9a58-b886-2483b495803b",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "65ff8a91-3d15-48bf-b4e7-f8d109d3f6da"
+        >        ],
+        >        "memo": "\t",
+        >        "position": [
+        >            382.00018310546875,
+        >            388.5712585449219
+        >        ],
+        >        "sectionId": "413c26da-944f-4996-9347-bce0f4f7796e",
+        >        "startFlag": [],
+        >        "title": "Trying one's ability"
+        >    },
+        >    {
+        >        "chapterId": "5859b122-61b3-9a58-b886-2483b495803b",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "00146731-7002-48e1-8f11-4fd0e75ebd5c"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            382.28570556640625,
+        >            722.28564453125
+        >        ],
+        >        "sectionId": "bda6a3d2-2ea4-4964-bf65-2410566f6778",
+        >        "startFlag": [],
+        >        "title": "Setting off"
+        >    },
+        >    {
+        >        "chapterId": "57d4ee27-186c-4151-ac87-51bb3fce2a6e",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "ec47d5a6-8862-447a-a234-8ce01a10326b"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            706.8569946289062,
+        >            386.2856140136719
+        >        ],
+        >        "sectionId": "480dcf61-3241-4963-baa5-3d86d1324faa",
+        >        "startFlag": [],
+        >        "title": "Act of mercy"
+        >    },
+        >    {
+        >        "chapterId": "57d4ee27-186c-4151-ac87-51bb3fce2a6e",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "c148684a-365e-4782-a9d7-141d36816f7a"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            706.8570556640625,
+        >            716.5713500976562
+        >        ],
+        >        "sectionId": "288cf219-09a8-47a8-9138-2857317f6313",
+        >        "startFlag": [],
+        >        "title": "Miguel"
+        >    },
+        >    {
+        >        "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "5532f961-5a2f-4aae-9986-5904d4e5a67d"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1033.7139892578125,
+        >            385.7141418457031
+        >        ],
+        >        "sectionId": "1fc6c05f-58da-4312-b20a-f123611ddd30",
+        >        "startFlag": [],
+        >        "title": "Kidnapping"
+        >    },
+        >    {
+        >        "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "48081d91-a2ed-4cf4-8ef5-d85a8cbd112e"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1034.28564453125,
+        >            722.2855834960938
+        >        ],
+        >        "sectionId": "914f5e72-fbba-4e6b-b481-7d33a9f7b187",
+        >        "startFlag": [],
+        >        "title": "Guildhall"
+        >    },
+        >    {
+        >        "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "2a854cc1-e7c0-4fcf-9ed3-33e2bc350b24"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1034.857177734375,
+        >            1061.1429443359375
+        >        ],
+        >        "sectionId": "be4b4ebc-0d52-4435-92e7-76de69d8ec6f",
+        >        "startFlag": [],
+        >        "title": "Syndicate Member"
+        >    },
+        >    {
+        >        "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "99585fa1-4221-4b28-9d2f-74bac5eaf80a"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1034.8570556640625,
+        >            1394.857177734375
+        >        ],
+        >        "sectionId": "4f2ae393-47f0-4886-a816-1ada99e52a47",
+        >        "startFlag": [],
+        >        "title": "Gate"
+        >    },
+        >    {
+        >        "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "16058b12-ee98-48bf-89bc-9d46b76956da"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1359.4283447265625,
+        >            387.4284973144531
+        >        ],
+        >        "sectionId": "2e524742-3c2f-46ac-89da-a898c8dd125d",
+        >        "startFlag": [],
+        >        "title": "Stormy seas"
+        >    },
+        >    {
+        >        "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "4b94e359-f859-4c1e-8f73-51e4216537de"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1360.0,
+        >            718.2855834960938
+        >        ],
+        >        "sectionId": "d4427640-0605-4bfc-89e9-2afc3a0c3f1f",
+        >        "startFlag": [],
+        >        "title": "Witch's Item Shop"
+        >    },
+        >    {
+        >        "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "3dce9611-d8ce-4fc6-a5e4-88a5d9d59c40"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1359.4285888671875,
+        >            1060.571533203125
+        >        ],
+        >        "sectionId": "ce678bc5-de19-457a-818b-45d6e657a736",
+        >        "startFlag": [],
+        >        "title": "Roadside Shrine"
+        >    },
+        >    {
+        >        "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "4b94e359-f859-4c1e-8f73-51e4216537de"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1359.999755859375,
+        >            1393.71435546875
+        >        ],
+        >        "sectionId": "1c5d62d7-b8bf-40c4-b22b-079414bfb167",
+        >        "startFlag": [],
+        >        "title": "Sharon"
+        >    },
+        >    {
+        >        "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "9a4ceafc-c2a8-4cff-bbf2-1ed3e17440cd"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1359.999755859375,
+        >            1740.5712890625
+        >        ],
+        >        "sectionId": "e232a98c-e9d8-4d84-974c-9198e2c463b3",
+        >        "startFlag": [],
+        >        "title": "Boat"
+        >    },
+        >    {
+        >        "chapterId": "c5d4af54-2ed7-4f04-ac54-d7275d748dee",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "b9af0ad9-2d68-4504-88ab-4120c7c49192"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1678.857177734375,
+        >            386.2856750488281
+        >        ],
+        >        "sectionId": "91d77a00-41b3-4e98-a329-caff6b48f258",
+        >        "startFlag": [],
+        >        "title": "Tournament Entry"
+        >    },
+        >    {
+        >        "chapterId": "c5d4af54-2ed7-4f04-ac54-d7275d748dee",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "2c44ad5b-08d3-4383-b4e1-fa27a682269b"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            1678.8570556640625,
+        >            718.8570556640625
+        >        ],
+        >        "sectionId": "7afbdf3e-ae14-4191-b7bb-1ecd927e30d7",
+        >        "startFlag": [],
+        >        "title": "Old Monk"
+        >    },
+        >    {
+        >        "chapterId": "811d3bb2-47d4-48d5-a403-9a1ae1a1d082",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "df53caa3-6af5-49db-a5a2-bad05c30da64"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            2011.428466796875,
+        >            382.85711669921875
+        >        ],
+        >        "sectionId": "972e9d06-65d5-4825-a9b9-5d00580c1101",
+        >        "startFlag": [],
+        >        "title": "Royal Capital, Underground"
+        >    },
+        >    {
+        >        "chapterId": "811d3bb2-47d4-48d5-a403-9a1ae1a1d082",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "85bffdb6-4acf-41da-9234-d2d4ff9eaa2e"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            2012.0501708984375,
+        >            717.5000610351562
+        >        ],
+        >        "sectionId": "5349e86f-d6e5-4c52-850d-5592a02186a2",
+        >        "startFlag": [],
+        >        "title": "Royal Capital, Underground\u907a\u8de1"
+        >    },
+        >    {
+        >        "chapterId": "aef66709-9526-4af9-93fd-c1df9ff59ed1",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "5b819766-2553-4333-a0e0-7286b8a2f5e9"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            2331.4287109375,
+        >            379.42852783203125
+        >        ],
+        >        "sectionId": "caf35418-85e7-48d6-8e0e-46a3e3eaf06d",
+        >        "startFlag": [],
+        >        "title": "Hidden Forest"
+        >    },
+        >    {
+        >        "chapterId": "aef66709-9526-4af9-93fd-c1df9ff59ed1",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "164beade-e7f3-47d1-a8ec-1ede86ff05c7"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            2331.999755859375,
+        >            716.5712280273438
+        >        ],
+        >        "sectionId": "c61804e7-f416-419a-8cc6-ea02559eeae2",
+        >        "startFlag": [],
+        >        "title": "Elf"
+        >    },
+        >    {
+        >        "chapterId": "a17d954c-f1fb-4cc3-9b6e-c949b47cd8ab",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "b7856ec2-f6b9-4028-a6e1-b14fd27f8ce4"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            2653.142333984375,
+        >            378.8570861816406
+        >        ],
+        >        "sectionId": "9d38feaa-257c-4b6e-8b94-a204138c0707",
+        >        "startFlag": [],
+        >        "title": "Guardian"
+        >    },
+        >    {
+        >        "chapterId": "a17d954c-f1fb-4cc3-9b6e-c949b47cd8ab",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "88e50ac2-7844-4cd5-a86b-7d11985560cc"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            2653.142822265625,
+        >            717.7142333984375
+        >        ],
+        >        "sectionId": "cbd1e9ae-f261-46de-af09-37214dd49f91",
+        >        "startFlag": [],
+        >        "title": "Mirage Tower_Surrounding"
+        >    },
+        >    {
+        >        "chapterId": "97d95bab-e352-4cf8-aa64-189f54cb886c",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "a4297390-25ff-4731-9410-c72283d4ba3a"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            2985.142822265625,
+        >            380.5714111328125
+        >        ],
+        >        "sectionId": "e57ac778-4da4-4c21-8f14-24d7d585bc86",
+        >        "startFlag": [],
+        >        "title": "Finals game of a tournament"
+        >    },
+        >    {
+        >        "chapterId": "97d95bab-e352-4cf8-aa64-189f54cb886c",
+        >        "clearFlag": [],
+        >        "deleted": 0,
+        >        "description": "",
+        >        "image": "",
+        >        "mapIds": [
+        >            "60ec34cd-a305-4c3d-8b55-e69f5944a5ef"
+        >        ],
+        >        "memo": "",
+        >        "position": [
+        >            2985.142578125,
+        >            717.7142944335938
+        >        ],
+        >        "sectionId": "386eb0df-8d58-478c-a461-6be7450673d9",
+        >        "startFlag": [],
+        >        "title": "King of Bretagne"
+        >    }
+        >]
+        >```
+* examples:
+    >```
+    >[
+    >    [
+    >        {
+    >            "chapterId": "5859b122-61b3-9a58-b886-2483b495803b",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "65ff8a91-3d15-48bf-b4e7-f8d109d3f6da"
+    >            ],
+    >            "memo": "\t",
+    >            "position": [
+    >                382.00018310546875,
+    >                388.5712585449219
+    >            ],
+    >            "sectionId": "413c26da-944f-4996-9347-bce0f4f7796e",
+    >            "startFlag": [],
+    >            "title": "Trying one's ability"
+    >        },
+    >        {
+    >            "chapterId": "5859b122-61b3-9a58-b886-2483b495803b",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "00146731-7002-48e1-8f11-4fd0e75ebd5c"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                382.28570556640625,
+    >                722.28564453125
+    >            ],
+    >            "sectionId": "bda6a3d2-2ea4-4964-bf65-2410566f6778",
+    >            "startFlag": [],
+    >            "title": "Setting off"
+    >        },
+    >        {
+    >            "chapterId": "57d4ee27-186c-4151-ac87-51bb3fce2a6e",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "ec47d5a6-8862-447a-a234-8ce01a10326b"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                706.8569946289062,
+    >                386.2856140136719
+    >            ],
+    >            "sectionId": "480dcf61-3241-4963-baa5-3d86d1324faa",
+    >            "startFlag": [],
+    >            "title": "Act of mercy"
+    >        },
+    >        {
+    >            "chapterId": "57d4ee27-186c-4151-ac87-51bb3fce2a6e",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "c148684a-365e-4782-a9d7-141d36816f7a"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                706.8570556640625,
+    >                716.5713500976562
+    >            ],
+    >            "sectionId": "288cf219-09a8-47a8-9138-2857317f6313",
+    >            "startFlag": [],
+    >            "title": "Miguel"
+    >        },
+    >        {
+    >            "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "5532f961-5a2f-4aae-9986-5904d4e5a67d"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1033.7139892578125,
+    >                385.7141418457031
+    >            ],
+    >            "sectionId": "1fc6c05f-58da-4312-b20a-f123611ddd30",
+    >            "startFlag": [],
+    >            "title": "Kidnapping"
+    >        },
+    >        {
+    >            "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "48081d91-a2ed-4cf4-8ef5-d85a8cbd112e"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1034.28564453125,
+    >                722.2855834960938
+    >            ],
+    >            "sectionId": "914f5e72-fbba-4e6b-b481-7d33a9f7b187",
+    >            "startFlag": [],
+    >            "title": "Guildhall"
+    >        },
+    >        {
+    >            "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "2a854cc1-e7c0-4fcf-9ed3-33e2bc350b24"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1034.857177734375,
+    >                1061.1429443359375
+    >            ],
+    >            "sectionId": "be4b4ebc-0d52-4435-92e7-76de69d8ec6f",
+    >            "startFlag": [],
+    >            "title": "Syndicate Member"
+    >        },
+    >        {
+    >            "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "99585fa1-4221-4b28-9d2f-74bac5eaf80a"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1034.8570556640625,
+    >                1394.857177734375
+    >            ],
+    >            "sectionId": "4f2ae393-47f0-4886-a816-1ada99e52a47",
+    >            "startFlag": [],
+    >            "title": "Gate"
+    >        },
+    >        {
+    >            "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "16058b12-ee98-48bf-89bc-9d46b76956da"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1359.4283447265625,
+    >                387.4284973144531
+    >            ],
+    >            "sectionId": "2e524742-3c2f-46ac-89da-a898c8dd125d",
+    >            "startFlag": [],
+    >            "title": "Stormy seas"
+    >        },
+    >        {
+    >            "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "4b94e359-f859-4c1e-8f73-51e4216537de"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1360.0,
+    >                718.2855834960938
+    >            ],
+    >            "sectionId": "d4427640-0605-4bfc-89e9-2afc3a0c3f1f",
+    >            "startFlag": [],
+    >            "title": "Witch's Item Shop"
+    >        },
+    >        {
+    >            "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "3dce9611-d8ce-4fc6-a5e4-88a5d9d59c40"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1359.4285888671875,
+    >                1060.571533203125
+    >            ],
+    >            "sectionId": "ce678bc5-de19-457a-818b-45d6e657a736",
+    >            "startFlag": [],
+    >            "title": "Roadside Shrine"
+    >        },
+    >        {
+    >            "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "4b94e359-f859-4c1e-8f73-51e4216537de"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1359.999755859375,
+    >                1393.71435546875
+    >            ],
+    >            "sectionId": "1c5d62d7-b8bf-40c4-b22b-079414bfb167",
+    >            "startFlag": [],
+    >            "title": "Sharon"
+    >        },
+    >        {
+    >            "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "9a4ceafc-c2a8-4cff-bbf2-1ed3e17440cd"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1359.999755859375,
+    >                1740.5712890625
+    >            ],
+    >            "sectionId": "e232a98c-e9d8-4d84-974c-9198e2c463b3",
+    >            "startFlag": [],
+    >            "title": "Boat"
+    >        },
+    >        {
+    >            "chapterId": "c5d4af54-2ed7-4f04-ac54-d7275d748dee",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "b9af0ad9-2d68-4504-88ab-4120c7c49192"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1678.857177734375,
+    >                386.2856750488281
+    >            ],
+    >            "sectionId": "91d77a00-41b3-4e98-a329-caff6b48f258",
+    >            "startFlag": [],
+    >            "title": "Tournament Entry"
+    >        },
+    >        {
+    >            "chapterId": "c5d4af54-2ed7-4f04-ac54-d7275d748dee",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "2c44ad5b-08d3-4383-b4e1-fa27a682269b"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                1678.8570556640625,
+    >                718.8570556640625
+    >            ],
+    >            "sectionId": "7afbdf3e-ae14-4191-b7bb-1ecd927e30d7",
+    >            "startFlag": [],
+    >            "title": "Old Monk"
+    >        },
+    >        {
+    >            "chapterId": "811d3bb2-47d4-48d5-a403-9a1ae1a1d082",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "df53caa3-6af5-49db-a5a2-bad05c30da64"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                2011.428466796875,
+    >                382.85711669921875
+    >            ],
+    >            "sectionId": "972e9d06-65d5-4825-a9b9-5d00580c1101",
+    >            "startFlag": [],
+    >            "title": "Royal Capital, Underground"
+    >        },
+    >        {
+    >            "chapterId": "811d3bb2-47d4-48d5-a403-9a1ae1a1d082",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "85bffdb6-4acf-41da-9234-d2d4ff9eaa2e"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                2012.0501708984375,
+    >                717.5000610351562
+    >            ],
+    >            "sectionId": "5349e86f-d6e5-4c52-850d-5592a02186a2",
+    >            "startFlag": [],
+    >            "title": "Royal Capital, Underground\u907a\u8de1"
+    >        },
+    >        {
+    >            "chapterId": "aef66709-9526-4af9-93fd-c1df9ff59ed1",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "5b819766-2553-4333-a0e0-7286b8a2f5e9"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                2331.4287109375,
+    >                379.42852783203125
+    >            ],
+    >            "sectionId": "caf35418-85e7-48d6-8e0e-46a3e3eaf06d",
+    >            "startFlag": [],
+    >            "title": "Hidden Forest"
+    >        },
+    >        {
+    >            "chapterId": "aef66709-9526-4af9-93fd-c1df9ff59ed1",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "164beade-e7f3-47d1-a8ec-1ede86ff05c7"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                2331.999755859375,
+    >                716.5712280273438
+    >            ],
+    >            "sectionId": "c61804e7-f416-419a-8cc6-ea02559eeae2",
+    >            "startFlag": [],
+    >            "title": "Elf"
+    >        },
+    >        {
+    >            "chapterId": "a17d954c-f1fb-4cc3-9b6e-c949b47cd8ab",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "b7856ec2-f6b9-4028-a6e1-b14fd27f8ce4"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                2653.142333984375,
+    >                378.8570861816406
+    >            ],
+    >            "sectionId": "9d38feaa-257c-4b6e-8b94-a204138c0707",
+    >            "startFlag": [],
+    >            "title": "Guardian"
+    >        },
+    >        {
+    >            "chapterId": "a17d954c-f1fb-4cc3-9b6e-c949b47cd8ab",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "88e50ac2-7844-4cd5-a86b-7d11985560cc"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                2653.142822265625,
+    >                717.7142333984375
+    >            ],
+    >            "sectionId": "cbd1e9ae-f261-46de-af09-37214dd49f91",
+    >            "startFlag": [],
+    >            "title": "Mirage Tower_Surrounding"
+    >        },
+    >        {
+    >            "chapterId": "97d95bab-e352-4cf8-aa64-189f54cb886c",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "a4297390-25ff-4731-9410-c72283d4ba3a"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                2985.142822265625,
+    >                380.5714111328125
+    >            ],
+    >            "sectionId": "e57ac778-4da4-4c21-8f14-24d7d585bc86",
+    >            "startFlag": [],
+    >            "title": "Finals game of a tournament"
+    >        },
+    >        {
+    >            "chapterId": "97d95bab-e352-4cf8-aa64-189f54cb886c",
+    >            "clearFlag": [],
+    >            "deleted": 0,
+    >            "description": "",
+    >            "image": "",
+    >            "mapIds": [
+    >                "60ec34cd-a305-4c3d-8b55-e69f5944a5ef"
+    >            ],
+    >            "memo": "",
+    >            "position": [
+    >                2985.142578125,
+    >                717.7142944335938
+    >            ],
+    >            "sectionId": "386eb0df-8d58-478c-a461-6be7450673d9",
+    >            "startFlag": [],
+    >            "title": "King of Bretagne"
+    >        }
+    >    ]
+    >]
+    >```

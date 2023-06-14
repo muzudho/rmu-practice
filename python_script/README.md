@@ -13,5 +13,7 @@ python by_file.py --read "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite
 👇 ディレクトリー毎:  
 
 ```shell
+cd python_script/make_json_schema
+
 python by_directory.py --read "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/json/" --write "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/json-schema/"
 ```

@@ -1,0 +1,3691 @@
+﻿# JSON schema: Assets RPGMaker Storage Initializations JSON weapon
+
+* $schema: https://json-schema.org/draft/2019-09/schema
+* $id: http://example.com/example.json
+* 😁 `#ROOT#` array
+    * default - ```[]```
+    * required - ['basic', 'memo', 'parameters', 'traits']
+    * 😁 `basic` property
+        * required - ['animationId', 'canSell', 'description', 'equipmentTypeId', 'iconId', 'id', 'name', 'price', 'sell', 'switchItem', 'weaponTypeId']
+        * 😁 `animationId` property
+            * examples:
+                >```
+                >[
+                >    "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+                >    "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b"
+                >]
+                >```
+        * 😁 `canSell` property
+            * examples:
+                >```
+                >[
+                >    0,
+                >    1
+                >]
+                >```
+        * 😁 `description` property
+            * examples:
+                >```
+                >[
+                >    "[Sword] A light and wieldy sword with a short blade.",
+                >    "[Sword] A sword with a long, razor-sharp blade that's well-suited for combat.",
+                >    "[Sword] A sword with a refined blade.",
+                >    "[Sword] A sword with a curved, broad blade.",
+                >    "[Sword] A long-reaching sword with a blade of steel.",
+                >    "[Sword] A long-reaching sword with a blade of mythril.",
+                >    "[Sword] A sword commonly used by elves.",
+                >    "[Sword] A thin, crescent-bladed sword often found in desert regions.",
+                >    "[Sword] A legendary sword said to be given to warriors of great bravery.",
+                >    "[Staff] A cheap, common staff.",
+                >    "[Staff] A wand that subtly amplifies the potency of the wielder's magic.",
+                >    "[Staff] A mythril rod that amplifies the potency of the wielder's magic.",
+                >    "[Staff] A staff often used by elves that amplifies the potency of the wielder's magic.",
+                >    "[Staff] A wand that amplifies the potency of the wielder's magic by a significant order.",
+                >    "[Staff] A staff imbued with arcane force that amplifies the potency of the wielder's magic.",
+                >    "[Flail] A flail consisting of a stone ball connected to a grip by a chain.",
+                >    "[Flail] A flail consisting of a bronze sphere connected to a grip by a chain.",
+                >    "[Flail] A flail reinforced with steel.",
+                >    "[Flail] A flail bearing a mythril head and reinforcements.",
+                >    "[Flail] A flail studded with dragon teeth for extra damage.",
+                >    "[Axe] A small axe used for woodcutting.",
+                >    "[Axe] A double-bladed axe forged for use in combat.",
+                >    "[Axe] A battle axe bearing a crescent blade.",
+                >    "[Axe] A battle axe bearing a mythril blade.",
+                >    "[Axe] A battle axe made of dragonstooth."
+                >]
+                >```
+        * 😁 `equipmentTypeId` property
+            * examples:
+                >```
+                >[
+                >    "48254f68-178f-448e-98fd-60a0bb616a28"
+                >]
+                >```
+        * 😁 `iconId` property
+            * examples:
+                >```
+                >[
+                >    "IconSet_097",
+                >    "IconSet_101",
+                >    "IconSet_098",
+                >    "IconSet_099"
+                >]
+                >```
+        * 😁 `id` property
+            * examples:
+                >```
+                >[
+                >    "661cb624-e856-494e-94b8-0e41064e90b0",
+                >    "88790220-72d8-4b34-95ec-947af47a5e22",
+                >    "857aeceb-bf44-497e-9409-de1efe52d9a1",
+                >    "38184b20-cb99-4c8f-a7e0-3c2c440f43cc",
+                >    "d3fd3f97-bed3-488c-a322-248aed74e37c",
+                >    "f27d7694-b951-4131-9e33-c59c08fd3b6a",
+                >    "c246934f-38fd-4f33-9694-065a6976ee70",
+                >    "38b8fbba-37ac-4647-976e-b24afc1563c7",
+                >    "6180abfc-05ef-444b-9120-4ef148408033",
+                >    "3b43e5d9-721a-4beb-82e9-be48c2240f74",
+                >    "855e1fa4-50ed-41ae-a21e-37081909ecc2",
+                >    "f0e4a70f-8523-427a-8874-ddd13ffc70f8",
+                >    "b5f97c33-8f5d-4768-a647-df009e36fb67",
+                >    "88907115-1f67-4f48-b873-9c8876b6f590",
+                >    "e87144db-b559-4015-9ec8-6bdb360487b1",
+                >    "9a7c9a7b-8591-49d2-b619-75c06192fb7b",
+                >    "cf8f6db9-f372-413e-9ef1-2d4fe862114e",
+                >    "1506c62a-56d0-473e-9dd9-4772e9e98d1d",
+                >    "6de54ba9-ea51-4d94-a464-ab380f053387",
+                >    "2ffd5cbb-e514-4830-b1e2-020dca31e9fe",
+                >    "13e9216c-958d-49ea-8394-cd92bda32b00",
+                >    "e003cafc-ee60-4baa-8d07-ddb3b2d2f3f4",
+                >    "19c31d66-944f-4e6b-90e1-7d9788817414",
+                >    "379b6433-199f-46b4-a0c8-d34e1a98ff72",
+                >    "937258c9-c5f5-48ca-9a4d-ebc65c55a429"
+                >]
+                >```
+        * 😁 `name` property
+            * examples:
+                >```
+                >[
+                >    "Shortsword",
+                >    "Longsword",
+                >    "Gladius",
+                >    "Falchion",
+                >    "Knight's Sword",
+                >    "Mythril Sword",
+                >    "Elven Sword",
+                >    "Shamshir",
+                >    "Raider's Sword",
+                >    "Wooden Staff",
+                >    "Magic Wand",
+                >    "Mythril Rod",
+                >    "Elven Staff",
+                >    "Force Wand",
+                >    "Staff of Wisdom",
+                >    "Stone Flail",
+                >    "Bronze Flail",
+                >    "Morning Star",
+                >    "Mythril Flail",
+                >    "Dragon Flail",
+                >    "Hand Axe",
+                >    "Battle Axe",
+                >    "Bardiche",
+                >    "Mythril Axe",
+                >    "Dragon Axe"
+                >]
+                >```
+        * 😁 `price` property
+            * examples:
+                >```
+                >[
+                >    280,
+                >    530,
+                >    999,
+                >    1833,
+                >    3179,
+                >    5184,
+                >    11718,
+                >    26219,
+                >    84951,
+                >    387,
+                >    1361,
+                >    7993,
+                >    13996,
+                >    30144,
+                >    360,
+                >    680,
+                >    1460,
+                >    2980,
+                >    6180,
+                >    480,
+                >    980,
+                >    2180,
+                >    4500,
+                >    9600
+                >]
+                >```
+        * 😁 `sell` property
+            * examples:
+                >```
+                >[
+                >    168,
+                >    318,
+                >    599,
+                >    1099,
+                >    1907,
+                >    3110,
+                >    7030,
+                >    15731,
+                >    50970,
+                >    232,
+                >    816,
+                >    4795,
+                >    8397,
+                >    18086,
+                >    180,
+                >    340,
+                >    730,
+                >    1490,
+                >    3090,
+                >    240,
+                >    490,
+                >    1090,
+                >    2250,
+                >    4800
+                >]
+                >```
+        * 😁 `switchItem` property
+            * examples:
+                >```
+                >[
+                >    0
+                >]
+                >```
+        * 😁 `weaponTypeId` property
+            * examples:
+                >```
+                >[
+                >    "94e410c8-ecd3-4c9e-a844-c978fc6e21f2",
+                >    "159ea6ce-ea6b-43f8-9521-6fc800565100",
+                >    "608a2682-8841-4e0d-8e6b-752bfb8d9027",
+                >    "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Sword] A light and wieldy sword with a short blade.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_097",
+            >        "id": "661cb624-e856-494e-94b8-0e41064e90b0",
+            >        "name": "Shortsword",
+            >        "price": 280,
+            >        "sell": 168,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Sword] A sword with a long, razor-sharp blade that's well-suited for combat.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_097",
+            >        "id": "88790220-72d8-4b34-95ec-947af47a5e22",
+            >        "name": "Longsword",
+            >        "price": 530,
+            >        "sell": 318,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Sword] A sword with a refined blade.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_097",
+            >        "id": "857aeceb-bf44-497e-9409-de1efe52d9a1",
+            >        "name": "Gladius",
+            >        "price": 999,
+            >        "sell": 599,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Sword] A sword with a curved, broad blade.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_097",
+            >        "id": "38184b20-cb99-4c8f-a7e0-3c2c440f43cc",
+            >        "name": "Falchion",
+            >        "price": 1833,
+            >        "sell": 1099,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Sword] A long-reaching sword with a blade of steel.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_097",
+            >        "id": "d3fd3f97-bed3-488c-a322-248aed74e37c",
+            >        "name": "Knight's Sword",
+            >        "price": 3179,
+            >        "sell": 1907,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Sword] A long-reaching sword with a blade of mythril.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_097",
+            >        "id": "f27d7694-b951-4131-9e33-c59c08fd3b6a",
+            >        "name": "Mythril Sword",
+            >        "price": 5184,
+            >        "sell": 3110,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Sword] A sword commonly used by elves.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_097",
+            >        "id": "c246934f-38fd-4f33-9694-065a6976ee70",
+            >        "name": "Elven Sword",
+            >        "price": 11718,
+            >        "sell": 7030,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Sword] A thin, crescent-bladed sword often found in desert regions.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_097",
+            >        "id": "38b8fbba-37ac-4647-976e-b24afc1563c7",
+            >        "name": "Shamshir",
+            >        "price": 26219,
+            >        "sell": 15731,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 1,
+            >        "description": "[Sword] A legendary sword said to be given to warriors of great bravery.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_097",
+            >        "id": "6180abfc-05ef-444b-9120-4ef148408033",
+            >        "name": "Raider's Sword",
+            >        "price": 84951,
+            >        "sell": 50970,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Staff] A cheap, common staff.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_101",
+            >        "id": "3b43e5d9-721a-4beb-82e9-be48c2240f74",
+            >        "name": "Wooden Staff",
+            >        "price": 387,
+            >        "sell": 232,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Staff] A wand that subtly amplifies the potency of the wielder's magic.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_101",
+            >        "id": "855e1fa4-50ed-41ae-a21e-37081909ecc2",
+            >        "name": "Magic Wand",
+            >        "price": 1361,
+            >        "sell": 816,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Staff] A mythril rod that amplifies the potency of the wielder's magic.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_101",
+            >        "id": "f0e4a70f-8523-427a-8874-ddd13ffc70f8",
+            >        "name": "Mythril Rod",
+            >        "price": 7993,
+            >        "sell": 4795,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Staff] A staff often used by elves that amplifies the potency of the wielder's magic.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_101",
+            >        "id": "b5f97c33-8f5d-4768-a647-df009e36fb67",
+            >        "name": "Elven Staff",
+            >        "price": 13996,
+            >        "sell": 8397,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Staff] A wand that amplifies the potency of the wielder's magic by a significant order.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_101",
+            >        "id": "88907115-1f67-4f48-b873-9c8876b6f590",
+            >        "name": "Force Wand",
+            >        "price": 30144,
+            >        "sell": 18086,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 1,
+            >        "description": "[Staff] A staff imbued with arcane force that amplifies the potency of the wielder's magic.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_101",
+            >        "id": "e87144db-b559-4015-9ec8-6bdb360487b1",
+            >        "name": "Staff of Wisdom",
+            >        "price": 84951,
+            >        "sell": 50970,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Flail] A flail consisting of a stone ball connected to a grip by a chain.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_098",
+            >        "id": "9a7c9a7b-8591-49d2-b619-75c06192fb7b",
+            >        "name": "Stone Flail",
+            >        "price": 360,
+            >        "sell": 180,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Flail] A flail consisting of a bronze sphere connected to a grip by a chain.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_098",
+            >        "id": "cf8f6db9-f372-413e-9ef1-2d4fe862114e",
+            >        "name": "Bronze Flail",
+            >        "price": 680,
+            >        "sell": 340,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Flail] A flail reinforced with steel.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_098",
+            >        "id": "1506c62a-56d0-473e-9dd9-4772e9e98d1d",
+            >        "name": "Morning Star",
+            >        "price": 1460,
+            >        "sell": 730,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Flail] A flail bearing a mythril head and reinforcements.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_098",
+            >        "id": "6de54ba9-ea51-4d94-a464-ab380f053387",
+            >        "name": "Mythril Flail",
+            >        "price": 2980,
+            >        "sell": 1490,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+            >    },
+            >    {
+            >        "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+            >        "canSell": 0,
+            >        "description": "[Flail] A flail studded with dragon teeth for extra damage.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_098",
+            >        "id": "2ffd5cbb-e514-4830-b1e2-020dca31e9fe",
+            >        "name": "Dragon Flail",
+            >        "price": 6180,
+            >        "sell": 3090,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Axe] A small axe used for woodcutting.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_099",
+            >        "id": "13e9216c-958d-49ea-8394-cd92bda32b00",
+            >        "name": "Hand Axe",
+            >        "price": 480,
+            >        "sell": 240,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Axe] A double-bladed axe forged for use in combat.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_099",
+            >        "id": "e003cafc-ee60-4baa-8d07-ddb3b2d2f3f4",
+            >        "name": "Battle Axe",
+            >        "price": 980,
+            >        "sell": 490,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Axe] A battle axe bearing a crescent blade.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_099",
+            >        "id": "19c31d66-944f-4e6b-90e1-7d9788817414",
+            >        "name": "Bardiche",
+            >        "price": 2180,
+            >        "sell": 1090,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Axe] A battle axe bearing a mythril blade.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_099",
+            >        "id": "379b6433-199f-46b4-a0c8-d34e1a98ff72",
+            >        "name": "Mythril Axe",
+            >        "price": 4500,
+            >        "sell": 2250,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+            >    },
+            >    {
+            >        "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+            >        "canSell": 0,
+            >        "description": "[Axe] A battle axe made of dragonstooth.",
+            >        "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >        "iconId": "IconSet_099",
+            >        "id": "937258c9-c5f5-48ca-9a4d-ebc65c55a429",
+            >        "name": "Dragon Axe",
+            >        "price": 9600,
+            >        "sell": 4800,
+            >        "switchItem": 0,
+            >        "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+            >    }
+            >]
+            >```
+    * 😁 `memo` property
+        * examples:
+            >```
+            >[
+            >    ""
+            >]
+            >```
+    * 😁 `parameters` property
+        * 😁 `parameters` array - default: None
+            * default - ```None```
+            * examples:
+                >```
+                >[
+                >    1,
+                >    0,
+                >    56,
+                >    3,
+                >    94,
+                >    5,
+                >    132,
+                >    7,
+                >    170,
+                >    9,
+                >    208,
+                >    11,
+                >    246,
+                >    50,
+                >    15,
+                >    321,
+                >    20,
+                >    416,
+                >    30,
+                >    606,
+                >    2,
+                >    75,
+                >    14,
+                >    6,
+                >    151,
+                >    13,
+                >    284,
+                >    28,
+                >    24,
+                >    16,
+                >    340,
+                >    36,
+                >    12,
+                >    21,
+                >    435,
+                >    44,
+                >    52,
+                >    18,
+                >    23,
+                >    29,
+                >    10,
+                >    25,
+                >    32,
+                >    45
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    [
+            >        1,
+            >        0,
+            >        56,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        3,
+            >        0,
+            >        94,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        5,
+            >        0,
+            >        132,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        7,
+            >        0,
+            >        170,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        9,
+            >        0,
+            >        208,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        11,
+            >        0,
+            >        246,
+            >        0,
+            >        50,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        15,
+            >        0,
+            >        321,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        20,
+            >        0,
+            >        416,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        30,
+            >        0,
+            >        606,
+            >        0,
+            >        0,
+            >        50,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        2,
+            >        0,
+            >        75,
+            >        0,
+            >        14,
+            >        3,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        6,
+            >        0,
+            >        151,
+            >        0,
+            >        20,
+            >        6,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        13,
+            >        0,
+            >        284,
+            >        0,
+            >        28,
+            >        24,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        16,
+            >        0,
+            >        340,
+            >        0,
+            >        36,
+            >        12,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        21,
+            >        0,
+            >        435,
+            >        0,
+            >        44,
+            >        12,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        30,
+            >        0,
+            >        606,
+            >        0,
+            >        52,
+            >        24,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        7,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        12,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        18,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        23,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        29,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        10,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        18,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        25,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        32,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        45,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ]
+            >]
+            >```
+    * 😁 `traits` property
+        * 😁 `traits` array - default: None
+            * default - ```None```
+            * required - ['categoryId', 'effectId', 'traitsId', 'value']
+            * 😁 `categoryId` property
+                * examples:
+                    >```
+                    >[
+                    >    3,
+                    >    2
+                    >]
+                    >```
+            * 😁 `effectId` property
+                * examples:
+                    >```
+                    >[
+                    >    2,
+                    >    0,
+                    >    8
+                    >]
+                    >```
+            * 😁 `traitsId` property
+                * examples:
+                    >```
+                    >[
+                    >    1,
+                    >    2,
+                    >    4
+                    >]
+                    >```
+            * 😁 `value` property
+                * examples:
+                    >```
+                    >[
+                    >    0,
+                    >    1000,
+                    >    2,
+                    >    50
+                    >]
+                    >```
+            * examples:
+                >```
+                >[
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 1000
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 0,
+                >        "traitsId": 4,
+                >        "value": 2
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 8,
+                >        "traitsId": 2,
+                >        "value": 50
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 3,
+                >        "effectId": 2,
+                >        "traitsId": 1,
+                >        "value": 0
+                >    },
+                >    {
+                >        "categoryId": 2,
+                >        "effectId": 0,
+                >        "traitsId": 2,
+                >        "value": 0
+                >    }
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 1000
+            >        },
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 0,
+            >            "traitsId": 4,
+            >            "value": 2
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 8,
+            >            "traitsId": 2,
+            >            "value": 50
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "categoryId": 3,
+            >            "effectId": 2,
+            >            "traitsId": 1,
+            >            "value": 0
+            >        },
+            >        {
+            >            "categoryId": 2,
+            >            "effectId": 0,
+            >            "traitsId": 2,
+            >            "value": 0
+            >        }
+            >    ]
+            >]
+            >```
+    * examples:
+        >```
+        >[
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Sword] A light and wieldy sword with a short blade.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_097",
+        >            "id": "661cb624-e856-494e-94b8-0e41064e90b0",
+        >            "name": "Shortsword",
+        >            "price": 280,
+        >            "sell": 168,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            1,
+        >            0,
+        >            56,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Sword] A sword with a long, razor-sharp blade that's well-suited for combat.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_097",
+        >            "id": "88790220-72d8-4b34-95ec-947af47a5e22",
+        >            "name": "Longsword",
+        >            "price": 530,
+        >            "sell": 318,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            3,
+        >            0,
+        >            94,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Sword] A sword with a refined blade.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_097",
+        >            "id": "857aeceb-bf44-497e-9409-de1efe52d9a1",
+        >            "name": "Gladius",
+        >            "price": 999,
+        >            "sell": 599,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            5,
+        >            0,
+        >            132,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Sword] A sword with a curved, broad blade.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_097",
+        >            "id": "38184b20-cb99-4c8f-a7e0-3c2c440f43cc",
+        >            "name": "Falchion",
+        >            "price": 1833,
+        >            "sell": 1099,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            7,
+        >            0,
+        >            170,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Sword] A long-reaching sword with a blade of steel.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_097",
+        >            "id": "d3fd3f97-bed3-488c-a322-248aed74e37c",
+        >            "name": "Knight's Sword",
+        >            "price": 3179,
+        >            "sell": 1907,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            9,
+        >            0,
+        >            208,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Sword] A long-reaching sword with a blade of mythril.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_097",
+        >            "id": "f27d7694-b951-4131-9e33-c59c08fd3b6a",
+        >            "name": "Mythril Sword",
+        >            "price": 5184,
+        >            "sell": 3110,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            11,
+        >            0,
+        >            246,
+        >            0,
+        >            50,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Sword] A sword commonly used by elves.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_097",
+        >            "id": "c246934f-38fd-4f33-9694-065a6976ee70",
+        >            "name": "Elven Sword",
+        >            "price": 11718,
+        >            "sell": 7030,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            15,
+        >            0,
+        >            321,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Sword] A thin, crescent-bladed sword often found in desert regions.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_097",
+        >            "id": "38b8fbba-37ac-4647-976e-b24afc1563c7",
+        >            "name": "Shamshir",
+        >            "price": 26219,
+        >            "sell": 15731,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            20,
+        >            0,
+        >            416,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 1,
+        >            "description": "[Sword] A legendary sword said to be given to warriors of great bravery.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_097",
+        >            "id": "6180abfc-05ef-444b-9120-4ef148408033",
+        >            "name": "Raider's Sword",
+        >            "price": 84951,
+        >            "sell": 50970,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            30,
+        >            0,
+        >            606,
+        >            0,
+        >            0,
+        >            50,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 1000
+        >            },
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 0,
+        >                "traitsId": 4,
+        >                "value": 2
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Staff] A cheap, common staff.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_101",
+        >            "id": "3b43e5d9-721a-4beb-82e9-be48c2240f74",
+        >            "name": "Wooden Staff",
+        >            "price": 387,
+        >            "sell": 232,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            2,
+        >            0,
+        >            75,
+        >            0,
+        >            14,
+        >            3,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Staff] A wand that subtly amplifies the potency of the wielder's magic.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_101",
+        >            "id": "855e1fa4-50ed-41ae-a21e-37081909ecc2",
+        >            "name": "Magic Wand",
+        >            "price": 1361,
+        >            "sell": 816,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            6,
+        >            0,
+        >            151,
+        >            0,
+        >            20,
+        >            6,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Staff] A mythril rod that amplifies the potency of the wielder's magic.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_101",
+        >            "id": "f0e4a70f-8523-427a-8874-ddd13ffc70f8",
+        >            "name": "Mythril Rod",
+        >            "price": 7993,
+        >            "sell": 4795,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            13,
+        >            0,
+        >            284,
+        >            0,
+        >            28,
+        >            24,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Staff] A staff often used by elves that amplifies the potency of the wielder's magic.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_101",
+        >            "id": "b5f97c33-8f5d-4768-a647-df009e36fb67",
+        >            "name": "Elven Staff",
+        >            "price": 13996,
+        >            "sell": 8397,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            16,
+        >            0,
+        >            340,
+        >            0,
+        >            36,
+        >            12,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Staff] A wand that amplifies the potency of the wielder's magic by a significant order.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_101",
+        >            "id": "88907115-1f67-4f48-b873-9c8876b6f590",
+        >            "name": "Force Wand",
+        >            "price": 30144,
+        >            "sell": 18086,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            21,
+        >            0,
+        >            435,
+        >            0,
+        >            44,
+        >            12,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 1,
+        >            "description": "[Staff] A staff imbued with arcane force that amplifies the potency of the wielder's magic.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_101",
+        >            "id": "e87144db-b559-4015-9ec8-6bdb360487b1",
+        >            "name": "Staff of Wisdom",
+        >            "price": 84951,
+        >            "sell": 50970,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            30,
+        >            0,
+        >            606,
+        >            0,
+        >            52,
+        >            24,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 8,
+        >                "traitsId": 2,
+        >                "value": 50
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Flail] A flail consisting of a stone ball connected to a grip by a chain.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_098",
+        >            "id": "9a7c9a7b-8591-49d2-b619-75c06192fb7b",
+        >            "name": "Stone Flail",
+        >            "price": 360,
+        >            "sell": 180,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            7,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Flail] A flail consisting of a bronze sphere connected to a grip by a chain.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_098",
+        >            "id": "cf8f6db9-f372-413e-9ef1-2d4fe862114e",
+        >            "name": "Bronze Flail",
+        >            "price": 680,
+        >            "sell": 340,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            12,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Flail] A flail reinforced with steel.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_098",
+        >            "id": "1506c62a-56d0-473e-9dd9-4772e9e98d1d",
+        >            "name": "Morning Star",
+        >            "price": 1460,
+        >            "sell": 730,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            18,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Flail] A flail bearing a mythril head and reinforcements.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_098",
+        >            "id": "6de54ba9-ea51-4d94-a464-ab380f053387",
+        >            "name": "Mythril Flail",
+        >            "price": 2980,
+        >            "sell": 1490,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            23,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+        >            "canSell": 0,
+        >            "description": "[Flail] A flail studded with dragon teeth for extra damage.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_098",
+        >            "id": "2ffd5cbb-e514-4830-b1e2-020dca31e9fe",
+        >            "name": "Dragon Flail",
+        >            "price": 6180,
+        >            "sell": 3090,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            29,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Axe] A small axe used for woodcutting.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_099",
+        >            "id": "13e9216c-958d-49ea-8394-cd92bda32b00",
+        >            "name": "Hand Axe",
+        >            "price": 480,
+        >            "sell": 240,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            10,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Axe] A double-bladed axe forged for use in combat.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_099",
+        >            "id": "e003cafc-ee60-4baa-8d07-ddb3b2d2f3f4",
+        >            "name": "Battle Axe",
+        >            "price": 980,
+        >            "sell": 490,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            18,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Axe] A battle axe bearing a crescent blade.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_099",
+        >            "id": "19c31d66-944f-4e6b-90e1-7d9788817414",
+        >            "name": "Bardiche",
+        >            "price": 2180,
+        >            "sell": 1090,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            25,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Axe] A battle axe bearing a mythril blade.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_099",
+        >            "id": "379b6433-199f-46b4-a0c8-d34e1a98ff72",
+        >            "name": "Mythril Axe",
+        >            "price": 4500,
+        >            "sell": 2250,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            32,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    },
+        >    {
+        >        "basic": {
+        >            "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+        >            "canSell": 0,
+        >            "description": "[Axe] A battle axe made of dragonstooth.",
+        >            "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >            "iconId": "IconSet_099",
+        >            "id": "937258c9-c5f5-48ca-9a4d-ebc65c55a429",
+        >            "name": "Dragon Axe",
+        >            "price": 9600,
+        >            "sell": 4800,
+        >            "switchItem": 0,
+        >            "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+        >        },
+        >        "memo": "",
+        >        "parameters": [
+        >            0,
+        >            0,
+        >            45,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "traits": [
+        >            {
+        >                "categoryId": 3,
+        >                "effectId": 2,
+        >                "traitsId": 1,
+        >                "value": 0
+        >            },
+        >            {
+        >                "categoryId": 2,
+        >                "effectId": 0,
+        >                "traitsId": 2,
+        >                "value": 0
+        >            }
+        >        ]
+        >    }
+        >]
+        >```
+* examples:
+    >```
+    >[
+    >    [
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Sword] A light and wieldy sword with a short blade.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_097",
+    >                "id": "661cb624-e856-494e-94b8-0e41064e90b0",
+    >                "name": "Shortsword",
+    >                "price": 280,
+    >                "sell": 168,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                1,
+    >                0,
+    >                56,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Sword] A sword with a long, razor-sharp blade that's well-suited for combat.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_097",
+    >                "id": "88790220-72d8-4b34-95ec-947af47a5e22",
+    >                "name": "Longsword",
+    >                "price": 530,
+    >                "sell": 318,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                3,
+    >                0,
+    >                94,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Sword] A sword with a refined blade.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_097",
+    >                "id": "857aeceb-bf44-497e-9409-de1efe52d9a1",
+    >                "name": "Gladius",
+    >                "price": 999,
+    >                "sell": 599,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                5,
+    >                0,
+    >                132,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Sword] A sword with a curved, broad blade.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_097",
+    >                "id": "38184b20-cb99-4c8f-a7e0-3c2c440f43cc",
+    >                "name": "Falchion",
+    >                "price": 1833,
+    >                "sell": 1099,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                7,
+    >                0,
+    >                170,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Sword] A long-reaching sword with a blade of steel.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_097",
+    >                "id": "d3fd3f97-bed3-488c-a322-248aed74e37c",
+    >                "name": "Knight's Sword",
+    >                "price": 3179,
+    >                "sell": 1907,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                9,
+    >                0,
+    >                208,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Sword] A long-reaching sword with a blade of mythril.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_097",
+    >                "id": "f27d7694-b951-4131-9e33-c59c08fd3b6a",
+    >                "name": "Mythril Sword",
+    >                "price": 5184,
+    >                "sell": 3110,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                11,
+    >                0,
+    >                246,
+    >                0,
+    >                50,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Sword] A sword commonly used by elves.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_097",
+    >                "id": "c246934f-38fd-4f33-9694-065a6976ee70",
+    >                "name": "Elven Sword",
+    >                "price": 11718,
+    >                "sell": 7030,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                15,
+    >                0,
+    >                321,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Sword] A thin, crescent-bladed sword often found in desert regions.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_097",
+    >                "id": "38b8fbba-37ac-4647-976e-b24afc1563c7",
+    >                "name": "Shamshir",
+    >                "price": 26219,
+    >                "sell": 15731,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                20,
+    >                0,
+    >                416,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 1,
+    >                "description": "[Sword] A legendary sword said to be given to warriors of great bravery.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_097",
+    >                "id": "6180abfc-05ef-444b-9120-4ef148408033",
+    >                "name": "Raider's Sword",
+    >                "price": 84951,
+    >                "sell": 50970,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                30,
+    >                0,
+    >                606,
+    >                0,
+    >                0,
+    >                50,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 1000
+    >                },
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 0,
+    >                    "traitsId": 4,
+    >                    "value": 2
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Staff] A cheap, common staff.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_101",
+    >                "id": "3b43e5d9-721a-4beb-82e9-be48c2240f74",
+    >                "name": "Wooden Staff",
+    >                "price": 387,
+    >                "sell": 232,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                2,
+    >                0,
+    >                75,
+    >                0,
+    >                14,
+    >                3,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Staff] A wand that subtly amplifies the potency of the wielder's magic.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_101",
+    >                "id": "855e1fa4-50ed-41ae-a21e-37081909ecc2",
+    >                "name": "Magic Wand",
+    >                "price": 1361,
+    >                "sell": 816,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                6,
+    >                0,
+    >                151,
+    >                0,
+    >                20,
+    >                6,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Staff] A mythril rod that amplifies the potency of the wielder's magic.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_101",
+    >                "id": "f0e4a70f-8523-427a-8874-ddd13ffc70f8",
+    >                "name": "Mythril Rod",
+    >                "price": 7993,
+    >                "sell": 4795,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                13,
+    >                0,
+    >                284,
+    >                0,
+    >                28,
+    >                24,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Staff] A staff often used by elves that amplifies the potency of the wielder's magic.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_101",
+    >                "id": "b5f97c33-8f5d-4768-a647-df009e36fb67",
+    >                "name": "Elven Staff",
+    >                "price": 13996,
+    >                "sell": 8397,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                16,
+    >                0,
+    >                340,
+    >                0,
+    >                36,
+    >                12,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Staff] A wand that amplifies the potency of the wielder's magic by a significant order.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_101",
+    >                "id": "88907115-1f67-4f48-b873-9c8876b6f590",
+    >                "name": "Force Wand",
+    >                "price": 30144,
+    >                "sell": 18086,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                21,
+    >                0,
+    >                435,
+    >                0,
+    >                44,
+    >                12,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 1,
+    >                "description": "[Staff] A staff imbued with arcane force that amplifies the potency of the wielder's magic.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_101",
+    >                "id": "e87144db-b559-4015-9ec8-6bdb360487b1",
+    >                "name": "Staff of Wisdom",
+    >                "price": 84951,
+    >                "sell": 50970,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "159ea6ce-ea6b-43f8-9521-6fc800565100"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                30,
+    >                0,
+    >                606,
+    >                0,
+    >                52,
+    >                24,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 8,
+    >                    "traitsId": 2,
+    >                    "value": 50
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Flail] A flail consisting of a stone ball connected to a grip by a chain.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_098",
+    >                "id": "9a7c9a7b-8591-49d2-b619-75c06192fb7b",
+    >                "name": "Stone Flail",
+    >                "price": 360,
+    >                "sell": 180,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                7,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Flail] A flail consisting of a bronze sphere connected to a grip by a chain.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_098",
+    >                "id": "cf8f6db9-f372-413e-9ef1-2d4fe862114e",
+    >                "name": "Bronze Flail",
+    >                "price": 680,
+    >                "sell": 340,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                12,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Flail] A flail reinforced with steel.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_098",
+    >                "id": "1506c62a-56d0-473e-9dd9-4772e9e98d1d",
+    >                "name": "Morning Star",
+    >                "price": 1460,
+    >                "sell": 730,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                18,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Flail] A flail bearing a mythril head and reinforcements.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_098",
+    >                "id": "6de54ba9-ea51-4d94-a464-ab380f053387",
+    >                "name": "Mythril Flail",
+    >                "price": 2980,
+    >                "sell": 1490,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                23,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+    >                "canSell": 0,
+    >                "description": "[Flail] A flail studded with dragon teeth for extra damage.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_098",
+    >                "id": "2ffd5cbb-e514-4830-b1e2-020dca31e9fe",
+    >                "name": "Dragon Flail",
+    >                "price": 6180,
+    >                "sell": 3090,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "608a2682-8841-4e0d-8e6b-752bfb8d9027"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                29,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Axe] A small axe used for woodcutting.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_099",
+    >                "id": "13e9216c-958d-49ea-8394-cd92bda32b00",
+    >                "name": "Hand Axe",
+    >                "price": 480,
+    >                "sell": 240,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                10,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Axe] A double-bladed axe forged for use in combat.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_099",
+    >                "id": "e003cafc-ee60-4baa-8d07-ddb3b2d2f3f4",
+    >                "name": "Battle Axe",
+    >                "price": 980,
+    >                "sell": 490,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                18,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Axe] A battle axe bearing a crescent blade.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_099",
+    >                "id": "19c31d66-944f-4e6b-90e1-7d9788817414",
+    >                "name": "Bardiche",
+    >                "price": 2180,
+    >                "sell": 1090,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                25,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Axe] A battle axe bearing a mythril blade.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_099",
+    >                "id": "379b6433-199f-46b4-a0c8-d34e1a98ff72",
+    >                "name": "Mythril Axe",
+    >                "price": 4500,
+    >                "sell": 2250,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                32,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        },
+    >        {
+    >            "basic": {
+    >                "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+    >                "canSell": 0,
+    >                "description": "[Axe] A battle axe made of dragonstooth.",
+    >                "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                "iconId": "IconSet_099",
+    >                "id": "937258c9-c5f5-48ca-9a4d-ebc65c55a429",
+    >                "name": "Dragon Axe",
+    >                "price": 9600,
+    >                "sell": 4800,
+    >                "switchItem": 0,
+    >                "weaponTypeId": "7b0de0fe-7cea-4f68-a89e-4dfb403b1017"
+    >            },
+    >            "memo": "",
+    >            "parameters": [
+    >                0,
+    >                0,
+    >                45,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "traits": [
+    >                {
+    >                    "categoryId": 3,
+    >                    "effectId": 2,
+    >                    "traitsId": 1,
+    >                    "value": 0
+    >                },
+    >                {
+    >                    "categoryId": 2,
+    >                    "effectId": 0,
+    >                    "traitsId": 2,
+    >                    "value": 0
+    >                }
+    >            ]
+    >        }
+    >    ]
+    >]
+    >```

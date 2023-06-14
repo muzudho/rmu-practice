@@ -1,0 +1,4575 @@
+﻿# JSON schema: Assets RPGMaker Storage Character JSON characterActor
+
+* $schema: https://json-schema.org/draft/2019-09/schema
+* $id: http://example.com/example.json
+* 😁 `#ROOT#` array
+    * default - ```[]```
+    * required - ['basic', 'charaType', 'element', 'equips', 'image', 'initialLevel', 'maxLevel', 'name', 'nickname', 'profile', 'traits', 'uuId']
+    * 😁 `basic` property
+        * required - ['classId', 'initialLevel', 'maxLevel', 'memo', 'name', 'profile', 'secondName']
+        * 😁 `classId` property
+            * examples:
+                >```
+                >[
+                >    "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+                >    "090b07bd-223d-488e-8016-f3a8293f57a1",
+                >    "e3912a26-0c3c-44c9-9454-5cb91c0aa689",
+                >    "14ea366f-85a0-4d2f-90d3-4d367fb026bc",
+                >    "",
+                >    "318ac16e-3e15-4962-bd9a-8e0c50356d34",
+                >    "2fb7fb08-6ae7-4b02-a251-8e8e52d4906c",
+                >    "ac85ea7b-8f52-4572-81e1-c8044704e6f6",
+                >    "cb80cc56-5314-499f-ae7b-b6f6232b4e43",
+                >    "74a71575-7e7d-4f63-9ad0-34790c16a5e8",
+                >    "f510cdd3-624b-434d-b2a0-d330f2f60f3f",
+                >    "87138fce-4a1a-4bda-bc31-7b8cd9243957",
+                >    "6058ef9d-cd0e-4ef2-b962-3841cf8a5dca"
+                >]
+                >```
+        * 😁 `initialLevel` property
+            * examples:
+                >```
+                >[
+                >    1,
+                >    4,
+                >    7
+                >]
+                >```
+        * 😁 `maxLevel` property
+            * examples:
+                >```
+                >[
+                >    99
+                >]
+                >```
+        * 😁 `memo` property
+            * examples:
+                >```
+                >[
+                >    ""
+                >]
+                >```
+        * 😁 `name` property
+            * examples:
+                >```
+                >[
+                >    "Craft",
+                >    "Miguel",
+                >    "Sharon",
+                >    "Clarisse",
+                >    "Michelle",
+                >    "Celio",
+                >    "Glorianos",
+                >    "Vanessa",
+                >    "Rengnar",
+                >    "Snare",
+                >    "King",
+                >    "Gryff",
+                >    "Rashad",
+                >    "Emeelia",
+                >    "Marc",
+                >    "Rosemary",
+                >    "Rheimar",
+                >    "Kayore",
+                >    "Jared",
+                >    "Luca",
+                >    "Gen",
+                >    "Kai",
+                >    "Alfred",
+                >    "Kayleigh",
+                >    "Ehrhardt",
+                >    "Persephe"
+                >]
+                >```
+        * 😁 `profile` property
+            * examples:
+                >```
+                >[
+                >    "A young boy hailing from the Frontier Town, Starterton. He dreams of becoming a Royal Knight in the Capital.",
+                >    "A young lad who was born and raised in the Nomad Village, Kalahari. He's a master archer who cares deeply for his younger brother.",
+                >    "A young girl from the Magic City of Hardengere. You'll run into her during your visit to the Port City Limitana.",
+                >    "A brave young girl who travels alone. Her curiosity knows no bounds and she loves a good adventure.",
+                >    "A talented sniper trained in both guns and bowguns. She's also learned quite a bit from the machine shop in Hinomoto.",
+                >    "An esteemed student at the Magic School in the Academy City, Hardengere.",
+                >    "A veteran warrior who set out on a journey to tell the world what befell of his hometown, Orado.",
+                >    "A respected commander who leads her allies on the frontlines in the warzone of Orado.",
+                >    "",
+                >    "A healer with a serious demeanor who bears no association to any temple. He's participating in the Combat Tournament in the Royal Capital.",
+                >    "The Deputy First Aid Officer in Closis. She fights to save the numerous wounded soldiers on the battlefield.",
+                >    "Commander of the 2nd Regiment in the Sacred City of Closis. Can expertly switch between both attack and defense.",
+                >    "Commander of the 3rd Regiment in the Sacred City of Closis. Famous for her bravery in battle.",
+                >    "A young man who is expected to succeed his father and become a martial arts master.",
+                >    "A young girl who travels the world, offering her services as a mercenary to various territories as a form of martial arts training.",
+                >    "A calm and collected leader who's earned the respect of the people as a knight of Bretagne Castle.",
+                >    "A young girl whose fighting instincts have been recognized by Lengner himself. You'll meet her as one of your opponents during the Combat Tournament in the Royal Capital.",
+                >    "The chief of the Jungle Tribe who serves as an aide to the young queen.",
+                >    "The young queen of the Jungle Tribe. Despite her rough appearance, she's actually a descendent of an extremely ancient civilization.",
+                >    "A young man who spends his life as a ronin, forever honing his skills with the sword.",
+                >    "A young swordswoman whose natural talent has earned her the permission to operate her own dojo.",
+                >    "A solitary ninja who usually spends his time running a machine shop, keeping the history of ancient techniques alive.",
+                >    "The young female leader of a ninja organization that works in the shadows to support the head of their family.",
+                >    "A man who looks upon the changes affecting the world with worry, waiting for the time to come.",
+                >    "An eccentric woman who finds more interest in assisting humans than her own kind."
+                >]
+                >```
+        * 😁 `secondName` property
+            * examples:
+                >```
+                >[
+                >    ""
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    {
+            >        "classId": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Craft",
+            >        "profile": "A young boy hailing from the Frontier Town, Starterton. He dreams of becoming a Royal Knight in the Capital.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "090b07bd-223d-488e-8016-f3a8293f57a1",
+            >        "initialLevel": 4,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Miguel",
+            >        "profile": "A young lad who was born and raised in the Nomad Village, Kalahari. He's a master archer who cares deeply for his younger brother.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "e3912a26-0c3c-44c9-9454-5cb91c0aa689",
+            >        "initialLevel": 7,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Sharon",
+            >        "profile": "A young girl from the Magic City of Hardengere. You'll run into her during your visit to the Port City Limitana.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Clarisse",
+            >        "profile": "A brave young girl who travels alone. Her curiosity knows no bounds and she loves a good adventure.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "090b07bd-223d-488e-8016-f3a8293f57a1",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Michelle",
+            >        "profile": "A talented sniper trained in both guns and bowguns. She's also learned quite a bit from the machine shop in Hinomoto.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "e3912a26-0c3c-44c9-9454-5cb91c0aa689",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Celio",
+            >        "profile": "An esteemed student at the Magic School in the Academy City, Hardengere.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "14ea366f-85a0-4d2f-90d3-4d367fb026bc",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Glorianos",
+            >        "profile": "A veteran warrior who set out on a journey to tell the world what befell of his hometown, Orado.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "14ea366f-85a0-4d2f-90d3-4d367fb026bc",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Vanessa",
+            >        "profile": "A respected commander who leads her allies on the frontlines in the warzone of Orado.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Rengnar",
+            >        "profile": "",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Snare",
+            >        "profile": "",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "King",
+            >        "profile": "",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Gryff",
+            >        "profile": "",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Rashad",
+            >        "profile": "",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "318ac16e-3e15-4962-bd9a-8e0c50356d34",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Rashad",
+            >        "profile": "A healer with a serious demeanor who bears no association to any temple. He's participating in the Combat Tournament in the Royal Capital.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "318ac16e-3e15-4962-bd9a-8e0c50356d34",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Emeelia",
+            >        "profile": "The Deputy First Aid Officer in Closis. She fights to save the numerous wounded soldiers on the battlefield.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "2fb7fb08-6ae7-4b02-a251-8e8e52d4906c",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Marc",
+            >        "profile": "Commander of the 2nd Regiment in the Sacred City of Closis. Can expertly switch between both attack and defense.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "2fb7fb08-6ae7-4b02-a251-8e8e52d4906c",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Rosemary",
+            >        "profile": "Commander of the 3rd Regiment in the Sacred City of Closis. Famous for her bravery in battle.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "ac85ea7b-8f52-4572-81e1-c8044704e6f6",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Rheimar",
+            >        "profile": "A young man who is expected to succeed his father and become a martial arts master.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "ac85ea7b-8f52-4572-81e1-c8044704e6f6",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Kayore",
+            >        "profile": "A young girl who travels the world, offering her services as a mercenary to various territories as a form of martial arts training.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "cb80cc56-5314-499f-ae7b-b6f6232b4e43",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Rengnar",
+            >        "profile": "A calm and collected leader who's earned the respect of the people as a knight of Bretagne Castle.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "cb80cc56-5314-499f-ae7b-b6f6232b4e43",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Snare",
+            >        "profile": "A young girl whose fighting instincts have been recognized by Lengner himself. You'll meet her as one of your opponents during the Combat Tournament in the Royal Capital.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "74a71575-7e7d-4f63-9ad0-34790c16a5e8",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Jared",
+            >        "profile": "The chief of the Jungle Tribe who serves as an aide to the young queen.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "74a71575-7e7d-4f63-9ad0-34790c16a5e8",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Luca",
+            >        "profile": "The young queen of the Jungle Tribe. Despite her rough appearance, she's actually a descendent of an extremely ancient civilization.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "f510cdd3-624b-434d-b2a0-d330f2f60f3f",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Gen",
+            >        "profile": "A young man who spends his life as a ronin, forever honing his skills with the sword.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "f510cdd3-624b-434d-b2a0-d330f2f60f3f",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Kai",
+            >        "profile": "A young swordswoman whose natural talent has earned her the permission to operate her own dojo.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "87138fce-4a1a-4bda-bc31-7b8cd9243957",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Alfred",
+            >        "profile": "A solitary ninja who usually spends his time running a machine shop, keeping the history of ancient techniques alive.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "87138fce-4a1a-4bda-bc31-7b8cd9243957",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Kayleigh",
+            >        "profile": "The young female leader of a ninja organization that works in the shadows to support the head of their family.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "6058ef9d-cd0e-4ef2-b962-3841cf8a5dca",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Ehrhardt",
+            >        "profile": "A man who looks upon the changes affecting the world with worry, waiting for the time to come.",
+            >        "secondName": ""
+            >    },
+            >    {
+            >        "classId": "6058ef9d-cd0e-4ef2-b962-3841cf8a5dca",
+            >        "initialLevel": 1,
+            >        "maxLevel": 99,
+            >        "memo": "",
+            >        "name": "Persephe",
+            >        "profile": "An eccentric woman who finds more interest in assisting humans than her own kind.",
+            >        "secondName": ""
+            >    }
+            >]
+            >```
+    * 😁 `charaType` property
+        * examples:
+            >```
+            >[
+            >    1,
+            >    2
+            >]
+            >```
+    * 😁 `element` property
+        * examples:
+            >```
+            >[
+            >    0,
+            >    8,
+            >    3
+            >]
+            >```
+    * 😁 `equips` property
+        * 😁 `equips` array - default: None
+            * default - ```None```
+            * required - ['type', 'value']
+            * 😁 `type` property
+                * examples:
+                    >```
+                    >[
+                    >    "48254f68-178f-448e-98fd-60a0bb616a28",
+                    >    "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                    >    "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                    >    "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                    >    "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                    >    ""
+                    >]
+                    >```
+            * 😁 `value` property
+                * examples:
+                    >```
+                    >[
+                    >    "661cb624-e856-494e-94b8-0e41064e90b0",
+                    >    "",
+                    >    "2f1bced4-122a-4ee2-98fa-bd80f381036d",
+                    >    "9f302811-0a5e-4ecc-b00c-d4601eedea60",
+                    >    "d410334d-6fb2-486a-839f-cf655dd6bfdb",
+                    >    "261f4871-4cf2-4aeb-94cb-87821c1534f8",
+                    >    "3b43e5d9-721a-4beb-82e9-be48c2240f74",
+                    >    "8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4",
+                    >    "9904b0cf-5213-4a74-9dce-89c834f552e7",
+                    >    "3a226a2f-6a3b-430c-917c-7bd7750e4612",
+                    >    "88790220-72d8-4b34-95ec-947af47a5e22",
+                    >    "595e24d8-1455-491b-8704-13c237dc9ee1",
+                    >    "bcdd9a69-f5f6-41ef-9f70-642b54083042",
+                    >    "feef80d5-8908-433a-bad6-ddd609c664e7",
+                    >    "13e9216c-958d-49ea-8394-cd92bda32b00",
+                    >    "0",
+                    >    "ffd9dd7d-00ed-4835-9545-3cc098401895",
+                    >    "4519dc16-a5e0-4792-8adb-99f354a0c18b",
+                    >    "61edc1cf-0b24-4a1e-a835-6e0f7929da4b",
+                    >    "b60beb8a-f79d-4ab1-b7fa-1c5435022376",
+                    >    "7c3ff758-46b8-4ec5-99f7-d10c94afb499",
+                    >    "b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc",
+                    >    "dfad600e-e663-48b6-bc53-8513403ad5b2"
+                    >]
+                    >```
+            * examples:
+                >```
+                >[
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "661cb624-e856-494e-94b8-0e41064e90b0"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "9f302811-0a5e-4ecc-b00c-d4601eedea60"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": "d410334d-6fb2-486a-839f-cf655dd6bfdb"
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": "8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4"
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": "9904b0cf-5213-4a74-9dce-89c834f552e7"
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "bcdd9a69-f5f6-41ef-9f70-642b54083042"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": "feef80d5-8908-433a-bad6-ddd609c664e7"
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "13e9216c-958d-49ea-8394-cd92bda32b00"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "13e9216c-958d-49ea-8394-cd92bda32b00"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "",
+                >        "value": "0"
+                >    },
+                >    {
+                >        "type": "",
+                >        "value": "0"
+                >    },
+                >    {
+                >        "type": "",
+                >        "value": "0"
+                >    },
+                >    {
+                >        "type": "",
+                >        "value": "0"
+                >    },
+                >    {
+                >        "type": "",
+                >        "value": "0"
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": "8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4"
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "4519dc16-a5e0-4792-8adb-99f354a0c18b"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "4519dc16-a5e0-4792-8adb-99f354a0c18b"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b"
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": "b60beb8a-f79d-4ab1-b7fa-1c5435022376"
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "7c3ff758-46b8-4ec5-99f7-d10c94afb499"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b"
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": "b60beb8a-f79d-4ab1-b7fa-1c5435022376"
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "dfad600e-e663-48b6-bc53-8513403ad5b2"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "dfad600e-e663-48b6-bc53-8513403ad5b2"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+                >        "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+                >    },
+                >    {
+                >        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+                >        "value": ""
+                >    },
+                >    {
+                >        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+                >        "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+                >    },
+                >    {
+                >        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+                >        "value": ""
+                >    }
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "661cb624-e856-494e-94b8-0e41064e90b0"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "9f302811-0a5e-4ecc-b00c-d4601eedea60"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": "d410334d-6fb2-486a-839f-cf655dd6bfdb"
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": "8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4"
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": "9904b0cf-5213-4a74-9dce-89c834f552e7"
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "bcdd9a69-f5f6-41ef-9f70-642b54083042"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": "feef80d5-8908-433a-bad6-ddd609c664e7"
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "13e9216c-958d-49ea-8394-cd92bda32b00"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "13e9216c-958d-49ea-8394-cd92bda32b00"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "",
+            >            "value": "0"
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "",
+            >            "value": "0"
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "",
+            >            "value": "0"
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "",
+            >            "value": "0"
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "",
+            >            "value": "0"
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": "8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4"
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "4519dc16-a5e0-4792-8adb-99f354a0c18b"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "4519dc16-a5e0-4792-8adb-99f354a0c18b"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b"
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": "b60beb8a-f79d-4ab1-b7fa-1c5435022376"
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "7c3ff758-46b8-4ec5-99f7-d10c94afb499"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b"
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": "b60beb8a-f79d-4ab1-b7fa-1c5435022376"
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "dfad600e-e663-48b6-bc53-8513403ad5b2"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "dfad600e-e663-48b6-bc53-8513403ad5b2"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+            >            "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+            >        },
+            >        {
+            >            "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+            >            "value": ""
+            >        },
+            >        {
+            >            "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+            >            "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+            >        },
+            >        {
+            >            "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+            >            "value": ""
+            >        }
+            >    ]
+            >]
+            >```
+    * 😁 `image` property
+        * required - ['adv', 'battler', 'character', 'face']
+        * 😁 `adv` property
+            * examples:
+                >```
+                >[
+                >    "charaupperbody_001_Actor",
+                >    "charaupperbody_003_Actor",
+                >    "charaupperbody_006_Actor",
+                >    "charaupperbody_002_Actor",
+                >    "charaupperbody_004_Actor",
+                >    "charaupperbody_005_Actor",
+                >    "charaupperbody_007_Actor",
+                >    "charaupperbody_008_Actor",
+                >    "charaupperbody_015_Actor",
+                >    "charaupperbody_016_Actor",
+                >    "charaupperbody_055_People",
+                >    "charaupperbody_031_Evil",
+                >    "charaupperbody_009_Actor",
+                >    "charaupperbody_010_Actor",
+                >    "charaupperbody_011_Actor",
+                >    "charaupperbody_012_Actor",
+                >    "charaupperbody_013_Actor",
+                >    "charaupperbody_014_Actor",
+                >    "charaupperbody_017_Actor",
+                >    "charaupperbody_018_Actor",
+                >    "charaupperbody_019_Actor",
+                >    "charaupperbody_020_Actor",
+                >    "charaupperbody_021_Actor",
+                >    "charaupperbody_022_Actor",
+                >    "charaupperbody_023_Actor",
+                >    "charaupperbody_024_Actor"
+                >]
+                >```
+        * 😁 `battler` property
+            * examples:
+                >```
+                >[
+                >    "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+                >    "c1ecd373-0b09-4299-ab11-e320903e0c87",
+                >    "01a22294-1de0-47a9-b0a2-8a210364bd1b",
+                >    "97305d27-f354-47a6-b753-17665fac01cc",
+                >    "1b557c2e-6b62-450f-8631-f871d38a5e2f",
+                >    "d3a6de19-dfce-45b1-aa5f-bd48c4c59431",
+                >    "53dbe1dc-8928-4ff9-a20e-68e4ca18ae3b",
+                >    "3dc90627-ed39-4ccb-a721-5e5b4242308b",
+                >    "6a7ae645-7dd9-44c1-b242-4d82b65aa803",
+                >    "c35d41d5-e183-4ec7-a58b-2352be94c68c",
+                >    "1eb40351-0713-41ad-8f0c-109fd01bee39",
+                >    "261a5043-beb7-4fa2-ad65-d5541645b10b",
+                >    "94412eb8-20a8-4ed9-bc4d-3403c8bf1b12",
+                >    "2794a58e-8771-427e-b804-7e780161fba4",
+                >    "3925ea86-f13f-45f5-901e-09f199ffe945",
+                >    "56f31f05-e2ec-4042-bd34-9ff19ac8c48f",
+                >    "0003c951-f75e-47d0-a8d1-b8fb82cae285",
+                >    "dcf98595-26d7-4ce1-ba8c-9b2cb5a967cf",
+                >    "28c29c99-ed83-449f-883f-996ecd55257f",
+                >    "eec27fac-b1d7-4c81-bbc8-101afabc4968",
+                >    "a101e8dc-1f0a-44f2-8662-040c507b32d8",
+                >    "e5fb36b8-648f-4814-8037-43c79159b715",
+                >    "f53a5c9d-a1c6-46b3-9d38-44ac630efc72",
+                >    "ee879f35-3bde-4755-a7ce-30e821fa15dd"
+                >]
+                >```
+        * 😁 `character` property
+            * examples:
+                >```
+                >[
+                >    "78a965c8-7400-432e-a17f-93432f6b9ff5",
+                >    "60cc7e88-f27a-4608-9152-06ca3704de2a",
+                >    "6c7b7fea-11b5-4789-ae62-c18670faacae",
+                >    "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+                >    "d6b49430-02b5-41fa-95b1-47d8574f2df8",
+                >    "352c7990-8acf-4037-a0f6-c19d05583f10",
+                >    "cca6e316-9c3f-4aa1-a82e-3925a14bcad0",
+                >    "589b264f-c609-4a4b-a18e-60bb3769a8d1",
+                >    "abd04eef-83a3-432b-b5e7-d244ebc2ae2c",
+                >    "07992b30-e4c4-454e-9335-71b9750566f7",
+                >    "3972e31c-64ec-4258-8df0-0f969d85ce85",
+                >    "bd35bf06-4b8f-460b-8090-15e5b812fb43",
+                >    "8bb064fc-a66c-49f9-9d1d-0367becda2dd",
+                >    "18062202-f8f6-4c41-85a7-3d7a7d0e5371",
+                >    "814bce8a-d161-476f-935f-7c2543048885",
+                >    "cd285976-3f9b-43eb-a428-529a2bca9349",
+                >    "8ac4b30d-f4cc-49ef-a1a8-da1864abd3e7",
+                >    "d6ae2864-e0c5-4a05-8174-74ebe391c1b0",
+                >    "44e78842-5108-4e8e-ade9-0fe295cdeb7d",
+                >    "94f859f4-aa4d-44ac-8f85-4e470bfbf9c2",
+                >    "ee4c8593-3c5b-430b-8072-9ab4bd1691c0",
+                >    "1ea5b36f-c25d-48cf-82a2-d793aaa6084b",
+                >    "78862513-7992-4c79-aef2-b741571ebd88",
+                >    "408b6775-6a5e-4a32-94cf-d00309d4d6ae",
+                >    "66b79abf-8335-4d95-aab1-4ffa68670474",
+                >    "f60a361e-6bac-4e57-9ace-6aeea03fd059"
+                >]
+                >```
+        * 😁 `face` property
+            * examples:
+                >```
+                >[
+                >    "charaface_001_Actor",
+                >    "charaface_003_Actor",
+                >    "charaface_006_Actor",
+                >    "charaface_002_Actor",
+                >    "charaface_004_Actor",
+                >    "charaface_005_Actor",
+                >    "charaface_007_Actor",
+                >    "charaface_008_Actor",
+                >    "charaface_015_Actor",
+                >    "charaface_016_Actor",
+                >    "charaface_055_People",
+                >    "charaface_031_Evil",
+                >    "charaface_009_Actor",
+                >    "charaface_010_Actor",
+                >    "charaface_011_Actor",
+                >    "charaface_012_Actor",
+                >    "charaface_013_Actor",
+                >    "charaface_014_Actor",
+                >    "charaface_017_Actor",
+                >    "charaface_018_Actor",
+                >    "charaface_019_Actor",
+                >    "charaface_020_Actor",
+                >    "charaface_021_Actor",
+                >    "charaface_022_Actor",
+                >    "charaface_023_Actor",
+                >    "charaface_024_Actor"
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    {
+            >        "adv": "charaupperbody_001_Actor",
+            >        "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+            >        "character": "78a965c8-7400-432e-a17f-93432f6b9ff5",
+            >        "face": "charaface_001_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_003_Actor",
+            >        "battler": "c1ecd373-0b09-4299-ab11-e320903e0c87",
+            >        "character": "60cc7e88-f27a-4608-9152-06ca3704de2a",
+            >        "face": "charaface_003_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_006_Actor",
+            >        "battler": "01a22294-1de0-47a9-b0a2-8a210364bd1b",
+            >        "character": "6c7b7fea-11b5-4789-ae62-c18670faacae",
+            >        "face": "charaface_006_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_002_Actor",
+            >        "battler": "97305d27-f354-47a6-b753-17665fac01cc",
+            >        "character": "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+            >        "face": "charaface_002_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_004_Actor",
+            >        "battler": "1b557c2e-6b62-450f-8631-f871d38a5e2f",
+            >        "character": "d6b49430-02b5-41fa-95b1-47d8574f2df8",
+            >        "face": "charaface_004_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_005_Actor",
+            >        "battler": "d3a6de19-dfce-45b1-aa5f-bd48c4c59431",
+            >        "character": "352c7990-8acf-4037-a0f6-c19d05583f10",
+            >        "face": "charaface_005_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_007_Actor",
+            >        "battler": "53dbe1dc-8928-4ff9-a20e-68e4ca18ae3b",
+            >        "character": "cca6e316-9c3f-4aa1-a82e-3925a14bcad0",
+            >        "face": "charaface_007_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_008_Actor",
+            >        "battler": "3dc90627-ed39-4ccb-a721-5e5b4242308b",
+            >        "character": "589b264f-c609-4a4b-a18e-60bb3769a8d1",
+            >        "face": "charaface_008_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_015_Actor",
+            >        "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+            >        "character": "abd04eef-83a3-432b-b5e7-d244ebc2ae2c",
+            >        "face": "charaface_015_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_016_Actor",
+            >        "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+            >        "character": "07992b30-e4c4-454e-9335-71b9750566f7",
+            >        "face": "charaface_016_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_055_People",
+            >        "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+            >        "character": "3972e31c-64ec-4258-8df0-0f969d85ce85",
+            >        "face": "charaface_055_People"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_031_Evil",
+            >        "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+            >        "character": "bd35bf06-4b8f-460b-8090-15e5b812fb43",
+            >        "face": "charaface_031_Evil"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_009_Actor",
+            >        "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+            >        "character": "8bb064fc-a66c-49f9-9d1d-0367becda2dd",
+            >        "face": "charaface_009_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_009_Actor",
+            >        "battler": "6a7ae645-7dd9-44c1-b242-4d82b65aa803",
+            >        "character": "8bb064fc-a66c-49f9-9d1d-0367becda2dd",
+            >        "face": "charaface_009_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_010_Actor",
+            >        "battler": "c35d41d5-e183-4ec7-a58b-2352be94c68c",
+            >        "character": "18062202-f8f6-4c41-85a7-3d7a7d0e5371",
+            >        "face": "charaface_010_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_011_Actor",
+            >        "battler": "1eb40351-0713-41ad-8f0c-109fd01bee39",
+            >        "character": "814bce8a-d161-476f-935f-7c2543048885",
+            >        "face": "charaface_011_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_012_Actor",
+            >        "battler": "261a5043-beb7-4fa2-ad65-d5541645b10b",
+            >        "character": "cd285976-3f9b-43eb-a428-529a2bca9349",
+            >        "face": "charaface_012_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_013_Actor",
+            >        "battler": "94412eb8-20a8-4ed9-bc4d-3403c8bf1b12",
+            >        "character": "8ac4b30d-f4cc-49ef-a1a8-da1864abd3e7",
+            >        "face": "charaface_013_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_014_Actor",
+            >        "battler": "2794a58e-8771-427e-b804-7e780161fba4",
+            >        "character": "d6ae2864-e0c5-4a05-8174-74ebe391c1b0",
+            >        "face": "charaface_014_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_015_Actor",
+            >        "battler": "3925ea86-f13f-45f5-901e-09f199ffe945",
+            >        "character": "abd04eef-83a3-432b-b5e7-d244ebc2ae2c",
+            >        "face": "charaface_015_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_016_Actor",
+            >        "battler": "56f31f05-e2ec-4042-bd34-9ff19ac8c48f",
+            >        "character": "07992b30-e4c4-454e-9335-71b9750566f7",
+            >        "face": "charaface_016_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_017_Actor",
+            >        "battler": "0003c951-f75e-47d0-a8d1-b8fb82cae285",
+            >        "character": "44e78842-5108-4e8e-ade9-0fe295cdeb7d",
+            >        "face": "charaface_017_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_018_Actor",
+            >        "battler": "dcf98595-26d7-4ce1-ba8c-9b2cb5a967cf",
+            >        "character": "94f859f4-aa4d-44ac-8f85-4e470bfbf9c2",
+            >        "face": "charaface_018_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_019_Actor",
+            >        "battler": "28c29c99-ed83-449f-883f-996ecd55257f",
+            >        "character": "ee4c8593-3c5b-430b-8072-9ab4bd1691c0",
+            >        "face": "charaface_019_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_020_Actor",
+            >        "battler": "eec27fac-b1d7-4c81-bbc8-101afabc4968",
+            >        "character": "1ea5b36f-c25d-48cf-82a2-d793aaa6084b",
+            >        "face": "charaface_020_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_021_Actor",
+            >        "battler": "a101e8dc-1f0a-44f2-8662-040c507b32d8",
+            >        "character": "78862513-7992-4c79-aef2-b741571ebd88",
+            >        "face": "charaface_021_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_022_Actor",
+            >        "battler": "e5fb36b8-648f-4814-8037-43c79159b715",
+            >        "character": "408b6775-6a5e-4a32-94cf-d00309d4d6ae",
+            >        "face": "charaface_022_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_023_Actor",
+            >        "battler": "f53a5c9d-a1c6-46b3-9d38-44ac630efc72",
+            >        "character": "66b79abf-8335-4d95-aab1-4ffa68670474",
+            >        "face": "charaface_023_Actor"
+            >    },
+            >    {
+            >        "adv": "charaupperbody_024_Actor",
+            >        "battler": "ee879f35-3bde-4755-a7ce-30e821fa15dd",
+            >        "character": "f60a361e-6bac-4e57-9ace-6aeea03fd059",
+            >        "face": "charaface_024_Actor"
+            >    }
+            >]
+            >```
+    * 😁 `initialLevel` property
+        * examples:
+            >```
+            >[
+            >    1
+            >]
+            >```
+    * 😁 `maxLevel` property
+        * examples:
+            >```
+            >[
+            >    99
+            >]
+            >```
+    * 😁 `name` property
+        * examples:
+            >```
+            >[
+            >    "\u30af\u30e9\u30d5\u30c8",
+            >    "\u30df\u30b2\u30eb",
+            >    "\u30b7\u30e3\u30ed\u30f3",
+            >    "\u30eb\u30fc\u30b7\u30a3",
+            >    "\u30b8\u30fc\u30af\u30cf\u30eb\u30c8",
+            >    "\u30c6\u30a3\u30a2",
+            >    "\u30b4\u30fc\u30b7\u30e5",
+            >    "\u30ea\u30b5\u30fc\u30ca",
+            >    ""
+            >]
+            >```
+    * 😁 `nickname` property
+        * examples:
+            >```
+            >[
+            >    ""
+            >]
+            >```
+    * 😁 `profile` property
+        * examples:
+            >```
+            >[
+            >    ""
+            >]
+            >```
+    * 😁 `traits` property
+        * 😁 `traits` array - default: None
+            * default - ```None```
+        * examples:
+            >```
+            >[
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    [],
+            >    []
+            >]
+            >```
+    * 😁 `uuId` property
+        * examples:
+            >```
+            >[
+            >    "a8230358-b349-4687-aaf9-e3ccb8d55479",
+            >    "25542bfa-c069-4b3c-87e3-d2cc02b4fa37",
+            >    "cfa785a6-03ef-484f-b886-70023368038e",
+            >    "2a0e1092-eaef-4654-9d0b-6eea03728a3f",
+            >    "0c03b35d-ad15-443b-b252-4f9852be7c63",
+            >    "dfe5c39c-aae8-4f10-bc26-59cb8b4627a7",
+            >    "7f1f2710-7ff8-432a-89b7-79d167a08ab0",
+            >    "48093463-b031-41f5-b1f5-0fd3709701da",
+            >    "ef4497e6-acc1-4fdd-b267-97eb38b2c168",
+            >    "b2875ac2-ac74-4174-b4fa-9ae16b310c59",
+            >    "0906c814-5478-475d-845b-6ce9053132ce",
+            >    "231587e3-5639-4c8e-882e-7cb8e41fdf43",
+            >    "6b853b27-a28d-46f2-a775-805f32d969f8",
+            >    "d7d86dc6-92f9-40ed-b847-507cb7027e20",
+            >    "96041d3b-f748-48d0-ac27-dc12db93b89d",
+            >    "b81dce78-ea28-4cdc-aa44-7a7882fd9e73",
+            >    "19836a4c-6793-465a-a355-7dc624afe76c",
+            >    "c60eb99c-d9ca-4f36-a00b-bd645f57cc7b",
+            >    "e0ddc095-feb1-4e9b-afda-88347a14dc32",
+            >    "130a9ac5-001a-4cb3-9f8e-42ffa92cbb98",
+            >    "79ae51ff-1761-4f00-b890-96da27ca154e",
+            >    "bbfecf28-658b-48a7-9a00-9af112fa0efb",
+            >    "c5a2b33d-750a-46c6-a773-e238eabc6222",
+            >    "86629cf3-53d7-42b4-b36f-4cb915af1bbc",
+            >    "3f7d0a53-2971-41fb-a67b-22151666d26f",
+            >    "c1817d39-cf33-4dc7-b9e1-1b58103575d0",
+            >    "586442f0-bb12-4ca2-8196-815b2a3842ed",
+            >    "d59e358a-ff44-4245-ad7f-3d8bfdcc32d4",
+            >    "631ba9c0-ae29-45bc-a934-1068a64b7e02"
+            >]
+            >```
+    * examples:
+        >```
+        >[
+        >    {
+        >        "basic": {
+        >            "classId": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Craft",
+        >            "profile": "A young boy hailing from the Frontier Town, Starterton. He dreams of becoming a Royal Knight in the Capital.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "661cb624-e856-494e-94b8-0e41064e90b0"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_001_Actor",
+        >            "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+        >            "character": "78a965c8-7400-432e-a17f-93432f6b9ff5",
+        >            "face": "charaface_001_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "\u30af\u30e9\u30d5\u30c8",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "a8230358-b349-4687-aaf9-e3ccb8d55479"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "090b07bd-223d-488e-8016-f3a8293f57a1",
+        >            "initialLevel": 4,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Miguel",
+        >            "profile": "A young lad who was born and raised in the Nomad Village, Kalahari. He's a master archer who cares deeply for his younger brother.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 8,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "9f302811-0a5e-4ecc-b00c-d4601eedea60"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": "d410334d-6fb2-486a-839f-cf655dd6bfdb"
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_003_Actor",
+        >            "battler": "c1ecd373-0b09-4299-ab11-e320903e0c87",
+        >            "character": "60cc7e88-f27a-4608-9152-06ca3704de2a",
+        >            "face": "charaface_003_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "\u30df\u30b2\u30eb",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "25542bfa-c069-4b3c-87e3-d2cc02b4fa37"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "e3912a26-0c3c-44c9-9454-5cb91c0aa689",
+        >            "initialLevel": 7,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Sharon",
+        >            "profile": "A young girl from the Magic City of Hardengere. You'll run into her during your visit to the Port City Limitana.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 3,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": "8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4"
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": "9904b0cf-5213-4a74-9dce-89c834f552e7"
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_006_Actor",
+        >            "battler": "01a22294-1de0-47a9-b0a2-8a210364bd1b",
+        >            "character": "6c7b7fea-11b5-4789-ae62-c18670faacae",
+        >            "face": "charaface_006_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "\u30b7\u30e3\u30ed\u30f3",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "cfa785a6-03ef-484f-b886-70023368038e"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Clarisse",
+        >            "profile": "A brave young girl who travels alone. Her curiosity knows no bounds and she loves a good adventure.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_002_Actor",
+        >            "battler": "97305d27-f354-47a6-b753-17665fac01cc",
+        >            "character": "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+        >            "face": "charaface_002_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "\u30eb\u30fc\u30b7\u30a3",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "2a0e1092-eaef-4654-9d0b-6eea03728a3f"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "090b07bd-223d-488e-8016-f3a8293f57a1",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Michelle",
+        >            "profile": "A talented sniper trained in both guns and bowguns. She's also learned quite a bit from the machine shop in Hinomoto.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "bcdd9a69-f5f6-41ef-9f70-642b54083042"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": "feef80d5-8908-433a-bad6-ddd609c664e7"
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_004_Actor",
+        >            "battler": "1b557c2e-6b62-450f-8631-f871d38a5e2f",
+        >            "character": "d6b49430-02b5-41fa-95b1-47d8574f2df8",
+        >            "face": "charaface_004_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "\u30b8\u30fc\u30af\u30cf\u30eb\u30c8",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "0c03b35d-ad15-443b-b252-4f9852be7c63"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "e3912a26-0c3c-44c9-9454-5cb91c0aa689",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Celio",
+        >            "profile": "An esteemed student at the Magic School in the Academy City, Hardengere.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_005_Actor",
+        >            "battler": "d3a6de19-dfce-45b1-aa5f-bd48c4c59431",
+        >            "character": "352c7990-8acf-4037-a0f6-c19d05583f10",
+        >            "face": "charaface_005_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "\u30c6\u30a3\u30a2",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "dfe5c39c-aae8-4f10-bc26-59cb8b4627a7"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "14ea366f-85a0-4d2f-90d3-4d367fb026bc",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Glorianos",
+        >            "profile": "A veteran warrior who set out on a journey to tell the world what befell of his hometown, Orado.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "13e9216c-958d-49ea-8394-cd92bda32b00"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_007_Actor",
+        >            "battler": "53dbe1dc-8928-4ff9-a20e-68e4ca18ae3b",
+        >            "character": "cca6e316-9c3f-4aa1-a82e-3925a14bcad0",
+        >            "face": "charaface_007_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "\u30b4\u30fc\u30b7\u30e5",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "7f1f2710-7ff8-432a-89b7-79d167a08ab0"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "14ea366f-85a0-4d2f-90d3-4d367fb026bc",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Vanessa",
+        >            "profile": "A respected commander who leads her allies on the frontlines in the warzone of Orado.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "13e9216c-958d-49ea-8394-cd92bda32b00"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_008_Actor",
+        >            "battler": "3dc90627-ed39-4ccb-a721-5e5b4242308b",
+        >            "character": "589b264f-c609-4a4b-a18e-60bb3769a8d1",
+        >            "face": "charaface_008_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "\u30ea\u30b5\u30fc\u30ca",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "48093463-b031-41f5-b1f5-0fd3709701da"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Rengnar",
+        >            "profile": "",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 2,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "",
+        >                "value": "0"
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_015_Actor",
+        >            "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+        >            "character": "abd04eef-83a3-432b-b5e7-d244ebc2ae2c",
+        >            "face": "charaface_015_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "ef4497e6-acc1-4fdd-b267-97eb38b2c168"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Snare",
+        >            "profile": "",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 2,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "",
+        >                "value": "0"
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_016_Actor",
+        >            "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+        >            "character": "07992b30-e4c4-454e-9335-71b9750566f7",
+        >            "face": "charaface_016_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "b2875ac2-ac74-4174-b4fa-9ae16b310c59"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "King",
+        >            "profile": "",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 2,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "",
+        >                "value": "0"
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_055_People",
+        >            "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+        >            "character": "3972e31c-64ec-4258-8df0-0f969d85ce85",
+        >            "face": "charaface_055_People"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "0906c814-5478-475d-845b-6ce9053132ce"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Gryff",
+        >            "profile": "",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 2,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "",
+        >                "value": "0"
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_031_Evil",
+        >            "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+        >            "character": "bd35bf06-4b8f-460b-8090-15e5b812fb43",
+        >            "face": "charaface_031_Evil"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "231587e3-5639-4c8e-882e-7cb8e41fdf43"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Rashad",
+        >            "profile": "",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 2,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "",
+        >                "value": "0"
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_009_Actor",
+        >            "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+        >            "character": "8bb064fc-a66c-49f9-9d1d-0367becda2dd",
+        >            "face": "charaface_009_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "6b853b27-a28d-46f2-a775-805f32d969f8"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "318ac16e-3e15-4962-bd9a-8e0c50356d34",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Rashad",
+        >            "profile": "A healer with a serious demeanor who bears no association to any temple. He's participating in the Combat Tournament in the Royal Capital.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": "8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4"
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_009_Actor",
+        >            "battler": "6a7ae645-7dd9-44c1-b242-4d82b65aa803",
+        >            "character": "8bb064fc-a66c-49f9-9d1d-0367becda2dd",
+        >            "face": "charaface_009_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "d7d86dc6-92f9-40ed-b847-507cb7027e20"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "318ac16e-3e15-4962-bd9a-8e0c50356d34",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Emeelia",
+        >            "profile": "The Deputy First Aid Officer in Closis. She fights to save the numerous wounded soldiers on the battlefield.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_010_Actor",
+        >            "battler": "c35d41d5-e183-4ec7-a58b-2352be94c68c",
+        >            "character": "18062202-f8f6-4c41-85a7-3d7a7d0e5371",
+        >            "face": "charaface_010_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "96041d3b-f748-48d0-ac27-dc12db93b89d"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "2fb7fb08-6ae7-4b02-a251-8e8e52d4906c",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Marc",
+        >            "profile": "Commander of the 2nd Regiment in the Sacred City of Closis. Can expertly switch between both attack and defense.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_011_Actor",
+        >            "battler": "1eb40351-0713-41ad-8f0c-109fd01bee39",
+        >            "character": "814bce8a-d161-476f-935f-7c2543048885",
+        >            "face": "charaface_011_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "b81dce78-ea28-4cdc-aa44-7a7882fd9e73"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "2fb7fb08-6ae7-4b02-a251-8e8e52d4906c",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Rosemary",
+        >            "profile": "Commander of the 3rd Regiment in the Sacred City of Closis. Famous for her bravery in battle.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_012_Actor",
+        >            "battler": "261a5043-beb7-4fa2-ad65-d5541645b10b",
+        >            "character": "cd285976-3f9b-43eb-a428-529a2bca9349",
+        >            "face": "charaface_012_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "19836a4c-6793-465a-a355-7dc624afe76c"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "ac85ea7b-8f52-4572-81e1-c8044704e6f6",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Rheimar",
+        >            "profile": "A young man who is expected to succeed his father and become a martial arts master.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "4519dc16-a5e0-4792-8adb-99f354a0c18b"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_013_Actor",
+        >            "battler": "94412eb8-20a8-4ed9-bc4d-3403c8bf1b12",
+        >            "character": "8ac4b30d-f4cc-49ef-a1a8-da1864abd3e7",
+        >            "face": "charaface_013_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "c60eb99c-d9ca-4f36-a00b-bd645f57cc7b"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "ac85ea7b-8f52-4572-81e1-c8044704e6f6",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Kayore",
+        >            "profile": "A young girl who travels the world, offering her services as a mercenary to various territories as a form of martial arts training.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "4519dc16-a5e0-4792-8adb-99f354a0c18b"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_014_Actor",
+        >            "battler": "2794a58e-8771-427e-b804-7e780161fba4",
+        >            "character": "d6ae2864-e0c5-4a05-8174-74ebe391c1b0",
+        >            "face": "charaface_014_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "e0ddc095-feb1-4e9b-afda-88347a14dc32"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "cb80cc56-5314-499f-ae7b-b6f6232b4e43",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Rengnar",
+        >            "profile": "A calm and collected leader who's earned the respect of the people as a knight of Bretagne Castle.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b"
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": "b60beb8a-f79d-4ab1-b7fa-1c5435022376"
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_015_Actor",
+        >            "battler": "3925ea86-f13f-45f5-901e-09f199ffe945",
+        >            "character": "abd04eef-83a3-432b-b5e7-d244ebc2ae2c",
+        >            "face": "charaface_015_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "130a9ac5-001a-4cb3-9f8e-42ffa92cbb98"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "cb80cc56-5314-499f-ae7b-b6f6232b4e43",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Snare",
+        >            "profile": "A young girl whose fighting instincts have been recognized by Lengner himself. You'll meet her as one of your opponents during the Combat Tournament in the Royal Capital.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "7c3ff758-46b8-4ec5-99f7-d10c94afb499"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b"
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": "b60beb8a-f79d-4ab1-b7fa-1c5435022376"
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_016_Actor",
+        >            "battler": "56f31f05-e2ec-4042-bd34-9ff19ac8c48f",
+        >            "character": "07992b30-e4c4-454e-9335-71b9750566f7",
+        >            "face": "charaface_016_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "79ae51ff-1761-4f00-b890-96da27ca154e"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "74a71575-7e7d-4f63-9ad0-34790c16a5e8",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Jared",
+        >            "profile": "The chief of the Jungle Tribe who serves as an aide to the young queen.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_017_Actor",
+        >            "battler": "0003c951-f75e-47d0-a8d1-b8fb82cae285",
+        >            "character": "44e78842-5108-4e8e-ade9-0fe295cdeb7d",
+        >            "face": "charaface_017_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "bbfecf28-658b-48a7-9a00-9af112fa0efb"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "74a71575-7e7d-4f63-9ad0-34790c16a5e8",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Luca",
+        >            "profile": "The young queen of the Jungle Tribe. Despite her rough appearance, she's actually a descendent of an extremely ancient civilization.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_018_Actor",
+        >            "battler": "dcf98595-26d7-4ce1-ba8c-9b2cb5a967cf",
+        >            "character": "94f859f4-aa4d-44ac-8f85-4e470bfbf9c2",
+        >            "face": "charaface_018_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "c5a2b33d-750a-46c6-a773-e238eabc6222"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "f510cdd3-624b-434d-b2a0-d330f2f60f3f",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Gen",
+        >            "profile": "A young man who spends his life as a ronin, forever honing his skills with the sword.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_019_Actor",
+        >            "battler": "28c29c99-ed83-449f-883f-996ecd55257f",
+        >            "character": "ee4c8593-3c5b-430b-8072-9ab4bd1691c0",
+        >            "face": "charaface_019_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "86629cf3-53d7-42b4-b36f-4cb915af1bbc"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "f510cdd3-624b-434d-b2a0-d330f2f60f3f",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Kai",
+        >            "profile": "A young swordswoman whose natural talent has earned her the permission to operate her own dojo.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_020_Actor",
+        >            "battler": "eec27fac-b1d7-4c81-bbc8-101afabc4968",
+        >            "character": "1ea5b36f-c25d-48cf-82a2-d793aaa6084b",
+        >            "face": "charaface_020_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "3f7d0a53-2971-41fb-a67b-22151666d26f"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "87138fce-4a1a-4bda-bc31-7b8cd9243957",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Alfred",
+        >            "profile": "A solitary ninja who usually spends his time running a machine shop, keeping the history of ancient techniques alive.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "dfad600e-e663-48b6-bc53-8513403ad5b2"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_021_Actor",
+        >            "battler": "a101e8dc-1f0a-44f2-8662-040c507b32d8",
+        >            "character": "78862513-7992-4c79-aef2-b741571ebd88",
+        >            "face": "charaface_021_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "c1817d39-cf33-4dc7-b9e1-1b58103575d0"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "87138fce-4a1a-4bda-bc31-7b8cd9243957",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Kayleigh",
+        >            "profile": "The young female leader of a ninja organization that works in the shadows to support the head of their family.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "dfad600e-e663-48b6-bc53-8513403ad5b2"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_022_Actor",
+        >            "battler": "e5fb36b8-648f-4814-8037-43c79159b715",
+        >            "character": "408b6775-6a5e-4a32-94cf-d00309d4d6ae",
+        >            "face": "charaface_022_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "586442f0-bb12-4ca2-8196-815b2a3842ed"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "6058ef9d-cd0e-4ef2-b962-3841cf8a5dca",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Ehrhardt",
+        >            "profile": "A man who looks upon the changes affecting the world with worry, waiting for the time to come.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_023_Actor",
+        >            "battler": "f53a5c9d-a1c6-46b3-9d38-44ac630efc72",
+        >            "character": "66b79abf-8335-4d95-aab1-4ffa68670474",
+        >            "face": "charaface_023_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "d59e358a-ff44-4245-ad7f-3d8bfdcc32d4"
+        >    },
+        >    {
+        >        "basic": {
+        >            "classId": "6058ef9d-cd0e-4ef2-b962-3841cf8a5dca",
+        >            "initialLevel": 1,
+        >            "maxLevel": 99,
+        >            "memo": "",
+        >            "name": "Persephe",
+        >            "profile": "An eccentric woman who finds more interest in assisting humans than her own kind.",
+        >            "secondName": ""
+        >        },
+        >        "charaType": 1,
+        >        "element": 0,
+        >        "equips": [
+        >            {
+        >                "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        >                "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+        >            },
+        >            {
+        >                "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        >                "value": ""
+        >            },
+        >            {
+        >                "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        >                "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+        >            },
+        >            {
+        >                "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        >                "value": ""
+        >            }
+        >        ],
+        >        "image": {
+        >            "adv": "charaupperbody_024_Actor",
+        >            "battler": "ee879f35-3bde-4755-a7ce-30e821fa15dd",
+        >            "character": "f60a361e-6bac-4e57-9ace-6aeea03fd059",
+        >            "face": "charaface_024_Actor"
+        >        },
+        >        "initialLevel": 1,
+        >        "maxLevel": 99,
+        >        "name": "",
+        >        "nickname": "",
+        >        "profile": "",
+        >        "traits": [],
+        >        "uuId": "631ba9c0-ae29-45bc-a934-1068a64b7e02"
+        >    }
+        >]
+        >```
+* examples:
+    >```
+    >[
+    >    [
+    >        {
+    >            "basic": {
+    >                "classId": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Craft",
+    >                "profile": "A young boy hailing from the Frontier Town, Starterton. He dreams of becoming a Royal Knight in the Capital.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "661cb624-e856-494e-94b8-0e41064e90b0"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_001_Actor",
+    >                "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+    >                "character": "78a965c8-7400-432e-a17f-93432f6b9ff5",
+    >                "face": "charaface_001_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "\u30af\u30e9\u30d5\u30c8",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "a8230358-b349-4687-aaf9-e3ccb8d55479"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "090b07bd-223d-488e-8016-f3a8293f57a1",
+    >                "initialLevel": 4,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Miguel",
+    >                "profile": "A young lad who was born and raised in the Nomad Village, Kalahari. He's a master archer who cares deeply for his younger brother.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 8,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "9f302811-0a5e-4ecc-b00c-d4601eedea60"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": "d410334d-6fb2-486a-839f-cf655dd6bfdb"
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_003_Actor",
+    >                "battler": "c1ecd373-0b09-4299-ab11-e320903e0c87",
+    >                "character": "60cc7e88-f27a-4608-9152-06ca3704de2a",
+    >                "face": "charaface_003_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "\u30df\u30b2\u30eb",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "25542bfa-c069-4b3c-87e3-d2cc02b4fa37"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "e3912a26-0c3c-44c9-9454-5cb91c0aa689",
+    >                "initialLevel": 7,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Sharon",
+    >                "profile": "A young girl from the Magic City of Hardengere. You'll run into her during your visit to the Port City Limitana.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 3,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": "8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4"
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": "9904b0cf-5213-4a74-9dce-89c834f552e7"
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_006_Actor",
+    >                "battler": "01a22294-1de0-47a9-b0a2-8a210364bd1b",
+    >                "character": "6c7b7fea-11b5-4789-ae62-c18670faacae",
+    >                "face": "charaface_006_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "\u30b7\u30e3\u30ed\u30f3",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "cfa785a6-03ef-484f-b886-70023368038e"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Clarisse",
+    >                "profile": "A brave young girl who travels alone. Her curiosity knows no bounds and she loves a good adventure.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_002_Actor",
+    >                "battler": "97305d27-f354-47a6-b753-17665fac01cc",
+    >                "character": "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+    >                "face": "charaface_002_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "\u30eb\u30fc\u30b7\u30a3",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "2a0e1092-eaef-4654-9d0b-6eea03728a3f"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "090b07bd-223d-488e-8016-f3a8293f57a1",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Michelle",
+    >                "profile": "A talented sniper trained in both guns and bowguns. She's also learned quite a bit from the machine shop in Hinomoto.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "bcdd9a69-f5f6-41ef-9f70-642b54083042"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": "feef80d5-8908-433a-bad6-ddd609c664e7"
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "261f4871-4cf2-4aeb-94cb-87821c1534f8"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_004_Actor",
+    >                "battler": "1b557c2e-6b62-450f-8631-f871d38a5e2f",
+    >                "character": "d6b49430-02b5-41fa-95b1-47d8574f2df8",
+    >                "face": "charaface_004_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "\u30b8\u30fc\u30af\u30cf\u30eb\u30c8",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "0c03b35d-ad15-443b-b252-4f9852be7c63"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "e3912a26-0c3c-44c9-9454-5cb91c0aa689",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Celio",
+    >                "profile": "An esteemed student at the Magic School in the Academy City, Hardengere.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_005_Actor",
+    >                "battler": "d3a6de19-dfce-45b1-aa5f-bd48c4c59431",
+    >                "character": "352c7990-8acf-4037-a0f6-c19d05583f10",
+    >                "face": "charaface_005_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "\u30c6\u30a3\u30a2",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "dfe5c39c-aae8-4f10-bc26-59cb8b4627a7"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "14ea366f-85a0-4d2f-90d3-4d367fb026bc",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Glorianos",
+    >                "profile": "A veteran warrior who set out on a journey to tell the world what befell of his hometown, Orado.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "13e9216c-958d-49ea-8394-cd92bda32b00"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_007_Actor",
+    >                "battler": "53dbe1dc-8928-4ff9-a20e-68e4ca18ae3b",
+    >                "character": "cca6e316-9c3f-4aa1-a82e-3925a14bcad0",
+    >                "face": "charaface_007_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "\u30b4\u30fc\u30b7\u30e5",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "7f1f2710-7ff8-432a-89b7-79d167a08ab0"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "14ea366f-85a0-4d2f-90d3-4d367fb026bc",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Vanessa",
+    >                "profile": "A respected commander who leads her allies on the frontlines in the warzone of Orado.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "13e9216c-958d-49ea-8394-cd92bda32b00"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_008_Actor",
+    >                "battler": "3dc90627-ed39-4ccb-a721-5e5b4242308b",
+    >                "character": "589b264f-c609-4a4b-a18e-60bb3769a8d1",
+    >                "face": "charaface_008_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "\u30ea\u30b5\u30fc\u30ca",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "48093463-b031-41f5-b1f5-0fd3709701da"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Rengnar",
+    >                "profile": "",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 2,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "",
+    >                    "value": "0"
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_015_Actor",
+    >                "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+    >                "character": "abd04eef-83a3-432b-b5e7-d244ebc2ae2c",
+    >                "face": "charaface_015_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "ef4497e6-acc1-4fdd-b267-97eb38b2c168"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Snare",
+    >                "profile": "",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 2,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "",
+    >                    "value": "0"
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_016_Actor",
+    >                "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+    >                "character": "07992b30-e4c4-454e-9335-71b9750566f7",
+    >                "face": "charaface_016_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "b2875ac2-ac74-4174-b4fa-9ae16b310c59"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "King",
+    >                "profile": "",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 2,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "",
+    >                    "value": "0"
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_055_People",
+    >                "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+    >                "character": "3972e31c-64ec-4258-8df0-0f969d85ce85",
+    >                "face": "charaface_055_People"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "0906c814-5478-475d-845b-6ce9053132ce"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Gryff",
+    >                "profile": "",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 2,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "",
+    >                    "value": "0"
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_031_Evil",
+    >                "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+    >                "character": "bd35bf06-4b8f-460b-8090-15e5b812fb43",
+    >                "face": "charaface_031_Evil"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "231587e3-5639-4c8e-882e-7cb8e41fdf43"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Rashad",
+    >                "profile": "",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 2,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "",
+    >                    "value": "0"
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_009_Actor",
+    >                "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+    >                "character": "8bb064fc-a66c-49f9-9d1d-0367becda2dd",
+    >                "face": "charaface_009_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "6b853b27-a28d-46f2-a775-805f32d969f8"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "318ac16e-3e15-4962-bd9a-8e0c50356d34",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Rashad",
+    >                "profile": "A healer with a serious demeanor who bears no association to any temple. He's participating in the Combat Tournament in the Royal Capital.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": "8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4"
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_009_Actor",
+    >                "battler": "6a7ae645-7dd9-44c1-b242-4d82b65aa803",
+    >                "character": "8bb064fc-a66c-49f9-9d1d-0367becda2dd",
+    >                "face": "charaface_009_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "d7d86dc6-92f9-40ed-b847-507cb7027e20"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "318ac16e-3e15-4962-bd9a-8e0c50356d34",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Emeelia",
+    >                "profile": "The Deputy First Aid Officer in Closis. She fights to save the numerous wounded soldiers on the battlefield.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_010_Actor",
+    >                "battler": "c35d41d5-e183-4ec7-a58b-2352be94c68c",
+    >                "character": "18062202-f8f6-4c41-85a7-3d7a7d0e5371",
+    >                "face": "charaface_010_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "96041d3b-f748-48d0-ac27-dc12db93b89d"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "2fb7fb08-6ae7-4b02-a251-8e8e52d4906c",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Marc",
+    >                "profile": "Commander of the 2nd Regiment in the Sacred City of Closis. Can expertly switch between both attack and defense.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_011_Actor",
+    >                "battler": "1eb40351-0713-41ad-8f0c-109fd01bee39",
+    >                "character": "814bce8a-d161-476f-935f-7c2543048885",
+    >                "face": "charaface_011_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "b81dce78-ea28-4cdc-aa44-7a7882fd9e73"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "2fb7fb08-6ae7-4b02-a251-8e8e52d4906c",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Rosemary",
+    >                "profile": "Commander of the 3rd Regiment in the Sacred City of Closis. Famous for her bravery in battle.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": "595e24d8-1455-491b-8704-13c237dc9ee1"
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_012_Actor",
+    >                "battler": "261a5043-beb7-4fa2-ad65-d5541645b10b",
+    >                "character": "cd285976-3f9b-43eb-a428-529a2bca9349",
+    >                "face": "charaface_012_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "19836a4c-6793-465a-a355-7dc624afe76c"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "ac85ea7b-8f52-4572-81e1-c8044704e6f6",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Rheimar",
+    >                "profile": "A young man who is expected to succeed his father and become a martial arts master.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "4519dc16-a5e0-4792-8adb-99f354a0c18b"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_013_Actor",
+    >                "battler": "94412eb8-20a8-4ed9-bc4d-3403c8bf1b12",
+    >                "character": "8ac4b30d-f4cc-49ef-a1a8-da1864abd3e7",
+    >                "face": "charaface_013_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "c60eb99c-d9ca-4f36-a00b-bd645f57cc7b"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "ac85ea7b-8f52-4572-81e1-c8044704e6f6",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Kayore",
+    >                "profile": "A young girl who travels the world, offering her services as a mercenary to various territories as a form of martial arts training.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "4519dc16-a5e0-4792-8adb-99f354a0c18b"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_014_Actor",
+    >                "battler": "2794a58e-8771-427e-b804-7e780161fba4",
+    >                "character": "d6ae2864-e0c5-4a05-8174-74ebe391c1b0",
+    >                "face": "charaface_014_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "e0ddc095-feb1-4e9b-afda-88347a14dc32"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "cb80cc56-5314-499f-ae7b-b6f6232b4e43",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Rengnar",
+    >                "profile": "A calm and collected leader who's earned the respect of the people as a knight of Bretagne Castle.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "88790220-72d8-4b34-95ec-947af47a5e22"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b"
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": "b60beb8a-f79d-4ab1-b7fa-1c5435022376"
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_015_Actor",
+    >                "battler": "3925ea86-f13f-45f5-901e-09f199ffe945",
+    >                "character": "abd04eef-83a3-432b-b5e7-d244ebc2ae2c",
+    >                "face": "charaface_015_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "130a9ac5-001a-4cb3-9f8e-42ffa92cbb98"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "cb80cc56-5314-499f-ae7b-b6f6232b4e43",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Snare",
+    >                "profile": "A young girl whose fighting instincts have been recognized by Lengner himself. You'll meet her as one of your opponents during the Combat Tournament in the Royal Capital.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "7c3ff758-46b8-4ec5-99f7-d10c94afb499"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": "61edc1cf-0b24-4a1e-a835-6e0f7929da4b"
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": "b60beb8a-f79d-4ab1-b7fa-1c5435022376"
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "ffd9dd7d-00ed-4835-9545-3cc098401895"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_016_Actor",
+    >                "battler": "56f31f05-e2ec-4042-bd34-9ff19ac8c48f",
+    >                "character": "07992b30-e4c4-454e-9335-71b9750566f7",
+    >                "face": "charaface_016_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "79ae51ff-1761-4f00-b890-96da27ca154e"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "74a71575-7e7d-4f63-9ad0-34790c16a5e8",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Jared",
+    >                "profile": "The chief of the Jungle Tribe who serves as an aide to the young queen.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_017_Actor",
+    >                "battler": "0003c951-f75e-47d0-a8d1-b8fb82cae285",
+    >                "character": "44e78842-5108-4e8e-ade9-0fe295cdeb7d",
+    >                "face": "charaface_017_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "bbfecf28-658b-48a7-9a00-9af112fa0efb"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "74a71575-7e7d-4f63-9ad0-34790c16a5e8",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Luca",
+    >                "profile": "The young queen of the Jungle Tribe. Despite her rough appearance, she's actually a descendent of an extremely ancient civilization.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_018_Actor",
+    >                "battler": "dcf98595-26d7-4ce1-ba8c-9b2cb5a967cf",
+    >                "character": "94f859f4-aa4d-44ac-8f85-4e470bfbf9c2",
+    >                "face": "charaface_018_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "c5a2b33d-750a-46c6-a773-e238eabc6222"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "f510cdd3-624b-434d-b2a0-d330f2f60f3f",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Gen",
+    >                "profile": "A young man who spends his life as a ronin, forever honing his skills with the sword.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_019_Actor",
+    >                "battler": "28c29c99-ed83-449f-883f-996ecd55257f",
+    >                "character": "ee4c8593-3c5b-430b-8072-9ab4bd1691c0",
+    >                "face": "charaface_019_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "86629cf3-53d7-42b4-b36f-4cb915af1bbc"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "f510cdd3-624b-434d-b2a0-d330f2f60f3f",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Kai",
+    >                "profile": "A young swordswoman whose natural talent has earned her the permission to operate her own dojo.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_020_Actor",
+    >                "battler": "eec27fac-b1d7-4c81-bbc8-101afabc4968",
+    >                "character": "1ea5b36f-c25d-48cf-82a2-d793aaa6084b",
+    >                "face": "charaface_020_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "3f7d0a53-2971-41fb-a67b-22151666d26f"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "87138fce-4a1a-4bda-bc31-7b8cd9243957",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Alfred",
+    >                "profile": "A solitary ninja who usually spends his time running a machine shop, keeping the history of ancient techniques alive.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "dfad600e-e663-48b6-bc53-8513403ad5b2"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_021_Actor",
+    >                "battler": "a101e8dc-1f0a-44f2-8662-040c507b32d8",
+    >                "character": "78862513-7992-4c79-aef2-b741571ebd88",
+    >                "face": "charaface_021_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "c1817d39-cf33-4dc7-b9e1-1b58103575d0"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "87138fce-4a1a-4bda-bc31-7b8cd9243957",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Kayleigh",
+    >                "profile": "The young female leader of a ninja organization that works in the shadows to support the head of their family.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "dfad600e-e663-48b6-bc53-8513403ad5b2"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_022_Actor",
+    >                "battler": "e5fb36b8-648f-4814-8037-43c79159b715",
+    >                "character": "408b6775-6a5e-4a32-94cf-d00309d4d6ae",
+    >                "face": "charaface_022_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "586442f0-bb12-4ca2-8196-815b2a3842ed"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "6058ef9d-cd0e-4ef2-b962-3841cf8a5dca",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Ehrhardt",
+    >                "profile": "A man who looks upon the changes affecting the world with worry, waiting for the time to come.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_023_Actor",
+    >                "battler": "f53a5c9d-a1c6-46b3-9d38-44ac630efc72",
+    >                "character": "66b79abf-8335-4d95-aab1-4ffa68670474",
+    >                "face": "charaface_023_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "d59e358a-ff44-4245-ad7f-3d8bfdcc32d4"
+    >        },
+    >        {
+    >            "basic": {
+    >                "classId": "6058ef9d-cd0e-4ef2-b962-3841cf8a5dca",
+    >                "initialLevel": 1,
+    >                "maxLevel": 99,
+    >                "memo": "",
+    >                "name": "Persephe",
+    >                "profile": "An eccentric woman who finds more interest in assisting humans than her own kind.",
+    >                "secondName": ""
+    >            },
+    >            "charaType": 1,
+    >            "element": 0,
+    >            "equips": [
+    >                {
+    >                    "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+    >                    "value": "3b43e5d9-721a-4beb-82e9-be48c2240f74"
+    >                },
+    >                {
+    >                    "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+    >                    "value": ""
+    >                },
+    >                {
+    >                    "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+    >                    "value": "3a226a2f-6a3b-430c-917c-7bd7750e4612"
+    >                },
+    >                {
+    >                    "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+    >                    "value": ""
+    >                }
+    >            ],
+    >            "image": {
+    >                "adv": "charaupperbody_024_Actor",
+    >                "battler": "ee879f35-3bde-4755-a7ce-30e821fa15dd",
+    >                "character": "f60a361e-6bac-4e57-9ace-6aeea03fd059",
+    >                "face": "charaface_024_Actor"
+    >            },
+    >            "initialLevel": 1,
+    >            "maxLevel": 99,
+    >            "name": "",
+    >            "nickname": "",
+    >            "profile": "",
+    >            "traits": [],
+    >            "uuId": "631ba9c0-ae29-45bc-a934-1068a64b7e02"
+    >        }
+    >    ]
+    >]
+    >```

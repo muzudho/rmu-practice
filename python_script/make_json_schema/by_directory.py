@@ -31,14 +31,31 @@ args.write: {args.write}
     directory_to_read = args.read
     directory_to_save = args.write
 
-    #
-    # 実行
-    # ===
-    #
-    do_it(directory_to_read, directory_to_save)
+    recipe_dic = make_dictionary(directory_to_read, directory_to_save)
+
+#    print(f"""Paths
+#=====
+#""")
+    for key, value in recipe_dic.items():
+        file_to_read = key
+        file_to_save = value
+
+#        print(f"""
+#file_to_read: {file_to_read}
+#file_to_save: {file_to_save}
+#""")
+
+        # print(f"""python by_file.py --read "{file_to_read}" --write "{file_to_save}"\n""")
+
+        #
+        # 実行
+        # ===
+        #
+        do_it_by_file(file_to_read, file_to_save)
 
 
-def do_it(directory_to_read, directory_to_save):
+def make_dictionary(directory_to_read, directory_to_save):
+    dic = {}
 
     #
     # ディレクトリー内のファイル一覧を取得
@@ -62,13 +79,10 @@ def do_it(directory_to_read, directory_to_save):
             file_to_read = os.path.join(directory_to_read, f"{basename_without_extension}.json")
             file_to_save = os.path.join(directory_to_save, f"{basename_without_extension}.md")
 
-            print(f"""
-file_to_read: {file_to_read}
-file_to_save: {file_to_save}
-""")
-            do_it_by_file(
-                file_to_read,
-                file_to_save)
+            dic[file_to_read] = file_to_save
+
+    return dic
+
 
 if __name__ == '__main__':
     main()

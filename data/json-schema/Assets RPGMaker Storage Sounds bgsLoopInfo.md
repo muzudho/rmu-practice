@@ -1,0 +1,417 @@
+﻿# JSON schema: Assets RPGMaker Storage Sounds bgsLoopInfo
+
+* $schema: https://json-schema.org/draft/2019-09/schema
+* $id: http://example.com/example.json
+* 😁 `#ROOT#` array
+    * default - ```[]```
+    * required - ['name', 'start', 'end']
+    * 😁 `name` property
+        * examples:
+            >```
+            >[
+            >    "City.ogg",
+            >    "Clock.ogg",
+            >    "Darkness.ogg",
+            >    "Drips.ogg",
+            >    "Fire1.ogg",
+            >    "Fire2.ogg",
+            >    "Fire3.ogg",
+            >    "Night.ogg",
+            >    "People1.ogg",
+            >    "People2.ogg",
+            >    "Quake.ogg",
+            >    "Quake1.ogg",
+            >    "Quake2.ogg",
+            >    "Rain1.ogg",
+            >    "Rain2.ogg",
+            >    "Rain3.ogg",
+            >    "Rain4.ogg",
+            >    "River.ogg",
+            >    "Sea.ogg",
+            >    "Storm1.ogg",
+            >    "Storm2.ogg",
+            >    "Waterfall1.ogg",
+            >    "Waterfall2.ogg",
+            >    "Wave1.ogg",
+            >    "Wave2.ogg",
+            >    "Wind.ogg",
+            >    "Wind1.ogg",
+            >    "Wind2.ogg",
+            >    "Wind3.ogg",
+            >    "Wind4.ogg",
+            >    "Wind5.ogg"
+            >]
+            >```
+    * 😁 `start` property
+        * examples:
+            >```
+            >[
+            >    341689,
+            >    0,
+            >    115650,
+            >    10,
+            >    572933,
+            >    15533,
+            >    31,
+            >    58965,
+            >    6,
+            >    772453,
+            >    27
+            >]
+            >```
+    * 😁 `end` property
+        * examples:
+            >```
+            >[
+            >    1533320,
+            >    73877,
+            >    395412,
+            >    544634,
+            >    705541,
+            >    456702,
+            >    4673995,
+            >    1102499,
+            >    110420,
+            >    109975,
+            >    62119,
+            >    72628,
+            >    529199,
+            >    529201,
+            >    892927,
+            >    353619,
+            >    220769,
+            >    91919,
+            >    3006051,
+            >    440999,
+            >    440891,
+            >    361357,
+            >    964232,
+            >    204164,
+            >    204353,
+            >    892646,
+            >    890644,
+            >    892926
+            >]
+            >```
+    * examples:
+        >```
+        >[
+        >    {
+        >        "name": "City.ogg",
+        >        "start": 341689,
+        >        "end": 1533320
+        >    },
+        >    {
+        >        "name": "Clock.ogg",
+        >        "start": 0,
+        >        "end": 73877
+        >    },
+        >    {
+        >        "name": "Darkness.ogg",
+        >        "start": 115650,
+        >        "end": 395412
+        >    },
+        >    {
+        >        "name": "Drips.ogg",
+        >        "start": 10,
+        >        "end": 544634
+        >    },
+        >    {
+        >        "name": "Fire1.ogg",
+        >        "start": 0,
+        >        "end": 705541
+        >    },
+        >    {
+        >        "name": "Fire2.ogg",
+        >        "start": 0,
+        >        "end": 705541
+        >    },
+        >    {
+        >        "name": "Fire3.ogg",
+        >        "start": 0,
+        >        "end": 456702
+        >    },
+        >    {
+        >        "name": "Night.ogg",
+        >        "start": 572933,
+        >        "end": 4673995
+        >    },
+        >    {
+        >        "name": "People1.ogg",
+        >        "start": 0,
+        >        "end": 1102499
+        >    },
+        >    {
+        >        "name": "People2.ogg",
+        >        "start": 0,
+        >        "end": 1102499
+        >    },
+        >    {
+        >        "name": "Quake.ogg",
+        >        "start": 15533,
+        >        "end": 110420
+        >    },
+        >    {
+        >        "name": "Quake1.ogg",
+        >        "start": 0,
+        >        "end": 109975
+        >    },
+        >    {
+        >        "name": "Quake2.ogg",
+        >        "start": 0,
+        >        "end": 62119
+        >    },
+        >    {
+        >        "name": "Rain1.ogg",
+        >        "start": 0,
+        >        "end": 72628
+        >    },
+        >    {
+        >        "name": "Rain2.ogg",
+        >        "start": 0,
+        >        "end": 529199
+        >    },
+        >    {
+        >        "name": "Rain3.ogg",
+        >        "start": 0,
+        >        "end": 529201
+        >    },
+        >    {
+        >        "name": "Rain4.ogg",
+        >        "start": 0,
+        >        "end": 892927
+        >    },
+        >    {
+        >        "name": "River.ogg",
+        >        "start": 31,
+        >        "end": 353619
+        >    },
+        >    {
+        >        "name": "Sea.ogg",
+        >        "start": 58965,
+        >        "end": 220769
+        >    },
+        >    {
+        >        "name": "Storm1.ogg",
+        >        "start": 6,
+        >        "end": 91919
+        >    },
+        >    {
+        >        "name": "Storm2.ogg",
+        >        "start": 772453,
+        >        "end": 3006051
+        >    },
+        >    {
+        >        "name": "Waterfall1.ogg",
+        >        "start": 0,
+        >        "end": 440999
+        >    },
+        >    {
+        >        "name": "Waterfall2.ogg",
+        >        "start": 0,
+        >        "end": 440891
+        >    },
+        >    {
+        >        "name": "Wave1.ogg",
+        >        "start": 0,
+        >        "end": 361357
+        >    },
+        >    {
+        >        "name": "Wave2.ogg",
+        >        "start": 0,
+        >        "end": 964232
+        >    },
+        >    {
+        >        "name": "Wind.ogg",
+        >        "start": 27,
+        >        "end": 204164
+        >    },
+        >    {
+        >        "name": "Wind1.ogg",
+        >        "start": 0,
+        >        "end": 204353
+        >    },
+        >    {
+        >        "name": "Wind2.ogg",
+        >        "start": 0,
+        >        "end": 892646
+        >    },
+        >    {
+        >        "name": "Wind3.ogg",
+        >        "start": 0,
+        >        "end": 890644
+        >    },
+        >    {
+        >        "name": "Wind4.ogg",
+        >        "start": 0,
+        >        "end": 892926
+        >    },
+        >    {
+        >        "name": "Wind5.ogg",
+        >        "start": 0,
+        >        "end": 892926
+        >    }
+        >]
+        >```
+* examples:
+    >```
+    >[
+    >    [
+    >        {
+    >            "name": "City.ogg",
+    >            "start": 341689,
+    >            "end": 1533320
+    >        },
+    >        {
+    >            "name": "Clock.ogg",
+    >            "start": 0,
+    >            "end": 73877
+    >        },
+    >        {
+    >            "name": "Darkness.ogg",
+    >            "start": 115650,
+    >            "end": 395412
+    >        },
+    >        {
+    >            "name": "Drips.ogg",
+    >            "start": 10,
+    >            "end": 544634
+    >        },
+    >        {
+    >            "name": "Fire1.ogg",
+    >            "start": 0,
+    >            "end": 705541
+    >        },
+    >        {
+    >            "name": "Fire2.ogg",
+    >            "start": 0,
+    >            "end": 705541
+    >        },
+    >        {
+    >            "name": "Fire3.ogg",
+    >            "start": 0,
+    >            "end": 456702
+    >        },
+    >        {
+    >            "name": "Night.ogg",
+    >            "start": 572933,
+    >            "end": 4673995
+    >        },
+    >        {
+    >            "name": "People1.ogg",
+    >            "start": 0,
+    >            "end": 1102499
+    >        },
+    >        {
+    >            "name": "People2.ogg",
+    >            "start": 0,
+    >            "end": 1102499
+    >        },
+    >        {
+    >            "name": "Quake.ogg",
+    >            "start": 15533,
+    >            "end": 110420
+    >        },
+    >        {
+    >            "name": "Quake1.ogg",
+    >            "start": 0,
+    >            "end": 109975
+    >        },
+    >        {
+    >            "name": "Quake2.ogg",
+    >            "start": 0,
+    >            "end": 62119
+    >        },
+    >        {
+    >            "name": "Rain1.ogg",
+    >            "start": 0,
+    >            "end": 72628
+    >        },
+    >        {
+    >            "name": "Rain2.ogg",
+    >            "start": 0,
+    >            "end": 529199
+    >        },
+    >        {
+    >            "name": "Rain3.ogg",
+    >            "start": 0,
+    >            "end": 529201
+    >        },
+    >        {
+    >            "name": "Rain4.ogg",
+    >            "start": 0,
+    >            "end": 892927
+    >        },
+    >        {
+    >            "name": "River.ogg",
+    >            "start": 31,
+    >            "end": 353619
+    >        },
+    >        {
+    >            "name": "Sea.ogg",
+    >            "start": 58965,
+    >            "end": 220769
+    >        },
+    >        {
+    >            "name": "Storm1.ogg",
+    >            "start": 6,
+    >            "end": 91919
+    >        },
+    >        {
+    >            "name": "Storm2.ogg",
+    >            "start": 772453,
+    >            "end": 3006051
+    >        },
+    >        {
+    >            "name": "Waterfall1.ogg",
+    >            "start": 0,
+    >            "end": 440999
+    >        },
+    >        {
+    >            "name": "Waterfall2.ogg",
+    >            "start": 0,
+    >            "end": 440891
+    >        },
+    >        {
+    >            "name": "Wave1.ogg",
+    >            "start": 0,
+    >            "end": 361357
+    >        },
+    >        {
+    >            "name": "Wave2.ogg",
+    >            "start": 0,
+    >            "end": 964232
+    >        },
+    >        {
+    >            "name": "Wind.ogg",
+    >            "start": 27,
+    >            "end": 204164
+    >        },
+    >        {
+    >            "name": "Wind1.ogg",
+    >            "start": 0,
+    >            "end": 204353
+    >        },
+    >        {
+    >            "name": "Wind2.ogg",
+    >            "start": 0,
+    >            "end": 892646
+    >        },
+    >        {
+    >            "name": "Wind3.ogg",
+    >            "start": 0,
+    >            "end": 890644
+    >        },
+    >        {
+    >            "name": "Wind4.ogg",
+    >            "start": 0,
+    >            "end": 892926
+    >        },
+    >        {
+    >            "name": "Wind5.ogg",
+    >            "start": 0,
+    >            "end": 892926
+    >        }
+    >    ]
+    >]
+    >```

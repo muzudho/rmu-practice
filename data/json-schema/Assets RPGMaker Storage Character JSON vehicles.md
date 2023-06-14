@@ -1,0 +1,616 @@
+﻿# JSON schema: Assets RPGMaker Storage Character JSON vehicles
+
+* $schema: https://json-schema.org/draft/2019-09/schema
+* $id: http://example.com/example.json
+* 😁 `#ROOT#` array
+    * default - ```[]```
+    * required - ['bgm', 'id', 'images', 'initialPos', 'mapId', 'moveTags', 'name', 'speed']
+    * 😁 `bgm` property
+        * required - ['name', 'pan', 'pitch', 'volume']
+        * 😁 `name` property
+            * examples:
+                >```
+                >[
+                >    "U_Ship_01",
+                >    "U_Theme_01"
+                >]
+                >```
+        * 😁 `pan` property
+            * examples:
+                >```
+                >[
+                >    0
+                >]
+                >```
+        * 😁 `pitch` property
+            * examples:
+                >```
+                >[
+                >    100
+                >]
+                >```
+        * 😁 `volume` property
+            * examples:
+                >```
+                >[
+                >    90
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    {
+            >        "name": "U_Ship_01",
+            >        "pan": 0,
+            >        "pitch": 100,
+            >        "volume": 90
+            >    },
+            >    {
+            >        "name": "U_Ship_01",
+            >        "pan": 0,
+            >        "pitch": 100,
+            >        "volume": 90
+            >    },
+            >    {
+            >        "name": "U_Theme_01",
+            >        "pan": 0,
+            >        "pitch": 100,
+            >        "volume": 90
+            >    },
+            >    {
+            >        "name": "U_Theme_01",
+            >        "pan": 0,
+            >        "pitch": 100,
+            >        "volume": 90
+            >    },
+            >    {
+            >        "name": "U_Theme_01",
+            >        "pan": 0,
+            >        "pitch": 100,
+            >        "volume": 90
+            >    },
+            >    {
+            >        "name": "U_Ship_01",
+            >        "pan": 0,
+            >        "pitch": 100,
+            >        "volume": 90
+            >    },
+            >    {
+            >        "name": "U_Ship_01",
+            >        "pan": 0,
+            >        "pitch": 100,
+            >        "volume": 90
+            >    },
+            >    {
+            >        "name": "U_Ship_01",
+            >        "pan": 0,
+            >        "pitch": 100,
+            >        "volume": 90
+            >    }
+            >]
+            >```
+    * 😁 `id` property
+        * examples:
+            >```
+            >[
+            >    "1",
+            >    "9e3a6d3b-4831-46f5-ba6d-bbc1c4d098ca",
+            >    "b9562c7e-2896-4d1e-ae67-7528241e49f7",
+            >    "3de81eef-6fc8-4ac1-9d98-89ac3ceac81c",
+            >    "306f1237-d6be-4047-b682-a5f395813732",
+            >    "41383c80-dacf-4e9a-9ce3-70e6a0aaa778",
+            >    "276e0fd1-e4b1-4a84-9820-d230131f3489",
+            >    "9c946831-bcb1-4b33-a8f1-b487f3ebe95c"
+            >]
+            >```
+    * 😁 `images` property
+        * examples:
+            >```
+            >[
+            >    "e98773c9-6bcf-4687-880a-0589cc5c3d8c",
+            >    "3d63bfdb-7cf0-4e1d-9e03-87326473e3ce",
+            >    "c1bae20d-ef2e-4929-8f0d-9763da21fcbd",
+            >    "af0d7bc4-41eb-49a2-a8e4-94f159f9ce97",
+            >    "7e7889e0-c69e-45e0-b3e8-34b234ac21dd",
+            >    "0c0fa342-52d5-40aa-b34e-5636255962b6",
+            >    "51920d05-5040-4d30-8dec-222b948df21f",
+            >    "995d132f-9469-45f0-adc5-f319162bfb9c"
+            >]
+            >```
+    * 😁 `initialPos` property
+        * 😁 `initialPos` array - default: None
+            * default - ```None```
+            * examples:
+                >```
+                >[
+                >    0
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    [
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0
+            >    ]
+            >]
+            >```
+    * 😁 `mapId` property
+        * examples:
+            >```
+            >[
+            >    ""
+            >]
+            >```
+    * 😁 `moveTags` property
+        * 😁 `moveTags` array - default: None
+            * default - ```None```
+            * examples:
+                >```
+                >[
+                >    1,
+                >    0,
+                >    2
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    [
+            >        1,
+            >        0,
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        1
+            >    ],
+            >    [
+            >        0,
+            >        2,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        0
+            >    ],
+            >    [
+            >        0,
+            >        0,
+            >        0
+            >    ]
+            >]
+            >```
+    * 😁 `name` property
+        * examples:
+            >```
+            >[
+            >    "Boat",
+            >    "Ship",
+            >    "Dragon",
+            >    "Turtle",
+            >    "Unicorn",
+            >    "Wagon",
+            >    "Minecart",
+            >    "Gondola"
+            >]
+            >```
+    * 😁 `speed` property
+        * examples:
+            >```
+            >[
+            >    40
+            >]
+            >```
+    * examples:
+        >```
+        >[
+        >    {
+        >        "bgm": {
+        >            "name": "U_Ship_01",
+        >            "pan": 0,
+        >            "pitch": 100,
+        >            "volume": 90
+        >        },
+        >        "id": "1",
+        >        "images": "e98773c9-6bcf-4687-880a-0589cc5c3d8c",
+        >        "initialPos": [
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "mapId": "",
+        >        "moveTags": [
+        >            1,
+        >            0,
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "name": "Boat",
+        >        "speed": 40
+        >    },
+        >    {
+        >        "bgm": {
+        >            "name": "U_Ship_01",
+        >            "pan": 0,
+        >            "pitch": 100,
+        >            "volume": 90
+        >        },
+        >        "id": "9e3a6d3b-4831-46f5-ba6d-bbc1c4d098ca",
+        >        "images": "3d63bfdb-7cf0-4e1d-9e03-87326473e3ce",
+        >        "initialPos": [
+        >            0,
+        >            0
+        >        ],
+        >        "mapId": "",
+        >        "moveTags": [
+        >            1
+        >        ],
+        >        "name": "Ship",
+        >        "speed": 40
+        >    },
+        >    {
+        >        "bgm": {
+        >            "name": "U_Theme_01",
+        >            "pan": 0,
+        >            "pitch": 100,
+        >            "volume": 90
+        >        },
+        >        "id": "b9562c7e-2896-4d1e-ae67-7528241e49f7",
+        >        "images": "c1bae20d-ef2e-4929-8f0d-9763da21fcbd",
+        >        "initialPos": [
+        >            0,
+        >            0
+        >        ],
+        >        "mapId": "",
+        >        "moveTags": [
+        >            0,
+        >            2,
+        >            0
+        >        ],
+        >        "name": "Dragon",
+        >        "speed": 40
+        >    },
+        >    {
+        >        "bgm": {
+        >            "name": "U_Theme_01",
+        >            "pan": 0,
+        >            "pitch": 100,
+        >            "volume": 90
+        >        },
+        >        "id": "3de81eef-6fc8-4ac1-9d98-89ac3ceac81c",
+        >        "images": "af0d7bc4-41eb-49a2-a8e4-94f159f9ce97",
+        >        "initialPos": [
+        >            0,
+        >            0
+        >        ],
+        >        "mapId": "",
+        >        "moveTags": [
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "name": "Turtle",
+        >        "speed": 40
+        >    },
+        >    {
+        >        "bgm": {
+        >            "name": "U_Theme_01",
+        >            "pan": 0,
+        >            "pitch": 100,
+        >            "volume": 90
+        >        },
+        >        "id": "306f1237-d6be-4047-b682-a5f395813732",
+        >        "images": "7e7889e0-c69e-45e0-b3e8-34b234ac21dd",
+        >        "initialPos": [
+        >            0,
+        >            0
+        >        ],
+        >        "mapId": "",
+        >        "moveTags": [
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "name": "Unicorn",
+        >        "speed": 40
+        >    },
+        >    {
+        >        "bgm": {
+        >            "name": "U_Ship_01",
+        >            "pan": 0,
+        >            "pitch": 100,
+        >            "volume": 90
+        >        },
+        >        "id": "41383c80-dacf-4e9a-9ce3-70e6a0aaa778",
+        >        "images": "0c0fa342-52d5-40aa-b34e-5636255962b6",
+        >        "initialPos": [
+        >            0,
+        >            0
+        >        ],
+        >        "mapId": "",
+        >        "moveTags": [
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "name": "Wagon",
+        >        "speed": 40
+        >    },
+        >    {
+        >        "bgm": {
+        >            "name": "U_Ship_01",
+        >            "pan": 0,
+        >            "pitch": 100,
+        >            "volume": 90
+        >        },
+        >        "id": "276e0fd1-e4b1-4a84-9820-d230131f3489",
+        >        "images": "51920d05-5040-4d30-8dec-222b948df21f",
+        >        "initialPos": [
+        >            0,
+        >            0
+        >        ],
+        >        "mapId": "",
+        >        "moveTags": [
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "name": "Minecart",
+        >        "speed": 40
+        >    },
+        >    {
+        >        "bgm": {
+        >            "name": "U_Ship_01",
+        >            "pan": 0,
+        >            "pitch": 100,
+        >            "volume": 90
+        >        },
+        >        "id": "9c946831-bcb1-4b33-a8f1-b487f3ebe95c",
+        >        "images": "995d132f-9469-45f0-adc5-f319162bfb9c",
+        >        "initialPos": [
+        >            0,
+        >            0
+        >        ],
+        >        "mapId": "",
+        >        "moveTags": [
+        >            0,
+        >            0,
+        >            0
+        >        ],
+        >        "name": "Gondola",
+        >        "speed": 40
+        >    }
+        >]
+        >```
+* examples:
+    >```
+    >[
+    >    [
+    >        {
+    >            "bgm": {
+    >                "name": "U_Ship_01",
+    >                "pan": 0,
+    >                "pitch": 100,
+    >                "volume": 90
+    >            },
+    >            "id": "1",
+    >            "images": "e98773c9-6bcf-4687-880a-0589cc5c3d8c",
+    >            "initialPos": [
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "mapId": "",
+    >            "moveTags": [
+    >                1,
+    >                0,
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "name": "Boat",
+    >            "speed": 40
+    >        },
+    >        {
+    >            "bgm": {
+    >                "name": "U_Ship_01",
+    >                "pan": 0,
+    >                "pitch": 100,
+    >                "volume": 90
+    >            },
+    >            "id": "9e3a6d3b-4831-46f5-ba6d-bbc1c4d098ca",
+    >            "images": "3d63bfdb-7cf0-4e1d-9e03-87326473e3ce",
+    >            "initialPos": [
+    >                0,
+    >                0
+    >            ],
+    >            "mapId": "",
+    >            "moveTags": [
+    >                1
+    >            ],
+    >            "name": "Ship",
+    >            "speed": 40
+    >        },
+    >        {
+    >            "bgm": {
+    >                "name": "U_Theme_01",
+    >                "pan": 0,
+    >                "pitch": 100,
+    >                "volume": 90
+    >            },
+    >            "id": "b9562c7e-2896-4d1e-ae67-7528241e49f7",
+    >            "images": "c1bae20d-ef2e-4929-8f0d-9763da21fcbd",
+    >            "initialPos": [
+    >                0,
+    >                0
+    >            ],
+    >            "mapId": "",
+    >            "moveTags": [
+    >                0,
+    >                2,
+    >                0
+    >            ],
+    >            "name": "Dragon",
+    >            "speed": 40
+    >        },
+    >        {
+    >            "bgm": {
+    >                "name": "U_Theme_01",
+    >                "pan": 0,
+    >                "pitch": 100,
+    >                "volume": 90
+    >            },
+    >            "id": "3de81eef-6fc8-4ac1-9d98-89ac3ceac81c",
+    >            "images": "af0d7bc4-41eb-49a2-a8e4-94f159f9ce97",
+    >            "initialPos": [
+    >                0,
+    >                0
+    >            ],
+    >            "mapId": "",
+    >            "moveTags": [
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "name": "Turtle",
+    >            "speed": 40
+    >        },
+    >        {
+    >            "bgm": {
+    >                "name": "U_Theme_01",
+    >                "pan": 0,
+    >                "pitch": 100,
+    >                "volume": 90
+    >            },
+    >            "id": "306f1237-d6be-4047-b682-a5f395813732",
+    >            "images": "7e7889e0-c69e-45e0-b3e8-34b234ac21dd",
+    >            "initialPos": [
+    >                0,
+    >                0
+    >            ],
+    >            "mapId": "",
+    >            "moveTags": [
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "name": "Unicorn",
+    >            "speed": 40
+    >        },
+    >        {
+    >            "bgm": {
+    >                "name": "U_Ship_01",
+    >                "pan": 0,
+    >                "pitch": 100,
+    >                "volume": 90
+    >            },
+    >            "id": "41383c80-dacf-4e9a-9ce3-70e6a0aaa778",
+    >            "images": "0c0fa342-52d5-40aa-b34e-5636255962b6",
+    >            "initialPos": [
+    >                0,
+    >                0
+    >            ],
+    >            "mapId": "",
+    >            "moveTags": [
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "name": "Wagon",
+    >            "speed": 40
+    >        },
+    >        {
+    >            "bgm": {
+    >                "name": "U_Ship_01",
+    >                "pan": 0,
+    >                "pitch": 100,
+    >                "volume": 90
+    >            },
+    >            "id": "276e0fd1-e4b1-4a84-9820-d230131f3489",
+    >            "images": "51920d05-5040-4d30-8dec-222b948df21f",
+    >            "initialPos": [
+    >                0,
+    >                0
+    >            ],
+    >            "mapId": "",
+    >            "moveTags": [
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "name": "Minecart",
+    >            "speed": 40
+    >        },
+    >        {
+    >            "bgm": {
+    >                "name": "U_Ship_01",
+    >                "pan": 0,
+    >                "pitch": 100,
+    >                "volume": 90
+    >            },
+    >            "id": "9c946831-bcb1-4b33-a8f1-b487f3ebe95c",
+    >            "images": "995d132f-9469-45f0-adc5-f319162bfb9c",
+    >            "initialPos": [
+    >                0,
+    >                0
+    >            ],
+    >            "mapId": "",
+    >            "moveTags": [
+    >                0,
+    >                0,
+    >                0
+    >            ],
+    >            "name": "Gondola",
+    >            "speed": 40
+    >        }
+    >    ]
+    >]
+    >```
