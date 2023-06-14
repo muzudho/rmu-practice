@@ -1,0 +1,4168 @@
+# JSON schema: Assets RPGMaker Storage AssetManage JSON assetsData
+
+* $schema: https://json-schema.org/draft/2019-09/schema
+* $id: http://example.com/example.json
+* 😁 `#ROOT#` array
+    * default - ```[]```
+    * required - ['assetTypeId', 'id', 'imageSettings', 'name', 'sort', 'type', 'weaponTypeId']
+    * 😁 `assetTypeId` property
+        * examples:
+            >```
+            >[
+            >    3,
+            >    4,
+            >    1,
+            >    0,
+            >    6
+            >]
+            >```
+    * 😁 `id` property
+        * examples:
+            >```
+            >[
+            >    "0003c951-f75e-47d0-a8d1-b8fb82cae285",
+            >    "002a2ac8-e582-4310-b054-651c5bdf75cd",
+            >    "008229ae-3500-45a0-be9b-4ae020c4c2b7",
+            >    "01329ab5-e386-49aa-84a1-dffbd6058abc",
+            >    "01a22294-1de0-47a9-b0a2-8a210364bd1b",
+            >    "01ae0cea-fd48-4944-814c-9deabcb43b54",
+            >    "01f310cb-791d-4bf3-8c9b-0b65739c5fdd",
+            >    "02ac5114-bc49-4f94-a84a-b7f9c016f4f4",
+            >    "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+            >    "042025dd-d674-479e-93ff-f366edbc31c1",
+            >    "04214f10-bd48-4134-b729-33d357805702",
+            >    "05d26f24-bf40-43af-8217-2b93752e717e",
+            >    "06065437-8f8b-418e-94dc-905fd5ddbd2c",
+            >    "07992b30-e4c4-454e-9335-71b9750566f7",
+            >    "0884eee2-0c91-4d72-8168-036e274a3b51",
+            >    "089cb64c-4d53-4a11-814a-9b3d49b3ef4f",
+            >    "090f89de-4e7c-4463-8f68-2d7abbcbae39",
+            >    "0ada6636-f27d-4d74-9e0d-5b868d86ed2b",
+            >    "0ba15718-ba79-4f87-b398-562f8d077f97",
+            >    "0c0fa342-52d5-40aa-b34e-5636255962b6",
+            >    "0c1b1d6b-923a-4acf-a3ec-0bba1ba9318e",
+            >    "0c501359-b118-4133-8eea-9c24c42b287a",
+            >    "0ca59363-f5ff-4dd4-b20c-69734f8c74c0",
+            >    "0d66a0aa-baa6-4720-98d6-c21deea32b15",
+            >    "0dc2efeb-ce04-449d-b799-c7482c64415f",
+            >    "0e2dec46-8444-49b9-a11d-a62bb4da08a0",
+            >    "0ef70722-6c7b-40a4-b6c1-132f080b7a16"
+            >]
+            >```
+    * 😁 `imageSettings` property
+        * 😁 `imageSettings` array - default: None
+            * default - ```None```
+            * required - ['animationFrame', 'animationSpeed', 'path', 'sizeX', 'sizeY']
+            * 😁 `animationFrame` property
+                * examples:
+                    >```
+                    >[
+                    >    6,
+                    >    8,
+                    >    3,
+                    >    0
+                    >]
+                    >```
+            * 😁 `animationSpeed` property
+                * examples:
+                    >```
+                    >[
+                    >    20,
+                    >    30,
+                    >    0,
+                    >    40
+                    >]
+                    >```
+            * 😁 `path` property
+                * examples:
+                    >```
+                    >[
+                    >    "017_Actor_move_forward_6.png",
+                    >    "017_Actor_standard_delay_6.png",
+                    >    "017_Actor_cast_delay_6.png",
+                    >    "017_Actor_guard_6.png",
+                    >    "017_Actor_damage_6.png",
+                    >    "017_Actor_evasion_8.png",
+                    >    "017_Actor_thrust_8.png",
+                    >    "017_Actor_swing_8.png",
+                    >    "017_Actor_projectile_8.png",
+                    >    "017_Actor_general_skill_8.png",
+                    >    "017_Actor_magic_8.png",
+                    >    "017_Actor_items_8.png",
+                    >    "017_Actor_escape_8.png",
+                    >    "017_Actor_victory_8.png",
+                    >    "017_Actor_critical_health_6.png",
+                    >    "017_Actor_status_ailment_6.png",
+                    >    "017_Actor_sleep_6.png",
+                    >    "017_Actor_dead_6.png",
+                    >    "weapon_swing_012_8.png",
+                    >    "Other2_029.png",
+                    >    "Weapon_002_01.png",
+                    >    "Weapon_002_02.png",
+                    >    "Weapon_002_03.png",
+                    >    "Weapon_002_04.png",
+                    >    "006_Actor_move_forward_6.png",
+                    >    "006_Actor_standard_delay_6.png",
+                    >    "006_Actor_cast_delay_6.png",
+                    >    "006_Actor_guard_6.png",
+                    >    "006_Actor_damage_6.png",
+                    >    "006_Actor_evasion_8.png",
+                    >    "006_Actor_thrust_8.png",
+                    >    "006_Actor_swing_8.png",
+                    >    "006_Actor_projectile_8.png",
+                    >    "006_Actor_general_skill_8.png",
+                    >    "006_Actor_magic_8.png",
+                    >    "006_Actor_items_8.png",
+                    >    "006_Actor_escape_8.png",
+                    >    "006_Actor_victory_8.png",
+                    >    "006_Actor_critical_health_6.png",
+                    >    "006_Actor_status_ailment_6.png",
+                    >    "006_Actor_sleep_6.png",
+                    >    "006_Actor_dead_6.png",
+                    >    "037_Demihuman_walk_down_6.png",
+                    >    "037_Demihuman_walk_left_6.png",
+                    >    "037_Demihuman_walk_right_6.png",
+                    >    "037_Demihuman_walk_up_6.png",
+                    >    "037_Demihuman_fielddamage_8.png",
+                    >    "ClawFire.asset",
+                    >    "030_Evil_walk_down_6.png",
+                    >    "030_Evil_walk_left_6.png",
+                    >    "030_Evil_walk_right_6.png",
+                    >    "030_Evil_walk_up_6.png",
+                    >    "030_Evil_fielddamage_8.png",
+                    >    "002_Actor_walk_down_6.png",
+                    >    "002_Actor_walk_left_6.png",
+                    >    "002_Actor_walk_right_6.png",
+                    >    "002_Actor_walk_up_6.png",
+                    >    "002_Actor_fielddamage_8.png",
+                    >    "Flash.asset",
+                    >    "025_Evil_walk_down_6.png",
+                    >    "025_Evil_walk_left_6.png",
+                    >    "025_Evil_walk_right_6.png",
+                    >    "025_Evil_walk_up_6.png",
+                    >    "025_Evil_fielddamage_8.png",
+                    >    "weapon_swing_007_8.png",
+                    >    "Door2_007.png",
+                    >    "016_Actor_walk_down_6.png",
+                    >    "016_Actor_walk_left_6.png",
+                    >    "016_Actor_walk_right_6.png",
+                    >    "016_Actor_walk_up_6.png",
+                    >    "016_Actor_fielddamage_8.png",
+                    >    "SlashSpecial1.asset",
+                    >    "weapon_thrust_002_8.png",
+                    >    "SlashEffect.asset",
+                    >    "Other2_001.png",
+                    >    "Flame_028.png",
+                    >    "Vehicle_021.png",
+                    >    "Vehicle_022.png",
+                    >    "Vehicle_023.png",
+                    >    "Vehicle_024.png",
+                    >    "ArrowSpecial.asset",
+                    >    "Vehicle_017.png",
+                    >    "Vehicle_018.png",
+                    >    "Vehicle_019.png",
+                    >    "Vehicle_020.png",
+                    >    "PierceThunder.asset",
+                    >    "weapon_swing_004_8.png",
+                    >    "Chest_004_01.png",
+                    >    "Chest_004_02.png",
+                    >    "Chest_004_03.png",
+                    >    "Chest_004_04.png",
+                    >    "WaterOne1.asset",
+                    >    "Chest_005_01.png",
+                    >    "Chest_005_02.png",
+                    >    "Chest_005_03.png",
+                    >    "Chest_005_04.png"
+                    >]
+                    >```
+            * 😁 `sizeX` property
+                * examples:
+                    >```
+                    >[
+                    >    0,
+                    >    1920,
+                    >    294,
+                    >    98
+                    >]
+                    >```
+            * 😁 `sizeY` property
+                * examples:
+                    >```
+                    >[
+                    >    0,
+                    >    200,
+                    >    194,
+                    >    98
+                    >]
+                    >```
+            * examples:
+                >```
+                >[
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_move_forward_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_standard_delay_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_cast_delay_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_guard_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_damage_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_evasion_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_thrust_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_swing_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_projectile_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_general_skill_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_magic_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_items_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_escape_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_victory_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_critical_health_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_status_ailment_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_sleep_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "017_Actor_dead_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "weapon_swing_012_8.png",
+                >        "sizeX": 1920,
+                >        "sizeY": 200
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_029.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_029.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_029.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_029.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_029.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Weapon_002_01.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Weapon_002_02.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Weapon_002_03.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Weapon_002_04.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Weapon_002_01.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_move_forward_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_standard_delay_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_cast_delay_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_guard_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_damage_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_evasion_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_thrust_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_swing_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_projectile_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_general_skill_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_magic_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_items_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_escape_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_victory_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_critical_health_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_status_ailment_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_sleep_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 20,
+                >        "path": "006_Actor_dead_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "037_Demihuman_walk_down_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "037_Demihuman_walk_left_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "037_Demihuman_walk_right_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "037_Demihuman_walk_up_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 40,
+                >        "path": "037_Demihuman_fielddamage_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "ClawFire.asset",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "030_Evil_walk_down_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "030_Evil_walk_left_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "030_Evil_walk_right_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "030_Evil_walk_up_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 40,
+                >        "path": "030_Evil_fielddamage_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "002_Actor_walk_down_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "002_Actor_walk_left_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "002_Actor_walk_right_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "002_Actor_walk_up_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 40,
+                >        "path": "002_Actor_fielddamage_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Flash.asset",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "025_Evil_walk_down_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "025_Evil_walk_left_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "025_Evil_walk_right_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "025_Evil_walk_up_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 40,
+                >        "path": "025_Evil_fielddamage_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "weapon_swing_007_8.png",
+                >        "sizeX": 1920,
+                >        "sizeY": 200
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Door2_007.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Door2_007.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Door2_007.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Door2_007.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Door2_007.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "016_Actor_walk_down_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "016_Actor_walk_left_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "016_Actor_walk_right_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 6,
+                >        "animationSpeed": 40,
+                >        "path": "016_Actor_walk_up_6.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 40,
+                >        "path": "016_Actor_fielddamage_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "SlashSpecial1.asset",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "weapon_thrust_002_8.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "SlashEffect.asset",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_001.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_001.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_001.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_001.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Other2_001.png",
+                >        "sizeX": 294,
+                >        "sizeY": 194
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Flame_028.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Flame_028.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Flame_028.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Flame_028.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Flame_028.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Vehicle_021.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Vehicle_022.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Vehicle_023.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Vehicle_024.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 30,
+                >        "path": "Vehicle_021.png",
+                >        "sizeX": 294,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "ArrowSpecial.asset",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 40,
+                >        "path": "Vehicle_017.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 40,
+                >        "path": "Vehicle_018.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 40,
+                >        "path": "Vehicle_019.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 40,
+                >        "path": "Vehicle_020.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 3,
+                >        "animationSpeed": 40,
+                >        "path": "Vehicle_017.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "PierceThunder.asset",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 8,
+                >        "animationSpeed": 20,
+                >        "path": "weapon_swing_004_8.png",
+                >        "sizeX": 1920,
+                >        "sizeY": 200
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_004_01.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_004_02.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_004_03.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_004_04.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_004_01.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "WaterOne1.asset",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_005_01.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_005_02.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_005_03.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_005_04.png",
+                >        "sizeX": 98,
+                >        "sizeY": 98
+                >    },
+                >    {
+                >        "animationFrame": 0,
+                >        "animationSpeed": 0,
+                >        "path": "Chest_005_01.png",
+                >        "sizeX": 0,
+                >        "sizeY": 0
+                >    }
+                >]
+                >```
+        * examples:
+            >```
+            >[
+            >    [
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_move_forward_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_standard_delay_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_cast_delay_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_guard_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_damage_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_evasion_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_thrust_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_swing_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_projectile_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_general_skill_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_magic_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_items_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_escape_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_victory_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_critical_health_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_status_ailment_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_sleep_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "017_Actor_dead_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "weapon_swing_012_8.png",
+            >            "sizeX": 1920,
+            >            "sizeY": 200
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_029.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_029.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_029.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_029.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_029.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Weapon_002_01.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Weapon_002_02.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Weapon_002_03.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Weapon_002_04.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Weapon_002_01.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_move_forward_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_standard_delay_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_cast_delay_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_guard_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_damage_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_evasion_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_thrust_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_swing_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_projectile_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_general_skill_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_magic_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_items_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_escape_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_victory_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_critical_health_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_status_ailment_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_sleep_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 20,
+            >            "path": "006_Actor_dead_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "037_Demihuman_walk_down_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "037_Demihuman_walk_left_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "037_Demihuman_walk_right_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "037_Demihuman_walk_up_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 40,
+            >            "path": "037_Demihuman_fielddamage_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "ClawFire.asset",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "030_Evil_walk_down_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "030_Evil_walk_left_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "030_Evil_walk_right_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "030_Evil_walk_up_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 40,
+            >            "path": "030_Evil_fielddamage_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "002_Actor_walk_down_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "002_Actor_walk_left_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "002_Actor_walk_right_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "002_Actor_walk_up_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 40,
+            >            "path": "002_Actor_fielddamage_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Flash.asset",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "025_Evil_walk_down_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "025_Evil_walk_left_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "025_Evil_walk_right_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "025_Evil_walk_up_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 40,
+            >            "path": "025_Evil_fielddamage_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "weapon_swing_007_8.png",
+            >            "sizeX": 1920,
+            >            "sizeY": 200
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Door2_007.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Door2_007.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Door2_007.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Door2_007.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Door2_007.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "016_Actor_walk_down_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "016_Actor_walk_left_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "016_Actor_walk_right_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 6,
+            >            "animationSpeed": 40,
+            >            "path": "016_Actor_walk_up_6.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 40,
+            >            "path": "016_Actor_fielddamage_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "SlashSpecial1.asset",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "weapon_thrust_002_8.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "SlashEffect.asset",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_001.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_001.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_001.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_001.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Other2_001.png",
+            >            "sizeX": 294,
+            >            "sizeY": 194
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Flame_028.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Flame_028.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Flame_028.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Flame_028.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Flame_028.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Vehicle_021.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Vehicle_022.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Vehicle_023.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Vehicle_024.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 30,
+            >            "path": "Vehicle_021.png",
+            >            "sizeX": 294,
+            >            "sizeY": 98
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "ArrowSpecial.asset",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 40,
+            >            "path": "Vehicle_017.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 40,
+            >            "path": "Vehicle_018.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 40,
+            >            "path": "Vehicle_019.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 40,
+            >            "path": "Vehicle_020.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        },
+            >        {
+            >            "animationFrame": 3,
+            >            "animationSpeed": 40,
+            >            "path": "Vehicle_017.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "PierceThunder.asset",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 8,
+            >            "animationSpeed": 20,
+            >            "path": "weapon_swing_004_8.png",
+            >            "sizeX": 1920,
+            >            "sizeY": 200
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_004_01.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_004_02.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_004_03.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_004_04.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_004_01.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "WaterOne1.asset",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ],
+            >    [
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_005_01.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_005_02.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_005_03.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_005_04.png",
+            >            "sizeX": 98,
+            >            "sizeY": 98
+            >        },
+            >        {
+            >            "animationFrame": 0,
+            >            "animationSpeed": 0,
+            >            "path": "Chest_005_01.png",
+            >            "sizeX": 0,
+            >            "sizeY": 0
+            >        }
+            >    ]
+            >]
+            >```
+    * 😁 `name` property
+        * examples:
+            >```
+            >[
+            >    "Amazon (Male)",
+            >    "Scythe",
+            >    "Object 174",
+            >    "Object 227",
+            >    "Wizard (Female)",
+            >    "Skeleton",
+            >    "Claw/Fire",
+            >    "Seafarer (Female)",
+            >    "Hero (Female)",
+            >    "Flash",
+            >    "Ruffian",
+            >    "Staff",
+            >    "Object 69",
+            >    "Cataphract (Female)",
+            >    "Slash/Special 1",
+            >    "Shortspear",
+            >    "Slash/Effect",
+            >    "Object 155",
+            >    "Object 116",
+            >    "Object 259",
+            >    "Arrow/Special",
+            >    "Unicorn",
+            >    "Pierce/Thunder",
+            >    "Axe",
+            >    "Object 10",
+            >    "Water/One 1",
+            >    "Object 11"
+            >]
+            >```
+    * 😁 `sort` property
+        * examples:
+            >```
+            >[
+            >    16,
+            >    11,
+            >    173,
+            >    226,
+            >    5,
+            >    36,
+            >    17,
+            >    29,
+            >    1,
+            >    39,
+            >    24,
+            >    6,
+            >    68,
+            >    15,
+            >    22,
+            >    154,
+            >    115,
+            >    258,
+            >    28,
+            >    74,
+            >    14,
+            >    3,
+            >    9,
+            >    80,
+            >    10
+            >]
+            >```
+    * 😁 `type` property
+        * examples:
+            >```
+            >[
+            >    0
+            >]
+            >```
+    * 😁 `weaponTypeId` property
+        * examples:
+            >```
+            >[
+            >    0,
+            >    2
+            >]
+            >```
+    * examples:
+        >```
+        >[
+        >    {
+        >        "assetTypeId": 3,
+        >        "id": "0003c951-f75e-47d0-a8d1-b8fb82cae285",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_move_forward_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_standard_delay_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_cast_delay_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_guard_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_damage_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_evasion_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_thrust_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_swing_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_projectile_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_general_skill_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_magic_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_items_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_escape_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_victory_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_critical_health_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_status_ailment_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_sleep_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "017_Actor_dead_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Amazon (Male)",
+        >        "sort": 16,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 4,
+        >        "id": "002a2ac8-e582-4310-b054-651c5bdf75cd",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "weapon_swing_012_8.png",
+        >                "sizeX": 1920,
+        >                "sizeY": 200
+        >            }
+        >        ],
+        >        "name": "Scythe",
+        >        "sort": 11,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 1,
+        >        "id": "008229ae-3500-45a0-be9b-4ae020c4c2b7",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_029.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_029.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_029.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_029.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_029.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            }
+        >        ],
+        >        "name": "Object 174",
+        >        "sort": 173,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 1,
+        >        "id": "01329ab5-e386-49aa-84a1-dffbd6058abc",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Weapon_002_01.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Weapon_002_02.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Weapon_002_03.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Weapon_002_04.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Weapon_002_01.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Object 227",
+        >        "sort": 226,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 3,
+        >        "id": "01a22294-1de0-47a9-b0a2-8a210364bd1b",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_move_forward_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_standard_delay_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_cast_delay_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_guard_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_damage_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_evasion_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_thrust_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_swing_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_projectile_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_general_skill_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_magic_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_items_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_escape_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_victory_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_critical_health_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_status_ailment_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_sleep_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 20,
+        >                "path": "006_Actor_dead_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Wizard (Female)",
+        >        "sort": 5,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 0,
+        >        "id": "01ae0cea-fd48-4944-814c-9deabcb43b54",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "037_Demihuman_walk_down_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "037_Demihuman_walk_left_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "037_Demihuman_walk_right_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "037_Demihuman_walk_up_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 40,
+        >                "path": "037_Demihuman_fielddamage_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Skeleton",
+        >        "sort": 36,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 6,
+        >        "id": "01f310cb-791d-4bf3-8c9b-0b65739c5fdd",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "ClawFire.asset",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Claw/Fire",
+        >        "sort": 17,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 0,
+        >        "id": "02ac5114-bc49-4f94-a84a-b7f9c016f4f4",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "030_Evil_walk_down_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "030_Evil_walk_left_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "030_Evil_walk_right_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "030_Evil_walk_up_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 40,
+        >                "path": "030_Evil_fielddamage_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Seafarer (Female)",
+        >        "sort": 29,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 0,
+        >        "id": "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "002_Actor_walk_down_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "002_Actor_walk_left_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "002_Actor_walk_right_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "002_Actor_walk_up_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 40,
+        >                "path": "002_Actor_fielddamage_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Hero (Female)",
+        >        "sort": 1,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 6,
+        >        "id": "042025dd-d674-479e-93ff-f366edbc31c1",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Flash.asset",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Flash",
+        >        "sort": 39,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 0,
+        >        "id": "04214f10-bd48-4134-b729-33d357805702",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "025_Evil_walk_down_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "025_Evil_walk_left_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "025_Evil_walk_right_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "025_Evil_walk_up_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 40,
+        >                "path": "025_Evil_fielddamage_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Ruffian",
+        >        "sort": 24,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 4,
+        >        "id": "05d26f24-bf40-43af-8217-2b93752e717e",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "weapon_swing_007_8.png",
+        >                "sizeX": 1920,
+        >                "sizeY": 200
+        >            }
+        >        ],
+        >        "name": "Staff",
+        >        "sort": 6,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 1,
+        >        "id": "06065437-8f8b-418e-94dc-905fd5ddbd2c",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Door2_007.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Door2_007.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Door2_007.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Door2_007.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Door2_007.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            }
+        >        ],
+        >        "name": "Object 69",
+        >        "sort": 68,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 0,
+        >        "id": "07992b30-e4c4-454e-9335-71b9750566f7",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "016_Actor_walk_down_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "016_Actor_walk_left_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "016_Actor_walk_right_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 6,
+        >                "animationSpeed": 40,
+        >                "path": "016_Actor_walk_up_6.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 40,
+        >                "path": "016_Actor_fielddamage_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Cataphract (Female)",
+        >        "sort": 15,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 6,
+        >        "id": "0884eee2-0c91-4d72-8168-036e274a3b51",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "SlashSpecial1.asset",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Slash/Special 1",
+        >        "sort": 22,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 4,
+        >        "id": "089cb64c-4d53-4a11-814a-9b3d49b3ef4f",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "weapon_thrust_002_8.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Shortspear",
+        >        "sort": 15,
+        >        "type": 0,
+        >        "weaponTypeId": 2
+        >    },
+        >    {
+        >        "assetTypeId": 6,
+        >        "id": "090f89de-4e7c-4463-8f68-2d7abbcbae39",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "SlashEffect.asset",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Slash/Effect",
+        >        "sort": 6,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 1,
+        >        "id": "0ada6636-f27d-4d74-9e0d-5b868d86ed2b",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_001.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_001.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_001.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_001.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Other2_001.png",
+        >                "sizeX": 294,
+        >                "sizeY": 194
+        >            }
+        >        ],
+        >        "name": "Object 155",
+        >        "sort": 154,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 1,
+        >        "id": "0ba15718-ba79-4f87-b398-562f8d077f97",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Flame_028.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Flame_028.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Flame_028.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Flame_028.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Flame_028.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            }
+        >        ],
+        >        "name": "Object 116",
+        >        "sort": 115,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 1,
+        >        "id": "0c0fa342-52d5-40aa-b34e-5636255962b6",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Vehicle_021.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Vehicle_022.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Vehicle_023.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Vehicle_024.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 30,
+        >                "path": "Vehicle_021.png",
+        >                "sizeX": 294,
+        >                "sizeY": 98
+        >            }
+        >        ],
+        >        "name": "Object 259",
+        >        "sort": 258,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 6,
+        >        "id": "0c1b1d6b-923a-4acf-a3ec-0bba1ba9318e",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "ArrowSpecial.asset",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Arrow/Special",
+        >        "sort": 28,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 0,
+        >        "id": "0c501359-b118-4133-8eea-9c24c42b287a",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 40,
+        >                "path": "Vehicle_017.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 40,
+        >                "path": "Vehicle_018.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 40,
+        >                "path": "Vehicle_019.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 40,
+        >                "path": "Vehicle_020.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            },
+        >            {
+        >                "animationFrame": 3,
+        >                "animationSpeed": 40,
+        >                "path": "Vehicle_017.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Unicorn",
+        >        "sort": 74,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 6,
+        >        "id": "0ca59363-f5ff-4dd4-b20c-69734f8c74c0",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "PierceThunder.asset",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Pierce/Thunder",
+        >        "sort": 14,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 4,
+        >        "id": "0d66a0aa-baa6-4720-98d6-c21deea32b15",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 8,
+        >                "animationSpeed": 20,
+        >                "path": "weapon_swing_004_8.png",
+        >                "sizeX": 1920,
+        >                "sizeY": 200
+        >            }
+        >        ],
+        >        "name": "Axe",
+        >        "sort": 3,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 1,
+        >        "id": "0dc2efeb-ce04-449d-b799-c7482c64415f",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_004_01.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_004_02.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_004_03.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_004_04.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_004_01.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Object 10",
+        >        "sort": 9,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 6,
+        >        "id": "0e2dec46-8444-49b9-a11d-a62bb4da08a0",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "WaterOne1.asset",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Water/One 1",
+        >        "sort": 80,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    },
+        >    {
+        >        "assetTypeId": 1,
+        >        "id": "0ef70722-6c7b-40a4-b6c1-132f080b7a16",
+        >        "imageSettings": [
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_005_01.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_005_02.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_005_03.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_005_04.png",
+        >                "sizeX": 98,
+        >                "sizeY": 98
+        >            },
+        >            {
+        >                "animationFrame": 0,
+        >                "animationSpeed": 0,
+        >                "path": "Chest_005_01.png",
+        >                "sizeX": 0,
+        >                "sizeY": 0
+        >            }
+        >        ],
+        >        "name": "Object 11",
+        >        "sort": 10,
+        >        "type": 0,
+        >        "weaponTypeId": 0
+        >    }
+        >]
+        >```
+* examples:
+    >```
+    >[
+    >    [
+    >        {
+    >            "assetTypeId": 3,
+    >            "id": "0003c951-f75e-47d0-a8d1-b8fb82cae285",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_move_forward_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_standard_delay_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_cast_delay_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_guard_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_damage_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_evasion_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_thrust_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_swing_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_projectile_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_general_skill_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_magic_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_items_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_escape_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_victory_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_critical_health_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_status_ailment_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_sleep_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "017_Actor_dead_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Amazon (Male)",
+    >            "sort": 16,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 4,
+    >            "id": "002a2ac8-e582-4310-b054-651c5bdf75cd",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "weapon_swing_012_8.png",
+    >                    "sizeX": 1920,
+    >                    "sizeY": 200
+    >                }
+    >            ],
+    >            "name": "Scythe",
+    >            "sort": 11,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 1,
+    >            "id": "008229ae-3500-45a0-be9b-4ae020c4c2b7",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_029.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_029.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_029.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_029.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_029.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                }
+    >            ],
+    >            "name": "Object 174",
+    >            "sort": 173,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 1,
+    >            "id": "01329ab5-e386-49aa-84a1-dffbd6058abc",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Weapon_002_01.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Weapon_002_02.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Weapon_002_03.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Weapon_002_04.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Weapon_002_01.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Object 227",
+    >            "sort": 226,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 3,
+    >            "id": "01a22294-1de0-47a9-b0a2-8a210364bd1b",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_move_forward_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_standard_delay_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_cast_delay_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_guard_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_damage_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_evasion_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_thrust_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_swing_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_projectile_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_general_skill_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_magic_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_items_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_escape_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_victory_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_critical_health_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_status_ailment_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_sleep_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 20,
+    >                    "path": "006_Actor_dead_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Wizard (Female)",
+    >            "sort": 5,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 0,
+    >            "id": "01ae0cea-fd48-4944-814c-9deabcb43b54",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "037_Demihuman_walk_down_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "037_Demihuman_walk_left_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "037_Demihuman_walk_right_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "037_Demihuman_walk_up_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 40,
+    >                    "path": "037_Demihuman_fielddamage_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Skeleton",
+    >            "sort": 36,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 6,
+    >            "id": "01f310cb-791d-4bf3-8c9b-0b65739c5fdd",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "ClawFire.asset",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Claw/Fire",
+    >            "sort": 17,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 0,
+    >            "id": "02ac5114-bc49-4f94-a84a-b7f9c016f4f4",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "030_Evil_walk_down_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "030_Evil_walk_left_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "030_Evil_walk_right_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "030_Evil_walk_up_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 40,
+    >                    "path": "030_Evil_fielddamage_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Seafarer (Female)",
+    >            "sort": 29,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 0,
+    >            "id": "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "002_Actor_walk_down_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "002_Actor_walk_left_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "002_Actor_walk_right_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "002_Actor_walk_up_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 40,
+    >                    "path": "002_Actor_fielddamage_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Hero (Female)",
+    >            "sort": 1,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 6,
+    >            "id": "042025dd-d674-479e-93ff-f366edbc31c1",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Flash.asset",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Flash",
+    >            "sort": 39,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 0,
+    >            "id": "04214f10-bd48-4134-b729-33d357805702",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "025_Evil_walk_down_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "025_Evil_walk_left_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "025_Evil_walk_right_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "025_Evil_walk_up_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 40,
+    >                    "path": "025_Evil_fielddamage_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Ruffian",
+    >            "sort": 24,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 4,
+    >            "id": "05d26f24-bf40-43af-8217-2b93752e717e",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "weapon_swing_007_8.png",
+    >                    "sizeX": 1920,
+    >                    "sizeY": 200
+    >                }
+    >            ],
+    >            "name": "Staff",
+    >            "sort": 6,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 1,
+    >            "id": "06065437-8f8b-418e-94dc-905fd5ddbd2c",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Door2_007.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Door2_007.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Door2_007.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Door2_007.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Door2_007.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                }
+    >            ],
+    >            "name": "Object 69",
+    >            "sort": 68,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 0,
+    >            "id": "07992b30-e4c4-454e-9335-71b9750566f7",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "016_Actor_walk_down_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "016_Actor_walk_left_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "016_Actor_walk_right_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 6,
+    >                    "animationSpeed": 40,
+    >                    "path": "016_Actor_walk_up_6.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 40,
+    >                    "path": "016_Actor_fielddamage_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Cataphract (Female)",
+    >            "sort": 15,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 6,
+    >            "id": "0884eee2-0c91-4d72-8168-036e274a3b51",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "SlashSpecial1.asset",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Slash/Special 1",
+    >            "sort": 22,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 4,
+    >            "id": "089cb64c-4d53-4a11-814a-9b3d49b3ef4f",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "weapon_thrust_002_8.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Shortspear",
+    >            "sort": 15,
+    >            "type": 0,
+    >            "weaponTypeId": 2
+    >        },
+    >        {
+    >            "assetTypeId": 6,
+    >            "id": "090f89de-4e7c-4463-8f68-2d7abbcbae39",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "SlashEffect.asset",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Slash/Effect",
+    >            "sort": 6,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 1,
+    >            "id": "0ada6636-f27d-4d74-9e0d-5b868d86ed2b",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_001.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_001.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_001.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_001.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Other2_001.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 194
+    >                }
+    >            ],
+    >            "name": "Object 155",
+    >            "sort": 154,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 1,
+    >            "id": "0ba15718-ba79-4f87-b398-562f8d077f97",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Flame_028.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Flame_028.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Flame_028.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Flame_028.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Flame_028.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                }
+    >            ],
+    >            "name": "Object 116",
+    >            "sort": 115,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 1,
+    >            "id": "0c0fa342-52d5-40aa-b34e-5636255962b6",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Vehicle_021.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Vehicle_022.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Vehicle_023.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Vehicle_024.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 30,
+    >                    "path": "Vehicle_021.png",
+    >                    "sizeX": 294,
+    >                    "sizeY": 98
+    >                }
+    >            ],
+    >            "name": "Object 259",
+    >            "sort": 258,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 6,
+    >            "id": "0c1b1d6b-923a-4acf-a3ec-0bba1ba9318e",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "ArrowSpecial.asset",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Arrow/Special",
+    >            "sort": 28,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 0,
+    >            "id": "0c501359-b118-4133-8eea-9c24c42b287a",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 40,
+    >                    "path": "Vehicle_017.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 40,
+    >                    "path": "Vehicle_018.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 40,
+    >                    "path": "Vehicle_019.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 40,
+    >                    "path": "Vehicle_020.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                },
+    >                {
+    >                    "animationFrame": 3,
+    >                    "animationSpeed": 40,
+    >                    "path": "Vehicle_017.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Unicorn",
+    >            "sort": 74,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 6,
+    >            "id": "0ca59363-f5ff-4dd4-b20c-69734f8c74c0",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "PierceThunder.asset",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Pierce/Thunder",
+    >            "sort": 14,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 4,
+    >            "id": "0d66a0aa-baa6-4720-98d6-c21deea32b15",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 8,
+    >                    "animationSpeed": 20,
+    >                    "path": "weapon_swing_004_8.png",
+    >                    "sizeX": 1920,
+    >                    "sizeY": 200
+    >                }
+    >            ],
+    >            "name": "Axe",
+    >            "sort": 3,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 1,
+    >            "id": "0dc2efeb-ce04-449d-b799-c7482c64415f",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_004_01.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_004_02.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_004_03.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_004_04.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_004_01.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Object 10",
+    >            "sort": 9,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 6,
+    >            "id": "0e2dec46-8444-49b9-a11d-a62bb4da08a0",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "WaterOne1.asset",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Water/One 1",
+    >            "sort": 80,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        },
+    >        {
+    >            "assetTypeId": 1,
+    >            "id": "0ef70722-6c7b-40a4-b6c1-132f080b7a16",
+    >            "imageSettings": [
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_005_01.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_005_02.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_005_03.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_005_04.png",
+    >                    "sizeX": 98,
+    >                    "sizeY": 98
+    >                },
+    >                {
+    >                    "animationFrame": 0,
+    >                    "animationSpeed": 0,
+    >                    "path": "Chest_005_01.png",
+    >                    "sizeX": 0,
+    >                    "sizeY": 0
+    >                }
+    >            ],
+    >            "name": "Object 11",
+    >            "sort": 10,
+    >            "type": 0,
+    >            "weaponTypeId": 0
+    >        }
+    >    ]
+    >]
+    >```

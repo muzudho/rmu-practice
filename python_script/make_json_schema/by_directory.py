@@ -49,22 +49,22 @@ def do_it(directory_to_read, directory_to_save):
 
     file_entry_in_dir = os.listdir(directory_to_read)
 
-    print(f"""Paths
-=====
-""")
+#     print(f"""Paths
+# =====
+# """)
 
     for file_entry in file_entry_in_dir:
         if file_entry.endswith(".json"):
             file_to_read = os.path.join(directory_to_read, file_entry)
             file_to_save = os.path.join(directory_to_save, file_entry)
 
-            print(f"""
-file_to_read: {file_to_read}
-file_to_save: {file_to_save}
-""")
-            #do_it_by_file(
-            #    file_to_read,
-            #    file_to_save)
+#             print(f"""
+# file_to_read: {file_to_read}
+# file_to_save: {file_to_save}
+# """)
+            do_it_by_file(
+                file_to_read,
+                file_to_save)
 
 if __name__ == '__main__':
     main()
