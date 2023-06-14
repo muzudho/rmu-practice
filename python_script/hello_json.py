@@ -76,7 +76,9 @@ def parse_key_value_pair(key, value, indent, buffer):
 
             if isinstance(value, dict):
                 # print(f"{indent}解析開始 辞書 key: {key}, value: {value}, type(value): {type(value)}")
-                parse_array_items_member(value, f"{indent}    ", buffer)
+                child_indent = f"{indent}    "
+                child_buffer = {"default":None}
+                parse_array_items_member(value, child_indent, child_buffer)
                 # print(f"{indent}解析終了")
             else:
                 print(f"{indent}■key: [{key}], value: {value}")
@@ -101,7 +103,7 @@ def parse_key_value_pair(key, value, indent, buffer):
 
         if isinstance(value, dict):
             child_indent = f"{indent}    "
-            child_buffer = {}
+            child_buffer = {"default":None}
             for child_key, child_value in value.items():
                 parse_key_value_pair(child_key, child_value, child_indent, child_buffer)
 
@@ -116,8 +118,16 @@ def parse_array_items_member(node, indent, buffer):
             print(f"{indent}[array-items] title: {value}")
         elif key == "required":
             print(f"{indent}[array-items] required: {value}")
+
         elif key == "properties":
-            print(f"{indent}[array-items] properties: {value}")
+            if isinstance(value, dict):
+                child_indent = f"{indent}    "
+                child_buffer = {}
+                for child_key, child_value in value.items():
+                    parse_key_value_pair(child_key, child_value, child_indent, child_buffer)
+            else:
+                print(f"{indent}■[array-items] properties: {value}")
+
         elif key == "examples":
             print(f"{indent}[array-items] examples: {value}")
         else:
