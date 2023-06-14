@@ -76,7 +76,7 @@ def parse_key_value_pair(key, value, indent, buffer, parent_key):
     elif key == "items":
         if buffer["type"] == "array":
             # 配列のメンバー
-            print(f"{indent}* `{parent_key}` array - default: {buffer['default']}")
+            print(f"{indent}* 😁 `{parent_key}` array - default: {buffer['default']}")
             # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
 
             if isinstance(value, dict):
@@ -96,8 +96,8 @@ def parse_key_value_pair(key, value, indent, buffer, parent_key):
             print(f"{indent} type(value): {type(value)}")
 
     elif key == "examples":
-        print(f"{indent}examples:")
-        print(f"{indent} type(value): {type(value)}")
+        print(f"{indent}* examples: ```{value}```")
+        # print(f"{indent} type(value): {type(value)}")
 
         if isinstance(value, dict):
             child_indent = f"{indent}    "
@@ -132,7 +132,7 @@ def parse_array_items_member(node, indent, buffer, parent_key):
         elif key == "items":
             if buffer["type"] == "array":
                 # 配列のメンバー
-                print(f"{indent}* `{parent_key}` array - default: {buffer['default']}")
+                print(f"{indent}* 😁 `{parent_key}` array - default: {buffer['default']}")
                 # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
 
                 if isinstance(value, dict):
@@ -167,7 +167,7 @@ def parse_array_items_member(node, indent, buffer, parent_key):
 
         elif key == "examples":
             # print(f"{indent}[array-items] examples: {value}")
-            print(f"{indent}examples: {value}")
+            print(f"{indent}* examples: ```{value}```")
         else:
             print(f"{indent}■key: {key}")
 
@@ -178,7 +178,7 @@ def parse_key_value_pair_for_property(key, value, indent, buffer, parent_key):
 
     if isinstance(value, dict):
         # プロパティ名
-        print(f"{indent}* `{key}` property")
+        print(f"{indent}* 😁 `{key}` property")
         # print(f"{indent}property key: {key}, value: {value} type(value): {type(value)}")
 
         child_indent = f"{indent}    "
