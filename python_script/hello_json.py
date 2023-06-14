@@ -163,9 +163,12 @@ def parse_array_items_member(node, indent, buffer):
 def parse_key_value_pair_for_property(key, value, indent, buffer):
     """任意のキー"""
 
-    print(f"{indent}property key: {key}, value: {value} type(value): {type(value)}")
 
     if isinstance(value, dict):
+        # プロパティ名
+        print(f"{indent}[{key} property]")
+        # print(f"{indent}property key: {key}, value: {value} type(value): {type(value)}")
+
         child_indent = f"{indent}    "
         child_buffer = {"default":None}
         parse_array_items_member(value, child_indent, child_buffer)
