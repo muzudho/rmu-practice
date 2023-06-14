@@ -126,35 +126,7 @@ def parse_key_value_pair(key, value, indent, buffer, parent_key):
 
         # ダンプ
         dump_text = json.dumps(value, indent=4)
-
-        # 例えば、以下のように整形したい
-        #
-        # * examples:
-        #     >```
-        #     >[
-        #     >    "255,255,255",
-        #     >    "255,119,102",
-        #     >    "255,136,51"
-        #     >]
-        #     >```
-
-        temp_lines = dump_text.splitlines()
-
-        result_text += f"{indent}* examples:\n"
-        result_text += f"{indent}    >```\n"
-
-        for line in temp_lines:
-            result_text += f"{indent}    >{line}\n"
-
-        result_text += f"{indent}    >```\n"
-
-        # result_text += f"{indent}* examples: ```{value}```\n"
-
-        # if isinstance(value, dict):
-        #    child_indent = f"{indent}    "
-        #    child_buffer = {}
-        #    for child_key, child_value in value.items():
-        #        result_text = parse_key_value_pair(child_key, child_value, indent, child_buffer, key)
+        result_text += stringify_quote_in_list(dump_text, indent)
 
     else:
         result_text += f"{indent}■key: {key}, type(value): {type(value)}\n"
@@ -167,6 +139,35 @@ def parse_key_value_pair(key, value, indent, buffer, parent_key):
 
     return result_text
 
+def stringify_quote_in_list(text, indent):
+    """例えば、以下のように整形したい
+    📖 [chbrown/gfm-multiline-quotes.md](https://gist.github.com/chbrown/03f4d637bd1f489e3d962de15db18aba#file-nested-quotes-md)
+
+    * examples:
+        >```
+        >[
+        >    "255,255,255",
+        >    "255,119,102",
+        >    "255,136,51"
+        >]
+        >```
+    """
+
+    # 結果文言
+    result_text = ""
+
+
+    temp_lines = text.splitlines()
+
+    result_text += f"{indent}* examples:\n"
+    result_text += f"{indent}    >```\n"
+
+    for line in temp_lines:
+        result_text += f"{indent}    >{line}\n"
+
+    result_text += f"{indent}    >```\n"
+
+    return result_text
 
 
 def parse_array_items_member(node, indent, buffer, parent_key):
@@ -217,29 +218,7 @@ def parse_array_items_member(node, indent, buffer, parent_key):
 
             # ダンプ
             dump_text = json.dumps(value, indent=4)
-
-            # 例えば、以下のように整形したい
-            #
-            # * examples:
-            #     >```
-            #     >[
-            #     >    "255,255,255",
-            #     >    "255,119,102",
-            #     >    "255,136,51"
-            #     >]
-            #     >```
-
-            temp_lines = dump_text.splitlines()
-
-            result_text += f"{indent}* examples:\n"
-            result_text += f"{indent}    >```\n"
-
-            for line in temp_lines:
-                result_text += f"{indent}    >{line}\n"
-
-            result_text += f"{indent}    >```\n"
-
-            # result_text += f"{indent}* examples: ```{value}```\n"
+            result_text += stringify_quote_in_list(dump_text, indent)
 
         else:
             result_text += f"{indent}■key: {key}\n"
