@@ -1136,48 +1136,6 @@
                 "targetImageName": ""
             },
             {
-                "expansion": 100,
-                "flashList": [],
-                "id": "111419c2-2152-4b18-901d-4465c6771d4f",
-                "offset": "0;0",
-                "particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
-                "particleName": "Standard Attack",
-                "particlePos": 1,
-                "particleType": 1,
-                "playSpeed": 100,
-                "rotation": "0;0;0",
-                "seList": [],
-                "targetImageName": ""
-            },
-            {
-                "expansion": 50,
-                "flashList": [
-                    {
-                        "color": "255,255,255",
-                        "flashId": 0,
-                        "flashType": 1,
-                        "frame": 1,
-                        "time": 30
-                    }
-                ],
-                "id": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
-                "offset": "0;0",
-                "particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
-                "particleName": "Blunt/Physical",
-                "particlePos": 1,
-                "particleType": 1,
-                "playSpeed": 100,
-                "rotation": "10;10;10",
-                "seList": [
-                    {
-                        "frame": 1,
-                        "seId": 0,
-                        "seName": "Blow1.ogg"
-                    }
-                ],
-                "targetImageName": ""
-            },
-            {
                 "expansion": 60,
                 "flashList": [
                     {
@@ -1606,46 +1564,6 @@
                 "expansion": 80,
                 "flashList": [
                     {
-                        "color": "255,119,102",
-                        "flashId": 0,
-                        "flashType": 1,
-                        "frame": 1,
-                        "time": 30
-                    },
-                    {
-                        "color": "255,136,51",
-                        "flashId": 0,
-                        "flashType": 1,
-                        "frame": 4,
-                        "time": 30
-                    }
-                ],
-                "id": "cd7ed346-f284-4873-a54a-526ddc72a209",
-                "offset": "0;0",
-                "particleId": "e45ab9d2-f4ff-4448-bb21-8278b438d17b",
-                "particleName": "Pierce/Fire",
-                "particlePos": 1,
-                "particleType": 1,
-                "playSpeed": 100,
-                "rotation": "0;0;0",
-                "seList": [
-                    {
-                        "frame": 1,
-                        "seId": 0,
-                        "seName": "Thunder1.ogg"
-                    },
-                    {
-                        "frame": 4,
-                        "seId": 0,
-                        "seName": "Fire1.ogg"
-                    }
-                ],
-                "targetImageName": ""
-            },
-            {
-                "expansion": 80,
-                "flashList": [
-                    {
                         "color": "119,187,255",
                         "flashId": 0,
                         "flashType": 1,
@@ -1807,44 +1725,6 @@
                 "expansion": 100,
                 "flashList": [
                     {
-                        "color": "255,119,102",
-                        "flashId": 0,
-                        "flashType": 1,
-                        "frame": 1,
-                        "time": 30
-                    }
-                ],
-                "id": "083f449d-97d6-4c73-ab53-db8d97048bdc",
-                "offset": "0;0",
-                "particleId": "01f310cb-791d-4bf3-8c9b-0b65739c5fdd",
-                "particleName": "Claw/Fire",
-                "particlePos": 1,
-                "particleType": 1,
-                "playSpeed": 100,
-                "rotation": "0;0;0",
-                "seList": [
-                    {
-                        "frame": 1,
-                        "seId": 0,
-                        "seName": "Attack2.ogg"
-                    },
-                    {
-                        "frame": 2,
-                        "seId": 0,
-                        "seName": "Slash2.ogg"
-                    },
-                    {
-                        "frame": 4,
-                        "seId": 0,
-                        "seName": "Fire1.ogg"
-                    }
-                ],
-                "targetImageName": ""
-            },
-            {
-                "expansion": 100,
-                "flashList": [
-                    {
                         "color": "119,187,255",
                         "flashId": 0,
                         "flashType": 1,
@@ -1913,70 +1793,6 @@
                         "frame": 4,
                         "seId": 0,
                         "seName": "Thunder8.ogg"
-                    }
-                ],
-                "targetImageName": ""
-            },
-            {
-                "expansion": 120,
-                "flashList": [
-                    {
-                        "color": "255,255,255",
-                        "flashId": 0,
-                        "flashType": 1,
-                        "frame": 1,
-                        "time": 30
-                    },
-                    {
-                        "color": "255,255,255",
-                        "flashId": 0,
-                        "flashType": 1,
-                        "frame": 30,
-                        "time": 30
-                    },
-                    {
-                        "color": "255,255,255",
-                        "flashId": 0,
-                        "flashType": 1,
-                        "frame": 60,
-                        "time": 70
-                    },
-                    {
-                        "color": "255,255,255",
-                        "flashId": 0,
-                        "flashType": 1,
-                        "frame": 100,
-                        "time": 70
-                    }
-                ],
-                "id": "ac61511c-5025-4862-aafd-1ca48ff48ffe",
-                "offset": "0;0",
-                "particleId": "fb7e8894-f47a-4bf8-b9fe-e7cd384ba272",
-                "particleName": "Blunt/Special 1",
-                "particlePos": 1,
-                "particleType": 1,
-                "playSpeed": 100,
-                "rotation": "0;0;0",
-                "seList": [
-                    {
-                        "frame": 3,
-                        "seId": 0,
-                        "seName": "Blow1.ogg"
-                    },
-                    {
-                        "frame": 6,
-                        "seId": 0,
-                        "seName": "Blow3.ogg"
-                    },
-                    {
-                        "frame": 92,
-                        "seId": 0,
-                        "seName": "Blow3.ogg"
-                    },
-                    {
-                        "frame": 100,
-                        "seId": 0,
-                        "seName": "Blow3.ogg"
                     }
                 ],
                 "targetImageName": ""

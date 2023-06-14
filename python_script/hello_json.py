@@ -47,6 +47,10 @@ def parse_member(node, indent):
     """パースの容易性から、 OrderedMap を想定したアルゴリズムにする
     """
 
+    print(f"{indent}解析 type(node): {type(node)}")
+    print(f"{indent}解析 len(node): {len(node)}")
+
+
     for key, value in node.items():
 
         if key == "$schema":
@@ -57,18 +61,37 @@ def parse_member(node, indent):
 
         elif key == "type":
             print(f"{indent}type: {value}")
-            node_type = value
+            buffer_type = value
 
         elif key == "default":
-            node_default = value
+            buffer_default = value
 
         elif key == "title":
-            node_title = value
+            buffer_title = value
 
         elif key == "items":
-            # 配列のメンバー
-            print(f"{indent}array items title: {node_title}, default: {value}")
-            parse_items(value, f"{indent}    ")
+            if buffer_type == "array":
+                # 配列のメンバー
+                print(f"{indent}array items title: {buffer_title}, default: {buffer_default}, type(value): {type(value)}")
+
+                if isinstance(value, dict):
+                    print(f"{indent}解析開始")
+                    parse_member(value, f"{indent}    ")
+                    print(f"{indent}解析終了")
+                else:
+                    print(f"{indent}■key: [{key}]")
+                    print(f"{indent} type(value): {type(value)}")
+
+            else:
+                print(f"{indent}■key: [{key}]")
+                print(f"{indent} type(value): {type(value)}")
+
+        elif key == "examples":
+            print(f"{indent}examples:")
+            print(f"{indent} type(value): {type(value)}")
+
+            if isinstance(value, dict):
+                parse_member(value, f"{indent}    ")
 
         else:
             print(f"{indent}■key: [{key}]")
