@@ -115,9 +115,33 @@ def parse_array_items_member(node, indent, buffer):
         # print(f"{indent}■[array-items]key: [{key}], type(value): {type(value)}")
 
         if key == "type":
+            buffer["type"] = value
             print(f"{indent}[array-items] type: {value}")
+
         elif key == "title":
+            buffer["title"] = value
             print(f"{indent}[array-items] title: {value}")
+
+        elif key == "items":
+            if buffer["type"] == "array":
+                # 配列のメンバー
+                print(f"{indent}array title: {buffer['title']}, default: {buffer['default']}")
+                # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
+
+                if isinstance(value, dict):
+                    # print(f"{indent}解析開始 辞書 key: {key}, value: {value}, type(value): {type(value)}")
+                    child_indent = f"{indent}    "
+                    child_buffer = {"default":None}
+                    parse_array_items_member(value, child_indent, child_buffer)
+                    # print(f"{indent}解析終了")
+                else:
+                    print(f"{indent}■key: [{key}], value: {value}")
+                    print(f"{indent} type(value): {type(value)}")
+
+            else:
+                print(f"{indent}■key: [{key}], value: {value}")
+                print(f"{indent} type(value): {type(value)}")
+
         elif key == "required":
             print(f"{indent}[array-items] required: {value}")
 
