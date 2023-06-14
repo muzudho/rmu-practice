@@ -37,8 +37,8 @@ def main():
         document = json.load(f)
 
         # ダンプ
-        json_str = json.dumps(document, indent=4)
-        print(f"dump={json_str}")
+        # json_str = json.dumps(document, indent=4)
+        # print(f"dump={json_str}")
 
         # 解析
         parse_member(document, "")
@@ -48,13 +48,13 @@ def parse_member(node, indent):
     """パースの容易性から、 OrderedMap を想定したアルゴリズムにする
     """
 
-    print(f"{indent}解析 type(node): {type(node)}")
-    print(f"{indent}解析 len(node): {len(node)}")
+    # print(f"{indent}解析 type(node): {type(node)}")
+    # print(f"{indent}解析 len(node): {len(node)}")
 
     num = 1
 
     for key, value in node.items():
-        print(f"{indent}({num})解析 key: {key}, value: {value}")
+        # print(f"{indent}({num})解析 key: {key}, value: {value}")
 
         if key == "$schema":
             print(f"{indent}$schema: {value}")
@@ -74,12 +74,12 @@ def parse_member(node, indent):
         elif key == "items":
             if buffer_type == "array":
                 # 配列のメンバー
-                print(f"{indent}array items title: {buffer_title}, default: {buffer_default}, type(value): {type(value)}")
+                # print(f"{indent}array items title: {buffer_title}, default: {buffer_default}, type(value): {type(value)}")
 
                 if isinstance(value, dict):
-                    print(f"{indent}解析開始 辞書 key: {key}, value: {value}, type(value): {type(value)}")
-                    parse_member(value, f"{indent}    ")
-                    print(f"{indent}解析終了")
+                    # print(f"{indent}解析開始 辞書 key: {key}, value: {value}, type(value): {type(value)}")
+                    parse_array_items_member(value, f"{indent}    ")
+                    # print(f"{indent}解析終了")
                 else:
                     print(f"{indent}■key: [{key}], value: {value}")
                     print(f"{indent} type(value): {type(value)}")
@@ -96,19 +96,29 @@ def parse_member(node, indent):
                 parse_member(value, f"{indent}    ")
 
         else:
-            print(f"{indent}■key: [{key}]")
-            print(f"{indent} type(value): {type(value)}")
+            print(f"{indent}■key: {key}, type(value): {type(value)}")
 
             if isinstance(value, dict):
                 parse_member(value, f"{indent}    ")
 
         num = num + 1
 
-def parse_items(node, indent):
+def parse_array_items_member(node, indent):
     for key, value in node.items():
-        print(f"{indent}■[items]key: [{key}]")
-        print(f"{indent} [items]type(value): {type(value)}")
+        # print(f"{indent}■[array-items]key: [{key}], type(value): {type(value)}")
 
+        if key == "type":
+            print(f"{indent}[array-items] type: {value}")
+        elif key == "title":
+            print(f"{indent}[array-items] title: {value}")
+        elif key == "required":
+            print(f"{indent}[array-items] required: {value}")
+        elif key == "properties":
+            print(f"{indent}[array-items] properties: {value}")
+        elif key == "examples":
+            print(f"{indent}[array-items] examples: {value}")
+        else:
+            print(f"{indent}■key: {key}")
 
 if __name__ == '__main__':
     main()
