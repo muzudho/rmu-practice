@@ -137,8 +137,8 @@ def parse_array_items_member(node, indent, buffer, parent_key):
 
                 if isinstance(value, dict):
                     # print(f"{indent}解析開始 辞書 key: {key}, value: {value}, type(value): {type(value)}")
-                    # child_indent = f"{indent}    "
-                    child_indent = indent
+                    child_indent = f"{indent}    "
+                    # child_indent = indent
                     child_buffer = {"default":None}
                     parse_array_items_member(value, child_indent, child_buffer, key)
                     # 解析を抜けたときに出力
@@ -153,11 +153,12 @@ def parse_array_items_member(node, indent, buffer, parent_key):
                 print(f"{indent} type(value): {type(value)}")
 
         elif key == "required":
-            print(f"{indent}[array-items] required: {value}")
+            print(f"{indent}* required - {value}")
 
         elif key == "properties":
             if isinstance(value, dict):
-                child_indent = f"{indent}    "
+                # child_indent = f"{indent}    "
+                child_indent = indent
                 child_buffer = {}
                 for child_key, child_value in value.items():
                     parse_key_value_pair_for_property(child_key, child_value, child_indent, child_buffer, key)
@@ -177,7 +178,7 @@ def parse_key_value_pair_for_property(key, value, indent, buffer, parent_key):
 
     if isinstance(value, dict):
         # プロパティ名
-        print(f"{indent}[{key} property]")
+        print(f"{indent}* `{key}` property")
         # print(f"{indent}property key: {key}, value: {value} type(value): {type(value)}")
 
         child_indent = f"{indent}    "
