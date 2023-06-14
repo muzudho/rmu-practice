@@ -71,7 +71,7 @@ def parse_key_value_pair(key, value, indent, buffer):
     elif key == "items":
         if buffer["type"] == "array":
             # 配列のメンバー
-            print(f"{indent}array title: {buffer['title']}, default: {buffer['default']}")
+            print(f"{indent}[{buffer['title']} :array] default: {buffer['default']}")
             # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
 
             if isinstance(value, dict):
@@ -127,12 +127,13 @@ def parse_array_items_member(node, indent, buffer):
         elif key == "items":
             if buffer["type"] == "array":
                 # 配列のメンバー
-                print(f"{indent}array title: {buffer['title']}, default: {buffer['default']}")
+                print(f"{indent}[{buffer['title']} :array] default: {buffer['default']}")
                 # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
 
                 if isinstance(value, dict):
                     # print(f"{indent}解析開始 辞書 key: {key}, value: {value}, type(value): {type(value)}")
-                    child_indent = f"{indent}    "
+                    # child_indent = f"{indent}    "
+                    child_indent = indent
                     child_buffer = {"default":None}
                     parse_array_items_member(value, child_indent, child_buffer)
                     # 解析を抜けたときに出力
