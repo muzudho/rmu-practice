@@ -75,9 +75,6 @@
                     "menuHp": {
                         "enabled": 0
                     },
-                    "menuMp": {
-                        "enabled": 0
-                    },
                     "menuTp": {
                         "enabled": 0
                     }
@@ -712,43 +709,10 @@
             },
             "examples": [
                 {
-                    "categoryArmor": {
-                        "enabled": 1
-                    },
-                    "categoryImportant": {
-                        "enabled": 1
-                    },
-                    "categoryItem": {
-                        "enabled": 1
-                    },
-                    "categoryWeapon": {
-                        "enabled": 1
-                    },
-                    "menuEquipment": {
-                        "enabled": 1
-                    },
                     "menuFontSetting": {
                         "color": [100, 150, 200],
                         "font": "AAA",
                         "size": 16
-                    },
-                    "menuGameEnd": {
-                        "enabled": 1
-                    },
-                    "menuItem": {
-                        "enabled": 1
-                    },
-                    "menuOption": {
-                        "enabled": 1
-                    },
-                    "menuSave": {
-                        "enabled": 1
-                    },
-                    "menuSkill": {
-                        "enabled": 1
-                    },
-                    "menuSort": {
-                        "enabled": 1
                     },
                     "menuStatus": {
                         "enabled": 1
@@ -861,11 +825,6 @@
                         {
                             "characterEnabled": 1,
                             "nameEnabled": 1,
-                            "nameFontSetting": {
-                                "color": [255, 255, 255],
-                                "font": "002",
-                                "size": 100
-                            },
                             "talkFontSetting": {
                                 "color": [255, 255, 255],
                                 "font": "AAA",
@@ -1082,14 +1041,6 @@
                             "size": 100
                         }
                     },
-                    "itemSelectMenu": {
-                        "menuFontSetting": {
-                            "color": [0, 0, 0],
-                            "font": "002",
-                            "size": 100
-                        },
-                        "positionItemWindow": 2
-                    },
                     "numberMenu": {
                         "menuFontSetting": {
                             "color": [0, 0, 0],
@@ -1116,25 +1067,12 @@
                 "menuHp": {
                     "enabled": 0
                 },
-                "menuMp": {
-                    "enabled": 0
-                },
                 "menuTp": {
                     "enabled": 0
                 }
             },
             "commonMenus": [
                 {
-                    "backgroundImage": {
-                        "color": [254, 254, 254, 0],
-                        "image": "UI_bg_01",
-                        "type": 0
-                    },
-                    "buttonFrameImage": {
-                        "color": [0, 0, 0, 0],
-                        "image": "UI_window_frame_01",
-                        "type": 0
-                    },
                     "buttonImage": {
                         "color": [0, 0, 0, 80],
                         "image": "UI_button_bg_01",
@@ -1143,16 +1081,6 @@
                     "buttonImageHighlight": [38, 175, 255, 83],
                     "characterType": 2,
                     "id": "1",
-                    "menuFontSetting": {
-                        "color": [255, 255, 255, 255],
-                        "font": "mplus-1m-regular",
-                        "size": 40
-                    },
-                    "windowBackgroundImage": {
-                        "color": [0, 0, 0, 128],
-                        "image": "UI_window_bg_01",
-                        "type": 0
-                    },
                     "windowFrameImage": {
                         "color": [245, 249, 252, 0],
                         "image": "UI_window_frame_02",
@@ -1162,18 +1090,6 @@
                 }
             ],
             "gameMenu": {
-                "categoryArmor": {
-                    "enabled": 1
-                },
-                "categoryImportant": {
-                    "enabled": 1
-                },
-                "categoryItem": {
-                    "enabled": 1
-                },
-                "categoryWeapon": {
-                    "enabled": 1
-                },
                 "menuEquipment": {
                     "enabled": 1
                 },
@@ -1181,24 +1097,6 @@
                     "color": [100, 150, 200],
                     "font": "AAA",
                     "size": 16
-                },
-                "menuGameEnd": {
-                    "enabled": 1
-                },
-                "menuItem": {
-                    "enabled": 1
-                },
-                "menuOption": {
-                    "enabled": 1
-                },
-                "menuSave": {
-                    "enabled": 1
-                },
-                "menuSkill": {
-                    "enabled": 1
-                },
-                "menuSort": {
-                    "enabled": 1
                 },
                 "menuStatus": {
                     "enabled": 1
@@ -1219,14 +1117,7 @@
                         "size": 100
                     }
                 },
-                "itemSelectMenu": {
-                    "menuFontSetting": {
-                        "color": [0, 0, 0],
-                        "font": "002",
-                        "size": 100
-                    },
-                    "positionItemWindow": 2
-                },
+
                 "numberMenu": {
                     "menuFontSetting": {
                         "color": [0, 0, 0],

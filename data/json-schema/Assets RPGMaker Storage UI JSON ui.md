@@ -29,18 +29,6 @@
             >                "size": 100
             >            }
             >        },
-            >        "itemSelectMenu": {
-            >            "menuFontSetting": {
-            >                "color": [
-            >                    0,
-            >                    0,
-            >                    0
-            >                ],
-            >                "font": "002",
-            >                "size": 100
-            >            },
-            >            "positionItemWindow": 2
-            >        },
             >        "numberMenu": {
             >            "menuFontSetting": {
             >                "color": [
@@ -79,35 +67,12 @@
     >            "menuHp": {
     >                "enabled": 0
     >            },
-    >            "menuMp": {
-    >                "enabled": 0
-    >            },
     >            "menuTp": {
     >                "enabled": 0
     >            }
     >        },
     >        "commonMenus": [
     >            {
-    >                "backgroundImage": {
-    >                    "color": [
-    >                        254,
-    >                        254,
-    >                        254,
-    >                        0
-    >                    ],
-    >                    "image": "UI_bg_01",
-    >                    "type": 0
-    >                },
-    >                "buttonFrameImage": {
-    >                    "color": [
-    >                        0,
-    >                        0,
-    >                        0,
-    >                        0
-    >                    ],
-    >                    "image": "UI_window_frame_01",
-    >                    "type": 0
-    >                },
     >                "buttonImage": {
     >                    "color": [
     >                        0,
@@ -126,26 +91,6 @@
     >                ],
     >                "characterType": 2,
     >                "id": "1",
-    >                "menuFontSetting": {
-    >                    "color": [
-    >                        255,
-    >                        255,
-    >                        255,
-    >                        255
-    >                    ],
-    >                    "font": "mplus-1m-regular",
-    >                    "size": 40
-    >                },
-    >                "windowBackgroundImage": {
-    >                    "color": [
-    >                        0,
-    >                        0,
-    >                        0,
-    >                        128
-    >                    ],
-    >                    "image": "UI_window_bg_01",
-    >                    "type": 0
-    >                },
     >                "windowFrameImage": {
     >                    "color": [
     >                        245,
@@ -165,18 +110,6 @@
     >            }
     >        ],
     >        "gameMenu": {
-    >            "categoryArmor": {
-    >                "enabled": 1
-    >            },
-    >            "categoryImportant": {
-    >                "enabled": 1
-    >            },
-    >            "categoryItem": {
-    >                "enabled": 1
-    >            },
-    >            "categoryWeapon": {
-    >                "enabled": 1
-    >            },
     >            "menuEquipment": {
     >                "enabled": 1
     >            },
@@ -188,24 +121,6 @@
     >                ],
     >                "font": "AAA",
     >                "size": 16
-    >            },
-    >            "menuGameEnd": {
-    >                "enabled": 1
-    >            },
-    >            "menuItem": {
-    >                "enabled": 1
-    >            },
-    >            "menuOption": {
-    >                "enabled": 1
-    >            },
-    >            "menuSave": {
-    >                "enabled": 1
-    >            },
-    >            "menuSkill": {
-    >                "enabled": 1
-    >            },
-    >            "menuSort": {
-    >                "enabled": 1
     >            },
     >            "menuStatus": {
     >                "enabled": 1
@@ -233,18 +148,6 @@
     >                    "font": "AAA",
     >                    "size": 100
     >                }
-    >            },
-    >            "itemSelectMenu": {
-    >                "menuFontSetting": {
-    >                    "color": [
-    >                        0,
-    >                        0,
-    >                        0
-    >                    ],
-    >                    "font": "002",
-    >                    "size": 100
-    >                },
-    >                "positionItemWindow": 2
     >            },
     >            "numberMenu": {
     >                "menuFontSetting": {

@@ -27,50 +27,6 @@
     >                "tileIdsOnPalette": []
     >            },
     >            {
-    >                "type": "Background",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "BackgroundCollision",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "A",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "A_Effect",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "B",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "B_Effect",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "Shadow",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "C",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "C_Effect",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "D",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
-    >                "type": "D_Effect",
-    >                "tileIdsOnPalette": []
-    >            },
-    >            {
     >                "type": "ForRoute",
     >                "tileIdsOnPalette": []
     >            },

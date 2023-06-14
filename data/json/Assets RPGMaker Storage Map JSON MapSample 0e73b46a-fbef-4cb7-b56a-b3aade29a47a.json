@@ -67,62 +67,18 @@
                     "type": {
                         "type": "string",
                         "title": "The type Schema",
-                        "examples": ["DistantView", "Background", "BackgroundCollision", "A", "A_Effect", "B", "B_Effect", "Shadow", "C", "C_Effect", "D", "D_Effect", "ForRoute", "Region"]
+                        "examples": ["DistantView", "Background", "BackgroundCollision"]
                     },
                     "tileIdsOnPalette": {
                         "type": "array",
                         "title": "The tileIdsOnPalette Schema",
                         "items": {},
-                        "examples": [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+                        "examples": [[], [], []]
                     }
                 },
                 "examples": [
                     {
                         "type": "DistantView",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "Background",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "BackgroundCollision",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "A",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "A_Effect",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "B",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "B_Effect",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "Shadow",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "C",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "C_Effect",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "D",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "D_Effect",
                         "tileIdsOnPalette": []
                     },
                     {
@@ -139,50 +95,6 @@
                 [
                     {
                         "type": "DistantView",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "Background",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "BackgroundCollision",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "A",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "A_Effect",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "B",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "B_Effect",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "Shadow",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "C",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "C_Effect",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "D",
-                        "tileIdsOnPalette": []
-                    },
-                    {
-                        "type": "D_Effect",
                         "tileIdsOnPalette": []
                     },
                     {
@@ -426,50 +338,6 @@
             "layers": [
                 {
                     "type": "DistantView",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "Background",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "BackgroundCollision",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "A",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "A_Effect",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "B",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "B_Effect",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "Shadow",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "C",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "C_Effect",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "D",
-                    "tileIdsOnPalette": []
-                },
-                {
-                    "type": "D_Effect",
                     "tileIdsOnPalette": []
                 },
                 {

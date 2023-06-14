@@ -17,18 +17,7 @@
             "chapterId": {
                 "type": "string",
                 "title": "The chapterId Schema",
-                "examples": [
-                    "5859b122-61b3-9a58-b886-2483b495803b",
-                    "57d4ee27-186c-4151-ac87-51bb3fce2a6e",
-                    "dc7d4b69-4a33-4a54-a013-643a6ebca690",
-                    "0870e328-5244-4374-b1df-f02462f7e6a1",
-                    "c5d4af54-2ed7-4f04-ac54-d7275d748dee",
-                    "811d3bb2-47d4-48d5-a403-9a1ae1a1d082",
-                    "aef66709-9526-4af9-93fd-c1df9ff59ed1",
-                    "a17d954c-f1fb-4cc3-9b6e-c949b47cd8ab",
-                    "97d95bab-e352-4cf8-aa64-189f54cb886c",
-                    "79cc3f56-1a84-40e1-a55a-ef4403baa611"
-                ]
+                "examples": ["5859b122-61b3-9a58-b886-2483b495803b", "57d4ee27-186c-4151-ac87-51bb3fce2a6e", "79cc3f56-1a84-40e1-a55a-ef4403baa611"]
             },
             "deleted": {
                 "type": "integer",
@@ -58,18 +47,7 @@
             "mapId": {
                 "type": "string",
                 "title": "The mapId Schema",
-                "examples": [
-                    "369bb76a-77d6-472a-8b17-a8e3a37c572a",
-                    "28e58b60-cf07-42b8-810e-3098fd14de4f",
-                    "5532f961-5a2f-4aae-9986-5904d4e5a67d",
-                    "7162c50b-9105-4872-a72c-a45d4f92c5e4",
-                    "1dde8e43-5152-4771-b9c6-f0a17df12b56",
-                    "3e3c845f-eb20-4ed5-91ce-04257834cddc",
-                    "4b3777c9-1a81-4a66-9aaa-62317c9f5267",
-                    "bd9cbcb8-6291-40bf-8193-a97425670c88",
-                    "a4297390-25ff-4731-9410-c72283d4ba3a",
-                    "8a1d06ec-2133-4cce-b60c-e9ddb63dc0db"
-                ]
+                "examples": ["369bb76a-77d6-472a-8b17-a8e3a37c572a", "a4297390-25ff-4731-9410-c72283d4ba3a", "8a1d06ec-2133-4cce-b60c-e9ddb63dc0db"]
             },
             "nextChapterId": {
                 "type": "integer",
@@ -82,20 +60,10 @@
                 "items": {
                     "type": "number",
                     "title": "A Schema",
-                    "examples": [
-                        382.0001220703125, 38.0, 706.8570556640625, 35.4285774230957, 1033.71435546875, 33.142852783203128, 1358.857177734375, 32.571380615234378, 1678.28564453125, 30.285686492919923, 2011.9998779296875, 26.857147216796876, 2331.999755859375, 25.714269638061525, 2654.28515625, 24.571414947509767, 2985.556884765625, 23.46429443359375,
-                        3314.392822265625, 21.9571533203125
-                    ]
+                    "examples": [382.0001220703125, 38.0, 706.8570556640625, 35.4285774230957]
                 },
                 "examples": [
                     [382.0001220703125, 38.0],
-                    [706.8570556640625, 35.4285774230957],
-                    [1033.71435546875, 33.142852783203128],
-                    [1358.857177734375, 32.571380615234378],
-                    [1678.28564453125, 30.285686492919923],
-                    [2011.9998779296875, 26.857147216796876],
-                    [2331.999755859375, 25.714269638061525],
-                    [2654.28515625, 24.571414947509767],
                     [2985.556884765625, 23.46429443359375],
                     [3314.392822265625, 21.9571533203125]
                 ]
@@ -103,114 +71,10 @@
             "title": {
                 "type": "string",
                 "title": "The title Schema",
-                "examples": ["Starterton", "Kalahari", "Gald", "Limitana", "Bretagne Commercial District", "Bretagne Castle", "Atté", "Yellowsand Settlement", "Tournament", "To the sea"]
+                "examples": ["Starterton", "Kalahari", "Gald"]
             }
         },
         "examples": [
-            {
-                "beforeChapterId": 0,
-                "chapterId": "5859b122-61b3-9a58-b886-2483b495803b",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 4,
-                "levelLow": 1,
-                "mapId": "369bb76a-77d6-472a-8b17-a8e3a37c572a",
-                "nextChapterId": 0,
-                "position": [382.0001220703125, 38.0],
-                "title": "Starterton"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "57d4ee27-186c-4151-ac87-51bb3fce2a6e",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 6,
-                "levelLow": 3,
-                "mapId": "28e58b60-cf07-42b8-810e-3098fd14de4f",
-                "nextChapterId": 0,
-                "position": [706.8570556640625, 35.4285774230957],
-                "title": "Kalahari"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 10,
-                "levelLow": 5,
-                "mapId": "5532f961-5a2f-4aae-9986-5904d4e5a67d",
-                "nextChapterId": 0,
-                "position": [1033.71435546875, 33.142852783203128],
-                "title": "Gald"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 13,
-                "levelLow": 8,
-                "mapId": "7162c50b-9105-4872-a72c-a45d4f92c5e4",
-                "nextChapterId": 0,
-                "position": [1358.857177734375, 32.571380615234378],
-                "title": "Limitana"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "c5d4af54-2ed7-4f04-ac54-d7275d748dee",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 15,
-                "levelLow": 10,
-                "mapId": "1dde8e43-5152-4771-b9c6-f0a17df12b56",
-                "nextChapterId": 0,
-                "position": [1678.28564453125, 30.285686492919923],
-                "title": "Bretagne Commercial District"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "811d3bb2-47d4-48d5-a403-9a1ae1a1d082",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 17,
-                "levelLow": 13,
-                "mapId": "3e3c845f-eb20-4ed5-91ce-04257834cddc",
-                "nextChapterId": 0,
-                "position": [2011.9998779296875, 26.857147216796876],
-                "title": "Bretagne Castle"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "aef66709-9526-4af9-93fd-c1df9ff59ed1",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 23,
-                "levelLow": 18,
-                "mapId": "4b3777c9-1a81-4a66-9aaa-62317c9f5267",
-                "nextChapterId": 0,
-                "position": [2331.999755859375, 25.714269638061525],
-                "title": "Atté"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "a17d954c-f1fb-4cc3-9b6e-c949b47cd8ab",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 25,
-                "levelLow": 20,
-                "mapId": "bd9cbcb8-6291-40bf-8193-a97425670c88",
-                "nextChapterId": 0,
-                "position": [2654.28515625, 24.571414947509767],
-                "title": "Yellowsand Settlement"
-            },
             {
                 "beforeChapterId": 0,
                 "chapterId": "97d95bab-e352-4cf8-aa64-189f54cb886c",
@@ -241,110 +105,6 @@
     },
     "examples": [
         [
-            {
-                "beforeChapterId": 0,
-                "chapterId": "5859b122-61b3-9a58-b886-2483b495803b",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 4,
-                "levelLow": 1,
-                "mapId": "369bb76a-77d6-472a-8b17-a8e3a37c572a",
-                "nextChapterId": 0,
-                "position": [382.0001220703125, 38.0],
-                "title": "Starterton"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "57d4ee27-186c-4151-ac87-51bb3fce2a6e",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 6,
-                "levelLow": 3,
-                "mapId": "28e58b60-cf07-42b8-810e-3098fd14de4f",
-                "nextChapterId": 0,
-                "position": [706.8570556640625, 35.4285774230957],
-                "title": "Kalahari"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "dc7d4b69-4a33-4a54-a013-643a6ebca690",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 10,
-                "levelLow": 5,
-                "mapId": "5532f961-5a2f-4aae-9986-5904d4e5a67d",
-                "nextChapterId": 0,
-                "position": [1033.71435546875, 33.142852783203128],
-                "title": "Gald"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "0870e328-5244-4374-b1df-f02462f7e6a1",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 13,
-                "levelLow": 8,
-                "mapId": "7162c50b-9105-4872-a72c-a45d4f92c5e4",
-                "nextChapterId": 0,
-                "position": [1358.857177734375, 32.571380615234378],
-                "title": "Limitana"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "c5d4af54-2ed7-4f04-ac54-d7275d748dee",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 15,
-                "levelLow": 10,
-                "mapId": "1dde8e43-5152-4771-b9c6-f0a17df12b56",
-                "nextChapterId": 0,
-                "position": [1678.28564453125, 30.285686492919923],
-                "title": "Bretagne Commercial District"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "811d3bb2-47d4-48d5-a403-9a1ae1a1d082",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 17,
-                "levelLow": 13,
-                "mapId": "3e3c845f-eb20-4ed5-91ce-04257834cddc",
-                "nextChapterId": 0,
-                "position": [2011.9998779296875, 26.857147216796876],
-                "title": "Bretagne Castle"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "aef66709-9526-4af9-93fd-c1df9ff59ed1",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 23,
-                "levelLow": 18,
-                "mapId": "4b3777c9-1a81-4a66-9aaa-62317c9f5267",
-                "nextChapterId": 0,
-                "position": [2331.999755859375, 25.714269638061525],
-                "title": "Atté"
-            },
-            {
-                "beforeChapterId": 0,
-                "chapterId": "a17d954c-f1fb-4cc3-9b6e-c949b47cd8ab",
-                "deleted": 0,
-                "description": "",
-                "image": "",
-                "levelHigh": 25,
-                "levelLow": 20,
-                "mapId": "bd9cbcb8-6291-40bf-8193-a97425670c88",
-                "nextChapterId": 0,
-                "position": [2654.28515625, 24.571414947509767],
-                "title": "Yellowsand Settlement"
-            },
             {
                 "beforeChapterId": 0,
                 "chapterId": "97d95bab-e352-4cf8-aa64-189f54cb886c",
