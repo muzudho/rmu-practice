@@ -81,10 +81,10 @@ args.write: {args.write}
 
 def parse_key_value_pair_for_root(key, value, indent, buffer, parent_key):
     if key == "$schema":
-        return f"{indent}$schema: {value}\n"
+        return f"{indent}* $schema: {value}\n"
 
     elif key == "$id":
-        return f"{indent}$id: {value}\n"
+        return f"{indent}* $id: {value}\n"
 
     else:
         return parse_key_value_pair(key, value, indent, buffer, parent_key)
