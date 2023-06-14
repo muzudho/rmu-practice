@@ -76,7 +76,8 @@ def parse_key_value_pair(key, value, indent, buffer, parent_key):
     elif key == "items":
         if buffer["type"] == "array":
             # 配列のメンバー
-            print(f"{indent}* 😁 `{parent_key}` array - default: {buffer['default']}")
+            print(f"{indent}* 😁 `{parent_key}` array")
+            print(f"{indent}    * default - ```{buffer['default']}```")
             # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
 
             if isinstance(value, dict):
@@ -133,6 +134,7 @@ def parse_array_items_member(node, indent, buffer, parent_key):
             if buffer["type"] == "array":
                 # 配列のメンバー
                 print(f"{indent}* 😁 `{parent_key}` array - default: {buffer['default']}")
+                print(f"{indent}    * default - ```{buffer['default']}```")
                 # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
 
                 if isinstance(value, dict):
