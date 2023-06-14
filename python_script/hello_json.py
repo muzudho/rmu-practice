@@ -45,8 +45,16 @@ def main():
 
 def parse_member(node):
     for key, value in node.items():
-        print(f"key={value}")
-        print(f"type(value)={type(value)}")
+
+        if key == "$schema":
+            print(f"$schema: {value}")
+
+        elif key == "$id":
+            print(f"$id: {value}")
+
+        else:
+            print(f"■key: {value}")
+            print(f" type(value): {type(value)}")
 
         if isinstance(value, dict):
             parse_member(value)
