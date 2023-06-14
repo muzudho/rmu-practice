@@ -41,22 +41,27 @@ def main():
         # print(f"dump={json_str}")
 
         # 解析
-        root_buffer = {}
+        parent_key = "#ROOT#"
+        buffer = {}
         indent = ""
         for key, value in document.items():
             """パースの容易性から、 OrderedMap を想定したアルゴリズムにする
             """
-            if key == "$schema":
-                print(f"{indent}$schema: {value}")
-
-            elif key == "$id":
-                print(f"{indent}$id: {value}")
-
-            else:
-                parse_key_value_pair(key, value, indent, root_buffer)
+            parse_key_value_pair_for_root(key, value, indent, buffer, parent_key)
 
 
-def parse_key_value_pair(key, value, indent, buffer):
+def parse_key_value_pair_for_root(key, value, indent, buffer, parent_key):
+    if key == "$schema":
+        print(f"{indent}$schema: {value}")
+
+    elif key == "$id":
+        print(f"{indent}$id: {value}")
+
+    else:
+        parse_key_value_pair(key, value, indent, buffer, parent_key)
+
+
+def parse_key_value_pair(key, value, indent, buffer, parent_key):
     # print(f"{indent}解析 key: {key}, value: {value}")
 
     if key == "type":
@@ -71,14 +76,14 @@ def parse_key_value_pair(key, value, indent, buffer):
     elif key == "items":
         if buffer["type"] == "array":
             # 配列のメンバー
-            print(f"{indent}[{buffer['title']} :array] default: {buffer['default']}")
+            print(f"{indent}* `{parent_key}` array - default: {buffer['default']}")
             # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
 
             if isinstance(value, dict):
                 # print(f"{indent}解析開始 辞書 key: {key}, value: {value}, type(value): {type(value)}")
                 child_indent = f"{indent}    "
                 child_buffer = {"default":None}
-                parse_array_items_member(value, child_indent, child_buffer)
+                parse_array_items_member(value, child_indent, child_buffer, key)
                 # 解析を抜けたときに出力
                 # print(f"{indent}[{child_buffer['title']} :{child_buffer['type']}]")
                 # print(f"{indent}解析終了")
@@ -98,7 +103,7 @@ def parse_key_value_pair(key, value, indent, buffer):
             child_indent = f"{indent}    "
             child_buffer = {}
             for child_key, child_value in value.items():
-                parse_key_value_pair(child_key, child_value, indent, child_buffer)
+                parse_key_value_pair(child_key, child_value, indent, child_buffer, key)
 
     else:
         print(f"{indent}■key: {key}, type(value): {type(value)}")
@@ -107,12 +112,12 @@ def parse_key_value_pair(key, value, indent, buffer):
             child_indent = f"{indent}    "
             child_buffer = {"default":None}
             for child_key, child_value in value.items():
-                parse_key_value_pair(child_key, child_value, child_indent, child_buffer)
+                parse_key_value_pair(child_key, child_value, child_indent, child_buffer, key)
 
 
 
 
-def parse_array_items_member(node, indent, buffer):
+def parse_array_items_member(node, indent, buffer, parent_key):
     for key, value in node.items():
         # print(f"{indent}■[array-items]key: [{key}], type(value): {type(value)}")
 
@@ -127,7 +132,7 @@ def parse_array_items_member(node, indent, buffer):
         elif key == "items":
             if buffer["type"] == "array":
                 # 配列のメンバー
-                print(f"{indent}[{buffer['title']} :array] default: {buffer['default']}")
+                print(f"{indent}* `{parent_key}` array - default: {buffer['default']}")
                 # print(f"{indent}array items title: {buffer['title']}, default: {buffer['default']}, type(value): {type(value)}")
 
                 if isinstance(value, dict):
@@ -135,7 +140,7 @@ def parse_array_items_member(node, indent, buffer):
                     # child_indent = f"{indent}    "
                     child_indent = indent
                     child_buffer = {"default":None}
-                    parse_array_items_member(value, child_indent, child_buffer)
+                    parse_array_items_member(value, child_indent, child_buffer, key)
                     # 解析を抜けたときに出力
                     # print(f"{indent}[{child_buffer['title']} :{child_buffer['type']}]")
                     # print(f"{indent}解析終了")
@@ -155,7 +160,7 @@ def parse_array_items_member(node, indent, buffer):
                 child_indent = f"{indent}    "
                 child_buffer = {}
                 for child_key, child_value in value.items():
-                    parse_key_value_pair_for_property(child_key, child_value, child_indent, child_buffer)
+                    parse_key_value_pair_for_property(child_key, child_value, child_indent, child_buffer, key)
             else:
                 print(f"{indent}■[array-items] properties: {value}")
 
@@ -166,7 +171,7 @@ def parse_array_items_member(node, indent, buffer):
             print(f"{indent}■key: {key}")
 
 
-def parse_key_value_pair_for_property(key, value, indent, buffer):
+def parse_key_value_pair_for_property(key, value, indent, buffer, parent_key):
     """任意のキー"""
 
 
@@ -177,7 +182,7 @@ def parse_key_value_pair_for_property(key, value, indent, buffer):
 
         child_indent = f"{indent}    "
         child_buffer = {"default":None}
-        parse_array_items_member(value, child_indent, child_buffer)
+        parse_array_items_member(value, child_indent, child_buffer, key)
         # 解析を抜けたときに出力
         # print(f"{indent}[{child_buffer['title']} :{child_buffer['type']}]")
 
