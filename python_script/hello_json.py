@@ -108,6 +108,8 @@ def parse_key_value_pair(key, value, indent, buffer):
                 parse_key_value_pair(child_key, child_value, child_indent, child_buffer)
 
 
+
+
 def parse_array_items_member(node, indent, buffer):
     for key, value in node.items():
         # print(f"{indent}■[array-items]key: [{key}], type(value): {type(value)}")
@@ -124,7 +126,7 @@ def parse_array_items_member(node, indent, buffer):
                 child_indent = f"{indent}    "
                 child_buffer = {}
                 for child_key, child_value in value.items():
-                    parse_key_value_pair(child_key, child_value, child_indent, child_buffer)
+                    parse_key_value_pair_for_property(child_key, child_value, child_indent, child_buffer)
             else:
                 print(f"{indent}■[array-items] properties: {value}")
 
@@ -132,6 +134,22 @@ def parse_array_items_member(node, indent, buffer):
             print(f"{indent}[array-items] examples: {value}")
         else:
             print(f"{indent}■key: {key}")
+
+
+def parse_key_value_pair_for_property(key, value, indent, buffer):
+    """任意のキー"""
+
+    print(f"{indent}property key: {key}, value: {value} type(value): {type(value)}")
+
+    if isinstance(value, dict):
+        child_indent = f"{indent}    "
+        child_buffer = {"default":None}
+        parse_array_items_member(value, child_indent, child_buffer)
+
+    else:
+        print(f"{indent}■property key: {key}, value: {value} type(value): {type(value)}")
+
+
 
 if __name__ == '__main__':
     main()
