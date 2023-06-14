@@ -15,13 +15,19 @@ def main():
     parser = argparse.ArgumentParser()
 
     # 引数定義
-    parser.add_argument("--file")
+    parser.add_argument("--read")
+    parser.add_argument("--write")
 
     # コマンドライン引数解析
     args = parser.parse_args()
 
     # 定義したものを参照できる
-    print(f"arg file={args.file}")
+    print(f"""Arguments
+=========
+
+args.read : {args.read}
+args.write: {args.write}
+""")
 
     #
     # JSON読込
@@ -31,7 +37,9 @@ def main():
     # 📖 [Pythonでファイルの読み込み、書き込み（作成・追記）](https://note.nkmk.me/python-file-io-open-with/)
     #
 
-    with open(args.file) as f:
+    file_to_read = args.read
+    with open(file_to_read) as f:
+        print(f"Read text file to {file_to_read}")
         # text = f.read()
         # print(text)
         # 文書構造へ変換
@@ -42,7 +50,7 @@ def main():
         # print(f"dump={json_str}")
 
         # 結果文言
-        result_text = f"# JSON: {args.file}\n"
+        result_text = f"# JSON schema: {file_to_read}\n\n"
 
         # 解析
         parent_key = "#ROOT#"
@@ -53,7 +61,7 @@ def main():
             """
             result_text += parse_key_value_pair_for_root(key, value, indent, buffer, parent_key)
 
-    print(f"result_text: {result_text}")
+    # print(f"result_text: {result_text}")
 
     #
     # デスクトップへファイルを保存
@@ -61,9 +69,11 @@ def main():
     #
     # 📖 [How to get Desktop location?](https://stackoverflow.com/questions/34275782/how-to-get-desktop-location)
     #
-    desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') 
 
-    file_to_save = f'{desktop}/json-parsed.md'
+    # desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') 
+    # file_to_save = f'{desktop}/json-parsed.md'
+    file_to_save = args.write
+
     with open(file_to_save, 'w', encoding='utf-8') as f:
         print(f"Write text file to {file_to_save}")
         f.write(result_text)
