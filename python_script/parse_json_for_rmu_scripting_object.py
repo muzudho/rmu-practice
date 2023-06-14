@@ -29,6 +29,17 @@ args.read : {args.read}
 args.write: {args.write}
 """)
 
+    file_to_read = args.read
+    file_to_save = args.write
+
+    #
+    # 実行
+    # ===
+    #
+    do_it(file_to_read, file_to_save)
+
+
+def do_it(file_to_read, file_to_save):
     #
     # JSON読込
     # ========
@@ -36,8 +47,6 @@ args.write: {args.write}
     # 📖 [【Python入門】JSON形式データの扱い方](https://qiita.com/Morio/items/7538a939cc441367070d)
     # 📖 [Pythonでファイルの読み込み、書き込み（作成・追記）](https://note.nkmk.me/python-file-io-open-with/)
     #
-
-    file_to_read = args.read
     with open(file_to_read) as f:
         print(f"Read text file to {file_to_read}")
         # text = f.read()
@@ -70,16 +79,15 @@ args.write: {args.write}
     # print(f"result_text: {result_text}")
 
     #
-    # デスクトップへファイルを保存
-    # ========================
+    # ファイルを保存
+    # ============
     #
+    # デスクトップの場合
     # 📖 [How to get Desktop location?](https://stackoverflow.com/questions/34275782/how-to-get-desktop-location)
     #
-
     # desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop') 
     # file_to_save = f'{desktop}/json-parsed.md'
-    file_to_save = args.write
-
+    #
     with open(file_to_save, 'w', encoding='utf-8') as f:
         print(f"Write text file to {file_to_save}")
         f.write(result_text)
