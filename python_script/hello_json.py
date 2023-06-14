@@ -41,23 +41,46 @@ def main():
         print(f"dump={json_str}")
 
         # 解析
-        parse_member(document)
+        parse_member(document, "")
 
-def parse_member(node):
+def parse_member(node, indent):
+    """パースの容易性から、 OrderedMap を想定したアルゴリズムにする
+    """
+
     for key, value in node.items():
 
         if key == "$schema":
-            print(f"$schema: {value}")
+            print(f"{indent}$schema: {value}")
 
         elif key == "$id":
-            print(f"$id: {value}")
+            print(f"{indent}$id: {value}")
+
+        elif key == "type":
+            print(f"{indent}type: {value}")
+            node_type = value
+
+        elif key == "default":
+            node_default = value
+
+        elif key == "title":
+            node_title = value
+
+        elif key == "items":
+            # 配列のメンバー
+            print(f"{indent}array items title: {node_title}, default: {value}")
+            parse_items(value, f"{indent}    ")
 
         else:
-            print(f"■key: {value}")
-            print(f" type(value): {type(value)}")
+            print(f"{indent}■key: [{key}]")
+            print(f"{indent} type(value): {type(value)}")
 
-        if isinstance(value, dict):
-            parse_member(value)
+            if isinstance(value, dict):
+                parse_member(value, f"{indent}    ")
+
+def parse_items(node, indent):
+    for key, value in node.items():
+        print(f"{indent}■[items]key: [{key}]")
+        print(f"{indent} [items]type(value): {type(value)}")
 
 
 if __name__ == '__main__':
