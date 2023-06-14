@@ -1234,11 +1234,7 @@
                     >[
                     >    "cbc13df7-48ab-4d6c-a562-72a852dc53a4",
                     >    "cee38191-44ae-48ad-bec1-6da93173f7b8",
-                    >    "211533bc-abec-4654-9ebd-c101f9a332d8",
-                    >    "3719f506-a496-4d2d-9bce-915c6df1c245",
-                    >    "41d170d1-bf79-43e8-a845-b5e65502f1d0",
-                    >    "670f16f6-159c-4cc6-95b2-5342a02e35b9",
-                    >    "96c34a79-01df-4c91-9566-d978c44e6a82"
+                    >    "211533bc-abec-4654-9ebd-c101f9a332d8"
                     >]
                     >```
             * examples:
@@ -1247,22 +1243,6 @@
                 >    {
                 >        "level": 2,
                 >        "skillId": "cbc13df7-48ab-4d6c-a562-72a852dc53a4"
-                >    },
-                >    {
-                >        "level": 3,
-                >        "skillId": "cee38191-44ae-48ad-bec1-6da93173f7b8"
-                >    },
-                >    {
-                >        "level": 5,
-                >        "skillId": "211533bc-abec-4654-9ebd-c101f9a332d8"
-                >    },
-                >    {
-                >        "level": 8,
-                >        "skillId": "3719f506-a496-4d2d-9bce-915c6df1c245"
-                >    },
-                >    {
-                >        "level": 15,
-                >        "skillId": "41d170d1-bf79-43e8-a845-b5e65502f1d0"
                 >    },
                 >    {
                 >        "level": 25,
@@ -1285,22 +1265,6 @@
             >        {
             >            "level": 3,
             >            "skillId": "cee38191-44ae-48ad-bec1-6da93173f7b8"
-            >        },
-            >        {
-            >            "level": 5,
-            >            "skillId": "211533bc-abec-4654-9ebd-c101f9a332d8"
-            >        },
-            >        {
-            >            "level": 8,
-            >            "skillId": "3719f506-a496-4d2d-9bce-915c6df1c245"
-            >        },
-            >        {
-            >            "level": 15,
-            >            "skillId": "41d170d1-bf79-43e8-a845-b5e65502f1d0"
-            >        },
-            >        {
-            >            "level": 25,
-            >            "skillId": "670f16f6-159c-4cc6-95b2-5342a02e35b9"
             >        },
             >        {
             >            "level": 20,
@@ -1358,12 +1322,6 @@
                 >    },
                 >    {
                 >        "categoryId": 2,
-                >        "effectId": 1,
-                >        "traitsId": 2,
-                >        "value": 50
-                >    },
-                >    {
-                >        "categoryId": 2,
                 >        "effectId": 2,
                 >        "traitsId": 2,
                 >        "value": 60
@@ -1385,12 +1343,6 @@
             >            "effectId": 0,
             >            "traitsId": 2,
             >            "value": 1000
-            >        },
-            >        {
-            >            "categoryId": 2,
-            >            "effectId": 1,
-            >            "traitsId": 2,
-            >            "value": 50
             >        },
             >        {
             >            "categoryId": 2,
@@ -1619,22 +1571,6 @@
         >                "skillId": "cee38191-44ae-48ad-bec1-6da93173f7b8"
         >            },
         >            {
-        >                "level": 5,
-        >                "skillId": "211533bc-abec-4654-9ebd-c101f9a332d8"
-        >            },
-        >            {
-        >                "level": 8,
-        >                "skillId": "3719f506-a496-4d2d-9bce-915c6df1c245"
-        >            },
-        >            {
-        >                "level": 15,
-        >                "skillId": "41d170d1-bf79-43e8-a845-b5e65502f1d0"
-        >            },
-        >            {
-        >                "level": 25,
-        >                "skillId": "670f16f6-159c-4cc6-95b2-5342a02e35b9"
-        >            },
-        >            {
         >                "level": 20,
         >                "skillId": "96c34a79-01df-4c91-9566-d978c44e6a82"
         >            }
@@ -1645,12 +1581,6 @@
         >                "effectId": 0,
         >                "traitsId": 2,
         >                "value": 1000
-        >            },
-        >            {
-        >                "categoryId": 2,
-        >                "effectId": 1,
-        >                "traitsId": 2,
-        >                "value": 50
         >            },
         >            {
         >                "categoryId": 2,
@@ -1864,22 +1794,6 @@
     >                    "skillId": "cee38191-44ae-48ad-bec1-6da93173f7b8"
     >                },
     >                {
-    >                    "level": 5,
-    >                    "skillId": "211533bc-abec-4654-9ebd-c101f9a332d8"
-    >                },
-    >                {
-    >                    "level": 8,
-    >                    "skillId": "3719f506-a496-4d2d-9bce-915c6df1c245"
-    >                },
-    >                {
-    >                    "level": 15,
-    >                    "skillId": "41d170d1-bf79-43e8-a845-b5e65502f1d0"
-    >                },
-    >                {
-    >                    "level": 25,
-    >                    "skillId": "670f16f6-159c-4cc6-95b2-5342a02e35b9"
-    >                },
-    >                {
     >                    "level": 20,
     >                    "skillId": "96c34a79-01df-4c91-9566-d978c44e6a82"
     >                }
@@ -1890,12 +1804,6 @@
     >                    "effectId": 0,
     >                    "traitsId": 2,
     >                    "value": 1000
-    >                },
-    >                {
-    >                    "categoryId": 2,
-    >                    "effectId": 1,
-    >                    "traitsId": 2,
-    >                    "value": 50
     >                },
     >                {
     >                    "categoryId": 2,
