@@ -1,4 +1,4 @@
-# JSON schema: C:\Users\むずでょ\Documents\GitHub\rpg-maker-unite-practice\data\json\Assets RPGMaker Storage Animation JSON animation.json
+# JSON schema: Assets RPGMaker Storage Animation JSON animation
 
 * $schema: https://json-schema.org/draft/2019-09/schema
 * $id: http://example.com/example.json

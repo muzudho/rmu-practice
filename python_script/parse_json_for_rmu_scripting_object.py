@@ -49,8 +49,14 @@ args.write: {args.write}
         # json_str = json.dumps(document, indent=4)
         # print(f"dump={json_str}")
 
+        #
         # 結果文言
-        result_text = f"# JSON schema: {file_to_read}\n\n"
+        # =======
+        #
+        # 📖 [Pythonでパス文字列からファイル名・フォルダ名・拡張子を取得、結合](https://note.nkmk.me/python-os-basename-dirname-split-splitext/)
+        #
+        basename_without_ext = os.path.splitext(os.path.basename(file_to_read))[0]
+        result_text = f"# JSON schema: {basename_without_ext}\n\n"
 
         # 解析
         parent_key = "#ROOT#"
