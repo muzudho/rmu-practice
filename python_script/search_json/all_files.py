@@ -13,7 +13,8 @@ def main():
     parser = argparse.ArgumentParser()
 
     # 引数定義
-    parser.add_argument("--directory")
+    parser.add_argument("--read_directory")
+    parser.add_argument("--write_file")
 
     # コマンドライン引数解析
     args = parser.parse_args()
@@ -22,16 +23,27 @@ def main():
     print(f"""Arguments
 =========
 
-args.directory : {args.directory}
+args.read_directory : {args.read_directory}
+args.write_file : {args.write_file}
 """)
 
-    directory_to_read = args.directory
+    directory_to_read = args.read_directory
+    file_to_write = args.write_file
 
     print("Please wait")
     result_list = search_member(directory_to_read)
 
+    # ファイル書出し
+    text = ""
+
     for json_file in result_list:
-        print(f"result: {json_file}")
+        text += f"{json_file}\n"
+        # print(f"result: {json_file}")
+
+    with open(file_to_write, 'w', encoding='utf-8-sig') as f:
+        print(f"Write text file to {file_to_write}")
+        f.write(text)
+
 
 
 def search_member(directory):
@@ -56,7 +68,7 @@ def search_member(directory):
 
     for basename in file_entry_in_dir:
         # フルパスに変更
-        file_entry_path = os.path.join(directory,basename)
+        file_entry_path = os.path.join(directory,basename).replace("\\","/")
         # print(f"file_entry_path: {file_entry_path}")
 
         if basename.endswith(".json"):
