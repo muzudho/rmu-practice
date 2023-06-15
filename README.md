@@ -40,3 +40,7 @@ RPG Maker UNITE の練習
 
 * 記録
     * 📄 [履歴　RMUへの貢献者（わたしの観測範囲内）](./docs/history/contributors.md)
+
+## References
+
+* 📖 [Annex D Documentation comments](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/documentation-comments#d34-example) - C# のドキュメンテーション・コメントの書き方
