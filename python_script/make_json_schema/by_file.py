@@ -101,14 +101,37 @@ def do_it(file_to_read, file_to_save):
 
 
 def parse_key_value_pair_for_root(key, value, indent, buffer, parent_key):
+    # 結果文言
+    result_text = ""
+
     if key == "$schema":
-        return f"{indent}* $schema: {value}\n"
+        result_text += f"{indent}* $schema: {value}\n"
 
     elif key == "$id":
-        return f"{indent}* $id: {value}\n"
+        result_text += f"{indent}* $id: {value}\n"
+
+    elif key == "required":
+        result_text += f"{indent}* required - {value}\n"
+
+    elif key == "properties":
+        if isinstance(value, dict):
+            child_indent = indent
+            child_buffer = {}
+            for child_key, child_value in value.items():
+                result_text += parse_key_value_pair_for_property(child_key, child_value, child_indent, child_buffer, key)
+        else:
+            result_text += f"{indent}■[array-items] properties: {value}\n"
+
+    elif key == "examples":
+
+        # ダンプ
+        dump_text = json.dumps(value, indent=4)
+        result_text += stringify_quote_in_list(dump_text, indent)
 
     else:
-        return parse_key_value_pair(key, value, indent, buffer, parent_key)
+        result_text += parse_key_value_pair(key, value, indent, buffer, parent_key)
+
+    return result_text
 
 
 def parse_key_value_pair(key, value, indent, buffer, parent_key):
@@ -142,6 +165,18 @@ def parse_key_value_pair(key, value, indent, buffer, parent_key):
         else:
             result_text += f"{indent}■key: [{key}], value: {value}\n"
             result_text += f"{indent} type(value): {type(value)}\n"
+
+    elif key == "required":
+        result_text += f"{indent}* required - {value}\n"
+
+    elif key == "properties":
+        if isinstance(value, dict):
+            child_indent = indent
+            child_buffer = {}
+            for child_key, child_value in value.items():
+                result_text += parse_key_value_pair_for_property(child_key, child_value, child_indent, child_buffer, key)
+        else:
+            result_text += f"{indent}■[array-items] properties: {value}\n"
 
     elif key == "examples":
 
@@ -227,7 +262,6 @@ def parse_array_items_member(node, indent, buffer, parent_key):
 
         elif key == "properties":
             if isinstance(value, dict):
-                # child_indent = f"{indent}    "
                 child_indent = indent
                 child_buffer = {}
                 for child_key, child_value in value.items():

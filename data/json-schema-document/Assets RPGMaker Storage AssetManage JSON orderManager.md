@@ -2,38 +2,116 @@
 
 * $schema: https://json-schema.org/draft/2019-09/schema
 * $id: http://example.com/example.json
-■key: required, type(value): <class 'list'>
+* required - ['orderDataList']
+* 😁 `orderDataList` property
+    ■key: default
+    * 😁 `orderDataList` array - default: None
+        * default - ```None```
+        * required - ['assetTypeId', 'idList']
+        * 😁 `assetTypeId` property
+            * examples:
+                >```
+                >[
+                >    0,
+                >    1,
+                >    2,
+                >    3,
+                >    4,
+                >    5,
+                >    6
+                >]
+                >```
+        * 😁 `idList` property
+            * 😁 `idList` array - default: None
+                * default - ```None```
+                * examples:
+                    >```
+                    >[
+                    >    "78a965c8-7400-432e-a17f-93432f6b9ff5",
+                    >    "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+                    >    "60cc7e88-f27a-4608-9152-06ca3704de2a"
+                    >]
+                    >```
+            * examples:
+                >```
+                >[
+                >    [
+                >        "78a965c8-7400-432e-a17f-93432f6b9ff5",
+                >        "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+                >        "60cc7e88-f27a-4608-9152-06ca3704de2a"
+                >    ],
+                >    [
+                >        "510f4d1b-986d-444b-9d38-61454ffe898b",
+                >        "d9200020-672a-4f11-b1f9-ce327262470a",
+                >        "1d95da28-4bb8-4870-b323-0ff104edc77f"
+                >    ],
+                >    [
+                >        "26b2219f-43b7-4c48-b05f-77312da9075f",
+                >        "a5bb713c-e4e7-4b30-a00c-9e0895ddfb6c",
+                >        "5974c2a9-764f-4af5-abf5-b87072417772"
+                >    ]
+                >]
+                >```
         * examples:
             >```
             >[
-            >    [
-            >        {
-            >            "assetTypeId": 0,
-            >            "idList": [
-            >                "78a965c8-7400-432e-a17f-93432f6b9ff5",
-            >                "02c771b2-247a-42d5-b6dd-ad398d3c6557",
-            >                "2c662415-c937-4bb6-94b5-040ca6f5e4bf"
-            >            ]
-            >        },
-            >        {
-            >            "assetTypeId": 1,
-            >            "idList": [
-            >                "510f4d1b-986d-444b-9d38-61454ffe898b",
-            >                "d9200020-672a-4f11-b1f9-ce327262470a",
-            >                "7baaf801-2b61-484f-8ec3-5459f59e8f31"
-            >            ]
-            >        },
-            >        {
-            >            "assetTypeId": 6,
-            >            "idList": [
-            >                "f6bad097-a340-4fe8-b90e-9676c577cfeb",
-            >                "5b32c153-14a4-4d0f-8ad2-8d25dddd47d3",
-            >                "e53500c2-2138-406d-bd24-baa0506134b1"
-            >            ]
-            >        }
-            >    ]
+            >    {
+            >        "assetTypeId": 0,
+            >        "idList": [
+            >            "78a965c8-7400-432e-a17f-93432f6b9ff5",
+            >            "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+            >            "bce01112-43f1-4859-b0a7-42fa24dd0331"
+            >        ]
+            >    },
+            >    {
+            >        "assetTypeId": 1,
+            >        "idList": [
+            >            "510f4d1b-986d-444b-9d38-61454ffe898b",
+            >            "d9200020-672a-4f11-b1f9-ce327262470a",
+            >            "1d95da28-4bb8-4870-b323-0ff104edc77f"
+            >        ]
+            >    },
+            >    {
+            >        "assetTypeId": 6,
+            >        "idList": [
+            >            "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+            >            "5b32c153-14a4-4d0f-8ad2-8d25dddd47d3",
+            >            "e53500c2-2138-406d-bd24-baa0506134b1"
+            >        ]
+            >    }
             >]
             >```
+    * examples:
+        >```
+        >[
+        >    [
+        >        {
+        >            "assetTypeId": 0,
+        >            "idList": [
+        >                "78a965c8-7400-432e-a17f-93432f6b9ff5",
+        >                "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+        >                "2c662415-c937-4bb6-94b5-040ca6f5e4bf"
+        >            ]
+        >        },
+        >        {
+        >            "assetTypeId": 1,
+        >            "idList": [
+        >                "510f4d1b-986d-444b-9d38-61454ffe898b",
+        >                "d9200020-672a-4f11-b1f9-ce327262470a",
+        >                "7baaf801-2b61-484f-8ec3-5459f59e8f31"
+        >            ]
+        >        },
+        >        {
+        >            "assetTypeId": 6,
+        >            "idList": [
+        >                "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+        >                "5b32c153-14a4-4d0f-8ad2-8d25dddd47d3",
+        >                "e53500c2-2138-406d-bd24-baa0506134b1"
+        >            ]
+        >        }
+        >    ]
+        >]
+        >```
 * examples:
     >```
     >[
