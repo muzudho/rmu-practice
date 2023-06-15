@@ -1,0 +1,129 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": ["id", "sort", "name", "type", "weaponTypeId", "assetTypeId", "imageSettings"],
+    "properties": {
+        "id": {
+            "type": "string",
+            "default": "",
+            "title": "The id Schema",
+            "examples": ["0ada6636-f27d-4d74-9e0d-5b868d86ed2b"]
+        },
+        "sort": {
+            "type": "integer",
+            "default": 0,
+            "title": "The sort Schema",
+            "examples": [154]
+        },
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": ["Object 155"]
+        },
+        "type": {
+            "type": "integer",
+            "default": 0,
+            "title": "The type Schema",
+            "examples": [0]
+        },
+        "weaponTypeId": {
+            "type": "integer",
+            "default": 0,
+            "title": "The weaponTypeId Schema",
+            "examples": [0]
+        },
+        "assetTypeId": {
+            "type": "integer",
+            "default": 0,
+            "title": "The assetTypeId Schema",
+            "examples": [1]
+        },
+        "imageSettings": {
+            "type": "array",
+            "default": [],
+            "title": "The imageSettings Schema",
+            "items": {
+                "type": "object",
+                "title": "A Schema",
+                "required": ["path", "sizeX", "sizeY", "animationFrame", "animationSpeed"],
+                "properties": {
+                    "path": {
+                        "type": "string",
+                        "title": "The path Schema",
+                        "examples": ["Other2_001.png"]
+                    },
+                    "sizeX": {
+                        "type": "integer",
+                        "title": "The sizeX Schema",
+                        "examples": [294]
+                    },
+                    "sizeY": {
+                        "type": "integer",
+                        "title": "The sizeY Schema",
+                        "examples": [194]
+                    },
+                    "animationFrame": {
+                        "type": "integer",
+                        "title": "The animationFrame Schema",
+                        "examples": [3]
+                    },
+                    "animationSpeed": {
+                        "type": "integer",
+                        "title": "The animationSpeed Schema",
+                        "examples": [30]
+                    }
+                },
+                "examples": [
+                    {
+                        "path": "Other2_001.png",
+                        "sizeX": 294,
+                        "sizeY": 194,
+                        "animationFrame": 3,
+                        "animationSpeed": 30
+                    }
+                ]
+            },
+            "examples": [
+                [
+                    {
+                        "path": "Other2_001.png",
+                        "sizeX": 294,
+                        "sizeY": 194,
+                        "animationFrame": 3,
+                        "animationSpeed": 30
+                    }
+                ]
+            ]
+        }
+    },
+    "examples": [
+        {
+            "id": "0ada6636-f27d-4d74-9e0d-5b868d86ed2b",
+            "sort": 154,
+            "name": "Object 155",
+            "type": 0,
+            "weaponTypeId": 0,
+            "assetTypeId": 1,
+            "imageSettings": [
+                {
+                    "path": "Other2_001.png",
+                    "sizeX": 294,
+                    "sizeY": 194,
+                    "animationFrame": 3,
+                    "animationSpeed": 30
+                },
+                {
+                    "path": "Other2_001.png",
+                    "sizeX": 294,
+                    "sizeY": 194,
+                    "animationFrame": 3,
+                    "animationSpeed": 30
+                }
+            ]
+        }
+    ]
+}
