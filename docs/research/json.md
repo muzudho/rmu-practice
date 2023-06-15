@@ -7,6 +7,9 @@
 * `-1` のような負数で解析失敗 ----> `1` にする
 
 
+[😁 RMU 1.00.00 Research/😁 Source Code Map](https://docs.google.com/spreadsheets/d/1oOjtgErd_7salDXu22kCxNfrU2iWyw4HD2dbg0SKGzA/edit#gid=272612679)  
+から、 `Value` 列を `json` でフィルタリング  
+
 ```
 JSON_ASSETS	                = "Assets/RPGMaker/Storage/AssetManage/JSON/Assets/"	            \r\n    😁 JSONアセット・フォルダーへのパス\r\n
     * Assets RPGMaker Storage AssetManage JSON assetsData.json          - 解析失敗

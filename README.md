@@ -15,7 +15,7 @@ RPG Maker UNITE の練習
 * 📄 [非同期処理](./docs/research/asynchronous-processing.md)
 * 📄 [一連の Effekseer プロジェクト](./docs/research/effekseer.md)
 * ツール調べ
-  * 📄 [JSON Schema](./docs/research/json-schema.md)
+  * 📄 [JSON Schema](./docs/tools/json-schema.md)
 
 ## Unity と、それ以外のプログラミングの違いでつまづくとこ
 
