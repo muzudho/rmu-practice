@@ -1,5 +1,12 @@
 # JSON 調査
 
+アプローチとしては、以下の２つ
+
+* ソースコードに書かれているファイル・パスから JSONファイルを探す
+* ディレクトリを全探索して JSONファイルを探す
+
+# ソースコードから
+
 ソースコードに書かれている JSON ファイルを適当に検索してみる  
 
 * ２万文字を超えると、解析に失敗するようだ？ ----> ざっくり 1000 行以内に、短く間引く
@@ -155,7 +162,7 @@ _bgsLoopInfoFilename	    = "Assets/RPGMaker/Storage/Sounds/bgsLoopInfo.json"	   
     * Assets RPGMaker Storage Sounds bgsLoopInfo.json
 ```
 
-# おかしなフォーマット
+## おかしなフォーマット
 
 `Assets RPGMaker Storage Animation JSON animation.json`:  
 
