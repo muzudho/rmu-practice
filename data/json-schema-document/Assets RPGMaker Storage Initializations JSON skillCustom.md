@@ -2548,10 +2548,8 @@
         * 😁 `otherEffects` property
             * 😁 `otherEffects` array - default: None
                 * default - ```None```
-                ■key: default
                 * required - ['categoryId', 'effectId', 'traitsId', 'value']
                 * 😁 `categoryId` property
-                    ■key: default
                     * examples:
                         >```
                         >[
@@ -2559,7 +2557,6 @@
                         >]
                         >```
                 * 😁 `effectId` property
-                    ■key: default
                     * examples:
                         >```
                         >[
@@ -2567,7 +2564,6 @@
                         >]
                         >```
                 * 😁 `traitsId` property
-                    ■key: default
                     * examples:
                         >```
                         >[
@@ -2575,7 +2571,6 @@
                         >]
                         >```
                 * 😁 `value` property
-                    ■key: default
                     * examples:
                         >```
                         >[

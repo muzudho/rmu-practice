@@ -4,16 +4,12 @@
 * $id: http://example.com/example.json
 * 😁 `#ROOT#` array
     * default - ```[]```
-    ■key: default
     * required - ['damage', 'id']
     * 😁 `damage` property
-        ■key: default
         * required - ['magicAttack', 'normalAttack', 'specialAttack']
         * 😁 `magicAttack` property
-            ■key: default
             * required - ['aMag', 'bMag', 'cDmg']
             * 😁 `aMag` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -21,7 +17,6 @@
                     >]
                     >```
             * 😁 `bMag` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -29,7 +24,6 @@
                     >]
                     >```
             * 😁 `cDmg` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -47,10 +41,8 @@
                 >]
                 >```
         * 😁 `normalAttack` property
-            ■key: default
             * required - ['aMag', 'bMag']
             * 😁 `aMag` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -58,7 +50,6 @@
                     >]
                     >```
             * 😁 `bMag` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -75,10 +66,8 @@
                 >]
                 >```
         * 😁 `specialAttack` property
-            ■key: default
             * required - ['aMag', 'bMag', 'cDmg']
             * 😁 `aMag` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -86,7 +75,6 @@
                     >]
                     >```
             * 😁 `bMag` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -94,7 +82,6 @@
                     >]
                     >```
             * 😁 `cDmg` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -133,7 +120,6 @@
             >]
             >```
     * 😁 `id` property
-        ■key: default
         * examples:
             >```
             >[

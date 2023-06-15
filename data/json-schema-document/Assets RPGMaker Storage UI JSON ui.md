@@ -4,13 +4,10 @@
 * $id: http://example.com/example.json
 * required - ['battleMenu', 'commonMenus', 'gameMenu', 'talkMenu']
 * 😁 `battleMenu` property
-    ■key: default
     * required - ['menuHp', 'menuMp', 'menuTp']
     * 😁 `menuHp` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -26,10 +23,8 @@
             >]
             >```
     * 😁 `menuMp` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -45,10 +40,8 @@
             >]
             >```
     * 😁 `menuTp` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -77,18 +70,14 @@
         >]
         >```
 * 😁 `commonMenus` property
-    ■key: default
-    * 😁 `commonMenus` array - default: None
-        * default - ```None```
-        ■key: default
+    * 😁 `commonMenus` array - default: []
+        * default - ```[]```
         * required - ['backgroundImage', 'buttonFrameImage', 'buttonImage', 'buttonImageHighlight', 'characterType', 'id', 'menuFontSetting', 'windowBackgroundImage', 'windowFrameImage', 'windowFrameImageHighlight']
         * 😁 `backgroundImage` property
-            ■key: default
             * required - ['color', 'image', 'type']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -108,7 +97,6 @@
                     >]
                     >```
             * 😁 `image` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -116,7 +104,6 @@
                     >]
                     >```
             * 😁 `type` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -139,12 +126,10 @@
                 >]
                 >```
         * 😁 `buttonFrameImage` property
-            ■key: default
             * required - ['color', 'image', 'type']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -163,7 +148,6 @@
                     >]
                     >```
             * 😁 `image` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -171,7 +155,6 @@
                     >]
                     >```
             * 😁 `type` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -194,12 +177,10 @@
                 >]
                 >```
         * 😁 `buttonImage` property
-            ■key: default
             * required - ['color', 'image', 'type']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -219,7 +200,6 @@
                     >]
                     >```
             * 😁 `image` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -227,7 +207,6 @@
                     >]
                     >```
             * 😁 `type` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -250,9 +229,8 @@
                 >]
                 >```
         * 😁 `buttonImageHighlight` property
-            ■key: default
-            * 😁 `buttonImageHighlight` array - default: None
-                * default - ```None```
+            * 😁 `buttonImageHighlight` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -274,7 +252,6 @@
                 >]
                 >```
         * 😁 `characterType` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -282,7 +259,6 @@
                 >]
                 >```
         * 😁 `id` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -290,12 +266,10 @@
                 >]
                 >```
         * 😁 `menuFontSetting` property
-            ■key: default
             * required - ['color', 'font', 'size']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -314,7 +288,6 @@
                     >]
                     >```
             * 😁 `font` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -322,7 +295,6 @@
                     >]
                     >```
             * 😁 `size` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -345,12 +317,10 @@
                 >]
                 >```
         * 😁 `windowBackgroundImage` property
-            ■key: default
             * required - ['color', 'image', 'type']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -370,7 +340,6 @@
                     >]
                     >```
             * 😁 `image` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -378,7 +347,6 @@
                     >]
                     >```
             * 😁 `type` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -401,12 +369,10 @@
                 >]
                 >```
         * 😁 `windowFrameImage` property
-            ■key: default
             * required - ['color', 'image', 'type']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -428,7 +394,6 @@
                     >]
                     >```
             * 😁 `image` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -436,7 +401,6 @@
                     >]
                     >```
             * 😁 `type` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -459,9 +423,8 @@
                 >]
                 >```
         * 😁 `windowFrameImageHighlight` property
-            ■key: default
-            * 😁 `windowFrameImageHighlight` array - default: None
-                * default - ```None```
+            * 😁 `windowFrameImageHighlight` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -647,13 +610,10 @@
         >]
         >```
 * 😁 `gameMenu` property
-    ■key: default
     * required - ['categoryArmor', 'categoryImportant', 'categoryItem', 'categoryWeapon', 'menuEquipment', 'menuFontSetting', 'menuGameEnd', 'menuItem', 'menuOption', 'menuSave', 'menuSkill', 'menuSort', 'menuStatus']
     * 😁 `categoryArmor` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -669,10 +629,8 @@
             >]
             >```
     * 😁 `categoryImportant` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -688,10 +646,8 @@
             >]
             >```
     * 😁 `categoryItem` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -707,10 +663,8 @@
             >]
             >```
     * 😁 `categoryWeapon` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -726,10 +680,8 @@
             >]
             >```
     * 😁 `menuEquipment` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -745,12 +697,10 @@
             >]
             >```
     * 😁 `menuFontSetting` property
-        ■key: default
         * required - ['color', 'font', 'size']
         * 😁 `color` property
-            ■key: default
-            * 😁 `color` array - default: None
-                * default - ```None```
+            * 😁 `color` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -770,7 +720,6 @@
                 >]
                 >```
         * 😁 `font` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -778,7 +727,6 @@
                 >]
                 >```
         * 😁 `size` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -800,10 +748,8 @@
             >]
             >```
     * 😁 `menuGameEnd` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -819,10 +765,8 @@
             >]
             >```
     * 😁 `menuItem` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -838,10 +782,8 @@
             >]
             >```
     * 😁 `menuOption` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -857,10 +799,8 @@
             >]
             >```
     * 😁 `menuSave` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -876,10 +816,8 @@
             >]
             >```
     * 😁 `menuSkill` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -895,10 +833,8 @@
             >]
             >```
     * 😁 `menuSort` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -914,10 +850,8 @@
             >]
             >```
     * 😁 `menuStatus` property
-        ■key: default
         * required - ['enabled']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -952,13 +886,10 @@
         >]
         >```
 * 😁 `talkMenu` property
-    ■key: default
     * required - ['characterMenu', 'itemSelectMenu', 'numberMenu', 'selectMenu']
     * 😁 `characterMenu` property
-        ■key: default
         * required - ['characterEnabled', 'nameEnabled', 'nameFontSetting', 'talkFontSetting']
         * 😁 `characterEnabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -966,7 +897,6 @@
                 >]
                 >```
         * 😁 `nameEnabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -974,12 +904,10 @@
                 >]
                 >```
         * 😁 `nameFontSetting` property
-            ■key: default
             * required - ['color', 'font', 'size']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -997,7 +925,6 @@
                     >]
                     >```
             * 😁 `font` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -1005,7 +932,6 @@
                     >]
                     >```
             * 😁 `size` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -1027,12 +953,10 @@
                 >]
                 >```
         * 😁 `talkFontSetting` property
-            ■key: default
             * required - ['color', 'font', 'size']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -1050,7 +974,6 @@
                     >]
                     >```
             * 😁 `font` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -1058,7 +981,6 @@
                     >]
                     >```
             * 😁 `size` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -1098,15 +1020,12 @@
             >]
             >```
     * 😁 `itemSelectMenu` property
-        ■key: default
         * required - ['menuFontSetting', 'positionItemWindow']
         * 😁 `menuFontSetting` property
-            ■key: default
             * required - ['color', 'font', 'size']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -1124,7 +1043,6 @@
                     >]
                     >```
             * 😁 `font` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -1132,7 +1050,6 @@
                     >]
                     >```
             * 😁 `size` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -1154,7 +1071,6 @@
                 >]
                 >```
         * 😁 `positionItemWindow` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1179,15 +1095,12 @@
             >]
             >```
     * 😁 `numberMenu` property
-        ■key: default
         * required - ['menuFontSetting', 'numberEnabled', 'positionNumberWindow']
         * 😁 `menuFontSetting` property
-            ■key: default
             * required - ['color', 'font', 'size']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -1205,7 +1118,6 @@
                     >]
                     >```
             * 😁 `font` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -1213,7 +1125,6 @@
                     >]
                     >```
             * 😁 `size` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -1235,7 +1146,6 @@
                 >]
                 >```
         * 😁 `numberEnabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1243,9 +1153,8 @@
                 >]
                 >```
         * 😁 `positionNumberWindow` property
-            ■key: default
-            * 😁 `positionNumberWindow` array - default: None
-                * default - ```None```
+            * 😁 `positionNumberWindow` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -1283,15 +1192,12 @@
             >]
             >```
     * 😁 `selectMenu` property
-        ■key: default
         * required - ['menuFontSetting']
         * 😁 `menuFontSetting` property
-            ■key: default
             * required - ['color', 'font', 'size']
             * 😁 `color` property
-                ■key: default
-                * 😁 `color` array - default: None
-                    * default - ```None```
+                * 😁 `color` array - default: []
+                    * default - ```[]```
                     * examples:
                         >```
                         >[
@@ -1310,7 +1216,6 @@
                     >]
                     >```
             * 😁 `font` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -1318,7 +1223,6 @@
                     >]
                     >```
             * 😁 `size` property
-                ■key: default
                 * examples:
                     >```
                     >[

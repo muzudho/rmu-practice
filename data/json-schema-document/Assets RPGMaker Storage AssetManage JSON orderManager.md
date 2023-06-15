@@ -4,9 +4,8 @@
 * $id: http://example.com/example.json
 * required - ['orderDataList']
 * 😁 `orderDataList` property
-    ■key: default
-    * 😁 `orderDataList` array - default: None
-        * default - ```None```
+    * 😁 `orderDataList` array - default: []
+        * default - ```[]```
         * required - ['assetTypeId', 'idList']
         * 😁 `assetTypeId` property
             * examples:

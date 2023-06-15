@@ -4,9 +4,8 @@
 * $id: http://example.com/example.json
 * required - ['eventCommands', 'id', 'page', 'type']
 * 😁 `eventCommands` property
-    ■key: default
-    * 😁 `eventCommands` array - default: None
-        * default - ```None```
+    * 😁 `eventCommands` array - default: []
+        * default - ```[]```
         * required - ['code', 'indent', 'parameters', 'route']
         * 😁 `code` property
             * examples:
@@ -214,7 +213,6 @@
         >]
         >```
 * 😁 `id` property
-    ■key: default
     * examples:
         >```
         >[
@@ -222,7 +220,6 @@
         >]
         >```
 * 😁 `page` property
-    ■key: default
     * examples:
         >```
         >[
@@ -230,7 +227,6 @@
         >]
         >```
 * 😁 `type` property
-    ■key: default
     * examples:
         >```
         >[

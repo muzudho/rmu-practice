@@ -4,13 +4,10 @@
 * $id: http://example.com/example.json
 * 😁 `#ROOT#` array
     * default - ```[]```
-    ■key: default
     * required - ['abilityAdd', 'abilityScore', 'abilitySp', 'armorTypes', 'autoGuide', 'baseHpMaxValue', 'basic', 'clearLevel', 'element', 'expGainIncreaseValue', 'expScore', 'id', 'maxLevel', 'parameter', 'skillTypes', 'traits', 'weaponTypes']
     * 😁 `abilityAdd` property
-        ■key: default
         * required - ['criticalRate', 'evasionRate', 'hitRate']
         * 😁 `criticalRate` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -18,7 +15,6 @@
                 >]
                 >```
         * 😁 `evasionRate` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -26,7 +22,6 @@
                 >]
                 >```
         * 😁 `hitRate` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -44,13 +39,10 @@
             >]
             >```
     * 😁 `abilityScore` property
-        ■key: default
         * required - ['attack', 'defense', 'luck', 'magicAttack', 'magicDefense', 'maxHp', 'maxMp', 'speed']
         * 😁 `attack` property
-            ■key: default
             * required - ['enabled', 'growType', 'paramMax', 'paramOne', 'paramPeakLv']
             * 😁 `enabled` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -58,7 +50,6 @@
                     >]
                     >```
             * 😁 `growType` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -66,7 +57,6 @@
                     >]
                     >```
             * 😁 `paramMax` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -74,7 +64,6 @@
                     >]
                     >```
             * 😁 `paramOne` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -82,7 +71,6 @@
                     >]
                     >```
             * 😁 `paramPeakLv` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -102,10 +90,8 @@
                 >]
                 >```
         * 😁 `defense` property
-            ■key: default
             * required - ['enabled', 'growType', 'paramMax', 'paramOne', 'paramPeakLv']
             * 😁 `enabled` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -113,7 +99,6 @@
                     >]
                     >```
             * 😁 `growType` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -121,7 +106,6 @@
                     >]
                     >```
             * 😁 `paramMax` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -129,7 +113,6 @@
                     >]
                     >```
             * 😁 `paramOne` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -137,7 +120,6 @@
                     >]
                     >```
             * 😁 `paramPeakLv` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -157,10 +139,8 @@
                 >]
                 >```
         * 😁 `luck` property
-            ■key: default
             * required - ['enabled', 'growType', 'paramMax', 'paramOne', 'paramPeakLv']
             * 😁 `enabled` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -168,7 +148,6 @@
                     >]
                     >```
             * 😁 `growType` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -176,7 +155,6 @@
                     >]
                     >```
             * 😁 `paramMax` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -184,7 +162,6 @@
                     >]
                     >```
             * 😁 `paramOne` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -192,7 +169,6 @@
                     >]
                     >```
             * 😁 `paramPeakLv` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -212,10 +188,8 @@
                 >]
                 >```
         * 😁 `magicAttack` property
-            ■key: default
             * required - ['enabled', 'growType', 'paramMax', 'paramOne', 'paramPeakLv']
             * 😁 `enabled` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -223,7 +197,6 @@
                     >]
                     >```
             * 😁 `growType` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -231,7 +204,6 @@
                     >]
                     >```
             * 😁 `paramMax` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -239,7 +211,6 @@
                     >]
                     >```
             * 😁 `paramOne` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -247,7 +218,6 @@
                     >]
                     >```
             * 😁 `paramPeakLv` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -267,10 +237,8 @@
                 >]
                 >```
         * 😁 `magicDefense` property
-            ■key: default
             * required - ['enabled', 'growType', 'paramMax', 'paramOne', 'paramPeakLv']
             * 😁 `enabled` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -278,7 +246,6 @@
                     >]
                     >```
             * 😁 `growType` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -286,7 +253,6 @@
                     >]
                     >```
             * 😁 `paramMax` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -294,7 +260,6 @@
                     >]
                     >```
             * 😁 `paramOne` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -302,7 +267,6 @@
                     >]
                     >```
             * 😁 `paramPeakLv` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -322,10 +286,8 @@
                 >]
                 >```
         * 😁 `maxHp` property
-            ■key: default
             * required - ['enabled', 'growType', 'paramMax', 'paramOne', 'paramPeakLv']
             * 😁 `enabled` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -333,7 +295,6 @@
                     >]
                     >```
             * 😁 `growType` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -341,7 +302,6 @@
                     >]
                     >```
             * 😁 `paramMax` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -349,7 +309,6 @@
                     >]
                     >```
             * 😁 `paramOne` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -357,7 +316,6 @@
                     >]
                     >```
             * 😁 `paramPeakLv` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -377,10 +335,8 @@
                 >]
                 >```
         * 😁 `maxMp` property
-            ■key: default
             * required - ['enabled', 'growType', 'paramMax', 'paramOne', 'paramPeakLv']
             * 😁 `enabled` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -388,7 +344,6 @@
                     >]
                     >```
             * 😁 `growType` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -396,7 +351,6 @@
                     >]
                     >```
             * 😁 `paramMax` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -404,7 +358,6 @@
                     >]
                     >```
             * 😁 `paramOne` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -412,7 +365,6 @@
                     >]
                     >```
             * 😁 `paramPeakLv` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -432,10 +384,8 @@
                 >]
                 >```
         * 😁 `speed` property
-            ■key: default
             * required - ['enabled', 'growType', 'paramMax', 'paramOne', 'paramPeakLv']
             * 😁 `enabled` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -443,7 +393,6 @@
                     >]
                     >```
             * 😁 `growType` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -451,7 +400,6 @@
                     >]
                     >```
             * 😁 `paramMax` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -459,7 +407,6 @@
                     >]
                     >```
             * 😁 `paramOne` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -467,7 +414,6 @@
                     >]
                     >```
             * 😁 `paramPeakLv` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -550,10 +496,8 @@
             >]
             >```
     * 😁 `abilitySp` property
-        ■key: default
         * required - ['targetedRate']
         * 😁 `targetedRate` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -569,9 +513,8 @@
             >]
             >```
     * 😁 `armorTypes` property
-        ■key: default
-        * 😁 `armorTypes` array - default: None
-            * default - ```None```
+        * 😁 `armorTypes` array - default: []
+            * default - ```[]```
             * examples:
                 >```
                 >[
@@ -593,10 +536,8 @@
             >]
             >```
     * 😁 `autoGuide` property
-        ■key: default
         * required - ['attack', 'defense', 'luck', 'magicAttack', 'magicDefense', 'maxHp', 'maxMp', 'speed']
         * 😁 `attack` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -604,7 +545,6 @@
                 >]
                 >```
         * 😁 `defense` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -612,7 +552,6 @@
                 >]
                 >```
         * 😁 `luck` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -620,7 +559,6 @@
                 >]
                 >```
         * 😁 `magicAttack` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -628,7 +566,6 @@
                 >]
                 >```
         * 😁 `magicDefense` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -636,7 +573,6 @@
                 >]
                 >```
         * 😁 `maxHp` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -644,7 +580,6 @@
                 >]
                 >```
         * 😁 `maxMp` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -652,7 +587,6 @@
                 >]
                 >```
         * 😁 `speed` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -675,7 +609,6 @@
             >]
             >```
     * 😁 `baseHpMaxValue` property
-        ■key: default
         * examples:
             >```
             >[
@@ -683,13 +616,10 @@
             >]
             >```
     * 😁 `basic` property
-        ■key: default
         * required - ['abilityEnabled', 'expMax', 'hpMax', 'id', 'level', 'maxLevel', 'name']
         * 😁 `abilityEnabled` property
-            ■key: default
             * required - ['luck', 'magicAttack', 'magicDefense', 'mp', 'speed', 'tp']
             * 😁 `luck` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -697,7 +627,6 @@
                     >]
                     >```
             * 😁 `magicAttack` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -705,7 +634,6 @@
                     >]
                     >```
             * 😁 `magicDefense` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -713,7 +641,6 @@
                     >]
                     >```
             * 😁 `mp` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -721,7 +648,6 @@
                     >]
                     >```
             * 😁 `speed` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -729,7 +655,6 @@
                     >]
                     >```
             * 😁 `tp` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -750,7 +675,6 @@
                 >]
                 >```
         * 😁 `expMax` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -758,7 +682,6 @@
                 >]
                 >```
         * 😁 `hpMax` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -766,7 +689,6 @@
                 >]
                 >```
         * 😁 `id` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -774,10 +696,8 @@
                 >]
                 >```
         * 😁 `level` property
-            ■key: default
             * required - ['levelGameClear', 'levelMax']
             * 😁 `levelGameClear` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -785,7 +705,6 @@
                     >]
                     >```
             * 😁 `levelMax` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -802,7 +721,6 @@
                 >]
                 >```
         * 😁 `maxLevel` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -810,7 +728,6 @@
                 >]
                 >```
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -842,7 +759,6 @@
             >]
             >```
     * 😁 `clearLevel` property
-        ■key: default
         * examples:
             >```
             >[
@@ -850,7 +766,6 @@
             >]
             >```
     * 😁 `element` property
-        ■key: default
         * examples:
             >```
             >[
@@ -858,7 +773,6 @@
             >]
             >```
     * 😁 `expGainIncreaseValue` property
-        ■key: default
         * examples:
             >```
             >[
@@ -866,10 +780,8 @@
             >]
             >```
     * 😁 `expScore` property
-        ■key: default
         * required - ['growType', 'increaseValueA', 'increaseValueB']
         * 😁 `growType` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -877,7 +789,6 @@
                 >]
                 >```
         * 😁 `increaseValueA` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -885,7 +796,6 @@
                 >]
                 >```
         * 😁 `increaseValueB` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -903,7 +813,6 @@
             >]
             >```
     * 😁 `id` property
-        ■key: default
         * examples:
             >```
             >[
@@ -911,7 +820,6 @@
             >]
             >```
     * 😁 `maxLevel` property
-        ■key: default
         * examples:
             >```
             >[
@@ -919,12 +827,10 @@
             >]
             >```
     * 😁 `parameter` property
-        ■key: default
         * required - ['attack', 'defense', 'luck', 'magicAttack', 'magicDefense', 'maxHp', 'maxMp', 'speed']
         * 😁 `attack` property
-            ■key: default
-            * 😁 `attack` array - default: None
-                * default - ```None```
+            * 😁 `attack` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -950,9 +856,8 @@
                 >]
                 >```
         * 😁 `defense` property
-            ■key: default
-            * 😁 `defense` array - default: None
-                * default - ```None```
+            * 😁 `defense` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -970,9 +875,8 @@
                 >]
                 >```
         * 😁 `luck` property
-            ■key: default
-            * 😁 `luck` array - default: None
-                * default - ```None```
+            * 😁 `luck` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -1000,9 +904,8 @@
                 >]
                 >```
         * 😁 `magicAttack` property
-            ■key: default
-            * 😁 `magicAttack` array - default: None
-                * default - ```None```
+            * 😁 `magicAttack` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -1028,9 +931,8 @@
                 >]
                 >```
         * 😁 `magicDefense` property
-            ■key: default
-            * 😁 `magicDefense` array - default: None
-                * default - ```None```
+            * 😁 `magicDefense` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -1056,9 +958,8 @@
                 >]
                 >```
         * 😁 `maxHp` property
-            ■key: default
-            * 😁 `maxHp` array - default: None
-                * default - ```None```
+            * 😁 `maxHp` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -1084,9 +985,8 @@
                 >]
                 >```
         * 😁 `maxMp` property
-            ■key: default
-            * 😁 `maxMp` array - default: None
-                * default - ```None```
+            * 😁 `maxMp` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -1112,9 +1012,8 @@
                 >]
                 >```
         * 😁 `speed` property
-            ■key: default
-            * 😁 `speed` array - default: None
-                * default - ```None```
+            * 😁 `speed` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -1211,9 +1110,8 @@
             >]
             >```
     * 😁 `skillTypes` property
-        ■key: default
-        * 😁 `skillTypes` array - default: None
-            * default - ```None```
+        * 😁 `skillTypes` array - default: []
+            * default - ```[]```
             * required - ['level', 'skillId']
             * 😁 `level` property
                 * examples:
@@ -1274,9 +1172,8 @@
             >]
             >```
     * 😁 `traits` property
-        ■key: default
-        * 😁 `traits` array - default: None
-            * default - ```None```
+        * 😁 `traits` array - default: []
+            * default - ```[]```
             * required - ['categoryId', 'effectId', 'traitsId', 'value']
             * 😁 `categoryId` property
                 * examples:
@@ -1360,9 +1257,8 @@
             >]
             >```
     * 😁 `weaponTypes` property
-        ■key: default
-        * 😁 `weaponTypes` array - default: None
-            * default - ```None```
+        * 😁 `weaponTypes` array - default: []
+            * default - ```[]```
             * examples:
                 >```
                 >[

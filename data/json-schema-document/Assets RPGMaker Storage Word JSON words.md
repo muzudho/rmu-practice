@@ -4,13 +4,10 @@
 * $id: http://example.com/example.json
 * required - ['basicStatus', 'commands', 'messages', 'status', 'runtimeShop']
 * 😁 `basicStatus` property
-    ■key: default
     * required - ['exp', 'expShort', 'hp', 'hpShort', 'level', 'levelShort', 'money', 'mp', 'mpShort', 'tp', 'tpShort']
     * 😁 `exp` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -18,7 +15,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -26,7 +22,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -44,10 +39,8 @@
             >]
             >```
     * 😁 `expShort` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -55,7 +48,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -63,7 +55,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -81,10 +72,8 @@
             >]
             >```
     * 😁 `hp` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -92,7 +81,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -100,7 +88,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -118,10 +105,8 @@
             >]
             >```
     * 😁 `hpShort` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -129,7 +114,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -137,7 +121,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -155,10 +138,8 @@
             >]
             >```
     * 😁 `level` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -166,7 +147,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -174,7 +154,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -192,10 +171,8 @@
             >]
             >```
     * 😁 `levelShort` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -203,7 +180,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -211,7 +187,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -229,10 +204,8 @@
             >]
             >```
     * 😁 `money` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -240,7 +213,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -248,7 +220,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -266,10 +237,8 @@
             >]
             >```
     * 😁 `mp` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -277,7 +246,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -285,7 +253,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -303,10 +270,8 @@
             >]
             >```
     * 😁 `mpShort` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -314,7 +279,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -322,7 +286,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -340,10 +303,8 @@
             >]
             >```
     * 😁 `tp` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -351,7 +312,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -359,7 +319,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -377,10 +336,8 @@
             >]
             >```
     * 😁 `tpShort` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -388,7 +345,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -396,7 +352,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -476,13 +431,10 @@
         >]
         >```
 * 😁 `commands` property
-    ■key: default
     * required - ['alwaysDash', 'armor', 'attack', 'backTitle', 'battle', 'buy', 'equipment', 'equipment2', 'escape', 'gameEnd', 'guard', 'item', 'keyItem', 'menuContinue', 'newGame', 'option', 'pause', 'possessionNum', 'removeAll', 'save', 'saveCommand', 'sell', 'skill', 'sort', 'status', 'strongestEquipment', 'volumeBgm', 'volumeBgs', 'volumeMe', 'volumeSe', 'weapon']
     * 😁 `alwaysDash` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -490,7 +442,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -498,7 +449,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -516,10 +466,8 @@
             >]
             >```
     * 😁 `armor` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -527,7 +475,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -535,7 +482,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -553,10 +499,8 @@
             >]
             >```
     * 😁 `attack` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -564,7 +508,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -572,7 +515,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -590,10 +532,8 @@
             >]
             >```
     * 😁 `backTitle` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -601,7 +541,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -609,7 +548,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -627,10 +565,8 @@
             >]
             >```
     * 😁 `battle` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -638,7 +574,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -646,7 +581,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -664,10 +598,8 @@
             >]
             >```
     * 😁 `buy` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -675,7 +607,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -683,7 +614,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -701,10 +631,8 @@
             >]
             >```
     * 😁 `equipment` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -712,7 +640,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -720,7 +647,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -738,10 +664,8 @@
             >]
             >```
     * 😁 `equipment2` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -749,7 +673,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -757,7 +680,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -775,10 +697,8 @@
             >]
             >```
     * 😁 `escape` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -786,7 +706,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -794,7 +713,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -812,10 +730,8 @@
             >]
             >```
     * 😁 `gameEnd` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -823,7 +739,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -831,7 +746,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -849,10 +763,8 @@
             >]
             >```
     * 😁 `guard` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -860,7 +772,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -868,7 +779,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -886,10 +796,8 @@
             >]
             >```
     * 😁 `item` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -897,7 +805,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -905,7 +812,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -923,10 +829,8 @@
             >]
             >```
     * 😁 `keyItem` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -934,7 +838,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -942,7 +845,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -960,10 +862,8 @@
             >]
             >```
     * 😁 `menuContinue` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -971,7 +871,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -979,7 +878,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -997,10 +895,8 @@
             >]
             >```
     * 😁 `newGame` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1008,7 +904,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1016,7 +911,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1034,10 +928,8 @@
             >]
             >```
     * 😁 `option` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1045,7 +937,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1053,7 +944,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1071,10 +961,8 @@
             >]
             >```
     * 😁 `pause` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1082,7 +970,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1090,7 +977,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1108,10 +994,8 @@
             >]
             >```
     * 😁 `possessionNum` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1119,7 +1003,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1127,7 +1010,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1145,10 +1027,8 @@
             >]
             >```
     * 😁 `removeAll` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1156,7 +1036,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1164,7 +1043,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1182,10 +1060,8 @@
             >]
             >```
     * 😁 `save` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1193,7 +1069,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1201,7 +1076,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1219,10 +1093,8 @@
             >]
             >```
     * 😁 `saveCommand` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1230,7 +1102,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1238,7 +1109,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1256,10 +1126,8 @@
             >]
             >```
     * 😁 `sell` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1267,7 +1135,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1275,7 +1142,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1293,10 +1159,8 @@
             >]
             >```
     * 😁 `skill` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1304,7 +1168,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1312,7 +1175,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1330,10 +1192,8 @@
             >]
             >```
     * 😁 `sort` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1341,7 +1201,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1349,7 +1208,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1367,10 +1225,8 @@
             >]
             >```
     * 😁 `status` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1378,7 +1234,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1386,7 +1241,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1404,10 +1258,8 @@
             >]
             >```
     * 😁 `strongestEquipment` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1415,7 +1267,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1423,7 +1274,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1441,10 +1291,8 @@
             >]
             >```
     * 😁 `volumeBgm` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1452,7 +1300,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1460,7 +1307,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1478,10 +1324,8 @@
             >]
             >```
     * 😁 `volumeBgs` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1489,7 +1333,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1497,7 +1340,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1515,10 +1357,8 @@
             >]
             >```
     * 😁 `volumeMe` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1526,7 +1366,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1534,7 +1373,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1552,10 +1390,8 @@
             >]
             >```
     * 😁 `volumeSe` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1563,7 +1399,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1571,7 +1406,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1589,10 +1423,8 @@
             >]
             >```
     * 😁 `weapon` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1600,7 +1432,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1608,7 +1439,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1788,13 +1618,10 @@
         >]
         >```
 * 😁 `messages` property
-    ■key: default
     * required - ['actionFailure', 'actorDamage', 'actorDrain', 'actorGain', 'actorLoss', 'actorNoDamage', 'actorNoHit', 'actorRecovery', 'buffAdd', 'buffRemove', 'counterAttack', 'criticalToActor', 'criticalToEnemy', 'debuffAdd', 'defeat', 'emerge', 'enemyDamage', 'enemyDrain', 'enemyGain', 'enemyLoss', 'enemyNoDamage', 'enemyNoHit', 'enemyRecovery', 'escapeFailure', 'escapeStart', 'evasion', 'expNext', 'expTotal', 'file', 'levelUp', 'loadMessage', 'magicEvasion', 'magicReflection', 'obtainExp', 'obtainGold', 'obtainItem', 'obtainSkill', 'partyName', 'preemptive', 'saveMessage', 'substitute', 'surprise', 'useItem', 'victory']
     * 😁 `actionFailure` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1802,7 +1629,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1810,7 +1636,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1828,10 +1653,8 @@
             >]
             >```
     * 😁 `actorDamage` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1839,7 +1662,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1847,7 +1669,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1865,10 +1686,8 @@
             >]
             >```
     * 😁 `actorDrain` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1876,7 +1695,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1884,7 +1702,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1902,10 +1719,8 @@
             >]
             >```
     * 😁 `actorGain` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1913,7 +1728,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1921,7 +1735,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1939,10 +1752,8 @@
             >]
             >```
     * 😁 `actorLoss` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1950,7 +1761,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1958,7 +1768,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1976,10 +1785,8 @@
             >]
             >```
     * 😁 `actorNoDamage` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1987,7 +1794,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1995,7 +1801,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2013,10 +1818,8 @@
             >]
             >```
     * 😁 `actorNoHit` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2024,7 +1827,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2032,7 +1834,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2050,10 +1851,8 @@
             >]
             >```
     * 😁 `actorRecovery` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2061,7 +1860,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2069,7 +1867,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2087,10 +1884,8 @@
             >]
             >```
     * 😁 `buffAdd` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2098,7 +1893,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2106,7 +1900,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2124,10 +1917,8 @@
             >]
             >```
     * 😁 `buffRemove` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2135,7 +1926,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2143,7 +1933,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2161,10 +1950,8 @@
             >]
             >```
     * 😁 `counterAttack` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2172,7 +1959,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2180,7 +1966,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2198,10 +1983,8 @@
             >]
             >```
     * 😁 `criticalToActor` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2209,7 +1992,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2217,7 +1999,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2235,10 +2016,8 @@
             >]
             >```
     * 😁 `criticalToEnemy` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2246,7 +2025,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2254,7 +2032,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2272,10 +2049,8 @@
             >]
             >```
     * 😁 `debuffAdd` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2283,7 +2058,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2291,7 +2065,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2309,10 +2082,8 @@
             >]
             >```
     * 😁 `defeat` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2320,7 +2091,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2328,7 +2098,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2346,10 +2115,8 @@
             >]
             >```
     * 😁 `emerge` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2357,7 +2124,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2365,7 +2131,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2383,10 +2148,8 @@
             >]
             >```
     * 😁 `enemyDamage` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2394,7 +2157,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2402,7 +2164,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2420,10 +2181,8 @@
             >]
             >```
     * 😁 `enemyDrain` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2431,7 +2190,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2439,7 +2197,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2457,10 +2214,8 @@
             >]
             >```
     * 😁 `enemyGain` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2468,7 +2223,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2476,7 +2230,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2494,10 +2247,8 @@
             >]
             >```
     * 😁 `enemyLoss` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2505,7 +2256,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2513,7 +2263,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2531,10 +2280,8 @@
             >]
             >```
     * 😁 `enemyNoDamage` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2542,7 +2289,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2550,7 +2296,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2568,10 +2313,8 @@
             >]
             >```
     * 😁 `enemyNoHit` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2579,7 +2322,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2587,7 +2329,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2605,10 +2346,8 @@
             >]
             >```
     * 😁 `enemyRecovery` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2616,7 +2355,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2624,7 +2362,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2642,10 +2379,8 @@
             >]
             >```
     * 😁 `escapeFailure` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2653,7 +2388,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2661,7 +2395,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2679,10 +2412,8 @@
             >]
             >```
     * 😁 `escapeStart` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2690,7 +2421,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2698,7 +2428,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2716,10 +2445,8 @@
             >]
             >```
     * 😁 `evasion` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2727,7 +2454,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2735,7 +2461,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2753,10 +2478,8 @@
             >]
             >```
     * 😁 `expNext` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2764,7 +2487,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2772,7 +2494,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2790,10 +2511,8 @@
             >]
             >```
     * 😁 `expTotal` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2801,7 +2520,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2809,7 +2527,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2827,10 +2544,8 @@
             >]
             >```
     * 😁 `file` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2838,7 +2553,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2846,7 +2560,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2864,10 +2577,8 @@
             >]
             >```
     * 😁 `levelUp` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2875,7 +2586,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2883,7 +2593,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2901,10 +2610,8 @@
             >]
             >```
     * 😁 `loadMessage` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2912,7 +2619,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2920,7 +2626,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2938,10 +2643,8 @@
             >]
             >```
     * 😁 `magicEvasion` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2949,7 +2652,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2957,7 +2659,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2975,10 +2676,8 @@
             >]
             >```
     * 😁 `magicReflection` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2986,7 +2685,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2994,7 +2692,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3012,10 +2709,8 @@
             >]
             >```
     * 😁 `obtainExp` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3023,7 +2718,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3031,7 +2725,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3049,10 +2742,8 @@
             >]
             >```
     * 😁 `obtainGold` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3060,7 +2751,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3068,7 +2758,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3086,10 +2775,8 @@
             >]
             >```
     * 😁 `obtainItem` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3097,7 +2784,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3105,7 +2791,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3123,10 +2808,8 @@
             >]
             >```
     * 😁 `obtainSkill` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3134,7 +2817,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3142,7 +2824,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3160,10 +2841,8 @@
             >]
             >```
     * 😁 `partyName` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3171,7 +2850,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3179,7 +2857,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3197,10 +2874,8 @@
             >]
             >```
     * 😁 `preemptive` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3208,7 +2883,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3216,7 +2890,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3234,10 +2907,8 @@
             >]
             >```
     * 😁 `saveMessage` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3245,7 +2916,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3253,7 +2923,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3271,10 +2940,8 @@
             >]
             >```
     * 😁 `substitute` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3282,7 +2949,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3290,7 +2956,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3308,10 +2973,8 @@
             >]
             >```
     * 😁 `surprise` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3319,7 +2982,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3327,7 +2989,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3345,10 +3006,8 @@
             >]
             >```
     * 😁 `useItem` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3356,7 +3015,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3364,7 +3022,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3382,10 +3039,8 @@
             >]
             >```
     * 😁 `victory` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3393,7 +3048,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3401,7 +3055,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3441,13 +3094,10 @@
         >]
         >```
 * 😁 `status` property
-    ■key: default
     * required - ['attack', 'evasion', 'guard', 'hit', 'luck', 'magic', 'magicGuard', 'maxHp', 'maxMp', 'speed']
     * 😁 `attack` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3455,7 +3105,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3463,7 +3112,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3481,10 +3129,8 @@
             >]
             >```
     * 😁 `evasion` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3492,7 +3138,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3500,7 +3145,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3518,10 +3162,8 @@
             >]
             >```
     * 😁 `guard` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3529,7 +3171,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3537,7 +3178,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3555,10 +3195,8 @@
             >]
             >```
     * 😁 `hit` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3566,7 +3204,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3574,7 +3211,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3592,10 +3228,8 @@
             >]
             >```
     * 😁 `luck` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3603,7 +3237,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3611,7 +3244,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3629,10 +3261,8 @@
             >]
             >```
     * 😁 `magic` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3640,7 +3270,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3648,7 +3277,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3666,10 +3294,8 @@
             >]
             >```
     * 😁 `magicGuard` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3677,7 +3303,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3685,7 +3310,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3703,10 +3327,8 @@
             >]
             >```
     * 😁 `maxHp` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3714,7 +3336,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3722,7 +3343,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3740,10 +3360,8 @@
             >]
             >```
     * 😁 `maxMp` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3751,7 +3369,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3759,7 +3376,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3777,10 +3393,8 @@
             >]
             >```
     * 😁 `speed` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3788,7 +3402,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3796,7 +3409,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3836,13 +3448,10 @@
         >]
         >```
 * 😁 `runtimeShop` property
-    ■key: default
     * required - ['buy', 'sell', 'stop', 'item', 'weapon', 'armor', 'important', 'haveNumber']
     * 😁 `buy` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3850,7 +3459,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3858,7 +3466,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3876,10 +3483,8 @@
             >]
             >```
     * 😁 `sell` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3887,7 +3492,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3895,7 +3499,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3913,10 +3516,8 @@
             >]
             >```
     * 😁 `stop` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3924,7 +3525,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3932,7 +3532,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3950,10 +3549,8 @@
             >]
             >```
     * 😁 `item` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3961,7 +3558,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3969,7 +3565,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3987,10 +3582,8 @@
             >]
             >```
     * 😁 `weapon` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -3998,7 +3591,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4006,7 +3598,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4024,10 +3615,8 @@
             >]
             >```
     * 😁 `armor` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4035,7 +3624,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4043,7 +3631,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4061,10 +3648,8 @@
             >]
             >```
     * 😁 `important` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4072,7 +3657,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4080,7 +3664,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4098,10 +3681,8 @@
             >]
             >```
     * 😁 `haveNumber` property
-        ■key: default
         * required - ['enabled', 'initialValue', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4109,7 +3690,6 @@
                 >]
                 >```
         * 😁 `initialValue` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -4117,7 +3697,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[

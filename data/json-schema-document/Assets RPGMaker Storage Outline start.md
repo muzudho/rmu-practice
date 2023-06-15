@@ -4,10 +4,8 @@
 * $id: http://example.com/example.json
 * 😁 `#ROOT#` array
     * default - ```[]```
-    ■key: default
     * required - ['beforeStartId', 'deleted', 'description', 'nextStartId', 'position', 'startId', 'title']
     * 😁 `beforeStartId` property
-        ■key: default
         * examples:
             >```
             >[
@@ -15,7 +13,6 @@
             >]
             >```
     * 😁 `deleted` property
-        ■key: default
         * examples:
             >```
             >[
@@ -23,7 +20,6 @@
             >]
             >```
     * 😁 `description` property
-        ■key: default
         * examples:
             >```
             >[
@@ -31,7 +27,6 @@
             >]
             >```
     * 😁 `nextStartId` property
-        ■key: default
         * examples:
             >```
             >[
@@ -39,9 +34,8 @@
             >]
             >```
     * 😁 `position` property
-        ■key: default
-        * 😁 `position` array - default: None
-            * default - ```None```
+        * 😁 `position` array - default: []
+            * default - ```[]```
             * examples:
                 >```
                 >[
@@ -59,7 +53,6 @@
             >]
             >```
     * 😁 `startId` property
-        ■key: default
         * examples:
             >```
             >[
@@ -67,7 +60,6 @@
             >]
             >```
     * 😁 `title` property
-        ■key: default
         * examples:
             >```
             >[

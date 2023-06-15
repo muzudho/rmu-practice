@@ -4,10 +4,8 @@
 * $id: http://example.com/example.json
 * required - ['bgm', 'gameTitle', 'gameTitleCommon', 'gameTitleImage', 'gameTitleText', 'note', 'startMenu', 'titleBackgroundImage', 'titleFront']
 * 😁 `bgm` property
-    ■key: default
     * required - ['name', 'pan', 'pitch', 'volume']
     * 😁 `name` property
-        ■key: default
         * examples:
             >```
             >[
@@ -15,7 +13,6 @@
             >]
             >```
     * 😁 `pan` property
-        ■key: default
         * examples:
             >```
             >[
@@ -23,7 +20,6 @@
             >]
             >```
     * 😁 `pitch` property
-        ■key: default
         * examples:
             >```
             >[
@@ -31,7 +27,6 @@
             >]
             >```
     * 😁 `volume` property
-        ■key: default
         * examples:
             >```
             >[
@@ -50,7 +45,6 @@
         >]
         >```
 * 😁 `gameTitle` property
-    ■key: default
     * examples:
         >```
         >[
@@ -58,10 +52,8 @@
         >]
         >```
 * 😁 `gameTitleCommon` property
-    ■key: default
     * required - ['gameTitleType', 'position']
     * 😁 `gameTitleType` property
-        ■key: default
         * examples:
             >```
             >[
@@ -69,9 +61,8 @@
             >]
             >```
     * 😁 `position` property
-        ■key: default
-        * 😁 `position` array - default: None
-            * default - ```None```
+        * 😁 `position` array - default: []
+            * default - ```[]```
             * examples:
                 >```
                 >[
@@ -101,10 +92,8 @@
         >]
         >```
 * 😁 `gameTitleImage` property
-    ■key: default
     * required - ['image', 'scale']
     * 😁 `image` property
-        ■key: default
         * examples:
             >```
             >[
@@ -112,7 +101,6 @@
             >]
             >```
     * 😁 `scale` property
-        ■key: default
         * examples:
             >```
             >[
@@ -129,12 +117,10 @@
         >]
         >```
 * 😁 `gameTitleText` property
-    ■key: default
     * required - ['color', 'font', 'size']
     * 😁 `color` property
-        ■key: default
-        * 😁 `color` array - default: None
-            * default - ```None```
+        * 😁 `color` array - default: []
+            * default - ```[]```
             * examples:
                 >```
                 >[
@@ -152,7 +138,6 @@
             >]
             >```
     * 😁 `font` property
-        ■key: default
         * examples:
             >```
             >[
@@ -160,7 +145,6 @@
             >]
             >```
     * 😁 `size` property
-        ■key: default
         * examples:
             >```
             >[
@@ -182,7 +166,6 @@
         >]
         >```
 * 😁 `note` property
-    ■key: default
     * examples:
         >```
         >[
@@ -190,13 +173,10 @@
         >]
         >```
 * 😁 `startMenu` property
-    ■key: default
     * required - ['menuContinue', 'menuFontSetting', 'menuNewGame', 'menuOption', 'menuUiSetting']
     * 😁 `menuContinue` property
-        ■key: default
         * required - ['enabled', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -204,7 +184,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -221,12 +200,10 @@
             >]
             >```
     * 😁 `menuFontSetting` property
-        ■key: default
         * required - ['color', 'font', 'size']
         * 😁 `color` property
-            ■key: default
-            * 😁 `color` array - default: None
-                * default - ```None```
+            * 😁 `color` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -244,7 +221,6 @@
                 >]
                 >```
         * 😁 `font` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -252,7 +228,6 @@
                 >]
                 >```
         * 😁 `size` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -274,10 +249,8 @@
             >]
             >```
     * 😁 `menuNewGame` property
-        ■key: default
         * required - ['enabled', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -285,7 +258,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -302,10 +274,8 @@
             >]
             >```
     * 😁 `menuOption` property
-        ■key: default
         * required - ['enabled', 'value']
         * 😁 `enabled` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -313,7 +283,6 @@
                 >]
                 >```
         * 😁 `value` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -330,12 +299,10 @@
             >]
             >```
     * 😁 `menuUiSetting` property
-        ■key: default
         * required - ['color', 'frame', 'position', 'scale', 'window']
         * 😁 `color` property
-            ■key: default
-            * 😁 `color` array - default: None
-                * default - ```None```
+            * 😁 `color` array - default: []
+                * default - ```[]```
             * examples:
                 >```
                 >[
@@ -343,7 +310,6 @@
                 >]
                 >```
         * 😁 `frame` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -351,9 +317,8 @@
                 >]
                 >```
         * 😁 `position` property
-            ■key: default
-            * 😁 `position` array - default: None
-                * default - ```None```
+            * 😁 `position` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -373,7 +338,6 @@
                 >]
                 >```
         * 😁 `scale` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -381,7 +345,6 @@
                 >]
                 >```
         * 😁 `window` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -444,7 +407,6 @@
         >]
         >```
 * 😁 `titleBackgroundImage` property
-    ■key: default
     * examples:
         >```
         >[
@@ -452,10 +414,8 @@
         >]
         >```
 * 😁 `titleFront` property
-    ■key: default
     * required - ['image', 'position', 'scale']
     * 😁 `image` property
-        ■key: default
         * examples:
             >```
             >[
@@ -463,9 +423,8 @@
             >]
             >```
     * 😁 `position` property
-        ■key: default
-        * 😁 `position` array - default: None
-            * default - ```None```
+        * 😁 `position` array - default: []
+            * default - ```[]```
             * examples:
                 >```
                 >[
@@ -483,7 +442,6 @@
             >]
             >```
     * 😁 `scale` property
-        ■key: default
         * examples:
             >```
             >[

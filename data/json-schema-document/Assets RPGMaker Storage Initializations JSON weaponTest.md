@@ -4,13 +4,10 @@
 * $id: http://example.com/example.json
 * 😁 `#ROOT#` array
     * default - ```[]```
-    ■key: default
     * required - ['basic', 'parameters', 'traits', 'memo', 'deleted']
     * 😁 `basic` property
-        ■key: default
         * required - ['id', 'name', 'description', 'equipmentTypeId', 'weaponTypeId', 'price', 'sell', 'canSell', 'switchItem']
         * 😁 `id` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -18,7 +15,6 @@
                 >]
                 >```
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -26,7 +22,6 @@
                 >]
                 >```
         * 😁 `description` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -34,7 +29,6 @@
                 >]
                 >```
         * 😁 `equipmentTypeId` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -42,7 +36,6 @@
                 >]
                 >```
         * 😁 `weaponTypeId` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -50,7 +43,6 @@
                 >]
                 >```
         * 😁 `price` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -58,7 +50,6 @@
                 >]
                 >```
         * 😁 `sell` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -66,7 +57,6 @@
                 >]
                 >```
         * 😁 `canSell` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -74,7 +64,6 @@
                 >]
                 >```
         * 😁 `switchItem` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -98,9 +87,8 @@
             >]
             >```
     * 😁 `parameters` property
-        ■key: default
-        * 😁 `parameters` array - default: None
-            * default - ```None```
+        * 😁 `parameters` array - default: []
+            * default - ```[]```
             * examples:
                 >```
                 >[
@@ -117,10 +105,8 @@
             >]
             >```
     * 😁 `traits` property
-        ■key: default
         * required - ['physics', 'hitRate']
         * 😁 `physics` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -128,7 +114,6 @@
                 >]
                 >```
         * 😁 `hitRate` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -145,7 +130,6 @@
             >]
             >```
     * 😁 `memo` property
-        ■key: default
         * examples:
             >```
             >[
@@ -153,7 +137,6 @@
             >]
             >```
     * 😁 `deleted` property
-        ■key: default
         * examples:
             >```
             >[

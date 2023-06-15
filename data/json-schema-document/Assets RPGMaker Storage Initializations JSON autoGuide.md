@@ -4,10 +4,8 @@
 * $id: http://example.com/example.json
 * 😁 `#ROOT#` array
     * default - ```[]```
-    ■key: default
     * required - ['id', 'baseParameterRatio', 'weaponRatio', 'armorRatio', 'delete']
     * 😁 `id` property
-        ■key: default
         * examples:
             >```
             >[
@@ -15,13 +13,10 @@
             >]
             >```
     * 😁 `baseParameterRatio` property
-        ■key: default
-        * 😁 `baseParameterRatio` array - default: None
-            * default - ```None```
-            ■key: default
+        * 😁 `baseParameterRatio` array - default: []
+            * default - ```[]```
             * required - ['maxHp', 'maxMp', 'attack', 'defense', 'magicAttack', 'magicDefense', 'speed', 'luck']
             * 😁 `maxHp` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -29,7 +24,6 @@
                     >]
                     >```
             * 😁 `maxMp` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -37,7 +31,6 @@
                     >]
                     >```
             * 😁 `attack` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -45,7 +38,6 @@
                     >]
                     >```
             * 😁 `defense` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -53,7 +45,6 @@
                     >]
                     >```
             * 😁 `magicAttack` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -61,7 +52,6 @@
                     >]
                     >```
             * 😁 `magicDefense` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -69,7 +59,6 @@
                     >]
                     >```
             * 😁 `speed` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -77,7 +66,6 @@
                     >]
                     >```
             * 😁 `luck` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -117,13 +105,10 @@
             >]
             >```
     * 😁 `weaponRatio` property
-        ■key: default
-        * 😁 `weaponRatio` array - default: None
-            * default - ```None```
-            ■key: default
+        * 😁 `weaponRatio` array - default: []
+            * default - ```[]```
             * required - ['maxHp', 'maxMp', 'attack', 'defense', 'magicAttack', 'magicDefense', 'speed', 'luck']
             * 😁 `maxHp` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -131,7 +116,6 @@
                     >]
                     >```
             * 😁 `maxMp` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -139,7 +123,6 @@
                     >]
                     >```
             * 😁 `attack` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -147,7 +130,6 @@
                     >]
                     >```
             * 😁 `defense` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -155,7 +137,6 @@
                     >]
                     >```
             * 😁 `magicAttack` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -163,7 +144,6 @@
                     >]
                     >```
             * 😁 `magicDefense` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -171,7 +151,6 @@
                     >]
                     >```
             * 😁 `speed` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -179,7 +158,6 @@
                     >]
                     >```
             * 😁 `luck` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -219,13 +197,10 @@
             >]
             >```
     * 😁 `armorRatio` property
-        ■key: default
-        * 😁 `armorRatio` array - default: None
-            * default - ```None```
-            ■key: default
+        * 😁 `armorRatio` array - default: []
+            * default - ```[]```
             * required - ['maxHp', 'maxMp', 'attack', 'defense', 'magicAttack', 'magicDefense', 'speed', 'luck']
             * 😁 `maxHp` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -233,7 +208,6 @@
                     >]
                     >```
             * 😁 `maxMp` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -241,7 +215,6 @@
                     >]
                     >```
             * 😁 `attack` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -249,7 +222,6 @@
                     >]
                     >```
             * 😁 `defense` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -257,7 +229,6 @@
                     >]
                     >```
             * 😁 `magicAttack` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -265,7 +236,6 @@
                     >]
                     >```
             * 😁 `magicDefense` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -273,7 +243,6 @@
                     >]
                     >```
             * 😁 `speed` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -281,7 +250,6 @@
                     >]
                     >```
             * 😁 `luck` property
-                ■key: default
                 * examples:
                     >```
                     >[
@@ -321,7 +289,6 @@
             >]
             >```
     * 😁 `delete` property
-        ■key: default
         * examples:
             >```
             >[

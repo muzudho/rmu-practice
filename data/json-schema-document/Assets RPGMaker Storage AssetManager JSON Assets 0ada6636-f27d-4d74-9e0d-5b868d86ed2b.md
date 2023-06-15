@@ -4,7 +4,6 @@
 * $id: http://example.com/example.json
 * required - ['id', 'sort', 'name', 'type', 'weaponTypeId', 'assetTypeId', 'imageSettings']
 * 😁 `id` property
-    ■key: default
     * examples:
         >```
         >[
@@ -12,7 +11,6 @@
         >]
         >```
 * 😁 `sort` property
-    ■key: default
     * examples:
         >```
         >[
@@ -20,7 +18,6 @@
         >]
         >```
 * 😁 `name` property
-    ■key: default
     * examples:
         >```
         >[
@@ -28,7 +25,6 @@
         >]
         >```
 * 😁 `type` property
-    ■key: default
     * examples:
         >```
         >[
@@ -36,7 +32,6 @@
         >]
         >```
 * 😁 `weaponTypeId` property
-    ■key: default
     * examples:
         >```
         >[
@@ -44,7 +39,6 @@
         >]
         >```
 * 😁 `assetTypeId` property
-    ■key: default
     * examples:
         >```
         >[
@@ -52,9 +46,8 @@
         >]
         >```
 * 😁 `imageSettings` property
-    ■key: default
-    * 😁 `imageSettings` array - default: None
-        * default - ```None```
+    * 😁 `imageSettings` array - default: []
+        * default - ```[]```
         * required - ['path', 'sizeX', 'sizeY', 'animationFrame', 'animationSpeed']
         * 😁 `path` property
             * examples:

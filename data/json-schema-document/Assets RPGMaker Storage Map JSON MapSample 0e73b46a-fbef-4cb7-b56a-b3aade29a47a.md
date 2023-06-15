@@ -4,7 +4,6 @@
 * $id: http://example.com/example.json
 * required - ['mapId', 'index', 'displayName', 'name', 'width', 'height', 'deleted', 'encounter', 'layers', 'scrollType', 'autoPlayBGM', 'bgmID', 'bgmState', 'autoPlayBgs', 'bgsID', 'bgsState', 'forbidDash', 'background', 'Parallax', 'memo']
 * 😁 `mapId` property
-    ■key: default
     * examples:
         >```
         >[
@@ -12,7 +11,6 @@
         >]
         >```
 * 😁 `index` property
-    ■key: default
     * examples:
         >```
         >[
@@ -20,7 +18,6 @@
         >]
         >```
 * 😁 `displayName` property
-    ■key: default
     * examples:
         >```
         >[
@@ -28,7 +25,6 @@
         >]
         >```
 * 😁 `name` property
-    ■key: default
     * examples:
         >```
         >[
@@ -36,7 +32,6 @@
         >]
         >```
 * 😁 `width` property
-    ■key: default
     * examples:
         >```
         >[
@@ -44,7 +39,6 @@
         >]
         >```
 * 😁 `height` property
-    ■key: default
     * examples:
         >```
         >[
@@ -52,7 +46,6 @@
         >]
         >```
 * 😁 `deleted` property
-    ■key: default
     * examples:
         >```
         >[
@@ -60,9 +53,8 @@
         >]
         >```
 * 😁 `encounter` property
-    ■key: default
-    * 😁 `encounter` array - default: None
-        * default - ```None```
+    * 😁 `encounter` array - default: []
+        * default - ```[]```
     * examples:
         >```
         >[
@@ -70,9 +62,8 @@
         >]
         >```
 * 😁 `layers` property
-    ■key: default
-    * 😁 `layers` array - default: None
-        * default - ```None```
+    * 😁 `layers` array - default: []
+        * default - ```[]```
         * required - ['type', 'tileIdsOnPalette']
         * 😁 `type` property
             * examples:
@@ -131,7 +122,6 @@
         >]
         >```
 * 😁 `scrollType` property
-    ■key: default
     * examples:
         >```
         >[
@@ -139,7 +129,6 @@
         >]
         >```
 * 😁 `autoPlayBGM` property
-    ■key: default
     * examples:
         >```
         >[
@@ -147,7 +136,6 @@
         >]
         >```
 * 😁 `bgmID` property
-    ■key: default
     * examples:
         >```
         >[
@@ -155,10 +143,8 @@
         >]
         >```
 * 😁 `bgmState` property
-    ■key: default
     * required - ['pan', 'pitch', 'volume']
     * 😁 `pan` property
-        ■key: default
         * examples:
             >```
             >[
@@ -166,7 +152,6 @@
             >]
             >```
     * 😁 `pitch` property
-        ■key: default
         * examples:
             >```
             >[
@@ -174,7 +159,6 @@
             >]
             >```
     * 😁 `volume` property
-        ■key: default
         * examples:
             >```
             >[
@@ -192,7 +176,6 @@
         >]
         >```
 * 😁 `autoPlayBgs` property
-    ■key: default
     * examples:
         >```
         >[
@@ -200,7 +183,6 @@
         >]
         >```
 * 😁 `bgsID` property
-    ■key: default
     * examples:
         >```
         >[
@@ -208,10 +190,8 @@
         >]
         >```
 * 😁 `bgsState` property
-    ■key: default
     * required - ['pan', 'pitch', 'volume']
     * 😁 `pan` property
-        ■key: default
         * examples:
             >```
             >[
@@ -219,7 +199,6 @@
             >]
             >```
     * 😁 `pitch` property
-        ■key: default
         * examples:
             >```
             >[
@@ -227,7 +206,6 @@
             >]
             >```
     * 😁 `volume` property
-        ■key: default
         * examples:
             >```
             >[
@@ -245,7 +223,6 @@
         >]
         >```
 * 😁 `forbidDash` property
-    ■key: default
     * examples:
         >```
         >[
@@ -253,10 +230,8 @@
         >]
         >```
 * 😁 `background` property
-    ■key: default
     * required - ['imageName', 'imageZoomIndex', 'showInEditor']
     * 😁 `imageName` property
-        ■key: default
         * examples:
             >```
             >[
@@ -264,7 +239,6 @@
             >]
             >```
     * 😁 `imageZoomIndex` property
-        ■key: default
         * examples:
             >```
             >[
@@ -272,7 +246,6 @@
             >]
             >```
     * 😁 `showInEditor` property
-        ■key: default
         * examples:
             >```
             >[
@@ -290,10 +263,8 @@
         >]
         >```
 * 😁 `Parallax` property
-    ■key: default
     * required - ['loopX', 'loopY', 'name', 'show', 'sx', 'sy', 'zoom0', 'zoom2', 'zoom4']
     * 😁 `loopX` property
-        ■key: default
         * examples:
             >```
             >[
@@ -301,7 +272,6 @@
             >]
             >```
     * 😁 `loopY` property
-        ■key: default
         * examples:
             >```
             >[
@@ -309,7 +279,6 @@
             >]
             >```
     * 😁 `name` property
-        ■key: default
         * examples:
             >```
             >[
@@ -317,7 +286,6 @@
             >]
             >```
     * 😁 `show` property
-        ■key: default
         * examples:
             >```
             >[
@@ -325,7 +293,6 @@
             >]
             >```
     * 😁 `sx` property
-        ■key: default
         * examples:
             >```
             >[
@@ -333,7 +300,6 @@
             >]
             >```
     * 😁 `sy` property
-        ■key: default
         * examples:
             >```
             >[
@@ -341,7 +307,6 @@
             >]
             >```
     * 😁 `zoom0` property
-        ■key: default
         * examples:
             >```
             >[
@@ -349,7 +314,6 @@
             >]
             >```
     * 😁 `zoom2` property
-        ■key: default
         * examples:
             >```
             >[
@@ -357,7 +321,6 @@
             >]
             >```
     * 😁 `zoom4` property
-        ■key: default
         * examples:
             >```
             >[
@@ -381,7 +344,6 @@
         >]
         >```
 * 😁 `memo` property
-    ■key: default
     * examples:
         >```
         >[

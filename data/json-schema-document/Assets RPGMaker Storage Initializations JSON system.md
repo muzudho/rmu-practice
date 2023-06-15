@@ -4,9 +4,8 @@
 * $id: http://example.com/example.json
 * required - ['armorTypes', 'battleScene', 'bgm', 'displaySize', 'DisplaySize', 'elements', 'equipTypes', 'initialParty', 'isController', 'optionSetting', 'skillTypes', 'soundSetting', 'uiPatternId', 'weaponTypes']
 * 😁 `armorTypes` property
-    ■key: default
-    * 😁 `armorTypes` array - default: None
-        * default - ```None```
+    * 😁 `armorTypes` array - default: []
+        * default - ```[]```
         * required - ['delete', 'id', 'name']
         * 😁 `delete` property
             * examples:
@@ -67,10 +66,8 @@
         >]
         >```
 * 😁 `battleScene` property
-    ■key: default
     * required - ['frontEnemyPositionY', 'frontMiddleStartFlag', 'sideActorSpace', 'sideEnemyInclined', 'sidePartyInclined', 'sidePartyPosition', 'viewType']
     * 😁 `frontEnemyPositionY` property
-        ■key: default
         * examples:
             >```
             >[
@@ -78,7 +75,6 @@
             >]
             >```
     * 😁 `frontMiddleStartFlag` property
-        ■key: default
         * examples:
             >```
             >[
@@ -86,7 +82,6 @@
             >]
             >```
     * 😁 `sideActorSpace` property
-        ■key: default
         * examples:
             >```
             >[
@@ -94,7 +89,6 @@
             >]
             >```
     * 😁 `sideEnemyInclined` property
-        ■key: default
         * examples:
             >```
             >[
@@ -102,7 +96,6 @@
             >]
             >```
     * 😁 `sidePartyInclined` property
-        ■key: default
         * examples:
             >```
             >[
@@ -110,9 +103,8 @@
             >]
             >```
     * 😁 `sidePartyPosition` property
-        ■key: default
-        * 😁 `sidePartyPosition` array - default: None
-            * default - ```None```
+        * 😁 `sidePartyPosition` array - default: []
+            * default - ```[]```
             * examples:
                 >```
                 >[
@@ -130,7 +122,6 @@
             >]
             >```
     * 😁 `viewType` property
-        ■key: default
         * examples:
             >```
             >[
@@ -155,13 +146,10 @@
         >]
         >```
 * 😁 `bgm` property
-    ■key: default
     * required - ['battleBgm', 'defeatMe', 'gameOverMe', 'title', 'victoryMe']
     * 😁 `battleBgm` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -169,7 +157,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -177,7 +164,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -185,7 +171,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -204,10 +189,8 @@
             >]
             >```
     * 😁 `defeatMe` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -215,7 +198,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -223,7 +205,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -231,7 +212,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -250,10 +230,8 @@
             >]
             >```
     * 😁 `gameOverMe` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -261,7 +239,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -269,7 +246,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -277,7 +253,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -296,10 +271,8 @@
             >]
             >```
     * 😁 `title` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -307,7 +280,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -315,7 +287,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -323,7 +294,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -342,10 +312,8 @@
             >]
             >```
     * 😁 `victoryMe` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -353,7 +321,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -361,7 +328,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -369,7 +335,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -425,7 +390,6 @@
         >]
         >```
 * 😁 `displaySize` property
-    ■key: default
     * examples:
         >```
         >[
@@ -433,9 +397,8 @@
         >]
         >```
 * 😁 `DisplaySize` property
-    ■key: default
-    * 😁 `DisplaySize` array - default: None
-        * default - ```None```
+    * 😁 `DisplaySize` array - default: []
+        * default - ```[]```
         * required - ['x', 'y']
         * 😁 `x` property
             * examples:
@@ -482,9 +445,8 @@
         >]
         >```
 * 😁 `elements` property
-    ■key: default
-    * 😁 `elements` array - default: None
-        * default - ```None```
+    * 😁 `elements` array - default: []
+        * default - ```[]```
         * required - ['advantageous', 'delete', 'disadvantage', 'icon', 'id', 'sameElement', 'value']
         * 😁 `advantageous` property
             * 😁 `advantageous` array - default: None
@@ -614,9 +576,8 @@
         >]
         >```
 * 😁 `equipTypes` property
-    ■key: default
-    * 😁 `equipTypes` array - default: None
-        * default - ```None```
+    * 😁 `equipTypes` array - default: []
+        * default - ```[]```
         * required - ['delete', 'id', 'name']
         * 😁 `delete` property
             * examples:
@@ -710,13 +671,10 @@
         >]
         >```
 * 😁 `initialParty` property
-    ■key: default
     * required - ['party', 'partyMax', 'startMap']
     * 😁 `party` property
-        ■key: default
-        * 😁 `party` array - default: None
-            * default - ```None```
-            ■key: default
+        * 😁 `party` array - default: []
+            * default - ```[]```
             * examples:
                 >```
                 >[
@@ -732,7 +690,6 @@
             >]
             >```
     * 😁 `partyMax` property
-        ■key: default
         * examples:
             >```
             >[
@@ -740,10 +697,8 @@
             >]
             >```
     * 😁 `startMap` property
-        ■key: default
         * required - ['mapId', 'position']
         * 😁 `mapId` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -751,9 +706,8 @@
                 >]
                 >```
         * 😁 `position` property
-            ■key: default
-            * 😁 `position` array - default: None
-                * default - ```None```
+            * 😁 `position` array - default: []
+                * default - ```[]```
                 * examples:
                     >```
                     >[
@@ -801,7 +755,6 @@
         >]
         >```
 * 😁 `isController` property
-    ■key: default
     * examples:
         >```
         >[
@@ -809,10 +762,8 @@
         >]
         >```
 * 😁 `optionSetting` property
-    ■key: default
     * required - ['enabledAutoSave', 'locale', 'optDisplayTp', 'optExtraExp', 'optFloorDeath', 'optFollowers', 'optSlipDeath', 'optTransparent', 'showKeyItemNum', 'windowTone']
     * 😁 `enabledAutoSave` property
-        ■key: default
         * examples:
             >```
             >[
@@ -820,7 +771,6 @@
             >]
             >```
     * 😁 `locale` property
-        ■key: default
         * examples:
             >```
             >[
@@ -828,7 +778,6 @@
             >]
             >```
     * 😁 `optDisplayTp` property
-        ■key: default
         * examples:
             >```
             >[
@@ -836,7 +785,6 @@
             >]
             >```
     * 😁 `optExtraExp` property
-        ■key: default
         * examples:
             >```
             >[
@@ -844,7 +792,6 @@
             >]
             >```
     * 😁 `optFloorDeath` property
-        ■key: default
         * examples:
             >```
             >[
@@ -852,7 +799,6 @@
             >]
             >```
     * 😁 `optFollowers` property
-        ■key: default
         * examples:
             >```
             >[
@@ -860,7 +806,6 @@
             >]
             >```
     * 😁 `optSlipDeath` property
-        ■key: default
         * examples:
             >```
             >[
@@ -868,7 +813,6 @@
             >]
             >```
     * 😁 `optTransparent` property
-        ■key: default
         * examples:
             >```
             >[
@@ -876,7 +820,6 @@
             >]
             >```
     * 😁 `showKeyItemNum` property
-        ■key: default
         * examples:
             >```
             >[
@@ -884,9 +827,8 @@
             >]
             >```
     * 😁 `windowTone` property
-        ■key: default
-        * 😁 `windowTone` array - default: None
-            * default - ```None```
+        * 😁 `windowTone` array - default: []
+            * default - ```[]```
         * examples:
             >```
             >[
@@ -911,9 +853,8 @@
         >]
         >```
 * 😁 `skillTypes` property
-    ■key: default
-    * 😁 `skillTypes` array - default: None
-        * default - ```None```
+    * 😁 `skillTypes` array - default: []
+        * default - ```[]```
         * required - ['delete', 'id', 'motion', 'value']
         * 😁 `delete` property
             * examples:
@@ -985,13 +926,10 @@
         >]
         >```
 * 😁 `soundSetting` property
-    ■key: default
     * required - ['actorDamage', 'actorDied', 'battleStart', 'bossCollapse1', 'bossCollapse2', 'buzzer', 'cancel', 'cursor', 'enemyAttack', 'enemyCollapse', 'enemyDamage', 'equip', 'escape', 'evasion', 'load', 'magicEvasion', 'magicReflection', 'miss', 'ok', 'recovery', 'save', 'shop', 'useItem', 'useSkill']
     * 😁 `actorDamage` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -999,7 +937,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1007,7 +944,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1015,7 +951,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1034,10 +969,8 @@
             >]
             >```
     * 😁 `actorDied` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1045,7 +978,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1053,7 +985,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1061,7 +992,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1080,10 +1010,8 @@
             >]
             >```
     * 😁 `battleStart` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1091,7 +1019,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1099,7 +1026,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1107,7 +1033,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1126,10 +1051,8 @@
             >]
             >```
     * 😁 `bossCollapse1` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1137,7 +1060,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1145,7 +1067,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1153,7 +1074,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1172,10 +1092,8 @@
             >]
             >```
     * 😁 `bossCollapse2` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1183,7 +1101,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1191,7 +1108,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1199,7 +1115,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1218,10 +1133,8 @@
             >]
             >```
     * 😁 `buzzer` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1229,7 +1142,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1237,7 +1149,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1245,7 +1156,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1264,10 +1174,8 @@
             >]
             >```
     * 😁 `cancel` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1275,7 +1183,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1283,7 +1190,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1291,7 +1197,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1310,10 +1215,8 @@
             >]
             >```
     * 😁 `cursor` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1321,7 +1224,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1329,7 +1231,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1337,7 +1238,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1356,10 +1256,8 @@
             >]
             >```
     * 😁 `enemyAttack` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1367,7 +1265,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1375,7 +1272,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1383,7 +1279,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1402,10 +1297,8 @@
             >]
             >```
     * 😁 `enemyCollapse` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1413,7 +1306,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1421,7 +1313,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1429,7 +1320,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1448,10 +1338,8 @@
             >]
             >```
     * 😁 `enemyDamage` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1459,7 +1347,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1467,7 +1354,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1475,7 +1361,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1494,10 +1379,8 @@
             >]
             >```
     * 😁 `equip` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1505,7 +1388,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1513,7 +1395,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1521,7 +1402,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1540,10 +1420,8 @@
             >]
             >```
     * 😁 `escape` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1551,7 +1429,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1559,7 +1436,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1567,7 +1443,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1586,10 +1461,8 @@
             >]
             >```
     * 😁 `evasion` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1597,7 +1470,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1605,7 +1477,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1613,7 +1484,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1632,10 +1502,8 @@
             >]
             >```
     * 😁 `load` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1643,7 +1511,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1651,7 +1518,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1659,7 +1525,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1678,10 +1543,8 @@
             >]
             >```
     * 😁 `magicEvasion` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1689,7 +1552,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1697,7 +1559,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1705,7 +1566,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1724,10 +1584,8 @@
             >]
             >```
     * 😁 `magicReflection` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1735,7 +1593,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1743,7 +1600,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1751,7 +1607,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1770,10 +1625,8 @@
             >]
             >```
     * 😁 `miss` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1781,7 +1634,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1789,7 +1641,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1797,7 +1648,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1816,10 +1666,8 @@
             >]
             >```
     * 😁 `ok` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1827,7 +1675,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1835,7 +1682,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1843,7 +1689,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1862,10 +1707,8 @@
             >]
             >```
     * 😁 `recovery` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1873,7 +1716,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1881,7 +1723,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1889,7 +1730,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1908,10 +1748,8 @@
             >]
             >```
     * 😁 `save` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1919,7 +1757,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1927,7 +1764,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1935,7 +1771,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1954,10 +1789,8 @@
             >]
             >```
     * 😁 `shop` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1965,7 +1798,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1973,7 +1805,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -1981,7 +1812,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2000,10 +1830,8 @@
             >]
             >```
     * 😁 `useItem` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2011,7 +1839,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2019,7 +1846,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2027,7 +1853,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2046,10 +1871,8 @@
             >]
             >```
     * 😁 `useSkill` property
-        ■key: default
         * required - ['name', 'pan', 'pitch', 'volume']
         * 😁 `name` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2057,7 +1880,6 @@
                 >]
                 >```
         * 😁 `pan` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2065,7 +1887,6 @@
                 >]
                 >```
         * 😁 `pitch` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2073,7 +1894,6 @@
                 >]
                 >```
         * 😁 `volume` property
-            ■key: default
             * examples:
                 >```
                 >[
@@ -2243,7 +2063,6 @@
         >]
         >```
 * 😁 `uiPatternId` property
-    ■key: default
     * examples:
         >```
         >[
@@ -2251,9 +2070,8 @@
         >]
         >```
 * 😁 `weaponTypes` property
-    ■key: default
-    * 😁 `weaponTypes` array - default: None
-        * default - ```None```
+    * 😁 `weaponTypes` array - default: []
+        * default - ```[]```
         * required - ['delete', 'id', 'image', 'motionId', 'value']
         * 😁 `delete` property
             * examples:

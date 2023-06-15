@@ -110,6 +110,15 @@ def parse_key_value_pair_for_root(key, value, indent, buffer, parent_key):
     elif key == "$id":
         result_text += f"{indent}* $id: {value}\n"
 
+    elif key == "type":
+        buffer["type"] = value
+
+    elif key == "default":
+        buffer["default"] = value
+
+    elif key == "title":
+        buffer["title"] = value
+
     elif key == "required":
         result_text += f"{indent}* required - {value}\n"
 
@@ -234,6 +243,9 @@ def parse_array_items_member(node, indent, buffer, parent_key):
 
         if key == "type":
             buffer["type"] = value
+
+        elif key == "default":
+            buffer["default"] = value
 
         elif key == "title":
             buffer["title"] = value

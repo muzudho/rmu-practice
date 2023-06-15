@@ -4,9 +4,8 @@
 * $id: http://example.com/example.json
 * required - ['switches', 'variables']
 * 😁 `switches` property
-    ■key: default
-    * 😁 `switches` array - default: None
-        * default - ```None```
+    * 😁 `switches` array - default: []
+        * default - ```[]```
         * required - ['events', 'id', 'name']
         * 😁 `events` property
             * 😁 `events` array - default: None
@@ -78,9 +77,8 @@
         >]
         >```
 * 😁 `variables` property
-    ■key: default
-    * 😁 `variables` array - default: None
-        * default - ```None```
+    * 😁 `variables` array - default: []
+        * default - ```[]```
         * required - ['events', 'id', 'name']
         * 😁 `events` property
             * 😁 `events` array - default: None
