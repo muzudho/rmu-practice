@@ -4,7 +4,7 @@ def main():
     file_to_read = "./temp/input.txt"
     file_to_write = "./temp/output.txt"
 
-    pattern = r"<br\s*/>\s*$"
+    re_end_br = re.compile("<br/>")
     lines = []
 
     #
@@ -27,7 +27,7 @@ def main():
     #
     text = ""
     for line in lines:
-        if not re.match(pattern, line):
+        if not re_end_br.search(line):
             text += f"{line}<br/>\n"
 
     #
