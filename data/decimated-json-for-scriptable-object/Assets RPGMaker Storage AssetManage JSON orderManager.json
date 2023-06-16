@@ -1,0 +1,32 @@
+{
+    "orderDataList": [
+        {
+            "assetTypeId": 0,
+            "idList": ["78a965c8-7400-432e-a17f-93432f6b9ff5", "bce01112-43f1-4859-b0a7-42fa24dd0331"]
+        },
+        {
+            "assetTypeId": 1,
+            "idList": ["510f4d1b-986d-444b-9d38-61454ffe898b", "7baaf801-2b61-484f-8ec3-5459f59e8f31"]
+        },
+        {
+            "assetTypeId": 2,
+            "idList": ["26b2219f-43b7-4c48-b05f-77312da9075f", "365224cf-85fd-4b2a-b3fe-34cf0cd0e2d3"]
+        },
+        {
+            "assetTypeId": 3,
+            "idList": ["e7c8511c-dda2-4812-9ddb-03a8674ce085", "ee879f35-3bde-4755-a7ce-30e821fa15dd"]
+        },
+        {
+            "assetTypeId": 4,
+            "idList": ["e47f074e-92e7-4c73-88e9-238bd8fd9116", "be343f14-c25a-4d47-ba73-dbacf22478e2"]
+        },
+        {
+            "assetTypeId": 5,
+            "idList": ["eafa135e-b529-45ae-b9d5-8f5c1ec45731", "99a2c28e-b132-417b-bc4f-e56f63aaaaae"]
+        },
+        {
+            "assetTypeId": 6,
+            "idList": ["f6bad097-a340-4fe8-b90e-9676c577cfeb", "6f7d5b0d-cc94-48dd-9053-d6893672c45c"]
+        }
+    ]
+}
