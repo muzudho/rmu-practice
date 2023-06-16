@@ -12,3 +12,16 @@ cd python_script/doc_edit
 
 python append_br.py
 ```
+
+## HTML indent
+
+HTML では半角スペースのインデントが無視されて　テキストが左端揃えになることがある。  
+そこで　左端の半角スペースを `&nbsp;` に置き換える  
+
+使い方は `Append br` 参照  
+
+```shell
+cd python_script/doc_edit
+
+python html_indent.py
+```
