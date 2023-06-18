@@ -1623,4 +1623,493 @@ Gotcha Gotcha Games は　お父んの言うことを無視して　ツクラー
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　合ってると思って　やってんのよ」  
 
+### 📂 System - fadebackground
+
+![202306_rmu_18-0919--System-fade-background.png](https://crieit.now.sh/upload_images/b69d7e7138f02727c09b4dd1d4b3a217648e4dc23836f.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　なんだか分からないが、フェードの背景かもしれないな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+### 📂 System - GameOver
+
+![202306_rmu_18-0922--System-gameover.png](https://crieit.now.sh/upload_images/dd89b1f3939cb30e250f752643795d06648e4e8d1a2dc.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ゲームオーバー（Game Over；ゲームは以上です）には　
+画面を覆いかぶさる一枚絵が入っているぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　そう言えば　ゲームクリア―後の　The End　もこの類だよな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　これはお父んなら　どのフォルダーに入っていることを期待するんだぜ？」  
+
+```plaintext
+[理想]
+　　📂 Assets
+　　└── 📂 Gotcha Gotcha Games
+　　　　└── 📂 RPG Maker Unite
+　　　　　　└── 📂 Images
+　　　　　　　　├── 📂 Battle Background
+　　　　　　　　├── 📂 Battle Characters
+　　　　　　　　├── 📂 Battle Effect
+　　　　　　　　├── 📂 Battle Monsters
+　　　　　　　　├── 📂 Battle Weapons
+　　　　　　　　├── 📂 Cut in
+　　　　　　　　├── 📂 Character Faces
+　　　　　　　　├── 📂 Character Standing
+👉 　　　　　　├── 📂 Drama Background
+　　　　　　　　├── 📂 Eye Catch
+　　　　　　　　├── 📂 HUD
+　　　　　　　　├── 📂 HUD Battle
+　　　　　　　　├── 📂 HUD Camp Menu
+　　　　　　　　├── 📂 HUD Map
+　　　　　　　　├── 📂 HUD System Menu
+　　　　　　　　├── 📂 Illust
+　　　　　　　　├── 📂 Map Background
+　　　　　　　　├── 📂 Map Characters
+　　　　　　　　├── 📂 Map Decorations of House
+　　　　　　　　├── 📂 Map Decorations of Street
+　　　　　　　　├── 📂 Map Decorations of World
+　　　　　　　　├── 📂 Map Tiles of House
+　　　　　　　　├── 📂 Map Tiles of Street
+　　　　　　　　└── 📂 Map Tiles of World
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　今考えた。  
+一般的ではないが、 📂 `Drama Background`　というディレクトリーを切ったんで  
+ここに入れてくれだぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ぜったい　📂 `System`　なんてフォルダーは作らないぞ、という意志を感じるわね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　なんで　📂 `System`　フォルダーを作っちゃいけないんだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　📂 `System` フォルダーの中は　勝手に触んな、という感覚が　わたしの中で強い。  
+しかし　わたしは　ゲームの中に存在する　全ての画像素材を　丸投げしたいので  
+どのフォルダーの中も勝手に触って欲しい。  
+だから　誰が　このフォルダーをいじるのかを考えて　フォルダー構成を　デザインしたい」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　じゃあ　Gotcha Gotcha Games　は、  
+勝手に触ってほしくないフォルダーに　どんな名前を付けてるんだぜ？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ぐちゃぐちゃで、どのフォルダーも触りたくないわよ」  
+
+### 📂 System - header_window
+
+![202306_rmu_18-0952--header-window.png](https://crieit.now.sh/upload_images/e47d1ae0f3973316c24ebb76bb6e9082648e5576e8884.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　これまた分からぬ　ただの小さな黒い矩形だぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　案外　他の人は　フォルダーの中に入っているものを　調べないのかも知れないし、  
+配布する方も　調べられると思って　入れてるわけじゃないと思うわよ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　論外」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　ＲＭＵに不具合がなければ　ＲＰＧを　ちょろっと作って  
+遊んで　飽きて　終わりだったんだぜ。  
+なんで不具合が起きてるのか　お父んが調べ始めると　部品を全部　点検し始めたんだぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　当然」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　どこかが悪いんじゃなくて、全体的に悪いのよ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　呆然」  
+
+### 📂 System - IconSet
+
+![202306_rmu_18-1003--IconSet.png](https://crieit.now.sh/upload_images/bce5e06e2625aa01970732294fc62e68648e57f58940d.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　アイコンセット（Icon Set）は、  
+戦闘中の状態異常の表示や、キャンプ・メニューのステータス表示などのアイコンだぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　まさに　このように作れという　お手本のような　タイル・セットだぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　でも　６４×６４ピクセル・サイズのアイコンの四方に　１ｐｘ　の透明のパディングが入っていて、  
+タイル１つ分のサイズは　６６×６６　よ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　前言撤回。 **論外**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　なんで　Gotcha Gotcha Games の人は　１ｐｘの　パディング　入れたがるんだろうな？」
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　フォトショップの使い方が　ヘタクソ　なんじゃないか？  
+グリッド機能や　スナップ機能　使ったこと　無いんだろう」
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　使った上で　パディング　開けてるんじゃないの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　６４　を　８倍したら　いくつだぜ？」
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　８は　２の３乗なんで　６４　から数えて３つ目は　１２８、　２５６、　５１２　と  
+そらんじて　５１２　よ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　６６　を　８倍したら　いくつだぜ？」
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　６×８＝４８　と、　６０×８＝４８０　を足すだけだから  
+５２８　よ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　６４　の方が　簡単だろ！」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　６６の方が　簡単よ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　わたしは　Gotcha Gotcha Games　とは　合わない！」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　知ってるぜ」
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　面白かったゲームソフトの続編買ったら　くそゲーだったときの気分だよな」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　もう　期待したＲＰＧツクールは　戻ってこないのよ。  
+諦めなさい」  
+
+### 📂 System - Shadow
+
+![202306_rmu_18-1025--Shadow.png](https://crieit.now.sh/upload_images/5367b90ecc9831d59e27328f680816f1648e5d2f17b27.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　シャドウ（Shadow）だぜ。  
+多分、マップ上の歩行キャラクターの足元に付いているやつだな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　なんで　２種類　ある？　どう使い分ける？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　さあ……」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+### 📂 System - Status
+
+![202306_rmu_18-1035--Status.png](https://crieit.now.sh/upload_images/372993551020cff211e55d7dfd66974a648e5f8de2383.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ステータス（Status）だぜ。  
+戦闘中のキャラクターの状態異常を表すんじゃないかな？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　このようなタイル・セットの配置だと、  
+毒を納品しました、感電を納品しました、というように　１個ずつ　納品を確認するのが  
+やりにくいから、  
+`poison.png` とか `electric_shock.png` のように分けた方がいいのでは？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　設計レベルで　全部　指示出して　作り直させたいよな」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　新人バイトのくせに　会社の冷蔵庫の食べ物　全部食べて怒られる　あんた　ぐらいの  非常識さを、  
+よくできた社会人は　失っているのよ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　食べた分の働きをせずに　辞めていったの　面白いよな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　アニメーションのコマ　１枚１枚　分解して　ファイルにするのは　やりすぎだが、  
+納品の単位で　分解して　ファイル１つ分に　まとる指示を出せる　センス　を  
+Gotcha Gotcha Games から感じられないのは　そもそも　RPG Maker Unite　のポリシーではないから  
+期待をする方が　見当違いだが、  
+だいたい　お父んが言う　論外のパターンが　分かってきたぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　あんたのお父んから見れば　Gotcha Gotcha Games　は　**論外**　だし、  
+Gotcha Gotcha Games　から見れば　あんたのお父んは　**対象外**　なのよ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　クリエイティブ畑　VS　事務方畑　の全容が見えてきたぜ」  
+
+### 📂 System - Window
+
+![202306_rmu_18-1120--Window.png](https://crieit.now.sh/upload_images/9eddfdbe907d86a8813124d89fa2fc9d648e6a44aa22b.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ウィンドウ（Window）だぜ。  
+そのまんま、サイズ調整可能な　ウィンドウ　のようだな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　このウィンドウのサイズは　設定できるのかどうかと、  
+横に何文字、縦に何文字　表示できるんだぜ？」
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+### 📂 System/Animation
+
+![202306_rmu_18-1134--Animation.png](https://crieit.now.sh/upload_images/d6be8b91c8690a79604f98c1ff8660c4648e6d64638b4.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　アニメーション（Animation）だぜ。  
+画像ではなく、それを使ってシーケンスを組んだ設定データのようだな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　📂 `Images` フォルダーの下を見ているはずなのに、  
+画像以外のものを置いていたら、  
+アニメーション設定ファイルを探している人が　見つけられないのでは？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　そういう資材管理の意志が感じられないディレクトリー構成は　これから　よく見ることになるわよ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　お父んが　怒るわけだ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　Gotcha Gotcha Games　は　クリエイティブ業界だろうし、  
+クリエイティブをやりたい人は　内容物の点検を　やりたいわけじゃないでしょうしね」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　こんなけ　管理に無頓着なだけある　製品の品質してるだろ　ＲＭＵ　は。  
+彼らの会社は　優れた事務方によって回り、  
+パソコンのフォルダーの中までは　事務方は掃除してくれないから　開発が回ってないのだろう」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　自分から　ぐちゃぐちゃに　してんじゃないの？　１ｐｘの　パディング　入れたり」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　止めることは　できないのか……」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　これから　ユナイトの規格が一般的になって  
+１ｐｘの　パディング　を入れることが　デファクト・スタンダード　になっていくわよ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　わたしは　無力だぜ。　資料を作るぐらいしか　できない」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　資料作らなくていいから　ＲＰＧ作ってくれだぜ」  
+
+### 📂 System/Balloon
+
+![202306_rmu_18-1158--Balloon.png](https://crieit.now.sh/upload_images/0c206dd43e7cc320a921902053866e0a648e72fb7ce22.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　バルーン（Balloon；吹出し）だぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　あれっ？　さっき　こいつら　見たような……？  
+なんで　さっき　タイル・セット　にまとまっていたものが  
+ばらばらにして　ここにあるんだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　わたしが　聞きたい」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　しかも　ファイル名が　`Balloon_000.png`　だから　ファイル名を見ても  
+内容を想像できないわよ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　連番を用いるなら　その仕様を添えてほしいよな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　おまとめしよう」  
+
+* 000 ！
+* 001 ？
+* 002  ♪
+* 003 ❤
+* 004 怒りマーク
+* 005 汗マーク
+* 006 ぐしゃぐしゃマーク
+* 007 沈黙マーク
+* 008 豆電球
+* 009 Zzz
+
+### 📂 System/Damage
+
+![202306_rmu_18-1211--Damage.png](https://crieit.now.sh/upload_images/39971c3a7a20e948746bc48fabeacf40648e75fe54020.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ダメージの数字なのだろう」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　これは　`Damage`　ではなく　`Number`　なんじゃないの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　`MISS`　の字も含まれるぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　じゃあ　`Font`　にしてほしいぜ」  
+
+```plaintext
+[理想]
+　　📂 Assets
+　　└── 📂 Gotcha Gotcha Games
+　　　　└── 📂 RPG Maker Unite
+　　　　　　└── 📂 Images
+　　　　　　　　├── 📂 Battle Background
+　　　　　　　　├── 📂 Battle Characters
+　　　　　　　　├── 📂 Battle Effect
+　　　　　　　　├── 📂 Battle Monsters
+　　　　　　　　├── 📂 Battle Weapons
+　　　　　　　　├── 📂 Cut in
+　　　　　　　　├── 📂 Character Faces
+　　　　　　　　├── 📂 Character Standing
+　　　　　　　　├── 📂 Drama Background
+　　　　　　　　├── 📂 Eye Catch
+👉 　　　　　　├── 📂 Font
+　　　　　　　　├── 📂 HUD
+　　　　　　　　├── 📂 HUD Battle
+　　　　　　　　├── 📂 HUD Camp Menu
+　　　　　　　　├── 📂 HUD Map
+　　　　　　　　├── 📂 HUD System Menu
+　　　　　　　　├── 📂 Illust
+　　　　　　　　├── 📂 Map Background
+　　　　　　　　├── 📂 Map Characters
+　　　　　　　　├── 📂 Map Decorations of House
+　　　　　　　　├── 📂 Map Decorations of Street
+　　　　　　　　├── 📂 Map Decorations of World
+　　　　　　　　├── 📂 Map Tiles of House
+　　　　　　　　├── 📂 Map Tiles of Street
+　　　　　　　　└── 📂 Map Tiles of World
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　`Font`　なんだったら　ファースト・ビュー　に合ってもいいなあ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ハサミや　クリップの置き場の感覚で　フォルダーを切ったわね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　お父んは　新座市役所のオープンなフロント・オフィスの棚に  
+秩序立って並んでいるフォルダーを見て　ニコニコしているしな」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　それが本当の　**フォルダー**　だぜ。　テレスドンとは　わけが違う」  
+
+### 📂 System/IconSet
+
+![202306_rmu_18-1514--IconSet.png](https://crieit.now.sh/upload_images/e4ce12ffb933bbd53fa6be50b2ec8624648ea8fc7588a.png)
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　アイコン画像が　ばらばらになってるぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ＲＭＵの異世界にも　慣れてきたわね～。今後も　この芸風が続くわよ～」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　Gotcha Gotcha Games の開発者が　Ｗｅｂ系しか知らんという可能性は？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　２０００年の　００年代の　ＨＴＭＬタグを打ってた頃のＷｅｂだよな。  
+今どき　ＣＳＳでも　タイル・セットから　スプライトを作れるぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　２７４個のタイルに分割されてるから、ファイル読込が２７３回分　増えてるぜ。  
+外部記憶装置へのアクセスは遅いから、読込は遅くなるぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知ってりゃ　こんなことはしない。  
+　　知らないんだったら  
+　　何を言っても　話しは通じないぜ、　ワハハハハ！」  
+
+### 📂 System/Menu
+
+![202306_rmu_18-1608--System-Menu.png](https://crieit.now.sh/upload_images/3d9d79f15f27c8deb7f5db140bf18279648eada36faef.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Menu` の下は 📂 `Dark` と 📂 `Light` に分かれているぜ。  
+レイアウトの　テーマ　というやつだな」  
+
+#### レイアウトのテーマ
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　これは　ユーザーが　ゲームをプレイ中に　ダーク・モードと　ライト・モードを  
+切り替えることがあると　想定しているの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　あるんじゃないか？  
+スマホ・アプリではよくある」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　だったら……」  
+
+```plaintext
+[理想]
+　　📂 Assets
+　　└── 📂 Gotcha Gotcha Games
+　　　　└── 📂 RPG Maker Unite
+　　　　　　├── 📂 Images　　　　　　　　（※ Light Thema）
+　　　　　　│ 　├── 📂 Battle Background
+　　　　　　│ 　├── 📂 Battle Characters
+　　　　　　│ 　├── 📂 Battle Effect
+　　　　　　│ 　├── 📂 Battle Monsters
+　　　　　　│ 　├── 📂 Battle Weapons
+　　　　　　│ 　├── 📂 Cut in
+　　　　　　│ 　├── 📂 Character Faces
+　　　　　　│ 　├── 📂 Character Standing
+　　　　　　│ 　├── 📂 Drama Background
+　　　　　　│ 　├── 📂 Eye Catch
+　　　　　　│ 　├── 📂 Font
+　　　　　　│ 　├── 📂 HUD
+　　　　　　│ 　├── 📂 HUD Battle
+　　　　　　│ 　├── 📂 HUD Camp Menu
+　　　　　　│ 　├── 📂 HUD Map
+　　　　　　│ 　├── 📂 HUD System Menu
+　　　　　　│ 　├── 📂 Illust
+　　　　　　│ 　├── 📂 Map Background
+　　　　　　│ 　├── 📂 Map Characters
+　　　　　　│ 　├── 📂 Map Decorations of House
+　　　　　　│ 　├── 📂 Map Decorations of Street
+　　　　　　│ 　├── 📂 Map Decorations of World
+　　　　　　│ 　├── 📂 Map Tiles of House
+　　　　　　│ 　├── 📂 Map Tiles of Street
+　　　　　　│ 　└── 📂 Map Tiles of World
+👉 　　　　└── 📂 Images Themes
+👉 　　　　　　└── 📂 Dark
+　　　　　　　　　　├── 📂 Font
+　　　　　　　　　　├── 📂 HUD
+　　　　　　　　　　├── 📂 HUD Battle
+　　　　　　　　　　├── 📂 HUD Camp Menu
+　　　　　　　　　　├── 📂 HUD Map
+　　　　　　　　　　└── 📂 HUD System Menu
+```
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　👆　テーマの方を　上位の階層にした方が　よくない？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　こうやって　仕様変更していくことで　時間と資金が無くなり　
+脱サラ・マンは再就職に戻っていく……」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　点検しておいてよかったな。  
+あとで見つかると　手戻りが発生する案件だぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　手戻りじゃなくて、手遅れ　なんだけどな」  
+
 ＜書きかけ＞
