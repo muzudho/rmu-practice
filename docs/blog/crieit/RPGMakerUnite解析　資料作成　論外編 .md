@@ -2669,7 +2669,48 @@ ME は Music Effect の略なんだろうが、これは　ＲＰＧツクール
 「　フォルダーの数と、 `.meta` ファイルの数と、 `.asset` ファイルの数と、 `.asset.meta` ファイルの数が  
 ぴったり全部一致しないのは　なぜなの？」  
 
+![202306_rmu_18-2303--Map-TileAssets-check.png](https://crieit.now.sh/upload_images/edead1fe9bddbe5a6fbfe53b046ba730648f0ee17d583.png)  
 
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　フォルダーと、 `.meta` ファイルはあるけど、 `.asset` ファイルと `.asset.meta` ファイルが  
+無いパターンがあるな」  
 
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　そのフォルダーを開けてみようぜ？」  
 
+![202306_rmu_18-2306--Map-TileAssets-empty.png](https://crieit.now.sh/upload_images/a1967c8f8d00b3966127441daab0bfea648f0f5e9c5f4.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　中身が空だぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**空フォルダーがあると `.meta` ファイルは作られるのか、**  
+**それとも　最初は中身があったけど　後から中身を消して　フォルダ―と `.meta` が残ったのか、**  
+**それとも別の理由なのか**、どうなのかしら？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![202306_rmu_18-2313--Map-TileAssets-shape.png](https://crieit.now.sh/upload_images/9eca52a5b0db94089e876fe9d981de2b648f1102b74d4.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　また同様のケースで　別の内容だったものとして、  
+**`shape1.png` のような　キラキラと星が出ている画像が入っているものがあった**」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　`defaultSprite.png` も、 `defaultSpring.png.meta` も入っているのに、  
+ `.asset` ファイルと `.asset.meta` ファイルは作られなかったの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+* folder: `5a1a3c8f-3894-42c3-b632-1f77fe6a38af` - フォルダーの中が空っぽ
+* folder: `494c6001-cd03-455c-ab62-e8380d62bbd1` - shape0.-png など他のファイルが入っていた
+* 
 ＜書きかけ＞
