@@ -2733,17 +2733,17 @@ ME は Music Effect の略なんだろうが、これは　ＲＰＧツクール
 👆 `006cc76f-7c96-4d01-86e7-c641c5d4aa99` folder  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　そして調べたところ、上記のフォルダーには　海岸線のタイルが入っていた」  
+「　👆　そして調べたところ、上記のフォルダーには　海岸線のタイルが入っていた。１４２枚」  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　さらに　タイル画像が増えたわねえ」  
 
 ![202306_rmu_18-2358--Map-TileAssets-tile2.png](https://crieit.now.sh/upload_images/d713e22b0345c4d7cd117c73657ffb1e648f1bd015bbd.png)  
 
-👆 `folders: 018a364b-995c-4ec7-8012-429afb8c8ed6`  
+👆 `018a364b-995c-4ec7-8012-429afb8c8ed6` folder  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　ギミックみたいなのもあるぜ」  
+「　👆　ギミックみたいなのもあるぜ。１７枚」  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　これらは　アセットだから、　**アセットを保存したり　再更新したりするとき、**  
@@ -2755,6 +2755,42 @@ ME は Music Effect の略なんだろうが、これは　ＲＰＧツクール
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+![202306_rmu_19-0008--Map-TileAssets-tile3.png](https://crieit.now.sh/upload_images/7cbe0d124268e1d814f97ad6ada2ec9c648f1e0810d19.png)  
+
+👆 `04c3acde-2d86-4828-b399-85df5bec5567` folder  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　地面の境界線タイルもあるぜ。４８枚」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　わかった、わかった」  
+
+![202306_rmu_19-0012--Map-TileAssets-sea.png](https://crieit.now.sh/upload_images/7f03403694b01a8492cd0f6d3f5fd675648f1ef04fabc.png)  
+
+👆 `1b2fb1b7-c31f-4985-aa13-809411ae955f` folder  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　海のタイルも　複数個作られそうだな。７枚」  
+
+![202306_rmu_19-0017--Map-TileAssets-WaterFall.png](https://crieit.now.sh/upload_images/7baab6bf394a4ca7836ea2d80e7997b4648f205679862.png)  
+
+👆 `2c044f95-e968-42e8-a939-e6513568ebe2` folder  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　滝のタイルも　複数個作られるぜ。４９枚」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　キリが無いんで　ここらへんで」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**これらは　リソース・リーク　してんの？**  
+**それとも　これらのタイル画像は　必要があって　置いてあんの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 
 ＜書きかけ＞
