@@ -2712,5 +2712,9 @@ ME は Music Effect の略なんだろうが、これは　ＲＰＧツクール
 
 * folder: `5a1a3c8f-3894-42c3-b632-1f77fe6a38af` - フォルダーの中が空っぽ
 * folder: `494c6001-cd03-455c-ab62-e8380d62bbd1` - shape0.-png など他のファイルが入っていた
-* 
+* folder: `82f9e5ca-2772-44d6-82d5-cef1601448fb` - shape0.-png など他のファイルが入っていた
+* folder: `b296b207-8cc9-4210-b5f3-1361ee0e129c` - フォルダーの中が空っぽ
+* folder: `5cdd9590-e9ef-418e-9774-48b8fcc9f751` - フォルダーの中が空っぽ
+* folder: `9dc69ebf-51d9-429e-8fb5-28988485ece3` - フォルダーの中が空っぽ
+
 ＜書きかけ＞
