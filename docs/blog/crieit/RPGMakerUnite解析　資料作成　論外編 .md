@@ -2555,9 +2555,75 @@ ME は Music Effect の略なんだろうが、これは　ＲＰＧツクール
 「　音に　こだわりのあるやつが　自ら進んで　勝手にやっててくれるから　大丈夫だぜ」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　お父んは　なーんにも　しねーなー。　どこで　何やってるんだぜ？」  
+「　お父んは　なーんにも　しなかったなー。　どこで　何やってたんだぜ？」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　レシートを　日付順に並べたり　してるよな」  
+「　レシートを　日付順に並べたり　してたよな」  
+
+# 📂Map
+
+![202306_rmu_18-2111--Map.png](https://crieit.now.sh/upload_images/17d22a866c3c52bc217819fd55971a45648ef4e2c931e.png)  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　お父んが言うには　📂 `Map` フォルダーの下にも画像があるらしい。  
+見せてくれだぜ」  
+
+![202306_rmu_18-2114--Map-open.png](https://crieit.now.sh/upload_images/8b2cc5c8ce34274cd6ff092ce5eeeff2648ef541514d9.png)  
+
+👆　📂 `C:\Users\むずでょ\Documents\Unity Projects\RMU-1-00-00-Research\Assets\RPGMaker\Storage\Map`  
+
+```plaintext
+[現実]
+　　📂 Assets
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Map
+　　　　　　　　├── 📂 BackgroundImages
+　　　　　　　　├── 📂 JSON
+　　　　　　　　├── 📂 SampleMaps
+　　　　　　　　├── 📂 SavedMaps
+　　　　　　　　├── 📂 ThumbnailImages
+　　　　　　　　├── 📂 TileAssets
+　　　　　　　　├── 📂 TileCollisionAssets
+　　　　　　　　└── 📂 TileImages
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　なんか　ごちゃごちゃ　してるよな」  
+
+## 📂Map/BackgroundImages
+
+![202306_rmu_18-2125--Map-BackgroundImage.png](https://crieit.now.sh/upload_images/d9056b3fcb5e6fc0183a47ddf7844af6648ef7f12e6cd.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　なんか　ごちゃごちゃ　してるよな。  
+これらは　**ゲーム中でマップを開いているときや、**  
+**Unity Editor を使っているときに  アウトライン・エディターを開いて使うものなのか　分からない**　が、  
+マップの前景のような　でかい画像が入っているぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📂Map/ThumbnailImages
+
+![202306_rmu_18-2129--Map-ThumbnailImages.png](https://crieit.now.sh/upload_images/80b6ef7bd2dbe5933dbc3c3cce10b279648ef8c8a0462.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　フォルダーの名前には　サムネイル（Thumbnail；親指の爪）と付いているが  
+思っているより大きいマップの画像が入っているぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　それは　メモリーも　処理速度も　もったいないんじゃないかなあ？」  
+
+## 📂Map/TileAssets
+
+![202306_rmu_18-2145--Map-TileAssets.png](https://crieit.now.sh/upload_images/b89dc00e5c18dab0bb9098ac830947ef648efc855f601.png)  
+
+👆 `C:\Users\むずでょ\Documents\Unity Projects\RMU-1-00-00-Research\Assets\RPGMaker\Storage\Map\TileAssets`  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　そして　📂 `TileAssets` フォルダーは、  
+👇　ひろはす　という人が偶然見つけた　伝説のフォルダーだぜ」  
+
+📺 [偶然重い原因が分かって悶絶するひろはす【RPG MAKER UNITE】](https://www.youtube.com/watch?v=M9snP2oLWF8)  
 
 ＜書きかけ＞
