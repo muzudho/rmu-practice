@@ -2621,9 +2621,55 @@ ME は Music Effect の略なんだろうが、これは　ＲＰＧツクール
 👆 `C:\Users\むずでょ\Documents\Unity Projects\RMU-1-00-00-Research\Assets\RPGMaker\Storage\Map\TileAssets`  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　そして　📂 `TileAssets` フォルダーは、  
-👇　ひろはす　という人が偶然見つけた　伝説のフォルダーだぜ」  
+「　👆　そして　📂 `TileAssets` フォルダーは……」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👇　ひろはす　という人がＲＭＵの素材を見ていたときに　偶然見つけた　伝説のフォルダーだぜ」  
 
 📺 [偶然重い原因が分かって悶絶するひろはす【RPG MAKER UNITE】](https://www.youtube.com/watch?v=M9snP2oLWF8)  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　フォルダー名は　ＵＵＩＤ　かしらねえ？」  
+
+![202306_rmu_18-2202--Map-TileAssets-Folders.png](https://crieit.now.sh/upload_images/a5acc022fdbcc7a9013772da62085ed9648f00838d2df.png)  
+
+![202306_rmu_18-2203--Map-TileAssets-12631-folders.png](https://crieit.now.sh/upload_images/3c770685217b5430441ea9eec231341f648f00c0082cd.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　12,631 個のフォルダーがある」  
+
+![202306_rmu_18-2207--Map-TileAssets-Assets.png](https://crieit.now.sh/upload_images/c4c6efafff39672b17b650681221ad62648f01e830752.png)  
+
+![202306_rmu_18-2208--Map-TileAssets-12625-assets.png](https://crieit.now.sh/upload_images/999e9ef357968898290919b277729057648f01f583df9.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　12,625 個の `.asset` ファイル」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　フォルダーの数より　`.asset`　ファイルの方が　６個多い　その差が気になる」  
+
+![202306_rmu_18-2212--Map-TileAssets-meta.png](https://crieit.now.sh/upload_images/6579cf21100640bd255c46e024e37999648f0303ee4b2.png)  
+
+![202306_rmu_18-2213--Map-TileAssets-25256-meta.png](https://crieit.now.sh/upload_images/43b53aecfc458de996c4aa4060e4bedb648f030d892ac.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　そして　`.asset.meta` ファイルと、`.meta` ファイルのペア、  
+合わせて　25,256 個」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　２で割ると　12,628　だが、　12,631 個と　12,625 個の半分地点にあるの　気になる」  
+
+![202306_rmu_18-2217--Map-TileAssets-choice.png](https://crieit.now.sh/upload_images/cd511c638c5c492a5aa2db807457a21d648f046882cb4.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　適当なフォルダーを１つ開けると、  
+マップ・タイルの PNG画像が１枚と、 `t.meta` ファイルが入っているぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　フォルダーの数と、 `.meta` ファイルの数と、 `.asset` ファイルの数と、 `.asset.meta` ファイルの数が  
+ぴったり全部一致しないのは　なぜなの？」  
+
+
+
 
 ＜書きかけ＞
