@@ -58,12 +58,19 @@ args.read_directory : {args.read_directory}
 
         if os.path.isdir(file_entry_path):
             folder_set.add(basename)
-        elif basename.endswith(".meta"):
-            meta_set.add(Path(basename).stem)
-        elif basename.endswith(".asset"):
-            asset_set.add(Path(basename).stem)
+
+        # 先
         elif basename.endswith(".asset.meta"):
             asset_meta_set.add(Path(Path(basename).stem).stem)
+
+        # 後
+        elif basename.endswith(".asset"):
+            asset_set.add(Path(basename).stem)
+
+        # 最後
+        elif basename.endswith(".meta"):
+            meta_set.add(Path(basename).stem)
+
         else:
             others_set.add(basename)
 
@@ -73,29 +80,55 @@ args.read_directory : {args.read_directory}
     #
     # 📖 [Python でセットから要素を削除する](https://www.delftstack.com/ja/howto/python/python-remove-element-from-set/)
     #
+    deletes_list = []
+
     for stem in folder_set:
         if stem in meta_set and stem in asset_set and stem in asset_meta_set:
-            meta_set.remove(stem)
-            asset_set.remove(stem)
-            asset_meta_set.remove(stem)
+            deletes_list.append(stem)
+
+    for stem in deletes_list:
+        folder_set.remove(stem)
+        meta_set.remove(stem)
+        asset_set.remove(stem)
+        asset_meta_set.remove(stem)
+
+    deletes_list.clear()
 
     for stem in meta_set:
         if stem in folder_set and stem in asset_set and stem in asset_meta_set:
-            folder_set.remove(stem)
-            asset_set.remove(stem)
-            asset_meta_set.remove(stem)
+            deletes_list.append(stem)
+
+    for stem in deletes_list:
+        folder_set.remove(stem)
+        meta_set.remove(stem)
+        asset_set.remove(stem)
+        asset_meta_set.remove(stem)
+
+    deletes_list.clear()
 
     for stem in asset_set:
         if stem in folder_set and stem in meta_set and stem in asset_meta_set:
-            folder_set.remove(stem)
-            meta_set.remove(stem)
-            asset_meta_set.remove(stem)
+            deletes_list.append(stem)
+
+    for stem in deletes_list:
+        folder_set.remove(stem)
+        meta_set.remove(stem)
+        asset_set.remove(stem)
+        asset_meta_set.remove(stem)
+
+    deletes_list.clear()
 
     for stem in asset_meta_set:
         if stem in folder_set and stem in meta_set and stem in asset_set:
-            folder_set.remove(stem)
-            meta_set.remove(stem)
-            asset_set.remove(stem)
+            deletes_list.append(stem)
+
+    for stem in deletes_list:
+        folder_set.remove(stem)
+        meta_set.remove(stem)
+        asset_set.remove(stem)
+        asset_meta_set.remove(stem)
+
+    deletes_list.clear()
 
     #
     # 残った物を表示
