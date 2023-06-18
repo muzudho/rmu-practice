@@ -2717,4 +2717,44 @@ ME は Music Effect の略なんだろうが、これは　ＲＰＧツクール
 * folder: `5cdd9590-e9ef-418e-9774-48b8fcc9f751` - フォルダーの中が空っぽ
 * folder: `9dc69ebf-51d9-429e-8fb5-28988485ece3` - フォルダーの中が空っぽ
 
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　フォルダー、 `.meta` ファイル、 `.asset` ファイル、 `.asset.meta` ファイルの  
+４つが揃ってないのは　上記の６つだけど」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　フォルダーの中身が必ずしも　`defaultSprite.png` と `defaultSprite.png.meta` の２ファイルだけとは、  
+限らないよな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　ロジカル・シンキングだな」  
+
+![202306_rmu_18-2337--Map-TileAssets-auto-tile.png](https://crieit.now.sh/upload_images/dbd357ef29cff4cc41da1c255cbc04de648f17c5ba0f5.png)  
+
+👆 `006cc76f-7c96-4d01-86e7-c641c5d4aa99` folder  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　そして調べたところ、上記のフォルダーには　海岸線のタイルが入っていた」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　さらに　タイル画像が増えたわねえ」  
+
+![202306_rmu_18-2358--Map-TileAssets-tile2.png](https://crieit.now.sh/upload_images/d713e22b0345c4d7cd117c73657ffb1e648f1bd015bbd.png)  
+
+👆 `folders: 018a364b-995c-4ec7-8012-429afb8c8ed6`  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ギミックみたいなのもあるぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　これらは　アセットだから、　**アセットを保存したり　再更新したりするとき、**  
+**これらの　アセットも　保存したり、　再更新したり　してるの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+
+
 ＜書きかけ＞

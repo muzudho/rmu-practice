@@ -51,6 +51,9 @@ args.read_directory : {args.read_directory}
     file_entry_in_dir = os.listdir(directory_to_read)
     # print(f"file_entry_in_dir: {file_entry_in_dir}")
 
+    illegal_folder_list = []
+    illegal_folder_length_list = []
+
     for basename in file_entry_in_dir:
         # フルパスに変更
         file_entry_path = os.path.join(directory_to_read,basename).replace("\\","/")
@@ -58,6 +61,18 @@ args.read_directory : {args.read_directory}
 
         if os.path.isdir(file_entry_path):
             folder_set.add(basename)
+
+            # フォルダーの中をさらに確認
+            file_entry_in_dir2 = os.listdir(file_entry_path)
+            file_len = len(file_entry_in_dir2)
+            if file_len != 2:
+                illegal_folder_list.append(basename)
+                illegal_folder_length_list.append(file_len)
+            else:
+                for basename2 in file_entry_in_dir2:
+                    if not(basename2 == "defaultSprite.png" or basename2 == "defaultSprite.png.meta"):
+                        illegal_folder_list.append(basename)
+                        illegal_folder_length_list.append(file_len)
 
         # 先
         elif basename.endswith(".asset.meta"):
@@ -136,39 +151,48 @@ args.read_directory : {args.read_directory}
     #
 
     print("""
-Remain folder
-=============
+Remain folders
+==============
 """)
     for stem in folder_set:
         print(f"folder: {stem}")
 
     print("""
-Meta file
-=========
+Meta files
+==========
 """)
     for stem in meta_set:
         print(f"meta: {stem}")
 
     print("""
-Asset file
-==========
+Asset files
+===========
 """)
     for stem in asset_set:
         print(f"asset: {stem}")
 
     print("""
-Asset meta file
-===============
+Asset meta files
+================
 """)
     for stem in asset_meta_set:
         print(f"asset meta: {stem}")
 
     print("""
-Others file
-===========
+Others files
+============
 """)
     for stem in others_set:
         print(f"others: {stem}")
+
+    print("""
+Illegal folders
+===============
+""")
+    i = 0
+    for stem in illegal_folder_list:
+        print(f"illegal folders: {stem} (len {illegal_folder_length_list[i]})")
+        i = i+1
 
 
 if __name__ == '__main__':
