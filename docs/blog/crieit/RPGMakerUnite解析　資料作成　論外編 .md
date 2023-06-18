@@ -933,8 +933,8 @@ B は家具らしいが　何のことか分からん」
 タイル何枚か分の　でかいドアだぜ」  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　タイル・サイズと等しいか、それとも、タイルより大きいかで  
-何か　注意しなければならない違いがあるの？」  
+「　**タイル・サイズと等しいか、それとも、タイルより大きいかで**  
+**何か　注意しなければならない違いがある**　の？」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　知らないぜ」  
@@ -1628,7 +1628,7 @@ Gotcha Gotcha Games は　お父んの言うことを無視して　ツクラー
 ![202306_rmu_18-0919--System-fade-background.png](https://crieit.now.sh/upload_images/b69d7e7138f02727c09b4dd1d4b3a217648e4dc23836f.png)  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　なんだか分からないが、フェードの背景かもしれないな」  
+「　**なんだか分からないが、フェードの背景かもしれない**　な」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
@@ -1708,7 +1708,7 @@ Gotcha Gotcha Games は　お父んの言うことを無視して　ツクラー
 ![202306_rmu_18-0952--header-window.png](https://crieit.now.sh/upload_images/e47d1ae0f3973316c24ebb76bb6e9082648e5576e8884.png)  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　これまた分からぬ　ただの小さな黒い矩形だぜ」  
+「　👆　**これまた分からぬ　ただの小さな黒い矩形**　だぜ」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
@@ -1804,7 +1804,7 @@ Gotcha Gotcha Games は　お父んの言うことを無視して　ツクラー
 多分、マップ上の歩行キャラクターの足元に付いているやつだな」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　なんで　２種類　ある？　どう使い分ける？」  
+「　**なんでシャドウが　２種類　ある？　どう使い分ける？**」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　さあ……」  
@@ -1859,8 +1859,8 @@ Gotcha Gotcha Games　から見れば　あんたのお父んは　**対象外**
 そのまんま、サイズ調整可能な　ウィンドウ　のようだな」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　このウィンドウのサイズは　設定できるのかどうかと、  
-横に何文字、縦に何文字　表示できるんだぜ？」
+「　**このウィンドウのサイズは　設定できるのかどうかと、**  
+**横に何文字、縦に何文字　表示**　できるんだぜ？」
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　知らね」  
@@ -2111,5 +2111,453 @@ Gotcha Gotcha Games　から見れば　あんたのお父んは　**対象外**
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　手戻りじゃなくて、手遅れ　なんだけどな」  
+
+### 📂 System/Menu/Dark
+
+![202306_rmu_18-1709--System-Menu-Dark.png](https://crieit.now.sh/upload_images/a121c012b4777e4a925075399c0af341648ebbca5a8ae.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Dark` の下は、ユナイトのロゴが入ってるな」 
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　これは　ユーザーが改変しちゃいけないんじゃない？」  
+
+```plaintext
+[理想]
+　　📂 Assets
+　　└── 📂 Gotcha Gotcha Games
+　　　　└── 📂 RPG Maker Unite
+　　　　　　├── 📂 Images　　　　　　　　（※ Light Thema）
+　　　　　　│ 　├── 📂 Battle Background
+　　　　　　│ 　├── 📂 Battle Characters
+　　　　　　│ 　├── 📂 Battle Effect
+　　　　　　│ 　├── 📂 Battle Monsters
+　　　　　　│ 　├── 📂 Battle Weapons
+　　　　　　│ 　├── 📂 Cut in
+　　　　　　│ 　├── 📂 Character Faces
+　　　　　　│ 　├── 📂 Character Standing
+　　　　　　│ 　├── 📂 Drama Background
+　　　　　　│ 　├── 📂 Eye Catch
+　　　　　　│ 　├── 📂 Font
+　　　　　　│ 　├── 📂 HUD
+　　　　　　│ 　├── 📂 HUD Battle
+　　　　　　│ 　├── 📂 HUD Camp Menu
+　　　　　　│ 　├── 📂 HUD Map
+　　　　　　│ 　├── 📂 HUD System Menu
+　　　　　　│ 　├── 📂 Illust
+　　　　　　│ 　├── 📂 Map Background
+　　　　　　│ 　├── 📂 Map Characters
+　　　　　　│ 　├── 📂 Map Decorations of House
+　　　　　　│ 　├── 📂 Map Decorations of Street
+　　　　　　│ 　├── 📂 Map Decorations of World
+　　　　　　│ 　├── 📂 Map Tiles of House
+　　　　　　│ 　├── 📂 Map Tiles of Street
+　　　　　　│ 　├── 📂 Map Tiles of World
+👉 　　　　│ 　└── 📂 System
+　　　　　　└── 📂 Images Themes
+　　　　　　　　└── 📂 Dark
+　　　　　　　　　　├── 📂 Font
+　　　　　　　　　　├── 📂 HUD
+　　　　　　　　　　├── 📂 HUD Battle
+　　　　　　　　　　├── 📂 HUD Camp Menu
+　　　　　　　　　　├── 📂 HUD Map
+　　　　　　　　　　└── 📂 HUD System Menu
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　じゃあ　📂 `System` フォルダー復活かあ」 
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　`System` って、アンタッチャブル　ぐらいの用途で使うんだな」  
+
+### 📂 System/Menu/Dark/Active
+
+![202306_rmu_18-1709--System-Menu-Dark-Active.png](https://crieit.now.sh/upload_images/1566968a7a7a0825046b1ff3899281ed648ec081f12fe.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Active` フォルダーは、イネーブル（Enable；活性）なものが入ってそうだな。  
+要は　押せるボタン　とかだぜ。  
+アクティブじゃなくて　イネーブルな、覚えておけだぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　タイル・セットを　１タイルずつ分解して、  
+さらに　活性、不活性かで仕分けて　テレスドン　したのね」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　合わせ技だな。１役付いて　リャンハンだぜ」  
+
+### 📂 System/Menu/Dark/Disable
+
+![202306_rmu_18-1738--System-Menu-Dark-Disable.png](https://crieit.now.sh/upload_images/8cdfcd3a26b6af89502e27a19702075a648ec2eb14962.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Disable` フォルダーは、ジッセーブル（Disable；不活性）なものが入ってそうだな。  
+要は　押せないボタン　とかだぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　**Unity の GUI が、画像は１ファイルずつ　分けろという要求を**  
+**していたりしないか**　だぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　それは　良い視点だな。  
+普通に考えて　スプライトぐらい使えると思うけど、  
+調査が必要だな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　Unity Editor に画像コンポーネントみたいなのがあって、  
+画像を表示するのに　**１ファイルずつ指定する方法しか知らなかった**　としたら、  
+Gotcha Gotcha Games が　１タイルずつ　ファイルを分割する　の理由の説明になるわね」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　説得力のある仮説だぜ」  
+
+### 📂 System/Menu/Dark/Down
+
+![202306_rmu_18-1751--System-Menu-Dark-Down.png](https://crieit.now.sh/upload_images/33cea850ca60cbf946445f239362527e648ec6824801e.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Down` フォルダーは、プレスド（Pressed；押した）ボタンが入ってそうだな。  
+マウス・ボタンは `Down` するが、押下された方のボタンは `Pressed` だぜ　覚えておけだぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　Unity Editor のボタン・コンポーネントが　**活性時、不活性時、押下時の**  
+**３つの画像ファイルへのパスを　テキスト・ボックスに入れるように　要求**　していることは  
+無いかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　あとで調査な」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　もし　そうであるのなら、  
+この　`Dark`、 `Light`　というのは　**ゲーム中のテーマではなくて、**  
+**Unity Editor 用のテーマなの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　それも　あとで調査な」  
+
+```plaintext
+[理想]
+　　📂 Assets
+　　└── 📂 Gotcha Gotcha Games
+　　　　└── 📂 RPG Maker Unite
+　　　　　　├── 📂 Addon
+　　　　　　├── 📂 Data
+👉 　　　　├── 📂 Editor
+　　　　　　│ 　├── 📂 Images　　　　（※ Light Theme）
+👉 　　　　│ 　│　　└── 📂 Buttons
+　　　　　　│ 　└── 📂 Images Themes
+　　　　　　│ 　　　└── 📂 Dark
+👉 　　　　│ 　　　　　└── 📂 Buttons
+　　　　　　├── 📂 Images
+　　　　　　├── 📂 JSON
+　　　　　　├── 📂 Materials
+　　　　　　├── 📂 Movies
+　　　　　　├── 📂 Prefabs
+　　　　　　├── 📂 Scenes
+　　　　　　├── 📂 Scripts
+　　　　　　├── 📂 SO
+　　　　　　├── 📂 Sounds
+　　　　　　├── 📂 System
+　　　　　　└── 📂 Text
+```
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　もし　そうであったなら、  
+ゲームに乗せる画像でないんだったら、  
+プロダクトのファースト・ビューに　📂 `Editor` フォルダーを切りたいわねえ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　**ゲームの実行ファイルからは　Unity Editor　でしか使わない画像とかは**  
+**取り除かれているのか**　だぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+### 📂 System/Route
+
+![202306_rmu_18-1828--System-Route.png](https://crieit.now.sh/upload_images/b9f5dc00319e2777951663d8e649f1b0648ed0a2a4af1.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　空フォルダーだぜ」  
+
+### 📂 System/Status
+
+![202306_rmu_18-1840--System-Status.png](https://crieit.now.sh/upload_images/bafeee04756ad2bbcc658f9d94a3c81a648ed16770660.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Status` には、状態異常のタイル・セットを　状態ごとに  
+ばらばらにしたものが入ってるぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　これで　ラスター画像の　縦幅、横幅を　8　の倍数にして  
+余計なパディングを付けず  
+ファイル名は　`poison.png` のような　読んで分かるものにしてくれて  
+テレスドンを止めてからが  
+ゲーム制作の話しだよな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　そこらへん　全部分かってる人が　ＲＰＧツクールを作ってくれるから  
+ツクラーは　その上で　ゲーム制作に専念できるのだと　思っていた……」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　諦めなさい」  
+
+### 📂 System/Weapon
+
+![202306_rmu_18-1850--System-Weapon.png](https://crieit.now.sh/upload_images/91d24bd0c0564bb1c564c8172a50cfe0648ed3c53ee78.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Weapon` には、サイド・ビュー戦闘で　キャラクターが振ったり  
+投げたりするような　武器のアニメーションが入ってるぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　📂 `System` フォルダーの中に　武器画像が入っているって　気づくかなあ？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　やっぱ　ゲーム・システム　という意味の　システム　なんだ」  
+
+## 📂 Titles1
+
+![202306_rmu_18-1901--Title1.png](https://crieit.now.sh/upload_images/eab087ac1be237f985e146ae395746fb648ed61710856.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Title1` には、タイトル画面の背景が入ってるぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　📂 `Title1` と、 📂 `Title2` に分かれてるのが　気になるのよ。  
+調べてちょうだい」  
+
+## 📂 Titles2
+
+![202306_rmu_18-1904--Title2.png](https://crieit.now.sh/upload_images/df1131d96cb53bf5e5af9c6d66f3ae3c648ed6b30dbd7.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Title2` には、フォト・フレームみたいな　装飾が入ってるぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　じゃあ　レイヤー１　と、　レイヤー２　なんだ」  
+
+## 📂 Ui
+
+![202306_rmu_18-1907--Ui.png](https://crieit.now.sh/upload_images/9b05d20eb55246043e1bfcc2bb40c307648ed793433ab.png)  
+
+👆　📂 `C:\Users\むずでょ\Documents\Unity Projects\RMU-1-00-00-Research\Assets\RPGMaker\Storage\Images\Ui`  
+
+```plaintext
+[現実]
+　　📂 Assets
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Images
+　　　　　　　　└── 📂 Ui
+　　　　　　　　　　├── 📂 Bg
+　　　　　　　　　　├── 📂 Button
+　　　　　　　　　　├── 📂 TitleName
+　　　　　　　　　　└── 📂 Window
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Ui` の下にも　いろいろ　ファイルが入ってるぜ。  
+それより　`Ui`　という名前は　`UI`　にして欲しいよな」  
+
+![202306_rmu_18-1914--Ui-files.png](https://crieit.now.sh/upload_images/da7b75e0868f8aae4994931b6c204faf648ed92acbfef.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆 ゲーム画面内で見かけた、マウスでクリックするボタンが入ってるな」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ここにボタンが置いてるんだったら、 📂 `Button` フォルダーには何が入ってんの？」  
+
+### 📂 Ui/Bg
+
+![202306_rmu_18-1918--Ui-Bg.png](https://crieit.now.sh/upload_images/f36b25c41504dd51bd3ee0c03f42fbd9648eda18beee5.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆 **なんだか分からないが　四角形の画像が入っている**　ぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+### 📂 Ui/Button
+
+![202306_rmu_18-1921--Ui-Button.png](https://crieit.now.sh/upload_images/c9b38e65550c574139cda3f8f2b74002648edabd87114.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆 **なんだか分からないが　四角形の画像が入っている**　ぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+### 📂 Ui/TitleName
+
+![202306_rmu_18-1922--Ui-TitleName.png](https://crieit.now.sh/upload_images/8adfa9a531c2eb5d886a714ffb3fd72a648edb066d1ff.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　空だぜ」  
+
+### 📂 Ui/Window
+
+![202306_rmu_18-1925--Ui-Window.png](https://crieit.now.sh/upload_images/d78eb792e4e599be488c44e4838997b8648edbc847e9e.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆 **なんだか分からないが　四角形や、フォト・フレームみたいな画像が入っている**　ぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+# 📂Movies
+
+![202306_rmu_18-1930--Movie.png](https://crieit.now.sh/upload_images/b98f2688e9e8a31f713300cb41dbe6b3648edcf4e7f7e.png)  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　👆　次は　📂 `Movies` フォルダーを開けてみましょう！」  
+
+![202306_rmu_18-1932--Movies-open.png](https://crieit.now.sh/upload_images/fed220d457953fde1f8e543b63233a54648edd6968eb8.png)
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　空だぜ」  
+
+# 📂Sounds
+
+![202306_rmu_18-1934--Sounds-folder.png](https://crieit.now.sh/upload_images/9ecd7fd8af6e7fb33ff28785cd1d0d51648edde86170f.png)  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　👆　次は　📂 `Sounds` フォルダーを開けてみましょう！」  
+
+![202306_rmu_18-1936--Sounds.png](https://crieit.now.sh/upload_images/0f251e3b3b5cbfb02a75550e04f18919648ede4d742bb.png)
+
+👆　📂 `C:\Users\むずでょ\Documents\Unity Projects\RMU-1-00-00-Research\Assets\RPGMaker\Storage\Sounds`  
+
+```plaintext
+[現実]
+　　📂 Assets
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Sounds
+　　　　　　　　├── 📂 BGM
+　　　　　　　　├── 📂 BGS
+　　　　　　　　├── 📂 ME
+　　　　　　　　└── 📂 SE
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　４つのフォルダーと、いくつかのファイルがあるぜ」  
+
+## 📂Sounds/BGM
+
+![202306_rmu_18-1936--Sounds-BGM.png](https://crieit.now.sh/upload_images/b7ff693ce4fa1722625051ba3b96f9b9648edf3e084dd.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `BGM` フォルダーには `.wav` ファイルが入っているぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　`.wav` って　無圧縮の音声ファイルだからサイズがでかいんじゃないの？  
+`.ogg` にしないの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　音楽をやっている　音に自信があるサークルなら　`.wav`　は十分にありだろうけど、  
+わたしには　オーバースペック　だぜ。　容量が小さい方がいい」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　**`.wav` を `.ogg` に変換したら、そのあと　ＲＭＵ側のどこを　どう　いじったらいい**　んだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![202306_rmu_18-1953--Volume.png](https://crieit.now.sh/upload_images/d93b7e11624b7d811cf18e17fc12f97a648ee2607e23f.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　あと　音量がでかすぎる  
+５分の１にして　ちょうどいいぐらいだ
+音屋が納品した音楽ファイルを　そのまま　フォルダーに放り込んだんじゃないか  
+音量を調整してほしい」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　音量は揃えられてるのよ、でかい音で」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　**ファイル名の接頭辞　`U_`　って何**　だぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　Unite の U なんじゃないか？　知らんけど」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**音楽のループ地点は　どうやって指定**　すんの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　上の階層に　ループ　という名前を含んだ　ＪＳＯＮ形式ファイルがあった。  
+多分　なんとかなるだろ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　これって　サンプル・ゲームのＢＧＭだろ。  
+**この音楽ファイルは　再利用、再配布　できるのか**　だぜ？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📂Sounds/BGS
+
+![202306_rmu_18-2025--Sounds-BGS.png](https://crieit.now.sh/upload_images/559c5f73c50cc8b1557f5b99da6400fb648ee9c72e635.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `BGS` フォルダーに入っているのは `.ogg` だ！  
+環境音だぜ。街中の自動車の音とか、水滴の聞こえる場所の音とか　いろいろ入っているぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　あれっ？　画像ファイルに比べると　ＢＧＭや　ＢＧＳは　比較的　内容を表す名前になってるぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　ファイル名の存在意義として　正しいよな」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ファイル名でしか　内容を想像する手段のない　コンピューターのファイル管理システムが  
+イケてないのよ」  
+
+## 📂Sounds/ME
+
+![202306_rmu_18-2038--Sounds-ME.png](https://crieit.now.sh/upload_images/15cef07229b83e43d62f46069a281c7e648eedce89a1c.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `ME` フォルダーに入っているのは　ジングルだぜ。ファイル形式は `.ogg` だ！  
+アイテムを獲得したときとか、謎を解いたときに流れるような短い曲だぜ。  
+ME は Music Effect の略なんだろうが、これは　ＲＰＧツクールの方言かだぜ？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ＭＥって言われても　なんのことだか　分かんないわよ」  
+
+## 📂Sounds/SE
+
+![202306_rmu_18-2050--Sounds-SE.png](https://crieit.now.sh/upload_images/8726a55904920331010f6535c389e2a4648eef964dd94.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `SE` フォルダーに入っているのは　サウンド・エフェクト（Sound Effect；効果音）だぜ。  
+ファイル形式は `.ogg` だ！  
+物理攻撃がヒットしたときの音とか、エネルギーを吸収したときの音とか、  
+状況を説明する短い音が入っているぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　武器を沢山作ると、それに効果音を当てていく作業が　必要になってくるわよね」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　音に　こだわりのあるやつが　自ら進んで　勝手にやっててくれるから　大丈夫だぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　お父んは　なーんにも　しねーなー。　どこで　何やってるんだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　レシートを　日付順に並べたり　してるよな」  
 
 ＜書きかけ＞
