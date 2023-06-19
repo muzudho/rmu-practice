@@ -691,8 +691,8 @@ Gotcha Gotcha Games の開発者は恐らく　アセットなのが良いんで
 「　ＲＰＧツクールという世界観の　雰囲気作りじゃないか？」  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　自作の顔素材を新たに追加しようという人は、  
-`charaface_071_Demihuman.png` みたいな命名規則を踏襲する必要はあるの？」  
+「　**自作の顔素材を新たに追加しようという人は、**  
+**`charaface_071_Demihuman.png` みたいな命名規則を踏襲する必要はあるの？**」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　普通に考えると　無いと思うが、  
@@ -700,6 +700,9 @@ Gotcha Gotcha Games の開発者は恐らく　アセットなのが良いんで
 それも資料作りの調査対象か……」  
 
 📖　[公式　＞　RPG Maker Unite 初心者講座　＞　主人公アクターの設定　＞　アクターを作ろう　＞　顔アイコンの設定](https://rpgmakerunite.com/learn/002.html#01)  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📂 Objects
 
@@ -726,7 +729,8 @@ Gotcha Gotcha Games の開発者は恐らく　アセットなのが良いんで
 「　これも　調査対象だな」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　調査し終わってから　この記事を書けばいいのに」  
+「　それを調べるのが　お父んなのに……  
+調査し終わってから　この記事を書けばいいのに」  
 
 ### 📂 Objects - BigMonster
 
@@ -737,10 +741,13 @@ Gotcha Gotcha Games の開発者は恐らく　アセットなのが良いんで
 マップ上で　１つのタイルに収まらない敵シンボルといった感じだぜ」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　下向きで　アニメーションは３コマかだぜ？」  
+「　**下向きで　アニメーションは３コマかだぜ？  これは固定なのかだぜ？**」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　そこらへん　変更できるかどうかも　調査対象だな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ### 📂 Objects - Chest
 
@@ -2352,6 +2359,7 @@ Gotcha Gotcha Games が　１タイルずつ　ファイルを分割する　の
 ```plaintext
 [現実]
 　　📂 Assets
+　　└── 📂 RPGMaker
 　　　　└── 📂 Storage
 　　　　　　└── 📂 Images
 　　　　　　　　└── 📂 Ui
@@ -2409,156 +2417,6 @@ Gotcha Gotcha Games が　１タイルずつ　ファイルを分割する　の
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
-
-# 📂Movies
-
-![202306_rmu_18-1930--Movie.png](https://crieit.now.sh/upload_images/b98f2688e9e8a31f713300cb41dbe6b3648edcf4e7f7e.png)  
-
-![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　👆　次は　📂 `Movies` フォルダーを開けてみましょう！」  
-
-![202306_rmu_18-1932--Movies-open.png](https://crieit.now.sh/upload_images/fed220d457953fde1f8e543b63233a54648edd6968eb8.png)
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　空だぜ」  
-
-# 📂Sounds
-
-![202306_rmu_18-1934--Sounds-folder.png](https://crieit.now.sh/upload_images/9ecd7fd8af6e7fb33ff28785cd1d0d51648edde86170f.png)  
-
-![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　👆　次は　📂 `Sounds` フォルダーを開けてみましょう！」  
-
-![202306_rmu_18-1936--Sounds.png](https://crieit.now.sh/upload_images/0f251e3b3b5cbfb02a75550e04f18919648ede4d742bb.png)
-
-👆　📂 `C:\Users\むずでょ\Documents\Unity Projects\RMU-1-00-00-Research\Assets\RPGMaker\Storage\Sounds`  
-
-```plaintext
-[現実]
-　　📂 Assets
-　　　　└── 📂 Storage
-　　　　　　└── 📂 Sounds
-　　　　　　　　├── 📂 BGM
-　　　　　　　　├── 📂 BGS
-　　　　　　　　├── 📂 ME
-　　　　　　　　└── 📂 SE
-```
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　４つのフォルダーと、いくつかのファイルがあるぜ」  
-
-## 📂Sounds/BGM
-
-![202306_rmu_18-1936--Sounds-BGM.png](https://crieit.now.sh/upload_images/b7ff693ce4fa1722625051ba3b96f9b9648edf3e084dd.png)  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　📂 `BGM` フォルダーには `.wav` ファイルが入っているぜ」  
-
-![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　`.wav` って　無圧縮の音声ファイルだからサイズがでかいんじゃないの？  
-`.ogg` にしないの？」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　音楽をやっている　音に自信があるサークルなら　`.wav`　は十分にありだろうけど、  
-わたしには　オーバースペック　だぜ。　容量が小さい方がいい」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　**`.wav` を `.ogg` に変換したら、そのあと　ＲＭＵ側のどこを　どう　いじったらいい**　んだぜ？」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　知らね」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　それを調べるのが　お父んなのに……」  
-
-![202306_rmu_18-1953--Volume.png](https://crieit.now.sh/upload_images/d93b7e11624b7d811cf18e17fc12f97a648ee2607e23f.png)  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　あと　音量がでかすぎる  
-５分の１にして　ちょうどいいぐらいだ
-音屋が納品した音楽ファイルを　そのまま　フォルダーに放り込んだんじゃないか  
-音量を調整してほしい」  
-
-![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　音量は揃えられてるのよ、でかい音で」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　**ファイル名の接頭辞　`U_`　って何**　だぜ？」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　Unite の U なんじゃないか？　知らんけど」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　それを調べるのが　お父んなのに……」  
-
-![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　**音楽のループ地点は　どうやって指定**　すんの？」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　上の階層に　ループ　という名前を含んだ　ＪＳＯＮ形式ファイルがあった。  
-多分　なんとかなるだろ」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　それを調べるのが　お父んなのに……」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　これって　サンプル・ゲームのＢＧＭだろ。  
-**この音楽ファイルは　再利用、再配布　できるのか**　だぜ？」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　それを調べるのが　お父んなのに……」  
-
-## 📂Sounds/BGS
-
-![202306_rmu_18-2025--Sounds-BGS.png](https://crieit.now.sh/upload_images/559c5f73c50cc8b1557f5b99da6400fb648ee9c72e635.png)  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　📂 `BGS` フォルダーに入っているのは `.ogg` だ！  
-環境音だぜ。街中の自動車の音とか、水滴の聞こえる場所の音とか　いろいろ入っているぜ」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　あれっ？　画像ファイルに比べると　ＢＧＭや　ＢＧＳは　比較的　内容を表す名前になってるぜ」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　ファイル名の存在意義として　正しいよな」  
-
-![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　ファイル名でしか　内容を想像する手段のない　コンピューターのファイル管理システムが  
-イケてないのよ」  
-
-## 📂Sounds/ME
-
-![202306_rmu_18-2038--Sounds-ME.png](https://crieit.now.sh/upload_images/15cef07229b83e43d62f46069a281c7e648eedce89a1c.png)  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　📂 `ME` フォルダーに入っているのは　ジングルだぜ。ファイル形式は `.ogg` だ！  
-アイテムを獲得したときとか、謎を解いたときに流れるような短い曲だぜ。  
-ME は Music Effect の略なんだろうが、これは　ＲＰＧツクールの方言かだぜ？」  
-
-![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　ＭＥって言われても　なんのことだか　分かんないわよ」  
-
-## 📂Sounds/SE
-
-![202306_rmu_18-2050--Sounds-SE.png](https://crieit.now.sh/upload_images/8726a55904920331010f6535c389e2a4648eef964dd94.png)  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　📂 `SE` フォルダーに入っているのは　サウンド・エフェクト（Sound Effect；効果音）だぜ。  
-ファイル形式は `.ogg` だ！  
-物理攻撃がヒットしたときの音とか、エネルギーを吸収したときの音とか、  
-状況を説明する短い音が入っているぜ」  
-
-![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　武器を沢山作ると、それに効果音を当てていく作業が　必要になってくるわよね」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　音に　こだわりのあるやつが　自ら進んで　勝手にやっててくれるから　大丈夫だぜ」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　お父んは　なーんにも　しなかったなー。　どこで　何やってたんだぜ？」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　レシートを　日付順に並べたり　してたよな」  
 
 # 📂Map
 
@@ -2792,5 +2650,264 @@ ME は Music Effect の略なんだろうが、これは　ＲＰＧツクール
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+# 映像リソースを調べようぜ？
+
+## 📂Movies
+
+![202306_rmu_18-1930--Movie.png](https://crieit.now.sh/upload_images/b98f2688e9e8a31f713300cb41dbe6b3648edcf4e7f7e.png)  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　👆　次は　📂 `Movies` フォルダーを開けてみましょう！」  
+
+![202306_rmu_18-1932--Movies-open.png](https://crieit.now.sh/upload_images/fed220d457953fde1f8e543b63233a54648edd6968eb8.png)
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　空だぜ」  
+
+# 音リソースを調べようぜ？
+
+## 📂Sounds
+
+![202306_rmu_18-1934--Sounds-folder.png](https://crieit.now.sh/upload_images/9ecd7fd8af6e7fb33ff28785cd1d0d51648edde86170f.png)  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　👆　次は　📂 `Sounds` フォルダーを開けてみましょう！」  
+
+![202306_rmu_18-1936--Sounds.png](https://crieit.now.sh/upload_images/0f251e3b3b5cbfb02a75550e04f18919648ede4d742bb.png)
+
+👆　📂 `C:\Users\むずでょ\Documents\Unity Projects\RMU-1-00-00-Research\Assets\RPGMaker\Storage\Sounds`  
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Sounds
+　　　　　　　　├── 📂 BGM
+　　　　　　　　├── 📂 BGS
+　　　　　　　　├── 📂 ME
+　　　　　　　　└── 📂 SE
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　４つのフォルダーと、いくつかのファイルがあるぜ」  
+
+### 📂Sounds/BGM
+
+![202306_rmu_18-1936--Sounds-BGM.png](https://crieit.now.sh/upload_images/b7ff693ce4fa1722625051ba3b96f9b9648edf3e084dd.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `BGM` フォルダーには `.wav` ファイルが入っているぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　`.wav` って　無圧縮の音声ファイルだからサイズがでかいんじゃないの？  
+`.ogg` にしないの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　音楽をやっている　音に自信があるサークルなら　`.wav`　は十分にありだろうけど、  
+わたしには　オーバースペック　だぜ。　容量が小さい方がいい」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　**`.wav` を `.ogg` に変換したら、そのあと　ＲＭＵ側のどこを　どう　いじったらいい**　んだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![202306_rmu_18-1953--Volume.png](https://crieit.now.sh/upload_images/d93b7e11624b7d811cf18e17fc12f97a648ee2607e23f.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　あと　音量がでかすぎる  
+５分の１にして　ちょうどいいぐらいだ
+音屋が納品した音楽ファイルを　そのまま　フォルダーに放り込んだんじゃないか  
+音量を調整してほしい」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　音量は揃えられてるのよ、でかい音で」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　**ファイル名の接頭辞　`U_`　って何**　だぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　Unite の U なんじゃないか？　知らんけど」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**音楽のループ地点は　どうやって指定**　すんの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　上の階層に　ループ　という名前を含んだ　ＪＳＯＮ形式ファイルがあった。  
+多分　なんとかなるだろ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　これって　サンプル・ゲームのＢＧＭだろ。  
+**この音楽ファイルは　再利用、再配布　できるのか**　だぜ？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+### 📂Sounds/BGS
+
+![202306_rmu_18-2025--Sounds-BGS.png](https://crieit.now.sh/upload_images/559c5f73c50cc8b1557f5b99da6400fb648ee9c72e635.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `BGS` フォルダーに入っているのは `.ogg` だ！  
+環境音だぜ。街中の自動車の音とか、水滴の聞こえる場所の音とか　いろいろ入っているぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　あれっ？　画像ファイルに比べると　ＢＧＭや　ＢＧＳは　比較的　内容を表す名前になってるぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　ファイル名の存在意義として　正しいよな」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ファイル名でしか　内容を想像する手段のない　コンピューターのファイル管理システムが  
+イケてないのよ」  
+
+### 📂Sounds/ME
+
+![202306_rmu_18-2038--Sounds-ME.png](https://crieit.now.sh/upload_images/15cef07229b83e43d62f46069a281c7e648eedce89a1c.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `ME` フォルダーに入っているのは　ジングルだぜ。ファイル形式は `.ogg` だ！  
+アイテムを獲得したときとか、謎を解いたときに流れるような短い曲だぜ。  
+ME は Music Effect の略なんだろうが、これは　ＲＰＧツクールの方言かだぜ？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ＭＥって言われても　なんのことだか　分かんないわよ」  
+
+### 📂Sounds/SE
+
+![202306_rmu_18-2050--Sounds-SE.png](https://crieit.now.sh/upload_images/8726a55904920331010f6535c389e2a4648eef964dd94.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `SE` フォルダーに入っているのは　サウンド・エフェクト（Sound Effect；効果音）だぜ。  
+ファイル形式は `.ogg` だ！  
+物理攻撃がヒットしたときの音とか、エネルギーを吸収したときの音とか、  
+状況を説明する短い音が入っているぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　武器を沢山作ると、それに効果音を当てていく作業が　必要になってくるわよね」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　音に　こだわりのあるやつが　自ら進んで　勝手にやっててくれるから　大丈夫だぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　お父んは　なーんにも　しなかったなー。　どこで　何やってたんだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　レシートを　日付順に並べたり　してたよな」  
+
+# JSON リソースを見ていこうぜ？
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　ＲＭＵは　リレーショナル・データベース（Relational DataBase）や、ＣＳＶ（Comma Separated Value）ではなく、  
+ＪＳＯＮ（Java Script Object Notation）形式でデータを保存している」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　ＲＰＧツクールは　昔、ゲーム・スクリプトとして Java Script を採用していたらしく、  
+JSON ファイルは Java Script から生まれたデータ記録形式なので、　JSON と Java Script の相性は最高だぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ＲＭＵには　ゲーム・スクリプト自体が見当たらないから　Java Script も無いわよ。  
+Ｕｎｉｔｙで利用できるプログラム言語は　Ｃ＃　よ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　じゃあ　**なんで　ＪＳＯＮ形式で保存してるんだぜ？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👇　ひとまず、 JSONファイルが　どのディレクトリーに置いてあるのか　まとめておこう」  
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　├── 📂 Addon
+　　　　　　│ 　├── 📂 JSON
+　　　　　　│ 　│　　├── 📄 addonInfos.json
+　　　　　　│ 　│　　└── 📄 addonSettings.json
+　　　　　　│ 　└── 📂 Resources
+　　　　　　│  　　　├── 📄 addonInfos.json
+　　　　　　│  　　　└── 📄 addonSettings.json
+　　　　　　├── 📂 Animation
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│  　　　└── 📄 animation.json
+　　　　　　├── 📂 AssetManage
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　├── 📂 Assets
+　　　　　　│ 　　　│　　└── 📄 0ada6636-f27d-4d74-9e0d-5b868d86ed2b.json　※他多数。 UUID.json
+　　　　　　│ 　　　├── 📄 assetsData.json
+　　　　　　│ 　　　└── 📄 orderManager.json
+　　　　　　├── 📂 Character
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　├── 📄 characterActor.json
+　　　　　　│ 　　　├── 📄 class.json
+　　　　　　│ 　　　├── 📄 enemy.json　　※ソースに無い？　要調査
+　　　　　　│ 　　　├── 📄 troop.json　　※ソースに無い？　要調査
+　　　　　　│ 　　　└── 📄 vehicles.json
+　　　　　　├── 📂 Encounter
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　└── 📄 encounter.json
+　　　　　　├── 📂 Event
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　├── 📂 Event
+　　　　　　│ 　　　│　　└── 📄 00c9f537-ca39-46da-bc69-a7f1b67dcedb-0.json　※他多数。 UUID-数字.json
+　　　　　　│ 　　　├── 📄 eventBattle.json
+　　　　　　│ 　　　├── 📄 eventCommon.json
+　　　　　　│ 　　　└── 📄 eventMap.json
+　　　　　　├── 📂 Flags
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　└── 📄 flags.json
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+　　　　　　　　　　├── 📄 armor.json
+　　　　　　　　　　├── 📄 autoGuide.json
+　　　　　　　　　　├── 📄 skill.json
+　　　　　　　　　　├── 📄 skillCustom.json
+　　　　　　　　　　├── 📄 state.json
+　　　　　　　　　　├── 📄 stateTest.json
+　　　　　　　　　　├── 📄 system.json
+　　　　　　　　　　├── 📄 title.json
+　　　　　　　　　　├── 📄 weapon.json
+　　　　　　　　　　└── 📄 weaponTest.json
+```
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　このディレクトリー構成は　イケてるのかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　論外」  
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Event
+　　　　　　　　└── 📂 JSON
+　　　　　　　　　　└── 📂 Event
+　　　　　　　　　　　　└── 📄 00c9f537-ca39-46da-bc69-a7f1b67dcedb-0.json　※他多数
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　📂 `Event` フォルダー開けて、📂 `JSON` フォルダー開けたら  
+また 📂 `Event` フォルダー 出てくる。　マトリョーシカ　かな」  
+
+
+## 📄 Assets/RPGMaker/Storage/Addon/Resources/addonInfos.json
 
 ＜書きかけ＞
