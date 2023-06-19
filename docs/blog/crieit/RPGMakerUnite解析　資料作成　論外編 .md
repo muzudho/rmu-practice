@@ -11,6 +11,31 @@
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　作ってないわよ。こんなソフト論外よ」  
 
+# ４月２７日　１ギガ・バイトのアーカイブ・ファイル
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　まず　手始めに　ご覧に見せよう」  
+
+![202306_rmu_20-0106--1GB-file.png](https://crieit.now.sh/upload_images/508ebb5566a9a6770b16544e4e773eff64907d530f8e7.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　４月２７日、つまり発売日より前に作られた　１ＧＢ　の　アーカイブ・ファイルが  
+アセットに入っているのか　わたしの　ローカルＰＣに入ってるぜ」  
+
+![202306_rmu_20-0109--1GB-file-properties.png](https://crieit.now.sh/upload_images/f979ebb59b99b9f9ae2ed9b867415d8264907ddfe50f6.png)  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　重たいわねえ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　**こんなファイル　要るのかだぜ？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らん」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 # 資料作成
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
@@ -2874,18 +2899,24 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　├── 📂 Flags
 　　　　　　│ 　└── 📂 JSON
 　　　　　　│ 　　　└── 📄 flags.json
-　　　　　　└── 📂 Initializations
+　　　　　　├── 📂 Initializations
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　├── 📄 armor.json
+　　　　　　│ 　　　├── 📄 autoGuide.json
+　　　　　　│ 　　　├── 📄 skill.json
+　　　　　　│ 　　　├── 📄 skillCustom.json
+　　　　　　│ 　　　├── 📄 state.json
+　　　　　　│ 　　　├── 📄 stateTest.json
+　　　　　　│ 　　　├── 📄 system.json
+　　　　　　│ 　　　├── 📄 title.json
+　　　　　　│ 　　　├── 📄 weapon.json
+　　　　　　│ 　　　└── 📄 weaponTest.json
+　　　　　　├── 📂 Ui
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　└── 📄 ui.json　　◆ TODO
+　　　　　　└── 📂 Word
 　　　　　　　　└── 📂 JSON
-　　　　　　　　　　├── 📄 armor.json
-　　　　　　　　　　├── 📄 autoGuide.json
-　　　　　　　　　　├── 📄 skill.json
-　　　　　　　　　　├── 📄 skillCustom.json
-　　　　　　　　　　├── 📄 state.json
-　　　　　　　　　　├── 📄 stateTest.json
-　　　　　　　　　　├── 📄 system.json
-　　　　　　　　　　├── 📄 title.json
-　　　　　　　　　　├── 📄 weapon.json
-　　　　　　　　　　└── 📄 weaponTest.json
+　　　　　　　　　　└── 📄 words.json　　◆ TODO
 ```
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
@@ -4217,6 +4248,1168 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+## 📄 Assets/RPGMaker/Storage/Event/JSON/eventCommon.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Event
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 eventCommon.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "conditions": [
+      {
+        "trigger": 0,
+        "switchId": "d1d4f32a-c00d-4783-8cbd-63c0f8584a28"
+      }
+    ],
+    "eventId": "d8e2bbf4-5155-4181-a32a-332eed2c581a",
+    "name": "Church Resurrection"
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**何かの条件を満たしたときに、**  
+**何かのイベントが発動するような、設定だろうか？　分からんな**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Event/JSON/eventMap.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Event
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 eventMap.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "eventId": "5dc8a1ed-165e-4bb3-9bb2-9395d3a4b1f1",
+    "mapId": "00146731-7002-48e1-8f11-4fd0e75ebd5c",
+    "name": "Hero's Bed",
+    "note": "",
+    "pages": [
+      {
+        "chapterId": "",
+        "condition": {
+          "actor": {
+            "actorId": "",
+            "enabled": 0
+          },
+          "image": {
+            "enabled": 1,
+            "imageName": ""
+          },
+          "item": {
+            "enabled": 0,
+            "itemId": ""
+          },
+          "selfSwitch": {
+            "enabled": 0,
+            "selfSwitch": ""
+          },
+          "switchItem": {
+            "enabled": 0,
+            "switchItemId": ""
+          },
+          "switchOne": {
+            "enabled": 0,
+            "switchId": ""
+          },
+          "switchTwo": {
+            "enabled": 0,
+            "switchId": ""
+          },
+          "variables": {
+            "enabled": 0,
+            "value": 0,
+            "variableId": ""
+          }
+        },
+        "eventTrigger": 0,
+        "image": {
+          "direction": 0,
+          "faceName": "",
+          "name": "",
+          "pictureName": "",
+          "sdName": ""
+        },
+        "move": {
+          "frequency": 2,
+          "moveType": 0,
+          "repeat": 0,
+          "route": [
+          ],
+          "skip": 0,
+          "speed": 3
+        },
+        "page": 0,
+        "priority": 1,
+        "sectionId": "",
+        "walk": {
+          "direction": 4,
+          "directionFix": 1,
+          "stepping": 1,
+          "through": 1,
+          "walking": 1
+        }
+      }
+    ],
+    "temporaryErase": 0,
+    "x": 12,
+    "y": -5
+  },
+  
+  ...
+  
+]
+```
+
+![202306_rmu_19-2352--eventMap-is-large.png](https://crieit.now.sh/upload_images/fd5e766438c5c06964e6a66f31ebf7fd64906c3a20f2e.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**このファイル、2 Mega Bytes あるんだけど**」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　他のファイルを分割するより、このファイルを分割するべきよね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　**ベッドの前で　決定ボタンを押すと　寝る、みたいな　やつかだぜ？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　さあ、分かんね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Flags/JSON/flags.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Flags
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 flags.json
+```
+
+Dammy:  
+
+```json
+{
+  "switches": [
+    {
+      "events": [
+      ],
+      "id": "caa9981e-f67a-49cd-a381-a5352fce02ec",
+      "name": ""
+    },
+    
+    ...
+    
+  ],
+  "variables": [
+    {
+      "events": [
+      ],
+      "id": "13108098-3aaf-4935-8d44-130f7c7e1c07",
+      "name": ""
+    },
+    
+    ...
+    
+  ]
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　`switches` のリストと、 `variables` のリストの２つが入ってるぜ。  
+２つしか無いんだったら　ファイルを分けたらどうだぜ？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　JSON形式を止めて　CSV形式にして　
+Ｉｄをキーにした　キー・バリュー型のデータベースに入れた方が　よくない？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　もっと　根本的に　作り直した方がいいだろうから　リファクタリングしたところで　無駄になる可能性が大だぜ」  
+
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/armor.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 armor.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "basic": {
+      "animationId": "",
+      "armorTypeId": "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+      "canSell": 0,
+      "description": "[Light] A vest crafted out of animal hide.",
+      "equipmentTypeId": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+      "iconId": "IconSet_135",
+      "id": "261f4871-4cf2-4aeb-94cb-87821c1534f8",
+      "name": "Leather Vest",
+      "price": 220,
+      "sell": 132,
+      "switchItem": 0
+    },
+    "memo": "",
+    "parameters": [
+      3,
+      0,
+      0,
+      39,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "traits": [
+      {
+        "categoryId": 2,
+        "effectId": 1,
+        "traitsId": 2,
+        "value": 0
+      }
+    ]
+  },
+  
+  ...
+  
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　防具の性能データなのだろう」  
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/autoGuide.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 autoGuide.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "id": "",
+    "baseParameterRatio": [
+      {
+        "maxHp": 1.0,
+        "maxMp": 0.6000000238418579,
+        "attack": 0.0625,
+        "defense": 0.04500000178813934,
+        "magicAttack": 0.05000000074505806,
+        "magicDefense": 0.03999999910593033,
+        "speed": 0.05000000074505806,
+        "luck": 0.029999999329447748
+      }
+    ],
+    "weaponRatio": [
+      {
+        "maxHp": 0.0,
+        "maxMp": 0.0,
+        "attack": 0.6000000238418579,
+        "defense": 0.0,
+        "magicAttack": 0.0,
+        "magicDefense": 0.0,
+        "speed": 0.0,
+        "luck": 0.0
+      }
+    ],
+    "armorRatio": [
+      {
+        "maxHp": 0.0,
+        "maxMp": 0.0,
+        "attack": 0.0,
+        "defense": 0.4000000059604645,
+        "magicAttack": 0.0,
+        "magicDefense": 0.0,
+        "speed": 0.0,
+        "luck": 0.0
+      }
+    ],
+    "delete": 0
+  }
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　武器の性能とか　レベルアップのステータスの成長曲線とか　自動的に計算してくれるやつじゃないかなあ？」  
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/skill.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 autoGuide.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "damage": {
+      "magicAttack": {
+        "aMag": 0.3499999940395355,
+        "bMag": 0.6000000238418579,
+        "cDmg": 10.0
+      },
+      "normalAttack": {
+        "aMag": 1.0,
+        "bMag": 1.0
+      },
+      "specialAttack": {
+        "aMag": 2.0,
+        "bMag": 0.0,
+        "cDmg": 30.0
+      }
+    },
+    "id": ""
+  }
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　スキルの何かだと思うんだが、ファイルが小さすぎるぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ダメージに掛ける　係数なんじゃないの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　それだと、ファイル名と　中身が　合ってないなあ」  
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/skillCustom.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 skillCustom.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "basic": {
+      "assumptionLevel": 0,
+      "canUseTiming": 1,
+      "costMp": 0,
+      "costTp": 0,
+      "description": "",
+      "id": "1",
+      "message": "%1 attacks!",
+      "name": "Attack",
+      "requiredWTypeId1": 0,
+      "requiredWTypeId2": 0,
+      "skillType": 0,
+      "iconId": "IconSet_076"
+    },
+    "memo": "Skill #1 corresponds to the Attack command.",
+    "targetEffect": {
+      "activate": {
+        "animationId": "111419c2-2152-4b18-901d-4465c6771d4f",
+        "continuousNumber": 1,
+        "correctionSpeed": 0,
+        "hitType": 0,
+        "successRate": 100
+      },
+      "damage": {
+        "attackType": 0,
+        "autoguide": {
+          "aMag": 0.0,
+          "bMag": 0.0,
+          "calc": "",
+          "critical": 0,
+          "distribute": 0,
+          "distributeEnabled": 0,
+          "fix": 0.0,
+          "level": 1,
+          "max": 0.0,
+          "min": 0.0,
+          "mp": 0,
+          "targetRange": 0
+        },
+        "autoguideEnabled": 0,
+        "critical": 1,
+        "damageType": 1,
+        "distribute": 20,
+        "distributeEnabled": 1,
+        "elements": [
+          1
+        ],
+        "max": 0,
+        "maxEnabled": 0,
+        "min": 0,
+        "minEnabled": 0,
+        "value": "a.atk * 2 - b.def * 2"
+      },
+      "heal": {
+        "hp": {
+          "calc": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 1,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": ""
+          },
+          "enabled": 0,
+          "fix": {
+            "enabled": 0,
+            "value": 0
+          },
+          "perMax": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 0,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": 0
+          }
+        },
+        "mp": {
+          "calc": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 1,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": ""
+          },
+          "enabled": 0,
+          "fix": {
+            "enabled": 0,
+            "value": 0
+          },
+          "perMax": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 0,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": 0
+          }
+        },
+        "tp": {
+          "calc": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 1,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": ""
+          },
+          "enabled": 0,
+          "fix": {
+            "enabled": 0,
+            "value": 0
+          },
+          "perMax": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 0,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": 0
+          }
+        }
+      },
+      "otherEffects": [
+      ],
+      "randomNumber": 0,
+      "targetRange": 0,
+      "targetStatus": 0,
+      "targetTeam": 1,
+      "targetUser": 0
+    },
+    "userEffect": {
+      "activate": {
+        "animationId": "",
+        "continuousNumber": 0,
+        "correctionSpeed": 100,
+        "hitType": 0,
+        "successRate": 100
+      },
+      "damage": {
+        "attackType": 0,
+        "autoguide": {
+          "aMag": 0.0,
+          "bMag": 0.0,
+          "calc": "",
+          "critical": 0,
+          "distribute": 0,
+          "distributeEnabled": 0,
+          "fix": 0.0,
+          "level": 1,
+          "max": 0.0,
+          "min": 0.0,
+          "mp": 0,
+          "targetRange": 0
+        },
+        "autoguideEnabled": 0,
+        "critical": 0,
+        "damageType": 1,
+        "distribute": 0,
+        "distributeEnabled": 0,
+        "elements": [
+          1
+        ],
+        "max": 100,
+        "maxEnabled": 0,
+        "min": 0,
+        "minEnabled": 0,
+        "value": "0"
+      },
+      "getTp": 5,
+      "heal": {
+        "hp": {
+          "calc": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 1,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": ""
+          },
+          "enabled": 0,
+          "fix": {
+            "enabled": 0,
+            "value": 0
+          },
+          "perMax": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 0,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": 0
+          }
+        },
+        "mp": {
+          "calc": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 1,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": ""
+          },
+          "enabled": 0,
+          "fix": {
+            "enabled": 0,
+            "value": 0
+          },
+          "perMax": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 0,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": 0
+          }
+        },
+        "tp": {
+          "calc": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 1,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": ""
+          },
+          "enabled": 0,
+          "fix": {
+            "enabled": 0,
+            "value": 0
+          },
+          "perMax": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 0,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": 0
+          }
+        }
+      },
+      "otherEffects": [
+      ],
+      "randomNumber": 0,
+      "targetRange": 0,
+      "targetStatus": 0,
+      "targetTeam": 0
+    }
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　スキル・カスタムという名前からは想像付かないが、  
+**何だろうな？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/state.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 state.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "autoRemovalTiming": 0,
+    "iconId": "IconSet_001",
+    "id": "8fd93d41-fb58-401b-8d6b-f7d5396d3fec",
+    "inBattleRemoveDamage": 0,
+    "inBattleRemoveProbability": 0,
+    "inBattleRemoveRestriction": 0,
+    "maxTurns": 0,
+    "message1": "%1 collapsed!",
+    "message2": "%1 was defeated!",
+    "message3": "",
+    "message4": "%1 was revived!",
+    "minTurns": 0,
+    "motion": 3,
+    "name": "Dead",
+    "note": "State No. 1 is applied when an actor or enemy's HP hits 0.",
+    "occurrenceFrequencyStep": 0,
+    "overlay": "",
+    "priority": 100,
+    "removeAtBattleEnd": 0,
+    "removeAtBattling": 0,
+    "removeByDamage": 0,
+    "removeByRestriction": 0,
+    "removeByWalking": 0,
+    "removeProbability": 0,
+    "restriction": 4,
+    "stateOn": 2,
+    "stepGeneration": 0,
+    "stepsToRemove": 0,
+    "traits": [
+      {
+        "categoryId": 2,
+        "effectId": 9,
+        "traitsId": 3,
+        "value": 0
+      }
+    ]
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　戦闘中の強化や弱体化の状態かな？　睡眠とか、毒とか……。  
+**知らんけど**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/stateTest.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 stateTest.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "id": 1,
+    "iconId": 1,
+    "priority": 100,
+    "motion": 3,
+    "overlay": 0,
+    "stateOn": 1,
+    "restriction": 4,
+    "name": "Test",
+    "note": "State #1 will be automatically added when\nHP reaches 0.",
+    "autoRemovalTiming": 0,
+    "removeAtBattleEnd": 0,
+    "maxTurns": 1,
+    "minTurns": 1,
+    "removeByDamage": 0,
+    "removeByRestriction": 0,
+    "removeByWalking": 0,
+    "stepsToRemove": 100,
+    "traits": {
+      "categoryId": 0,
+      "traitsId": 0,
+      "effectId": 0,
+      "value": 0
+    },
+    "message1": " has fallen!",
+    "message2": " is slain!",
+    "message3": "",
+    "message4": " revives!"
+  }
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　Unity Editor でテストするのか、 Visual Studio でテストするのか、  
+**知らんけど**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/system.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 system.json
+```
+
+Dammy:  
+
+```json
+{
+	"armorTypes": [
+		{
+			"delete": 0,
+			"id": "1",
+			"name": "General Armor"
+		},
+        
+        ...
+        
+	],
+	"battleScene": {
+		"frontEnemyPositionY": 670,
+		"frontMiddleStartFlag": 1,
+		"sideActorSpace": 2,
+		"sideEnemyInclined": 10,
+		"sidePartyInclined": -5,
+		"sidePartyPosition": [
+			1400,
+			450
+		],
+		"viewType": 1
+	},
+	"bgm": {
+		"battleBgm": {
+			"name": "U_Battle_01.wav",
+			"pan": 0,
+			"pitch": 100,
+			"volume": 90
+		},
+		"defeatMe": {
+			"name": "Gameover1",
+			"pan": 0,
+			"pitch": 100,
+			"volume": 90
+		},
+		"gameOverMe": {
+			"name": "Gameover1",
+			"pan": 0,
+			"pitch": 100,
+			"volume": 90
+		},
+		"title": {
+			"name": "U_Theme_01.wav",
+			"pan": 0,
+			"pitch": 100,
+			"volume": 90
+		},
+		"victoryMe": {
+			"name": "Victory1.ogg",
+			"pan": 0,
+			"pitch": 100,
+			"volume": 90
+		}
+	},
+	"displaySize": 0,
+	"DisplaySize": [
+		{
+			"x": 1920,
+			"y": 1080
+		},
+		{
+			"x": 1280,
+			"y": 720
+		}
+	],
+	"elements": [
+		{
+			"advantageous": [],
+			"delete": 0,
+			"disadvantage": [],
+			"icon": "",
+			"id": "6dd648fd-fe18-4003-8927-bb6d7e88c755",
+			"sameElement": 0,
+			"value": "None"
+		},
+        
+        ...
+        
+	],
+	"equipTypes": [
+		{
+			"delete": 0,
+			"id": "48254f68-178f-448e-98fd-60a0bb616a28",
+			"name": "Weapon"
+		},
+        
+        ...
+        
+	],
+	"initialParty": {
+		"party": [
+			"a8230358-b349-4687-aaf9-e3ccb8d55479"
+		],
+		"partyMax": 1,
+		"startMap": {
+			"mapId": "227cd9d6-e13b-4a86-80b3-bdd6d67ba0d9",
+			"position": [
+				6,
+				-5
+			]
+		}
+	},
+	"isController": 0,
+	"optionSetting": {
+		"enabledAutoSave": 0,
+		"locale": "",
+		"optDisplayTp": 0,
+		"optExtraExp": 0,
+		"optFloorDeath": 0,
+		"optFollowers": 1,
+		"optSlipDeath": 0,
+		"optTransparent": 0,
+		"showKeyItemNum": 0,
+		"windowTone": []
+	},
+	"skillTypes": [
+		{
+			"delete": 0,
+			"id": "7955b088-df05-461c-b2e3-7d9dfc3941f6",
+			"motion": 0,
+			"value": "None"
+		},
+        
+        ...
+        
+	],
+	"soundSetting": {
+		"actorDamage": {
+			"name": "Damage5",
+			"pan": 0,
+			"pitch": 100,
+			"volume": 90
+		},
+        
+        ...
+        
+	},
+	"uiPatternId": "4",
+	"weaponTypes": [
+		{
+			"delete": 0,
+			"id": "57d8fa5d-f169-47e1-8bb1-4241de04756b",
+			"image": "c9b1d31b-72bb-45d6-a771-1119f4325c5b",
+			"motionId": 0,
+			"value": "Unarmed (Nothing)"
+		},
+        
+        ...
+        
+	]
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　`system.json` という名前のファイルに　入れるのが適切なのか　分からない雑多な設定とか　入ってる。  
+メニュー・システム、　戦闘システム　とかいうつもりで　何でもかんでも　放り込んだのかもしらん 」  
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/title.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 title.json
+```
+
+Dammy:  
+
+```json
+{
+  "bgm": {
+    "name": "Title1",
+    "pan": 0,
+    "pitch": 100,
+    "volume": 900
+  },
+  "gameTitle": "Unite Quest",
+  "gameTitleCommon": {
+    "gameTitleType": 1,
+    "position": [
+      960,
+      320
+    ]
+  },
+  "gameTitleImage": {
+    "image": "",
+    "scale": 100.0
+  },
+  "gameTitleText": {
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "font": "mplus-1m-regular",
+    "size": 150
+  },
+  "note": "",
+  "startMenu": {
+    "menuContinue": {
+      "enabled": true,
+      "value": "Continue"
+    },
+    "menuFontSetting": {
+      "color": [
+        255,
+        255,
+        255
+      ],
+      "font": "mplus-1m-regular",
+      "size": 45
+    },
+    "menuNewGame": {
+      "enabled": true,
+      "value": "New Game"
+    },
+    "menuOption": {
+      "enabled": true,
+      "value": "Options"
+    },
+    "menuUiSetting": {
+      "color": [
+      ],
+      "frame": "",
+      "position": [
+        960,
+        680,
+        0
+      ],
+      "scale": 1.850000023841858,
+      "window": ""
+    }
+  },
+  "titleBackgroundImage": "titleBG_004",
+  "titleFront": {
+    "image": "titleFlame_001",
+    "position": [
+      960,
+      540
+    ],
+    "scale": 100.0
+  }
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　タイトル画面の設定だろうか？」  
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/weapon.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 weapon.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "basic": {
+      "animationId": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+      "canSell": 0,
+      "description": "[Sword] A light and wieldy sword with a short blade.",
+      "equipmentTypeId": "48254f68-178f-448e-98fd-60a0bb616a28",
+      "iconId": "IconSet_097",
+      "id": "661cb624-e856-494e-94b8-0e41064e90b0",
+      "name": "Shortsword",
+      "price": 280,
+      "sell": 168,
+      "switchItem": 0,
+      "weaponTypeId": "94e410c8-ecd3-4c9e-a844-c978fc6e21f2"
+    },
+    "memo": "",
+    "parameters": [
+      1,
+      0,
+      56,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "traits": [
+      {
+        "categoryId": 3,
+        "effectId": 2,
+        "traitsId": 1,
+        "value": 0
+      },
+      {
+        "categoryId": 2,
+        "effectId": 0,
+        "traitsId": 2,
+        "value": 0
+      }
+    ]
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　武器データだろうか？」  
+
+## 📄 Assets/RPGMaker/Storage/Initializations/JSON/weaponTest.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Initializations
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 weaponTest.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "basic": {
+      "id": 1,
+      "name": "",
+      "description": "",
+      "equipmentTypeId": 1,
+      "weaponTypeId": 2,
+      "price": 500,
+      "sell": 50,
+      "canSell": 1,
+      "switchItem": 1
+    },
+    "parameters": [
+      0,
+      0
+    ],
+    "traits": {
+      "physics": 1,
+      "hitRate": 100
+    },
+    "memo": "",
+    "deleted": 0
+  }
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　試し斬りとかに使うんだろうか？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**📂 `Initializations` というフォルダー名が間違っていて、**  
+**📂 `views` ぐらいの名前の方が　合ってんじゃないの？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 
 
