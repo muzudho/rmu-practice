@@ -14,7 +14,9 @@
 # 資料作成
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　公式のドキュメントも論外なので　資料を作るところから始めることにする」  
+「　公式のドキュメント（※）も論外なので　資料を作るところから始めることにする」  
+
+※　仕様書ではなくて、ガイド  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　どこに　どんなリソースが　あるんだぜ？」  
@@ -2838,8 +2840,8 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　└── 📂 Storage
 　　　　　　├── 📂 Addon
 　　　　　　│ 　├── 📂 JSON
-　　　　　　│ 　│　　├── 📄 addonInfos.json
-　　　　　　│ 　│　　└── 📄 addonSettings.json
+　　　　　　│ 　│　　├── 📄 addonInfos.json　　※ソースに無い？　要調査
+　　　　　　│ 　│　　└── 📄 addonSettings.json　　※ソースに無い？　要調査
 　　　　　　│ 　└── 📂 Resources
 　　　　　　│  　　　├── 📄 addonInfos.json
 　　　　　　│  　　　└── 📄 addonSettings.json
@@ -2907,7 +2909,131 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 「　👆　📂 `Event` フォルダー開けて、📂 `JSON` フォルダー開けたら  
 また 📂 `Event` フォルダー 出てくる。　マトリョーシカ　かな」  
 
+## 📄 Assets/RPGMaker/Storage/Addon/Json/addonInfos.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Addon
+　　　　　　　　├── 📂 JSON
+👉 　　　　　　│ 　└── 📄 addonInfos.json　　※ソースに無い？　要調査
+　　　　　　　　└── 📂 Resources
+　　　　　　　　　　└── 📄 addonInfos.json
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　わたしが　アドオン　をまだ作ってないからか、ファイルの中身は　`[]`　だけで、  
+**アドオン　を作ったら　何が書かれるのか　分からない**　ぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Storage/Addon/Resources/addonInfos.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Addon
+　　　　　　　　├── 📂 JSON
+　　　　　　　　│ 　└── 📄 addonInfos.json　　※ソースに無い？　要調査
+　　　　　　　　└── 📂 Resources
+👉 　　　　　　　　└── 📄 addonInfos.json
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　隣の　📂 `JSON` ディレクトリーに同じ名前のファイルがある。  
+**何が違うのか分からない**　ぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Animation/JSON/animation.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Animation
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 animation.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "expansion": 100,
+    "flashList": [
+      {
+        "color": "255,255,255",
+        "flashId": 0,
+        "flashType": 1,
+        "frame": 1,
+        "time": 30
+      },
+      
+      ...
+      
+    ],
+    "id": "54b168ea-5141-48ed-9e42-4336ac58755c",
+    "offset": "0;0",
+    "particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+    "particleName": "None",
+    "particlePos": 0,
+    "particleType": 0,
+    "playSpeed": 100,
+    "rotation": "0;0;0",
+    "seList": [
+      {
+        "frame": 1,
+        "seId": 0,
+        "seName": "Blow1.ogg"
+      },
+      
+      ...
+      
+    ],
+    "targetImageName": ""
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　こんな感じの内容だが、**何なのか分かんない**　ぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　画像のアセットと　１対１対応させて　アニメーションを指定すんじゃないの？  
+`seList` は、指定のフレームで効果音を鳴らすように見えない？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　じゃあ　`flashList`　は同様に　閃光じゃないか？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　縦幅、横幅が無い」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　アニメーションとは別に　画像の方が持ってんじゃないの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　アニメーションというより、音付け、エフェクト付けに思える」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　じゃあ　そうなんじゃないか？  
+アニメーションというファイル名が、アニメーションに関する物とは限らないぜ　覚えろだぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　覚えたぜ」  
 
 ＜書きかけ＞
