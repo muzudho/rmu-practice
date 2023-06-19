@@ -3733,7 +3733,181 @@ Dammy:
 食欲　というステータスを増やしたかったら、ソースコードから改造するしかないのかだぜ？」  
         
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　パッと見た感じ　ほとんどの何もかも　ハードコーディングだぜ」  
+「　パッと見た感じ　色々なものが　ハードコーディングだぜ」  
+
+## 📄 Assets/RPGMaker/Storage/Character/JSON/enemy.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Character
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 enemy.json　　※ソース不明、要調査
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": "1"
+      }
+    ],
+    "autoGuide": {
+      "attackTurn": 5.0,
+      "guardTurn": 2.0,
+      "level": 2,
+      "magicGuardSetting": 0,
+      "magicPowerSetting": 0
+    },
+    "battlerHue": 0,
+    "deleted": 0,
+    "dropItems": [
+      {
+        "dataId": "cd8fab08-5b93-4d99-afb2-1ce3c114b68e",
+        "denominator": 8,
+        "kind": 1
+      },
+      
+      ...
+      
+    ],
+    "elements": [
+      2
+    ],
+    "exp": 4,
+    "gold": 149,
+    "id": "0b783c13-a4df-4876-88c5-82604c677501",
+    "images": {
+      "autofit": 1,
+      "autofitPattern": 0,
+      "battleAlignment": 1,
+      "high": 0,
+      "image": "039_enemy_Goblin_01",
+      "scale": 80,
+      "wide": 0
+    },
+    "level": 1,
+    "memo": "",
+    "name": "Goblin",
+    "param": [
+      125,
+      0,
+      
+      ...
+      
+    ],
+    "traits": [
+      {
+        "categoryId": 2,
+        "effectId": 0,
+        "traitsId": 2,
+        "value": 950
+      },
+      
+      ...
+      
+    ]
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ソースコードで使っているか分からないが、フォルダーに入っていたファイルだぜ。  
+戦闘に出てくる敵のデータではないだろうか？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**ヒット・ポイントとか**　無いの？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　画面上の位置とか、倒したときの　取得経験値や　ドロップ・アイテムを  
+設定するんじゃないか？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　**行動パターンとか　無いのか**　だぜ？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Character/JSON/troop.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Character
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 troop.json　　※ソース不明、要調査
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "backImage1": "battlebacks1_nature_008",
+    "backImage2": "battlebacks2_nature_008",
+    "battleEventId": "0",
+    "deleted": 0,
+    "frontViewMembers": [
+      {
+        "appearanceTurn": 0,
+        "conditions": 0,
+        "enemyId": "0b783c13-a4df-4876-88c5-82604c677501",
+        "position": 1
+      }
+    ],
+    "id": "8e5f99c4-70cb-4772-b4c8-6e00adac6ba1",
+    "name": "Goblin",
+    "sideViewMembers": [
+      {
+        "appearanceTurn": 0,
+        "conditions": 0,
+        "enemyId": "0b783c13-a4df-4876-88c5-82604c677501",
+        "position1": 0,
+        "position2": 1
+      }
+    ]
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ソースコードで使っているか分からないが、フォルダーに入っていたファイルだぜ。  
+戦闘画面の背景とか、敵配置の設定データではないだろうか？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**リソース管理という観点では、背景画像のファイル名ではなく、**  
+**画像は　Ｉｄ　で指定するといいと思うのよね**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　リレーショナル・データベースの知見　全然　採用されてないんで」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　敵データを　１万件　作ることもないだろ。  
+**enemyId` に　ＵＵＩＤ　を使っているが、そんな精度の高いもの　ここで　なぜ使う？　int型で十分では？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね。リレーショナル・データベースの知見が　無いからなんじゃないか？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 
 
 
