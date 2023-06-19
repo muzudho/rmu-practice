@@ -4020,8 +4020,8 @@ Dammy:
 「　👆　どのマップでは、どの　トループ　と遭遇するかといった設定じゃないか？」  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　`backImage1`　とか、トループの方の設定じゃないの？  
-遭遇で設定して　どっちが戦闘の背景になんの？」  
+「　**`backImage1`　とか、トループの方の設定じゃないの？**  
+**遭遇で設定して　どっちが戦闘の背景になんの？**」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　仕様書ないから知らね」  
@@ -4029,7 +4029,193 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+## 📄 Assets/RPGMaker/Storage/Event/JSON/Event/00c9f537-ca39-46da-bc69-a7f1b67dcedb-0.json
 
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Event
+　　　　　　　　└── 📂 JSON
+　　　　　　　　　　└── 📂 Event
+👉 　　　　　　　　　　└── 📄 00c9f537-ca39-46da-bc69-a7f1b67dcedb-0.json
+```
+
+Dammy:  
+
+```json
+{
+  "eventCommands": [
+    {
+      "code": 241,
+      "indent": 0,
+      "parameters": [
+        "U_Theme_02.wav",
+        "90",
+        "100",
+        "0"
+      ],
+      "route": [
+      ]
+    },
+    {
+      "code": 223,
+      "indent": 0,
+      "parameters": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "60",
+        "1",
+        "0"
+      ],
+      "route": [
+      ]
+    },
+    {
+      "code": 101,
+      "indent": 0,
+      "parameters": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "2",
+        "",
+        "",
+        "",
+        "1",
+        "1",
+        "0",
+        "0",
+        "-1",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "route": [
+      ]
+    },
+    {
+      "code": 401,
+      "indent": 1,
+      "parameters": [
+        "And so Craft and his friends set out\non their journey, bearing the king's\nsecret orders!\nNow, the story of this adventure is\nyours to make!",
+        "0"
+      ],
+      "route": [
+      ]
+    },
+    {
+      "code": 354,
+      "indent": 0,
+      "parameters": [
+      ],
+      "route": [
+      ]
+    },
+    {
+      "code": 0,
+      "indent": 0,
+      "parameters": [
+      ],
+      "route": [
+      ]
+    }
+  ],
+  "id": "00c9f537-ca39-46da-bc69-a7f1b67dcedb",
+  "page": 0,
+  "type": 0
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　シーケンスに並んだ関数のリストだぜ。  
+多分、マップのイベントのプログラムみたいなやつに対応してると思うぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　C# スクリプトを直接　読み書きした方が　話しは早くないか？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ＲＭＵのコードを綺麗に書き直しても　ダメで、  
+アーキテクチャーを設計し直した上で　作り直した方がいいのよ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　開発に　予算　回さなかったんじゃないか？  
+ファイルの読み書きができます、レベルの人しか　受け手が　いなかったとか」  
+
+## 📄 Assets/RPGMaker/Storage/Event/JSON/eventBattle.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Event
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 eventBattle.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "eventId": "b4a4ea3d-aa44-4f6b-9139-ea31e26cf6ca",
+    "pages": [
+      {
+        "condition": {
+          "actorHp": {
+            "actorId": "a8230358-b349-4687-aaf9-e3ccb8d55479",
+            "enabled": 0,
+            "value": 0
+          },
+          "enemyHp": {
+            "enabled": 1,
+            "enemyId": "0",
+            "value": 50
+          },
+          "run": 0,
+          "span": 0,
+          "switchData": {
+            "enabled": 0,
+            "switchId": ""
+          },
+          "turn": {
+            "enabled": 0,
+            "end": 0,
+            "start": 0
+          },
+          "turnEnd": 0
+        },
+        "eventId": "9ca94411-2ae2-43b3-8dde-7f953c6778d7",
+        "page": 0
+      },
+      
+      ...
+      
+    ]
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　敵のＨＰとかあるし、  
+負けイベントとか、そういう戦闘イベントじゃないかな」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**使い方が　分かんないわよ**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 
 
