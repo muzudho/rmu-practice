@@ -3908,6 +3908,129 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+## 📄 Assets/RPGMaker/Storage/Character/JSON/vehicles.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Character
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 vehicles.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "bgm": {
+      "name": "U_Ship_01",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    "id": "1",
+    "images": "e98773c9-6bcf-4687-880a-0589cc5c3d8c",
+    "initialPos": [
+      0,
+      0,
+      0
+    ],
+    "mapId": "",
+    "moveTags": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "name": "Boat",
+    "speed": 40
+  },
+  
+  ...
+  
+]
+
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**船に乗ってるときのＢＧＭとか、**  
+**船が最初に置いてある場所とか　設定するのかな？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Encounter/JSON/encounter.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Encounter
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 encounter.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "backImage1": "",
+    "backImage2": "",
+    "bgm": {
+      "name": "",
+      "pan": 0,
+      "pitch": 100,
+      "volume": 90
+    },
+    "deleted": 0,
+    "enabled": 1,
+    "enemyList": [
+    ],
+    "enemyMax": 1,
+    "lowestHighestLevel": 1,
+    "mapId": "8a1d06ec-2133-4cce-b60c-e9ddb63dc0db",
+    "minimumAssumedLevel": 1,
+    "name": "#0006",
+    "region": 0,
+    "step": 30,
+    "troopList": [
+      {
+        "troopId": "8db87180-464d-41e2-92be-919ea6eb6e36",
+        "weight": 60
+      },
+      
+      ...
+      
+    ],
+    "troopPer": 1
+  },
+  
+  ...
+
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　どのマップでは、どの　トループ　と遭遇するかといった設定じゃないか？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　`backImage1`　とか、トループの方の設定じゃないの？  
+遭遇で設定して　どっちが戦闘の背景になんの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　仕様書ないから知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+
+
 
 
 
