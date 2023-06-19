@@ -205,7 +205,7 @@ Gotcha Gotcha Games の開発者は恐らく　アセットなのが良いんで
 　　　　└── 📂 RPG Maker Unite
 　　　　　　├── 📂 Addon
 　　　　　　├── 📂 Data
-👉 　　　　│　　└── 📂 AssetManager
+👉 　　　　│　　└── 📂 AssetManage
 　　　　　　├── 📂 Images
 👉 　　　　│　　├── 📂 Animation
 👉 　　　　│　　└── 📂 Map
@@ -2909,6 +2909,27 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 「　👆　📂 `Event` フォルダー開けて、📂 `JSON` フォルダー開けたら  
 また 📂 `Event` フォルダー 出てくる。　マトリョーシカ　かな」  
 
+![202306_rmu_19-2007--JSON-storage-storage-o2o0.png](https://crieit.now.sh/upload_images/0daac72958d76bf5b384371bdef3506f64903790ed058.png)  
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 AssetManage
+　　　　　　　　└── 📂 JSON
+　　　　　　　　　　└── 📂 Assets
+👉  　　　　　　　　　　└── 📂 Storage
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**📂 `Storage` フォルダーも、📂 `AssetManage` フォルダーを開けていくと　また出てくる 。**  
+今は中身は　空フォルダーと `.meta` ファイルしか入っていないが、  
+何に使うのかな。　マトリョーシカ　かな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Storage/Addon/Json/addonInfos.json
 
 ```plaintext
@@ -3035,5 +3056,685 @@ Dammy:
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　覚えたぜ」  
+
+## 📄 Assets/RPGMaker/Storage/AssetManage/JSON/Assets/0ada6636-f27d-4d74-9e0d-5b868d86ed2b.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 AssetManage
+　　　　　　　　└── 📂 JSON
+　　　　　　　　　　└── 📂 Assets
+👉 　　　　　　　　　　└── 📄 0ada6636-f27d-4d74-9e0d-5b868d86ed2b.json
+```
+
+Dammy:  
+
+```json
+{
+  "id": "0ada6636-f27d-4d74-9e0d-5b868d86ed2b",
+  "sort": 154,
+  "name": "Object 155",
+  "type": 0,
+  "weaponTypeId": 0,
+  "assetTypeId": 1,
+  "imageSettings": [
+    {
+      "path": "Other2_001.png",
+      "sizeX": 294,
+      "sizeY": 194,
+      "animationFrame": 3,
+      "animationSpeed": 30
+    },
+    
+    ...
+    
+  ]
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**`sizeX` って、 `width` じゃないのか？　`sizeY` って、 `height` じゃないのか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![202306_rmu_19-1950--JSON-assetManage-o1o0.png](https://crieit.now.sh/upload_images/459ff2699899a6d5364e2ac2d0e46ed3649033f97857c.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**同じものが　５つ　並んでいる気がする**　んだが、わたしの目の錯覚かだぜ？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　事実、同じものを　５つ　並べてあるのよ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　いったい　なぜ？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　ＯＭＧ……
+
+真理は　避けられず、
+真実は　踏み込んだ者にしか見えず、
+真相は　勝手なものである」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　`weponTypeId` という文字が見えるから、サイド・ビュー戦闘の　武器の振りなどに  
+設定を付与しているのかも知らん」  
+
+## 📄 Assets/RPGMaker/Storage/AssetManage/JSON/assetsData.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 AssetManage
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 assetsData.json
+```
+
+dammy:  
+
+```json
+[
+  {
+    "assetTypeId": 0,
+    "id": "01ae0cea-fd48-4944-814c-9deabcb43b54",
+    "imageSettings": [
+      {
+        "animationFrame": 6,
+        "animationSpeed": 40,
+        "path": "037_Demihuman_walk_down_6.png",
+        "sizeX": 0,
+        "sizeY": 0
+      },
+      
+      ...
+      
+    ],
+    "name": "Skeleton",
+    "sort": 36,
+    "type": 0,
+    "weaponTypeId": 0
+  },
+  {
+    "assetTypeId": 1,
+    "id": "008229ae-3500-45a0-be9b-4ae020c4c2b7",
+    "imageSettings": [
+      {
+        "animationFrame": 3,
+        "animationSpeed": 30,
+        "path": "Other2_029.png",
+        "sizeX": 294,
+        "sizeY": 194
+      },
+      
+      ...
+      
+    ],
+    "name": "Object 174",
+    "sort": 173,
+    "type": 0,
+    "weaponTypeId": 0
+  },
+  {
+    "assetTypeId": 2,
+    "id": "22f678a7-f8ae-4334-8a00-7feca3b44057",
+    "imageSettings": [
+      {
+        "animationFrame": 8,
+        "animationSpeed": 15,
+        "path": "Balloon_004.png",
+        "sizeX": 0,
+        "sizeY": 0
+      }
+    ],
+    "name": "Angry",
+    "sort": 5,
+    "type": 0,
+    "weaponTypeId": 0
+  },
+  {
+    "assetTypeId": 3,
+    "id": "0003c951-f75e-47d0-a8d1-b8fb82cae285",
+    "imageSettings": [
+      {
+        "animationFrame": 6,
+        "animationSpeed": 20,
+        "path": "017_Actor_move_forward_6.png",
+        "sizeX": 0,
+        "sizeY": 0
+      },
+      
+      ...
+      
+    ],
+    "name": "Amazon (Male)",
+    "sort": 16,
+    "type": 0,
+    "weaponTypeId": 0
+  },
+  {
+    "assetTypeId": 4,
+    "id": "002a2ac8-e582-4310-b054-651c5bdf75cd",
+    "imageSettings": [
+      {
+        "animationFrame": 8,
+        "animationSpeed": 20,
+        "path": "weapon_swing_012_8.png",
+        "sizeX": 1920,
+        "sizeY": 200
+      }
+    ],
+    "name": "Scythe",
+    "sort": 11,
+    "type": 0,
+    "weaponTypeId": 0
+  },
+  {
+    "assetTypeId": 5,
+    "id": "4132981d-b0a6-4f8d-bfcf-535350a6caea",
+    "imageSettings": [
+      {
+        "animationFrame": 8,
+        "animationSpeed": 15,
+        "path": "States_007.png",
+        "sizeX": 2048,
+        "sizeY": 256
+      }
+    ],
+    "name": "Paralysis",
+    "sort": 7,
+    "type": 0,
+    "weaponTypeId": 0
+  },
+  {
+    "assetTypeId": 6,
+    "id": "01f310cb-791d-4bf3-8c9b-0b65739c5fdd",
+    "imageSettings": [
+      {
+        "animationFrame": 0,
+        "animationSpeed": 0,
+        "path": "ClawFire.asset",
+        "sizeX": 0,
+        "sizeY": 0
+      }
+    ],
+    "name": "Claw/Fire",
+    "sort": 17,
+    "type": 0,
+    "weaponTypeId": 0
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**`assetTypeId` が少なくとも　0 ～ 6　あって、これが マップの構成に影響を与えるかと思った**　が、  
+特に違いはなく　見当違いかだぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　`imageSettings` の要素数が変わったりするんじゃない？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　それも要調査だな」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　複数のアニメーション・フレームを持つタイル・セット画像に　設定を付与するのかな？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　さっきの　`Assets/UUID.json`　ファイルと働きが　被ってると思うんだよな」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**画像みたいに　１つの JSON形式ファイルだったものを、**  
+**アセット毎に１つ１つ　JSON形式ファイル　に分割したんじゃないの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　分割しなければならない理由が　分からない」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/AssetManage/JSON/orderManager.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 AssetManage
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 orderManager.json
+```
+
+Dammy:  
+
+```json
+{
+  "orderDataList": [
+    {
+      "assetTypeId": 0,
+      "idList": [
+        "78a965c8-7400-432e-a17f-93432f6b9ff5",
+        "02c771b2-247a-42d5-b6dd-ad398d3c6557",
+        "60cc7e88-f27a-4608-9152-06ca3704de2a",
+        "d6b49430-02b5-41fa-95b1-47d8574f2df8",
+        
+        ...
+        
+      ]
+    },
+    {
+      "assetTypeId": 1,
+      "idList": [
+        "510f4d1b-986d-444b-9d38-61454ffe898b",
+        "d9200020-672a-4f11-b1f9-ce327262470a",
+        
+        ...
+        
+      ]
+    },
+    {
+      "assetTypeId": 2,
+      "idList": [
+        "26b2219f-43b7-4c48-b05f-77312da9075f",
+
+        ...
+        
+      ]
+    },
+    {
+      "assetTypeId": 3,
+      "idList": [
+        "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+        
+        ...
+        
+      ]
+    },
+    {
+      "assetTypeId": 4,
+      "idList": [
+        "e47f074e-92e7-4c73-88e9-238bd8fd9116",
+        
+        ...
+        
+      ]
+    },
+    {
+      "assetTypeId": 5,
+      "idList": [
+        "eafa135e-b529-45ae-b9d5-8f5c1ec45731",
+        
+        ...
+        
+      ]
+    },
+    {
+      "assetTypeId": 6,
+      "idList": [
+        "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+        
+        ...
+        
+      ]
+    }
+  ]
+}        
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　`assetTypeId` 別の　ＵＵＩＤのリストかな」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**`assetTypeId` が 0 ～ 6 しか無いということは、アセットって　６種類しかないの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　まったく分からない。仕様書が無い」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Character/JSON/characterActor.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Character
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 characterActor.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "basic": {
+      "classId": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+      "initialLevel": 1,
+      "maxLevel": 99,
+      "memo": "",
+      "name": "Craft",
+      "profile": "A young boy hailing from the Frontier Town, Starterton. He dreams of becoming a Royal Knight in the Capital.",
+      "secondName": ""
+    },
+    "charaType": 1,
+    "element": 0,
+    "equips": [
+      {
+        "type": "48254f68-178f-448e-98fd-60a0bb616a28",
+        "value": "661cb624-e856-494e-94b8-0e41064e90b0"
+      },
+      {
+        "type": "7832ae68-aecc-4724-8765-e8e04e3cb64f",
+        "value": ""
+      },
+      {
+        "type": "312419fb-bc20-44b4-bb2b-0c28c7c3a987",
+        "value": ""
+      },
+      {
+        "type": "c557c358-d63e-4992-b7a2-f8dadd9eeb71",
+        "value": "2f1bced4-122a-4ee2-98fa-bd80f381036d"
+      },
+      {
+        "type": "5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4",
+        "value": ""
+      }
+    ],
+    "image": {
+      "adv": "charaupperbody_001_Actor",
+      "battler": "e7c8511c-dda2-4812-9ddb-03a8674ce085",
+      "character": "78a965c8-7400-432e-a17f-93432f6b9ff5",
+      "face": "charaface_001_Actor"
+    },
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "クラフト",
+    "nickname": "",
+    "profile": "",
+    "traits": [
+    ],
+    "uuId": "a8230358-b349-4687-aaf9-e3ccb8d55479"
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　`"name": "Craft",` というのを見ると、  
+サンプル・ゲームの主人公の　`Craft`　のプロフィールだと思うぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　じゃあ　`Character Profiles.json*` みたいな名前にしてほしい」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　`"profile"` が英語で　記録されているのが気になる。  
+固定のテキストには　文字列リソースＩｄ　を振って、  
+ローカライズしたファイルを切り替えれば　英語でも　日本語でも　読めるように作っておかないと  
+ゲームの途中で　英語から日本語に変えようと思ったら、  
+ファイルの該当箇所　全部アップデートしなくちゃいけないぜ？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　全部アップデートする気なんじゃないの？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　上の方の `profile` は英語で書かれているが、下の方の `profile` は空だぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　**う～ん、なんで日本語のプロフィールが入ってないんだぜ？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Character/JSON/class.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Character
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 class.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "abilityAdd": {
+      "criticalRate": -1,
+      "evasionRate": -1,
+      "hitRate": -1
+    },
+    "abilityScore": {
+      "attack": {
+        "enabled": 0,
+        "growType": 0,
+        "paramMax": 2250,
+        "paramOne": 102,
+        "paramPeakLv": 60
+      },
+      "defense": {
+        "enabled": 0,
+        "growType": 0,
+        "paramMax": 1380,
+        "paramOne": 63,
+        "paramPeakLv": 60
+      },
+      "luck": {
+        "enabled": 0,
+        "growType": 0,
+        "paramMax": 770,
+        "paramOne": 35,
+        "paramPeakLv": 60
+      },
+      "magicAttack": {
+        "enabled": 0,
+        "growType": 0,
+        "paramMax": 985,
+        "paramOne": 45,
+        "paramPeakLv": 60
+      },
+      "magicDefense": {
+        "enabled": 0,
+        "growType": 0,
+        "paramMax": 1000,
+        "paramOne": 50,
+        "paramPeakLv": 60
+      },
+      "maxHp": {
+        "enabled": 0,
+        "growType": 0,
+        "paramMax": 4250,
+        "paramOne": 235,
+        "paramPeakLv": 60
+      },
+      "maxMp": {
+        "enabled": 0,
+        "growType": 0,
+        "paramMax": 900,
+        "paramOne": 54,
+        "paramPeakLv": 60
+      },
+      "speed": {
+        "enabled": 0,
+        "growType": 0,
+        "paramMax": 1420,
+        "paramOne": 64,
+        "paramPeakLv": 60
+      }
+    },
+    "abilitySp": {
+      "targetedRate": 100
+    },
+    "armorTypes": [
+      "1",
+      "5d44ec7b-6494-4e4c-b18f-b552a8500fd6",
+      "c01b25d3-bdb5-4c23-a375-dcfdc05abad6",
+      "1bd115d3-72d1-40d6-a6c8-aa8d49c0d594"
+    ],
+    "autoGuide": {
+      "attack": 8,
+      "defense": 6,
+      "luck": 5,
+      "magicAttack": 4,
+      "magicDefense": 4,
+      "maxHp": 2,
+      "maxMp": 0,
+      "speed": 3
+    },
+    "baseHpMaxValue": 5000,
+    "basic": {
+      "abilityEnabled": {
+        "luck": 1,
+        "magicAttack": 1,
+        "magicDefense": 1,
+        "mp": 1,
+        "speed": 1,
+        "tp": 1
+      },
+      "expMax": -1,
+      "hpMax": -1,
+      "id": "ce89f973-6ed6-41fc-99d7-e3ca5fc1ce8c",
+      "level": {
+        "levelGameClear": -1,
+        "levelMax": 99
+      },
+      "maxLevel": -1,
+      "name": "Hero"
+    },
+    "clearLevel": 60,
+    "element": "0",
+    "expGainIncreaseValue": 1000000,
+    "expScore": {
+      "growType": 10,
+      "increaseValueA": 10,
+      "increaseValueB": 10
+    },
+    "id": "39450ee1-598b-4a2e-b249-b615cd2a2ea5",
+    "maxLevel": 99,
+    "parameter": {
+      "attack": [
+        0,
+        102,
+        
+        ...
+        
+      ],
+      "defense": [
+        0,
+        63,
+        
+        ...
+        
+      ],
+      "luck": [
+        0,
+        35,
+        
+        ...
+        
+      ],
+      "magicAttack": [
+        0,
+        45,
+        
+        ...
+        
+      ],
+      "magicDefense": [
+        0,
+        50,
+        
+        ...
+        
+        
+      ],
+      "maxHp": [
+        0,
+        235,
+        
+        ...
+        
+      ],
+      "maxMp": [
+        0,
+        54,
+        
+        ...
+        
+      ],
+      "speed": [
+        0,
+        64,
+        
+        ...
+        
+      ]
+    },
+    "skillTypes": [
+      {
+        "level": 2,
+        "skillId": "cbc13df7-48ab-4d6c-a562-72a852dc53a4"
+      },
+      
+      ...
+      
+    ],
+    "traits": [
+      {
+        "categoryId": 2,
+        "effectId": 0,
+        "traitsId": 2,
+        "value": 1000
+      },
+      
+      ...
+      
+    ],
+    "weaponTypes": [
+      "94e410c8-ecd3-4c9e-a844-c978fc6e21f2",
+      "fe2c539e-10df-4d32-8103-b06ee37a157d",
+      "bf7300f0-c155-492d-a171-6325d2677819"
+    ]
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　でかいファイルで、このレベルのとき、ステータスはこうなる、みたいな設定だと思う」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　じゃあ　`Level Up Tables.json*` みたいな名前にしてほしい」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　ステータスは　ハードコーディング　されてるのかだぜ？  
+食欲　というステータスを増やしたかったら、ソースコードから改造するしかないのかだぜ？」  
+        
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　パッと見た感じ　ほとんどの何もかも　ハードコーディングだぜ」  
+
+
 
 ＜書きかけ＞
