@@ -2920,8 +2920,8 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　│ 　　　│ 　└── 📄 00b34276-2c8a-4599-b325-4bc607ba5f5e.json　　※他多数。 UUID.json
 　　　　　　│ 　　　├── 📂 MapSample
 　　　　　　│ 　　　│ 　└── 📄 0e73b46a-fbef-4cb7-b56a-b3aade29a47a.json　　※他多数。 UUID.json
-　　　　　　│ 　　　├── 📄 tileAssets.json　　◆ TODO 要調査
-　　　　　　│ 　　　├── 📄 tileCollisionAssets.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📄 tileAssets.json
+　　　　　　│ 　　　├── 📄 tileCollisionAssets.json
 　　　　　　│ 　　　└── 📄 tileGroup.json　　◆ TODO 要調査
 　　　　　　├── 📂 Migration
 　　　　　　│ 　　　└── 📄 MigrationHistory.json　　◆ TODO 要調査
@@ -5906,6 +5906,76 @@ Dammy:
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　サンプル・ゲーム用のハード・コーディングがあるのは　確認しているが……、  
 サンプル・ゲームは　本来のゲームではできない動きができるように　何かやってるのでは？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Map/JSON/tileAssets.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Map
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 tileAssets.json
+```
+
+Dammy:  
+
+```json
+[
+  "Assets/RPGMaker/Storage/Map/TileAssets\\0006181c-b598-4d7c-8ebe-0195235c429f.asset",
+  "Assets/RPGMaker/Storage/Map/TileAssets\\0006181c-b598-4d7c-8ebe-0195235c429f.asset.meta",
+  "Assets/RPGMaker/Storage/Map/TileAssets\\0006181c-b598-4d7c-8ebe-0195235c429f.meta",
+  "Assets/RPGMaker/Storage/Map/TileAssets\\001f7509-20c4-4684-b755-ad37dd3f8668.asset",
+  "Assets/RPGMaker/Storage/Map/TileAssets\\001f7509-20c4-4684-b755-ad37dd3f8668.asset.meta",
+  "Assets/RPGMaker/Storage/Map/TileAssets\\001f7509-20c4-4684-b755-ad37dd3f8668.meta",
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　３行１組のファイルパスのリストだぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**ひと目、 ＵＵＩＤのリストで十分なんじゃない、これ？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　そう思う」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Map/JSON/tileCollisionAssets.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Map
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 tileCollisionAssets.json
+```
+
+Dammy:  
+
+```json
+[]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　空のリストだぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**何が入んの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
