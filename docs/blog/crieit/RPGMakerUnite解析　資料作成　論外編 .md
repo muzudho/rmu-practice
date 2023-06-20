@@ -2899,9 +2899,21 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　├── 📂 Flags
 　　　　　　│ 　└── 📂 JSON
 　　　　　　│ 　　　└── 📄 flags.json
+　　　　　　├── 📂 Initializations
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　├── 📄 armor.json
+　　　　　　│ 　　　├── 📄 autoGuide.json
+　　　　　　│ 　　　├── 📄 skill.json
+　　　　　　│ 　　　├── 📄 skillCustom.json
+　　　　　　│ 　　　├── 📄 state.json
+　　　　　　│ 　　　├── 📄 stateTest.json
+　　　　　　│ 　　　├── 📄 system.json
+　　　　　　│ 　　　├── 📄 title.json
+　　　　　　│ 　　　├── 📄 weapon.json
+　　　　　　│ 　　　└── 📄 weaponTest.json
 　　　　　　├── 📂 Item
 　　　　　　│ 　└── 📂 JSON
-　　　　　　│ 　　　└── 📄 item.json　　◆ TODO 要調査
+　　　　　　│ 　　　└── 📄 item.json
 　　　　　　├── 📂 Map
 　　　　　　│ 　└── 📂 JSON
 　　　　　　│ 　　　├── 📂 Map
@@ -2924,18 +2936,6 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　│ 　　　├── 📄 config.json　　◆ TODO 要調査
 　　　　　　│ 　　　├── 📄 party.json　　◆ TODO 要調査
 　　　　　　│ 　　　└── 📄 system.json　　◆ TODO 要調査
-　　　　　　├── 📂 Initializations
-　　　　　　│ 　└── 📂 JSON
-　　　　　　│ 　　　├── 📄 armor.json
-　　　　　　│ 　　　├── 📄 autoGuide.json
-　　　　　　│ 　　　├── 📄 skill.json
-　　　　　　│ 　　　├── 📄 skillCustom.json
-　　　　　　│ 　　　├── 📄 state.json
-　　　　　　│ 　　　├── 📄 stateTest.json
-　　　　　　│ 　　　├── 📄 system.json
-　　　　　　│ 　　　├── 📄 title.json
-　　　　　　│ 　　　├── 📄 weapon.json
-　　　　　　│ 　　　└── 📄 weaponTest.json
 　　　　　　├── 📂 Sounds
 　　　　　　│ 　├── 📄 bgmLoopInfo.json　　◆ TODO 要調査
 　　　　　　│ 　└── 📄 bgsLoopInfo.json　　◆ TODO 要調査
@@ -5435,6 +5435,178 @@ Dammy:
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　**📂 `Initializations` というフォルダー名が間違っていて、**  
 **📂 `views` ぐらいの名前の方が　合ってんじゃないの？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Item/JSON/item.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Item
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 item.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "basic": {
+      "canSell": 1,
+      "canUseTiming": 3,
+      "consumable": 1,
+      "description": "0",
+      "iconId": "IconSet_000",
+      "id": "db56b1eb-5c6e-42a3-915f-c2ec4d9c7290",
+      "itemType": 0,
+      "name": "-----Reserve",
+      "price": 0,
+      "sell": 0,
+      "switchItem": 1
+    },
+    "memo": "",
+    "targetEffect": {
+      "activate": {
+        "animationId": "0",
+        "continuousNumber": 0,
+        "correctionSpeed": 0,
+        "getTp": 0,
+        "hitType": -1,
+        "successRate": 0
+      },
+      "damage": {
+        "critical": 0,
+        "damageType": 0,
+        "distribute": 0,
+        "distributeEnabled": 0,
+        "elements": [
+        ],
+        "max": 0,
+        "maxEnabled": 0,
+        "min": 0,
+        "minEnabled": 0,
+        "value": ""
+      },
+      "heal": {
+        "hp": {
+          "calc": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 1,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": "0"
+          },
+          "enabled": 0,
+          "fix": {
+            "enabled": 0,
+            "value": 0
+          },
+          "perMax": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 0,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": 0
+          }
+        },
+        "mp": {
+          "（※翻訳者追記）", "上の hp と同様の項目名が並ぶ"
+        },
+        "tp": {
+          "（※翻訳者追記）", "上の hp と同様の項目名が並ぶ"
+        }
+      },
+      "otherEffects": [
+      ],
+      "randomNumber": 0,
+      "targetRange": 0,
+      "targetStatus": 0,
+      "targetTeam": 0,
+      "targetUser": 0
+    },
+    "userEffect": {
+      "activate": {
+        "animationId": "",
+        "continuousNumber": 0,
+        "correctionSpeed": 0,
+        "getTp": 0,
+        "hitType": 0,
+        "successRate": 0
+      },
+      "damage": {
+        "critical": 0,
+        "damageType": 0,
+        "distribute": 0,
+        "distributeEnabled": 0,
+        "elements": [
+        ],
+        "max": 0,
+        "maxEnabled": 0,
+        "min": 0,
+        "minEnabled": 0,
+        "value": ""
+      },
+      "heal": {
+        "hp": {
+          "calc": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 1,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": ""
+          },
+          "enabled": 0,
+          "fix": {
+            "enabled": 0,
+            "value": 0
+          },
+          "perMax": {
+            "distribute": 0,
+            "distributeEnabled": 0,
+            "enabled": 0,
+            "max": 0,
+            "maxEnabled": 0,
+            "value": 0
+          }
+        },
+        "mp": {
+          "（※翻訳者追記）", "上の hp と同様の項目名が並ぶ"
+        },
+        "tp": {
+          "（※翻訳者追記）", "上の hp と同様の項目名が並ぶ"
+        }
+      },
+      "otherEffects": [
+      ],
+      "randomNumber": 0,
+      "targetRange": 0,
+      "targetStatus": 0,
+      "targetTeam": 0,
+      "targetUser": 0
+    }
+  },
+  
+  ...
+
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　アイテムの効果だろうか？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**`otherEffects` のリストには何が入るの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　データがいっぱいあって　見るのも嫌だぜ」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
