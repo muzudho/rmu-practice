@@ -362,7 +362,10 @@ Gotcha Gotcha Games の開発者は恐らく　アセットなのが良いんで
 「　📂 `Animation` と、 📂 `Sounds` と、 📂 `Movies` だけ　選択から外せばいいんじゃないか？」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　📂 `Map` の中に　マップのでかいプレビュー画像が入っていたりして　いらいら　するぜ」  
+「　📂 `Map` の中に　マップのでかいプレビュー画像や、  
+👇　マップのタイル・セットの中のタイルを　１枚１枚分解した画像が入っていたりして　いらいら　するぜ」  
+
+参考動画：📺 [偶然重い原因が分かって悶絶するひろはす【RPG MAKER UNITE】](https://www.youtube.com/watch?v=M9snP2oLWF8)  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　📂 `Images`　フォルダーを開けてみましょう！」  
