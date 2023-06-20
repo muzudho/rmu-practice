@@ -2924,7 +2924,7 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　│ 　　　├── 📄 tileCollisionAssets.json
 　　　　　　│ 　　　└── 📄 tileGroup.json
 　　　　　　├── 📂 Migration
-　　　　　　│ 　　　└── 📄 MigrationHistory.json　　◆ TODO 要調査
+　　　　　　│ 　　　└── 📄 MigrationHistory.json
 　　　　　　├── 📂 Outline
 　　　　　　│ 　　　├── 📄 chapter.json　　◆ TODO 要調査
 　　　　　　│ 　　　├── 📄 connection.json　　◆ TODO 要調査
@@ -6027,7 +6027,40 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+## 📄 Assets/RPGMaker/Storage/Migration/MigrationHistory.json
 
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Migration
+👉 　　　　　　└── 📄 MigrationHistory.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "executedAt": "2023-05-28 17:43:11",
+    "executionClassIdentifier": "SampleExecutionClass1",
+    "id": "abcf095f-9e02-4b34-bc32-7d1dbf56617f"
+  },
+  {
+    "executedAt": "2023-05-28 17:43:11",
+    "executionClassIdentifier": "SampleExecutionClass2",
+    "id": "129e8958-176c-4b0b-98d6-d90b44c4bd56"
+  }
+]```
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　サンプル・ゲームを入れた記録だろうか？  
+**クラス１、 クラス２ って何か知らんけど**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 
 
