@@ -2919,7 +2919,7 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　│ 　　　├── 📂 Map
 　　　　　　│ 　　　│ 　└── 📄 00b34276-2c8a-4599-b325-4bc607ba5f5e.json　　※他多数。 UUID.json
 　　　　　　│ 　　　├── 📂 MapSample
-　　　　　　│ 　　　│ 　└── 📄 0e73b46a-fbef-4cb7-b56a-b3aade29a47a.json　　◆ TODO 要調査
+　　　　　　│ 　　　│ 　└── 📄 0e73b46a-fbef-4cb7-b56a-b3aade29a47a.json　　※他多数。 UUID.json
 　　　　　　│ 　　　├── 📄 tileAssets.json　　◆ TODO 要調査
 　　　　　　│ 　　　├── 📄 tileCollisionAssets.json　　◆ TODO 要調査
 　　　　　　│ 　　　└── 📄 tileGroup.json　　◆ TODO 要調査
@@ -5761,6 +5761,156 @@ Dammy:
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Map/JSON/MapSample/0e73b46a-fbef-4cb7-b56a-b3aade29a47a.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Map
+　　　　　　　　└── 📂 JSON
+　　　　　　　　　　└── 📂 MapSample
+👉 　　　　　　　　　　└── 📄 0e73b46a-fbef-4cb7-b56a-b3aade29a47a.json
+```
+
+Dammy:  
+
+```json
+{
+  "mapId": "0e73b46a-fbef-4cb7-b56a-b3aade29a47a",
+  "index": 43,
+  "displayName": "",
+  "name": "GrasslandRuins",
+  "width": 26,
+  "height": 25,
+  "deleted": 0,
+  "encounter": [
+  ],
+  "layers": [
+    {
+      "type": "DistantView",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "Background",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "BackgroundCollision",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "A",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "A_Effect",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "B",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "B_Effect",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "Shadow",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "C",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "C_Effect",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "D",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "D_Effect",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "ForRoute",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "Region",
+      "tileIdsOnPalette": [
+      ]
+    }
+  ],
+  "scrollType": 0,
+  "autoPlayBGM": false,
+  "bgmID": "",
+  "bgmState": {
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "autoPlayBgs": false,
+  "bgsID": "",
+  "bgsState": {
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "forbidDash": false,
+  "background": {
+    "imageName": "",
+    "imageZoomIndex": 0,
+    "showInEditor": true
+  },
+  "Parallax": {
+    "loopX": false,
+    "loopY": false,
+    "name": "",
+    "show": true,
+    "sx": 0,
+    "sy": 0,
+    "zoom0": true,
+    "zoom2": false,
+    "zoom4": false
+  },
+  "memo": ""
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　さっきの 📂 `Map` フォルダーにも似たようなファイルが合った。ファイル名は違う」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**📂 `Map` フォルダーと、 📂 `MapSample` フォルダーが　何で分かれてんの？**  
+**サンプルを入れたのなら、📂 `Map` フォルダーを上書きすりゃ　いいんじゃないの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　サンプル・ゲーム用のハード・コーディングがあるのは　確認しているが……、  
+サンプル・ゲームは　本来のゲームではできない動きができるように　何かやってるのでは？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+
 
 
 ＜書きかけ＞
