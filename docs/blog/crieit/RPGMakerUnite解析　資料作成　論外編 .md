@@ -20,7 +20,7 @@
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　👆　４月２７日、つまり発売日より前に作られた　１ＧＢ　の　アーカイブ・ファイルが  
-アセットに入っているのか　わたしの　ローカルＰＣに入ってるぜ」  
+わたしの　ローカルＰＣの　アセットに　入ってるぜ」  
 
 ![202306_rmu_20-0109--1GB-file-properties.png](https://crieit.now.sh/upload_images/f979ebb59b99b9f9ae2ed9b867415d8264907ddfe50f6.png)  
 
@@ -2899,6 +2899,31 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　├── 📂 Flags
 　　　　　　│ 　└── 📂 JSON
 　　　　　　│ 　　　└── 📄 flags.json
+　　　　　　├── 📂 Item
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　└── 📄 item.json　　◆ TODO 要調査
+　　　　　　├── 📂 Map
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　├── 📂 Map
+　　　　　　│ 　　　│ 　└── 📄 00b34276-2c8a-4599-b325-4bc607ba5f5e.json.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📂 MapSample
+　　　　　　│ 　　　│ 　└── 📄 0e73b46a-fbef-4cb7-b56a-b3aade29a47a.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📄 tileAssets.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📄 tileCollisionAssets.json　　◆ TODO 要調査
+　　　　　　│ 　　　└── 📄 tileGroup.json　　◆ TODO 要調査
+　　　　　　├── 📂 Migration
+　　　　　　│ 　　　└── 📄 MigrationHistory.json　　◆ TODO 要調査
+　　　　　　├── 📂 Outline
+　　　　　　│ 　　　├── 📄 chapter.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📄 connection.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📄 section.json　　◆ TODO 要調査
+　　　　　　│ 　　　└── 📄 start.json　　◆ TODO 要調査
+　　　　　　├── 📂 SaveData
+　　　　　　│ 　└── 📂 JSON
+　　　　　　│ 　　　├── 📄 actors.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📄 config.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📄 party.json　　◆ TODO 要調査
+　　　　　　│ 　　　└── 📄 system.json　　◆ TODO 要調査
 　　　　　　├── 📂 Initializations
 　　　　　　│ 　└── 📂 JSON
 　　　　　　│ 　　　├── 📄 armor.json
@@ -2911,12 +2936,15 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　│ 　　　├── 📄 title.json
 　　　　　　│ 　　　├── 📄 weapon.json
 　　　　　　│ 　　　└── 📄 weaponTest.json
+　　　　　　├── 📂 Sounds
+　　　　　　│ 　├── 📄 bgmLoopInfo.json　　◆ TODO 要調査
+　　　　　　│ 　└── 📄 bgsLoopInfo.json　　◆ TODO 要調査
 　　　　　　├── 📂 Ui
 　　　　　　│ 　└── 📂 JSON
-　　　　　　│ 　　　└── 📄 ui.json　　◆ TODO
+　　　　　　│ 　　　└── 📄 ui.json　　◆ TODO 要調査
 　　　　　　└── 📂 Word
 　　　　　　　　└── 📂 JSON
-　　　　　　　　　　└── 📄 words.json　　◆ TODO
+　　　　　　　　　　└── 📄 words.json　　◆ TODO 要調査
 ```
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
