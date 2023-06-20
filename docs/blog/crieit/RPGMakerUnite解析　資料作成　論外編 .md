@@ -9,7 +9,9 @@
 「　ＲＰＧは作ったのかだぜ？」  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　作ってないわよ。こんなソフト論外よ」  
+「　作ってないわよ。こんなソフト論外よ。  
+早々に　RMUの開発を打切り、　開発実績のあるプログラムのチームを構成し  
+アーキテクチャーから見直さなければ　希望は無いと言えるでしょう」  
 
 # ４月２７日　１ギガ・バイトのアーカイブ・ファイル
 
@@ -2926,16 +2928,16 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　├── 📂 Migration
 　　　　　　│ 　　　└── 📄 MigrationHistory.json
 　　　　　　├── 📂 Outline
-　　　　　　│ 　　　├── 📄 chapter.json　　◆ TODO 要調査
-　　　　　　│ 　　　├── 📄 connection.json　　◆ TODO 要調査
-　　　　　　│ 　　　├── 📄 section.json　　◆ TODO 要調査
-　　　　　　│ 　　　└── 📄 start.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📄 chapter.json
+　　　　　　│ 　　　├── 📄 connection.json
+　　　　　　│ 　　　├── 📄 section.json
+　　　　　　│ 　　　└── 📄 start.json
 　　　　　　├── 📂 SaveData
 　　　　　　│ 　└── 📂 JSON
-　　　　　　│ 　　　├── 📄 actors.json　　◆ TODO 要調査
-　　　　　　│ 　　　├── 📄 config.json　　◆ TODO 要調査
-　　　　　　│ 　　　├── 📄 party.json　　◆ TODO 要調査
-　　　　　　│ 　　　└── 📄 system.json　　◆ TODO 要調査
+　　　　　　│ 　　　├── 📄 actors.json
+　　　　　　│ 　　　├── 📄 config.json
+　　　　　　│ 　　　├── 📄 party.json
+　　　　　　│ 　　　└── 📄 system.json
 　　　　　　├── 📂 Sounds
 　　　　　　│ 　├── 📄 bgmLoopInfo.json　　◆ TODO 要調査
 　　　　　　│ 　└── 📄 bgsLoopInfo.json　　◆ TODO 要調査
@@ -6061,6 +6063,415 @@ Dammy:
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Outline/chapter.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Outline
+👉 　　　　　　└── 📄 chapter.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "beforeChapterId": 0,
+    "chapterId": "5859b122-61b3-9a58-b886-2483b495803b",
+    "deleted": 0,
+    "description": "",
+    "image": "",
+    "levelHigh": 4,
+    "levelLow": 1,
+    "mapId": "369bb76a-77d6-472a-8b17-a8e3a37c572a",
+    "nextChapterId": 0,
+    "position": [
+      382.0001220703125,
+      38.0
+    ],
+    "title": "Starterton"
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　アウトライン・エディターの章が並んでいと思うぜ」  
+
+## 📄 Assets/RPGMaker/Storage/Outline/connection.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Outline
+👉 　　　　　　└── 📄 connection.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "id": "a692d568-c8f2-4687-8499-856e16e7d177",
+    "lPortDirection": 2,
+    "lPortOrientation": 1,
+    "lUuid": "5859b122-61b3-9a58-b886-2483b495803b",
+    "rPortDirection": 1,
+    "rPortOrientation": 1,
+    "rUuid": "413c26da-944f-4996-9347-bce0f4f7796e"
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**接続って何か分からないが、グラフ理論で言うところのエッジのことじゃないだろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Outline/section.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Outline
+👉 　　　　　　└── 📄 section.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "chapterId": "5859b122-61b3-9a58-b886-2483b495803b",
+    "clearFlag": [
+    ],
+    "deleted": 0,
+    "description": "",
+    "image": "",
+    "mapIds": [
+      "65ff8a91-3d15-48bf-b4e7-f8d109d3f6da"
+    ],
+    "memo": "\t",
+    "position": [
+      382.00018310546877,
+      388.5712585449219
+    ],
+    "sectionId": "413c26da-944f-4996-9347-bce0f4f7796e",
+    "startFlag": [
+    ],
+    "title": "Trying one's ability"
+  },
+  
+  ...
+  
+]
+
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　アウトライン・エディターの章の下にぶら下がっている要素が　セクション　だぜ」  
+
+## 📄 Assets/RPGMaker/Storage/Outline/start.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Outline
+👉 　　　　　　└── 📄 start.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "beforeStartId": 0,
+    "deleted": 0,
+    "description": "ラダドーム～ガライの町\nメルキド\n竜王の白",
+    "nextStartId": 0,
+    "position": [
+      56.571510314941409,
+      44.000003814697269
+    ],
+    "startId": "4514da87-c3d4-4ce3-bd2d-6113edaa4c84",
+    "title": "チャプターA123"
+  }
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**ドラクエ１の町の名前が入っているし、魔王の白は　魔王の城の誤字だろう**  
+**こんなファイル、使っているのだろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/SaveData/JSON/actors.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 SaveData
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 actors.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "actorId": 1,
+    "name": "Harold",
+    "nickname": "",
+    "classId": 1,
+    "level": 1,
+    "characterImage": "Actor1",
+    "faceImage": "Actor1",
+    "battlerImage": "Actor1_1",
+    "advImage": "Actor1_1",
+    "exp": [
+      {
+        "classId": 1,
+        "value": 100
+      }
+    ],
+    "hp": 389,
+    "mp": 90,
+    "tp": 0,
+    "hidden": 0,
+    "paramPlus": {
+      "maxHp": 100,
+      "maxMp": 100,
+      "attack": 100,
+      "defense": 100,
+      "magicAttack": 100,
+      "magicDefence": 100,
+      "speed": 100,
+      "luck": 100
+    },
+    "states": [
+      {
+        "id": 1,
+        "walkingCount": 1
+      }
+    ],
+    "skills": [
+      1,
+      2,
+      3
+    ],
+    "equips": [
+      {
+        "equipType": 1,
+        "itemId": 1
+      }
+    ],
+    "lastMenuSkill": {
+      "dataClass": "",
+      "itemId": 0
+    },
+    "lastBattleSkill": {
+      "dataClass": "",
+      "itemId": 0
+    }
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　アクターを保存しているデータかな？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**セーブデータのスロットとは　どう対応してんの？**  
+**セーブデータが１００個あるとき、セーブデータ１と、セーブデータ２のアクターはどう区別するの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　さあ……」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/SaveData/JSON/config.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 SaveData
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 config.json
+```
+
+Dammy:  
+
+```json
+{
+  "alwaysDash": 0,
+  "commandRemember": 0,
+  "bgmVolume": 100,
+  "bgsVolume": 100,
+  "meVolume": 100,
+  "seVolume": 100
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　タイトル画面で設定できるデータかな？」  
+
+## 📄 Assets/RPGMaker/Storage/SaveData/JSON/party.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 SaveData
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 party.json
+```
+
+Dammy:  
+
+```json
+{
+		"inBattle": 0,
+		"gold": 0,
+		"steps": 10,
+		"lastItem": {
+			"itemId": 0
+		},
+		"menuActorId": 0,
+		"targetActorId": 0,
+		"actors": [
+				1,
+				2,
+				3,
+				4
+			],
+		"items": [{
+			"itemId": 1,
+			"value": 2
+		}],
+		"weapons": [{
+			"weaponId": 1,
+			"value": 2
+		}],
+		"armors": [{
+			"armorId": 1,
+			"value": 2
+		}]
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　いわゆる　セーブ・データかな？」  
+
+## 📄 Assets/RPGMaker/Storage/SaveData/JSON/system.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 SaveData
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 system.json
+```
+
+Dammy:  
+
+```json
+{
+  "saveEnabled": 1,
+  "menuEnabled": 1,
+  "encounterEnabled": 1,
+  "formationEnabled": 1,
+  "battleCount": 0,
+  "winCount": 0,
+  "escapeCount": 0,
+  "saveCount": 0,
+  "framesOnSave": 0,
+  "bgmOnSave": {
+    "name": "",
+    "pan": 0,
+    "pitch": 0,
+    "volume": 100
+  },
+  "bgsOnSave": {
+    "name": "",
+    "pan": 0,
+    "pitch": 0,
+    "volume": 100
+  },
+  "windowTone": [
+    0
+  ],
+  "battleBgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 0,
+    "volume": 100
+  },
+  "victoryMe": {
+    "name": "",
+    "pan": 0,
+    "pitch": 0,
+    "volume": 100
+  },
+  "defeatMe": {
+    "name": "",
+    "pan": 0,
+    "pitch": 0,
+    "volume": 100
+  },
+  "savedBgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 0,
+    "volume": 100
+  },
+  "walkingBgm": {
+    "name": "",
+    "pan": 0,
+    "pitch": 0,
+    "volume": 100
+  },
+  "chapterId": 0,
+  "sectionId": 0
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**📄 `config.json` より細かいな……、じゃあ 📄 `config.json` って何だったんだ……？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+
+
 
 
 
