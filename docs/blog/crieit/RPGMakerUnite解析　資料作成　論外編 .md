@@ -2922,7 +2922,7 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　│ 　　　│ 　└── 📄 0e73b46a-fbef-4cb7-b56a-b3aade29a47a.json　　※他多数。 UUID.json
 　　　　　　│ 　　　├── 📄 tileAssets.json
 　　　　　　│ 　　　├── 📄 tileCollisionAssets.json
-　　　　　　│ 　　　└── 📄 tileGroup.json　　◆ TODO 要調査
+　　　　　　│ 　　　└── 📄 tileGroup.json
 　　　　　　├── 📂 Migration
 　　　　　　│ 　　　└── 📄 MigrationHistory.json　　◆ TODO 要調査
 　　　　　　├── 📂 Outline
@@ -5979,6 +5979,54 @@ Dammy:
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Map/JSON/tileGroup.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Map
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 tileGroup.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "id": "e48fd666-fd65-4a13-85bb-649f0ebd8649",
+    "name": "World_A1",
+    "tileList": [
+      {
+        "id": "e94cf3bf-dfac-48b7-8621-e8eae26bcede",
+        "type": "AutoTileA"
+      },
+      {
+        "id": "78dfd98d-31d7-4ea9-8364-32e74412fbc3",
+        "type": "AutoTileA"
+      },
+      
+      ...
+      
+    ]
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　タイル・グループのリストで、  
+そのタイル・グループは　タイルのリストを持っているようだぜ。  
+**マップ・エディターの下部のタイル・パレットに対応しているんじゃないか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 
 
 
