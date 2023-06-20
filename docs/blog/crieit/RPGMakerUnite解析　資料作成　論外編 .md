@@ -2917,7 +2917,7 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　├── 📂 Map
 　　　　　　│ 　└── 📂 JSON
 　　　　　　│ 　　　├── 📂 Map
-　　　　　　│ 　　　│ 　└── 📄 00b34276-2c8a-4599-b325-4bc607ba5f5e.json.json　　◆ TODO 要調査
+　　　　　　│ 　　　│ 　└── 📄 00b34276-2c8a-4599-b325-4bc607ba5f5e.json　　※他多数。 UUID.json
 　　　　　　│ 　　　├── 📂 MapSample
 　　　　　　│ 　　　│ 　└── 📄 0e73b46a-fbef-4cb7-b56a-b3aade29a47a.json　　◆ TODO 要調査
 　　　　　　│ 　　　├── 📄 tileAssets.json　　◆ TODO 要調査
@@ -5611,6 +5611,156 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+## 📄 Assets/RPGMaker/Storage/Map/JSON/Map/00b34276-2c8a-4599-b325-4bc607ba5f5e.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Map
+　　　　　　　　└── 📂 JSON
+　　　　　　　　　　└── 📂 Map
+👉 　　　　　　　　　　└── 📄 00b34276-2c8a-4599-b325-4bc607ba5f5e.json
+```
+
+Dammy:  
+
+```json
+{
+  "mapId": "00b34276-2c8a-4599-b325-4bc607ba5f5e",
+  "index": 54,
+  "displayName": "",
+  "name": "0040111_Limitana_Home 3",
+  "width": 21,
+  "height": 18,
+  "deleted": 0,
+  "encounter": [
+  ],
+  "layers": [
+    {
+      "type": "DistantView",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "Background",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "BackgroundCollision",
+      "tileIdsOnPalette": [
+        "063744d8-c66f-4aca-9512-b2cccbe3abd7",
+        "292fbe51-1ca2-4d26-8e5a-de652b1248ba",
+        
+        ...
+        
+      ]
+    },
+    {
+      "type": "A",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "A_Effect",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "B",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "B_Effect",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "Shadow",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "C",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "C_Effect",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "D",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "D_Effect",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "ForRoute",
+      "tileIdsOnPalette": [
+      ]
+    },
+    {
+      "type": "Region",
+      "tileIdsOnPalette": [
+      ]
+    }
+  ],
+  "scrollType": 0,
+  "autoPlayBGM": false,
+  "bgmID": "",
+  "bgmState": {
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "autoPlayBgs": false,
+  "bgsID": "",
+  "bgsState": {
+    "pan": 0,
+    "pitch": 100,
+    "volume": 90
+  },
+  "forbidDash": false,
+  "background": {
+    "imageName": "",
+    "imageZoomIndex": 0,
+    "showInEditor": true
+  },
+  "Parallax": {
+    "loopX": false,
+    "loopY": false,
+    "name": "",
+    "show": true,
+    "sx": 0,
+    "sy": 0,
+    "zoom0": true,
+    "zoom2": false,
+    "zoom4": false
+  },
+  "memo": ""
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　マップ編集中のビューを保存しているのだろうか？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ゲーム中のマップのデータではないの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　**パレットが並んでるの、ゲーム中で使うんだろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 
 ＜書きかけ＞
