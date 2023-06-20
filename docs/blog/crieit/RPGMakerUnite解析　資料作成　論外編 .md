@@ -2939,14 +2939,14 @@ JSON ファイルは Java Script から生まれたデータ記録形式なの�
 　　　　　　│ 　　　├── 📄 party.json
 　　　　　　│ 　　　└── 📄 system.json
 　　　　　　├── 📂 Sounds
-　　　　　　│ 　├── 📄 bgmLoopInfo.json　　◆ TODO 要調査
-　　　　　　│ 　└── 📄 bgsLoopInfo.json　　◆ TODO 要調査
+　　　　　　│ 　├── 📄 bgmLoopInfo.json
+　　　　　　│ 　└── 📄 bgsLoopInfo.json
 　　　　　　├── 📂 Ui
 　　　　　　│ 　└── 📂 JSON
-　　　　　　│ 　　　└── 📄 ui.json　　◆ TODO 要調査
+　　　　　　│ 　　　└── 📄 ui.json
 　　　　　　└── 📂 Word
 　　　　　　　　└── 📂 JSON
-　　　　　　　　　　└── 📄 words.json　　◆ TODO 要調査
+　　　　　　　　　　└── 📄 words.json
 ```
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
@@ -6470,8 +6470,408 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+## 📄 Assets/RPGMaker/Storage/Sounds/bgmLoopInfo.json
 
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Sounds
+👉 　　　　　　└── 📄 bgmLoopInfo.json
+```
 
+Dammy:  
+
+```json
+[
+  {
+    "name": "U_Battle_01.wav",
+    "start": -1,
+    "end": -1
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**ＢＧＭのループの開始地点と、終了地点を指定するんじゃないかな？**」  
+
+## 📄 Assets/RPGMaker/Storage/Sounds/bgsLoopInfo.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Sounds
+👉 　　　　　　└── 📄 bgsLoopInfo.json
+```
+
+Dammy:  
+
+```json
+[
+  {
+    "name": "City.ogg",
+    "start": 341689,
+    "end": 1533320
+  },
+  
+  ...
+  
+]
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**環境音のループの開始地点と、終了地点を指定するんじゃないかな？**」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**環境音が１万個あったら、１万個の設定が１つのファイルに入るの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　そうだろ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**ファイルパスではなく、ファイル名で指定すんの？**  
+**じゃあ環境音のファイルは、フォルダー整理できないの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　どうなんだろな？」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Ui/JSON/ui.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Ui
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 ui.json
+```
+
+Dammy:  
+
+```json
+{
+  "battleMenu": {
+    "menuHp": {
+      "enabled": 0
+    },
+    "menuMp": {
+      "enabled": 0
+    },
+    "menuTp": {
+      "enabled": 0
+    }
+  },
+  "commonMenus": [
+    {
+      "backgroundImage": {
+        "color": [
+          254,
+          254,
+          254,
+          0
+        ],
+        "image": "UI_bg_01",
+        "type": 0
+      },
+      "buttonFrameImage": {
+        "color": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "image": "UI_window_frame_01",
+        "type": 0
+      },
+      "buttonImage": {
+        "color": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "image": "UI_button_bg_01",
+        "type": 0
+      },
+      "buttonImageHighlight": [
+        38,
+        175,
+        255,
+        83
+      ],
+      "characterType": 2,
+      "id": "1",
+      "menuFontSetting": {
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "font": "mplus-1m-regular",
+        "size": 40
+      },
+      "windowBackgroundImage": {
+        "color": [
+          0,
+          0,
+          0,
+          128
+        ],
+        "image": "UI_window_bg_01",
+        "type": 0
+      },
+      "windowFrameImage": {
+        "color": [
+          245,
+          249,
+          252,
+          0
+        ],
+        "image": "UI_window_frame_02",
+        "type": 1
+      },
+      "windowFrameImageHighlight": [
+        234,
+        143,
+        199,
+        0
+      ]
+    }
+  ],
+  "gameMenu": {
+    "categoryArmor": {
+      "enabled": 1
+    },
+    "categoryImportant": {
+      "enabled": 1
+    },
+    "categoryItem": {
+      "enabled": 1
+    },
+    "categoryWeapon": {
+      "enabled": 1
+    },
+    "menuEquipment": {
+      "enabled": 1
+    },
+    "menuFontSetting": {
+      "color": [
+        100,
+        150,
+        200
+      ],
+      "font": "AAA",
+      "size": 16
+    },
+    "menuGameEnd": {
+      "enabled": 1
+    },
+    "menuItem": {
+      "enabled": 1
+    },
+    "menuOption": {
+      "enabled": 1
+    },
+    "menuSave": {
+      "enabled": 1
+    },
+    "menuSkill": {
+      "enabled": 1
+    },
+    "menuSort": {
+      "enabled": 1
+    },
+    "menuStatus": {
+      "enabled": 1
+    }
+  },
+  "talkMenu": {
+    "characterMenu": {
+      "characterEnabled": 1,
+      "nameEnabled": 1,
+      "nameFontSetting": {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "font": "002",
+        "size": 100
+      },
+      "talkFontSetting": {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "font": "AAA",
+        "size": 100
+      }
+    },
+    "itemSelectMenu": {
+      "menuFontSetting": {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "font": "002",
+        "size": 100
+      },
+      "positionItemWindow": 2
+    },
+    "numberMenu": {
+      "menuFontSetting": {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "font": "002",
+        "size": 100
+      },
+      "numberEnabled": 0,
+      "positionNumberWindow": [
+        0,
+        0
+      ]
+    },
+    "selectMenu": {
+      "menuFontSetting": {
+        "color": [
+          246,
+          229,
+          229
+        ],
+        "font": "002",
+        "size": 100
+      }
+    }
+  }
+}
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**戦闘画面の文字の表示の有無と　色とかかなあ？**」  
+
+## 📄 Assets/RPGMaker/Storage/Word/JSON/words.json
+
+```plaintext
+[現実]
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　└── 📂 Storage
+　　　　　　└── 📂 Word
+　　　　　　　　└── 📂 JSON
+👉 　　　　　　　　└── 📄 words.json
+```
+
+Dammy:  
+
+```json
+{
+	"basicStatus": {
+		"exp": {
+			"enabled": 1,
+			"initialValue": "ＥＸＰ",
+			"value": "ＥＸＰ"
+		},
+		"expShort": {
+			"enabled": 1,
+			"initialValue": "EXP",
+			"value": "EXP"
+		},
+        
+        ...
+        
+	},
+	"commands": {
+		"alwaysDash": {
+			"enabled": 1,
+			"initialValue": "Always Dash",
+			"value": "Always Dash"
+		},
+		"armor": {
+			"enabled": 1,
+			"initialValue": "Armor",
+			"value": "Armor"
+		},
+        
+        ...
+        
+	},
+	"messages": {
+		"actionFailure": {
+			"enabled": 1,
+			"initialValue": "There was no effect on %1!",
+			"value": "There was no effect on %1!"
+		},
+		"actorDamage": {
+			"enabled": 1,
+			"initialValue": "%1 took %2 damage!",
+			"value": "%1 took %2 damage!"
+		},
+        
+        ...
+        
+	},
+	"status": {
+		"attack": {
+			"enabled": 1,
+			"initialValue": "Attack",
+			"value": "Attack"
+		},
+		"evasion": {
+			"enabled": 1,
+			"initialValue": "Evasion Rate",
+			"value": "Evasion Rate"
+		},
+        
+        ...
+        
+	},
+	"runtimeShop": {
+		"buy": {
+			"enabled": 1,
+			"initialValue": "Buy",
+			"value": "Buy"
+		},
+		"sell": {
+			"enabled": 1,
+			"initialValue": "Sell",
+			"value": "Sell"
+		},
+        
+        ...
+        
+	}
+}        
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**カテゴリー別の文字列リソースの一覧だな**」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**ローカライズを考えると、こんなファイル作るより**  
+**en、jp、kr、ch、fr、de　のようにフォルダー分けして、その下に文字列リソースを入れるべきなんじゃない？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　ここだけでなく、 **ソースコードに　日本語、中国語、英語　がハードコーディングされていた**  
+**二次元配列も気になるぜ**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 
 
