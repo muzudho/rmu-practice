@@ -13,7 +13,7 @@
 早々に　RMUの開発を打切り、　開発実績のあるプログラムのチームを編成し  
 アーキテクチャーから見直さなければ　希望は無いと言えるでしょう」  
 
-# ４月２７日　１ギガ・バイトのアーカイブ・ファイル
+# ４月２７日分　合計２．２８ギガ・バイトのアーカイブ・ファイルズ
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　まず　手始めに　ご覧に見せよう」  
@@ -21,16 +21,22 @@
 ![202306_rmu_20-0106--1GB-file.png](https://crieit.now.sh/upload_images/508ebb5566a9a6770b16544e4e773eff64907d530f8e7.png)  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　４月２７日、つまり発売日より前に作られた　１ＧＢ　の　アーカイブ・ファイルが  
-わたしの　ローカルＰＣの　アセットに　入ってるぜ」  
+「　👆　ＲＰＧ　Ｍａｋｅｒ　Ｕｎｉｔｅ　を　アセット・ストアからダウンロード、インポートすると、  
+📂 `Assets` フォルダーの中に 📂 `RPGMaker` フォルダーが作られるが……」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　その中に　デフォルト・ゲーム　を　.zip 圧縮した　１ＧＢ　の　アーカイブ・ファイルなど　合計２．２８ＧＢ分が 入ってるぜ」  
 
 ![202306_rmu_20-0109--1GB-file-properties.png](https://crieit.now.sh/upload_images/f979ebb59b99b9f9ae2ed9b867415d8264907ddfe50f6.png)  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　重たいわねえ」  
+「　重たいわねえ。  
+常識的に考えて　.zip ファイルは　📂 `Assets` フォルダーではなく、  
+Windows の　📂 `Download` フォルダーにでもダウンロードされるべきで、  
+デフォルト・ゲームの解凍が終わったのなら　.zip ファイル　は　削除してよくない？」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　**こんなファイル　要るのかだぜ？**」  
+「　**こんな書庫ファイル　いつまでも　📂 `Assets` フォルダーの下に　要るのかだぜ？**」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　知らん」  
