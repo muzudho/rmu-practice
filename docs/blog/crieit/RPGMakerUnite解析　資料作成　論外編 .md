@@ -10,7 +10,7 @@
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　作ってないわよ。こんなソフト論外よ。  
-早々に　RMUの開発を打切り、　開発実績のあるプログラムのチームを構成し  
+早々に　RMUの開発を打切り、　開発実績のあるプログラムのチームを編成し  
 アーキテクチャーから見直さなければ　希望は無いと言えるでしょう」  
 
 # ４月２７日　１ギガ・バイトのアーカイブ・ファイル
@@ -37,6 +37,17 @@
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
+
+# 587個の C# ファイルは軽く目を通した
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　公式が　ソース読め、と言い逃れしたときの対策として、 587個の C# ファイルを読んだので
+👇　目録を　グーグル・ドライブに　まとめておいたぜ」  
+
+📖 [RMU 1.00.00 Research Project](https://drive.google.com/drive/folders/1WG7hXB7dCu4QVRpg7_NB0JDE4Yq3Jdf8?usp=sharing)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　ただ、ソースを読んでも　資料がなければ　分からない。  そこで……」  
 
 # 資料作成
 
