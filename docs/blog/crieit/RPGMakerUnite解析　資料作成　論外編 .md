@@ -7184,11 +7184,40 @@ Dammy:
 
 ## 📄 Assets/Resources/EventSystemNon.prefab
 
+![202306_rmu_22-2200--EventSystemNon.png](https://crieit.now.sh/upload_images/3e9834b582fc9b9c2f7b63b794933806649445f1bfa47.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**インスペクターに Input System と書いてるな。何か入力と関係があるのか……？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/Resources/InputSystem.prefab
+
+![202306_rmu_22-2202--InputSystem.png](https://crieit.now.sh/upload_images/b45470f1071eda8c662e4e1df6334c5464944671bd323.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**これが Input System ？　さっぱり分かんね**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Asset/Prefab/BattleScenePreviewCanvas.prefab
 
+![202306_rmu_22-2204--BattleScenePreviewCanvas.png](https://crieit.now.sh/upload_images/930a5e62b180b15de74074fca217d5b3649447090c100.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**この マトリョーシカ・フォルダーに入っているのは、戦闘シーンをプレビューするキャンバスだそうだぜ。プレビューって何だ？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Asset/Prefab/GameOver.prefab
+
+![202306_rmu_22-2207--GameOver.png](https://crieit.now.sh/upload_images/11a723417dcfbfe2b366debaf36b66d1649447cca964f.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ゲーム・オーバー画面は　実行時用の戦闘フォルダーの中に有るんだな。そんなカテゴリーで見つけやすいのか？」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Asset/Prefab/SpriteSetBattle.prefab
 
