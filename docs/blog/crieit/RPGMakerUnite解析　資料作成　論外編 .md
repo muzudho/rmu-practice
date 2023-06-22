@@ -162,6 +162,13 @@ Unity Editor の２回目以降の起動時には　この複製はスキップ�
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　👆　データは上書きされるんじゃないか？」  
 
+![202306_rmu_22-2025--RMU-official-FAQ.png](https://crieit.now.sh/upload_images/9c87e12ef2610d2d68212f1159b1462064942fb8b9aa4.png)  
+
+👆　📖　[公式　＞　FAQ](https://support.rpgmakerunite.com/hc/ja/articles/17538264929561-FAQ)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ゲーム・データが消えるということは　公式も認知してるぜ」  
+
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　破壊的な操作は、する前に　ユーザーの確認を取るもんじゃないの？」  
 
