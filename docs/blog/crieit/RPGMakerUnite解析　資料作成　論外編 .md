@@ -13,7 +13,7 @@
 早々に　RMUの開発を打切り、　開発実績のあるプログラムのチームを編成し  
 アーキテクチャーから見直さなければ　希望は無いと言えるでしょう」  
 
-# ４月２７日分　合計４．５６ギガ・バイトのアーカイブ・ファイルズ
+# 2.28GB ＋ 2.28GB ＋ 2.25GB、 合計 6.81GB のでかいファイルたち
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　まず　手始めに　ご覧に見せよう」  
@@ -27,7 +27,7 @@
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　その中の……つまり、 📂 `Assets/RPGMaker/Storage/System/Archive` フォルダーに  
-デフォルト・ゲーム　を　.zip 圧縮した　１ＧＢ　の　アーカイブ・ファイルなど　合計２．２８ＧＢ分が 入ってるぜ」  
+４月２７日に作られた　デフォルト・ゲーム　を　.zip 圧縮した　１ＧＢ　の　アーカイブ・ファイルなど　合計２．２８ＧＢ分が 入ってるぜ」  
 
 ![202306_rmu_20-0109--1GB-file-properties.png](https://crieit.now.sh/upload_images/f979ebb59b99b9f9ae2ed9b867415d8264907ddfe50f6.png)  
 
@@ -52,6 +52,27 @@ Windows の　📂 `Download` フォルダーにでもダウンロードされ�
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　卵を産み付けられた気分ねえ」  
+
+![202306_rmu_22-1906--OfficialFAQ.png](https://crieit.now.sh/upload_images/53e6a1d3ff5f463afca4bfcfdfc01e7264941db81cf74.png)  
+
+👆　📖　[公式　＞　FAQ](https://support.rpgmakerunite.com/hc/ja/articles/17538264929561-FAQ)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ファイルがでかいということは　公式も認知してるぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　公式のＦＡＱの　分けわからん説明は、そもそも　ＲＭＵが　分けわからん仕様であることに　起因するのねえ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　**ユーザー・データ** のための 📂 `AppData` フォルダーに、プログラムを圧縮して置いておく　ゲーム・メーカー、および　ゲーム・サークルは  
+今までに存在したのだろうか？  
+じわる」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👇　📂 `AppData` フォルダーの説明は、以下の記事で十分だろう」  
+
+📖 [What Is the AppData Folder in Windows?](https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/)  
+
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　そして　その内容だが」  
@@ -153,6 +174,22 @@ Unity Editor の２回目以降の起動時には　この複製はスキップ�
 たとえ　Unity を使っていて　マルチプラットフォームに移植できます、と言っても  
 容量がボトルネックになるだろうから　ややもすると　携帯ゲーム機に入らないかもしれない、  
 展開できないかもしれないだろ？」  
+
+## 2.25 GB のファイル
+
+![202306_rmu_22-1931--What_is_this.png](https://crieit.now.sh/upload_images/b97c8dbfa49e1a4bf845eef367a57f6c64942542800ff.png)  
+
+👆 `C:\Users\むずでょ\AppData\Roaming\Unity\Asset Store-5.x\Gotcha Gotcha Games\Textures MaterialsGUI Skins\RPG Maker Unite Please Read the Description about Early-Bird Bonus.unitypackage`  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　また、 📂 `AppData` フォルダーの中を探っていると、  2.25 GB のファイルも置いてある」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　こんなでかいファイルが　ここに置いてあるのは　わたしには　必要性が分からないんだが、  
+**このファイルは　何に使ってるんだぜ？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 # 587個の C# ファイルは軽く目を通した
 
