@@ -13,7 +13,7 @@
 早々に　RMUの開発を打切り、　開発実績のあるプログラムのチームを編成し  
 アーキテクチャーから見直さなければ　希望は無いと言えるでしょう」  
 
-# ４月２７日分　合計２．２８ギガ・バイトのアーカイブ・ファイルズ
+# ４月２７日分　合計４．５６ギガ・バイトのアーカイブ・ファイルズ
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　まず　手始めに　ご覧に見せよう」  
@@ -21,11 +21,13 @@
 ![202306_rmu_20-0106--1GB-file.png](https://crieit.now.sh/upload_images/508ebb5566a9a6770b16544e4e773eff64907d530f8e7.png)  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　ＲＰＧ　Ｍａｋｅｒ　Ｕｎｉｔｅ　を　アセット・ストアからダウンロード、インポートすると、  
-📂 `Assets` フォルダーの中に 📂 `RPGMaker` フォルダーが作られるが……」  
+「　👆　ＲＰＧ　Ｍａｋｅｒ　Ｕｎｉｔｅ　を　アセット・ストアからダウンロード、インポートするとき、  
+📂 `Assets` フォルダーの中に 📂 `RPGMaker` フォルダーが作られるが、
+サンプル・ゲームを入れようとすると……」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　その中に　デフォルト・ゲーム　を　.zip 圧縮した　１ＧＢ　の　アーカイブ・ファイルなど　合計２．２８ＧＢ分が 入ってるぜ」  
+「　その中の……つまり、 📂 `Assets/RPGMaker/Storage/System/Archive` フォルダーに  
+デフォルト・ゲーム　を　.zip 圧縮した　１ＧＢ　の　アーカイブ・ファイルなど　合計２．２８ＧＢ分が 入ってるぜ」  
 
 ![202306_rmu_20-0109--1GB-file-properties.png](https://crieit.now.sh/upload_images/f979ebb59b99b9f9ae2ed9b867415d8264907ddfe50f6.png)  
 
@@ -39,10 +41,118 @@ Windows の　📂 `Download` フォルダーにでもダウンロードされ�
 「　**こんな書庫ファイル　いつまでも　📂 `Assets` フォルダーの下に　要るのかだぜ？**」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　知らん」  
+「　もう少し　説明が必要になるだろう」  
+
+![202306_rmu_22-0744--duplicated-archive-o2o0.png](https://crieit.now.sh/upload_images/13507541b91ebc28308097caec2d70e864937d7cabb32.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　2.28 Giga Byte の書庫ファイルは、 Unity Editor の初回起動時に点検され、  
+📂 `C:\Users\{ユーザー名}\AppData\LocalLow\.RPGMaker` フォルダーに無いことが検知されると、複製される。  
+ローカルＰＣには合計　4.56 Giba Byte　の書庫ファイルが置かれるわけだぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　卵を産み付けられた気分ねえ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　そして　その内容だが」  
+
+![202306_rmu_22-0749--language-o2o0.png](https://crieit.now.sh/upload_images/13ada2c4c20b8cbc9ee59a27a554724e64937e7bca9bb.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　`cn`、 `en`、 `jp`　と、言語別の書庫があることに　賢明な読者の皆さんなら　お気づきだろう」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　わたしは日本人だが、
+このＲＭＵのローカライズ・システムでは　所定の書庫ファイルが欠けていると複製されるので　中国語も必ず置いておくことになる」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　要らんなあ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ここに　フランス、ドイツ、イタリアと増えていけば　さらに重くなりそうねえ。  
+２００か国ぐらいなら　定数倍で済むので　今どきのハードディスクなら　スケールはするんだろうけど、  
+それでも　ツクールで作ったサンプル・ゲーム１作分で　2.28 GB でしょ？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　富豪的プログラミングをしてしまう Gotcha Gotcha Games のデザイナーの思惑なんか蹴飛ばしてでも  
+ハードディスクに　要らないものは入れたくないわねえ」  
+
+![202306_rmu_22-1826--SourceCode-o1o0.png](https://crieit.now.sh/upload_images/79484d4271aa14e5d6396e9eb1fd96006494146ab1415.png)  
+
+![202306_rmu_22-1828--Comment-o1o0.png](https://crieit.now.sh/upload_images/699b296c5e9827b4c80eafc9af35f38764941473d5714.png)  
+
+👆 `C:\Users\むずでょ\Documents\Unity Projects\RMU-1-00-00-Research\Assets\RPGMaker\Codebase\Editor\Common\Helpers\TemplateInstallHelper.cs`  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　わたしは　購入したＲＭＵからインポートできる　５８７個の　Ｃ＃スクリプト・ファイルに　コメントを付けて回っているが……」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　狂ってる」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　上のソースコードを見て分かるように　**Unity Editor の使用言語**　に従って　日本語か、中国語か、英語かが　選ばれるぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　あれっ？　おかしいぜ。  
+**サンプル・ゲームの使用言語は　日本語、中国語、英語から　選んだはずでは？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
+
+![202306_rmu_22-0755--Initializations-o2o0.png](https://crieit.now.sh/upload_images/3c0506cac814715065ba7259ab9b517d6493802bdefcf.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　言語別の書庫ファイルには、 📂 `Assets/RPGMaker` フォルダーの直下に置くための 📂 `Storage` が入っていて、  
+さらにこの中の 📂 `Initializations` フォルダーには各種 JSON形式ファイルが入っている」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　この 📂 `Initializations` フォルダーの存在の無いことが、  
+📂 `C:\Users\{ユーザー名}\AppData\LocalLow\.RPGMaker` フォルダーから  
+📂 `Assets/RPGMaker/Storage/` フォルダーへの上書き複製を行うトリガーになっているから、  
+Unity Editor の２回目以降の起動時には　この複製はスキップされるぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　じゃあ　その１回目の時点で　デフォルト・ゲームが　何言語かは　固定されるわけだ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　📂 `Initializations` フォルダーを消したら　どうなんの？」  
+
+```plaintext
+この 📂 `Initializations` フォルダーの存在の無いことが、  
+📂 `C:\Users\{ユーザー名}\AppData\LocalLow\.RPGMaker` フォルダーから  
+📂 `Assets/RPGMaker/Storage/` フォルダーへの上書き複製を行うトリガーになっているから、  
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　データは上書きされるんじゃないか？」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　破壊的な操作は、する前に　ユーザーの確認を取るもんじゃないの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　開発者の無知とは　恐ろしいものだぜ」  
+
+## 注意深く理解して行えるなら、`Assets/RPGMaker/Storage/System/Archive` フォルダー内の 2.28 Giga Byte のファイルは消すことができる
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👇　`Assets/RPGMaker/Storage/System/Archive` の方の　２．２８　ギガバイトの書庫は消してもいいそうだぜ」  
+
+📄 [I need a **2.28 GIGABYTE** .zip archive folder removed from the Assets/RPGMaker/Storage/System. #26](https://github.com/ponta0321/FixRPGMakerUnite/issues/26)  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　新規プロジェクトを作成した場合は、こんなでかいフォルダー　入ってないらしいけど」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　Gotcha Gotcha Games は、ローカライズのプログラミング　覚え直してきた方がいいと思うけどな」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　こんな　リソースのエコに無頓着なインフラ、  
+たとえ　Unity を使っていて　マルチプラットフォームに移植できます、と言っても  
+容量がボトルネックになるだろうから　ややもすると　携帯ゲーム機に入らないかもしれない、  
+展開できないかもしれないだろ？」  
 
 # 587個の C# ファイルは軽く目を通した
 
