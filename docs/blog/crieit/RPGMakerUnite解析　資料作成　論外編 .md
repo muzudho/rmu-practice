@@ -73,6 +73,18 @@ Windows の　📂 `Download` フォルダーにでもダウンロードされ�
 
 📖 [What Is the AppData Folder in Windows?](https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/)  
 
+![202306_rmu_22-1958--DiskInfo.png](https://crieit.now.sh/upload_images/b44302068591159c5e1a2e7bb9ac117f6494299244791.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　上の　DiskInfo　のレポートを見れば、 `RPGMaker` の　ディスクの使い方が  
+ぶっちぎっているのが　一目瞭然だろう」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　お父んの PC の中では、 Docker で 14 GB 使ってる例もあるから、決して 2 GB は　特筆するほどの大きさではないが」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　２ＤのＲＰＧのサンプル・ゲーム　の　ユーザー・データ　で　２ＧＢは　何に使ってんだって感じ。  
+サンプルじゃないＲＰＧ作ったら　どんなけ　でかくなんの？」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　そして　その内容だが」  
@@ -190,6 +202,20 @@ Unity Editor の２回目以降の起動時には　この複製はスキップ�
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
+
+## およそ 10 GB の Unity Project （2.28 GBのアーカイブ込み）
+
+![202306_rmu_22-2015--RMU-1-0-0-Research.png](https://crieit.now.sh/upload_images/e29839c90d9f5c509c177cc10cfe3ea164942dc4908c8.png)  
+
+👆　調査用のプログラム込み  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　普段使いの Unity プロジェクトは 10 GB ある。  
+とにかく　重すぎる」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　RMU　を発売日に買って　サンプル・ゲームを入れて作業を始めようと思ったら  
+10 GB ＋ 2.28 GB ＋ 2.25 GB の合計 14.53 GB も　主記憶装置の容量を食うんだな」  
 
 # 587個の C# ファイルは軽く目を通した
 
