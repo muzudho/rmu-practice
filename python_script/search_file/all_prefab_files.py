@@ -71,7 +71,7 @@ def search_member(directory):
         file_entry_path = os.path.join(directory,basename).replace("\\","/")
         # print(f"file_entry_path: {file_entry_path}")
 
-        if basename.endswith(".json"):
+        if basename.endswith(".prefab"):
             result_list.append(file_entry_path)
         elif os.path.isdir(file_entry_path):
             result_list.extend(
