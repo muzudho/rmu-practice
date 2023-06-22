@@ -7073,6 +7073,211 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+# .prefab ファイルがどこに置いてあるのか、見ていこうぜ？
 
+```plaintext
+[現実]
+　　📂 Assets
+　　├── 📂 Resources
+　　│ 　├── 📄 EventSystem.prefab
+　　│ 　├── 📄 EventSystemDefault.prefab
+　　│ 　├── 📄 EventSystemNon.prefab
+　　│ 　└── 📄 InputSystem.prefab
+　　└── 📂 RPGMaker
+　　　　├── 📂 Codebase
+　　　　│ 　└── 📂 Runtime
+　　　　│ 　　　├── 📂 Battle
+　　　　│ 　　　│ 　├── 📂 Asset
+　　　　│ 　　　│ 　│ 　└── 📂 Prefab
+　　　　│ 　　　│ 　│ 　　　├── 📄 BattleScenePreviewCanvas.prefab
+　　　　│ 　　　│ 　│ 　　　├── 📄 GameOver.prefab
+　　　　│ 　　　│ 　│ 　　　└── 📄 SpriteSetBattle.prefab
+　　　　│ 　　　│ 　├── 📄 Windows01.prefab
+　　　　│ 　　　│ 　├── 📄 Windows02.prefab
+　　　　│ 　　　│ 　├── 📄 Windows03.prefab
+　　　　│ 　　　│ 　├── 📄 Windows04.prefab
+　　　　│ 　　　│ 　├── 📄 Windows05.prefab
+　　　　│ 　　　│ 　└── 📄 Windows06.prefab
+　　　　│ 　　　├── 📂 Common
+　　　　│ 　　　│ 　└── 📄 TforuUtility.prefab
+　　　　│ 　　　├── 📂 Map
+　　　　│ 　　　│ 　└── 📂 Asset
+　　　　│ 　　　│ 　　　├── 📂 Prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 DebugToolWindow.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 Description.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 Display.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 DisplayByScene.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 GameTimer.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 InputNameCanvas.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MapChangeName.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MapClickHighlight.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MenuPreview/Background.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MenuWindow01.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MenuWindow02.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MenuWindow03.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MenuWindow04.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MenuWindow05.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MenuWindow06.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MessageInputNum.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MessageInputSelect.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MessageInputSelectItem.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MessageInputSelectText.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MessageScroll.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 MessageWindow.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 Movie.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 Picture.prefab
+　　　　│ 　　　│ 　　　│ 　├── 📄 ScrollPreview.prefab
+　　　　│ 　　　│ 　　　│ 　└── 📄 ShowIcon.prefab
+　　　　│ 　　　│ 　　　└── 📂 Shop
+　　　　│ 　　　│ 　　　　　└── 📂 Asset
+　　　　│ 　　　│ 　　　　　　　└── 📂 Prefab
+　　　　│ 　　　│ 　　　　　　　　　├── 📄 ItemPrefab.prefab
+　　　　│ 　　　│ 　　　　　　　　　└── 📄 ItemShopCanvas.prefab
+　　　　│ 　　　└── 📂 Title
+　　　　│ 　　　　　├── 📄 OptionMenu.prefab
+　　　　│ 　　　　　├── 📄 SaveItem.prefab
+　　　　│ 　　　　　├── 📄 SaveLoadWindow.prefab
+　　　　│ 　　　　　├── 📄 TitleCanvas.prefab
+　　　　│ 　　　　　├── 📄 UI_01.prefab
+　　　　│ 　　　　　└── 📄 UI_02.prefab
+　　　　└── 📂 Storage
+　　　　　　├── 📂 Images
+　　　　　　│ 　└── 📄 Animation/Flash.prefab
+　　　　　　├── 📂 Map
+　　　　　　│ 　├── 📂 SampleMaps
+　　　　　　│ 　│ 　└── 📄 056ef20f-8df6-40f4-8c95-ee9696e1ebec.prefab　　　※UUID.prefab。他多数
+　　　　　　│ 　└── 📂 SavedMaps
+　　　　　　│ 　　　└── 📄 00146731-7002-48e1-8f11-4fd0e75ebd5c.prefab　　　※UUID.prefab。他多数
+　　　　　　└── 📂 System
+　　　　　　　　　　└── 📄 Animation/PreviewObjs.prefab
+```
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　このディレクトリー構成は　イケてるのかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　論外」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　プレファブは　Unity 側の画面に出てくる物体のコピー元みたいなものだが、  
+どこに　何が置いてるかぐらい　すぐ点検できるようにしてほしいよな」  
+
+## 📄 Assets/Resources/EventSystem.prefab
+
+![202306_rmu_22-2145--EventSystem.png](https://crieit.now.sh/upload_images/eedf891bd6d7938b485672d44aa7f50d649444d5939f0.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**わたしには　これが何だか分からん**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/Resources/EventSystemDefault.prefab
+
+![202306_rmu_22-2157--EventSystemDefault.png](https://crieit.now.sh/upload_images/6cea24732fd7f0d4f50b18acf30a83836494454d7b8e8.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**わたしには　これが何だか分からん**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/Resources/EventSystemNon.prefab
+
+## 📄 Assets/Resources/InputSystem.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Asset/Prefab/BattleScenePreviewCanvas.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Asset/Prefab/GameOver.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Asset/Prefab/SpriteSetBattle.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows01.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows02.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows03.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows04.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows05.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows06.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Common/TforuUtility.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/DebugToolWindow.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/Description.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/Display.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/DisplayByScene.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/GameTimer.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/InputNameCanvas.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MapChangeName.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MapClickHighlight.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuPreview/Background.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow01.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow02.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow03.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow04.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow05.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow06.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageInputNum.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageInputSelect.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageInputSelectItem.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageInputSelectText.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageScroll.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageWindow.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/Movie.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/Picture.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/ScrollPreview.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/ShowIcon.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Shop/Asset/Prefab/ItemPrefab.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Shop/Asset/Prefab/ItemShopCanvas.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Title/OptionMenu.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Title/SaveItem.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Title/SaveLoadWindow.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Title/TitleCanvas.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Title/UI_01.prefab
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Title/UI_02.prefab
+
+## 📄 Assets/RPGMaker/Storage/Images/Animation/Flash.prefab
+
+## 📄 Assets/RPGMaker/Storage/Map/SampleMaps/056ef20f-8df6-40f4-8c95-ee9696e1ebec.prefab　　　※ＵＵＩＤ.prefab　他多数
+
+## 📄 Assets/RPGMaker/Storage/Map/SavedMaps/00146731-7002-48e1-8f11-4fd0e75ebd5c.prefab　　　※ＵＵＩＤ.prefab　他多数
+
+## 📄 Assets/RPGMaker/Storage/System/Animation/PreviewObjs.prefab
 
 ＜書きかけ＞
