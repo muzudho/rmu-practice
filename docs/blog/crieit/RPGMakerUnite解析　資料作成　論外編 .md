@@ -7221,17 +7221,67 @@ Dammy:
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Asset/Prefab/SpriteSetBattle.prefab
 
+![202306_rmu_22-2213--SpriteSetBattle.png](https://crieit.now.sh/upload_images/452a2df20e97c5787716bfb2f598a8e16494491876c49.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**何だか分からない白いキャンバスだ。これは戦闘画面か？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows01.prefab
+
+![202306_rmu_22-2215--Windows01.png](https://crieit.now.sh/upload_images/761148d0740e543940705d1cbb8b422b6494499148d71.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**戦闘画面のウィンドウかな？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows02.prefab
 
+![202306_rmu_22-2217--Windows02.png](https://crieit.now.sh/upload_images/39a64bb5e57b0d736315583a78ec40a764944a074691c.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　Windows02.prefab で右にあったメニューが左に来てるぜ」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows03.prefab
+
+![202306_rmu_22-2219--Windows03.png](https://crieit.now.sh/upload_images/33d33c59602236561fd9429850ee706564944a87d0416.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　Windows01.prefab から顔画像を省いたような画面だぜ」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows04.prefab
 
+![202306_rmu_22-2221--Windows04.png](https://crieit.now.sh/upload_images/7c36e88f5d2cd655273a49ce3e394c9564944ade353db.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　Windows02.prefab から顔画像を省いたような画面だぜ」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows05.prefab
 
+![202306_rmu_22-2221--Windows05.png](https://crieit.now.sh/upload_images/520be3ba8b735b1226ed140ed272017d64944b30ed485.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　Windows01.prefab の顔画像を全身像に差し替えたような画面だぜ」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Battle/Windows06.prefab
+
+![202306_rmu_22-2223--Windows06.png](https://crieit.now.sh/upload_images/f7dceae4d99ee2d77260d6685b87c17d64944b85df9cb.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　Windows02.prefab の顔画像を全身像に差し替えたような画面だぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　**なんで６画面もあるの？**」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らね」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Common/TforuUtility.prefab
 
