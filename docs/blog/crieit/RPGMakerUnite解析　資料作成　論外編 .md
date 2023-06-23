@@ -7463,19 +7463,83 @@ Dammy:
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow01.prefab
 
+![202306_rmu_23-2157--MenuWindow01.png](https://crieit.now.sh/upload_images/bcfbeaa428668c2396d441ecee9429c4649596f9a9889.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**これはメニュー画面だろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow02.prefab
+
+![202306_rmu_23-2159--MenuWindow02.png](https://crieit.now.sh/upload_images/c47a376759b69c479a6bc9a31182c85b649597469218e.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**これはメニュー画面だろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow03.prefab
 
+![202306_rmu_23-2159--MenuWindow03.png](https://crieit.now.sh/upload_images/82084b37da96cf23ba0b51a04250517b64959780e1a4f.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**これはメニュー画面だろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow04.prefab
+
+![202306_rmu_23-2159--MenuWindow04.png](https://crieit.now.sh/upload_images/2a142b71619633b71b6bfb2737e539996495989e2fdc7.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**これはメニュー画面だろうか？　セーブ画面のようにも見えるし**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow05.prefab
 
+![202306_rmu_23-2207--MenuWindow05.png](https://crieit.now.sh/upload_images/45914f14f6f2f0539e4ac963110005b464959906a87ff.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**これはＨＰ、ＭＰ、ＴＰを見る画面だろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow06.prefab
+
+![202306_rmu_23-2208--MenuWindow06.png](https://crieit.now.sh/upload_images/c8b304bf68a362c60bd1ff37d707590c6495997474591.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**`MenuWindow05` とは何かが違う画面**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageInputNum.prefab
 
+![202306_rmu_23-2209--MessageInputNum.png](https://crieit.now.sh/upload_images/cbf852bd8771a79f0b6267d2200de9a9649599c00b8ba.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**スピンボックスだろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageInputSelect.prefab
+
+![202306_rmu_23-2211--MessageInputSelect.png](https://crieit.now.sh/upload_images/4a5272a545288c227699d68a862ff01364959a37be28f.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageInputSelectItem.prefab
 
