@@ -8263,4 +8263,137 @@ TextMesh Pro さんは　📂 `TextMesh Pro/Shaders` フォルダーへ、
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　プロジェクトに含まれてないから　使われてないの　ほぼ確定だぜ。　無視しろ」  
 
+# .efkefc のリソースを見ていこうぜ？
+
+```plaintext
+　　└── 📂 Assets
+　　　　└── 📂 RPGMaker
+　　　　　　└── 📂 Storage
+　　　　　　　　└── 📂 Animation
+　　　　　　　　　　└── 📂 Effekseer
+　　　　　　　　　　　　├── 📄 Absorb.efkefc
+　　　　　　　　　　　　├── 📄 ArrowSpecial.efkefc
+　　　　　　　　　　　　├── 📄 BallsOfLight.efkefc
+　　　　　　　　　　　　├── 📄 Bind.efkefc
+　　　　　　　　　　　　├── 📄 Blind.efkefc
+　　　　　　　　　　　　├── 📄 Bodyslam.efkefc
+　　　　　　　　　　　　├── 📄 Breath.efkefc
+　　　　　　　　　　　　├── 📄 ClawEffect.efkefc
+　　　　　　　　　　　　├── 📄 ClawFire.efkefc
+　　　　　　　　　　　　├── 📄 ClawIce.efkefc
+　　　　　　　　　　　　├── 📄 ClawPhysical.efkefc
+　　　　　　　　　　　　├── 📄 ClawSpecial.efkefc
+　　　　　　　　　　　　├── 📄 ClawThunder.efkefc
+　　　　　　　　　　　　├── 📄 Confusion.efkefc
+　　　　　　　　　　　　├── 📄 CureAll1.efkefc
+　　　　　　　　　　　　├── 📄 CureAll2.efkefc
+　　　　　　　　　　　　├── 📄 CureOne1.efkefc
+　　　　　　　　　　　　├── 📄 CureOne2.efkefc
+　　　　　　　　　　　　├── 📄 DarknessAll1.efkefc
+　　　　　　　　　　　　├── 📄 DarknessAll2.efkefc
+　　　　　　　　　　　　├── 📄 DarknessAll3.efkefc
+　　　　　　　　　　　　├── 📄 DarknessOne1.efkefc
+　　　　　　　　　　　　├── 📄 DarknessOne2.efkefc
+　　　　　　　　　　　　├── 📄 Death.efkefc
+　　　　　　　　　　　　├── 📄 EarthAll1.efkefc
+　　　　　　　　　　　　├── 📄 EarthAll2.efkefc
+　　　　　　　　　　　　├── 📄 EarthAll3.efkefc
+　　　　　　　　　　　　├── 📄 EarthOne1.efkefc
+　　　　　　　　　　　　├── 📄 EarthOne2.efkefc
+　　　　　　　　　　　　├── 📄 FireAll1.efkefc
+　　　　　　　　　　　　├── 📄 FireAll2.efkefc
+　　　　　　　　　　　　├── 📄 FireAll3.efkefc
+　　　　　　　　　　　　├── 📄 FireOne1.efkefc
+　　　　　　　　　　　　├── 📄 FireOne2.efkefc
+　　　　　　　　　　　　├── 📄 Flash.efkefc
+　　　　　　　　　　　　├── 📄 Fog.efkefc
+　　　　　　　　　　　　├── 📄 GeneralSpecial1.efkefc
+　　　　　　　　　　　　├── 📄 GeneralSpecial2.efkefc
+　　　　　　　　　　　　├── 📄 HealAll1.efkefc
+　　　　　　　　　　　　├── 📄 HealAll2.efkefc
+　　　　　　　　　　　　├── 📄 HealOne1.efkefc
+　　　　　　　　　　　　├── 📄 HealOne2.efkefc
+　　　　　　　　　　　　├── 📄 HitEffect.efkefc
+　　　　　　　　　　　　├── 📄 HitFire.efkefc
+　　　　　　　　　　　　├── 📄 HitIce.efkefc
+　　　　　　　　　　　　├── 📄 HitPhysical.efkefc
+　　　　　　　　　　　　├── 📄 HitSpecial1.efkefc
+　　　　　　　　　　　　├── 📄 HitSpecial2.efkefc
+　　　　　　　　　　　　├── 📄 HitThunder.efkefc
+　　　　　　　　　　　　├── 📄 IceAll1.efkefc
+　　　　　　　　　　　　├── 📄 IceAll2.efkefc
+　　　　　　　　　　　　├── 📄 IceAll3.efkefc
+　　　　　　　　　　　　├── 📄 IceOne1.efkefc
+　　　　　　　　　　　　├── 📄 IceOne2.efkefc
+　　　　　　　　　　　　├── 📄 LaserAll.efkefc
+　　　　　　　　　　　　├── 📄 LaserOne.efkefc
+　　　　　　　　　　　　├── 📄 LightAll1.efkefc
+　　　　　　　　　　　　├── 📄 LightAll2.efkefc
+　　　　　　　　　　　　├── 📄 LightAll3.efkefc
+　　　　　　　　　　　　├── 📄 LightOne1.efkefc
+　　　　　　　　　　　　├── 📄 LightOne2.efkefc
+　　　　　　　　　　　　├── 📄 LightPillar1.efkefc
+　　　　　　　　　　　　├── 📄 LightPillar2.efkefc
+　　　　　　　　　　　　├── 📄 NeutralAll1.efkefc
+　　　　　　　　　　　　├── 📄 NeutralAll2.efkefc
+　　　　　　　　　　　　├── 📄 NeutralAll3.efkefc
+　　　　　　　　　　　　├── 📄 NeutralOne1.efkefc
+　　　　　　　　　　　　├── 📄 NeutralOne2.efkefc
+　　　　　　　　　　　　├── 📄 Paralyze.efkefc
+　　　　　　　　　　　　├── 📄 PierceEffect.efkefc
+　　　　　　　　　　　　├── 📄 PierceFire.efkefc
+　　　　　　　　　　　　├── 📄 PierceIce.efkefc
+　　　　　　　　　　　　├── 📄 PiercePhysical.efkefc
+　　　　　　　　　　　　├── 📄 PierceSpecial1.efkefc
+　　　　　　　　　　　　├── 📄 PierceSpecial2.efkefc
+　　　　　　　　　　　　├── 📄 PierceThunder.efkefc
+　　　　　　　　　　　　├── 📄 Poison.efkefc
+　　　　　　　　　　　　├── 📄 Pollen.efkefc
+　　　　　　　　　　　　├── 📄 Powerdown1.efkefc
+　　　　　　　　　　　　├── 📄 Powerdown2.efkefc
+　　　　　　　　　　　　├── 📄 Powerdown3.efkefc
+　　　　　　　　　　　　├── 📄 Powerup1.efkefc
+　　　　　　　　　　　　├── 📄 Powerup2.efkefc
+　　　　　　　　　　　　├── 📄 Powerup3.efkefc
+　　　　　　　　　　　　├── 📄 Radiation.efkefc
+　　　　　　　　　　　　├── 📄 Revive1.efkefc
+　　　　　　　　　　　　├── 📄 Revive2.efkefc
+　　　　　　　　　　　　├── 📄 ShootAll.efkefc
+　　　　　　　　　　　　├── 📄 ShootBarrage.efkefc
+　　　　　　　　　　　　├── 📄 ShootNormal.efkefc
+　　　　　　　　　　　　├── 📄 ShootSpecial.efkefc
+　　　　　　　　　　　　├── 📄 Shout.efkefc
+　　　　　　　　　　　　├── 📄 Silence.efkefc
+　　　　　　　　　　　　├── 📄 SlashEffect.efkefc
+　　　　　　　　　　　　├── 📄 SlashFire.efkefc
+　　　　　　　　　　　　├── 📄 SlashIce.efkefc
+　　　　　　　　　　　　├── 📄 SlashPhysical.efkefc
+　　　　　　　　　　　　├── 📄 SlashSpecial1.efkefc
+　　　　　　　　　　　　├── 📄 SlashSpecial2.efkefc
+　　　　　　　　　　　　├── 📄 SlashSpecial3.efkefc
+　　　　　　　　　　　　├── 📄 SlashThunder.efkefc
+　　　　　　　　　　　　├── 📄 Sleep.efkefc
+　　　　　　　　　　　　├── 📄 Song.efkefc
+　　　　　　　　　　　　├── 📄 SonicWave.efkefc
+　　　　　　　　　　　　├── 📄 Sweep.efkefc
+　　　　　　　　　　　　├── 📄 ThunderAll1.efkefc
+　　　　　　　　　　　　├── 📄 ThunderAll2.efkefc
+　　　　　　　　　　　　├── 📄 ThunderAll3.efkefc
+　　　　　　　　　　　　├── 📄 ThunderOne1.efkefc
+　　　　　　　　　　　　├── 📄 ThunderOne2.efkefc
+　　　　　　　　　　　　├── 📄 WaterAll1.efkefc
+　　　　　　　　　　　　├── 📄 WaterAll2.efkefc
+　　　　　　　　　　　　├── 📄 WaterAll3.efkefc
+　　　　　　　　　　　　├── 📄 WaterOne1.efkefc
+　　　　　　　　　　　　├── 📄 WaterOne2.efkefc
+　　　　　　　　　　　　├── 📄 WindAll1.efkefc
+　　　　　　　　　　　　├── 📄 WindAll2.efkefc
+　　　　　　　　　　　　├── 📄 WindAll3.efkefc
+　　　　　　　　　　　　├── 📄 WindOne1.efkefc
+　　　　　　　　　　　　└── 📄 WindOne2.efkefc
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　これらは　バイナリ形式か？　無視するぜ」  
+
 ＜書きかけ＞
