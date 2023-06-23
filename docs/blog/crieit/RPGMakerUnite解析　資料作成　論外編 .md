@@ -7930,4 +7930,46 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+# .controller のリソースを見ていこうぜ？
+
+```plaintext
+　　└── 📂 Assets
+　　　　└── 📂 RPGMaker
+　　　　　　├── 📂 Codebase
+　　　　　　│ 　└── 📂 Runtime
+　　　　　　│ 　　　└── 📂 Map
+　　　　　　│ 　　　　　└── 📂 Asset
+　　　　　　│ 　　　　　　　└── 📄 MapClickHighlight.controller
+　　　　　　└── 📂 Storage
+　　　　　　　　├── 📂 Animation
+　　　　　　　　│ 　├── 📄 Controller.controller
+　　　　　　　　│ 　└── 📄 GameOver.controller
+　　　　　　　　└── 📂 Images
+　　　　　　　　　　└── 📂 System
+　　　　　　　　　　　　├── 📄 Animation/Blinking.controller
+　　　　　　　　　　　　├── 📄 Animation/Button.controller
+　　　　　　　　　　　　└── 📄 Animation/Frame.controller
+```
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　このディレクトリー構成は　イケてるのかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　論外」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　📂 `Assets` フォルダーの中に 📂 `Asset` がまた出てきて　マトリョーシカ　よね～」  
+
+## Assets/RPGMaker/Codebase/Runtime/Map/Asset/MapClickHighlight.controller
+
+## Assets/RPGMaker/Storage/Animation/Controller.controller
+
+## Assets/RPGMaker/Storage/Animation/GameOver.controller
+
+## Assets/RPGMaker/Storage/Images/System/Animation/Blinking.controller
+
+## Assets/RPGMaker/Storage/Images/System/Animation/Button.controller
+
+## Assets/RPGMaker/Storage/Images/System/Animation/Frame.controller
+
 ＜書きかけ＞
