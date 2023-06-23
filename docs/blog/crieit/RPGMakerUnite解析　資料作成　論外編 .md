@@ -7758,5 +7758,106 @@ Dammy:
 　　　　　　　　　　　　└── 📄 TintButton.anim
 ```
 
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　このディレクトリー構成は　イケてるのかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　論外」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　フォルダーを全部　開け回ることを前提とした収納は  
+コンピューターの探索によって　見つかることによって　片づけの能力が劣化したのかしらね。    
+なんで　もっと　簡単に　アニメーション・ファイルは　**ここに置いてある、という置き方**　をしないのか、  
+少し足りないとかではなくて、　センスが　一切　無いのよ」  
+
+## Assets/RPGMaker/Codebase/Runtime/Map/Asset/MapClickHighlightAnimation.anim
+
+![202306_rmu_23-2314--MapClickHighlightAnimation.png](https://crieit.now.sh/upload_images/9fea28d9bc696d172fb2928ee444a8ec6495a910f34c9.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**なんだこりゃ？　分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## Assets/RPGMaker/Storage/Animation/Attack1.anim
+
+![202306_rmu_23-2318--Attack1.png](https://crieit.now.sh/upload_images/693d48591b2d8c2f04654f7bfc2575846495a9b277a1b.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**やべっ、このツール　なんだか分からね！**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## Assets/RPGMaker/Storage/Animation/Attack2.anim
+
+![202306_rmu_23-2319--Attack2.png](https://crieit.now.sh/upload_images/debd259bb72eea5b3623475c613319ee6495a9f705207.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**さっぱり**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## Assets/RPGMaker/Storage/Animation/Damage.anim
+
+![202306_rmu_23-2320--Damage.png](https://crieit.now.sh/upload_images/417ca8a8a6885b828c650f437566d2536495aa3764b3f.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**Ｘ軸の実数は　何なんだろうな？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## Assets/RPGMaker/Storage/Animation/die.anim
+
+![202306_rmu_23-2321--Die.png](https://crieit.now.sh/upload_images/093c154096aa02eff17a47a5b235fc456495aa9170a4b.png)
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## Assets/RPGMaker/Storage/Animation/Escape.anim
+
+![202306_rmu_23-2322--Escape.png](https://crieit.now.sh/upload_images/acf43c7092a4d41a123a53805cae722f6495aac129d25.png)
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## Assets/RPGMaker/Storage/Animation/GameOver.anim
+
+![202306_rmu_23-2323--GameOver.png](https://crieit.now.sh/upload_images/5b2205163a1a025e82992e9ad1f87e386495aaf5d9777.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## Assets/RPGMaker/Storage/Animation/Move.anim
+
+## Assets/RPGMaker/Storage/Animation/Wait.anim
+
+## Assets/RPGMaker/Storage/Animation/Win.anim
+
+## Assets/RPGMaker/Storage/Animation/WindowArrow.anim
+
+## Assets/RPGMaker/Storage/Images/System/Animation/Blinking.anim
+
+## Assets/RPGMaker/Storage/Images/System/Animation/ClearButton.anim
+
+## Assets/RPGMaker/Storage/Images/System/Animation/CloseWindow.anim
+
+## Assets/RPGMaker/Storage/Images/System/Animation/OpenWindow.anim
+
+## Assets/RPGMaker/Storage/Images/System/Animation/TintButton.anim
+
+
 
 ＜書きかけ＞
