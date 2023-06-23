@@ -18,12 +18,23 @@
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　まず　手始めに　ご覧に見せよう」  
 
+![202306_rmu_23-2026--SteamVer-o2o0.png](https://crieit.now.sh/upload_images/0ff2735af2c1568a21f13e683094fc3c649581fea2385.png)  
+
+👆　📖　[Steam : RPG Maker Unite](https://store.steampowered.com/app/1650950/RPG_Maker_Unite/?l=japanese)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ＰＣ版の　ＲＭＵの推奨スペックは　どこに書いてあるのか見つからず　ユーザーの気持ちとしては　**論外**　なんだが  
+代わりに　まだ発売されていない　Ｓｔｅａｍ版の記述を参考にすると、主記憶装置は　**4 GB**　が利用可能であることが推奨と書いてあるぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　あてにならない情報だな」  
+
 ![202306_rmu_23-1949--FileSize-o2o0.png](https://crieit.now.sh/upload_images/38c5457e5a54cca5cf6475bb5e867189649579182915f.png)  
 
 👆　[Unity Asset Store　＞　RPG Maker Unite (Please Read the Description about Early-Bird Bonus!)](https://assetstore.unity.com/packages/tools/game-toolkits/rpg-maker-unite-please-read-the-description-about-early-bird-bon-253689)  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　Unity アセット・ストアによると　ファイルは　2.3 GB　で、これは事実だぜ」  
+「　👆　Unity アセット・ストアによると　ＰＣ版のファイルは　2.3 GB　で、これは事実だぜ」  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　プロダクト名に　長い注釈入れるの　ユニティ・アセットの界隈じゃ　習慣的にあるの？  
