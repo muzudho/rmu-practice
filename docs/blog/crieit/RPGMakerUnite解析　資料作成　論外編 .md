@@ -118,7 +118,7 @@ Unity プロジェクトの中へ　`.unitypackage` ファイルを　解凍す�
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　ここまでの合計は　12.25 GB　だな。まだ続きがある」  
 
-# Unity Editor 起動後、 2.25GB ＋ 10 GB ＋ 2.28GB
+# Unity Editor 起動後、 2.25GB ＋ 10 GB ＋ 2.28GB、合計 14.53 GB
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　👆　サンプル・ゲームは　どこに入っているかというと……」  
@@ -138,6 +138,9 @@ Windows の　📂 `Download` フォルダーにでもダウンロードされ�
 デフォルト・ゲームの解凍が終わったのなら　.zip ファイル　は　削除してよくない？」  
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　じゃあ　 2.25GB ＋ 10 GB ＋ 2.28GB　で、合計 **14.53 GB**　だ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　**こんな書庫ファイル　いつまでも　📂 `Assets` フォルダーの下に　要るのかだぜ？**」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
@@ -147,8 +150,9 @@ Windows の　📂 `Download` フォルダーにでもダウンロードされ�
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　👆　2.28 Giga Byte の書庫ファイルは、 Unity Editor の初回起動時に点検され、  
-📂 `C:\Users\{ユーザー名}\AppData\LocalLow\.RPGMaker` フォルダーに無いことが検知されると、複製される。  
-ローカルＰＣには合計　4.56 Giba Byte　の書庫ファイルが置かれるわけだぜ」  
+📂 `C:\Users\{ユーザー名}\AppData\LocalLow\.RPGMaker` フォルダーに  
+同じ名前のアーカイブ・ファイルが無いことが検知されると、そこへ複製される。  
+ローカルＰＣにはさらに　**2.28 GB**　の書庫ファイルが置かれるわけだぜ」  
 
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　卵を産み付けられた気分ねえ」  
@@ -172,6 +176,9 @@ Windows の　📂 `Download` フォルダーにでもダウンロードされ�
 「　👇　📂 `AppData` フォルダーの説明は、以下の記事で十分だろう」  
 
 📖 [What Is the AppData Folder in Windows?](https://www.howtogeek.com/318177/what-is-the-appdata-folder-in-windows/)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　そして」  
 
 ![202306_rmu_22-1958--DiskInfo.png](https://crieit.now.sh/upload_images/b44302068591159c5e1a2e7bb9ac117f6494299244791.png)  
 
@@ -227,7 +234,8 @@ Windows の　📂 `Download` フォルダーにでもダウンロードされ�
 
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　あれっ？　おかしいぜ。  
-**サンプル・ゲームの使用言語は　日本語、中国語、英語から　選んだはずでは？**」  
+**サンプル・ゲームの使用言語は　コンボ・ボックスの　日本語、中国語、英語から　選んだはずでは？**  
+**Unity Editor の使用言語は関係無いだろ？**」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　知らね」  
