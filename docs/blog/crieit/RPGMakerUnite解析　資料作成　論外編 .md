@@ -18,6 +18,13 @@
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　まず　手始めに　ご覧に見せよう」  
 
+![202306_rmu_23-1949--FileSize-o2o0.png](https://crieit.now.sh/upload_images/38c5457e5a54cca5cf6475bb5e867189649579182915f.png)  
+
+👆　[Unity Asset Store　＞　RPG Maker Unite (Please Read the Description about Early-Bird Bonus!)](https://assetstore.unity.com/packages/tools/game-toolkits/rpg-maker-unite-please-read-the-description-about-early-bird-bon-253689)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　Unity アセット・ストアによると　ファイルは　2.3 GB　で、これは事実だぜ」  
+
 ![202306_rmu_22-1931--What_is_this.png](https://crieit.now.sh/upload_images/b97c8dbfa49e1a4bf845eef367a57f6c64942542800ff.png)  
 
 👆 `C:\Users\むずでょ\AppData\Roaming\Unity\Asset Store-5.x\Gotcha Gotcha Games\Textures MaterialsGUI Skins\RPG Maker Unite Please Read the Description about Early-Bird Bonus.unitypackage`  
