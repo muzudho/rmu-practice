@@ -8050,13 +8050,53 @@ Dammy:
 
 ## Assets/RPGMaker/Codebase/Runtime/Map/Asset/Blur.mat
 
+![202306_rmu_24-0044--Blur.png](https://crieit.now.sh/upload_images/9d42e88edaf3eefd3a8ee9483bd430186495bdeb33145.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**材質だろうけど、何だろうな？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/RPGMaker/Codebase/Runtime/Map/Asset/UI-SoftMask.mat
+
+![202306_rmu_24-0045--UI-SoftMask.png](https://crieit.now.sh/upload_images/376664013cdecc29549d58ab214066ba6495be3c55af3.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**材質だろうけど、何だろうな？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## Assets/RPGMaker/Codebase/Runtime/Map/DistantViewMaterial.mat
 
+![202306_rmu_24-0046--DistantViewMaterial.png](https://crieit.now.sh/upload_images/30901b1b4170d9dfe92247375a04a9bc6495be7d13546.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**材質だろうけど、何だろうな？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
 
+![202306_rmu_24-0048--DropShadow.png](https://crieit.now.sh/upload_images/f9b33e49e957c334857a0c87eaa5f1316495beca3db82.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**材質だろうけど、何だろうな？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+
+![202306_rmu_24-0049--Outline.png](https://crieit.now.sh/upload_images/ceb0433d83e864d6ec2c817b91ec728e6495befbb6796.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**材質だろうけど、何だろうな？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 
 ＜書きかけ＞
