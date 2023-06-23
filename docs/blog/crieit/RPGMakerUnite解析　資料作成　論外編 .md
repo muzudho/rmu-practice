@@ -25,6 +25,13 @@
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　👆　Unity アセット・ストアによると　ファイルは　2.3 GB　で、これは事実だぜ」  
 
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　プロダクト名に　長い注釈入れるの　ユニティ・アセットの界隈じゃ　習慣的にあるの？  
+`(Please Read the Description about Early-Bird Bonus!)` って　プロダクト名に書くことじゃないわよねえ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　その長い文言、何だろうと思っていたが、プロダクト名だったのか……」  
+
 ![202306_rmu_22-1931--What_is_this.png](https://crieit.now.sh/upload_images/b97c8dbfa49e1a4bf845eef367a57f6c64942542800ff.png)  
 
 👆 `C:\Users\むずでょ\AppData\Roaming\Unity\Asset Store-5.x\Gotcha Gotcha Games\Textures MaterialsGUI Skins\RPG Maker Unite Please Read the Description about Early-Bird Bonus.unitypackage`  
@@ -57,20 +64,58 @@ Unity の開発者なら誰でも作れるだろう、アセットの保存形�
 「　👆　次に、ＲＭＵのカスタム・パッケージを　**インポート**　するというのは、  
 Unity プロジェクトの中へ　`.unitypackage` ファイルを　解凍するという感じだぜ」  
 
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　📂 `Assets` フォルダーの中に 📂 `RPGMaker` フォルダーが作られる」  
+
 ![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
 「　既に 　`.unitypackage`　が　2.25 GB　を占有してるから、  
 それに加えて　ファイルが生成されるということよね」  
 
-# 2.25GB ＋ 2.28GB ＋ 2.28GB、 合計 6.81GB のでかいファイルたち
+## インポート後、 2.25 GB ＋ 約 10 GB
+
+![202306_rmu_22-2015--RMU-1-0-0-Research.png](https://crieit.now.sh/upload_images/e29839c90d9f5c509c177cc10cfe3ea164942dc4908c8.png)  
+
+👆　調査用のプログラム込み  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　わたしは　調査用に　いじってしまったが、  
+サンプル・ゲーム、言語対応　込みで、  
+まあ　だいたい、普段使いの　ＲＭＵ　の　Unity プロジェクトは 10 GB ある。  
+とにかく　重すぎる」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　これが　**インポート**　だぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　インポートが終わったら、もう  
+📄 `RPG Maker Unite Please Read the Description about Early-Bird Bonus.unitypackage` ファイルは消していいの？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　購入したファイルを　消すというのは　心理的抵抗がある」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👇　アセット・ストアから　再びダウンロードできるとの　報告があるぜ」  
+
+📖 [Is it safe to delete RPG Maker Unite Please Read the Description about Early-Bird Bonus.unitypackage **(2.25 GB)** file? #27](https://github.com/ponta0321/FixRPGMakerUnite/issues/27)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　クラウド上のものが　扱い止めました、とかなったら　資産の紛失だぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　じゃあ　実質、主記憶装置には　12.25 GB　の空きスペースが必要なのね」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　ここまでの合計は　12.25 GB　だな。まだ続きがある」  
+
+# Unity Editor 起動後、 2.25GB ＋ 10 GB ＋ 2.28GB
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　サンプル・ゲームは　どこに入っているかというと……」  
 
 ![202306_rmu_20-0106--1GB-file.png](https://crieit.now.sh/upload_images/508ebb5566a9a6770b16544e4e773eff64907d530f8e7.png)  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　📂 `Assets` フォルダーの中に 📂 `RPGMaker` フォルダーが作られるが、
-サンプル・ゲームを入れようとすると……」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　その中の……つまり、 📂 `Assets/RPGMaker/Storage/System/Archive` フォルダーに  
+「　👆　📂 `Assets/RPGMaker/Storage/System/Archive` フォルダーに  
 ４月２７日に作られた　デフォルト・ゲーム　を　.zip 圧縮した　１ＧＢ　の　アーカイブ・ファイルなど　合計２．２８ＧＢ分が 入ってるぜ」  
 
 ![202306_rmu_20-0109--1GB-file-properties.png](https://crieit.now.sh/upload_images/f979ebb59b99b9f9ae2ed9b867415d8264907ddfe50f6.png)  
@@ -237,20 +282,6 @@ Unity Editor の２回目以降の起動時には　この複製はスキップ�
 たとえ　Unity を使っていて　マルチプラットフォームに移植できます、と言っても  
 容量がボトルネックになるだろうから　ややもすると　携帯ゲーム機に入らないかもしれない、  
 展開できないかもしれないだろ？」  
-
-## およそ 10 GB の Unity Project （2.28 GBのアーカイブ込み）
-
-![202306_rmu_22-2015--RMU-1-0-0-Research.png](https://crieit.now.sh/upload_images/e29839c90d9f5c509c177cc10cfe3ea164942dc4908c8.png)  
-
-👆　調査用のプログラム込み  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　普段使いの Unity プロジェクトは 10 GB ある。  
-とにかく　重すぎる」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　RMU　を発売日に買って　サンプル・ゲームを入れて作業を始めようと思ったら  
-10 GB ＋ 2.28 GB ＋ 2.25 GB の合計 14.53 GB も　主記憶装置の容量を食うんだな」  
 
 # 587個の C# ファイルは軽く目を通した
 
