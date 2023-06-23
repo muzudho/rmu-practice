@@ -7671,14 +7671,59 @@ Dammy:
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Title/UI_01.prefab
 
+![202306_rmu_23-2235--UI_01.png](https://crieit.now.sh/upload_images/50a66e9342fd0e62a8d8f5ee0e1819ef64959fcf2af15.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**ＨＰなどが並んでいるが、何だろう？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Title/UI_02.prefab
+
+![202306_rmu_23-2237--UI_02.png](https://crieit.now.sh/upload_images/f7fc28ff1bd8f33850736b4db92046cc6495a022d58ce.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**UI_01 とは何か違う画面だぜ。何だろう？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Storage/Images/Animation/Flash.prefab
 
-## 📄 Assets/RPGMaker/Storage/Map/SampleMaps/056ef20f-8df6-40f4-8c95-ee9696e1ebec.prefab　　　※ＵＵＩＤ.prefab　他多数
+![202306_rmu_23-2239--Flash.png](https://crieit.now.sh/upload_images/b8f1c9adf2e9d0e3a3efbd2f20a29b416495a09fb5b3b.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Storage/Map/SampleMaps/0e73b46a-fbef-4cb7-b56a-b3aade29a47a.prefab　　　※ＵＵＩＤ.prefab　他多数
+
+![202306_rmu_23-2240--SampleMap.png](https://crieit.now.sh/upload_images/002be33cf1a7f2108c65a85921af4b476495a14b6d063.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　サンプル・マップなんだろうな」  
 
 ## 📄 Assets/RPGMaker/Storage/Map/SavedMaps/00146731-7002-48e1-8f11-4fd0e75ebd5c.prefab　　　※ＵＵＩＤ.prefab　他多数
 
+![202306_rmu_23-2243--SavedMap.png](https://crieit.now.sh/upload_images/6ca4f5f1fe225707c048b73e7618bd846495a1a2e7297.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**セーブド・マップって何だ？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Storage/System/Animation/PreviewObjs.prefab
+
+![202306_rmu_23-2245--PreviewObjs.png](https://crieit.now.sh/upload_images/fb046176093efb066b6d47e6955a231c6495a203587a2.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**攻撃エフェクトとかを確認する画面だろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ＜書きかけ＞
