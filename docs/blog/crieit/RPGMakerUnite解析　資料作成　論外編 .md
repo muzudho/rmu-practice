@@ -7726,4 +7726,37 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+# .anim のリソースを見ていこうぜ？
+
+```plaintext
+　　📂 Assets
+　　└── 📂 RPGMaker
+　　　　├── 📂 Codebase
+　　　　│ 　└── 📂 Runtime
+　　　　│ 　　　└── 📂 Map
+　　　　│ 　　　　　└── 📂 Asset
+　　　　│ 　　　　　　　└──  📄 MapClickHighlightAnimation.anim
+　　　　└── 📂 Storage
+　　　　　　├── 📂 Animation
+　　　　　　│ 　├── 📄 Attack1.anim
+　　　　　　│ 　├── 📄 Attack2.anim
+　　　　　　│ 　├── 📄 Damage.anim
+　　　　　　│ 　├── 📄 die.anim
+　　　　　　│ 　├── 📄 Escape.anim
+　　　　　　│ 　├── 📄 GameOver.anim
+　　　　　　│ 　├── 📄 Move.anim
+　　　　　　│ 　├── 📄 Wait.anim
+　　　　　　│ 　├── 📄 Win.anim
+　　　　　　│ 　└── 📄 WindowArrow.anim
+　　　　　　└── 📂 Images
+　　　　　　　　└── 📂 System
+　　　　　　　　　　└── 📂 Animation
+　　　　　　　　　　　　├── 📄 Blinking.anim
+　　　　　　　　　　　　├── 📄 ClearButton.anim
+　　　　　　　　　　　　├── 📄 CloseWindow.anim
+　　　　　　　　　　　　├── 📄 OpenWindow.anim
+　　　　　　　　　　　　└── 📄 TintButton.anim
+```
+
+
 ＜書きかけ＞
