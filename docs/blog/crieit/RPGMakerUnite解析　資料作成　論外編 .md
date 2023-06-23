@@ -8162,6 +8162,48 @@ TextMesh Pro さんは　📂 `TextMesh Pro/Shaders` フォルダーへ、
 きちんと　`.shader` ファイルの置き場が決まっていますもんね」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　シェーダーの中身見ても　画像処理の難しいプログラムが書いてあって　説明できないんで、説明はスキップするぜ」  
+「　シェーダーの中身見ても　画像処理の難しいプログラムが書いてあって　説明できないんで、説明はスキップするぜ。  
+こういうのは　視覚的ツールを使って　編集しろだぜ」  
+
+# .shadervariants のリソースを見ていこうぜ？
+
+```plaintext
+　　└── 📂 Assets
+　　　　└── 📂 RPGMaker
+　　　　　　└── 📂 Codebase
+　　　　　　　　└── 📂 Runtime
+　　　　　　　　　　└── 📂 Map
+　　　　　　　　　　　　└── 📂 Component
+　　　　　　　　　　　　　　└── 📂 Character
+　　　　　　　　　　　　　　　　└── 📄 ShaderVariants.shadervariants
+```
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　このディレクトリー構成は　イケてるのかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　知らん。何だろな　そのファイル。開けてみるか」  
+
+![202306_rmu_24-0128--shadervariants.png](https://crieit.now.sh/upload_images/43eafa8e12b446dd904862102f5984606495c865f1672.png)  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　無いぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　じゃあ　プロジェクトに含まれてないんだぜ。　ファイル・エクスプローラーで開けてみろだぜ」  
+
+![202306_rmu_24-0130--shadervariants-file.png](https://crieit.now.sh/upload_images/cdb94e53de050f3046323364446514c36495c8d7a836b.png)  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　有ったぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　開けてみろだぜ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　なんか　難しいリストが書いてあったぜ」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　もういい閉じろ。　プロジェクトに含まれてないから　使われてないの　ほぼ確定だぜ」  
 
 ＜書きかけ＞

@@ -7,7 +7,7 @@ x,.controller,
 ,.meta,
 x,.mat,
 x,.shader,シェーダー
-,.shadervariants,
+x,.shadervariants,該当ファイル１個しかない。プロジェクトに含まれてないから使われてない？
 ,.pdf,
 ,.TTC,
 ,.efkefc,
