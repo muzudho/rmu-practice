@@ -7543,11 +7543,43 @@ Dammy:
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageInputSelectItem.prefab
 
+![202306_rmu_23-2213--MessageInputSelectItem.png](https://crieit.now.sh/upload_images/cc6a8b337f1fc7c912300a9dbaae758a64959a9d99277.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**アイテム選択ウィンドウだろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageInputSelectText.prefab
+
+![202306_rmu_23-2214--MessageInputSelectIText.png](https://crieit.now.sh/upload_images/80452c0f63bb5056ab939cdfcadd792d64959ad83cf8c.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageScroll.prefab
 
+![202306_rmu_23-2215--MessageScroll.png](https://crieit.now.sh/upload_images/1c6416151be49a69c7d6a8247e463dd764959b112b169.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MessageWindow.prefab
+
+![202306_rmu_23-2216--MessageWindow.png](https://crieit.now.sh/upload_images/37e17b2dc6bda624bfb6ffef8f5ea79e64959b45e972e.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**会話シーンのウィンドウだろうか？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/Movie.prefab
 
