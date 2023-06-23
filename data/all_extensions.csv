@@ -21,7 +21,7 @@ x,.prefab,
 x,.cginc,シェーダー（.shader）から利用されているファイル
 x,.anim,
 -,.efkmodel,バイナリ・ファイルみたいだ。無視する
-x,.asmdef,Unityが作っている .meta ファイルに似たもので、分からない
+x,.asmdef,.meta ファイルに似たもので、分からない。Unityが作っている
 x,.wav,
  ,.unity,
 x,.ogg,
@@ -30,4 +30,4 @@ x,.ogg,
  ,.uxml,
 -,.png,多すぎる
  ,.cs,
- ,.asmref,
+x,.asmref,.json ファイルに似たもので、分からない。Unityが作っている
