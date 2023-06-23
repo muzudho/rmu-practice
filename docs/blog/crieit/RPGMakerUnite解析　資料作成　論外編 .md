@@ -7363,23 +7363,103 @@ Dammy:
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Common/TforuUtility.prefab
 
+![202306_rmu_23-2134--TforuUtility.png](https://crieit.now.sh/upload_images/a9baf0f9094754d6f8f378c4f801b384649591870d411.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**何も見えん。何だぜこれは？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
+## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuPreview/Background.prefab
+
+![202306_rmu_23-2150--Background.png](https://crieit.now.sh/upload_images/4f9db1e0518a37e5df1ef2ef88e867c2649595463e760.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**草タイルが並んでいるのかな？　何だぜこれは？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/DebugToolWindow.prefab
+
+![202306_rmu_23-2137--DebugToolWindow.png](https://crieit.now.sh/upload_images/6d84d699bcf1357216882548b165fb0d649592176afd8.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**何も見えん。何だぜこれは？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/Description.prefab
 
+![202306_rmu_23-2139--Description.png](https://crieit.now.sh/upload_images/93802e0da64ab95f5c274371683d0026649592957c8e6.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**アイテムの説明欄に見えるが……**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/Display.prefab
+
+![202306_rmu_23-2141--Display.png](https://crieit.now.sh/upload_images/6c291c1693cf68de133be025819427c7649592f228f27.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**何も見えん。何だぜこれは？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/DisplayByScene.prefab
 
+![202306_rmu_23-2142--DisplayByScene.png](https://crieit.now.sh/upload_images/574499556c147738bb1fafe287b9763d649593425c9d7.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**何も見えん。何だぜこれは？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/GameTimer.prefab
+
+![202306_rmu_23-2143--GameTimer.png](https://crieit.now.sh/upload_images/951d236b49e4655bed304878d6da49b06495938c837c9.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**上辺にタイマーのようなものが付いているが……**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/InputNameCanvas.prefab
 
+![202306_rmu_23-2145--InputNameCanvas.png](https://crieit.now.sh/upload_images/30397880490d53dfc664be5aeb0c8068649593e5af7ac.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**ファイル名からすると名前入力画面だと思うが、これは各国語対応してるのかだぜ？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MapChangeName.prefab
+
+![202306_rmu_23-2146--MapChangeName.png](https://crieit.now.sh/upload_images/bce8bf0be6ea295b1adc70ecc02f33b26495945b472c5.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**上辺に `mapname` という文字が置いてあるが、何なのか分からん**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MapClickHighlight.prefab
 
-## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuPreview/Background.prefab
+![202306_rmu_23-2148--MapClickHighlight.png](https://crieit.now.sh/upload_images/b6ade77be309d2499b4079912ad5499c649594c619370.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分けわからん**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/MenuWindow01.prefab
 
