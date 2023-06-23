@@ -8103,84 +8103,65 @@ Dammy:
 ```plaintext
 　　└── 📂 Assets
 　　　　├── 📂 RPGMaker
-　　　　　　├── 📂 3rdParty
-　　　　　　│ 　└── 📂 Effekseer
-　　　　　　│ 　　　└── 📂 Materials
-　　　　　　│ 　　　　　├── 📄 EffekseerFixedShader.shader
-　　　　　　│ 　　　　　├── 📄 FakeShader.shader
-　　　　　　│ 　　　　　├── 📄 GrabDepthShader.shader
-　　　　　　│ 　　　　　├── 📄 Texture2DArrayBlitShader.shader
-　　　　　　│ 　　　　　└── 📄 Texture2DBlitShader.shader
-　　　　　　└── 📂 Codebase
-　　　　　　　　├── 📂 Editor
-　　　　　　　　│ 　├── 📂 Common
-　　　　　　　　│ 　│ 　└── 📂 Asset
-　　　　　　　　│ 　│ 　　　└── 📂 Shader
-　　　　　　　　│ 　│ 　　　　　└── 📄 UnilitTransparent.shader
-　　　　　　　　│ 　└── 📂 MapEditor
-　　　　　　　　│ 　　　└── 📂 Asset
-　　　　　　　　│ 　　　　　└── 📂 Shader
-　　　　　　　　│ 　　　　　　　├── 📄 test.shader
-　　　　　　　　│ 　　　　　　　├── 📄 UI-DefaultAdd.shader
-　　　　　　　　│ 　　　　　　　├── 📄 UI-DefaultMultiply.shader
-　　　　　　　　│ 　　　　　　　├── 📄 UI-DefaultNormal.shader
-　　　　　　　　│ 　　　　　　　└── 📄 UI-DefaultScreen.shader
-　　　　　　　　└── 📂 Runtime
-　　　　　　　　　　└── 📂 Map
-　　　　　　　　　　　　├── 📄 Asset/Blur.shader
-　　　　　　　　　　　　└── 📄 Asset/UI-SoftMask.shader
-
+　　　　│ 　├── 📂 3rdParty
+　　　　│ 　│ 　└── 📂 Effekseer
+　　　　│ 　│ 　　　└── 📂 Materials
+　　　　│ 　│ 　　　　　├── 📄 EffekseerFixedShader.shader
+　　　　│ 　│ 　　　　　├── 📄 FakeShader.shader
+　　　　│ 　│ 　　　　　├── 📄 GrabDepthShader.shader
+　　　　│ 　│ 　　　　　├── 📄 Texture2DArrayBlitShader.shader
+　　　　│ 　│ 　　　　　└── 📄 Texture2DBlitShader.shader
+　　　　│ 　└── 📂 Codebase
+　　　　│ 　　　├── 📂 Editor
+　　　　│ 　　　│ 　├── 📂 Common
+　　　　│ 　　　│ 　│ 　└── 📂 Asset
+　　　　│ 　　　│ 　│ 　　　└── 📂 Shader
+　　　　│ 　　　│ 　│ 　　　　　└── 📄 UnilitTransparent.shader
+　　　　│ 　　　│ 　└── 📂 MapEditor
+　　　　│ 　　　│ 　　　└── 📂 Asset
+　　　　│ 　　　│ 　　　　　└── 📂 Shader
+　　　　│ 　　　│ 　　　　　　　├── 📄 test.shader
+　　　　│ 　　　│ 　　　　　　　├── 📄 UI-DefaultAdd.shader
+　　　　│ 　　　│ 　　　　　　　├── 📄 UI-DefaultMultiply.shader
+　　　　│ 　　　│ 　　　　　　　├── 📄 UI-DefaultNormal.shader
+　　　　│ 　　　│ 　　　　　　　└── 📄 UI-DefaultScreen.shader
+　　　　│ 　　　└── 📂 Runtime
+　　　　│ 　　　　　└── 📂 Map
+　　　　│ 　　　　　　　├── 📄 Asset/Blur.shader
+　　　　│ 　　　　　　　└── 📄 Asset/UI-SoftMask.shader
 　　　　└── 📂 TextMesh Pro
 　　　　　　└── 📂 Shaders
-TMP_Bitmap-Custom-Atlas.shader
-TMP_Bitmap-Mobile.shader
-TMP_Bitmap.shader
-TMP_SDF Overlay.shader
-TMP_SDF SSD.shader
-TMP_SDF-Mobile Masking.shader
-TMP_SDF-Mobile Overlay.shader
-TMP_SDF-Mobile SSD.shader
-TMP_SDF-Mobile.shader
-TMP_SDF-Surface-Mobile.shader
-TMP_SDF-Surface.shader
-TMP_SDF.shader
-TMP_Sprite.shader
-UI-Addtive.shader
-UI-Multiply.shader
-UI-Screen.shader
-UI-Tint.shader
-
+　　　　　　　　├── 📄 TMP_Bitmap-Custom-Atlas.shader
+　　　　　　　　├── 📄 TMP_Bitmap-Mobile.shader
+　　　　　　　　├── 📄 TMP_Bitmap.shader
+　　　　　　　　├── 📄 TMP_SDF Overlay.shader
+　　　　　　　　├── 📄 TMP_SDF SSD.shader
+　　　　　　　　├── 📄 TMP_SDF-Mobile Masking.shader
+　　　　　　　　├── 📄 TMP_SDF-Mobile Overlay.shader
+　　　　　　　　├── 📄 TMP_SDF-Mobile SSD.shader
+　　　　　　　　├── 📄 TMP_SDF-Mobile.shader
+　　　　　　　　├── 📄 TMP_SDF-Surface-Mobile.shader
+　　　　　　　　├── 📄 TMP_SDF-Surface.shader
+　　　　　　　　├── 📄 TMP_SDF.shader
+　　　　　　　　├── 📄 TMP_Sprite.shader
+　　　　　　　　├── 📄 UI-Addtive.shader
+　　　　　　　　├── 📄 UI-Multiply.shader
+　　　　　　　　├── 📄 UI-Screen.shader
+　　　　　　　　└── 📄 UI-Tint.shader
 ```
 
-## Assets/RPGMaker/3rdParty/Effekseer/Materials/EffekseerFixedShader.shader
-## Assets/RPGMaker/3rdParty/Effekseer/Materials/FakeShader.shader
-## Assets/RPGMaker/3rdParty/Effekseer/Materials/GrabDepthShader.shader
-## Assets/RPGMaker/3rdParty/Effekseer/Materials/Texture2DArrayBlitShader.shader
-## Assets/RPGMaker/3rdParty/Effekseer/Materials/Texture2DBlitShader.shader
-## Assets/RPGMaker/Codebase/Editor/Common/Asset/Shader/UnilitTransparent.shader
-## Assets/RPGMaker/Codebase/Editor/MapEditor/Asset/Shader/test.shader
-## Assets/RPGMaker/Codebase/Editor/MapEditor/Asset/Shader/UI-DefaultAdd.shader
-## Assets/RPGMaker/Codebase/Editor/MapEditor/Asset/Shader/UI-DefaultMultiply.shader
-## Assets/RPGMaker/Codebase/Editor/MapEditor/Asset/Shader/UI-DefaultNormal.shader
-## Assets/RPGMaker/Codebase/Editor/MapEditor/Asset/Shader/UI-DefaultScreen.shader
-## Assets/RPGMaker/Codebase/Runtime/Map/Asset/Blur.shader
-## Assets/RPGMaker/Codebase/Runtime/Map/Asset/UI-SoftMask.shader
-## Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
-## Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
-## Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
-## Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
-## Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
-## Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
-## Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
-## Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
-## Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
-## Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
-## Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
-## Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-## Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
-## Assets/TextMesh Pro/Shaders/UI-Addtive.shader
-## Assets/TextMesh Pro/Shaders/UI-Multiply.shader
-## Assets/TextMesh Pro/Shaders/UI-Screen.shader
-## Assets/TextMesh Pro/Shaders/UI-Tint.shader
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　このディレクトリー構成は　イケてるのかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　📂 `Assets/RPGMaker/Codebase` くん **以外** は分かってるの　わらう」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　Effekseer さんは　📂 `Assets/RPGMaker/3rdParty/Effekseer/Materials/` フォルダーへ、
+TextMesh Pro さんは　📂 `TextMesh Pro/Shaders` フォルダーへ、
+きちんと　`.shader` ファイルの置き場が決まっていますもんね」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　シェーダーの中身見ても　画像処理の難しいプログラムが書いてあって　説明できないんで、説明はスキップするぜ」  
 
 ＜書きかけ＞
