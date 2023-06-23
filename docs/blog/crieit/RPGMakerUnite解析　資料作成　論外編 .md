@@ -7842,22 +7842,92 @@ Dammy:
 
 ## Assets/RPGMaker/Storage/Animation/Move.anim
 
+![202306_rmu_23-2326--Move.png](https://crieit.now.sh/upload_images/14b0058df2581345c413072db09feff16495abbd8e0b8.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/RPGMaker/Storage/Animation/Wait.anim
+
+![202306_rmu_23-2327--Wait.png](https://crieit.now.sh/upload_images/927a73fc8265af598add05ace46f70a56495abf46314a.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## Assets/RPGMaker/Storage/Animation/Win.anim
 
+![202306_rmu_23-2328--Win.png](https://crieit.now.sh/upload_images/4dd3740d582d65611e74847f09b2d66f6495ac34dddb2.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/RPGMaker/Storage/Animation/WindowArrow.anim
+
+![202306_rmu_23-2329--WindowArrow.png](https://crieit.now.sh/upload_images/592e0bfdea7a130f628ca98da5b4078b6495ac6f9ea3c.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## Assets/RPGMaker/Storage/Images/System/Animation/Blinking.anim
 
+![202306_rmu_23-2331--Blinking.png](https://crieit.now.sh/upload_images/90fcf451d7fc2d6c5fedec6c33db356d6495acbf12106.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/RPGMaker/Storage/Images/System/Animation/ClearButton.anim
+
+![202306_rmu_23-2332--ClearButton.png](https://crieit.now.sh/upload_images/0aa4c33823d705c3e854adff74a9999f6495acf6d88af.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## Assets/RPGMaker/Storage/Images/System/Animation/CloseWindow.anim
 
+![202306_rmu_23-2333--CloseWindow.png](https://crieit.now.sh/upload_images/a1f00039a03cebd2e4e8d69a223c88256495ad2d7b5bf.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/RPGMaker/Storage/Images/System/Animation/OpenWindow.anim
+
+![202306_rmu_23-2334--OpenWindow.png](https://crieit.now.sh/upload_images/d1b645ed2ed6f875515e7b5c831b937f6495ad96decf3.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## Assets/RPGMaker/Storage/Images/System/Animation/TintButton.anim
 
+![202306_rmu_23-2335--TintButton.png](https://crieit.now.sh/upload_images/72bc9e045159cc890e7eb4f4e54bc79a6495adc7e405e.png)  
 
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ＜書きかけ＞
