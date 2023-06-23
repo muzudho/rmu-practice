@@ -39,3 +39,11 @@ cd python_script/search_file
 
 python all_controllers.py --read_directory "C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research/Assets" --write_file "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/all_controllers.csv"
 ```
+
+## 全ての .mat ファイル:  
+
+```shell
+cd python_script/search_file
+
+python all_mat_files.py --read_directory "C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research/Assets" --write_file "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/all_mat_files.csv"
+```

@@ -8020,4 +8020,43 @@ Dammy:
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　それを調べるのが　お父んなのに……」  
 
+# .mat のリソースを見ていこうぜ？
+
+```plaintext
+　　└── 📂 Assets
+　　　　├── 📂 RPGMaker
+　　　　│ 　└── 📂 Codebase
+　　　　│ 　　　└── 📂 Runtime
+　　　　│ 　　　　　└── 📂 Map
+　　　　│ 　　　　　　　├── 📂 Asset
+　　　　│ 　　　　　　　│ 　├── 📄 Blur.mat
+　　　　│ 　　　　　　　│ 　└── 📄 UI-SoftMask.mat
+　　　　│ 　　　　　　　└── 📄 DistantViewMaterial.mat
+　　　　└── 📂 TextMesh Pro
+　　　　　　└── 📂 Resources
+　　　　　　　　└── 📂 Fonts & Materials
+　　　　　　　　　　├── 📄 LiberationSans SDF - Drop Shadow.mat
+　　　　　　　　　　└── 📄 LiberationSans SDF - Outline.mat
+```
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　このディレクトリー構成は　イケてるのかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　論外」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　📂 `Assets` フォルダーの中に 📂 `Asset` がまた出てきて　マトリョーシカ　よね～」  
+
+## Assets/RPGMaker/Codebase/Runtime/Map/Asset/Blur.mat
+
+## Assets/RPGMaker/Codebase/Runtime/Map/Asset/UI-SoftMask.mat
+
+## Assets/RPGMaker/Codebase/Runtime/Map/DistantViewMaterial.mat
+
+## Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+
+## Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+
+
 ＜書きかけ＞
