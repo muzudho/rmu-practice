@@ -13,16 +13,53 @@
 早々に　RMUの開発を打切り、　開発実績のあるプログラムのチームを編成し  
 アーキテクチャーから見直さなければ　希望は無いと言えるでしょう」  
 
-# 2.28GB ＋ 2.28GB ＋ 2.25GB、 合計 6.81GB のでかいファイルたち
+# カスタム・パッケージのダウンロード　2.25GB
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　まず　手始めに　ご覧に見せよう」  
 
+![202306_rmu_22-1931--What_is_this.png](https://crieit.now.sh/upload_images/b97c8dbfa49e1a4bf845eef367a57f6c64942542800ff.png)  
+
+👆 `C:\Users\むずでょ\AppData\Roaming\Unity\Asset Store-5.x\Gotcha Gotcha Games\Textures MaterialsGUI Skins\RPG Maker Unite Please Read the Description about Early-Bird Bonus.unitypackage`  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　ＲＰＧ　Ｍａｋｅｒ　Ｕｎｉｔｅ　を　アセット・ストアから　**ダウンロード**　すると、  
+どこに何をダウンロードしているかというと、  
+Windows でお馴染みの　📂 `C:\Users\{ユーザー名}\Downloads` フォルダー　ではなく、  
+📂 `C:\Users\むずでょ\AppData\Roaming\Unity\Asset Store-5.x\` フォルダーの下に 📂 `Gotcha Gotcha Games\Textures MaterialsGUI Skins` フォルダーが作られて、  
+その中に 📄 `RPG Maker Unite Please Read the Description about Early-Bird Bonus.unitypackage` ファイルが作られる。これ 2.25 GB」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　つまり、これが、お金と引き換えに　受け取った物かだぜ」
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　`.unitypackage` というのは、カスタム・パッケージというもので、  
+Unity の開発者なら誰でも作れるだろう、アセットの保存形式だぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　ＲＭＵが　アプリケーションではなく　アセットで提供されるっていうのは、こういうことよね」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　これが　**ダウンロード**　な。　ここまでで　**2.25 GB**。　では次へ」  
+
+# カスタム・パッケージのインポート
+
+![202306_rmu_23-19093--AssetStore5x.png](https://crieit.now.sh/upload_images/2a95a11ddd683018026c5b15f368d15464957438a5160.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　次に、ＲＭＵのカスタム・パッケージを　**インポート**　するというのは、  
+Unity プロジェクトの中へ　`.unitypackage` ファイルを　解凍するという感じだぜ」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　既に 　`.unitypackage`　が　2.25 GB　を占有してるから、  
+それに加えて　ファイルが生成されるということよね」  
+
+# 2.25GB ＋ 2.28GB ＋ 2.28GB、 合計 6.81GB のでかいファイルたち
+
 ![202306_rmu_20-0106--1GB-file.png](https://crieit.now.sh/upload_images/508ebb5566a9a6770b16544e4e773eff64907d530f8e7.png)  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　ＲＰＧ　Ｍａｋｅｒ　Ｕｎｉｔｅ　を　アセット・ストアからダウンロード、インポートするとき、  
-📂 `Assets` フォルダーの中に 📂 `RPGMaker` フォルダーが作られるが、
+「　👆　📂 `Assets` フォルダーの中に 📂 `RPGMaker` フォルダーが作られるが、
 サンプル・ゲームを入れようとすると……」  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
@@ -193,22 +230,6 @@ Unity Editor の２回目以降の起動時には　この複製はスキップ�
 たとえ　Unity を使っていて　マルチプラットフォームに移植できます、と言っても  
 容量がボトルネックになるだろうから　ややもすると　携帯ゲーム機に入らないかもしれない、  
 展開できないかもしれないだろ？」  
-
-## 2.25 GB のファイル
-
-![202306_rmu_22-1931--What_is_this.png](https://crieit.now.sh/upload_images/b97c8dbfa49e1a4bf845eef367a57f6c64942542800ff.png)  
-
-👆 `C:\Users\むずでょ\AppData\Roaming\Unity\Asset Store-5.x\Gotcha Gotcha Games\Textures MaterialsGUI Skins\RPG Maker Unite Please Read the Description about Early-Bird Bonus.unitypackage`  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　また、 📂 `AppData` フォルダーの中を探っていると、  2.25 GB のファイルも置いてある」  
-
-![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　こんなでかいファイルが　ここに置いてあるのは　わたしには　必要性が分からないんだが、  
-**このファイルは　何に使ってるんだぜ？**」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　それを調べるのが　お父んなのに……」  
 
 ## およそ 10 GB の Unity Project （2.28 GBのアーカイブ込み）
 
