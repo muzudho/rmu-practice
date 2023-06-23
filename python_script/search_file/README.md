@@ -63,3 +63,11 @@ cd python_script/search_file
 
 python all_ogg_files.py --read_directory "C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research/Assets" --write_file "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/all_ogg_files.csv"
 ```
+
+## 全ての .png ファイル:  
+
+```shell
+cd python_script/search_file
+
+python all_png_files.py --read_directory "C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research/Assets" --write_file "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/all_png_files.csv"
+```
