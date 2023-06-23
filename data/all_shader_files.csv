@@ -1,4 +1,4 @@
-# 論外
+﻿# 論外
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　ＲＰＧ　Ｍａｋｅｒ　Ｕｎｉｔｅ（※）　を　２０２３年５月８日に　１万３０００円ほどで買った」  
@@ -8103,54 +8103,63 @@ Dammy:
 ```plaintext
 　　└── 📂 Assets
 　　　　├── 📂 RPGMaker
-　　　　　　├── 📂 3rdParty
-　　　　　　│ 　└── 📂 Effekseer
-　　　　　　│ 　　　└── 📂 Materials
-　　　　　　│ 　　　　　├── 📄 EffekseerFixedShader.shader
-　　　　　　│ 　　　　　├── 📄 FakeShader.shader
-　　　　　　│ 　　　　　├── 📄 GrabDepthShader.shader
-　　　　　　│ 　　　　　├── 📄 Texture2DArrayBlitShader.shader
-　　　　　　│ 　　　　　└── 📄 Texture2DBlitShader.shader
-　　　　　　└── 📂 Codebase
-　　　　　　　　├── 📂 Editor
-　　　　　　　　│ 　├── 📂 Common
-　　　　　　　　│ 　│ 　└── 📂 Asset
-　　　　　　　　│ 　│ 　　　└── 📂 Shader
-　　　　　　　　│ 　│ 　　　　　└── 📄 UnilitTransparent.shader
-　　　　　　　　│ 　└── 📂 MapEditor
-　　　　　　　　│ 　　　└── 📂 Asset
-　　　　　　　　│ 　　　　　└── 📂 Shader
-　　　　　　　　│ 　　　　　　　├── 📄 test.shader
-　　　　　　　　│ 　　　　　　　├── 📄 UI-DefaultAdd.shader
-　　　　　　　　│ 　　　　　　　├── 📄 UI-DefaultMultiply.shader
-　　　　　　　　│ 　　　　　　　├── 📄 UI-DefaultNormal.shader
-　　　　　　　　│ 　　　　　　　└── 📄 UI-DefaultScreen.shader
-　　　　　　　　└── 📂 Runtime
-　　　　　　　　　　└── 📂 Map
-　　　　　　　　　　　　├── 📄 Asset/Blur.shader
-　　　　　　　　　　　　└── 📄 Asset/UI-SoftMask.shader
-
+　　　　│ 　├── 📂 3rdParty
+　　　　│ 　│ 　└── 📂 Effekseer
+　　　　│ 　│ 　　　└── 📂 Materials
+　　　　│ 　│ 　　　　　├── 📄 EffekseerFixedShader.shader
+　　　　│ 　│ 　　　　　├── 📄 FakeShader.shader
+　　　　│ 　│ 　　　　　├── 📄 GrabDepthShader.shader
+　　　　│ 　│ 　　　　　├── 📄 Texture2DArrayBlitShader.shader
+　　　　│ 　│ 　　　　　└── 📄 Texture2DBlitShader.shader
+　　　　│ 　└── 📂 Codebase
+　　　　│ 　　　├── 📂 Editor
+　　　　│ 　　　│ 　├── 📂 Common
+　　　　│ 　　　│ 　│ 　└── 📂 Asset
+　　　　│ 　　　│ 　│ 　　　└── 📂 Shader
+　　　　│ 　　　│ 　│ 　　　　　└── 📄 UnilitTransparent.shader
+　　　　│ 　　　│ 　└── 📂 MapEditor
+　　　　│ 　　　│ 　　　└── 📂 Asset
+　　　　│ 　　　│ 　　　　　└── 📂 Shader
+　　　　│ 　　　│ 　　　　　　　├── 📄 test.shader
+　　　　│ 　　　│ 　　　　　　　├── 📄 UI-DefaultAdd.shader
+　　　　│ 　　　│ 　　　　　　　├── 📄 UI-DefaultMultiply.shader
+　　　　│ 　　　│ 　　　　　　　├── 📄 UI-DefaultNormal.shader
+　　　　│ 　　　│ 　　　　　　　└── 📄 UI-DefaultScreen.shader
+　　　　│ 　　　└── 📂 Runtime
+　　　　│ 　　　　　└── 📂 Map
+　　　　│ 　　　　　　　├── 📄 Asset/Blur.shader
+　　　　│ 　　　　　　　└── 📄 Asset/UI-SoftMask.shader
 　　　　└── 📂 TextMesh Pro
 　　　　　　└── 📂 Shaders
-TMP_Bitmap-Custom-Atlas.shader
-TMP_Bitmap-Mobile.shader
-TMP_Bitmap.shader
-TMP_SDF Overlay.shader
-TMP_SDF SSD.shader
-TMP_SDF-Mobile Masking.shader
-TMP_SDF-Mobile Overlay.shader
-TMP_SDF-Mobile SSD.shader
-TMP_SDF-Mobile.shader
-TMP_SDF-Surface-Mobile.shader
-TMP_SDF-Surface.shader
-TMP_SDF.shader
-TMP_Sprite.shader
-UI-Addtive.shader
-UI-Multiply.shader
-UI-Screen.shader
-UI-Tint.shader
-
+　　　　　　　　├── 📄 TMP_Bitmap-Custom-Atlas.shader
+　　　　　　　　├── 📄 TMP_Bitmap-Mobile.shader
+　　　　　　　　├── 📄 TMP_Bitmap.shader
+　　　　　　　　├── 📄 TMP_SDF Overlay.shader
+　　　　　　　　├── 📄 TMP_SDF SSD.shader
+　　　　　　　　├── 📄 TMP_SDF-Mobile Masking.shader
+　　　　　　　　├── 📄 TMP_SDF-Mobile Overlay.shader
+　　　　　　　　├── 📄 TMP_SDF-Mobile SSD.shader
+　　　　　　　　├── 📄 TMP_SDF-Mobile.shader
+　　　　　　　　├── 📄 TMP_SDF-Surface-Mobile.shader
+　　　　　　　　├── 📄 TMP_SDF-Surface.shader
+　　　　　　　　├── 📄 TMP_SDF.shader
+　　　　　　　　├── 📄 TMP_Sprite.shader
+　　　　　　　　├── 📄 UI-Addtive.shader
+　　　　　　　　├── 📄 UI-Multiply.shader
+　　　　　　　　├── 📄 UI-Screen.shader
+　　　　　　　　└── 📄 UI-Tint.shader
 ```
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　このディレクトリー構成は　イケてるのかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　📂 `Assets/RPGMaker/Codebase` くん **以外** は分かってるの　わらう」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　Effekseer さんは　📂 `Assets/RPGMaker/3rdParty/Effekseer/Materials/` フォルダーへ、
+TextMesh Pro さんは　📂 `TextMesh Pro/Shaders` フォルダーへ、
+きちんと　`.shader` ファイルの置き場が決まっていますもんね」  
 
 ## Assets/RPGMaker/3rdParty/Effekseer/Materials/EffekseerFixedShader.shader
 ## Assets/RPGMaker/3rdParty/Effekseer/Materials/FakeShader.shader
