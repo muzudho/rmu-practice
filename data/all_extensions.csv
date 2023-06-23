@@ -20,7 +20,7 @@ x,.prefab,
 ,.so,
 x,.cginc,シェーダー（.shader）から利用されているファイル
 x,.anim,
-,.efkmodel,
+-,.efkmodel,バイナリ・ファイルみたいだ。無視する
 ,.asmdef,
 x,.wav,
 ,.unity,

@@ -8396,4 +8396,25 @@ TextMesh Pro さんは　📂 `TextMesh Pro/Shaders` フォルダーへ、
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　👆　これらは　バイナリ形式か？　無視するぜ」  
 
+# .efkmodel のリソースを見ていこうぜ？
+
+```plaintext
+　　└── 📂 Assets
+　　　　└── 📂 RPGMaker
+　　　　　　└── 📂 Storage
+　　　　　　　　└── 📂 Animation
+　　　　　　　　　　└── 📂 Effekseer
+　　　　　　　　　　　　└── 📂 Model
+　　　　　　　　　　　　　　├── 📄 Ball.efkmodel
+　　　　　　　　　　　　　　├── 📄 NightHand1.efkmodel
+　　　　　　　　　　　　　　├── 📄 NightHand2.efkmodel
+　　　　　　　　　　　　　　├── 📄 NightHand3.efkmodel
+　　　　　　　　　　　　　　├── 📄 NightHand4.efkmodel
+　　　　　　　　　　　　　　├── 📄 Shield.efkmodel
+　　　　　　　　　　　　　　└── 📄 Skull.efkmodel
+```
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　これらは　バイナリ形式か？　無視するぜ」  
+
 ＜書きかけ＞
