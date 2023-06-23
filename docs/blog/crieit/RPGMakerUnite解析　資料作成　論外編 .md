@@ -7962,14 +7962,62 @@ Dammy:
 
 ## Assets/RPGMaker/Codebase/Runtime/Map/Asset/MapClickHighlight.controller
 
+![202306_rmu_24-0011--MapClickHighlight.png](https://crieit.now.sh/upload_images/502b5c7c46a25e04f160fc837f1081136495b63a14833.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**なんだか分からないが、ファイルを開けていこうぜ？**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/RPGMaker/Storage/Animation/Controller.controller
+
+![202306_rmu_24-0013--Animation-Controller.png](https://crieit.now.sh/upload_images/95e4baccb609be0cf2e7ea9eb1a347f76495b6b27f33c.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**戦闘っぽいが、なんだか分からないぜ**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## Assets/RPGMaker/Storage/Animation/GameOver.controller
 
+![202306_rmu_24-0024--GameOver.png](https://crieit.now.sh/upload_images/2c85e9a51c423cc641deb2ba30708f696495b94fb670b.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**なんだか分からないぜ**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/RPGMaker/Storage/Images/System/Animation/Blinking.controller
+
+![202306_rmu_24-0027--Blinking.png](https://crieit.now.sh/upload_images/984721c7ac0611f3a5fc0c8e4e3ca5ba6495b9e43428d.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**なんだか分からないぜ**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## Assets/RPGMaker/Storage/Images/System/Animation/Button.controller
 
+![202306_rmu_24-0028--Button.png](https://crieit.now.sh/upload_images/01a48a96d001e30481a2fbdf5b5198456495ba213f9d9.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**なんだか分からないぜ**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## Assets/RPGMaker/Storage/Images/System/Animation/Frame.controller
+
+![202306_rmu_24-0029--Frame.png](https://crieit.now.sh/upload_images/dba4b097a7203621f2381d07bf6bd41a6495ba4f0ec89.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**なんだか分からないぜ**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ＜書きかけ＞
