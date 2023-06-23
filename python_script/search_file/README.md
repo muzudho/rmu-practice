@@ -87,3 +87,11 @@ cd python_script/search_file
 
 python all_shadervariants_files.py --read_directory "C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research/Assets" --write_file "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/all_shadervariants_files.csv"
 ```
+
+## 全ての .cginc ファイル:  
+
+```shell
+cd python_script/search_file
+
+python all_cginc_files.py --read_directory "C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research/Assets" --write_file "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/all_cginc_files.csv"
+```

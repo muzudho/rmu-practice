@@ -8206,4 +8206,40 @@ TextMesh Pro さんは　📂 `TextMesh Pro/Shaders` フォルダーへ、
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　もういい閉じろ。　プロジェクトに含まれてないから　使われてないの　ほぼ確定だぜ」  
 
+# .cginc のリソースを見ていこうぜ？
+
+```plaintext
+　　└── 📂 Assets
+　　　　├── 📂 RPGMaker
+　　　　│ 　└── 📂 3rdParty
+　　　　│ 　　　└── 📂 Effekseer
+　　　　│ 　　　　　└── 📂 Materials
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderAdCommonPS.cginc
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderAdDistortionPS.cginc
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderAdLitUnlitPS.cginc
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderAdVS.cginc
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderCommon.cginc
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderDistortionCommonPS.cginc
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderDistortionPS.cginc
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderLitUnlitPS.cginc
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderSoftParticlePS.cginc
+　　　　│ 　　　　　　　├── 📄 EffekseerShaderVS.cginc
+　　　　│ 　　　　　　　└── 📄 EffekseerShader_Linear_sRGB.cginc
+　　　　└── 📂 TextMesh Pro
+　　　　　　└── 📂 Shaders
+　　　　　　　　├── 📄 TMPro.cginc
+　　　　　　　　├── 📄 TMPro_Mobile.cginc
+　　　　　　　　├── 📄 TMPro_Properties.cginc
+　　　　　　　　└── 📄 TMPro_Surface.cginc
+```
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　👆　このディレクトリー構成は　イケてるのかだぜ？」  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　📂 `Assets/会社名/Effekseer/Materials` のように並べると　もっと　いいんじゃないかな」  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　`.shader` ファイルから利用されている C言語のファイルなんで、無視しましょう」  
+
 ＜書きかけ＞
