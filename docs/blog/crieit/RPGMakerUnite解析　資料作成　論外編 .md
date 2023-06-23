@@ -7583,11 +7583,43 @@ Dammy:
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/Movie.prefab
 
+![202306_rmu_23-2221--Movie.png](https://crieit.now.sh/upload_images/7f14eb19b3556169dd124ce00306783a64959c5f352f6.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/Picture.prefab
+
+![202306_rmu_23-2222--Picture.png](https://crieit.now.sh/upload_images/4e7bc987657fd1dac4a8d2558316801f64959ca1ca7ce.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/ScrollPreview.prefab
 
+![202306_rmu_23-2223--ScrollPreview.png](https://crieit.now.sh/upload_images/85f2f3012fea8765f421693c63dfdef564959ce7eb8a2.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
+
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Asset/Prefab/ShowIcon.prefab
+
+![202306_rmu_23-2224--ShowIcon.png](https://crieit.now.sh/upload_images/8e83241ce0bcc7b784cf08cf64b0037664959d20e80a7.png)  
+
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　👆　**分かりません**」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　それを調べるのが　お父んなのに……」  
 
 ## 📄 Assets/RPGMaker/Codebase/Runtime/Map/Shop/Asset/Prefab/ItemPrefab.prefab
 
