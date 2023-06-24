@@ -1,11 +1,11 @@
 ﻿,,
  ,.ttf,
- ,.txt,
+ ,.txt,テキスト・ファイル
  ,.uss,
  ,.bc,
-x,.controller,
+x,.controller,状態制御ファイル
  ,.meta,
-x,.mat,
+x,.mat,材質ファイル
 x,.shader,シェーダー
 x,.shadervariants,該当ファイル１個しかない。プロジェクトに含まれてないから使われてない？
  ,.pdf,
@@ -15,19 +15,19 @@ x,.wlt,該当ファイル５個しかない。プロジェクトに含まれて�
  ,.bak,
  ,.asset,
  ,.inputactions,
-x,.prefab,
+x,.prefab,プレファブ
  ,.dll,
  ,.so,
 x,.cginc,シェーダー（.shader）から利用されているファイル
-x,.anim,
+x,.anim,タイムライン付きアニメーション設定ファイル
 -,.efkmodel,バイナリ・ファイルみたいだ。無視する
 x,.asmdef,.meta ファイルに似たもので、分からない。Unityが作っている
-x,.wav,
- ,.unity,
-x,.ogg,
+x,.wav,音楽ファイル
+ ,.unity,YAML形式ファイルか。Visual Studio のソリューションには含まれない
+x,.ogg,音楽ファイル
  ,.a,
- ,.json,
- ,.uxml,
+ ,.json,JSON形式データ・ファイル
+ ,.uxml,Unity Editor のビュー定義XMLファイルか？
 -,.png,多すぎる
- ,.cs,
+ ,.cs,C#言語ファイル
 x,.asmref,.json ファイルに似たもので、分からない。Unityが作っている

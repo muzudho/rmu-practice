@@ -135,3 +135,11 @@ cd python_script/search_file
 
 python all_asmref_files.py --read_directory "C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research/Assets" --write_file "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/all_asmref_files.csv"
 ```
+
+## 全ての .unity ファイル:  
+
+```shell
+cd python_script/search_file
+
+python all_unity_files.py --read_directory "C:/Users/むずでょ/Documents/Unity Projects/RMU-1-00-00-Research/Assets" --write_file "C:/Users/むずでょ/Documents/GitHub/rpg-maker-unite-practice/data/all_unity_files.csv"
+```
