@@ -23,7 +23,7 @@ x,.anim,タイムライン付きアニメーション設定ファイル
 -,.efkmodel,バイナリ・ファイルみたいだ。無視する
 x,.asmdef,.meta ファイルに似たもので、分からない。Unityが作っている
 x,.wav,音楽ファイル
- ,.unity,YAML形式ファイルか。Visual Studio のソリューションには含まれない
+x,.unity,YAML形式ファイルか。Visual Studio のソリューションには含まれない
 x,.ogg,音楽ファイル
  ,.a,
  ,.json,JSON形式データ・ファイル

@@ -29,19 +29,24 @@
 ![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
 「　あてにならない情報だな」  
 
+![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
+「　次に　Unity Asset Store を見てみよう」  
+
+![202306_rmu_24-1230--ProductName-o2o0.png](https://crieit.now.sh/upload_images/f82c25931dc97718aa95b104ff438424649663b2ef849.png)  
+
+![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
+「　👆　プロダクト名に　長い注釈入れるの　ユニティ・アセットの界隈じゃ　習慣的にあるの？  
+`(Please Read the Description about Early-Bird Bonus!)` って　プロダクト名に書くことじゃないわよねえ」  
+
+![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
+「　その長い文言、何だろうと思っていたが、プロダクト名だったのか……」  
+
 ![202306_rmu_23-1949--FileSize-o2o0.png](https://crieit.now.sh/upload_images/38c5457e5a54cca5cf6475bb5e867189649579182915f.png)  
 
 👆　[Unity Asset Store　＞　RPG Maker Unite (Please Read the Description about Early-Bird Bonus!)](https://assetstore.unity.com/packages/tools/game-toolkits/rpg-maker-unite-please-read-the-description-about-early-bird-bon-253689)  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
 「　👆　Unity アセット・ストアによると　ＰＣ版のファイルは　2.3 GB　で、これは事実だぜ」  
-
-![ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/96fb09724c3ce40ee0861a0fd1da563d61daf8a09d9bc.png)  
-「　プロダクト名に　長い注釈入れるの　ユニティ・アセットの界隈じゃ　習慣的にあるの？  
-`(Please Read the Description about Early-Bird Bonus!)` って　プロダクト名に書くことじゃないわよねえ」  
-
-![kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/beaf94b260ae2602ca8cf7f5bbc769c261daf8686dbda.png)  
-「　その長い文言、何だろうと思っていたが、プロダクト名だったのか……」  
 
 ![202306_rmu_22-1931--What_is_this.png](https://crieit.now.sh/upload_images/b97c8dbfa49e1a4bf845eef367a57f6c64942542800ff.png)  
 
