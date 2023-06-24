@@ -94,7 +94,7 @@ Unity プロジェクトの中へ　`.unitypackage` ファイルを　解凍す�
 👆　調査用のプログラム込み  
 
 ![ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/d27ea8dcfad541918d9094b9aed83e7d61daf8532bbbe.png)  
-「　👆　わたしは　調査用に　いじってしまったが、  
+「　👆　わたしは　調査用に　いじったので　ファイル数や　容量などなどが　元より増減してしまったが、  
 サンプル・ゲーム、言語対応　込みで、  
 まあ　だいたい、普段使いの　ＲＭＵ　の　Unity プロジェクトは 10 GB ある。  
 とにかく　重すぎる」  
